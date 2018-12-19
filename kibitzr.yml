@@ -1,0 +1,38 @@
+checks:
+  # Ideetjes:
+  # ANWB
+  # Van a naar beter
+  # LuckyTV
+  # Sylvia Witteman
+  # NAV TechDays
+  # XKCD
+  # xm
+  # ikjes
+  # twitter.com/jhoek
+
+  - name: nu.nl
+    url: https://nu.nl
+    transform:
+      - css: "div#block-324321 span.title"
+      - text
+      - changes: word
+    notify:
+      - bash: CONTENT=$(cat -); curl -s --form-string "token=aU5ueQ3nbXXRN4TtERBa4iK6xpiANt" --form-string "user=u65ckN1X5uHueh7abnWukQ2owNdhAp" --form-string "message=$CONTENT" https://api.pushover.net/1/messages.json
+    period: 1 minute
+
+  # - name: sudoku
+  #   url: https://www.nrc.nl/rubriek/sudoku/
+  #   transform:
+  #      - xpath: "//div[@class='nmt-item__inner']//noscript/img/@src"
+  #   notify:
+  #     - bash: /root/.config/kibitzr/test.ps1
+  #   period: 1 day
+
+  # - name: 'American Pickers'
+  #   url: https://showrss.info/browse/224
+  #   transform:
+  #     - xpath-all: "//ul[@class='user-timeline']//a/@href"
+  #     - changes
+  #   notify:
+  #     - bash: cat - >> /root/.config/kibitzr/oink.txt
+  #   period: 7 days
