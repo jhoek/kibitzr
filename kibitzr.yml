@@ -10,7 +10,7 @@ checks:
   # ikjes
   # twitter.com/jhoek
 
-  - name: nu.nl
+  - name: 'nu.nl'
     url: https://nu.nl
     transform:
       - css: "div#block-324321 span.title"
@@ -28,11 +28,21 @@ checks:
   #     - bash: /root/.config/kibitzr/test.ps1
   #   period: 1 day
 
-  # - name: 'American Pickers'
-  #   url: https://showrss.info/browse/224
-  #   transform:
-  #     - xpath-all: "//ul[@class='user-timeline']//a/@href"
-  #     - changes
-  #   notify:
-  #     - bash: cat - >> /root/.config/kibitzr/oink.txt
-  #   period: 7 days
+  - name: 'American Pickers'
+    url: https://showrss.info/browse/224
+    transform:
+      - xpath: "//ul[@class='user-timeline']//a"
+      - text
+      - changes
+    notify:
+      - bash: CONTENT=$(cat -); curl -s --form-string "token=a17ejjb1vto534trjiwtymadjd6prz" --form-string "user=u65ckN1X5uHueh7abnWukQ2owNdhAp" --form-string "message=$CONTENT" https://api.pushover.net/1/messages.json
+    period: 7 days
+
+  - name: 'twitter.com/jhoek'
+    url: https://twitter.com/jhoek
+    transform: 
+      - tag: 'title'
+      - changes
+    notify:
+      - bash: CONTENT=$(cat -); curl -s --form-string "token=atn8y271emxoybxvczp63ae3zvgkcs" --form-string "user=u65ckN1X5uHueh7abnWukQ2owNdhAp" --form-string "message=$CONTENT" https://api.pushover.net/1/messages.json
+    period: 1 day
