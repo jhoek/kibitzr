@@ -7,17 +7,27 @@ checks:
   # NAV TechDays
   # XKCD
   # xm
-  # ikjes
-  # twitter.com/jhoek
+
+  - name: ikjes
+    url: https://www.nrc.nl/rubriek/ikje
+    transform:
+      - xpath: '//a[@class="nmt-item__link"]/@href'
+      - text
+    notify:
+      - stash:
+        ikje: '{{ content }}'
+    schedule:
+      every: day
+      at: "12:00"
 
   - name: 'nu.nl'
     url: https://nu.nl
     transform:
-      - css: "div#block-324321 span.title"
+      - css-all: "div#block-324321 span.title"
       - text
       - changes: word
     notify:
-      - bash: CONTENT=$(cat -); curl -s --form-string "token=aU5ueQ3nbXXRN4TtERBa4iK6xpiANt" --form-string "user=u65ckN1X5uHueh7abnWukQ2owNdhAp" --form-string "message=$CONTENT" https://api.pushover.net/1/messages.json
+      - bash: CONTENT=$(cat -); curl -s --form-string "token=aiixuipj3xq36x1q558gsi53efsbar" --form-string "user=u65ckN1X5uHueh7abnWukQ2owNdhAp" --form-string "message=$CONTENT" https://api.pushover.net/1/messages.json
     period: 1 minute
 
   # - name: sudoku
@@ -40,9 +50,10 @@ checks:
 
   - name: 'twitter.com/jhoek'
     url: https://twitter.com/jhoek
-    transform: 
+    transform:
       - tag: 'title'
-      - changes
+      - text
+      - changes: word
     notify:
       - bash: CONTENT=$(cat -); curl -s --form-string "token=atn8y271emxoybxvczp63ae3zvgkcs" --form-string "user=u65ckN1X5uHueh7abnWukQ2owNdhAp" --form-string "message=$CONTENT" https://api.pushover.net/1/messages.json
     period: 1 day
