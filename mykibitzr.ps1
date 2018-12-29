@@ -5,9 +5,9 @@ $Twitter = {
             Select-Object -ExpandProperty Content |
             pup 'title text{}'
 
-        if ($Title -ne 'joel mori (@jhoek) | Twitter')
+        if ($Title -notlike '*jozel mori*')
         {
-            Send-PushoverNotification -ApplicationToken aiixuipj3xq36x1q558gsi53efsbar -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp -Title 'twitter.com/jhoek' -Message 'might be available!'
+            Send-PushoverNotification -ApplicationToken atn8y271emxoybxvczp63ae3zvgkcs -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp -Title 'twitter.com/jhoek' -Message 'might be available!'
         }
 
         Start-Sleep -Seconds (60 * 60 * 24)
