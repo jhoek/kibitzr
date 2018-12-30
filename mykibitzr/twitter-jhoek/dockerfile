@@ -1,7 +1,5 @@
-FROM mcr.microsoft.com/powershell:latest
-RUN pwsh -Command 'Install-Module UncommonSense.Pushover -Force'
-CMD [ pwsh -Command \
+FROM jhoek/pswhwithpupandpushover
+CMD pwsh -Command \
     'while ($true) { ' \
     '  Send-PushoverNotification -ApplicationToken atn8y271emxoybxvczp63ae3zvgkcs -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp -Title "twitter.com/jhoek" -Message "might be available!"; Start-Sleep -Seconds (60 * 60 * 6) ' \
-    '}' \
-    ]
+    '}'
