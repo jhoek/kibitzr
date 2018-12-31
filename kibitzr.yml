@@ -10,14 +10,6 @@ checks:
   # xm/vimeo
 
 
-  # - name: sudoku
-  #   url: https://www.nrc.nl/rubriek/sudoku/
-  #   transform:
-  #      - xpath: "//div[@class='nmt-item__inner']//noscript/img/@src"
-  #   notify:
-  #     - bash: /root/.config/kibitzr/test.ps1
-  #   period: 1 day
-
   # - name: 'American Pickers'
   #   url: https://showrss.info/browse/224
   #   transform:
@@ -27,13 +19,3 @@ checks:
   #   notify:
   #     - bash: CONTENT=$(cat -); curl -s --form-string "token=a17ejjb1vto534trjiwtymadjd6prz" --form-string "user=u65ckN1X5uHueh7abnWukQ2owNdhAp" --form-string "message=$CONTENT" https://api.pushover.net/1/messages.json
   #   period: 7 days
-
-  # - name: 'twitter.com/jhoek'
-  #   url: https://twitter.com/jhoek
-  #   transform:
-  #     - tag: 'title'
-  #     - text
-  #     - changes: word
-  #   notify:
-  #     - bash: CONTENT=$(cat -); curl -s --form-string "token=atn8y271emxoybxvczp63ae3zvgkcs" --form-string "user=u65ckN1X5uHueh7abnWukQ2owNdhAp" --form-string "message=$CONTENT" https://api.pushover.net/1/messages.json
-  #   period: 1 day
