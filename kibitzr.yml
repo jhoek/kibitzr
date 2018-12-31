@@ -9,29 +9,6 @@ checks:
   # XKCD
   # xm/vimeo
 
-  - name: ikjes
-    url: https://www.nrc.nl/rubriek/ikje
-    transform:
-      - xpath: '//a[@class="nmt-item__link"]/@href'
-      - python: content = 'https://www.nrc.nl{0}'.format(content)
-      - bash: CONTENT=$(cat -); curl --url $CONTENT
-      - css: 'h1[data-flowtype="headline"]'
-      - text
-    notify:
-      - python: print(content)
-    schedule:
-      every: day
-      at: "12:00"
-
-  # - name: 'nu.nl'
-  #   url: https://nu.nl
-  #   transform:
-  #     - css-all: "div#block-324321 span.title"
-  #     - text
-  #     - changes: word
-  #   notify:
-  #     - bash: CONTENT=$(cat -); curl -s --form-string "token=aiixuipj3xq36x1q558gsi53efsbar" --form-string "user=u65ckN1X5uHueh7abnWukQ2owNdhAp" --form-string "message=$CONTENT" https://api.pushover.net/1/messages.json
-  #   period: 1 minute
 
   # - name: sudoku
   #   url: https://www.nrc.nl/rubriek/sudoku/

@@ -1,0 +1,15 @@
+while ($true)
+{
+    $Content =
+    Invoke-WebRequest -Uri https://nu.nl |
+        Select-Object -ExpandProperty Content |
+        ./pup 'div#block-324321 span.title text{}'
+
+    Send-PushoverNotification `
+        -ApplicationToken atn8y271emxoybxvczp63ae3zvgkcs `
+        -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp `
+        -Title "nu.nl" `
+        -Message ($Content -join "//");
+
+    Start-Sleep -Seconds (60 * 30);
+}

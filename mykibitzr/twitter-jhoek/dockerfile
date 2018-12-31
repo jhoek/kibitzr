@@ -1,5 +1,3 @@
 FROM jhoek/pswhwithpupandpushover
-CMD pwsh -Command \
-    'while ($true) { ' \
-    '  Send-PushoverNotification -ApplicationToken atn8y271emxoybxvczp63ae3zvgkcs -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp -Title "twitter.com/jhoek" -Message "might be available!"; Start-Sleep -Seconds (60 * 60 * 6) ' \
-    '}'
+COPY ./script.ps1 /script.ps1
+CMD pwsh -File /script.ps1
