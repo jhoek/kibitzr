@@ -8,14 +8,3 @@ checks:
   # NAV TechDays
   # XKCD
   # xm/vimeo
-
-
-  # - name: 'American Pickers'
-  #   url: https://showrss.info/browse/224
-  #   transform:
-  #     - xpath: "//ul[@class='user-timeline']//a"
-  #     - text
-  #     - changes
-  #   notify:
-  #     - bash: CONTENT=$(cat -); curl -s --form-string "token=a17ejjb1vto534trjiwtymadjd6prz" --form-string "user=u65ckN1X5uHueh7abnWukQ2owNdhAp" --form-string "message=$CONTENT" https://api.pushover.net/1/messages.json
-  #   period: 7 days
