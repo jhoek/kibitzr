@@ -1,2 +1,2 @@
-FROM jhoek/pwshwithpup
+FROM mypwshwithpup
 RUN pwsh -Command 'Install-Module UncommonSense.Pushover -Force'
