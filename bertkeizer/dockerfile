@@ -1,3 +1,3 @@
-FROM jhoek/pswhwithpupandpushover
+FROM mypswhwithpupandpushover
 COPY ./script.ps1 /script.ps1
 CMD pwsh -File /script.ps1
