@@ -1,4 +1,4 @@
-FROM mypwsh
+FROM jhoek/pwsh
 
 RUN pwsh -Command \
     "Invoke-WebRequest -Uri https://github.com/ericchiang/pup/releases/download/v0.4.0/pup_v0.4.0_linux_amd64.zip -OutFile ./pup_v.0.4.0_linux_amd64.zip;" \
