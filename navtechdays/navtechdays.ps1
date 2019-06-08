@@ -2,9 +2,24 @@ $ProgressPreference = 'SilentlyContinue'
 
 'https://navtechdays.com/schedule/thu-21', 'https://navtechdays.com/schedule/fri-22' | ForEach-Object {
     Invoke-WebRequest -Uri $_ `
-        | Select-Object -ExpandProperty Content `
-        | pup '.rowWrapper json{}' `
-        | ConvertFrom-Json -Depth 30
+    | Select-Object -ExpandProperty Content `
+    | pup '.rowWrapper json{}' `
+    | ConvertFrom-Json -AsHashTable `
+    | ForEach-Object { $_.GetEnumerator() } `
+    | ForEach-Object {
+        $Row = $_['children'][0]
+        $Columns = $Row['children'][0]
+        $Time = $Columns['children'][0]['children'][0].text
+        $Accordion = $Columns['children'][1]
+        $EventItem = $Accordion['children'][0]
+        $Title = $EventItem['children'][0]['children'][0]
+        $Title
+    }
+
+
+    
+
+    
 
 }
 
