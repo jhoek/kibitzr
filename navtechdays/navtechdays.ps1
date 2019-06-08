@@ -12,7 +12,7 @@ $ProgressPreference = 'SilentlyContinue'
         $Time = $Columns['children'][0]['children'][0].text
         $Accordion = $Columns['children'][1]
         $EventItem = $Accordion['children'][0]
-        $Title = $EventItem['children'][0]['children'][0]
+        $Title = $EventItem['children'][0]['children'][0].text
         $Title
     }
 
