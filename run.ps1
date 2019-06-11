@@ -1,1 +1,1 @@
-docker run --rm jhoek/ikjes | Out-File -FilePath ./ikjes.json
+docker run --rm jhoek/ikjes 
