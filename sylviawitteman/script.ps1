@@ -1,11 +1,15 @@
+. ../Save-EntryToAirTable.ps1
+$ProgressPreference = 'SilentlyContinue'
+
 Invoke-WebRequest -Uri https://www.volkskrant.nl/auteur/Sylvia%20Witteman `
 | Select-Object -ExpandProperty Content `
 | pup 'article a attr{href}' `
-| Select-Object -First 1 `
-| ForEach-Object {     
-    $Content = Invoke-WebRequest -Uri "https://volkskrant.nl$($_)" `
-    | Select-Object -ExpandProperty Content
+| ForEach-Object {
+    $Url = "https://volkskrant.nl$($_)"
+    $Content = Invoke-WebRequest -Uri $Url | Select-Object -ExpandProperty Content
 
-    $Heading = $Content | pup 'h1 text{}'
-    $Content | pup 'section.artstyle__main--container p' | ForEach-Object { $_; '' }
+$Title = $Content | pup 'h1 text{}'
+$Body = $Content | pup 'section.artstyle__main--container p' | ForEach-Object { $_; '' }
+
+Save-EntryToAirTable -TableName sylviawitteman -Url $Url -Title $Title
 }

@@ -1,6 +1,5 @@
+. ../Save-EntryToAirTable.ps1
 $ProgressPreference = 'SilentlyContinue'
-$SmartSingleQuotes = '[\u2019\u2018\u201A]'
-$SmartDoubleQuotes = '[\u201C\u201D\u201E]'
 
 Invoke-WebRequest -Uri https://www.nrc.nl/rubriek/ikje `
 | Select-Object -ExpandProperty Content `
@@ -11,17 +10,8 @@ Invoke-WebRequest -Uri https://www.nrc.nl/rubriek/ikje `
     $DateText = (($Url -split '/')[4..6]) -join '-'
     $Content = Invoke-WebRequest -Uri $Url | Select-Object -ExpandProperty Content
 $Title = ($Content | pup 'h1[data-flowtype="headline"] text{}')
-$Body = ((($Content | pup 'div.content p text{}') -join ' ') -replace $SmartSingleQuotes, '''') -replace $SmartDoubleQuotes, '"'
+$Body = ($Content | pup 'div.content p text{}') -join ' '
 $Date = [DateTime]::ParseExact($DateText, 'yyyy-MM-dd', $null)
 
-if (-not (Test-AirTableRecord -TableName ikjes -FieldName Url -Value $Url))
-{
-    New-AirTableRecord `
-        -TableName ikjes `
-        -Fields @{ Url = $Url; Title = $Title; Body = $Body; Date = $Date }
-}
-else
-{
-    Write-Verbose "An AirTable record with Url $Url already exists; skipping."
-}
+Save-EntryToAirTable -TableName ikjes -Url $Url -Date $Date -Title $Title -Body $Body
 }

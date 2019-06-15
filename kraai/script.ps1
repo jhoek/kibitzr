@@ -1,3 +1,4 @@
+. ../Save-EntryToAirTable.ps1
 $ProgressPreference = 'SilentlyContinue'
 
 Invoke-WebRequest -Uri https://www.trouw.nl/de-kraai~d10778f08-8c81-490e-a656-93b2f29ac289 `
@@ -9,6 +10,5 @@ Invoke-WebRequest -Uri https://www.trouw.nl/de-kraai~d10778f08-8c81-490e-a656-93
     $Content = Invoke-WebRequest -Uri $Url | Select-Object -ExpandProperty Content
 $Title = $Content | pup 'h1 text{}'
 $Body = $Content | pup --plain 'p.article__paragraph text{}'
-$Title
-$Body
+Save-EntryToAirTable -TableName kraai -Url $Url -Title $Title -Body $Body
 }

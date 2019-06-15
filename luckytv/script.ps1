@@ -1,3 +1,4 @@
+. ../Save-EntryToAirTable.ps1
 $ProgressPreference = 'SilentlyContinue'
 $DutchCulture = New-Object -TypeName System.Globalization.CultureInfo -ArgumentList 'nl-NL'
 
@@ -15,16 +16,5 @@ Invoke-WebRequest -Uri 'http://www.luckytv.nl/afleveringen/' `
     $DateText = "$($DateElements[1]) $($DateElements[2]). $($DateElements[3])"
     $Date = [DateTime]::ParseExact($DateText, 'd MMM yyyy', $DutchCulture)
     $Url = $Link.href
-    $ThumbNail = $Link['children'][0].src
-
-    if (-not (Test-AirTableRecord -TableName luckytv -FieldName Url -Value $Url))
-    {
-        New-AirTableRecord `
-            -TableName luckytv `
-            -Fields @{ Url = $Url; Title = $Title; Date = $Date; ThumbNail = $ThumbNail }
-    }
-    else 
-    {
-        Write-Verbose "An AirTable record with Url $Url already exists; skipping."
-    }    
+    Save-EntryToAirTable -TableName luckytv -Url $Url -Date $date -Title $Title
 }
