@@ -1,9 +1,11 @@
 $ProgressPreference = 'SilentlyContinue'
 
-'https://navtechdays.com/schedule/thu-21', 'https://navtechdays.com/schedule/fri-22' | ForEach-Object {
+'https://navtechdays.com/sessions', # FIXME
+'https://navtechdays.com/schedule/thu-21',
+'https://navtechdays.com/schedule/fri-22' | ForEach-Object {
     Invoke-WebRequest -Uri $_ `
     | Select-Object -ExpandProperty Content `
-    | pup '.rowWrapper json{}' `
+    | pup --plain '.rowWrapper json{}' `
     | ConvertFrom-Json -AsHashTable `
     | ForEach-Object { $_.GetEnumerator() } `
     | ForEach-Object {
@@ -13,13 +15,13 @@ $ProgressPreference = 'SilentlyContinue'
         $Accordion = $Columns['children'][1]
         $EventItem = $Accordion['children'][0]
         $Title = $EventItem['children'][0]['children'][0].text
-        $Title
+        $Time
     }
 
 
-    
 
-    
+
+
 
 }
 
