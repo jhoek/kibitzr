@@ -9,10 +9,11 @@ Invoke-WebRequest -Uri 'https://www.nrc.nl/rubriek/sudoku/' `
 | ForEach-Object {
     $null = ($_.children[0].children[0].children[1].text) -match 'src="(.*?)"'
 
-    $Body = '<img src="{0}"></img>' -f $Matches[1]
-    $Url = 'https://www.nrc.nl{0}' -f $_.href
+    $Body = 'https://www.nrc.nl{0}' -f $_.href
+    $Url = $Matches[1]
     $DateElements = ($_.href) -split '/'
     $Date = Get-Date -Year $DateElements[2] -Month $DateElements[3] -Day $DateElements[4]
+    $Title = 'Sudoku {0:dddd d MMMM yyyy}' -f $Date
 
-    Save-EntryToAirTable -TableName sudoku -Url $Url -Date $Date -Title Sudoku -Body $Body
+    Save-EntryToAirTable -TableName sudoku -Url $Url -Date $Date -Title $Title -Body $Body
 }
