@@ -13,7 +13,5 @@ $Body = ($Content | pup --plain 'p.artstyle__text text{}') -join "`n"
 $DateText = $Content | pup 'time text{}'
 $Date = [DateTime]::ParseExact($DateText, 'd MMMM yyyy , H:mm', $DutchCulture)
 
-$Body
-
-#Save-EntryToAirTable -TableName bertkeizer -Url $Url -Title $Title -Body $Body -Date $Date
+Save-EntryToAirTable -TableName bertkeizer -Url $Url -Title $Title -Body $Body -Date $Date -Verbose
 }
