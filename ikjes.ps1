@@ -1,4 +1,4 @@
-. ../Save-EntryToAirTable.ps1
+. ./Save-EntryToAirTable.ps1
 $ProgressPreference = 'SilentlyContinue'
 
 Invoke-WebRequest -Uri https://www.nrc.nl/rubriek/ikje `
