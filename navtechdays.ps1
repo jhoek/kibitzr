@@ -1,3 +1,4 @@
+#!/usr/bin/pwsh
 $ProgressPreference = 'SilentlyContinue'
 
 'https://navtechdays.com/sessions', # FIXME

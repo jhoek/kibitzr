@@ -1,3 +1,4 @@
+#!/usr/bin/pwsh
 . ./Save-EntryToAirTable.ps1
 $ProgressPreference = 'SilentlyContinue'
 
