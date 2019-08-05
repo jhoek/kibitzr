@@ -1,4 +1,5 @@
-. ../Save-EntryToAirTable.ps1
+#!/usr/bin/pwsh
+. ./Save-EntryToAirTable.ps1
 $ProgressPreference = 'SilentlyContinue'
 $DutchCulture = New-Object -TypeName System.Globalization.CultureInfo -ArgumentList 'nl-NL'
 
@@ -11,7 +12,7 @@ Invoke-WebRequest -Uri https://www.volkskrant.nl/auteur/corine-koole `
 $Title = $Content | pup 'h1 text{}' --plain
 $Body = ($Content | pup 'section.artstyle__main--container p text{}' --plain) -join "`n`n"
 $DateText = ($Content | pup 'time span text{}' --plain) -join ''
-$Date = [DateTime]::ParseExact($DateText, 'd MMMM yyyy, HH:mm', $DutchCulture)
+$Date = [DateTime]::ParseExact($DateText, 'd MMMM yyyy, H:mm', $DutchCulture)
 
 Save-EntryToAirTable -TableName corinekoole -Url $Url -Title $Title -Date $Date -Body $Body
 }

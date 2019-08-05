@@ -1,4 +1,5 @@
-. ../Save-EntryToAirTable.ps1
+#!/usr/bin/pwsh
+. ./Save-EntryToAirTable.ps1
 $ProgressPreference = 'SilentlyContinue'
 $DutchCulture = New-Object -TypeName System.Globalization.CultureInfo -ArgumentList 'nl-NL'
 
