@@ -5,7 +5,7 @@ $ProgressPreference = 'SilentlyContinue'
 Invoke-WebRequest -Uri https://www.nrc.nl/rubriek/ikje `
 | Select-Object -ExpandProperty Content `
 | pup '.compact-grid__item a attr{href}' --plain `
-| Select-Object -Skip 1 -First 10 `
+| Select-Object -First 10 `
 | ForEach-Object {
     $Url = "https://www.nrc.nl$($_)"
     $DateText = (($Url -split '/')[4..6]) -join '-'
