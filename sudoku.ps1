@@ -1,5 +1,5 @@
 #!/usr/bin/pwsh
-. ./Save-EntryToAirTable.ps1
+. $PSScriptRoot/Save-EntryToAirTable.ps1
 $ProgressPreference = 'SilentlyContinue'
 
 Invoke-WebRequest -Uri 'https://www.nrc.nl/rubriek/sudoku/' `
