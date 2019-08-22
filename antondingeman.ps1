@@ -7,8 +7,7 @@ $Elements = Invoke-WebRequest -Uri https://www.trouw.nl/cartoons/de-wereld-van-a
 | Select-Object -ExpandProperty Content `
 | pup 'article section.artstyle__main--container json{}' --plain `
 | ConvertFrom-Json -Depth 10 `
-| ForEach-Object { $_.children } `
-| Select-Object -First 10
+| ForEach-Object { $_.children } 
 
 while ($Elements)
 {
