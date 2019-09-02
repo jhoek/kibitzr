@@ -1,7 +1,16 @@
-Get-AHStore -ID 1844 `
+Get-AHStore -ID 1844, 1083, 1541, 1855 `
 | ForEach-Object {
     $Description = "$($_.City), $($_.Street)"
-
-    Find-AirTableRecord -TableName ah -Fields ID -Filter "{Description}='$Description'" -Verbose
-
+    $_.OpeningHours `
+    | ForEach-Object {
+        $Fields = @{
+            FromTime    = $_.From
+            ToTime      = $_.To
+            Description = $Description
+        }
+    
+        New-AirTableRecord `
+            -TableName ah `
+            -Fields $Fields `
+    }
 }
