@@ -4,11 +4,11 @@ Get-AHStore -ID 1844, 1083, 1541, 1855 `
     $_.OpeningHours `
     | ForEach-Object {
         $Fields = @{
-            FromTime    = $_.From
-            ToTime      = $_.To
+            FromTime    = $_.From.ToUniversalTime()
+            ToTime      = $_.To.ToUniversalTime()
             Description = $Description
         }
-    
+
         New-AirTableRecord `
             -TableName ah `
             -Fields $Fields `
