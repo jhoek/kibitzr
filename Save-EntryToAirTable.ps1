@@ -12,13 +12,13 @@ function Save-EntryToAirTable
     $SmartSingleQuotes = '[\u2019\u2018\u201A]'
     $SmartDoubleQuotes = '[\u201C\u201D\u201E]'
 
-    if (-not (Test-AirTableRecord -TableName $TableName -FieldName Url -Value $Url))
+    if (-not (Test-AirTableRecord -TableName kibitzr -FieldName Url -Value $Url))
     {
         $Body = ($Body -replace $SmartSingleQuotes, '''') -replace $SmartDoubleQuotes, '"'
 
         New-AirTableRecord `
-            -TableName $TableName `
-            -Fields @{ Url = $Url; Title = $Title; Body = $Body; Date = $Date }
+            -TableName kibitzr `
+            -Fields @{ Source = $TableName; Url = $Url; Title = $Title; Body = $Body; Date = $Date }
     }
     else
     {

@@ -12,5 +12,5 @@ Invoke-WebRequest -Uri https://www.filmtheaterhilversum.nl/films/ `
     $Body = ($Content | pup '.film__synopsis__intro text{}' --plain) -join ' '
     $Date = Get-Date
 
-    Save-EntryToAirTable -TableName filmtheaterhilversum -Url $Url -Date $Date -Title $Title -Body $Body
+    Save-EntryToAirTable -TableName filmtheaterhilversum -Url $Url -Date $Date -Title "Filmtheater Hilversum: $Title" -Body $Body
 }

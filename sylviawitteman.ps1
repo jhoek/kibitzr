@@ -14,5 +14,5 @@ Invoke-WebRequest -Uri https://www.volkskrant.nl/auteur/Sylvia%20Witteman `
     $DateText = $Content | pup 'time span:first-child text{}'
     $Date = [DateTime]::ParseExact($DateText, 'd MMMM yyyy', $DutchCulture)
 
-    Save-EntryToAirTable -TableName sylviawitteman -Url $Url -Date $Date -Title $Title -Body $Body
+    Save-EntryToAirTable -TableName sylviawitteman -Url $Url -Date $Date -Title "Sylvia Witteman: $Title" -Body $Body
 }

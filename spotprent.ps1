@@ -18,7 +18,7 @@ while ($Elements)
     $DateText = $First.Text
     $Date = $Date = [DateTime]::ParseExact($DateText, 'd MMMM yyyy', $DutchCulture)
     $Title = "Spotprent van de dag $DateText"
-    $Url = $Second.children.'data-original' 
+    $Url = $Second.children.'data-original'
 
     # $Title
     # $url
