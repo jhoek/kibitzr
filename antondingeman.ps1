@@ -7,7 +7,8 @@ $Elements = Invoke-WebRequest -Uri https://www.trouw.nl/cartoons/de-wereld-van-a
 | Select-Object -ExpandProperty Content `
 | pup 'article section.artstyle__main--container json{}' --plain `
 | ConvertFrom-Json -Depth 10 `
-| ForEach-Object { $_.children } 
+| ForEach-Object { $_.children } `
+| Select-Object -First 20
 
 while ($Elements)
 {
@@ -15,7 +16,7 @@ while ($Elements)
     $DateText = $First.Text
     $Date = $Date = [DateTime]::ParseExact($DateText, 'd MMMM yyyy', $DutchCulture)
     $Title = "Anton Dingeman $DateText"
-    $Url = $Second.children.'data-original' 
+    $Url = $Second.children.'data-original'
 
     Save-EntryToAirTable -TableName antondingeman -Url $Url -Title $Title -Body $Url -Date $Date
 }

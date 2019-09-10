@@ -17,5 +17,5 @@ Invoke-WebRequest -Uri 'http://www.luckytv.nl/afleveringen/' `
     $DateText = "$($DateElements[1]) $($DateElements[2]). $($DateElements[3])"
     $Date = [DateTime]::ParseExact($DateText, 'd MMM yyyy', $DutchCulture)
     $Url = $Link.href
-    Save-EntryToAirTable -TableName luckytv -Url $Url -Date $date -Title $Title
+    Save-EntryToAirTable -TableName luckytv -Url $Url -Date $date -Title "LuckyTV: $Title" -Body $Url
 }
