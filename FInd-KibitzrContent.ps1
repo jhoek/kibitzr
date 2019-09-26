@@ -7,6 +7,9 @@ function Find-KibitzrContent
 
         $ItemSelector,
 
+        [ValidateRange(1, [int]::MaxValue)]
+        [int]$MaxItemCount = [int]::MaxValue,
+
         [Parameter(Mandatory)]
         $TitleSelector,
 
@@ -14,15 +17,24 @@ function Find-KibitzrContent
         $BodySelector
     )
 
-    $Content = @(Invoke-WebRequest -Uri $IndexUrl | Select-Object -ExpandProperty Content)
+    $Content =
+    Invoke-WebRequest -Uri $IndexUrl `
+    | Select-Object -ExpandProperty Content `
+    | Add-Member -MemberType NoteProperty -Name Url -Value $IndexUrl -PassThru
 
-    if ($ItemSelector)
-    {
-        $Content =
-        $Content `
-        | Select-KibitzrElement -Selector $ItemSelector `
-        | ForEach-Object { $Url = [System.Uri]$IndexUrl; "$($Url.Scheme)://$($Url.Host)$($_)" } `
-        | ForEach-Object { Invoke-WebRequest -Uri $_ | Select-Object -ExpandProperty Content }
+
+if ($ItemSelector)
+{
+    $Content =
+    $Content `
+    | Select-KibitzrElement -Selector $ItemSelector `
+    | Select-Object -First $MaxItemCount `
+    | ForEach-Object { $Url = [System.Uri]$IndexUrl; "$($Url.Scheme)://$($Url.Host)$($_)" } `
+    | ForEach-Object {
+        Invoke-WebRequest -Uri $_ `
+        | Select-Object -ExpandProperty Content `
+        | Add-Member -MemberType NoteProperty -Name Url -Value $_ -PassThru
+}
 }
 
 $Content | Find-KibitzrItem -TitleSelector $TitleSelector -BodySelector $BodySelector
@@ -33,7 +45,7 @@ function Find-KibitzrItem
     param
     (
         [Parameter(Mandatory, ValueFromPipeline)]
-        [string[]]$Content,
+        [psobject[]]$Content,
 
         [Parameter(Mandatory)]
         $TitleSelector,
@@ -45,7 +57,10 @@ function Find-KibitzrItem
     process
     {
         $Content.ForEach{
+            $_ | gm
+
             [pscustomobject]@{
+                Url        = ([psobject]$_).Url
                 Title      = $_ | Select-KibitzrElement -Selector $TitleSelector
                 Body       = $_ | Select-KibitzrElement -Selector $BodySelector
                 PSTypeName = 'UncommonSense.Kibitzr.Item'
@@ -82,7 +97,7 @@ function Select-KibitzrElement
 
         default
         {
-            throw 'Cannot evaluate kibitzr element. Please, pass either a selector string or a scriptblock.'
+            throw 'Cannot evaluate kibitzr element. Please pass either a selector string or a scriptblock.'
         }
     }
 }

@@ -10,4 +10,5 @@ Find-KibitzrContent `
     -IndexUrl https://www.trouw.nl/auteur/bert-keizer `
     -ItemSelector 'article > a:first-of-type attr{href}' `
     -TitleSelector 'h1 text{}' `
-    -BodySelector 'p.artstyle__text text{}'
+    -BodySelector 'p.artstyle__text text{}' `
+    -MaxItemCount 10
