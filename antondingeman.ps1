@@ -18,5 +18,13 @@ while ($Elements)
     $Title = "Anton Dingeman $DateText"
     $Url = $Second.children.'data-original'
 
-    Save-EntryToAirTable -TableName antondingeman -Url $Url -Title $Title -Body $Url -Date $Date
+    if (-not (Test-NotificationAlreadySent -Url $Url))
+    {
+        Send-PushoverNotification `
+            -ApplicationToken aRkTUg5jtr9pSDQBPYwPN9X5dP2mHB `
+            -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp `
+            -AttachmentFileName
+    }
+
+    Save-EntryToAirTable -TableName notifications -Url $Url -Title $Title -Body $Url -Date $Date
 }
