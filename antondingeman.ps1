@@ -6,9 +6,10 @@ Invoke-WebRequest -Uri https://www.trouw.nl/cartoons/de-wereld-van-anton-dingema
 | pup 'img.artstyle__image attr{data-original}' --plain `
 | ForEach-Object {
     Send-KibitzrNotification `
-        -Url $Url `
+        -Url $_ `
         -ApplicationToken aRkTUg5jtr9pSDQBPYwPN9X5dP2mHB `
         -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp `
+        -Title 'Anton Dingeman' `
         -Message 'Anton Dingeman' `
         -ImageUrl $_
 }
