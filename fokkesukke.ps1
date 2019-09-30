@@ -1,18 +1,15 @@
 #!/usr/bin/pwsh
-. $PSScriptRoot/Save-EntryToAirTable.ps1
-$ProgressPreference = 'SilentlyContinue'
+. $PSScriptRoot/Send-KibitzrNotification.ps1
 
 Invoke-WebRequest -Uri 'https://www.nrc.nl/rubriek/fokke-sukke/' `
 | Select-Object -ExpandProperty Content `
-| pup '.nmt-item a json{}' --plain `
-| ConvertFrom-Json -Depth 10 -AsHashtable `
-| ForEach-Object { $_.GetEnumerator() } `
+| ForEach-Object { $_ | pup 'img attr{data-src}' --plain } `
+| ForEach-Object { ($_ -split '\|')[1] } `
 | ForEach-Object {
-    $Url = [regex]::Match($_.children[0].children[0].children[1].text, 'src="(.*)"').Groups[1].Value
-    $Body = "https://www.nrc.nl$($_.href)"
-    $DateElements = $_.href -split '/'
-    $Date = Get-Date -Year $DateElements[2] -Month $DateElements[3] -Day $DateElements[4]
-    $Title = 'Fokke & Sukke {0:dddd d MMMM yyyy}' -f $Date
-
-    Save-EntryToAirTable -TableName fokkesukke -Url $Url -Date $Date -Title $Title -Body $Body
+    Send-KibitzrNotification `
+        -Url $_ `
+        -ApplicationToken aRkTUg5jtr9pSDQBPYwPN9X5dP2mHB `
+        -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp `
+        -Message 'Fokke & Sukke' `
+        -ImageUrl $_
 }
