@@ -1,3 +1,4 @@
+#!/usr/bin/pwsh
 Get-AHStore -ID 1844, 1083, 1541, 1855 `
 | ForEach-Object {
     $Store = "$($_.City), $($_.Street)"
