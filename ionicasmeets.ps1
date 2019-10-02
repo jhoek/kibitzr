@@ -14,5 +14,5 @@ Invoke-WebRequest -Uri https://www.volkskrant.nl/auteur/Ionica%20Smeets `
     $DateText = $Content | pup 'time span:first-child text{}'
     $Date = [DateTime]::ParseExact($DateText, 'd MMMM yyyy', $DutchCulture)
 
-    Save-EntryToAirTable -TableName ionicasmeets -Url $Url -Date $Date -Title "Ionica Smeets: $Title" -Body $Body
+    Save-EntryToAirTable -TableName rss -Url $Url -Date $Date -Title "Ionica Smeets: $Title" -Body $Body
 }

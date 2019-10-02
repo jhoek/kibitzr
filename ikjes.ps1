@@ -1,5 +1,5 @@
 #!/usr/bin/pwsh
-. $PSScriptRoot/Save-EntryToAirTable.ps1
+. $PSScriptRoot/Send-KibitzrNotification.ps1
 $ProgressPreference = 'SilentlyContinue'
 
 Invoke-WebRequest -Uri https://www.nrc.nl/rubriek/ikje `
@@ -14,5 +14,10 @@ Invoke-WebRequest -Uri https://www.nrc.nl/rubriek/ikje `
     $Body = ($Content | pup 'div.content p text{}' --plain) -join ' '
     $Date = [DateTime]::ParseExact($DateText, 'yyyy-MM-dd', $null)
 
-    Save-EntryToAirTable -TableName ikjes -Url $Url -Date $Date -Title "Ikje: $Title" -Body $Body
+    Send-KibitzrNotification `
+        -ApplicationToken aRkTUg5jtr9pSDQBPYwPN9X5dP2mHB `
+        -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp `
+        -Message $Body `
+        -Title "Ikje: $Title" `
+        -Url $Url
 }
