@@ -3,7 +3,7 @@
 $ProgressPreference = 'SilentlyContinue'
 $DutchCulture = New-Object -TypeName System.Globalization.CultureInfo -ArgumentList 'nl-NL'
 
-Invoke-WebRequest -Uri https://www.trouw.nl/de-kraai~d10778f08-8c81-490e-a656-93b2f29ac289 `
+Invoke-WebRequest -Uri https://www.trouw.nl/dossier/de-kraai `
 | Select-Object -ExpandProperty Content `
 | pup 'article > a:first-of-type attr{href}' --plain `
 | ForEach-Object {
@@ -14,5 +14,5 @@ Invoke-WebRequest -Uri https://www.trouw.nl/de-kraai~d10778f08-8c81-490e-a656-93
     $DateText = $Content | pup 'time text{}' --plain
     $Date = [DateTime]::ParseExact($DateText, 'd MMMM yyyy , H:mm', $DutchCulture)
 
-    Save-EntryToAirTable -TableName kraai -Url $Url -Title "De kraai: $Title" -Body $Body -Date $Date
+    Save-EntryToAirTable -TableName rss -Url $Url -Title "De kraai/ooievaar: $Title" -Body $Body -Date $Date
 }
