@@ -27,6 +27,12 @@ function Send-KibitzrNotification
             $Parameters.ApplicationToken = $ApplicationToken
             $Parameters.Recipient = $Recipient
             $Parameters.Message = $Message
+            $Parameters.SupplementaryUrl = $Url
+
+            if ($Title)
+            {
+                $Parameters.Title = $Title
+            }
 
             if ($ImageUrl)
             {
