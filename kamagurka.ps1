@@ -14,5 +14,11 @@ Invoke-WebRequest -Uri 'https://www.nrc.nl/rubriek/kamagurka/' `
     $Date = Get-Date -Year $DateElements[2] -Month $DateElements[3] -Day $DateElements[4]
     $Title = 'Kamagurka {0:dddd d MMMM yyyy}' -f $Date
 
-    Save-EntryToAirTable -TableName kamagurka -Url $Url -Date $Date -Title $Title -Body $Body
+    Send-KibitzrNotification `
+        -Url $Url `
+        -ApplicationToken aRkTUg5jtr9pSDQBPYwPN9X5dP2mHB `
+        -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp `
+        -Message $Body `
+        -Title $Title `
+        -ImageUrl $Url
 }
