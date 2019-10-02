@@ -3,6 +3,7 @@ $ProgressPreference = 'SilentlyContinue'
 $env:PATH = ($env:PATH, '/usr/local/bin') -join ':'
 
 $Message = ''
+[ValidateSet('Lowest', 'Low', 'Normal', 'High')]$Priority = 'Normal'
 $Title = ''
 
 try
@@ -22,10 +23,17 @@ try
             $Title = $Response.Content | pup 'title text{}' --plain
         }
 
-        ($Title -ne 'joel mori (@jhoek) | Twitter')
+        ($Title -notin 'joel mori (@jhoek) | Twitter', 'joel mori (@jhoek) on Twitter')
         {
             "Page title is now '$Title'"
+            $Priority = 'High'
             break
+        }
+
+        $true
+        {
+            $Priority = 'Lowest'
+            "Page title is still '$Title'"
         }
     }
 }
@@ -41,5 +49,6 @@ if ($Message)
         -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp `
         -Title 'twitter.com/jhoek' `
         -Message $Message `
+        -Priority $Priority `
         -SupplementaryUrl 'https://twitter.com/jhoek'
 }
