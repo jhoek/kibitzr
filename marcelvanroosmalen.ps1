@@ -14,5 +14,5 @@ Invoke-WebRequest -Uri https://www.nrc.nl/rubriek/marcel-van-roosmalen/ `
     $Body = ($Content | pup 'div.content p text{}' --plain) -join ' '
     $Date = [DateTime]::ParseExact($DateText, 'yyyy-MM-dd', $null)
 
-    Save-EntryToAirTable -TableName marcelvanroosmalen -Url $Url -Date $Date -Title "Marcel van Roosmalen: $Title" -Body $Body
+    Save-EntryToAirTable -TableName rss -Url $Url -Date $Date -Title "Marcel van Roosmalen: $Title" -Body $Body
 }
