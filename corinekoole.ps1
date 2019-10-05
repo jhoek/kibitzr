@@ -14,5 +14,5 @@ Invoke-WebRequest -Uri https://www.volkskrant.nl/auteur/corine-koole `
     $DateText = ($Content | pup 'time span text{}' --plain) -join ''
     $Date = [DateTime]::ParseExact($DateText, 'd MMMM yyyy, H:mm', $DutchCulture)
 
-    Save-EntryToAirTable -TableName rss -Url $Url -Title "Corine Koole: $Title" -Date $Date -Body $Body
+    Save-EntryToAirTable -Url $Url -Title "Corine Koole: $Title" -Date $Date -Body $Body
 }

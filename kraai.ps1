@@ -14,5 +14,5 @@ Invoke-WebRequest -Uri https://www.trouw.nl/dossier/de-kraai `
     $DateText = $Content | pup 'time text{}' --plain
     $Date = [DateTime]::ParseExact($DateText, 'd MMMM yyyy , H:mm', $DutchCulture)
 
-    Save-EntryToAirTable -TableName rss -Url $Url -Title "De kraai/ooievaar: $Title" -Body $Body -Date $Date
+    Save-EntryToAirTable -Url $Url -Title "De kraai/ooievaar: $Title" -Body $Body -Date $Date
 }

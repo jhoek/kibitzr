@@ -2,7 +2,6 @@ function Save-EntryToAirTable
 {
     param
     (
-        [string]$TableName,
         [string]$Url,
         [DateTime]$Date,
         [string]$Title,
@@ -22,6 +21,6 @@ function Save-EntryToAirTable
     }
     else
     {
-        Write-Verbose "An AirTable record with Url '$Url' already exists in table $TableName; skipping."
+        Write-Verbose "An AirTable record with Url '$Url' already exists in table 'rss'; skipping."
     }
 }
