@@ -3,13 +3,19 @@
 
 Invoke-WebRequest -Uri 'https://www.nrc.nl/rubriek/fokke-sukke/' `
 | Select-Object -ExpandProperty Content `
-| ForEach-Object { $_ | pup 'img attr{data-src}' --plain } `
-| ForEach-Object { ($_ -split '\|')[1] } `
+| ForEach-Object { $_ | pup 'a.nmt-item__link json{}' --plain } `
+| ConvertFrom-Json -Depth 10 `
+| ForEach-Object { $_ } `
 | ForEach-Object {
+    $Link = 'https://nrc.nl{0}' -f $_.href
+    $DateElements = ($Link -split '/')[4..6]
+    $Date = Get-Date -Year $DateElements[0] -Month $DateElements[1] -Day $DateElements[2]
+    $ImageUrl = (($_.children[0].children[0].children[0].'data-src') -split '\|')[1]
+
     Send-KibitzrNotification `
-        -Url $_ `
+        -Url $ImageUrl `
         -ApplicationToken aRkTUg5jtr9pSDQBPYwPN9X5dP2mHB `
         -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp `
-        -Message 'Fokke & Sukke' `
-        -ImageUrl $_
+        -Message ('Fokke & Sukke {0:dddd d MMMM yyyy}' -f $Date) `
+        -ImageUrl $ImageUrl
 }

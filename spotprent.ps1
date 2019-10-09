@@ -1,5 +1,5 @@
 #!/usr/bin/pwsh
-. $PSScriptRoot/Save-EntryToAirTable.ps1
+. $PSScriptRoot/Send-KibitzrNotification.ps1
 $ProgressPreference = 'SilentlyContinue'
 
 Invoke-WebRequest -Uri https://www.trouw.nl/cartoons/spotprent-van-de-dag~b1551c3b/ `

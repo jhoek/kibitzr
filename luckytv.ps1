@@ -23,6 +23,6 @@ Invoke-WebRequest -Uri 'http://www.luckytv.nl/afleveringen/' `
         -ApplicationToken afbzfvwfwjq5ritp51kw26sivnm1jj `
         -Recipient g5tfftqv8uhg7xbwxufcy7j6keuso1 `
         -Message $Title `
-        -Title 'LuckyTV' `
+        -Title ('LuckyTV {0:dddd d MMMM yyyy}' -f $Date) `
         -ImageUrl $Preview
 }

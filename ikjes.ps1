@@ -18,6 +18,6 @@ Invoke-WebRequest -Uri https://www.nrc.nl/rubriek/ikje `
         -ApplicationToken aRkTUg5jtr9pSDQBPYwPN9X5dP2mHB `
         -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp `
         -Message $Body `
-        -Title "Ikje: $Title" `
+        -Title ("Ikje: $Title ({0:dddd d MMMM yyyy})" -f $Date) `
         -Url $Url
 }
