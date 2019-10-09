@@ -21,6 +21,6 @@ function Save-EntryToAirTable
     }
     else
     {
-        Write-Verbose "An AirTable record with Url '$Url' already exists in table 'rss'; skipping."
+        Write-Warning "Entry for '$Url' already exists in table 'rss'."
     }
 }
