@@ -16,7 +16,7 @@ Invoke-WebRequest -Uri 'https://www.nrc.nl/rubriek/kamagurka/' `
 
     Send-KibitzrNotification `
         -Url $Url `
-        -ApplicationToken aRkTUg5jtr9pSDQBPYwPN9X5dP2mHB `
+        -ApplicationToken as9kziktmqhy28bs287yuytno4iv85 `
         -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp `
         -Message $Body `
         -Title $Title `
