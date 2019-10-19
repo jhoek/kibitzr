@@ -13,7 +13,7 @@ Invoke-WebRequest -Uri 'https://www.nrc.nl/rubriek/sudoku/' `
 
     Send-KibitzrNotification `
         -Url $Url `
-        -ApplicationToken aRkTUg5jtr9pSDQBPYwPN9X5dP2mHB `
+        -ApplicationToken av5b3yspt9nzrphgdpq135fa64do6j `
         -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp `
         -Message ('{0:dddd d MMMM yyyy}' -f $Date) `
         -Title Sudoku `

@@ -14,7 +14,7 @@ Invoke-WebRequest -Uri 'https://www.nrc.nl/rubriek/fokke-sukke/' `
 
     Send-KibitzrNotification `
         -Url $ImageUrl `
-        -ApplicationToken aRkTUg5jtr9pSDQBPYwPN9X5dP2mHB `
+        -ApplicationToken ap51qrxqr9ui52vmmux8v25r9q82r6 `
         -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp `
         -Message ('Fokke & Sukke {0:dddd d MMMM yyyy}' -f $Date) `
         -ImageUrl $ImageUrl

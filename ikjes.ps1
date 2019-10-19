@@ -15,7 +15,7 @@ Invoke-WebRequest -Uri https://www.nrc.nl/rubriek/ikje `
     $Date = [DateTime]::ParseExact($DateText, 'yyyy-MM-dd', $null)
 
     Send-KibitzrNotification `
-        -ApplicationToken aRkTUg5jtr9pSDQBPYwPN9X5dP2mHB `
+        -ApplicationToken arp51yjfkhaxaptx2t3ymps5jr781c `
         -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp `
         -Message $Body `
         -Title ("Ikje: $Title ({0:dddd d MMMM yyyy})" -f $Date) `
