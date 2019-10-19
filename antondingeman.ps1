@@ -7,7 +7,7 @@ Invoke-WebRequest -Uri https://www.trouw.nl/cartoons/de-wereld-van-anton-dingema
 | ForEach-Object {
     Send-KibitzrNotification `
         -Url $_ `
-        -ApplicationToken aRkTUg5jtr9pSDQBPYwPN9X5dP2mHB `
+        -ApplicationToken ag9ia4c3jxjny1mom7ordesj7ndnfd `
         -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp `
         -Title ('Anton Dingeman {0:dddd d MMMM yyyy}' -f (Get-Date)) `
         -Message 'Anton Dingeman' `
