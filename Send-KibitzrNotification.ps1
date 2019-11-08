@@ -55,7 +55,7 @@ function Send-KibitzrNotification
 
         $true
         {
-            Write-Warning "Notification for $Url already sent."
+            Write-Warning "Notification for '$UniqueID' already sent."
         }
     }
 }
