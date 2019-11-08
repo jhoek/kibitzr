@@ -15,14 +15,9 @@
     | ForEach-Object {
         Send-KibitzrNotification `
             -Url $_.Link `
-            -UniqueID $_.Text `
+            -UniqueID "$(Get-Date -Format 'yyyyMMdd')$($_.Text -replace '''', '')" `
             -ApplicationToken asxmmq8g95jt4ed1qcrucdvu2iuy67 `
             -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp `
             -Message $_.Text
     }
 }
-
-
-
-
-
