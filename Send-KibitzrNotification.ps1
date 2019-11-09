@@ -2,9 +2,9 @@ function Send-KibitzrNotification
 {
     param
     (
-        [Parameter(Mandatory)]
         [string]$Url,
 
+        [ValidateNotNullOrEmpty()]
         [string]$UniqueID = $Url,
 
         [Parameter(Mandatory)]
@@ -29,7 +29,11 @@ function Send-KibitzrNotification
             $Parameters.ApplicationToken = $ApplicationToken
             $Parameters.Recipient = $Recipient
             $Parameters.Message = $Message
-            $Parameters.SupplementaryUrl = $Url
+
+            if ($Url)
+            {
+                $Parameters.SupplementaryUrl = $Url
+            }
 
             if ($Title)
             {
