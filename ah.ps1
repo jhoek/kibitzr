@@ -1,8 +1,69 @@
 #!/usr/bin/pwsh
+function Get-NormalOpeningHours
+{
+    param
+    (
+        [Parameter(Mandatory)][int]$StoreID,
+        [Parameter(Mandatory)][DayOfWeek]$DayOfWeek,
+        [Parameter(Mandatory)][ValidateSet('From', 'To')][string]$Which
+    )
+
+    $From, $To = switch ($StoreID)
+    {
+        1844 #Achtergracht, Weesp
+        {
+            switch ($DayOfWeek)
+            {
+                ([DayOfWeek]::Sunday) { [TimeSpan]'09:00', [TimeSpan]'20:00' }
+                default { [timespan]'08:00', [timespan]'21:00' }
+            }
+        }
+        1083 # Amstellandlaan, Weesp
+        {
+            switch ($DayOfWeek)
+            {
+                ([DayOfWeek]::Sunday) { [TimeSpan]'09:00', [TimeSpan]'20:00' }
+                default { [timespan]'07:30', [timespan]'21:00' }
+            }
+        }
+        1541 # Weth. van der Veldenweg, Numansdorp
+        {
+            switch ($DayOfWeek)
+            {
+                ([DayOfWeek]::Friday) { [TimeSpan]'08:00', [TimeSpan]'21:00' }
+                ([DayOfWeek]::Sunday) { break }
+                default { [timespan]'08:00', [timespan]'20:00' }
+            }
+        }
+        1855 # Maxis
+        {
+            switch ($DayOfWeek)
+            {
+                ([DayOfWeek]::Sunday) { [TimeSpan]'10:00', [TimeSpan]'18:00' }
+                default { [timespan]'08:00', [timespan]'21:00' }
+            }
+        }
+    }
+
+    switch ($Which)
+    {
+        'From' { $From }
+        'To' { $To }
+    }
+}
+
+
 Get-AHStore -ID 1844, 1083, 1541, 1855 `
 | ForEach-Object {
-    $Store = "$($_.City), $($_.Street)"
-    $OpeningHours = $_.OpeningHours | ForEach-Object { "{0} : {1}..{2}" -f $_.From.Date.ToString('ddd dd MMM'), $_.From.ToString('HH:mm'), $_.To.ToString('HH:mm') }
+    $CurrentStore = $_
+
+    $Store = "$($CurrentStore.City), $($CurrentStore.Street)"
+    $OpeningHours = $CurrentStore.OpeningHours | ForEach-Object {
+        $SpecialFromTime = $_.From.TimeOfDay -ne (Get-NormalOpeningHours -StoreID $CurrentStore.ID -DayOfWeek $_.From.DayOfWeek -Which From)
+        $SpecialToTime = $_.To.TimeOfDay -ne (Get-NormalOpeningHours -StoreID $CurrentStore.ID -DayOfWeek $_.To.DayOfWeek -Which To)
+        $SpecialTime = if ($SpecialFromTime -or $SpecialToTime) { ' (!)' }
+        "{0} : {1}..{2}{3}" -f $_.From.Date.ToString('ddd dd MMM'), $_.From.ToString('HH:mm'), $_.To.ToString('HH:mm'), $SpecialTime
+    }
 
     Send-PushoverNotification `
         -ApplicationToken a6tzomq6k7dhqmdro3x94iqitmnaih `
