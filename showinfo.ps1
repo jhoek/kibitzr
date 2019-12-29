@@ -1,5 +1,5 @@
 #!/usr/bin/pwsh
-. ./Send-KibitzrNotification.ps1
+. $PSScriptRoot/Send-KibitzrNotification.ps1
 
 Get-RssFeedItem -Uri 'http://showrss.info/user/214003.rss?magnets=true&namespaces=true&name=null&quality=null&re=null' `
 | ForEach-Object {
