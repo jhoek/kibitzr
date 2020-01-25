@@ -16,7 +16,7 @@ Invoke-WebRequest -Uri https://www.nrc.nl/rubriek/ikje `
 
     Send-KibitzrNotification `
         -ApplicationToken arp51yjfkhaxaptx2t3ymps5jr781c `
-        -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp `
+        -Recipient gempdcdjncu5zcorv39g11xbzh196s `
         -Message $Body `
         -Title ("Ikje: $Title ({0:dddd d MMMM yyyy})" -f $Date) `
         -Url $Url
