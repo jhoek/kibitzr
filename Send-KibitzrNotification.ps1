@@ -16,6 +16,9 @@ function Send-KibitzrNotification
         [Parameter(Mandatory)]
         [string]$Message,
 
+        [ValidateSet('Lowest', 'Low', 'Normal', 'High')]
+        [string]$Priority = 'Normal',
+
         [string]$Title,
 
         [string]$ImageUrl
@@ -29,6 +32,7 @@ function Send-KibitzrNotification
             $Parameters.ApplicationToken = $ApplicationToken
             $Parameters.Recipient = $Recipient
             $Parameters.Message = $Message
+            $Parameters.Priority = $Priority
 
             if ($Url)
             {
