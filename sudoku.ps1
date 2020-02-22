@@ -16,6 +16,7 @@ Invoke-WebRequest -Uri 'https://www.nrc.nl/rubriek/sudoku/' `
         -ApplicationToken av5b3yspt9nzrphgdpq135fa64do6j `
         -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp `
         -Message ('{0:dddd d MMMM yyyy}' -f $Date) `
+        -Priority Lowest `
         -Title Sudoku `
         -ImageUrl (Invoke-WebRequest -Uri $Url).Images.src
 }
