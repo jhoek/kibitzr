@@ -15,7 +15,7 @@ function Get-NormalOpeningHours
             switch ($DayOfWeek)
             {
                 ([DayOfWeek]::Sunday) { [TimeSpan]'09:00', [TimeSpan]'20:00' }
-                default { [timespan]'08:00', [timespan]'22:00' }
+                default { [timespan]'07:00', [timespan]'22:00' }
             }
         }
         1083 # Amstellandlaan, Weesp
@@ -23,7 +23,7 @@ function Get-NormalOpeningHours
             switch ($DayOfWeek)
             {
                 ([DayOfWeek]::Sunday) { [TimeSpan]'09:00', [TimeSpan]'20:00' }
-                default { [timespan]'08:00', [timespan]'22:00' }
+                default { [timespan]'07:00', [timespan]'22:00' }
             }
         }
         1541 # Weth. van der Veldenweg, Numansdorp
@@ -31,15 +31,16 @@ function Get-NormalOpeningHours
             switch ($DayOfWeek)
             {
                 ([DayOfWeek]::Sunday) { break }
-                default { [timespan]'08:00', [timespan]'21:00' }
+                ([DayOfWeek]::Saturday) { [timespan]'08:00', [timespan]'21:00' }
+                default { [timespan]'07:00', [timespan]'21:00' }
             }
         }
         1855 # Maxis
         {
             switch ($DayOfWeek)
             {
-                ([DayOfWeek]::Sunday) { [TimeSpan]'10:00', [TimeSpan]'19:00' }
-                default { [timespan]'08:00', [timespan]'21:00' }
+                ([DayOfWeek]::Sunday) { [TimeSpan]'09:00', [TimeSpan]'20:00' }
+                default { [timespan]'07:00', [timespan]'21:00' }
             }
         }
     }
