@@ -1,0 +1,47 @@
+name: showinfo
+
+on:
+  schedule:
+    - cron: '* * * * *'
+
+jobs:
+  sendnotifications:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Test
+        run: 'Foo'
+        shell: pwsh
+        
+  
+#   # This workflow contains a single job called "build"
+#   build:
+#     # The type of runner that the job will run on
+#     runs-on: ubuntu-latest
+
+#     # Steps represent a sequence of tasks that will be executed as part of the job
+#     steps:
+#     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+#     - uses: actions/checkout@v2
+
+#     # Runs a single command using the runners shell
+#     - name: Run a one-line script
+#       run: echo Hello, world!
+
+#     # Runs a set of commands using the runners shell
+#     - name: Run a multi-line script
+#       run: |
+#         echo Add other actions to build,
+#         echo test, and deploy your project.
+
+
+#!/usr/bin/pwsh
+# . $PSScriptRoot/Send-KibitzrNotification.ps1
+
+# Get-RssFeedItem -Uri 'http://showrss.info/user/214003.rss?magnets=true&namespaces=true&name=null&quality=null&re=null' `
+# | ForEach-Object {
+#     Send-KibitzrNotification `
+#         -ApplicationToken a17ejjb1vto534trjiwtymadjd6prz `
+#         -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp `
+#         -UniqueID $_.Guid `
+#         -Message $_.Description
+# }
