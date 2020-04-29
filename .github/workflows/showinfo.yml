@@ -8,10 +8,11 @@ jobs:
   sendnotifications:
     runs-on: ubuntu-latest
     steps:
-      - name: Test
-        run: Write-Output 'Foo'
+      - name: Display the path
+        run: echo ${env:PATH}
         shell: pwsh
-        
+      
+      
 # . $PSScriptRoot/Send-KibitzrNotification.ps1
 
 # Get-RssFeedItem -Uri 'http://showrss.info/user/214003.rss?magnets=true&namespaces=true&name=null&quality=null&re=null' `
