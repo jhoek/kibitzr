@@ -8,6 +8,8 @@ jobs:
   sendnotifications:
     runs-on: ubuntu-latest
     steps:
+      - name: Get the source
+        uses: actions/checkout@v2.1.0
       - name: Display the path
         run: echo ${env:PATH}
         shell: pwsh
