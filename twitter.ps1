@@ -8,7 +8,7 @@ $Title = ''
 
 try
 {
-    $Response = Invoke-WebRequest -Uri https://twitter.com/jhoek
+    $Response = Invoke-WebRequest -Uri 'https://mobile.twitter.com/jhoek'
 
     $Message = switch ($true)
     {
