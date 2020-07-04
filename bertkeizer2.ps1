@@ -14,5 +14,5 @@ Invoke-WebRequest -Uri 'https://www.medischcontact.nl/opinie/blogs-columns/blogg
     $DateText = (($Content | pup '.articleDetail_header .author_date text{}' --plain)[1]).Trim()
     $Date = [datetime]::ParseExact($DateText, 'dd MMMM yyyy', $DutchCulture)
 
-    Save-EntryToAirTable -Url $Url -Title "Bert Keizer: $Title" -Body $Body -Date $Date -Verbose
+    Save-EntryToAirTable -Url $Url -Title "Bert Keizer: $Title" -Body $Body -Date $Date -Verbose -Table Mail
 }
