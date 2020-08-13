@@ -21,7 +21,7 @@ Get-TeletekstNews -Type Domestic, Foreign `
         -Url $_.Link `
         -UniqueID (ConvertTo-Base64 -Value "$($_.Title) - $($_.Content)") `
         -ApplicationToken asxmmq8g95jt4ed1qcrucdvu2iuy67 `
-        -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp `
+        -Recipient gajrpycu8sq39dfbjn8ipjhypkhc7x `
         -Title $_.Title `
         -Message $_.Content
 }
