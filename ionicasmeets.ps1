@@ -3,7 +3,7 @@
 $ProgressPreference = 'SilentlyContinue'
 $DutchCulture = New-Object -TypeName System.Globalization.CultureInfo -ArgumentList 'nl-NL'
 
-Invoke-WebRequest -Uri https://www.volkskrant.nl/auteur/Ionica%20Smeets `
+Invoke-WebRequest -Uri https://www.volkskrant.nl/auteur/ionica-smeets `
 | Select-Object -ExpandProperty Content `
 | pup 'article a attr{href}' `
 | ForEach-Object {
