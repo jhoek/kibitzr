@@ -3,8 +3,8 @@ function Format-Value($Date, $Value, $PreviousValue)
     switch ($true)
     {
         ($PreviousValue -eq 0 -or $Value -eq $PreviousValue) { return "$($Date): <font color='#000'>&euro;$Value</font>" }
-        ($Value -gt $PreviousValue) { return "$($Date): <font color='#090'>&euro;$Value</font>"; break }
-        ($Value -lt $PreviousValue) { return "$($Date): <font color='#900'>&euro;$Value</font>" }
+        ($Value -gt $PreviousValue) { return "$($Date): <font color='#090'>&euro;$Value &#x25B2;</font>"; break }
+        ($Value -lt $PreviousValue) { return "$($Date): <font color='#900'>&euro;$Value &#x25BC;</font>" }
     }
 }
 
