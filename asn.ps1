@@ -1,12 +1,29 @@
+function Format-Value($Date, $Value, $PreviousValue)
+{
+    switch ($true)
+    {
+        ($PreviousValue -eq 0 -or $Value -eq $PreviousValue) { return "$($Date): <font color='#000'>&euro;$Value</font>" }
+        ($Value -gt $PreviousValue) { return "$($Date): <font color='#090'>&euro;$Value</font>"; break }
+        ($Value -lt $PreviousValue) { return "$($Date): <font color='#900'>&euro;$Value</font>" }
+    }
+}
+
 $Content = Invoke-WebRequest -Uri 'https://www.asnbank.nl/beleggen/koersen.html' | Select-Object -ExpandProperty Content
 $Headings = $Content | pup '.fundrates thead tr text{}' --plain | ForEach-Object { $_.Trim() } | Where-Object { $_ }
-$Rates = $Content | pup '.fundrates tr:nth-of-type(4) text{}' --plain | ForEach-Object { $_.Trim() } | Where-Object { $_ }
-$FundName = $RawRates[0]
-$Message = (1..3 | ForEach-Object { "$($Headings[$_]): &euro;$($Rates[$_])" }) -join "`n"
+$Row = $Content | pup '.fundrates tr:nth-of-type(4) text{}' --plain | ForEach-Object { $_.Trim() } | Where-Object { $_ }
+
+$Dates = $Headings[1..3]
+$Rates = $Row[1..3] | ForEach-Object { [decimal]::Parse($_, [cultureinfo]::GetCultureInfo('nl-NL')) }
+$FundName = $Row[0]
+
+$Message = 0..1 |
+    ForEach-Object `
+        -Process { Format-Value $Dates[$_] $Rates[$_] $Rates[$_ + 1] }`
+        -End { Format-Value $Dates[2] $Rates[2] 0 }
 
 Send-PushoverNotification `
     -ApplicationToken a635f2bxdynw7z839eb49o7dn1312c `
     -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp `
     -Title $FundName `
-    -Message $Message `
+    -Message ($Message -join "`n") `
     -Html
