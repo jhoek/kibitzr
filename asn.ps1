@@ -1,3 +1,4 @@
+#!/usr/bin/pwsh
 function Format-Value($Date, $Value, $PreviousValue)
 {
     switch ($true)
