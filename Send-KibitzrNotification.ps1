@@ -21,10 +21,12 @@ function Send-KibitzrNotification
 
         [string]$Title,
 
-        [string]$ImageUrl
+        [string]$ImageUrl,
+
+        [string]$TableName = 'notifications'
     )
 
-    switch (Test-AirTableRecord -BaseName appB4Jzod47gLXUVE -TableName notifications -FieldName Url -Value $UniqueID)
+    switch (Test-AirTableRecord -BaseName appB4Jzod47gLXUVE -TableName $TableName -FieldName Url -Value $UniqueID)
     {
         $false
         {
@@ -58,7 +60,7 @@ function Send-KibitzrNotification
                 Remove-Item -Path $TempFilePath -ErrorAction SilentlyContinue
             }
 
-            New-AirTableRecord -BaseName appB4Jzod47gLXUVE -TableName notifications -Fields @{Url = $UniqueID }
+            New-AirTableRecord -BaseName appB4Jzod47gLXUVE -TableName $TableName -Fields @{Url = $UniqueID }
         }
 
         $true
