@@ -14,15 +14,15 @@ function Get-NormalOpeningHours
         {
             switch ($DayOfWeek)
             {
-                ([DayOfWeek]::Sunday) { [TimeSpan]'09:00', [TimeSpan]'20:00' }
-                default { [timespan]'07:00', [timespan]'22:00' }
+                ([DayOfWeek]::Sunday) { [TimeSpan]'09:00', [TimeSpan]'21:00' }
+                default { [timespan]'08:00', [timespan]'22:00' }
             }
         }
         1083 # Amstellandlaan, Weesp
         {
             switch ($DayOfWeek)
             {
-                ([DayOfWeek]::Sunday) { [TimeSpan]'09:00', [TimeSpan]'20:00' }
+                ([DayOfWeek]::Sunday) { [TimeSpan]'09:00', [TimeSpan]'21:00' }
                 default { [timespan]'07:00', [timespan]'22:00' }
             }
         }
@@ -31,7 +31,7 @@ function Get-NormalOpeningHours
             switch ($DayOfWeek)
             {
                 ([DayOfWeek]::Sunday) { break }
-                ([DayOfWeek]::Saturday) { [timespan]'08:00', [timespan]'21:00' }
+                ([DayOfWeek]::Saturday) { [timespan]'07:00', [timespan]'21:00' }
                 default { [timespan]'07:00', [timespan]'21:00' }
             }
         }
@@ -40,6 +40,8 @@ function Get-NormalOpeningHours
             switch ($DayOfWeek)
             {
                 ([DayOfWeek]::Sunday) { [TimeSpan]'09:00', [TimeSpan]'20:00' }
+                ([DayOfWeek]::Thursday) { [TimeSpan]'07:00', [TimeSpan]'22:00' }
+                ([DayOfWeek]::Friday) { [TimeSpan]'07:00', [TimeSpan]'22:00' }
                 default { [timespan]'07:00', [timespan]'21:00' }
             }
         }
@@ -65,11 +67,11 @@ Get-AHStore -ID 1844, 1083, 1541, 1855 `
         "{0} : {1}..{2}{3}" -f $_.From.Date.ToString('ddd dd MMM'), $_.From.ToString('HH:mm'), $_.To.ToString('HH:mm'), $SpecialTime
     }
 
-    Send-PushoverNotification `
-        -ApplicationToken a6tzomq6k7dhqmdro3x94iqitmnaih `
-        -Recipient gmgm9ds8jaeqimuzbbzrzso2i26cxz `
-        -Title $Store `
-        -Message ($OpeningHours -join "`r") `
-        -Monospace `
-        -Priority Lowest
+Send-PushoverNotification `
+    -ApplicationToken a6tzomq6k7dhqmdro3x94iqitmnaih `
+    -Recipient gmgm9ds8jaeqimuzbbzrzso2i26cxz `
+    -Title $Store `
+    -Message ($OpeningHours -join "`r") `
+    -Monospace `
+    -Priority Lowest
 }
