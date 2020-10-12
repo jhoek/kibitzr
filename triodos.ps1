@@ -1,24 +1,11 @@
 #!/usr/bin/env pwsh
 
-$BaseName = 'appijTztM8utviyTC'
-$TableName = 'Fund Price'
-
-Get-TriodosFundPrice |
-    ForEach-Object {
-        $Fields = [Ordered]@{
-            Date  = $_.Date
-            Fund  = $_.Fund
-            Price = $_.Price
-        }
-
-        New-AirTableRecord `
-            -BaseName $BaseName `
-            -TableName $TableName `
-            -Fields $Fields
-    }
-
-Find-AirTableRecord `
-    -BaseName $BaseName `
-    -TableName $TableName `
-    -MaxRecords 3 `
-    -Filter 'Fund="Triodos Global Equities Impact Fund"'
+Get-TriodosFundPrice
+| Where-Object Fund -eq 'Triodos Global Equities Impact Fund'
+| ForEach-Object {
+    Send-PushoverNotification `
+        -ApplicationToken a7dcpcdb8ekc4x5xmi7fo7zu4kgipc `
+        -Recipient gr9bpnx7bsdkgzvcdo3tq554f297s5 `
+        -Title $_.Fund `
+        -Message "EUR $($_.Price) on $(Get-Date -Date $_.Date -Format 'd')"
+}
