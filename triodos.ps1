@@ -5,7 +5,7 @@ $TableName = 'Fund Price'
 
 Get-TriodosFundPrice |
     ForEach-Object {
-        $Fields = @{
+        $Fields = [Ordered]@{
             Date  = $_.Date
             Fund  = $_.Fund
             Price = $_.Price
@@ -16,3 +16,9 @@ Get-TriodosFundPrice |
             -TableName $TableName `
             -Fields $Fields
     }
+
+Find-AirTableRecord `
+    -BaseName $BaseName `
+    -TableName $TableName `
+    -MaxRecords 3 `
+    -Filter 'Fund="Triodos Global Equities Impact Fund"'
