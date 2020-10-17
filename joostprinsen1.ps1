@@ -1,13 +1,17 @@
-2019..2020 | ForEach-Object {
-    1..12 | ForEach-Object {
-        $Url ='https://www.haarlemsdagblad.nl/zoeken?keyword=joost+prinsen&daterange=range&datestart=01/01/2019&dateend=31/01/2019'
-    }
+$DateFormat = 'dd/MM/yyyy'
+$FromDate = Get-Date -Year 2019 -Month 1 -Day 1
+$Today = Get-Date
+
+while ($FromDate -lt $Today)
+{
+    $ToDate = $FromDate.AddMonths(1).AddDays(-1)
+    $Url = 'https://www.haarlemsdagblad.nl/zoeken?keyword=joost+prinsen&daterange=range&datestart={0}&dateend={1}' -f $FromDate.ToString($DateFormat), $ToDate.ToString($DateFormat)
+
+    Invoke-WebRequest -Uri $Url |
+        Select-Object -ExpandProperty Links |
+        Select-Object -ExpandProperty href |
+        Where-Object { $_ -like '/cnt/dmf*' } |
+        ForEach-Object { "https://haarlemsdagblad.nl$($_)" }
+
+    $FromDate = $FromDate.AddMonths(1)
 }
-
-$Url ='https://www.haarlemsdagblad.nl/zoeken?keyword=joost+prinsen&daterange=range&datestart=01/01/2019&dateend=31/01/2019'
-
-Invoke-WebRequest -Uri $Url |
-Select-Object -ExpandProperty Links |
-Select-Object -ExpandProperty href |
-Where-Object { $_ -like '/cnt/dmf*'} |
-ForEach-Object { "https://haarlemsdagblad.nl$($_)"}
