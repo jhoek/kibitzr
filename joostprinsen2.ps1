@@ -1,4 +1,9 @@
-Invoke-WebRequest https://www.haarlemsdagblad.nl/cnt/DMF20201013_80076619/meneer-rouw-stapt-vermomd-en-op-de-meest-onverwachte-momenten-bij-me-binnen-column-joost-prinsen
+. ./Save-EntryToAirTable
+
+$DutchCulture = [cultureinfo]::GetCultureInfo('nl-NL')
+$Url = 'https://www.haarlemsdagblad.nl/cnt/DMF20201013_80076619/meneer-rouw-stapt-vermomd-en-op-de-meest-onverwachte-momenten-bij-me-binnen-column-joost-prinsen'
+
+Invoke-WebRequest $Url
 | Select-Object -ExpandProperty Content
 | pup 'script json{}'
 | ConvertFrom-Json
@@ -7,4 +12,14 @@ Invoke-WebRequest https://www.haarlemsdagblad.nl/cnt/DMF20201013_80076619/meneer
 | ForEach-Object { $_ -replace '^window\["__PRELOADED_STATE_GRAPH__[^"]*"\] = ', '' }
 | jq '[.[]][0] | { title: .title, intro: ([.intro.json[].p]|join(\" \")), body: ([.body.json[].p]|join(\" \"))}'
 | ConvertFrom-Json
-| Format-List
+| ForEach-Object {
+    $Url -match 'DMF(\d{8})' | Out-Null
+    $Date = [DateTime]::ParseExact($Matches[1], 'yyyyMMdd', $DutchCulture)
+
+    Save-EntryToAirTable `
+        -Url $Url `
+        -Date $Date `
+        -Title $_.Title `
+        -Body @($_.Intro, $_.Body) -join ' ' `
+        -TableName rss
+}
