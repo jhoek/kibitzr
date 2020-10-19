@@ -1,3 +1,5 @@
+#!/usr/bin/env pwsh
+
 Set-Location -Path ~/GitHub/tvguide -ErrorAction Stop
 
 $Channels = @{
