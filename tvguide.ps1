@@ -1,6 +1,6 @@
 #!/usr/bin/env pwsh
 
-Set-Location -Path ~/GitHub/tvguide -ErrorAction Stop
+Set-Location -Path ~/github/tvguide -ErrorAction Stop
 
 $Channels = @{
     'npo-1'    = 'NPO 1'
