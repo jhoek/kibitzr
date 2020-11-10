@@ -1,3 +1,4 @@
+#!/usr/bin/env pwsh
 $DateFormat = 'dd/MM/yyyy'
 $FromDate = Get-Date -Year 2019 -Month 1 -Day 1
 $Today = Get-Date
