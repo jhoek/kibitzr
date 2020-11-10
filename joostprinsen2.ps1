@@ -1,7 +1,7 @@
 #!/usr/bin/env pwsh
 param(
     [Parameter(Mandatory, ValueFromPipeline = $true)]
-    [string]$Url
+    [string[]]$Url
 )
 
 begin
