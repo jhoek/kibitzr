@@ -13,7 +13,9 @@ begin
 process
 {
     $Url.ForEach{
-        Invoke-WebRequest $_
+        $CurrentUrl = $_
+
+        Invoke-WebRequest $CurrentUrl
         | Select-Object -ExpandProperty Content
         | pup 'script json{}'
         | ConvertFrom-Json
@@ -23,7 +25,7 @@ process
         | jq '[.[]][0] | { title: .title, intro: ([.intro.json[].p]|join(\" \")), body: ([.body.json[].p]|join(\" \"))}'
         | ConvertFrom-Json
         | ForEach-Object {
-            $Url -match 'DMF(\d{8})' | Out-Null
+            $CurrentUrl -match 'dmf(\d{8})' | Out-Null
             $Date = [DateTime]::ParseExact($Matches[1], 'yyyyMMdd', $DutchCulture)
 
             Save-EntryToAirTable `
