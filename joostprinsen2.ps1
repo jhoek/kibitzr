@@ -12,7 +12,7 @@ begin
 
 process
 {
-    Invoke-WebRequest $Url
+    Invoke-WebRequest $_
     | Select-Object -ExpandProperty Content
     | pup 'script json{}'
     | ConvertFrom-Json
