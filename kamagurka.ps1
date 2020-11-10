@@ -11,7 +11,7 @@ Invoke-WebRequest -Uri 'https://www.nrc.nl/rubriek/kamagurka/' `
     $Url = [regex]::Match($_.children[0].children[0].children[1].text, 'src="(.*)"').Groups[1].Value
     $Body = "https://www.nrc.nl$($_.href)"
     $DateElements = $_.href -split '/'
-    $Date = Get-Date -Year $DateElements[2] -Month $DateElements[3] -Day $DateElements[4]
+    $Date = Get-Date -Year $DateElements[3] -Month $DateElements[4] -Day $DateElements[5]
     $Title = 'Kamagurka {0:dddd d MMMM yyyy}' -f $Date
 
     Send-KibitzrNotification `
