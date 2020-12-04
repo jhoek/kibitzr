@@ -1,4 +1,7 @@
 #!/usr/bin/env pwsh
+# TODO: download iplayer config and history from Dropbox
+# TODO: configure iplayer to use downloaded config/history
+
 . ./Send-KibitzrNotification.ps1
 
 Find-AirTableRecord -BaseName appgyJZy5Dkjup0K4 -TableName Programmes `
