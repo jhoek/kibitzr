@@ -1,6 +1,7 @@
 #!/usr/bin/env pwsh
 # TODO: download iplayer config and history from Dropbox
 # TODO: configure iplayer to use downloaded config/history
+# MAYBE: don't send notification, but add to Things
 
 . ./Send-KibitzrNotification.ps1
 
