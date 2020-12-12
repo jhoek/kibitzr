@@ -6,7 +6,7 @@ $env:PATH = ($env:PATH, '/usr/local/bin') -join ':'
 | ForEach-Object {
     Get-P2000Entry -PostCode $_ `
     | Where-Object Priority -In 'P1', 'A1' `
-    | Where-Object DateTime -GT (Get-Date).AddMinutes(-10) `
+    | Where-Object DateTime -GT (Get-Date).AddMinutes(-3) `
     | Select-Object -First 10 `
     | ForEach-Object {
         Send-PushoverNotification `
