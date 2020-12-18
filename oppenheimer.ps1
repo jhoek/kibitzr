@@ -19,6 +19,6 @@ Invoke-WebRequest -Uri 'https://www.nrc.nl/rubriek/ruben-l-oppenheimer/' `
         -Url $_ `
         -ApplicationToken a7sw8gciyp7mn9ddgi9wcmbd15yk73 `
         -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp `
-        -Message ('Ruben L. Oppenheimer {0:dddd d MMMM yyyy}' -f $Date) `
+        -Message ('{0:dddd d MMMM yyyy}' -f $Date) `
         -ImageUrl $ImageUrl
 }
