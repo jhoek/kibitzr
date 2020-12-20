@@ -1,77 +1,23 @@
 #!/usr/bin/pwsh
-function Get-NormalOpeningHours
+Push-Location -Path ~/github/ah -ErrorAction Stop
+
+try
 {
-    param
-    (
-        [Parameter(Mandatory)][int]$StoreID,
-        [Parameter(Mandatory)][DayOfWeek]$DayOfWeek,
-        [Parameter(Mandatory)][ValidateSet('From', 'To')][string]$Which
-    )
+    Get-AHStore -ID 1844, 1083, 1541, 1855 `
+    | ForEach-Object {
+        $CurrentStore = $_
+        $Description = "AH $($CurrentStore.Street) ($($CurrentStore.City))"
 
-    $From, $To = switch ($StoreID)
-    {
-        1844 #Achtergracht, Weesp
-        {
-            switch ($DayOfWeek)
-            {
-                ([DayOfWeek]::Sunday) { [TimeSpan]'09:00', [TimeSpan]'21:00' }
-                default { [timespan]'08:00', [timespan]'22:00' }
-            }
-        }
-        1083 # Amstellandlaan, Weesp
-        {
-            switch ($DayOfWeek)
-            {
-                ([DayOfWeek]::Sunday) { [TimeSpan]'09:00', [TimeSpan]'21:00' }
-                default { [timespan]'07:00', [timespan]'22:00' }
-            }
-        }
-        1541 # Weth. van der Veldenweg, Numansdorp
-        {
-            switch ($DayOfWeek)
-            {
-                ([DayOfWeek]::Sunday) { break }
-                ([DayOfWeek]::Saturday) { [timespan]'07:00', [timespan]'21:00' }
-                default { [timespan]'07:00', [timespan]'21:00' }
-            }
-        }
-        1855 # Maxis
-        {
-            switch ($DayOfWeek)
-            {
-                ([DayOfWeek]::Sunday) { [TimeSpan]'09:00', [TimeSpan]'20:00' }
-                ([DayOfWeek]::Thursday) { [TimeSpan]'07:00', [TimeSpan]'22:00' }
-                ([DayOfWeek]::Friday) { [TimeSpan]'07:00', [TimeSpan]'22:00' }
-                default { [timespan]'07:00', [timespan]'21:00' }
-            }
-        }
-    }
-
-    switch ($Which)
-    {
-        'From' { $From }
-        'To' { $To }
-    }
+        $CurrentStore.OpeningHours | ForEach-Object {
+            New-CalendarEvent -Start $_.From -End $_.To -Summary $Description
+        } | Export-Calendar -Name $Description -Path "$($CurrentStore.ID).ics"
 }
 
-
-Get-AHStore -ID 1844, 1083, 1541, 1855 `
-| ForEach-Object {
-    $CurrentStore = $_
-
-    $Store = "$($CurrentStore.City), $($CurrentStore.Street)"
-    $OpeningHours = $CurrentStore.OpeningHours | ForEach-Object {
-        $SpecialFromTime = $_.From.TimeOfDay -ne (Get-NormalOpeningHours -StoreID $CurrentStore.ID -DayOfWeek $_.From.DayOfWeek -Which From)
-        $SpecialToTime = $_.To.TimeOfDay -ne (Get-NormalOpeningHours -StoreID $CurrentStore.ID -DayOfWeek $_.To.DayOfWeek -Which To)
-        $SpecialTime = if ($SpecialFromTime -or $SpecialToTime) { ' (!)' }
-        "{0} : {1}..{2}{3}" -f $_.From.Date.ToString('ddd dd MMM'), $_.From.ToString('HH:mm'), $_.To.ToString('HH:mm'), $SpecialTime
-    }
-
-Send-PushoverNotification `
-    -ApplicationToken a6tzomq6k7dhqmdro3x94iqitmnaih `
-    -Recipient gmgm9ds8jaeqimuzbbzrzso2i26cxz `
-    -Title $Store `
-    -Message ($OpeningHours -join "`r") `
-    -Monospace `
-    -Priority Lowest
+git add *
+git commit -m "Updated AH opening hours from $(uname -n)"
+git push
+}
+finally
+{
+    Pop-Location
 }
