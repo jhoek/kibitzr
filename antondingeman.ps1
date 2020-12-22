@@ -1,7 +1,7 @@
 #!/usr/bin/pwsh
 . $PSScriptRoot/Send-KibitzrNotification.ps1
 
-Invoke-WebRequest -Uri https://www.trouw.nl/cartoons/de-wereld-van-anton-dingeman~b7e8c8e1/ `
+Invoke-WebRequest -Uri https://www.trouw.nl/achterpagina/de-wereld-van-anton-dingeman~bc95f3a8/ `
 | Select-Object -ExpandProperty Content `
 | pup 'img.artstyle__image attr{data-original}' --plain `
 | ForEach-Object {
