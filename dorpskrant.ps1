@@ -8,10 +8,11 @@ Invoke-WebRequest -Uri 'https://www.driemond.info/dorpskrant/'
 | ConvertFrom-Json
 | ForEach-Object {
     $Url = "https://driemond.info$($($_.link))"
+    $UniqueID = $Url -replace '\?t=\d+$', ''
 
     Send-KibitzrNotification `
         -Url $Url `
-        -UniqueID $Url `
+        -UniqueID $UniqueID `
         -ApplicationToken a53g88zpsxd8srdx5ufzu9aq1w73gd `
         -Recipient gd3q14vf9sq3nhj7tqt7icrqpojwcv `
         -Title $_.message `
