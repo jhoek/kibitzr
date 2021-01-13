@@ -25,3 +25,9 @@ Get-TeletekstNews -Type Domestic, Foreign `
         -Title $_.Title `
         -Message $_.Content
 }
+
+# Locale cache in json-formaat
+# Bij aanroep eerst oude berichten (> 2 dgn?) opkuisen
+# Eerst op hash vergelijken met cached item? gelijk = exit
+# Dan als titel *en* body beide niet similar aan cached items: notificatie
+# Nieuwe item cachen
