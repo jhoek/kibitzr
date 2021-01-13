@@ -1,4 +1,5 @@
 #!/usr/bin/pwsh
+. $PSScriptRoot/Get-TextSimilarity.ps1
 . $PSScriptRoot/Send-KibitzrNotification.ps1
 Import-Module UncommonSense.Teletekst
 
@@ -15,19 +16,53 @@ function ConvertTo-Base64
     )
 }
 
-Get-TeletekstNews -Type Domestic, Foreign `
-| ForEach-Object {
-    Send-KibitzrNotification `
-        -Url $_.Link `
-        -UniqueID (ConvertTo-Base64 -Value "$($_.Title) - $($_.Content)") `
-        -ApplicationToken asxmmq8g95jt4ed1qcrucdvu2iuy67 `
-        -Recipient gajrpycu8sq39dfbjn8ipjhypkhc7x `
-        -Title $_.Title `
-        -Message $_.Content
+$CachedItems = @()
+$AddToCache = @()
+
+$Begin = {
+    if (Test-Path -Path $PSScriptRoot/teletekst.json) 
+    {
+        $CachedItems = 
+        Get-Content -Path $PSScriptRoot/teletekst.json 
+        | ConvertFrom-Json -Depth 10
+        | Where-Object DateTime -GT (Get-Date).AddDays(-2)
+    }
 }
 
-# Locale cache in json-formaat
-# Bij aanroep eerst oude berichten (> 2 dgn?) opkuisen
-# Eerst op hash vergelijken met cached item? gelijk = exit
-# Dan als titel *en* body beide niet similar aan cached items: notificatie
-# Nieuwe item cachen
+$Process = {
+    $CurrentItem = $_
+    $Hash = (ConvertTo-Base64 -Value "$($CurrentItem.Title) - $($CurrentItem.Content)")
+
+    if ($CachedItems | Where-Object Hash -EQ $Hash) { exit }
+
+    $AnySimilar = $CachedItems.ForEach{
+        $TitleSimilar = (Get-TextSimilarity $CurrentItem.Title $_.Title) -gt 0.7 
+        $ContentSimilar = (Get-TextSimilarity $CurrentItem.Content $_.Content) -gt 0.7
+        $TitleSimilar -or $ContentSimilar
+    }
+
+    if (-not($AnySimilar))
+    {
+        Send-PushoverNotification `
+            -ApplicationToken asxmmq8g95jt4ed1qcrucdvu2iuy67 `
+            -Recipient gajrpycu8sq39dfbjn8ipjhypkhc7x `
+            -Title $CurrentItem.Title `
+            -Message $CurrentItem.Content `
+            -SupplementaryUrl $CurrentItem.Link
+    }
+
+    $AddToCache = $AddToCache + [PSCustomObject]@{
+        Title    = $CurrentItem.Title
+        Content  = $CurrentItem.Content
+        Hash     = $Hash
+        DateTime = (Get-Date)
+    }
+}
+
+$End = {
+    $CachedItems = $CachedItems + $AddToCache
+    $CachedItems | ConvertTo-Json -Depth 10 | Set-Content -Path $PSScriptRoot/teletekst.json
+}
+
+Get-TeletekstNews -Type Domestic, Foreign `
+| ForEach-Object -Begin $Begin -Process $Process -End $End
