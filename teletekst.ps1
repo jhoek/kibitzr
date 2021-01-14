@@ -1,6 +1,7 @@
 #!/usr/bin/pwsh
 . $PSScriptRoot/Get-TextSimilarity.ps1
 . $PSScriptRoot/Send-KibitzrNotification.ps1
+
 Import-Module UncommonSense.Teletekst
 
 function ConvertTo-Base64
@@ -20,25 +21,37 @@ $CachedItems = @()
 $AddToCache = @()
 
 $Begin = {
-    if (Test-Path -Path $PSScriptRoot/teletekst.json) 
+    if (Test-Path -Path $PSScriptRoot/teletekst.json)
     {
-        $CachedItems = 
-        Get-Content -Path $PSScriptRoot/teletekst.json 
+        $CachedItems =
+        Get-Content -Path $PSScriptRoot/teletekst.json
         | ConvertFrom-Json -Depth 10
         | Where-Object DateTime -GT (Get-Date).AddDays(-2)
-    }
+}
 }
 
 $Process = {
     $CurrentItem = $_
     $Hash = (ConvertTo-Base64 -Value "$($CurrentItem.Title) - $($CurrentItem.Content)")
 
-    if ($CachedItems | Where-Object Hash -EQ $Hash) { exit }
+    if ($CachedItems | Where-Object Hash -EQ $Hash)
+    {
+        Write-Verbose "$($CurrentItem.Title) unchanged; skipping"
+        exit
+    }
 
-    $AnySimilar = $CachedItems.ForEach{
-        $TitleSimilar = (Get-TextSimilarity $CurrentItem.Title $_.Title) -gt 0.7 
-        $ContentSimilar = (Get-TextSimilarity $CurrentItem.Content $_.Content) -gt 0.7
-        $TitleSimilar -or $ContentSimilar
+    $AnySimilar = $CachedItems.Where{
+        if ((Get-TextSimilarity $CurrentItem.Title $_.Title) -gt 0.7)
+        {
+            Write-Host "Title $($CurrentItem.Title) matches cached title $($_.Title)"
+            return $_
+        }
+
+        if ((Get-TextSimilarity $CurrentItem.Content $_.Content) -gt 0.7)
+        {
+            Write-Host "Content $($CurrentItem.Content) matches cached content $($_.Content)"
+            return $_
+        }
     }
 
     if (-not($AnySimilar))
@@ -55,7 +68,7 @@ $Process = {
         Title    = $CurrentItem.Title
         Content  = $CurrentItem.Content
         Hash     = $Hash
-        DateTime = (Get-Date)
+        DateTime = (Get-Date).ToString('s')
     }
 }
 
@@ -65,4 +78,4 @@ $End = {
 }
 
 Get-TeletekstNews -Type Domestic, Foreign `
-| ForEach-Object -Begin $Begin -Process $Process -End $End
+| ForEach-Object -Begin $Begin -Process $Process -End $End -Verbose
