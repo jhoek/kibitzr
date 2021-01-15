@@ -66,6 +66,7 @@ function Send-TeletekstNotification
             $CurrentCachedItem = $_
             $CurrentCachedItemAsText = "$($CurrentCachedItem.Title) - $($CurrentCachedItem.Content)"
             $Similarity = Get-TextSimilarity $CurrentItemAsText $CurrentCachedItemAsText
+            Write-Verbose "Similarity with '$($CurrentCachedItem.Title)' was $Similarity"
 
             if ($Similarity -gt 0.7)
             {
@@ -132,7 +133,7 @@ end
 
 Send-TeletekstNotification `
     -Title 'My Title Goes Here' `
-    -Content 'hello! Your Content Goes Here. My Text Goes Here. My Content Goes Here.' `
+    -Content 'Your Content Goes Here. My Text Goes Here. My Content Goes Here.' `
     -Link 'https://example.com' `
     -DateTime (Get-Date) `
     -Verbose
