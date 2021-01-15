@@ -29,20 +29,23 @@ function Send-TeletekstNotification
         $CachedItems = New-Object -TypeName System.Collections.ArrayList
         $AddToCache = New-Object -TypeName System.Collections.ArrayList
 
+        Write-Verbose "Using cache path $CachePath"
+
         if (Test-Path -Path $CachePath)
         {
-            Write-Verbose "Using cache path $CachePath"
+            Write-Verbose "Loading cache file"
 
-            $CachedItems.AddRange(
-                @(,
-                    (Get-Content -Path $PSScriptRoot/teletekst.json |
-                            ConvertFrom-Json -Depth 10 |
-                            Where-Object DateTime -GT (Get-Date).AddDays(-2)
-                    )
-                )
-            )
+            $CacheFileContents = Get-Content -Path $CachePath |
+                ConvertFrom-Json -Depth 10 |
+                Where-Object DateTime -GT (Get-Date).AddDays(-2)
+            $CacheFileContents = @(, $CacheFileContents)
+            $CachedItems.AddRange($CacheFileContents)
 
             Write-Verbose "$($CachedItems.Length) items found in cache file."
+        }
+        else
+        {
+            Write-Verbose "Cache file not found"
         }
     }
 
@@ -50,13 +53,14 @@ function Send-TeletekstNotification
     {
         $CurrentItemAsText = "$Title - $Content"
         $Hash = (ConvertTo-Base64 -Value $CurrentItemAsText)
-        $OriginalItemWasFound = $false
 
         if ($CachedItems | Where-Object Hash -EQ $Hash)
         {
             Write-Verbose "'$Title' unchanged; skipping"
             return
         }
+
+        $SimilarItemWasFound = $false
 
         $CachedItems.ForEach{
             $CurrentCachedItem = $_
@@ -67,6 +71,13 @@ function Send-TeletekstNotification
             {
                 Write-Verbose "'$Title' was updated; sending notification"
 
+                Send-PushoverNotification `
+                    -ApplicationToken asxmmq8g95jt4ed1qcrucdvu2iuy67 `
+                    -Recipient gajrpycu8sq39dfbjn8ipjhypkhc7x `
+                    -Title $Title `
+                    -Message $Content `
+                    -SupplementaryUrl $Link
+
                 $AddToCache.Add(
                     [PSCustomObject]@{
                         Title    = $Title
@@ -76,12 +87,12 @@ function Send-TeletekstNotification
                     }
                 ) | Out-Null
 
-            $OriginalItemWasFound = $true
-            return # continue? exit? ...?
+            $SimilarItemWasFound = $true
+            return
         }
-
-        if ($OriginalItemWasFound) { return }
     }
+
+    if ($SimilarItemWasFound) { return }
 
     Write-Verbose "'$Title' new or substantially different; sending notification"
 
@@ -104,16 +115,24 @@ function Send-TeletekstNotification
 
 end
 {
-    $CachedItems.AddRange($AddToCache)
-    $CachedItems | ConvertTo-Json -Depth 10 | Set-Content -Path $PSScriptRoot/teletekst.json
+    if ($AddToCache)
+    {
+        Write-Verbose "Adding $($AddToCache.Count) new items to the cache"
+        $CachedItems.AddRange($AddToCache)
+    }
+
+    Write-Verbose "Writing $($CachedItems.Count) items to cache path $CachePath"
+    $CachedItems | ConvertTo-Json -Depth 10 | Set-Content -Path $CachePath
 }
 }
 
 #Get-TeletekstNews -Type Domestic, Foreign |
 
+# Remove-Item -Path $PSScriptRoot/teletekst.json -ErrorAction SilentlyContinue
+
 Send-TeletekstNotification `
     -Title 'My Title Goes Here' `
-    -Content 'My Content Goes Here. My Text Goes Here. My Content Goes Here.' `
+    -Content 'hello! Your Content Goes Here. My Text Goes Here. My Content Goes Here.' `
     -Link 'https://example.com' `
     -DateTime (Get-Date) `
     -Verbose
