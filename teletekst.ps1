@@ -26,16 +26,21 @@ function Send-TeletekstNotification
 
     begin
     {
-        $CachedItems = @()
-        $AddToCache = @()
+        $CachedItems = New-Object -TypeName System.Collections.ArrayList
+        $AddToCache = New-Object -TypeName System.Collections.ArrayList
 
         if (Test-Path -Path $CachePath)
         {
             Write-Verbose "Using cache path $CachePath"
 
-            $CachedItems = Get-Content -Path $PSScriptRoot/teletekst.json |
-                ConvertFrom-Json -Depth 10 |
-                Where-Object DateTime -GT (Get-Date).AddDays(-2)
+            $CachedItems.AddRange(
+                @(,
+                    (Get-Content -Path $PSScriptRoot/teletekst.json |
+                            ConvertFrom-Json -Depth 10 |
+                            Where-Object DateTime -GT (Get-Date).AddDays(-2)
+                    )
+                )
+            )
 
             Write-Verbose "$($CachedItems.Length) items found in cache file."
         }
@@ -43,13 +48,12 @@ function Send-TeletekstNotification
 
     process
     {
-        $CurrentItem = $_
-        $CurrentItemAsText = "$($CurrentItem.Title) - $($CurrentItem.Content)"
+        $CurrentItemAsText = "$Title - $Content"
         $Hash = (ConvertTo-Base64 -Value $CurrentItemAsText)
 
         if ($CachedItems | Where-Object Hash -EQ $Hash)
         {
-            Write-Verbose "$($CurrentItem.Title) unchanged; skipping"
+            Write-Verbose "'$Title' unchanged; skipping"
             return
         }
 
@@ -58,45 +62,54 @@ function Send-TeletekstNotification
             $CurrentCachedItemAsText = "$($CurrentCachedItem.Title) - $($CurrentCachedItem.Content)"
             $Similarity = Get-TextSimilarity $CurrentItemAsText $CurrentCachedItemAsText
 
-            if ($Similarity) -gt 0.7
+            if ($Similarity -gt 0.7)
             {
-                # Send as update
+                Write-Verbose "'$Title' was updated; sending notification"
 
-                $AddToCache = $AddToCache + [PSCustomObject]@{
-                    Title    = $CurrentItem.Title
-                    Content  = $CurrentItem.Content
-                    Hash     = $Hash
-                    DateTime = (Get-Date).ToString('s')
-                }
+                $AddToCache.Add(
+                    [PSCustomObject]@{
+                        Title    = $Title
+                        Content  = $Content
+                        Hash     = $Hash
+                        DateTime = $DateTime
+                    }
+                )
 
-                return
+                return # continue? exit? ...?
             }
         }
 
-        Write-Verbose "New (or substantially changed) item '$($CurrentItem.Title)'"
+        Write-Verbose "'$Title' new or substantially different; sending notification"
 
         Send-PushoverNotification `
             -ApplicationToken asxmmq8g95jt4ed1qcrucdvu2iuy67 `
             -Recipient gajrpycu8sq39dfbjn8ipjhypkhc7x `
-            -Title $CurrentItem.Title `
-            -Message $CurrentItem.Content `
-            -SupplementaryUrl $CurrentItem.Link
+            -Title $Title `
+            -Message $Content `
+            -SupplementaryUrl $Link
 
-        $AddToCache = $AddToCache + [PSCustomObject]@{
-            Title    = $CurrentItem.Title
-            Content  = $CurrentItem.Content
-            Hash     = $Hash
-            DateTime = (Get-Date).ToString('s')
-        }
-
+        $AddToCache.Add(
+            [PSCustomObject]@{
+                Title    = $Title
+                Content  = $Content
+                Hash     = $Hash
+                DateTime = $DateTime
+            }
+        )
     }
 
     end
     {
-        $CachedItems = $CachedItems + $AddToCache
+        $CachedItems.AddRange($AddToCache)
         $CachedItems | ConvertTo-Json -Depth 10 | Set-Content -Path $PSScriptRoot/teletekst.json
-
     }
 }
 
-Get-TeletekstNews -Type Domestic, Foreign | Send-TeletekstNotification -Verbose
+#Get-TeletekstNews -Type Domestic, Foreign |
+
+Send-TeletekstNotification `
+    -Title 'My Title Goes Here' `
+    -Content 'My Content Goes Here. My Content Goes Here. My Content Goes Here.' `
+    -Link 'https://example.com' `
+    -DateTime (Get-Date) `
+    -Verbose
