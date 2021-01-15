@@ -50,6 +50,7 @@ function Send-TeletekstNotification
     {
         $CurrentItemAsText = "$Title - $Content"
         $Hash = (ConvertTo-Base64 -Value $CurrentItemAsText)
+        $OriginalItemWasFound = $false
 
         if ($CachedItems | Where-Object Hash -EQ $Hash)
         {
@@ -73,43 +74,46 @@ function Send-TeletekstNotification
                         Hash     = $Hash
                         DateTime = $DateTime
                     }
-                )
+                ) | Out-Null
 
-                return # continue? exit? ...?
-            }
+            $OriginalItemWasFound = $true
+            return # continue? exit? ...?
         }
 
-        Write-Verbose "'$Title' new or substantially different; sending notification"
-
-        Send-PushoverNotification `
-            -ApplicationToken asxmmq8g95jt4ed1qcrucdvu2iuy67 `
-            -Recipient gajrpycu8sq39dfbjn8ipjhypkhc7x `
-            -Title $Title `
-            -Message $Content `
-            -SupplementaryUrl $Link
-
-        $AddToCache.Add(
-            [PSCustomObject]@{
-                Title    = $Title
-                Content  = $Content
-                Hash     = $Hash
-                DateTime = $DateTime
-            }
-        )
+        if ($OriginalItemWasFound) { return }
     }
 
-    end
-    {
-        $CachedItems.AddRange($AddToCache)
-        $CachedItems | ConvertTo-Json -Depth 10 | Set-Content -Path $PSScriptRoot/teletekst.json
-    }
+    Write-Verbose "'$Title' new or substantially different; sending notification"
+
+    Send-PushoverNotification `
+        -ApplicationToken asxmmq8g95jt4ed1qcrucdvu2iuy67 `
+        -Recipient gajrpycu8sq39dfbjn8ipjhypkhc7x `
+        -Title $Title `
+        -Message $Content `
+        -SupplementaryUrl $Link
+
+    $AddToCache.Add(
+        [PSCustomObject]@{
+            Title    = $Title
+            Content  = $Content
+            Hash     = $Hash
+            DateTime = $DateTime
+        }
+    ) | Out-Null
+}
+
+end
+{
+    $CachedItems.AddRange($AddToCache)
+    $CachedItems | ConvertTo-Json -Depth 10 | Set-Content -Path $PSScriptRoot/teletekst.json
+}
 }
 
 #Get-TeletekstNews -Type Domestic, Foreign |
 
 Send-TeletekstNotification `
     -Title 'My Title Goes Here' `
-    -Content 'My Content Goes Here. My Content Goes Here. My Content Goes Here.' `
+    -Content 'My Content Goes Here. My Text Goes Here. My Content Goes Here.' `
     -Link 'https://example.com' `
     -DateTime (Get-Date) `
     -Verbose
