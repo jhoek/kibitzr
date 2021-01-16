@@ -62,6 +62,8 @@ function Send-TeletekstNotification
 
         $SimilarItemWasFound = $false
 
+        # FIXME: Consider similarity with all cached items, only resend if none matches
+
         $CachedItems.ForEach{
             $CurrentCachedItem = $_
             $CurrentCachedItemAsText = "$($CurrentCachedItem.Title) - $($CurrentCachedItem.Content)"
@@ -88,43 +90,43 @@ function Send-TeletekstNotification
                     }
                 ) | Out-Null
 
-            $SimilarItemWasFound = $true
-            return
+                $SimilarItemWasFound = $true
+                return
+            }
         }
+
+        if ($SimilarItemWasFound) { return }
+
+        Write-Verbose "'$Title' new or substantially different; sending notification"
+
+        Send-PushoverNotification `
+            -ApplicationToken asxmmq8g95jt4ed1qcrucdvu2iuy67 `
+            -Recipient gajrpycu8sq39dfbjn8ipjhypkhc7x `
+            -Title $Title `
+            -Message $Content `
+            -SupplementaryUrl $Link
+
+        $AddToCache.Add(
+            [PSCustomObject]@{
+                Title    = $Title
+                Content  = $Content
+                Hash     = $Hash
+                DateTime = $DateTime
+            }
+        ) | Out-Null
     }
 
-    if ($SimilarItemWasFound) { return }
-
-    Write-Verbose "'$Title' new or substantially different; sending notification"
-
-    Send-PushoverNotification `
-        -ApplicationToken asxmmq8g95jt4ed1qcrucdvu2iuy67 `
-        -Recipient gajrpycu8sq39dfbjn8ipjhypkhc7x `
-        -Title $Title `
-        -Message $Content `
-        -SupplementaryUrl $Link
-
-    $AddToCache.Add(
-        [PSCustomObject]@{
-            Title    = $Title
-            Content  = $Content
-            Hash     = $Hash
-            DateTime = $DateTime
-        }
-    ) | Out-Null
-}
-
-end
-{
-    if ($AddToCache)
+    end
     {
-        Write-Verbose "Adding $($AddToCache.Count) new items to the cache"
-        $CachedItems.AddRange($AddToCache)
-    }
+        if ($AddToCache)
+        {
+            Write-Verbose "Adding $($AddToCache.Count) new items to the cache"
+            $CachedItems.AddRange($AddToCache)
+        }
 
-    Write-Verbose "Writing $($CachedItems.Count) items to cache path $CachePath"
-    $CachedItems | ConvertTo-Json -Depth 10 | Set-Content -Path $CachePath
-}
+        Write-Verbose "Writing $($CachedItems.Count) items to cache path $CachePath"
+        $CachedItems | ConvertTo-Json -Depth 10 | Set-Content -Path $CachePath
+    }
 }
 
 #Get-TeletekstNews -Type Domestic, Foreign |
@@ -133,7 +135,7 @@ end
 
 Send-TeletekstNotification `
     -Title 'My Title Goes Here' `
-    -Content 'Your Content Goes Here. My Text Goes Here. My Content Goes Here.' `
+    -Content 'My Content Goes Here. My Text Goes Here. My Content Goes Here.' `
     -Link 'https://example.com' `
     -DateTime (Get-Date) `
     -Verbose
