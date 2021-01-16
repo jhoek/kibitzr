@@ -38,10 +38,15 @@ function Send-TeletekstNotification
             $CacheFileContents = Get-Content -Path $CachePath |
                 ConvertFrom-Json -Depth 10 |
                 Where-Object DateTime -GT (Get-Date).AddDays(-2)
-            $CacheFileContents = @(, $CacheFileContents)
+
+            if ($CacheFileContents.Length -eq 1)
+            {
+                $CacheFileContents = , $CacheFileContents 
+            }
+
             $CachedItems.AddRange($CacheFileContents)
 
-            Write-Verbose "$($CachedItems.Length) items found in cache file."
+            Write-Verbose "$($CachedItems.Count) items found in cache file."
         }
         else
         {
@@ -59,43 +64,43 @@ function Send-TeletekstNotification
             Write-Verbose "'$Title' unchanged; skipping"
             return
         }
+        else
+        {            
+            Write-Verbose "Hash of '$Title' is unknown"
+        }
 
         $SimilarItemWasFound = $false
-
-        # FIXME: Consider similarity with all cached items, only resend if none matches
 
         $CachedItems.ForEach{
             $CurrentCachedItem = $_
             $CurrentCachedItemAsText = "$($CurrentCachedItem.Title) - $($CurrentCachedItem.Content)"
             $Similarity = Get-TextSimilarity $CurrentItemAsText $CurrentCachedItemAsText
             Write-Verbose "Similarity with '$($CurrentCachedItem.Title)' was $Similarity"
-
-            if ($Similarity -gt 0.7)
-            {
-                Write-Verbose "'$Title' was updated; sending notification"
-
-                Send-PushoverNotification `
-                    -ApplicationToken asxmmq8g95jt4ed1qcrucdvu2iuy67 `
-                    -Recipient gajrpycu8sq39dfbjn8ipjhypkhc7x `
-                    -Title $Title `
-                    -Message $Content `
-                    -SupplementaryUrl $Link
-
-                $AddToCache.Add(
-                    [PSCustomObject]@{
-                        Title    = $Title
-                        Content  = $Content
-                        Hash     = $Hash
-                        DateTime = $DateTime
-                    }
-                ) | Out-Null
-
-                $SimilarItemWasFound = $true
-                return
-            }
+            $SimilarItemWasFound = $SimilarItemWasFound -or ($Similarity -gt 0.7)
         }
 
-        if ($SimilarItemWasFound) { return }
+        if ($SimilarItemWasFound)
+        { 
+            Write-Verbose "'$Title' was updated; sending notification"
+
+            Send-PushoverNotification `
+                -ApplicationToken asxmmq8g95jt4ed1qcrucdvu2iuy67 `
+                -Recipient gajrpycu8sq39dfbjn8ipjhypkhc7x `
+                -Title $Title `
+                -Message $Content `
+                -SupplementaryUrl $Link
+
+            $AddToCache.Add(
+                [PSCustomObject]@{
+                    Title    = $Title
+                    Content  = $Content
+                    Hash     = $Hash
+                    DateTime = $DateTime
+                }
+            ) | Out-Null
+
+            return
+        }
 
         Write-Verbose "'$Title' new or substantially different; sending notification"
 
@@ -105,7 +110,7 @@ function Send-TeletekstNotification
             -Title $Title `
             -Message $Content `
             -SupplementaryUrl $Link
-
+    
         $AddToCache.Add(
             [PSCustomObject]@{
                 Title    = $Title
@@ -113,7 +118,7 @@ function Send-TeletekstNotification
                 Hash     = $Hash
                 DateTime = $DateTime
             }
-        ) | Out-Null
+        ) | Out-Null    
     }
 
     end
@@ -135,7 +140,7 @@ function Send-TeletekstNotification
 
 Send-TeletekstNotification `
     -Title 'My Title Goes Here' `
-    -Content 'My Content Goes Here. My Text Goes Here. My Content Goes Here.' `
+    -Content 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' `
     -Link 'https://example.com' `
     -DateTime (Get-Date) `
     -Verbose
