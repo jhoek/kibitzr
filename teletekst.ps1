@@ -134,13 +134,5 @@ function Send-TeletekstNotification
     }
 }
 
-Get-TeletekstNews -Type Domestic, Foreign | Send-TeletekstNotification -Verbose
-
-# Remove-Item -Path $PSScriptRoot/teletekst.json -ErrorAction SilentlyContinue
-
-# Send-TeletekstNotification `
-#     -Title 'My Title Goes Here' `
-#     -Content 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.' `
-#     -Link 'https://example.com' `
-#     -DateTime (Get-Date) `
-#     -Verbose
+Get-TeletekstNews -Type Domestic, Foreign | 
+    Send-TeletekstNotification -Verbose
