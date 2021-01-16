@@ -14,5 +14,5 @@ Invoke-WebRequest -Uri https://www.volkskrant.nl/auteur/eva-hoeke `
     $DateText = $Content | pup 'time span:first-child text{}'
     $Date = [DateTime]::ParseExact($DateText, 'd MMMM yyyy', $DutchCulture)
 
-    Save-EntryToAirTable -Url $Url -Date $Date -Title "Eva Hoeke: $Title" -Body $Body
+    Save-EntryToAirTable -Url $Url -Date $Date -Title "Eva Hoeke: $Title" -Body $Body -TableName Mail
 }
