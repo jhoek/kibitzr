@@ -14,5 +14,5 @@ Invoke-WebRequest -Uri https://www.volkskrant.nl/auteur/thomas-van-luyn `
     $DateText = $Content | pup 'time span:first-child text{}'
     $Date = [DateTime]::ParseExact($DateText, 'd MMMM yyyy', $DutchCulture)
 
-    Save-EntryToAirTable -Url $Url -Date $Date -Title "Thomas van Luyn: $Title" -Body $Body
+    Save-EntryToAirTable -Url $Url -Date $Date -Title "Thomas van Luyn: $Title" -Body $Body -TableName Mail
 }
