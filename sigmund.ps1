@@ -5,7 +5,7 @@ $DutchCulture = New-Object -TypeName System.Globalization.CultureInfo -ArgumentL
 
 Invoke-WebRequest -Uri 'https://www.volkskrant.nl/columns-opinie/sigmund~q8c5108e/' `
 | Select-Object -ExpandProperty Images
-| Select-Object -Skip 1
+| Where-Object { $_.'data-title' -notin $null, '', '-' }
 | ForEach-Object {
     $Date = [DateTime]::ParseExact($_.'data-title', "d MMMM yyyy", $DutchCulture)
 
