@@ -17,7 +17,7 @@ $Images = $Content
 
 $NoOfItems = ($Dates.Count), ($Images.Count) | Measure-Object -Minimum | Select-Object -ExpandProperty Minimum
 
-1..$NoOfItems | ForEach-Object {
+0..($NoOfItems - 1) | ForEach-Object {
     Send-KibitzrNotification `
         -Url $Images[$_] `
         -ApplicationToken ayu9cm9t3f1satguceo6q5ifje821y `
