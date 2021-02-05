@@ -101,17 +101,25 @@ function Send-TeletekstNotification
             Write-Verbose "Hash of '$Title' is unknown"
         }
 
-        $SimilarItemWasFound = $false
-
-        $CachedItems.ForEach{
+        $Similarities = $CachedItems.ForEach{
             $CurrentCachedItem = $_
             $CurrentCachedItemAsText = "$($CurrentCachedItem.Title) - $($CurrentCachedItem.Content)"
             $Similarity = Get-TextSimilarity $CurrentItemAsText $CurrentCachedItemAsText
-            Write-Verbose "Similarity with '$($CurrentCachedItem.Title)' was $Similarity"
-            $SimilarItemWasFound = $SimilarItemWasFound -or ($Similarity -gt 0.7)
+
+            [PSCustomObject]@{
+                CachedItem = $CurrentCachedItem
+                Similarity = $Similarity
+            }
         }
 
-        if ($SimilarItemWasFound)
+        $MostSimilar = $Similarities |
+            Where-Object Similarity -gt 0.75 |
+            ForEach-Object { Write-Verbose "Similarity with '$($_.CachedItem.Title)' was $($_.Similarity)"; $_ } |
+            Sort-Object -Property Similarity |
+            Select-Object -Last 1 |
+            Select-Object -ExpandProperty CachedItem
+
+        if ($MostSimilar)
         {
             Write-Verbose "'$Title' was updated; sending notification"
 
@@ -119,8 +127,9 @@ function Send-TeletekstNotification
                 -ApplicationToken asxmmq8g95jt4ed1qcrucdvu2iuy67 `
                 -Recipient gajrpycu8sq39dfbjn8ipjhypkhc7x `
                 -Title $Title `
-                -Message $Content `
-                -SupplementaryUrl $Link
+                -Message (Compare-Text $MostSimilar.Content $Content) `
+                -SupplementaryUrl $Link `
+                -Html
 
             $AddToCache.Add(
                 [PSCustomObject]@{
