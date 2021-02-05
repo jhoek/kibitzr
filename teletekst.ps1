@@ -67,9 +67,13 @@ function Send-TeletekstNotification
         {
             Write-Verbose "Loading cache file"
 
-            $CacheFileContents = Get-Content -Path $CachePath |
-                ConvertFrom-Json -Depth 10 |
-                Where-Object DateTime -GT (Get-Date).AddDays(-2)
+            $AllCacheFileContents = Get-Content -Path $CachePath | ConvertFrom-Json -Depth 10
+            $CacheFileContents = $AllCacheFileContents | Where-Object DateTime -GT (Get-Date).AddDays(-2)
+
+            if ($AllCacheFileContents.Length -ne $CacheFileContents.Length)
+            {
+                Write-Verbose "Discarding $($AllCacheFileContents.Length - $CacheFileContents.Length) old items."
+            }
 
             if ($CacheFileContents.Length -eq 1)
             {
