@@ -13,6 +13,38 @@ function ConvertTo-Base64
 
     [System.Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes($Value))
 }
+
+function Compare-Text
+{
+    param
+    (
+        [Parameter(Mandatory, Position = 0)][string]$Text1,
+        [Parameter(Mandatory, Position = 1)][string]$Text2
+    )
+
+    try
+    {
+        $FileName1 = New-TemporaryFile | Select-Object -ExpandProperty FullName
+        $FileName2 = New-TemporaryFile | Select-Object -ExpandProperty FullName
+
+        Set-Content -Path $FileName1 -Value $Text1
+        Set-Content -Path $FileName2 -Value $Text2
+
+        $Result = git diff --no-index --color-words $FileName1 $FileName2 | Select-Object -Skip 5
+
+        $Result `
+            -replace "`e\[1m(.*?)`e\[m", '<b>$1</b>' `
+            -replace "`e\[31m(.*?)`e\[m", '<font color="#990000">$1</font>' `
+            -replace "`e\[32m(.*?)`e\[m", '<font color="#009900">$1</font>' `
+            -replace "`e\[36m(.*?)`e\[m", '<font color="#009999">$1</font>'
+    }
+    finally
+    {
+        if ($FileName1) { Remove-Item -Path $FileName1 -ErrorAction SilentlyContinue }
+        if ($FileName2) { Remove-Item -Path $FileName2 -ErrorAction SilentlyContinue }
+    }
+}
+
 function Send-TeletekstNotification
 {
     param
@@ -41,7 +73,7 @@ function Send-TeletekstNotification
 
             if ($CacheFileContents.Length -eq 1)
             {
-                $CacheFileContents = , $CacheFileContents 
+                $CacheFileContents = , $CacheFileContents
             }
 
             $CachedItems.AddRange($CacheFileContents)
@@ -65,7 +97,7 @@ function Send-TeletekstNotification
             return
         }
         else
-        {            
+        {
             Write-Verbose "Hash of '$Title' is unknown"
         }
 
@@ -80,7 +112,7 @@ function Send-TeletekstNotification
         }
 
         if ($SimilarItemWasFound)
-        { 
+        {
             Write-Verbose "'$Title' was updated; sending notification"
 
             Send-PushoverNotification `
@@ -99,40 +131,40 @@ function Send-TeletekstNotification
                 }
             ) | Out-Null
 
-            return
-        }
-
-        Write-Verbose "'$Title' new or substantially different; sending notification"
-
-        Send-PushoverNotification `
-            -ApplicationToken asxmmq8g95jt4ed1qcrucdvu2iuy67 `
-            -Recipient gajrpycu8sq39dfbjn8ipjhypkhc7x `
-            -Title $Title `
-            -Message $Content `
-            -SupplementaryUrl $Link
-    
-        $AddToCache.Add(
-            [PSCustomObject]@{
-                Title    = $Title
-                Content  = $Content
-                Hash     = $Hash
-                DateTime = $DateTime
-            }
-        ) | Out-Null    
+        return
     }
 
-    end
-    {
-        if ($AddToCache)
-        {
-            Write-Verbose "Adding $($AddToCache.Count) new items to the cache"
-            $CachedItems.AddRange($AddToCache)
-        }
+    Write-Verbose "'$Title' new or substantially different; sending notification"
 
-        Write-Verbose "Writing $($CachedItems.Count) items to cache path $CachePath"
-        $CachedItems | ConvertTo-Json -Depth 10 | Set-Content -Path $CachePath
-    }
+    Send-PushoverNotification `
+        -ApplicationToken asxmmq8g95jt4ed1qcrucdvu2iuy67 `
+        -Recipient gajrpycu8sq39dfbjn8ipjhypkhc7x `
+        -Title $Title `
+        -Message $Content `
+        -SupplementaryUrl $Link
+
+    $AddToCache.Add(
+        [PSCustomObject]@{
+            Title    = $Title
+            Content  = $Content
+            Hash     = $Hash
+            DateTime = $DateTime
+        }
+    ) | Out-Null
 }
 
-Get-TeletekstNews -Type Domestic, Foreign | 
+end
+{
+    if ($AddToCache)
+    {
+        Write-Verbose "Adding $($AddToCache.Count) new items to the cache"
+        $CachedItems.AddRange($AddToCache)
+    }
+
+    Write-Verbose "Writing $($CachedItems.Count) items to cache path $CachePath"
+    $CachedItems | ConvertTo-Json -Depth 10 | Set-Content -Path $CachePath
+}
+}
+
+Get-TeletekstNews -Type Domestic, Foreign |
     Send-TeletekstNotification -Verbose
