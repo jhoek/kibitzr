@@ -58,6 +58,8 @@ function Send-TeletekstNotification
 
     begin
     {
+        Write-Verbose "Run started at $(Get-Date -Format 's')"
+
         $CachedItems = New-Object -TypeName System.Collections.ArrayList
         $AddToCache = New-Object -TypeName System.Collections.ArrayList
 
@@ -176,6 +178,7 @@ end
 
     Write-Verbose "Writing $($CachedItems.Count) items to cache path $CachePath"
     $CachedItems | ConvertTo-Json -Depth 10 | Set-Content -Path $CachePath
+    Write-Verbose "Run ended at $(Get-Date -Format 's')"
 }
 }
 
