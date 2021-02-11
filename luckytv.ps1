@@ -18,7 +18,7 @@ $DateTime = ($Content | pup '.node-meta-attributes__time text{}') | Select-Objec
 Send-KibitzrNotification `
     -Url $_ `
     -ApplicationToken afbzfvwfwjq5ritp51kw26sivnm1jj `
-    -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp `
+    -Recipient g5ehi5433y6s6sb58xf25hzwsmqxy3 `
     -Title $Title `
     -Message $DateTime
 }
