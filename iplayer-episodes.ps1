@@ -33,6 +33,6 @@ Find-AirTableRecord `
     {
         $Url = "things:///add?title=iPlayer: $($_.Title)"
         $EncodedUrl = [uri]::EscapeUriString($Url)
-        open $EncodedUrl
+        /usr/bin/open $EncodedUrl
     }
 }
