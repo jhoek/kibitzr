@@ -13,7 +13,6 @@ Find-AirTableRecord `
     -ApiKey keyL62zvsXw1vBbKZ `
     -BaseName appgyJZy5Dkjup0K4 `
     -TableName Programmes `
-| Where-Object Name -like 'The Ran*' `
 | ForEach-Object { Write-Host "$($_.Name)" -ForegroundColor Cyan; $_ } `
 | ForEach-Object { get_iplayer --pid-recursive-list "$($_.Url)"; '' } `
 | Where-Object { $_ } `
