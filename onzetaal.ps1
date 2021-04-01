@@ -1,6 +1,6 @@
 param
 (
-    [ValidateSet('jan', 'feb', 'mrt', 'apr', 'mei', 'jun', 'jul', 'aug', 'sep', 'okt', 'nov', 'dec')]
+    [ValidateSet('jan', 'feb', 'mrt', 'apr', 'mei', 'jun', 'jul', 'aug', 'sept', 'okt', 'nov', 'dec')]
     [string]$Month = (Get-Date).ToString('MMM', [cultureinfo]::new('nl-NL')).TrimEnd('.'),
 
     [ValidatePattern('\d{4}')]
