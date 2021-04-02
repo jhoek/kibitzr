@@ -1,3 +1,5 @@
+#!/usr/bin/env pwsh
+
 param
 (
     [ValidateSet('jan', 'feb', 'mrt', 'apr', 'mei', 'jun', 'jul', 'aug', 'sept', 'okt', 'nov', 'dec')]
@@ -16,7 +18,11 @@ param
     [string]$WorkingFolder = (New-TemporaryFile),
 
     [ValidateNotNullOrEmpty()]
-    [string]$Destination = "~/Desktop"
+    [string]$Destination = "~/Desktop",
+
+    [switch]$OpenWorkingFolder,
+
+    [switch]$SkipCleanup
 )
 
 if ($ToPage -lt $FromPage)
@@ -28,15 +34,15 @@ if ($ToPage -lt $FromPage)
 Remove-Item -Path $WorkingFolder
 New-Item -Path $WorkingFolder -ItemType Container | Out-Null
 
-open $WorkingFolder
+if ($OpenWorkingFolder) { open $WorkingFolder }
 
 $FromPage..$ToPage
 | ForEach-Object {
     $Url = 'https://onzetaal.nl/flipbook/{0}-{1}/files/mobile/{2}.jpg' -f $Month, $Year, $_
-    Write-Host $Url
+    Write-Debug $Url
     $OutFile = Join-Path -Path $WorkingFolder -ChildPath ('{0:d2}.jpg' -f $_)
     $Response = Invoke-WebRequest -Uri $Url -OutFile $OutFile -SkipHttpErrorCheck -PassThru
-    Write-Host $Response.Headers['Content-Type']
+    Write-Debug $Response.Headers['Content-Type']
 
     if ( $Response.Headers['Content-Type'].StartsWith('text/html'))
     {
@@ -51,4 +57,7 @@ $DestinationFilePath = Join-Path -Path $Destination -ChildPath $WorkingFileName
 convert "$WorkingFolder/*.jpg" "$WorkingFilePath"
 Move-Item -Path $WorkingFilePath -Destination $DestinationFilePath
 
-Remove-Item -Path $WorkingFolder -Recurse -Force
+if (-not($SkipCleanup))
+{
+    Remove-Item -Path $WorkingFolder -Recurse -Force
+}
