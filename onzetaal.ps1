@@ -39,10 +39,10 @@ if ($OpenWorkingFolder) { open $WorkingFolder }
 $FromPage..$ToPage
 | ForEach-Object {
     $Url = 'https://onzetaal.nl/flipbook/{0}-{1}/files/mobile/{2}.jpg' -f $Month, $Year, $_
-    Write-Debug $Url
+    # Write-Debug $Url
     $OutFile = Join-Path -Path $WorkingFolder -ChildPath ('{0:d2}.jpg' -f $_)
     $Response = Invoke-WebRequest -Uri $Url -OutFile $OutFile -SkipHttpErrorCheck -PassThru
-    Write-Debug $Response.Headers['Content-Type']
+    # Write-Debug $Response.Headers['Content-Type']
 
     if ( $Response.Headers['Content-Type'].StartsWith('text/html'))
     {
