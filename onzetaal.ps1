@@ -18,7 +18,7 @@ param
     [string]$WorkingFolder = (New-TemporaryFile),
 
     [ValidateNotNullOrEmpty()]
-    [string]$Destination = "~/Desktop",
+    [string]$Destination = "~/Dropbox",
 
     [switch]$OpenWorkingFolder,
 
