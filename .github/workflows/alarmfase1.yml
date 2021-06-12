@@ -13,11 +13,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Install Pup
+      - name: Install Html-Xml-Utils
         shell: bash
         run: |
           sudo apt-get update
-          sudo apt-get install pup
+          sudo apt-get install html-xml-utils
 
       - name: Install Pushover modules
         shell: pwsh
