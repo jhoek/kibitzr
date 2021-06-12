@@ -15,7 +15,9 @@ jobs:
     steps:
       - name: Install Pup
         shell: bash
-        run: go get github.com/ericchiang/pup
+        run: |
+          sudo apt-get update
+          sudo apt-get install pup
 
       - name: Install Pushover modules
         shell: pwsh
