@@ -1,6 +1,9 @@
 name: alarmfase1
 
 on:
+  push:
+    branches:
+      - master
   schedule:
     - cron: "*/5 * * * *"
   workflow_dispatch:
@@ -10,11 +13,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Install Pushover module
+      - name: Install Pushover modules
         shell: pwsh
         run: |
           Set-PSRepository PSGallery -InstallationPolicy Trusted
-          Install-Module UncommonSense.Pushover
+          Install-Module UncommonSense.Pushover, UncommonSense.Alarmfase1
       # # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       # - uses: actions/checkout@v2
       # # Runs a single command using the runners shell
