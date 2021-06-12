@@ -13,9 +13,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Install Pup
+        shell: bash
+        run: go get github.com/ericchiang/pup
+
       - name: Install Pushover modules
         shell: pwsh
         run: |
+          $ProgressPreference = 'SilentlyContinue'
           Set-PSRepository PSGallery -InstallationPolicy Trusted
           Install-Module UncommonSense.Pushover, UncommonSense.P2000
 
