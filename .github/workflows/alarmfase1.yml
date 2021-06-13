@@ -32,8 +32,9 @@ jobs:
       - name: Find new entries
         shell: pwsh
         run: |
-          3901 | ForEach-Object {
-            Get-P2000Entry -PostCode $_ `
+          # 3901 | ForEach-Object {
+            # Get-P2000Entry -PostCode $_ `
+            Get-P2000Entry -Region amsterdam-amstelland `
             | Where-Object Priority -In 'P1', 'A1' `
             | Where-Object DateTime -GT (Get-Date).AddMinutes(-3) `
             | Select-Object -First 10 `
@@ -45,4 +46,4 @@ jobs:
                     -Message $_.Original `
                     -SupplementaryUrl $_.Link
             }
-          }
+          # }
