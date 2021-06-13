@@ -4,8 +4,8 @@ on:
   push:
     branches:
       - master
-  # schedule:
-  #   - cron: "*/5 * * * *"
+  schedule:
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 jobs:
@@ -22,12 +22,6 @@ jobs:
           sudo cp pup /usr/bin
           pup --version
 
-      # - name: Install Html-Xml-Utils
-      #   shell: bash
-      #   run: |
-      #     sudo apt-get update
-      #     sudo apt-get install html-xml-utils
-
       - name: Install Pushover modules
         shell: pwsh
         run: |
@@ -38,7 +32,7 @@ jobs:
       - name: Find new entries
         shell: pwsh
         run: |
-          1109, 3286, 1432 | ForEach-Object {
+          3901 | ForEach-Object {
             Get-P2000Entry -PostCode $_ `
             | Where-Object Priority -In 'P1', 'A1' `
             | Where-Object DateTime -GT (Get-Date).AddMinutes(-3) `
@@ -47,7 +41,7 @@ jobs:
                 Send-PushoverNotification `
                     -ApplicationToken aoiqq9zfsf32aodh55zoyg9rc3zhrh `
                     -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp `
-                    -Title $_.Title `
+                    -Title "GitHub:$_.Title" `
                     -Message $_.Original `
                     -SupplementaryUrl $_.Link
             }
