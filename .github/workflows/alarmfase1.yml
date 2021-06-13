@@ -17,9 +17,10 @@ jobs:
         shell: bash
         run: |
           go get github.com/ericchiang/pup
-          # wget -L -O "https://github.com/ericchiang/pup/releases/download/v0.4.0/pup_v0.4.0_linux_amd64.zip"
-          # unzip pup_v0.4.0_linux_amd64.zip
-          # pup --version
+          export GOROOT=/usr/bin/go
+          cd ~/go/bin
+          sudo cp pup /usr/bin
+          pup --version
 
       # - name: Install Html-Xml-Utils
       #   shell: bash
