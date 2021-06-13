@@ -42,7 +42,7 @@ jobs:
                 Send-PushoverNotification `
                     -ApplicationToken aoiqq9zfsf32aodh55zoyg9rc3zhrh `
                     -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp `
-                    -Title "GitHub:$_.Title" `
+                    -Title "GitHub: $($_.Title)" `
                     -Message $_.Original `
                     -SupplementaryUrl $_.Link
             }
