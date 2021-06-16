@@ -4,7 +4,7 @@ $ProgressPreference = 'SilentlyContinue'
 
 Invoke-WebRequest -Uri https://www.nrc.nl/rubriek/verdienen-en-uitgeven/ `
 | Select-Object -ExpandProperty Content `
-| pup '.compact-grid__item a attr{href}' --plain `
+| pup '.nmt-item a attr{href}' --plain `
 | Select-Object -First 10 `
 | ForEach-Object {
     $Url = "https://www.nrc.nl$($_)"
