@@ -8,7 +8,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Send quote
+      - name: Install PowerShell module
+        shell: pwsh
+        run: |
+          $ProgressPreference = 'SilentlyContinue'
+          Set-PSRepository PSGallery -InstallationPolicy Trusted
+          Install-Module UncommonSense.Pushover
+
+      - name: Send Pushover notification
         shell: pwsh
         env:
           PUSHOVER_APP: ${{ secrets.PUSHOVER_APP_QUOTES}}
