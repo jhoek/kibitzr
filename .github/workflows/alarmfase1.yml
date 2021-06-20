@@ -22,7 +22,7 @@ jobs:
           sudo cp pup /usr/bin
           pup --version
 
-      - name: Install Pushover modules
+      - name: Install PowerShell modules
         shell: pwsh
         run: |
           $ProgressPreference = 'SilentlyContinue'
