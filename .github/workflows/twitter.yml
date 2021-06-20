@@ -52,6 +52,7 @@ jobs:
                   $true
                   {
                       $Title = $Response.Content | pup 'title text{}' --plain
+                      "::Title is '$Title'"
                   }
 
                   ($Title -notin 'joel mori (@jhoek) | Twitter', 'joel mori (@jhoek) on Twitter')
