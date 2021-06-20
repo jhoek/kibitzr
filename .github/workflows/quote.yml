@@ -1,6 +1,8 @@
 name: quote
 
 on:
+  schedule:
+    - cron: "0 9 * * *"
   workflow_dispatch:
 
 jobs:
@@ -19,7 +21,7 @@ jobs:
         shell: pwsh
         env:
           PUSHOVER_APP: ${{ secrets.PUSHOVER_APP_QUOTES}}
-          PUSHOVER_RECIPIENT: ${{secrets.PUSHOVER_RECIPIENT}}
+          PUSHOVER_RECIPIENT: ${{secrets.PUSHOVER_RECIP_JUSTME}}
         run: |
           $ProgressPreference = 'SilentlyContinue'
           $Quote = (Invoke-RestMethod -Uri http://quotes.rest/qod.json?category=funny).contents.quotes.quote
