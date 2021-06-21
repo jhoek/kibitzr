@@ -24,10 +24,8 @@ jobs:
 
       - name: Update fund data
         shell: pwsh
-        env:
-          GITHUB_WORKSPACE: $GITHUB_WORKSPACE
         run: |
-          $Data = Import-CliXml -Path "$(env:GITHUB_WORKSPACE)/data/meewind.xml" -ErrorAction SilentlyContinue
+          $Data = Import-CliXml -Path "${env:GITHUB_WORKSPACE}/data/meewind.xml" -ErrorAction SilentlyContinue
 
   #       - name: Update readme
   #         run: |
