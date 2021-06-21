@@ -33,10 +33,10 @@ jobs:
 
       - name: Update fund data
         env:
-          DataFileName: "${env:GITHUB_WORKSPACE}/data/meewind.xml"
+          DataFileName: "${{GITHUB_WORKSPACE}}/data/meewind.xml"
         shell: pwsh
         run: |
-          Write-Host ${$env:GITHUB_WORKSPACE}
+          Write-Host "$($env:DataFileName)"
           $Data = if (Test-Path -Path "$env:DataFileName") { Import-CliXml -Path "$env:DataFileName" -ErrorAction SilentlyContinue } else { @{} }
           Get-MeewindFundPrice | ForEach-Object {
             if (-not $Data[$_.Fund]) { $Data[$_.Fund] = @{}}
