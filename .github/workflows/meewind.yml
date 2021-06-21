@@ -36,12 +36,12 @@ jobs:
           DataFileName: "${env:GITHUB_WORKSPACE}/data/meewind.xml"
         shell: pwsh
         run: |
-          $Data = if (Test-Path -Path $env:DataFileName) { Import-CliXml -Path $env:DataFileName -ErrorAction SilentlyContinue } else { @{} }
+          $Data = if (Test-Path -Path "$env:DataFileName") { Import-CliXml -Path "$env:DataFileName" -ErrorAction SilentlyContinue } else { @{} }
           Get-MeewindFundPrice | ForEach-Object {
             if (-not $Data[$_.Fund]) { $Data[$_.Fund] = @{}}
             $Data[$_.Fund][$_.Date] = $_.Price
           }
-          $Data | Export-CliXml -Path $env:DataFileName
+          $Data | Export-CliXml -Path "$env:DataFileName"
 
       - name: Push changes to git repo
         run: |
