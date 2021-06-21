@@ -33,7 +33,7 @@ jobs:
 
       - name: Update fund data
         env:
-          DataFileName: ${GITHUB_WORKSPACE}/data/meewind.xml
+          DataFileName: ./data/meewind.xml
         shell: pwsh
         run: |
           Write-Host "$($env:DataFileName)"
