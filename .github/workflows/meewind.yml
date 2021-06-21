@@ -17,13 +17,13 @@ jobs:
         shell: pwsh
         run: |
           Set-PSRepository PSGallery -InstallationPolicy Trusted
-          Install-Module UncommonSense.PowerShell.Documentation -Scope CurrentUser
+          Install-Module UncommonSense.Meewind -Scope CurrentUser
 
       - name: Update fund data
         shell: pwsh
         env:
-        run: |
           GITHUB_WORKSPACE: ${{$GITHUB_WORKSPACE}}
+        run: |
           $Data = Import-CliXml -Path "$(env:GITHUB_WORKSPACE)/data/meewind.xml" -ErrorAction SilentlyContinue
 
   #       - name: Update readme
@@ -44,3 +44,9 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+
+      - name: Install required PowerShell modules
+        shell: pwsh
+        run: |
+          Set-PSRepository PSGallery -InstallationPolicy Trusted
+          Install-Module UncommonSense.Pushover -Scope CurrentUser
