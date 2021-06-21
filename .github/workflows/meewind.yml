@@ -23,21 +23,25 @@ jobs:
           Install-Module UncommonSense.Meewind -Scope CurrentUser
 
       - name: Update fund data
+        env:
+          DataFileName: "${env:GITHUB_WORKSPACE}/data/meewind.xml"
         shell: pwsh
         run: |
-          $Data = Import-CliXml -Path "${env:GITHUB_WORKSPACE}/data/meewind.xml" -ErrorAction SilentlyContinue
+          $Data = if (TestPath -Path $env:DataFileName) { Import-CliXml -Path $env:DataFileName -ErrorAction SilentlyContinue } else { @{} }
+          Get-MeewindFundPrice | ForEach-Object {
+            if (-not $Data[$_.Fund]) { $Data[$_.Fund] = @{}}
+            $Data[$_.Fund][$_.Date] = $_.Price
+          }
+          $Data | Export-CliXml -Path $env:DataFileName
 
-  #       - name: Update readme
-  #         run: |
-  #           pwsh -Command "./Update-README.ps1"
-  #       - name: Push changes to git repo
-  #         run: |
-  #           git config --global user.name 'Jan Hoek'
-  #           git config --global user.email 'github@uncommonsense.nl'
-  #           git remote set-url origin https://x-access-token:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}
-  #           git add .
-  #           git commit -am 'Updated readme'
-  #           git push
+      - name: Push changes to git repo
+        run: |
+          git config --global user.name 'Jan Hoek'
+          git config --global user.email 'github@uncommonsense.nl'
+          git remote set-url origin https://x-access-token:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}
+          git add .
+          git commit -am 'Updated data file'
+          git push
 
   sendnotification:
     needs: retrievedata
