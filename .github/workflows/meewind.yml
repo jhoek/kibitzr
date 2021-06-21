@@ -42,7 +42,7 @@ jobs:
   #           git push
 
   sendnotification:
-    needs: update
+    needs: retrievedata
     runs-on: ubuntu-latest
 
     steps:
