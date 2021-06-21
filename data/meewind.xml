@@ -1,0 +1,99 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>System.Collections.Hashtable</T>
+      <T>System.Object</T>
+    </TN>
+    <DCT>
+      <En>
+        <S N="Key">Fonds Zeewind Bestaande Parken</S>
+        <Obj N="Value" RefId="1">
+          <TNRef RefId="0" />
+          <DCT>
+            <En>
+              <Obj N="Key" RefId="2">
+                <DT>2021-06-21T17:19:50.4604747+00:00</DT>
+                <MS>
+                  <Obj N="DisplayHint" RefId="3">
+                    <TN RefId="1">
+                      <T>Microsoft.PowerShell.Commands.DisplayHintType</T>
+                      <T>System.Enum</T>
+                      <T>System.ValueType</T>
+                      <T>System.Object</T>
+                    </TN>
+                    <ToString>DateTime</ToString>
+                    <I32>2</I32>
+                  </Obj>
+                </MS>
+              </Obj>
+              <D N="Value">1301.0199</D>
+            </En>
+          </DCT>
+        </Obj>
+      </En>
+      <En>
+        <S N="Key">Groenfonds Regionaal Duurzaam</S>
+        <Obj N="Value" RefId="4">
+          <TNRef RefId="0" />
+          <DCT>
+            <En>
+              <Obj N="Key" RefId="5">
+                <DT>2021-06-21T17:19:50.4598068+00:00</DT>
+                <MS>
+                  <Obj N="DisplayHint" RefId="6">
+                    <TNRef RefId="1" />
+                    <ToString>DateTime</ToString>
+                    <I32>2</I32>
+                  </Obj>
+                </MS>
+              </Obj>
+              <D N="Value">1001.2068</D>
+            </En>
+          </DCT>
+        </Obj>
+      </En>
+      <En>
+        <S N="Key">Energie Transitiefonds</S>
+        <Obj N="Value" RefId="7">
+          <TNRef RefId="0" />
+          <DCT>
+            <En>
+              <Obj N="Key" RefId="8">
+                <DT>2021-06-21T17:19:50.3747507+00:00</DT>
+                <MS>
+                  <Obj N="DisplayHint" RefId="9">
+                    <TNRef RefId="1" />
+                    <ToString>DateTime</ToString>
+                    <I32>2</I32>
+                  </Obj>
+                </MS>
+              </Obj>
+              <D N="Value">1013.6141</D>
+            </En>
+          </DCT>
+        </Obj>
+      </En>
+      <En>
+        <S N="Key">Fonds Zeewind Nieuwe Parken</S>
+        <Obj N="Value" RefId="10">
+          <TNRef RefId="0" />
+          <DCT>
+            <En>
+              <Obj N="Key" RefId="11">
+                <DT>2021-06-21T17:19:50.4607877+00:00</DT>
+                <MS>
+                  <Obj N="DisplayHint" RefId="12">
+                    <TNRef RefId="1" />
+                    <ToString>DateTime</ToString>
+                    <I32>2</I32>
+                  </Obj>
+                </MS>
+              </Obj>
+              <D N="Value">1671.9047</D>
+            </En>
+          </DCT>
+        </Obj>
+      </En>
+    </DCT>
+  </Obj>
+</Objs>
