@@ -33,15 +33,19 @@ jobs:
 
       - name: Update fund data
         env:
+          DataFolderName: ./data
           DataFileName: ./data/meewind.xml
         shell: pwsh
         run: |
-          Write-Host "$($env:DataFileName)"
+          if (-not Test-Path -Path $env:DataFolderName -PathType Container) { New-Item -Path $env:DataFolderName -ItemType Directory | Out-Null }
+
           $Data = if (Test-Path -Path "$env:DataFileName") { Import-CliXml -Path "$env:DataFileName" -ErrorAction SilentlyContinue } else { @{} }
+
           Get-MeewindFundPrice | ForEach-Object {
             if (-not $Data[$_.Fund]) { $Data[$_.Fund] = @{}}
             $Data[$_.Fund][$_.Date] = $_.Price
           }
+
           $Data | Export-CliXml -Path "$env:DataFileName"
 
       - name: Push changes to git repo
