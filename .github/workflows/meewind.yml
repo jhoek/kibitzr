@@ -37,7 +37,7 @@ jobs:
           DataFileName: ./data/meewind.xml
         shell: pwsh
         run: |
-          if (-not Test-Path -Path $env:DataFolderName -PathType Container) { New-Item -Path $env:DataFolderName -ItemType Directory | Out-Null }
+          if (-not (Test-Path -Path $env:DataFolderName -PathType Container)) { New-Item -Path $env:DataFolderName -ItemType Directory | Out-Null }
 
           $Data = if (Test-Path -Path "$env:DataFileName") { Import-CliXml -Path "$env:DataFileName" -ErrorAction SilentlyContinue } else { @{} }
 
