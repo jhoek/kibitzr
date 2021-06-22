@@ -18,6 +18,7 @@ jobs:
       - name: Install required PowerShell modules
         shell: pwsh
         run: |
+          $ProgressPreference = 'SilentlyContinue'
           Set-PSRepository PSGallery -InstallationPolicy Trusted
           Install-Module UncommonSense.Jumbo, UncommonSense.iCalendar
 
