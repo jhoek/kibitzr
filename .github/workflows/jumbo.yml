@@ -1,0 +1,34 @@
+name: ah
+
+on:
+  schedule:
+    - cron: "0 9 * * 6"
+  push:
+    branches:
+      - "master"
+  workflow_dispatch:
+
+jobs:
+  updatecalendar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install required PowerShell modules
+        shell: pwsh
+        run: |
+          Set-PSRepository PSGallery -InstallationPolicy Trusted
+          Install-Module UncommonSense.Jumbo, UncommonSense.iCalendar -Scope CurrentUser
+
+      - name: Update calendar files
+        shell: pwsh
+        run: |
+          Get-JumboStore -ID 'jumbo-veenendaal-huibers' | ForEach-Object {
+              $CurrentStore = $_
+              $Description = $CurrentStore.Name
+              $CurrentStore.OpeningHours | ForEach-Object { New-CalendarEvent -Start $_.From -End $_.To -Summary $Description } | Export-Calendar -Name $Description -Path "./data/jumbo/$($CurrentStore.ID).ics"
+          }
+          git add *
+          git commit -m "Updated Jumbo opening hours from $(uname -n)"
+          git push
