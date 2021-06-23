@@ -81,5 +81,5 @@ jobs:
                 -Recipient "$env:PUSHOVER_RECIPIENT" `
                 -Title "Meewind $($_.Name)" `
                 -Html `
-                -Message ($_.Group | ForEach-Object { '{0}: &eur;{1}' -f $_.Date.ToString('yyyy-MM-dd'), $_.Price})
+                -Message ($_.Group | ForEach-Object { '{0}: &eur;{1}' -f $_.Date.ToString('yyyy-MM-dd'), $_.Price} | Join-String -Separator '<br/>')
           }
