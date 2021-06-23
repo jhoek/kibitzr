@@ -80,6 +80,6 @@ jobs:
                 -ApplicationToken "$env:PUSHOVER_APP" `
                 -Recipient "$env:PUSHOVER_RECIPIENT" `
                 -Title "Meewind $($_.Name)" `
-                -Monospace `
-                -Message ($_.Group | Select-Object -Property Date, Price | Format-Table -HideTableHeaders | Out-String)
+                -Html `
+                -Message ($_.Group | ForEach-Object { '{0}: &eur;{1}' -f $_.Date.ToString('yyyy-MM-dd'), $_.Price})
           }
