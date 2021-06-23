@@ -67,6 +67,18 @@ jobs:
 
       - name: Send notification
         shell: pwsh
+        env:
+          PUSHOVER_APP: ${{ secrets.PUSHOVER_APP_MEEWIND}}
+          PUSHOVER_RECIPIENT: ${{secrets.PUSHOVER_RECIP_JUSTME}}
         run: |
-          $Data = Get-ChildItem -Path $env:DataFolderName | Import-CliXml
-          Write-Host $Data
+          Get-ChildItem -Path $env:DataFolderName
+          | Import-CliXml
+          | Sort-Object -Property Fund, Date
+          | Group-Object -Property Fund
+          | ForEach-Object {
+            Send-PushoverNotification `
+                -ApplicationToken "$env:PUSHOVER_APP" `
+                -Recipient "$env:PUSHOVER_RECIPIENT" `
+                -Title $_.Name `
+                -Message $_.Group
+          }
