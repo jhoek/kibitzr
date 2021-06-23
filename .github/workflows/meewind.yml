@@ -85,18 +85,18 @@ jobs:
                 } `
                 -Process {
                   $CurrentPrice = $_.Price
+                  $PriceDiff = $CurrentPrice - $PreviousPrice
 
-                  $FontStart, $FontStop, $Direction, $PriceDiff = switch ($true)
+                  $FontStart, $FontStop, $Direction, $PriceDiffText = switch ($true)
                   {
                       ($PreviousPrice -eq 0)        { '', '', '', ''; break }
                       ($CurrentPrice -eq $PreviousPrice) { '', '', '', ''; break }
-                      ($CurrentPrice -gt $PreviousPrice) { '<font color="#090">', '</font>', ' &#x25B2; ', ('&euro; {0}' -f $CurrentPrice - $PreviousPrice); break }
-                      ($CurrentPrice -lt $PreviousPrice) { '<font color="#900">', '</font>', ' &#x25BC; ', ('&euro; {0}' -f $CurrentPrice - $PreviousPrice); break }
+                      ($CurrentPrice -gt $PreviousPrice) { '<font color="#090">', '</font>', ' &#x25B2; ', ('&euro; {0}' -f $PriceDiff); break }
+                      ($CurrentPrice -lt $PreviousPrice) { '<font color="#900">', '</font>', ' &#x25BC; ', ('&euro; {0}' -f $PriceDiff); break }
                   }
 
-                  "$($_.Date.ToString('yyyy-MM-dd')): $($FontStart)$("&euro;$($CurrentPrice)")$($Direction)$($PriceDiff)$($FontStop)"
-
-                  $PreviousPrice = $_.Price
+                  "$($_.Date.ToString('yyyy-MM-dd')): $($FontStart)$("&euro;$($CurrentPrice)")$($Direction)$($PriceDiffText)$($FontStop)"
+                  $PreviousPrice = $CurrentPrice
                 }
               | Join-String -Separator '<br/>'
 
