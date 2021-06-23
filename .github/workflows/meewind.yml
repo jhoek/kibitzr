@@ -87,8 +87,8 @@ jobs:
                   {
                       ($PreviousPrice -eq 0)        { '', '', '', ''; break }
                       ($_.Price -eq $PreviousPrice) { '', '', '', ''; break }
-                      ($_.Price -gt $PreviousPrice) { '<font color="#090">', '</font>', ' &#x25B2; ', "&euro; $($.Price - $PreviousPrice)"; break }
-                      ($_.Price -lt $PreviousPrice) { '<font color="#900">', '</font>', ' &#x25BC; ', "&euro; $($.Price - $PreviousPrice)"; break }
+                      ($_.Price -gt $PreviousPrice) { '<font color="#090">', '</font>', ' &#x25B2; ', "&euro; $($_.Price - $PreviousPrice)"; break }
+                      ($_.Price -lt $PreviousPrice) { '<font color="#900">', '</font>', ' &#x25BC; ', "&euro; $($_.Price - $PreviousPrice)"; break }
                   }
 
                   "$($_.Date.ToString('yyyy-MM-dd')): $($FontStart)$("&euro;$($_.Price)")$($Direction)$($PriceDiff)$($FontStop)"
