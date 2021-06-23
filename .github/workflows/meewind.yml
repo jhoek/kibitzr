@@ -80,5 +80,5 @@ jobs:
                 -ApplicationToken "$env:PUSHOVER_APP" `
                 -Recipient "$env:PUSHOVER_RECIPIENT" `
                 -Title "Meewind $_.Name" `
-                -Message ($_.Group | Select-Object -Property Date, Price)
+                -Message ($_.Group | Select-Object -Property Date, Price | Format-Table | Out-String)
           }
