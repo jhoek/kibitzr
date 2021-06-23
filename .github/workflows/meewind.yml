@@ -80,5 +80,5 @@ jobs:
                 -ApplicationToken "$env:PUSHOVER_APP" `
                 -Recipient "$env:PUSHOVER_RECIPIENT" `
                 -Title $_.Name `
-                -Message $_.Group
+                -Message 'FIXME'
           }
