@@ -69,3 +69,17 @@ jobs:
         run: |
           Set-PSRepository PSGallery -InstallationPolicy Trusted
           Install-Module UncommonSense.Pushover -Scope CurrentUser
+
+      - name: Clean-up data folder
+        shell: pwsh
+        run: |
+          Get-ChildItem -Path $env:DataFolderName
+          | Sort-Object Name -Descending
+          | Select-Object -Skip 3
+          | Remove-Item -Force
+
+      - name: Send notification
+        shell: pwsh
+        run: |
+          $Data = Get-ChildItem -Path $env:DataFolderName | Import-CliXml
+          Write-Host $Data
