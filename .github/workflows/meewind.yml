@@ -84,7 +84,7 @@ jobs:
                   $PreviousPrice = 0
                 } `
                 -Process {
-                  $CurrentPrice = $_
+                  $CurrentPrice = $_.Price
 
                   $FontStart, $FontStop, $Direction, $PriceDiff = switch ($true)
                   {
