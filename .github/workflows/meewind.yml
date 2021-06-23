@@ -11,6 +11,8 @@ on:
 jobs:
   retrievedata:
     runs-on: ubuntu-latest
+    env:
+      DataFolderName: ./data/meewind
 
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
@@ -31,30 +33,28 @@ jobs:
           Set-PSRepository PSGallery -InstallationPolicy Trusted
           Install-Module UncommonSense.Meewind -Scope CurrentUser
 
-      - name: Update fund data
-        env:
-          DataFolderName: ./data
-          DataFileName: ./data/meewind.xml
+      - name: Create data folder
         shell: pwsh
         run: |
-          if (-not (Test-Path -Path $env:DataFolderName -PathType Container)) { New-Item -Path $env:DataFolderName -ItemType Directory | Out-Null }
-
-          $Data = if (Test-Path -Path "$env:DataFileName") { Import-CliXml -Path "$env:DataFileName" -ErrorAction SilentlyContinue } else { @{} }
-
-          Get-MeewindFundPrice | ForEach-Object {
-            if (-not $Data[$_.Fund]) { $Data[$_.Fund] = @{}}
-            $Data[$_.Fund][$_.Date] = $_.Price
+          if (-not (Test-Path -Path $env:DataFolderName -PathType Container))
+          {
+            New-Item -Path $env:DataFolderName -ItemType Directory | Out-Null
           }
 
-          $Data | Export-CliXml -Path "$env:DataFileName"
+      - name: Update fund data
+        shell: pwsh
+        run: |
+          $DataFileName = "$(Get-Date -Format FileDate).xml"
+          $DataFilePath = Join-Path -Path $env:DataFolderName -ChildPath $DataFileName
+          Get-MeewindFundPrice | Export-CliXml -Path $DataFilePath
 
       - name: Push changes to git repo
         run: |
           git config --global user.name 'Jan Hoek'
           git config --global user.email 'github@uncommonsense.nl'
           git remote set-url origin https://x-access-token:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}
-          git add ./data/meewind.xml
-          git commit -am 'Updated data file'
+          git add ./data/meewind/*
+          git commit -am 'Updated data files'
           git push
 
   sendnotification:
