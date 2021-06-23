@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  retrievedata:
+  run:
     runs-on: ubuntu-latest
     env:
       DataFolderName: ./data/meewind
@@ -31,7 +31,7 @@ jobs:
         shell: pwsh
         run: |
           Set-PSRepository PSGallery -InstallationPolicy Trusted
-          Install-Module UncommonSense.Meewind -Scope CurrentUser
+          Install-Module UncommonSense.Meewind, UncommonSense.Pushover -Scope CurrentUser
 
       - name: Create data folder
         shell: pwsh
@@ -48,6 +48,14 @@ jobs:
           $DataFilePath = Join-Path -Path $env:DataFolderName -ChildPath $DataFileName
           Get-MeewindFundPrice | Export-CliXml -Path $DataFilePath
 
+      - name: Clean-up data folder
+        shell: pwsh
+        run: |
+          Get-ChildItem -Path $env:DataFolderName
+          | Sort-Object Name -Descending
+          | Select-Object -Skip 3
+          | Remove-Item -Force
+
       - name: Push changes to git repo
         run: |
           git config --global user.name 'Jan Hoek'
@@ -56,27 +64,6 @@ jobs:
           git add ./data/meewind/*
           git commit -am 'Updated data files'
           git push
-
-  sendnotification:
-    needs: retrievedata
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v2
-
-      - name: Install required PowerShell modules
-        shell: pwsh
-        run: |
-          Set-PSRepository PSGallery -InstallationPolicy Trusted
-          Install-Module UncommonSense.Pushover -Scope CurrentUser
-
-      - name: Clean-up data folder
-        shell: pwsh
-        run: |
-          Get-ChildItem -Path $env:DataFolderName
-          | Sort-Object Name -Descending
-          | Select-Object -Skip 3
-          | Remove-Item -Force
 
       - name: Send notification
         shell: pwsh
