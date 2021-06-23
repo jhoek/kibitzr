@@ -76,10 +76,30 @@ jobs:
           | Sort-Object -Property Fund, Date
           | Group-Object -Property Fund
           | ForEach-Object {
+            $Message =
+              $_.Group
+              | ForEach-Object `
+                -Begin {
+                  $PreviousPrice = 0
+                } `
+                -Process {
+                  $Date = $_.Date.ToString('yyyy-MM-dd')
+
+                  switch ($true)
+                  {
+                      ($PreviousPrice -eq 0 -or $_.Price -eq $PreviousPrice) { return "$($Date): &euro;$($_.Price)"; break }
+                      ($_.Price -gt $PreviousPrice) { return "$($Date): <font color='#090'>&euro;$($_.Price) &#x25B2; &euro; $($.Price - $PreviousPrice)</font>"; break }
+                      ($_.Price -lt $PreviousPrice) { return "$($Date): <font color='#900'>&euro;$($_.Price) &#x25BC; &euro; $($.Price - $PreviousPrice)</font>"; break }
+                  }
+
+                  $PreviousPrice = $_.Price
+                }
+              | Join-String -Separator '<br/>'
+
             Send-PushoverNotification `
                 -ApplicationToken "$env:PUSHOVER_APP" `
                 -Recipient "$env:PUSHOVER_RECIPIENT" `
                 -Title "Meewind $($_.Name)" `
-                -Html `
-                -Message ($_.Group | ForEach-Object { '{0}: &eur;{1}' -f $_.Date.ToString('yyyy-MM-dd'), $_.Price} | Join-String -Separator '<br/>')
+                -Message $Message `
+                -Html
           }
