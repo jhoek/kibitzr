@@ -78,6 +78,7 @@ jobs:
           | ForEach-Object {
             $Message =
               $_.Group
+              | Sort-Object Date -Descending
               | ForEach-Object `
                 -Begin {
                   $PreviousPrice = 0
