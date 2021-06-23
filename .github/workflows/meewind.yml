@@ -83,14 +83,15 @@ jobs:
                   $PreviousPrice = 0
                 } `
                 -Process {
-                  $Date = $_.Date.ToString('yyyy-MM-dd')
-
-                  switch ($true)
+                  $FontStart, $FontStop, $Direction, $PriceDiff = switch ($true)
                   {
-                      ($PreviousPrice -eq 0 -or $_.Price -eq $PreviousPrice) { return "$($Date): &euro;$($_.Price)"; break }
-                      ($_.Price -gt $PreviousPrice) { return "$($Date): <font color='#090'>&euro;$($_.Price) &#x25B2; &euro; $($.Price - $PreviousPrice)</font>"; break }
-                      ($_.Price -lt $PreviousPrice) { return "$($Date): <font color='#900'>&euro;$($_.Price) &#x25BC; &euro; $($.Price - $PreviousPrice)</font>"; break }
+                      ($PreviousPrice -eq 0)        { '', '', '', ''; break }
+                      ($_.Price -eq $PreviousPrice) { '', '', '', ''; break }
+                      ($_.Price -gt $PreviousPrice) { '<font color="#090">', '</font>', ' &#x25B2; ', "&euro; $($.Price - $PreviousPrice)"; break }
+                      ($_.Price -lt $PreviousPrice) { '<font color="#900">', '</font>', ' &#x25BC; ', "&euro; $($.Price - $PreviousPrice)"; break }
                   }
+
+                  "$($_.Date.ToString('yyyy-MM-dd')): $($FontStart)$("&euro;$($_.Price)")$(Direction)$($PriceDiff)$($FontStop)"
 
                   $PreviousPrice = $_.Price
                 }
