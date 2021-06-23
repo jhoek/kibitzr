@@ -1,4 +1,5 @@
-<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+<Objs Version="1.1.0.1"
+  xmlns="http://schemas.microsoft.com/powershell/2004/04">
   <Obj RefId="0">
     <TN RefId="0">
       <T>UncommonSense.Meewind.FundPrice</T>
@@ -22,7 +23,7 @@
         </MS>
       </Obj>
       <S N="Fund">Energie Transitiefonds</S>
-      <D N="Price">1013.6141</D>
+      <D N="Price">1013.6140</D>
     </MS>
   </Obj>
   <Obj RefId="3">
@@ -39,7 +40,7 @@
         </MS>
       </Obj>
       <S N="Fund">Groenfonds Regionaal Duurzaam</S>
-      <D N="Price">1001.2068</D>
+      <D N="Price">1001.2168</D>
     </MS>
   </Obj>
   <Obj RefId="6">
@@ -56,7 +57,7 @@
         </MS>
       </Obj>
       <S N="Fund">Fonds Zeewind Bestaande Parken</S>
-      <D N="Price">1301.0199</D>
+      <D N="Price">1301.0198</D>
     </MS>
   </Obj>
   <Obj RefId="9">
@@ -73,7 +74,7 @@
         </MS>
       </Obj>
       <S N="Fund">Fonds Zeewind Nieuwe Parken</S>
-      <D N="Price">1671.9047</D>
+      <D N="Price">1672.9047</D>
     </MS>
   </Obj>
 </Objs>
