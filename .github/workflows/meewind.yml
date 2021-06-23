@@ -91,7 +91,7 @@ jobs:
                       ($_.Price -lt $PreviousPrice) { '<font color="#900">', '</font>', ' &#x25BC; ', "&euro; $($.Price - $PreviousPrice)"; break }
                   }
 
-                  "$($_.Date.ToString('yyyy-MM-dd')): $($FontStart)$("&euro;$($_.Price)")$(Direction)$($PriceDiff)$($FontStop)"
+                  "$($_.Date.ToString('yyyy-MM-dd')): $($FontStart)$("&euro;$($_.Price)")$($Direction)$($PriceDiff)$($FontStop)"
 
                   $PreviousPrice = $_.Price
                 }
