@@ -79,6 +79,6 @@ jobs:
             Send-PushoverNotification `
                 -ApplicationToken "$env:PUSHOVER_APP" `
                 -Recipient "$env:PUSHOVER_RECIPIENT" `
-                -Title $_.Name `
-                -Message 'FIXME'
+                -Title "Meewind $_.Name" `
+                -Message ($_.Group | Select-Object -Property Date, Price)
           }
