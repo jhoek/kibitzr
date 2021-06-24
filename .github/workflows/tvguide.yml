@@ -43,7 +43,7 @@ jobs:
 
           $Channels.Keys.ForEach{
               $CurrentChannel = $_
-              $CurrentFileName = Join-Path -Path Env:DataFolderName -ChildPath "$CurrentChannel.ics"
+              $CurrentFileName = Join-Path -Path $env:DataFolderName -ChildPath "$CurrentChannel.ics"
               $Entries = Get-TvGuide -Channel $CurrentChannel
               $IsFirst = $true
 
