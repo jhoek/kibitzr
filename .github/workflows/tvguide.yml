@@ -19,7 +19,7 @@ jobs:
         shell: pwsh
         run: |
           Set-PSRepository PSGallery -InstallationPolicy Trusted
-          Install-Module UncommonSense.TvGuide -Scope CurrentUser
+          Install-Module UncommonSense.TvGuide, UncommonSense.iCalendar -Scope CurrentUser
 
       - name: Create data folder
         shell: pwsh
