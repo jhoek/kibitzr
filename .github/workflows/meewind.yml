@@ -62,7 +62,7 @@ jobs:
           git config --global user.email 'github@uncommonsense.nl'
           git remote set-url origin https://x-access-token:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}
           git add ./data/meewind/*
-          git commit -am 'Updated data files'
+          git commit -am 'Updated meewind files'
           git push
 
       - name: Send notification
