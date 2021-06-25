@@ -1,5 +1,4 @@
-<Objs Version="1.1.0.1"
-  xmlns="http://schemas.microsoft.com/powershell/2004/04">
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
   <Obj RefId="0">
     <TN RefId="0">
       <T>UncommonSense.Meewind.FundPrice</T>
@@ -8,7 +7,7 @@
     </TN>
     <MS>
       <Obj N="Date" RefId="1">
-        <DT>2021-06-22T17:42:11.3400474+00:00</DT>
+        <DT>2021-06-25T09:06:43.553446+00:00</DT>
         <MS>
           <Obj N="DisplayHint" RefId="2">
             <TN RefId="1">
@@ -23,14 +22,14 @@
         </MS>
       </Obj>
       <S N="Fund">Energie Transitiefonds</S>
-      <D N="Price">1013.6140</D>
+      <D N="Price">1013.6141</D>
     </MS>
   </Obj>
   <Obj RefId="3">
     <TNRef RefId="0" />
     <MS>
       <Obj N="Date" RefId="4">
-        <DT>2021-06-22T17:42:11.372412+00:00</DT>
+        <DT>2021-06-25T09:06:43.5792921+00:00</DT>
         <MS>
           <Obj N="DisplayHint" RefId="5">
             <TNRef RefId="1" />
@@ -40,14 +39,14 @@
         </MS>
       </Obj>
       <S N="Fund">Groenfonds Regionaal Duurzaam</S>
-      <D N="Price">1001.2168</D>
+      <D N="Price">1001.2068</D>
     </MS>
   </Obj>
   <Obj RefId="6">
     <TNRef RefId="0" />
     <MS>
       <Obj N="Date" RefId="7">
-        <DT>2021-06-22T17:42:11.3735859+00:00</DT>
+        <DT>2021-06-25T09:06:43.5807269+00:00</DT>
         <MS>
           <Obj N="DisplayHint" RefId="8">
             <TNRef RefId="1" />
@@ -57,14 +56,14 @@
         </MS>
       </Obj>
       <S N="Fund">Fonds Zeewind Bestaande Parken</S>
-      <D N="Price">1301.0198</D>
+      <D N="Price">1301.0199</D>
     </MS>
   </Obj>
   <Obj RefId="9">
     <TNRef RefId="0" />
     <MS>
       <Obj N="Date" RefId="10">
-        <DT>2021-06-22T17:42:11.3740345+00:00</DT>
+        <DT>2021-06-25T09:06:43.581249+00:00</DT>
         <MS>
           <Obj N="DisplayHint" RefId="11">
             <TNRef RefId="1" />
@@ -74,7 +73,7 @@
         </MS>
       </Obj>
       <S N="Fund">Fonds Zeewind Nieuwe Parken</S>
-      <D N="Price">1672.9047</D>
+      <D N="Price">1671.9047</D>
     </MS>
   </Obj>
 </Objs>
