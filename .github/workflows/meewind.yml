@@ -78,7 +78,6 @@ jobs:
           | ForEach-Object {
             $Message =
               $_.Group
-              | Sort-Object Date -Descending
               | ForEach-Object `
                 -Begin {
                   $PreviousPrice = 0
@@ -98,6 +97,7 @@ jobs:
                   "$($_.Date.ToString('yyyy-MM-dd')): $($FontStart)$("&euro;$($CurrentPrice)")$($Direction)$($PriceDiffText)$($FontStop)"
                   $PreviousPrice = $CurrentPrice
                 }
+              | Sort-Object -Descending {(++$script:Index)}
               | Join-String -Separator '<br/>'
 
             Send-PushoverNotification `
