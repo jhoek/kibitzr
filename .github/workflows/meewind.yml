@@ -18,14 +18,14 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
-      - name: Install pup
-        shell: bash
-        run: |
-          go get github.com/ericchiang/pup
-          export GOROOT=/usr/bin/go
-          cd ~/go/bin
-          sudo cp pup /usr/bin
-          pup --version
+      # - name: Install pup
+      #   shell: bash
+      #   run: |
+      #     go get github.com/ericchiang/pup
+      #     export GOROOT=/usr/bin/go
+      #     cd ~/go/bin
+      #     sudo cp pup /usr/bin
+      #     pup --version
 
       - name: Install required PowerShell modules
         shell: pwsh
@@ -33,28 +33,28 @@ jobs:
           Set-PSRepository PSGallery -InstallationPolicy Trusted
           Install-Module UncommonSense.Meewind, UncommonSense.Pushover -Scope CurrentUser
 
-      - name: Create data folder
-        shell: pwsh
-        run: |
-          if (-not (Test-Path -Path $env:DataFolderName -PathType Container))
-          {
-            New-Item -Path $env:DataFolderName -ItemType Directory | Out-Null
-          }
+      # - name: Create data folder
+      #   shell: pwsh
+      #   run: |
+      #     if (-not (Test-Path -Path $env:DataFolderName -PathType Container))
+      #     {
+      #       New-Item -Path $env:DataFolderName -ItemType Directory | Out-Null
+      #     }
 
-      - name: Update fund data
-        shell: pwsh
-        run: |
-          $DataFileName = "$(Get-Date -Format FileDate).xml"
-          $DataFilePath = Join-Path -Path $env:DataFolderName -ChildPath $DataFileName
-          Get-MeewindFundPrice | Export-CliXml -Path $DataFilePath
+      # - name: Update fund data
+      #   shell: pwsh
+      #   run: |
+      #     $DataFileName = "$(Get-Date -Format FileDate).xml"
+      #     $DataFilePath = Join-Path -Path $env:DataFolderName -ChildPath $DataFileName
+      #     Get-MeewindFundPrice | Export-CliXml -Path $DataFilePath
 
-      - name: Clean-up data folder
-        shell: pwsh
-        run: |
-          Get-ChildItem -Path $env:DataFolderName
-          | Sort-Object Name -Descending
-          | Select-Object -Skip 3
-          | Remove-Item -Force
+      # - name: Clean-up data folder
+      #   shell: pwsh
+      #   run: |
+      #     Get-ChildItem -Path $env:DataFolderName
+      #     | Sort-Object Name -Descending
+      #     | Select-Object -Skip 3
+      #     | Remove-Item -Force
 
       - name: Push changes to git repo
         run: |
