@@ -1,0 +1,30 @@
+<Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
+  <Obj RefId="0">
+    <TN RefId="0">
+      <T>UncommonSense.Asn.FundPrice</T>
+      <T>System.Management.Automation.PSCustomObject</T>
+      <T>System.Object</T>
+    </TN>
+    <MS>
+      <S N="Fund">ASN Milieu &amp; Waterfonds</S>
+      <DT N="Date">2021-07-06T00:00:00</DT>
+      <D N="Price">51.87</D>
+    </MS>
+  </Obj>
+  <Obj RefId="1">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Fund">ASN Milieu &amp; Waterfonds</S>
+      <DT N="Date">2021-07-05T00:00:00</DT>
+      <D N="Price">51.68</D>
+    </MS>
+  </Obj>
+  <Obj RefId="2">
+    <TNRef RefId="0" />
+    <MS>
+      <S N="Fund">ASN Milieu &amp; Waterfonds</S>
+      <DT N="Date">2021-07-02T00:00:00</DT>
+      <D N="Price">51.51</D>
+    </MS>
+  </Obj>
+</Objs>
