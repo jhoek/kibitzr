@@ -46,7 +46,7 @@ jobs:
         run: |
           $DataFileName = "$(Get-Date -Format FileDate).xml"
           $DataFilePath = Join-Path -Path $env:DataFolderName -ChildPath $DataFileName
-          Get-AsnFundPrice | Export-CliXml -Path $DataFilePath
+          Get-AsnFundPrice | Where-Object Fund -eq 'ASN Milieu & Waterfonds' |  Export-CliXml -Path $DataFilePath
 
       - name: Clean-up data folder
         shell: pwsh
