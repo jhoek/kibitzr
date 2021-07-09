@@ -1,3 +1,5 @@
+#!/usr/bin/env pwsh
+
 Invoke-WebRequest -Uri 'https://magpi.raspberrypi.org'
 | Select-Object -ExpandProperty Links
 | Where-Object href -Match '^/issues/(.*)/pdf$'
