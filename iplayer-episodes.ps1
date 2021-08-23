@@ -6,18 +6,17 @@ Add-Type -AssemblyName System.Web
 $ApplicationToken = 'a4fo9r2dmbnjh8hk1m98zhich53e32'
 $Recipient = 'u65ckN1X5uHueh7abnWukQ2owNdhAp'
 
+$env:GETIPLAYERUSERPREFS = '/Users/jhoek/Dropbox/.iPlayer'
+
 Write-Host "$(Get-Date) $('#' * 60)"
 get_iplayer --prefs-show
 
-Find-AirTableRecord `
-    -ApiKey keyL62zvsXw1vBbKZ `
-    -BaseName appgyJZy5Dkjup0K4 `
-    -TableName Programmes `
-| ForEach-Object { Write-Host "$($_.Name)" -ForegroundColor Cyan; $_ } `
-| ForEach-Object { get_iplayer --pid-recursive-list "$($_.Url)"; '' } `
-| Where-Object { $_ } `
+& get_iplayer --pvr --test 2>&1
+| ForEach-Object { $_.Exception.Message }
+| Where-Object { [bool]$_ }
+| Where-Object { $_ -notmatch '^Running PVR Searches:' }
 | Where-Object { $_ -notmatch '^Episodes:' } `
-| Where-Object { $_ -notmatch '^INFO:' } `
+| Where-Object { $_ -notmatch '^INFO:' }
 | ForEach-Object { Write-Host "- $_"; $_ } `
 | ForEach-Object { $null = $_ -match '^(?<EpisodeTitle>.*), (?<Channel>.*), (?<ID>.*)$'; @{PID = $Matches.ID; Title = $Matches.EpisodeTitle } } `
 | ForEach-Object {
