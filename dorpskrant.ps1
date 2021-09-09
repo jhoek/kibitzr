@@ -6,7 +6,7 @@ Invoke-WebRequest -Uri 'https://www.driemond.info/dorpskrant/'
 | Select-Object -ExpandProperty href -Unique
 | Where-Object { $_ -match "/app/download/\d+/([^?]+)\?" }
 | Select-Object -First 1
-| ForEach-Object { Invoke-WebRequest -Uri "https://www.driemond.info$_" -OutFile "/shared/$Matches[1]" }
+| ForEach-Object { Invoke-WebRequest -Uri "https://www.driemond.info$_" -OutFile "/shared/$($Matches[1])" }
 
 # | ForEach-Object { Invoke-WebRequest -Uri "https://www.driemond.info$_" -OutFile }
 # | pup '.j-downloadDocument json{}' --plain
