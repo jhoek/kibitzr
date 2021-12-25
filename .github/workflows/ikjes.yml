@@ -1,6 +1,8 @@
 name: ikjes
 
 on:
+  schedule:
+    - cron: "0 8 * * *"
   workflow_dispatch:
 
 jobs:
@@ -33,5 +35,5 @@ jobs:
               -ApplicationToken arp51yjfkhaxaptx2t3ymps5jr781c `
               -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp `
               -Message $_.Body `
-              -Title $_.Title
+              -Title 'Ikje: {0} ({1:dddd d MMMM yyyy})' -f $Title, $Date
           }
