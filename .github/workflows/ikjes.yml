@@ -12,4 +12,17 @@ jobs:
         shell: pwsh
         run: |
           Set-PSRepository PSGallery -InstallationPolicy Trusted
-          Install-Module UncommonSense.Nrc, UncommonSense.Pushover
+          Install-Module UncommonSense.Nrc, UncommonSense.Pushover -Scope CurrentUser
+
+      - name: Send notification
+        shell: pwsh
+        run: |
+          Get-Ikje
+          | Select-Object -First 1
+          | ForEach-Object {
+            Send-PushoverNotification `
+              -ApplicationToken arp51yjfkhaxaptx2t3ymps5jr781c `
+              -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp `
+              -Message $_.Body `
+              -Title $_.Title
+          }
