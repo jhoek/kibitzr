@@ -34,7 +34,7 @@ jobs:
           PUSHOVER_RECIPIENT: ${{secrets.PUSHOVER_RECIP_JUSTME}}
         run: |
           Get-Sudoku
-          | Where-Object { -not (Test-InKibitzrHistory -ApiKey $env:AIRTABLE_APIKEY -BaseName $env:AIRTABLE_BASE -Table History -Url $_.Url -DateTime $_.DateTime -Title $_.Title -Body $_.Body)}
+          | Where-Object { -not (Test-InKibitzrHistory -ApiKey $env:AIRTABLE_APIKEY -BaseName $env:AIRTABLE_BASE -Table History -Url $_.Url -Date $_.Date -Title $_.Title -Body $_.Body)}
           | ForEach-Object {
             Send-PushoverNotification `
               -ApplicationToken $env:PUSHOVER_APP `
