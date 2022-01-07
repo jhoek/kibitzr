@@ -40,5 +40,6 @@ jobs:
               -ApplicationToken $env:PUSHOVER_APP `
               -Recipient $env:PUSHOVER_RECIPIENT `
               -Message $_.Body `
-              -Title ('Sudoku ({0:dddd d MMMM yyyy})' -f $_.Date)
+              -Title ('Sudoku ({0:dddd d MMMM yyyy})' -f $_.Date) `
+              -Verbose
           }
