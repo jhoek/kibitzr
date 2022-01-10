@@ -33,7 +33,7 @@ jobs:
           | ForEach-Object {
             Send-PushoverNotification `
               -ApplicationToken arp51yjfkhaxaptx2t3ymps5jr781c `
-              -Recipient u65ckN1X5uHueh7abnWukQ2owNdhAp `
+              -Recipient gempdcdjncu5zcorv39g11xbzh196s `
               -Message $_.Body `
               -Title ('Ikje: {0} ({1:dddd d MMMM yyyy})' -f $_.Title, $_.Date)
           }
