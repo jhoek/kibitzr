@@ -31,7 +31,7 @@ jobs:
           Get-SylviaWitteman | Select-Object -First 1 | ForEach-Object {
             Invoke-WebRequest -Uri https://hook.integromat.com/ei3b5m4ciiy701ttvwm7r4067bmmxmib -Body @{
               ID = $_.Url
-              Title = $_.Title
-              Message = $_.Body
+              Title = "Sylvia Witteman: $($_.Title)"
+              Message = ($_.Body -join "`n")
             }
           }
