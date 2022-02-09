@@ -24,3 +24,14 @@ jobs:
         run: |
           Set-PSRepository PSGallery -InstallationPolicy Trusted
           Install-Module UncommonSense.Nrc -Scope CurrentUser
+
+      - name: Get Recent data
+        shell: pwsh
+        run: |
+          Get-SylviaWitteman | Select-Object -First 1 | ForEach-Object {
+            Invoke-WebRequest -Uri https://hook.integromat.com/ei3b5m4ciiy701ttvwm7r4067bmmxmib -Body @{
+              ID = $_.Url
+              Title = $_.Title
+              Message = $_.Body
+            }
+          }
