@@ -42,7 +42,7 @@ jobs:
             -Title 'Ikje' `
             -Link 'https://nrc.nl/rubriek/ikje' `
             -Description 'Lezers zijn de auteur van deze rubriek. Een Ikje is een persoonlijke ervaring of anekdote in maximaal 120 woorden. Insturen via ik@nrc.nl.'
-          | Set-Content -Path ikje.xml
+          | Set-Content -Path ./data/ikje.xml
 
       - name: Commit and push feed
         shell: bash
