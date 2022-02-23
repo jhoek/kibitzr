@@ -1,6 +1,9 @@
 name: fokkesukke
 
 on:
+  push:
+    branches:
+      - master
   # schedule:
   #   - cron: "0 8 * * 1-6"
   workflow_dispatch:
@@ -36,7 +39,7 @@ jobs:
             New-RssFeedItem `
               -ID $_.Url `
               -Title $_.Title `
-              -Description "&lt;img src='$($_.Body)'/&gt;" `
+              -Description "<![CDATA[<img src='$($_.Body)'/>]]>"
               -PubDate $_.Date }
           | New-RssFeed `
             -Title 'Fokke & Sukke' `
