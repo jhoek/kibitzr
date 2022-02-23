@@ -39,7 +39,7 @@ jobs:
             New-RssFeedItem `
               -ID $_.Url `
               -Title $_.Title `
-              -Description "<![CDATA[<img src='$($_.Body)'/>]]>"
+              -Description "<![CDATA[<img src='$($_.Body)'/>]]>" `
               -PubDate $_.Date }
           | New-RssFeed `
             -Title 'Fokke & Sukke' `
