@@ -34,7 +34,7 @@ jobs:
             New-RssFeedItem `
               -ID $_.Url `
               -Title $_.Title `
-              -Description $_.Body `
+              -Description ($_.Body -join "`n") `
               -PubDate $_.Date }
           | New-RssFeed `
             -Title 'Sylvia Witteman' `
