@@ -30,7 +30,7 @@ jobs:
       - name: Get Recent data
         shell: pwsh
         run: |
-          Get-VerdienenEnUitgeven
+          Get-TjeerdRoyaards
           | Select-Object -First 10
           | ForEach-Object {
             New-RssFeedItem `
