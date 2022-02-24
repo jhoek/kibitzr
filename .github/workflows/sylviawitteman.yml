@@ -1,6 +1,8 @@
 name: sylviawitteman
 
 on:
+  schedule:
+    - cron: "0 8 * * 1-6"
   workflow_dispatch:
 
 jobs:
@@ -23,15 +25,30 @@ jobs:
         shell: pwsh
         run: |
           Set-PSRepository PSGallery -InstallationPolicy Trusted
-          Install-Module UncommonSense.Volkskrant -Scope CurrentUser
+          Install-Module UncommonSense.Volkskrant, UncommonSense.Rss -Scope CurrentUser
 
       - name: Get Recent data
         shell: pwsh
         run: |
-          Get-SylviaWitteman | Select-Object -First 1 | ForEach-Object {
-            Invoke-WebRequest -Uri https://hook.integromat.com/ei3b5m4ciiy701ttvwm7r4067bmmxmib -Body @{
-              ID = $_.Url
-              Title = "Sylvia Witteman: $($_.Title)"
-              Message = ($_.Body -join "`n")
-            }
-          }
+          Get-SylviaWitteman
+          | Select-Object -First 10
+          | ForEach-Object {
+            New-RssFeedItem `
+              -ID $_.Url `
+              -Title $_.Title `
+              -Description ($_.Body -join "`n") `
+              -PubDate $_.Date }
+          | New-RssFeed `
+            -Title 'Sylvia Witteman' `
+            -Link 'https://www.volkskrant.nl/auteur/Sylvia%20Witteman' `
+            -Description 'Sylvia Witteman'
+          | Set-Content -Path ./data/sylviawitteman.xml
+
+      - name: Commit and push feed
+        shell: bash
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "generated"
+          git push
