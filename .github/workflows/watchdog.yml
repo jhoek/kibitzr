@@ -15,7 +15,15 @@ jobs:
         run: |
           Get-ChildItem -Path ./data/*.xml
           | ForEach-Object {
-            $_.FullName
+            $CurrentFile = $_
+
+            Select-Xml -Path $_.FullName -XPath '/rss/channel/item/pubDate/text()'
+            | Select-Object -ExpandProperty Node
+            | Select-Object -ExpandProperty Value
+            | ForEach-Object { [DateTime]::ParseExact($_, 'ddd, dd MMM yyyy HH:mm:ss zzz', [CultureInfo]::InvariantCulture) }
+            | Sort-Object -Descending
+            | Select-Object -First 1
+            | ForEach-Object { "$($CurrentFile.Name): $_" }
           }
           | Set-Content -Path ./data/watchdog.xml
 
