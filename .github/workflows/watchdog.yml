@@ -16,7 +16,7 @@ jobs:
         shell: pwsh
         run: |
           $Body =
-          Get-ChildItem -Path ./data/*.xml
+          Get-ChildItem -Path ./data/*.xml -Exclude watchdog.xml
           | ForEach-Object {
             $CurrentFile = $_
 
