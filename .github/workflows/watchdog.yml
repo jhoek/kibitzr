@@ -1,6 +1,8 @@
 name: watchdog
 
 on:
+  schedule:
+    - cron: "0 21 * * *"
   workflow_dispatch:
 
 jobs:
@@ -13,6 +15,7 @@ jobs:
       - name: Find latest updates
         shell: pwsh
         run: |
+          $Body =
           Get-ChildItem -Path ./data/*.xml
           | ForEach-Object {
             $CurrentFile = $_
@@ -25,6 +28,9 @@ jobs:
             | Select-Object -First 1
             | ForEach-Object { "$($CurrentFile.Name): $_" }
           }
+
+          New-RssFeedItem -Title "Watchdog $(Get-Date)" -Description $Body
+          | New-RssFeed -Title Watchdog -Description Watchdog -Link 'http://github.com/jhoek/kibitzr'
           | Set-Content -Path ./data/watchdog.xml
 
       - name: Commit and push feed
