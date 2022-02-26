@@ -35,7 +35,7 @@ jobs:
             | ForEach-Object { "$($CurrentFile.Name): $_" }
           }
 
-          New-RssFeedItem -Title "Watchdog $(Get-Date)" -Description $Body
+          New-RssFeedItem -Title "Watchdog $(Get-Date)" -Description ($Body -join "`n")
           | New-RssFeed -Title Watchdog -Description Watchdog -Link 'http://github.com/jhoek/kibitzr'
           | Set-Content -Path ./data/watchdog.xml
 
