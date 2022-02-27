@@ -52,55 +52,50 @@ jobs:
           | Select-Object -Skip 3
           | Remove-Item -Force
 
+      - name: Update rss feed
+        shell: pwsh
+        run: |
+          Get-ChildItem -Path $env:DataFolderName
+          | Import-CliXml
+          | Sort-Object -Property Fund, Date
+          | Group-Object -Property Fund
+          | ForEach-Object {
+            $Message =
+              $_.Group
+              | ForEach-Object `
+                -Begin {
+                  $PreviousPrice = 0
+                } `
+                -Process {
+                  $CurrentPrice = $_.Price
+                  $PriceDiff = $CurrentPrice - $PreviousPrice
+
+                  $FontStart, $FontStop, $Direction, $PriceDiffText = switch ($true)
+                  {
+                      ($PreviousPrice -eq 0)        { '', '', '', ''; break }
+                      ($CurrentPrice -eq $PreviousPrice) { '', '', '', ''; break }
+                      ($CurrentPrice -gt $PreviousPrice) { '<font color="#090">', '</font>', ' &#x25B2; ', ('&euro; {0}' -f $PriceDiff); break }
+                      ($CurrentPrice -lt $PreviousPrice) { '<font color="#900">', '</font>', ' &#x25BC; ', ('&euro; {0}' -f $PriceDiff); break }
+                  }
+
+                  "$($_.Date.ToString('yyyy-MM-dd')): $($FontStart)$("&euro;$($CurrentPrice)")$($Direction)$($PriceDiffText)$($FontStop)"
+                  $PreviousPrice = $CurrentPrice
+                }
+              | Sort-Object -Descending {(++$script:Index)}
+              | Join-String -Separator '<br/>'
+
+              New-RssFeedItem -Title (Get-Date -FormatHint Date) -Description $Body
+              | New-RssFeed -Title 'ASN Bank' -Description 'ASN Bank' -Link 'https://asnbank.nl'
+              | Set-Content -Path data/asnbank.xml
+            }
+
       - name: Push changes to git repo
         shell: pwsh
         run: |
           git config --global user.name 'Jan Hoek'
           git config --global user.email 'github@uncommonsense.nl'
           git remote set-url origin https://x-access-token:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}
+          git add data/asnbank.xml
           git add "$($env:DataFolderName)/*"
           git commit -am 'Updated ASN Bank files'
           git push
-
-      # - name: Send notification
-      #   shell: pwsh
-      #   env:
-      #     PUSHOVER_APP: ${{ secrets.PUSHOVER_APP_MEEWIND}}
-      #     PUSHOVER_RECIPIENT: ${{secrets.PUSHOVER_RECIP_JUSTME}}
-      #   run: |
-      #     Get-ChildItem -Path $env:DataFolderName
-      #     | Import-CliXml
-      #     | Sort-Object -Property Fund, Date
-      #     | Group-Object -Property Fund
-      #     | ForEach-Object {
-      #       $Message =
-      #         $_.Group
-      #         | ForEach-Object `
-      #           -Begin {
-      #             $PreviousPrice = 0
-      #           } `
-      #           -Process {
-      #             $CurrentPrice = $_.Price
-      #             $PriceDiff = $CurrentPrice - $PreviousPrice
-
-      #             $FontStart, $FontStop, $Direction, $PriceDiffText = switch ($true)
-      #             {
-      #                 ($PreviousPrice -eq 0)        { '', '', '', ''; break }
-      #                 ($CurrentPrice -eq $PreviousPrice) { '', '', '', ''; break }
-      #                 ($CurrentPrice -gt $PreviousPrice) { '<font color="#090">', '</font>', ' &#x25B2; ', ('&euro; {0}' -f $PriceDiff); break }
-      #                 ($CurrentPrice -lt $PreviousPrice) { '<font color="#900">', '</font>', ' &#x25BC; ', ('&euro; {0}' -f $PriceDiff); break }
-      #             }
-
-      #             "$($_.Date.ToString('yyyy-MM-dd')): $($FontStart)$("&euro;$($CurrentPrice)")$($Direction)$($PriceDiffText)$($FontStop)"
-      #             $PreviousPrice = $CurrentPrice
-      #           }
-      #         | Sort-Object -Descending {(++$script:Index)}
-      #         | Join-String -Separator '<br/>'
-
-      #       Send-PushoverNotification `
-      #           -ApplicationToken "$env:PUSHOVER_APP" `
-      #           -Recipient "$env:PUSHOVER_RECIPIENT" `
-      #           -Title "Meewind $($_.Name)" `
-      #           -Message $Message `
-      #           -Html
-      #     }
