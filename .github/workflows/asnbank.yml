@@ -84,7 +84,7 @@ jobs:
               | Sort-Object -Descending {(++$script:Index)}
               | Join-String -Separator '<br/>'
 
-              New-RssFeedItem -Title (Get-Date -FormatHint Date) -Description $Body
+              New-RssFeedItem -Title (Get-Date -DisplayHint Date) -Description $Body
               | New-RssFeed -Title 'ASN Bank' -Description 'ASN Bank' -Link 'https://asnbank.nl'
               | Set-Content -Path data/asnbank.xml
             }
