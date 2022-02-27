@@ -33,7 +33,7 @@ jobs:
       - name: Update feed
         shell: pwsh
         run: |
-          Get-Sigmund
+          Get-DirkJan
           | Select-Object -First 10
           | ForEach-Object {
             New-RssFeedItem `
