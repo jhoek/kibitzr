@@ -2,7 +2,7 @@ name: sylviawitteman
 
 on:
   schedule:
-    - cron: "0 8 * * 1-6"
+    - cron: "20 8 * * 1-6"
   workflow_dispatch:
 
 jobs:

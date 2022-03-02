@@ -2,7 +2,7 @@ name: zomeravondgesprek
 
 on:
   schedule:
-    - cron: "0 8 * * 1-6"
+    - cron: "45 8 * * 5"
   workflow_dispatch:
 
 jobs:

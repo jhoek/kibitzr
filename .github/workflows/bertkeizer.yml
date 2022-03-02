@@ -2,7 +2,7 @@ name: bertkeizer
 
 on:
   schedule:
-    - cron: "0 8 * * 1-6"
+    - cron: "35 7 * * 5"
   workflow_dispatch:
 
 jobs:

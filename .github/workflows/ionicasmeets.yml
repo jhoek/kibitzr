@@ -2,7 +2,7 @@ name: ionicasmeets
 
 on:
   schedule:
-    - cron: "0 8 * * 1-6"
+    - cron: "45 7 * * 5"
   workflow_dispatch:
 
 jobs:

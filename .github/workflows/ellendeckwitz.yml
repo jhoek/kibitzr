@@ -2,7 +2,7 @@ name: ellendeckwitz
 
 on:
   schedule:
-    - cron: "0 8 * * 1-6"
+    - cron: "25 7 * * 1-5"
   workflow_dispatch:
 
 jobs:
