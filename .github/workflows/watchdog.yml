@@ -36,12 +36,12 @@ jobs:
             [PSCustomObject]@{
               FileName = $CurrentFile.Name
               LatestPubDate = $LatestPubDate
-              Age = $LatestPubDate - (Get-Date)
+              Age = (Get-Date) - $LatestPubDate
             }
           }
           | Sort-Object LatestPubDate -Descending
           | ForEach-Object `
-            -Begin { '<table>' } `
+            -Begin { '<table>', '<tr><th>File Name</th><th>Latest Publ. Date</th><th>Age</th></tr>' } `
             -Process { "<tr><td>$($_.FileName)</td><td>$($_.LatestPubDate)</td><td>$($_.Age.Days)</td></tr>" } `
             -End { '</table>'}
 
