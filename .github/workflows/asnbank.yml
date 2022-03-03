@@ -90,12 +90,12 @@ jobs:
             }
 
       - name: Push changes to git repo
-        shell: pwsh
+        shell: bash
         run: |
           git config --global user.name 'Jan Hoek'
           git config --global user.email 'github@uncommonsense.nl'
           git remote set-url origin https://x-access-token:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}
           git add data/asnbank.xml
-          git add "$($env:DataFolderName)/*"
-          git commit -am 'Updated ASN Bank files'
+          git add "$DataFolderName/*"
+          git commit -am 'Updated ASN Bank files' || echo "No changes to commit"
           git push
