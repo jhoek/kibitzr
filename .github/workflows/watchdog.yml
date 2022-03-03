@@ -21,6 +21,8 @@ jobs:
       - name: Find latest updates
         shell: pwsh
         run: |
+          $Today = Get-Date
+
           $Body =
           Get-ChildItem -Path ./data/*.xml -Exclude watchdog.xml
           | ForEach-Object {
@@ -36,7 +38,7 @@ jobs:
             [PSCustomObject]@{
               FileName = $CurrentFile.Name
               LatestPubDate = $LatestPubDate
-              Age = $(Get-Date) - $LatestPubDate
+              Age = $Today - $LatestPubDate
             }
           }
           | Sort-Object LatestPubDate -Descending
