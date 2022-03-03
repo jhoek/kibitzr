@@ -36,7 +36,7 @@ jobs:
             [PSCustomObject]@{
               FileName = $CurrentFile.Name
               LatestPubDate = $LatestPubDate
-              Age = (Get-Date) - $LatestPubDate
+              Age = $(Get-Date) - $LatestPubDate
             }
           }
           | Sort-Object LatestPubDate -Descending
