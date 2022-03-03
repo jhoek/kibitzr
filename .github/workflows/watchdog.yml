@@ -36,12 +36,13 @@ jobs:
             [PSCustomObject]@{
               FileName = $CurrentFile.Name
               LatestPubDate = $LatestPubDate
+              Age = $LatestPubDate - (Get-Date)
             }
           }
           | Sort-Object LatestPubDate -Descending
           | ForEach-Object `
             -Begin { '<table>' } `
-            -Process { "<tr><td>$($_.FileName)</td><td>$($_.LatestPubDate)</td></tr>" } `
+            -Process { "<tr><td>$($_.FileName)</td><td>$($_.LatestPubDate)</td><td>$($_.Age.Days)</td></tr>" } `
             -End { '</table>'}
 
           New-RssFeedItem -Title "Watchdog $(Get-Date)" -Description ($Body -join "`n")
