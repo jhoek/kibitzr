@@ -34,7 +34,7 @@ jobs:
         shell: pwsh
         run: |
           Import-Module UncommonSense.Dirkjan
-          Import-Module UncommonSense.Parool -Prefix
+          Import-Module UncommonSense.Parool -Prefix Parool
 
           $First = Get-DirkJan | Select-Object -First 10
           $Second = Get-ParoolDirkJan | Select-Object -First 10
