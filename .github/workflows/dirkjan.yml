@@ -38,7 +38,7 @@ jobs:
 
           $First = Get-DirkJan | Select-Object -First 10
           $Second = Get-ParoolDirkJan | Select-Object -First 10
-          $All = ($First + $Second) | Sort-Object -Property Date
+          $All = ($First + $Second) | Sort-Object -Property Date -Descending
 
           $All
           | ForEach-Object {
