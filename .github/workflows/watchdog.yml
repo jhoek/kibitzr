@@ -43,7 +43,7 @@ jobs:
           }
           | Sort-Object LatestPubDate -Descending
           | ForEach-Object `
-            -Begin { '<table>', '<tr><th>File Name</th><th>Latest Publ. Date</th><th>Age</th></tr>' } `
+            -Begin { '<table>', '<tr><th>File Name</th><th>Latest Publication Date</th><th>Age in Days</th></tr>' } `
             -Process { "<tr><td>$($_.FileName)</td><td>$($_.LatestPubDate)</td><td>$($_.Age.Days)</td></tr>" } `
             -End { '</table>'}
 
