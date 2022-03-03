@@ -26,14 +26,23 @@ jobs:
           | ForEach-Object {
             $CurrentFile = $_
 
-            Select-Xml -Path $_.FullName -XPath '/rss/channel/item/pubDate/text()'
+            $LatestPubDate = Select-Xml -Path $_.FullName -XPath '/rss/channel/item/pubDate/text()'
             | Select-Object -ExpandProperty Node
             | Select-Object -ExpandProperty Value
             | ForEach-Object { [DateTime]::ParseExact($_, 'ddd, d MMM yyyy HH:mm:ss zzz', [CultureInfo]::InvariantCulture) }
             | Sort-Object -Descending
             | Select-Object -First 1
-            | ForEach-Object { "$($CurrentFile.Name): $_" }
+
+            [PSCustomObject]@{
+              FileName = $CurrentFile.Name
+              LatestPubDate = $LatestPubDate
+            }
           }
+          | Sort-Object LatestPubDate -Descending
+          | ForEach-Object `
+            -Begin { '<table>' } `
+            -Process { "<tr><td>$($_.FileName)</td><td>$($_.LatestPubDate)</td></tr>" } `
+            -End { '</table>'}
 
           New-RssFeedItem -Title "Watchdog $(Get-Date)" -Description ($Body -join "`n")
           | New-RssFeed -Title Watchdog -Description Watchdog -Link 'http://github.com/jhoek/kibitzr'
