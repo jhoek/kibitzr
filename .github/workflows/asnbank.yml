@@ -60,7 +60,7 @@ jobs:
           | Sort-Object -Property Fund, Date
           | Group-Object -Property Fund
           | ForEach-Object {
-            $Message =
+            $Body =
               $_.Group
               | ForEach-Object `
                 -Begin {
