@@ -18,6 +18,10 @@ jobs:
         shell: bash
         run: sudo apt-get install html-xml-utils
 
+      - name: Install xml2
+        shell: bash
+        run: sudo apt-get install xml2
+
       - name: Install pup
         shell: bash
         run: |
