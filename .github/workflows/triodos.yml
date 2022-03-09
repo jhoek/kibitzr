@@ -1,0 +1,109 @@
+name: triodos
+
+on:
+  schedule:
+    - cron: "10 12 * * 1-5"
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    env:
+      DataFolderName: ./data/triodos
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install HTML/XML Utils
+        shell: bash
+        run: sudo apt-get install html-xml-utils
+
+      - name: Install xml2
+        shell: bash
+        run: sudo apt-get install xml2
+
+      - name: Install pup
+        shell: bash
+        run: |
+          go get github.com/ericchiang/pup
+          export GOROOT=/usr/bin/go
+          cd ~/go/bin
+          sudo cp pup /usr/bin
+          pup --version
+
+      - name: Install required PowerShell modules
+        shell: pwsh
+        run: |
+          Set-PSRepository PSGallery -InstallationPolicy Trusted
+          Install-Module UncommonSense.Triodos, UncommonSense.Rss -Scope CurrentUser
+
+      - name: Create data folder
+        shell: pwsh
+        run: |
+          if (-not (Test-Path -Path $env:DataFolderName -PathType Container))
+          {
+            New-Item -Path $env:DataFolderName -ItemType Directory | Out-Null
+          }
+
+      - name: Update fund data
+        shell: pwsh
+        run: |
+          $DataFileName = "$(Get-Date -Format FileDate).xml"
+          $DataFilePath = Join-Path -Path $env:DataFolderName -ChildPath $DataFileName
+          Get-TriodosFundPrice | Where-Object { $_.Date.Date -eq (Get-Date).Date} | Export-CliXml -Path $DataFilePath
+
+      - name: Clean-up data folder
+        shell: pwsh
+        run: |
+          Get-ChildItem -Path $env:DataFolderName
+          | Sort-Object Name -Descending
+          | Select-Object -Skip 3
+          | Remove-Item -Force
+
+      - name: Update rss feed
+        shell: pwsh
+        run: |
+          Get-ChildItem -Path $env:DataFolderName
+          | Import-CliXml
+          | Sort-Object -Property Fund, Date
+          | Group-Object -Property Fund
+          | ForEach-Object {
+            $Body =
+              $_.Group
+              | ForEach-Object `
+                -Begin {
+                  $PreviousPrice = 0
+                } `
+                -Process {
+                  $CurrentPrice = $_.Price
+                  $PriceDiff = $CurrentPrice - $PreviousPrice
+
+                  $FontStart, $FontStop, $Direction, $PriceDiffText = switch ($true)
+                  {
+                      ($PreviousPrice -eq 0)        { '', '', '', ''; break }
+                      ($CurrentPrice -eq $PreviousPrice) { '', '', '', ''; break }
+                      ($CurrentPrice -gt $PreviousPrice) { '<font color="#090">', '</font>', ' &#x25B2; ', ('&euro; {0}' -f $PriceDiff); break }
+                      ($CurrentPrice -lt $PreviousPrice) { '<font color="#900">', '</font>', ' &#x25BC; ', ('&euro; {0}' -f $PriceDiff); break }
+                  }
+
+                  "$($_.Date.ToString('yyyy-MM-dd')): $($FontStart)$("&euro;$($CurrentPrice)")$($Direction)$($PriceDiffText)$($FontStop)"
+                  $PreviousPrice = $CurrentPrice
+                }
+              | Sort-Object -Descending {(++$script:Index)}
+              | Join-String -Separator '<br/>'
+
+              New-RssFeedItem -Title (Get-Date -DisplayHint Date) -Description $Body
+              | New-RssFeed -Title 'Triodos' -Description 'Triodos' -Link 'https://triodos.nl'
+              | Set-Content -Path data/triodos.xml
+            }
+
+      - name: Push changes to git repo
+        shell: bash
+        run: |
+          git config --global user.name 'Jan Hoek'
+          git config --global user.email 'github@uncommonsense.nl'
+          git remote set-url origin https://x-access-token:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}
+          git add data/triodos.xml
+          git add "$DataFolderName/*"
+          git commit -am 'Updated Triodos files' || echo "No changes to commit"
+          git push
