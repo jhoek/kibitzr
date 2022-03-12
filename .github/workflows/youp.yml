@@ -42,7 +42,7 @@ jobs:
             -Title 'Youp' `
             -Link 'https://www.nrc.nl/rubriek/youp/' `
             -Description 'Youp'
-          | Set-Content -Path ./data/marcelvanroosmalen.xml
+          | Set-Content -Path ./data/youp.xml
 
       - name: Commit and push feed
         shell: bash
