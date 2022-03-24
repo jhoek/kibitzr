@@ -5,7 +5,7 @@ on:
   #   branches:
   #     - master
   schedule:
-    - cron: "0 8 * * 1-6"
+    - cron: "25 6 * * 1-6"
   workflow_dispatch:
 
 jobs:
@@ -43,7 +43,7 @@ jobs:
               -PubDate $_.Date }
           | New-RssFeed `
             -Title 'Bas van der Schot' `
-            -Link 'https://12ft.io/proxy?q=https://www.volkskrant.nl/nieuws-achtergrond/bas-van-der-schot~b19fa213' `
+            -Link 'https://www.volkskrant.nl/nieuws-achtergrond/bas-van-der-schot~b19fa213' `
             -Description 'Bas van der Schot'
           | Set-Content -Path ./data/basvanderschot.xml
 
