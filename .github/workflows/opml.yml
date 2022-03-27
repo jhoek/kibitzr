@@ -23,7 +23,7 @@ jobs:
           | ForEach-Object {
             $CurrentFile = $_
             $Channel = ([xml](Get-Content -Path $CurrentFile.FullName)).rss.channel
-            New-OpmlOutline -Text $Channel.Title.InnerText -Type rss -Attribute @{ title = $Channel.Title.InnerText; version = 'rss'; htmlUrl = $Channel.Link.InnerText; xmlUrl = "https://raw.githubusercontent.com/jhoek/kibitzr/master/data/$($CurrentFile.Name)" }
+            New-OpmlOutline -Text $Channel.Title.InnerText -Type rss -Attribute @{ title = $Channel.Title.InnerText; version = 'rss'; htmlUrl = $Channel.Link; xmlUrl = "https://raw.githubusercontent.com/jhoek/kibitzr/master/data/$($CurrentFile.Name)" }
           }
           | New-OpmlDocument -Title kibitzr
           | Set-Content ./data/kibitzr.opml
