@@ -35,7 +35,7 @@ jobs:
         shell: pwsh
         run: |
           Set-PSRepository PSGallery -InstallationPolicy Trusted
-          Install-Module UncommonSense.Triodos, UncommonSense.Rss -Scope CurrentUser
+          Install-Module UncommonSense.Triodos, UncommonSense.Pushover -Scope CurrentUser
 
       - name: Create data folder
         shell: pwsh
@@ -60,7 +60,10 @@ jobs:
           | Select-Object -Skip 3
           | Remove-Item -Force
 
-      - name: Update rss feed
+      - name: Send Pushover notification
+        env:
+          PUSHOVER_APP_TRIODOS: ${{secrets.PUSHOVER_APP_TRIODOS}}
+          PUSHOVER_USER_JUSTME: ${{secrets.PUSHOVER_USER_JUSTME}}
         shell: pwsh
         run: |
           Get-ChildItem -Path $env:DataFolderName
@@ -90,12 +93,14 @@ jobs:
                   $PreviousPrice = $CurrentPrice
                 }
               | Sort-Object -Descending {(++$script:Index)}
-              | Join-String -Separator '<br/>'
 
-              New-RssFeedItem -Title (Get-Date -DisplayHint Date) -Description $Body
-              | New-RssFeed -Title 'Triodos' -Description 'Triodos' -Link 'https://triodos.nl'
-              | Set-Content -Path data/triodos.xml
-            }
+            Send-PushoverNotification `
+              -ApplicationToken $env:PUSHOVER_APP_TRIODOS `
+              -Recipient $env:PUSHOVER_USER_JUSTME `
+              -Title $_.Name `
+              -Message ($Body -join "`n") `
+              -Html
+          }
 
       - name: Push changes to git repo
         shell: bash

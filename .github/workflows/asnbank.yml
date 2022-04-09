@@ -53,7 +53,7 @@ jobs:
           | Select-Object -Skip 3
           | Remove-Item -Force
 
-      - name: Update rss feed
+      - name: Send Pushover notification
         env:
           PUSHOVER_APP_ASNBANK: ${{secrets.PUSHOVER_APP_ASNBANK}}
           PUSHOVER_USER_JUSTME: ${{secrets.PUSHOVER_USER_JUSTME}}
