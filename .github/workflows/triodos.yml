@@ -48,9 +48,11 @@ jobs:
       - name: Update fund data
         shell: pwsh
         run: |
-          $DataFileName = "$(Get-Date -Format FileDate).xml"
+          $FundPriceData = Get-TriodosFundPrice
+          $Date = $FundPriceData | Measure-Object -Property Date -Maximum | Select-Object -ExpandProperty Maximum
+          $DataFileName = "$(Get-Date -Date $Date -Format FileDate).xml"
           $DataFilePath = Join-Path -Path $env:DataFolderName -ChildPath $DataFileName
-          Get-TriodosFundPrice | Export-CliXml -Path $DataFilePath
+          $FundPriceData | Export-CliXml -Path $DataFilePath
 
       - name: Clean-up data folder
         shell: pwsh
