@@ -50,7 +50,7 @@ jobs:
         run: |
           $DataFileName = "$(Get-Date -Format FileDate).xml"
           $DataFilePath = Join-Path -Path $env:DataFolderName -ChildPath $DataFileName
-          Get-TriodosFundPrice | Where-Object { $_.Date.Date -eq (Get-Date).Date} | Export-CliXml -Path $DataFilePath
+          Get-TriodosFundPrice | Export-CliXml -Path $DataFilePath
 
       - name: Clean-up data folder
         shell: pwsh
