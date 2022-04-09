@@ -54,6 +54,9 @@ jobs:
           | Remove-Item -Force
 
       - name: Update rss feed
+        env:
+          PUSHOVER_APP_ASNBANK: ${{secrets.PUSHOVER_APP_ASNBANK}}
+          PUSHOVER_USER_JUSTME: ${{secrets.PUSHOVER_USER_JUSTME}}
         shell: pwsh
         run: |
           Get-ChildItem -Path $env:DataFolderName
@@ -83,11 +86,13 @@ jobs:
                   $PreviousPrice = $CurrentPrice
                 }
               | Sort-Object -Descending {(++$script:Index)}
-              | Join-String -Separator '<br/>'
 
-              New-RssFeedItem -Title (Get-Date -DisplayHint Date) -Description $Body
-              | New-RssFeed -Title 'ASN Bank' -Description 'ASN Bank' -Link 'https://asnbank.nl'
-              | Set-Content -Path data/asnbank.xml
+            Send-PushoverNotification `
+              -ApplicationToken $env:PUSHOVER_APP_ASNBANK `
+              -Recipient $env:PUSHOVER_USER_JUSTME `
+              -Title $_.Name `
+              -Message ($Body -join "`n") `
+              -Html
             }
 
       - name: Push changes to git repo
