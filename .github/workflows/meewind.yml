@@ -68,8 +68,8 @@ jobs:
       - name: Send notification
         shell: pwsh
         env:
-          PUSHOVER_APP: ${{ secrets.PUSHOVER_APP_MEEWIND}}
-          PUSHOVER_RECIPIENT: ${{secrets.PUSHOVER_RECIP_JUSTME}}
+          PUSHOVER_APP_MEEWIND: ${{ secrets.PUSHOVER_APP_MEEWIND}}
+          PUSHOVER_USER_JUSTME: ${{secrets.PUSHOVER_USER_JUSTME}}
         run: |
           Get-ChildItem -Path $env:DataFolderName
           | Import-CliXml
@@ -101,8 +101,8 @@ jobs:
               | Join-String -Separator '<br/>'
 
             Send-PushoverNotification `
-                -ApplicationToken "$env:PUSHOVER_APP" `
-                -Recipient "$env:PUSHOVER_RECIPIENT" `
+                -ApplicationToken "$env:PUSHOVER_APP_MEEWIND" `
+                -Recipient "$env:PUSHOVER_USER_JUSTME" `
                 -Title "Meewind $($_.Name)" `
                 -Message $Message `
                 -Html
