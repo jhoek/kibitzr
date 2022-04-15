@@ -63,6 +63,7 @@ jobs:
           | Import-CliXml
           | Sort-Object -Property Fund, Date
           | Group-Object -Property Fund
+          | Where-Object Name -eq 'ASN Milieu & Waterfonds'
           | ForEach-Object {
             $Body =
               $_.Group
