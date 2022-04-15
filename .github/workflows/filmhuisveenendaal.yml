@@ -37,7 +37,7 @@ jobs:
             New-Item -Path $env:DataFolderName -ItemType Directory | Out-Null
           }
 
-      - name: Update tv guide data
+      - name: Update calendar file
         shell: pwsh
         run: |
           Get-FilmhuisVeenendaal
@@ -50,6 +50,6 @@ jobs:
           git config --global user.email 'github@uncommonsense.nl'
           git remote set-url origin https://x-access-token:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}
           git pull
-          git add ./data/tvguide/*
+          git add ./data/cinema/*
           git commit -am 'Updated tvguide files'
           git push
