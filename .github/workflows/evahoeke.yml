@@ -2,7 +2,7 @@ name: evahoeke
 
 on:
   schedule:
-    - cron: "30 7 * * 4"
+    - cron: "30 5 * * 4"
   workflow_dispatch:
 
 jobs:

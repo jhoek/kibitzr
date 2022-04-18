@@ -2,7 +2,7 @@ name: verdienenenuitgeven
 
 on:
   schedule:
-    - cron: "40 8 * * 1,5"
+    - cron: "40 6 * * 1,5"
   workflow_dispatch:
 
 jobs:

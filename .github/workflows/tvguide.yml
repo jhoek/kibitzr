@@ -2,7 +2,7 @@ name: tvguide
 
 on:
   schedule:
-    - cron: "0 4 * * *" # GitHub uses UTC
+    - cron: "0 2 * * *" # GitHub uses UTC
   workflow_dispatch:
 
 jobs:

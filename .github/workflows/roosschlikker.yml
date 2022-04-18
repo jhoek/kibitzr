@@ -2,7 +2,7 @@ name: roosschlikker
 
 on:
   schedule:
-    - cron: "5 8 * * 1-6"
+    - cron: "5 6 * * 1-6"
   workflow_dispatch:
 
 jobs:

@@ -3,7 +3,7 @@ name: tiengeboden
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 8 * * 6"
+    - cron: "30 6 * * 6"
 
 jobs:
   run:

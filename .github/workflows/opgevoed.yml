@@ -2,7 +2,7 @@ name: opgevoed
 
 on:
   schedule:
-    - cron: "5 9 * * 1"
+    - cron: "5 7 * * 1"
   workflow_dispatch:
 
 jobs:

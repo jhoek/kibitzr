@@ -2,7 +2,7 @@ name: barbaravanbeukering
 
 on:
   schedule:
-    - cron: "5 7 * * 4"
+    - cron: "5 5 * * 4"
   workflow_dispatch:
 
 jobs:

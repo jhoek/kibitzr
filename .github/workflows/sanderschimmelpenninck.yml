@@ -2,7 +2,7 @@ name: sanderschimmelpenninck
 
 on:
   schedule:
-    - cron: "30 6 * * 1"
+    - cron: "30 4 * * 1"
   workflow_dispatch:
 
 jobs:

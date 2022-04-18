@@ -2,7 +2,7 @@ name: kicksvoorniks
 
 on:
   schedule:
-    - cron: "25 8 * * 5"
+    - cron: "25 6 * * 5"
   workflow_dispatch:
 
 jobs:

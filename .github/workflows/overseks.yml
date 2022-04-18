@@ -2,7 +2,7 @@ name: overseks
 
 on:
   schedule:
-    - cron: "40 6 * * 4"
+    - cron: "40 4 * * 4"
   workflow_dispatch:
 
 jobs:

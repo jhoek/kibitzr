@@ -2,7 +2,7 @@ name: teunvandekeuken
 
 on:
   schedule:
-    - cron: "35 6 * * 1"
+    - cron: "35 4 * * 1"
   workflow_dispatch:
 
 jobs:

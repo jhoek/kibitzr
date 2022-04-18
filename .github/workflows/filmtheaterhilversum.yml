@@ -2,7 +2,7 @@ name: filmtheaterhilversum
 
 on:
   schedule:
-    - cron: "55 8 * * *"
+    - cron: "55 6 * * *"
   workflow_dispatch:
 
 jobs:

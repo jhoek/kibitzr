@@ -2,7 +2,7 @@ name: sudoku
 
 on:
   schedule:
-    - cron: "50 6 * * 1-6"
+    - cron: "50 4 * * 1-6"
   workflow_dispatch:
 
 jobs:
