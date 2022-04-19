@@ -72,6 +72,7 @@ jobs:
           | Import-CliXml
           | Sort-Object -Property Fund, Date
           | Group-Object -Property Fund
+          | Where-Object Name -eq 'Triodos Global Equities Impact Fund'
           | ForEach-Object {
             $Body =
               $_.Group
