@@ -45,9 +45,10 @@ jobs:
           | ForEach-Object {
             $CurrentStore = $_
 
-            $_.OpeningHours
+            $CurrentStore.OpeningHours
             | ForEach-Object { New-CalendarEvent -Start $_.From -End $_.To -Summary $CurrentStore.Name -Description $CurrentStore.Address }
             | Export-Calendar -Name $CurrentStore.Name -Path (Join-Path -Path $env:DataFolderName -ChildPath "$($CurrentStore.ID).ics")
+          }
 
       - name: Push changes to git repo
         run: |
