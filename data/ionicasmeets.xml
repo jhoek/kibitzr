@@ -5,6 +5,22 @@
     <link>https://www.volkskrant.nl/auteur/ionica-smeets</link>
     <description><![CDATA[Ionica Smeets]]></description>
     <item>
+      <title><![CDATA[Het hels moeilijke Semantle is mijn absolute favoriet van de nieuwe raadspelletjes à la Wordle]]></title>
+      <description><![CDATA[<p>In navolging van het stormachtige succes van Wordle, waarbij je een vijfletterwoord moet raden, is er nu een hele reeks van dagelijkse raadspelletjes. Quordle, waarbij je vier woorden tegelijk moet zoeken, Nerdle, waar je de som moet raden, Worldle, waar je een land moet zoeken, en Heardle, waarbij je een liedje moet herkennen. Mijn absolute favoriet is</p>
+<p>Semantle</p>
+<p>, waarbij je een woord moet raden en steeds te horen krijgt hoeveel jouw ingevoerde woord semantisch lijkt op het te raden woord – dus hoe dicht je bij de betekenis zit.</p>
+<p>Semantle is hels moeilijk en frustrerend, maar je lijkt er langzaam beter in te worden als je het een tijdje speelt. De triomf als je het woord relatief snel vindt (en binnen dertig beurten vind ik al snel) is veel groter dan bij alle simpelere spelletjes.</p>
+<p>Elke dag is er een nieuwe opgave die begint met iets als: ‘Het dichtstbijzijnde woord heeft een score van 66,53. Het 10de dichtstbijzijnde woord heeft een score van 47,90 en het 1000ste een score van 27,59.’ Vervolgens voer je woorden in en krijg je te horen hoe die scoren. Ik begin meestal met een dier, iets eetbaars, een bijvoeglijk naamwoord en een werkwoord.</p>
+<p>Maandag ging dat zo: kat: 4,47 (koud), banaan: 1,06 (koud), groot: 9.72 (koud), leven: 16,84 (koud). Alles dat niet in de topduizend zit is ‘koud’, maar aangezien ‘leven’ iets minder koud was dan de rest, probeerde ik nog een werkwoord: gaan: 31,67 – en dan een prachtige groene balk met 592/1000. Dus ‘gaan’ stond op plek 592 qua overeenkomst in betekenis! Na deze gelukstreffer ging ik door met werkwoorden. Via ‘begrijpen’, ‘springen’, ‘zien’ en een heleboel gestuntel kwam ik uiteindelijk op het geheime woord: schijnen. Maar waarom kreeg ‘zon’ toen ik dat daarna probeerde slechts een score van 27,53? En hoe berekent het spel in vredesnaam hoeveel twee woorden qua betekenis op elkaar lijken?</p>
+<p>De Nederlandstalige Semantle is gebaseerd op de Engelstalige Semantle van David Turner. Turner geeft op zijn site antwoord op een heleboel vragen. Onder zijn spelletje ligt moderne wetenschap: technieken om menselijke teksten om te zetten naar data die een computer kan gebruiken. Eén manier is om elk woord om te zetten naar een vector, een multidimensionale pijl. Semantle gebruikt</p>
+<p>word2vec</p>
+<p>, dat zoals de naam al een beetje hint inderdaad woorden vertaalt naar vectoren. Door naar een heleboel bestaande teksten te kijken – en allerlei gave wiskundige bewerkingen uit te voeren, leert word2vec welke woorden op dezelfde manier gebruikt worden door mensen.</p>
+<p>Dat betekent dat ‘zon’ niet zoveel zal lijken op ‘schijnen’, omdat je ze op een andere manier gebruikt in een zin. De woorden het dichtstbij ‘schijnen’ zijn ‘schijnt’ en ‘lijken’. Hier zie je gelijk een subtiliteit die het spel vaak moeilijk maakt: ‘schijnen’ heeft verschillende betekenissen en zowel synoniemen van ‘stralen’ als ‘lijken’ scoren goed. Het volgende woord op de lijst met dichtstbijzijnde woorden is ‘waaien’ en dat lijkt verrassend, tot je bedenkt hoe vaak mensen over het weer praten.</p>
+<p>Soms doet het algoritme wel iets dat onbegrijpelijk raar is en dan zit je briesend achter je dagelijkse potje Semantle. Daar heeft David Turner ook een oplossing voor: voor 15 euro per maand kun je het recht kopen om hem te mailen met klachten. Daarmee bedacht hij niet alleen mijn nieuwe favoriete spel, maar ook mijn nieuwe favoriete verdienmodel voor onlineactiviteiten.</p>]]></description>
+      <guid>https://volkskrant.nl/wetenschap/het-hels-moeilijke-semantle-is-mijn-absolute-favoriet-van-de-nieuwe-raadspelletjes-a-la-wordle~bca952a2/</guid>
+      <pubDate>Fri, 29 Apr 2022 00:00:00 +00:00</pubDate>
+    </item>
+    <item>
       <title><![CDATA[Ai. Ik berekende het effect van mijn badsessies op onze energierekening]]></title>
       <description><![CDATA[<p>Ik bekeek de vijf tips van de overheidscampagne ‘Zet ook de knop om’. Thermostaat overdag op maximaal 19 graden: check. Maximaal vijf minuten douchen: check. Alleen ruimtes verwarmen waar iemand is: check. Thermostaat ’s avonds op 15 graden: check. Thermostaat als we niet thuis zijn op 15 graden: check. Als je dit allemaal doet, kun je volgens de overheid 1.340 euro per jaar besparen, waarbij</p>
 <p>zetookdeknopom.nl</p>
@@ -164,23 +180,6 @@
 <p>(Voor wie liever een optimistischer einde aan deze column wil: Gelukkig zijn er wereldwijd miljoenen mensen die blijven klagen en blijven vechten en die de wereld echt schoner en beter proberen te maken.)</p>]]></description>
       <guid>https://volkskrant.nl/wetenschap/greenwashing-een-pakketje-schroot-met-een-dun-laagje-groen~be0ad1c1/</guid>
       <pubDate>Fri, 25 Feb 2022 00:00:00 +00:00</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Een geweldig wiskundig raadsel: het gouden briefje vinden in een stapel van 1 miljoen enveloppen]]></title>
-      <description><![CDATA[<p>Lezer Just Bent stuurde me een geweldig wiskundig raadsel. In een sporthal liggen een miljoen genummerde enveloppen, netjes op volgorde van nummer 1 tot en met 1.000.000. In een van deze enveloppen zit een gouden briefje en als jij dat vindt, krijg je 1 miljoen euro. In alle enveloppen met een lager nummer dan de envelop met het gouden briefje zit een groen briefje, in alle hogere nummers zit een rood briefje.</p>
-<p>Jij mag enveloppen openen om het gouden briefje te zoeken. Hierbij zijn er twee onverbiddelijke regels (ik citeer hier Just, voor jullie boos op mij worden omdat de regels wel erg wreed zijn, zelfs voor een wiskundig raadsel):</p>
-<p>1. Zodra je twee keer achter elkaar een rood briefje vindt, moet je stoppen en mag je de rest van je leven alleen nog maar kattenbrokjes eten.</p>
-<p>2.Als je 28 enveloppen hebt geopend en je hebt nog steeds geen gouden briefje, word je de rest van je leven naakt in een kooi tentoongesteld in Artis.</p>
-<p>Wat moet je doen om het gouden briefje te vinden, zonder ook maar enig risico te lopen op een beestachtige straf?</p>
-<p>Als je een willekeurige envelop pakt en een groen briefje vindt, vallen alle enveloppen met lagere nummers af. Je kunt dan een stuk verderop een volgende envelop openen. Als je een rood briefje pakt, vallen alle enveloppen daarboven af. Maar om te voorkomen dat je de rest van je leven kattenbrokjes eet, moet je daarna de laagste overgebleven envelop pakken, want je wilt geen risico lopen op een rood briefje. Hoe zorg je dat je altijd binnen 28 enveloppen dat gouden briefje hebt?</p>
-<p>Dit raadsel ontstond door een misverstand: in de oorspronkelijke versie was je af als je in totaal twee rode briefjes pakte. Maar een vriend van Just Bent begreep dat je nooit twee rode briefjes na elkaar mocht pakken. Dit zorgde voor een compleet andere puzzel met een verrassende oplossing.</p>
-<p>Het blijkt best lastig om uit te rekenen wat de beste strategie is. Dat past allemaal niet in deze column, maar wiskundige K.P. Hart geeft een mooie uitgebreide uitleg op</p>
-<p>pyth.eu/de-gouden-envelop</p>
-<p>.</p>
-<p>De truc is dat je moet zorgen dat er evenveel enveloppen afvallen wanneer je een rode envelop en vervolgens een groene pakt als wanneer je twee groene enveloppen na elkaar pakt. Dit doe je door steeds de envelop te pakken die op 38,1966… procent van de overgebleven enveloppen zit (waarbij je steeds op hele getallen naar boven afrondt). Die 38,1966… procent is afgeleid van de gulden snede – de legendarische verhouding die tot vreugde van Just Bent ineens opdook in zijn puzzel.</p>
-<p>De eerste envelop die je openmaakt is 381.967. Is die rood, dan neem je daarna briefje 1 en heb je vervolgens nog 381.965 enveloppen over. Is het briefje in envelop 381.967 groen, dan neem je daarna envelop 618.034. Als die ook groen is, dan heb je daarna ook nog 381.965 enveloppen over. (Als dat tweede briefje rood is, heb je gek genoeg geluk, want dan wordt het makkelijker.) Zo werk je stapje voor stapje verder en zul je altijd binnen 28 enveloppen het gouden briefje vinden.</p>]]></description>
-      <guid>https://volkskrant.nl/wetenschap/een-geweldig-wiskundig-raadsel-het-gouden-briefje-vinden-in-een-stapel-van-1-miljoen-enveloppen~bba0ce8c/</guid>
-      <pubDate>Fri, 18 Feb 2022 00:00:00 +00:00</pubDate>
     </item>
   </channel>
 </rss>
