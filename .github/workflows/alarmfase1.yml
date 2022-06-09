@@ -40,4 +40,5 @@ jobs:
                   -Title $_.Title `
                   -Message $_.Original `
                   -SupplementaryUrl $_.Link
+              }
           }
