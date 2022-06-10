@@ -28,14 +28,14 @@ jobs:
       - name: Send notification
         shell: pwsh
         env:
-          PUSHOVER_APP_IKJES: ${{secrets.PUSHOVER_APP_IKJES}}
+          PUSHOVER_APP_IKJE: ${{secrets.PUSHOVER_APP_IKJE}}
           PUSHOVER_USER_IKJE: ${{secrets.PUSHOVER_USER_IKJE}}
         run: |
           Get-Ikje
           | Select-Object -First 1
           | ForEach-Object {
             Send-PushoverNotification `
-              -ApplicationToken $env:PUSHOVER_APP_IKJES `
+              -ApplicationToken $env:PUSHOVER_APP_IKJE `
               -Recipient $env:PUSHOVER_USER_IKJE `
               -Message $_.Body `
               -Title ('Ikje: {0} ({1:dddd d MMMM yyyy})' -f $_.Title, $_.Date)
