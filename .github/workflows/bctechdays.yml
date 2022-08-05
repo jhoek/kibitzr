@@ -1,0 +1,36 @@
+name: bctechdays
+
+on:
+  schedule:
+    - cron: "0 */6 * * *" # GitHub uses UTC
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install required PowerShell modules
+        shell: pwsh
+        run: |
+          Set-PSRepository PSGallery -InstallationPolicy Trusted
+          Install-Module UncommonSense.BcTechDays, UncommonSense.iCalendar -Scope CurrentUser
+
+      - name: Update calendar file
+        shell: pwsh
+        run: |
+          Get-BcTechDaysSchedule
+          | ForEach-Object { New-CalendarEvent -Start $_.StartDate -End $.EndDate -Summary $_.Title -Description $_.Description -Location $_.Location }
+          | Export-Calendar -Name 'BC TechDays' -Path bctechdays.ics
+
+      - name: Push changes to git repo
+        run: |
+          git config --global user.name 'Jan Hoek'
+          git config --global user.email 'github@uncommonsense.nl'
+          git remote set-url origin https://x-access-token:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}
+          git pull
+          git add ./data/cinema/*
+          git commit -am 'Updated bctechdays files'
+          git push
