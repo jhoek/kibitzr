@@ -22,7 +22,7 @@ jobs:
         shell: pwsh
         run: |
           Get-BcTechDaysSchedule
-          | ForEach-Object { New-CalendarEvent -Start $_.StartDate -End $_.EndDate -Summary $_.Title -Description $_.Description -Location $_.Location }
+          | ForEach-Object { New-CalendarEvent -Start $_.StartDate -End $_.EndDate -Summary $_.Title -Description $_.Description -Location ($_.Location -join ', ') }
           | Export-Calendar -Name 'BC TechDays' -Path bctechdays.ics
 
       - name: Push changes to git repo
