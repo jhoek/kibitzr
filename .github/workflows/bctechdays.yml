@@ -32,5 +32,5 @@ jobs:
           git remote set-url origin https://x-access-token:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}
           git pull
           git add ./data/cinema/*
-          git commit -am 'Updated bctechdays files'
+          git commit -am 'Updated bctechdays files'|| echo "No changes to commit"
           git push
