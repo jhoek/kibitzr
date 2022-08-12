@@ -27,7 +27,7 @@ jobs:
               -ID $_.Link `
               -Title "[$($_.Genre)] $($_.Title) - $($_.SubTitle)" `
               -Description $_.Synopsis `
-              -PubDate Get-Date }
+              -PubDate (Get-Date) }
           | New-RssFeed `
             -Title 'BBC iPlayer Featured' `
             -Link 'https://www.bbc.co.uk/iplayer/group/featured' `
