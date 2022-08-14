@@ -5,33 +5,33 @@ X-WR-CALNAME:BC TechDays
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20220915T090000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220915T073000
 LOCATION:
 SEQUENCE:0
 SUMMARY:Registration\, Breakfast and Exhibition
-UID:9d6aa9ed-9004-4334-ae77-90373829723d
+UID:fa9cb127-b52b-483a-aa19-8c23d8220cd5
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\n\nSpeaker(s): Vincent Nicolas\, Aida Seifi Labrosse\, Horina
   Serbanescu\, Peter Christensen
 DTEND:20220915T110000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220915T090000
 LOCATION:Room 8\, Room 5
 SEQUENCE:0
 SUMMARY:Opening Keynote
-UID:c547425a-3234-4d22-a336-c4cac06cee99
+UID:36d2b6cb-bed1-48cf-b89d-3cd3ee9ac69f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20220915T113000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220915T110000
 LOCATION:
 SEQUENCE:0
 SUMMARY:Coffee Break\, Exhibition\, Sponsor Presentation
-UID:27054a5b-8fe9-4849-ad4a-bd3ff7cd05db
+UID:a4d4ca6c-1798-40f6-84f4-d95ebe3100aa
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Join this session to learn about some of the troubleshooting t
@@ -39,12 +39,12 @@ DESCRIPTION:Join this session to learn about some of the troubleshooting t
   Code\, instrumentation versus sampling\, debugging\, and snapshot debugg
  ing.\n\nSpeaker(s): Kalman Beres\, Nikolay Dobrev
 DTEND:20220915T130000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220915T113000
 LOCATION:Room 8
 SEQUENCE:0
 SUMMARY:Troubleshooting Business Central SaaS environments [300 - Advanced]
-UID:8cc456d4-0025-45b7-9d7b-6914d5989360
+UID:7af47249-fe36-4a2a-937e-640e6d7bd4b4
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:As more and more of our existing on-premises customers chose t
@@ -56,12 +56,12 @@ DESCRIPTION:As more and more of our existing on-premises customers chose t
  h more confidence.\n\nSpeaker(s): Roman Sauber\, Julia Lisovaya\, Nikola 
  Kukrika
 DTEND:20220915T130000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220915T113000
 LOCATION:Room 8
 SEQUENCE:0
 SUMMARY:Cloud Migration [200 - Intermediate]
-UID:e7bccd9d-c8bb-4a5e-ba4d-7138a5055f57
+UID:32d75733-b1cc-425c-92a0-da7e76aa0c81
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Microsoft's Center of Excellence Starter Kit provide amazing c
@@ -78,13 +78,13 @@ DESCRIPTION:Microsoft's Center of Excellence Starter Kit provide amazing c
  plain in demos\, how a fully automated ALM process works.\n\nSpeaker(s): 
  Michael Megel
 DTEND:20220915T130000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220915T113000
 LOCATION:Room 5
 SEQUENCE:0
 SUMMARY:ALM Accelerator for Power Platform [CoE Starter Kit] [300 - Advanc
  ed]
-UID:ad586347-efb8-492a-9934-f24aa01b1a8a
+UID:311a3bde-8e90-4fd3-a506-36554e5d5993
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:This session takes the audience on a journey inside Git and ai
@@ -94,22 +94,22 @@ DESCRIPTION:This session takes the audience on a journey inside Git and ai
  developers improve and master an essential tool they use every day.\n\nSp
  eaker(s): Vjekoslav Babić
 DTEND:20220915T130000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220915T113000
 LOCATION:Room 9
 SEQUENCE:0
 SUMMARY:Git under the hood [300 - Advanced]
-UID:f140512f-7a63-4406-82c8-eb105c9c073d
+UID:fbe2f7e5-a3dd-4fe6-9d7f-5dda390f0777
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20220915T140000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220915T130000
 LOCATION:
 SEQUENCE:0
 SUMMARY:Lunch Break\, Exhibition\, Sponsor Presentations
-UID:a3c0f4ef-5029-413a-b9af-edf12394400f
+UID:8a44bd8c-8f3f-4e36-ab5f-28fbd0504faa
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:For a few years we have been able to work with VS Code. This d
@@ -121,12 +121,12 @@ DESCRIPTION:For a few years we have been able to work with VS Code. This d
  're still missing some functionality.\n\nSpeaker(s): Tobias Fenster\, Dav
  id Feldhoff
 DTEND:20220915T153000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220915T140000
 LOCATION:Room 8
 SEQUENCE:0
 SUMMARY:Being more efficient with VS Code [200 - Intermediate]
-UID:ad4afc25-a0e0-4973-b3c9-9c00dc94d3a0
+UID:62de52df-c542-4e34-87e7-7c8536ad6a56
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:OAuth is quite a mystery for many people. It has a lot of secr
@@ -136,12 +136,12 @@ DESCRIPTION:OAuth is quite a mystery for many people. It has a lot of secr
  idential clients\, what the different authorization flows mean\, and a lo
  t more!\n\nSpeaker(s): Arend-Jan Kauffmann
 DTEND:20220915T153000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220915T140000
 LOCATION:Room 5
 SEQUENCE:0
 SUMMARY:OAuth revealed [400 - Expert]
-UID:45d82766-049b-45e7-8cf7-ff833389c530
+UID:60114531-ad2e-43b5-b26d-c80ccc03913b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Learn how to use the Business Central Performance Toolkit (BCP
@@ -151,12 +151,12 @@ DESCRIPTION:Learn how to use the Business Central Performance Toolkit (BCP
  ork as a developer.\n\nSpeaker(s): Bardur Knudsen\, Henrik Frovst Madsen\
  , Simon Albrechtsen
 DTEND:20220915T153000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220915T140000
 LOCATION:Room 9
 SEQUENCE:0
 SUMMARY:Business Central Performance Toolkit [300 - Advanced]
-UID:0297f475-bc24-4477-a9aa-65ebedc7c0c4
+UID:4c5ee9ae-6ec2-4dbf-80d0-9076531b5149
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:The Business Central permission system is getting an overhaul!
@@ -166,22 +166,22 @@ DESCRIPTION:The Business Central permission system is getting an overhaul!
  n is packed with best practices and hands-on examples.\n\nSpeaker(s): Agn
  ieszka Potulska-Tylenda\, Darrick Joo
 DTEND:20220915T153000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220915T140000
 LOCATION:Room 9
 SEQUENCE:0
 SUMMARY:Permissions revisited [300 - Advanced]
-UID:08a369e5-b40d-4006-955d-e1638671cae9
+UID:442f80a1-8e7e-4ed2-980d-873c734856c1
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20220915T160000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220915T153000
 LOCATION:
 SEQUENCE:0
 SUMMARY:Coffee Break\, Exhibition\, Sponsor Presentation
-UID:be87e93c-dcff-4434-b6e0-d84125904d97
+UID:4fc398a2-ce79-4aa3-94d8-f2f06bc7b369
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:We can implement the most astonishing design patterns\, or the
@@ -197,12 +197,12 @@ DESCRIPTION:We can implement the most astonishing design patterns\, or the
  t analysis or solution to performance related problems.\n\nSpeaker(s): Er
  ic Wauters (waldo)
 DTEND:20220915T173000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220915T160000
 LOCATION:Room 8
 SEQUENCE:0
 SUMMARY:Coding 4 Performance [400 - Expert]
-UID:ae6a69aa-94be-4bb6-a034-b939aa1ee90c
+UID:a39219db-7deb-4ea7-a083-1db5c67c3477
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Join this demo packed session to learn what's new for users an
@@ -214,13 +214,13 @@ DESCRIPTION:Join this demo packed session to learn what's new for users an
  on what's latest and coolest in the collaboration space.\n\nSpeaker(s): M
  onica Ahuja\, Sam van Lieshout\, Ievgenii Korovin
 DTEND:20220915T173000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220915T160000
 LOCATION:Room 5
 SEQUENCE:0
 SUMMARY:Build collaborative apps for Business Central with Microsoft 365 a
  nd Teams [200 - Intermediate]
-UID:a5d94dfe-2a94-4309-bcd4-5a040e00abfc
+UID:3605c7b7-c097-42f7-98e9-cb4af6aea403
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Join this session to learn about some of the less known settin
@@ -228,12 +228,12 @@ DESCRIPTION:Join this session to learn about some of the less known settin
  ing tools like Dependency publishing and Rapid Application Development.\n
  \nSpeaker(s): Kalman Beres\, Nikolay Dobrev
 DTEND:20220915T173000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220915T160000
 LOCATION:Room 5
 SEQUENCE:0
 SUMMARY:Customizing the developer experience [300 - Advanced]
-UID:33d27bc2-1a8f-421c-aec7-e108ef873ff8
+UID:13dda8a2-879f-4fe1-8645-02bc0ec36a0f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Everyone is producting their Extensions/Apps and we are mostly
@@ -241,32 +241,32 @@ DESCRIPTION:Everyone is producting their Extensions/Apps and we are mostly
  s time to bring some rules into this process.\n\nSpeaker(s): Kamil Sáček\
  , Jeremy Vyska
 DTEND:20220915T173000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220915T160000
 LOCATION:Room 9
 SEQUENCE:0
 SUMMARY:Multi-Application Architecture [200 - Intermediate]
-UID:9848c542-827c-48fd-9caf-15777f8c981d
+UID:8f87c845-c16a-4225-b0cb-deeada152b00
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20220915T210000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220915T173000
 LOCATION:
 SEQUENCE:0
 SUMMARY:Walking Dinner\, Exhibition
-UID:e06dad9e-97fe-4ee4-a9e3-c9422b654931
+UID:6f3f6174-b236-40b0-a58a-5d6b1043cc98
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20220916T090000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220916T080000
 LOCATION:
 SEQUENCE:0
 SUMMARY:Registration\, Breakfast and Exhibition
-UID:56465f9e-b366-47e0-b1a4-c991051d8139
+UID:fd03ccf5-7af1-46a5-a901-b0e21a845c10
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Join us to explore the Data Synchronization way of integrating
@@ -274,12 +274,12 @@ DESCRIPTION:Join us to explore the Data Synchronization way of integrating
   to extended and build integration to Dataverse.\n\nSpeaker(s): Onat Buyu
  kakkus\, Djordje Čenić
 DTEND:20220916T103000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220916T090000
 LOCATION:Room 8
 SEQUENCE:0
 SUMMARY:Better together: Business Central and Dataverse [300 - Advanced]
-UID:dd1d3730-4116-4ce9-a88d-2aec2bfb7ead
+UID:186f07c7-0fa3-4279-971b-690ae3ce23d0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Join this demo packed session to learn what's new for power us
@@ -291,13 +291,13 @@ DESCRIPTION:Join this demo packed session to learn what's new for power us
   coolest in the Power Platform and Dataverse integration space.\n\nSpeake
  r(s): Lukasz Zoglowek\, Enrico Cimitan\, Ayrton Massey
 DTEND:20220916T103000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220916T090000
 LOCATION:Room 8
 SEQUENCE:0
 SUMMARY:Empower citizen and pro AL developers to do more with Power Platfo
  rm [300 - Advanced]
-UID:ecc6c458-81c6-46f5-bedc-d989159476ae
+UID:2072177b-fb6d-478a-bcce-cc159d4ad53f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:When we are writing our code\, we should make sure that it not
@@ -307,13 +307,13 @@ DESCRIPTION:When we are writing our code\, we should make sure that it not
  reated by Microsoft and the Business Central community to improve the qua
  lity and readability of our code.\n\nSpeaker(s): Andrzej Zwierzchowski
 DTEND:20220916T103000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220916T090000
 LOCATION:Room 5
 SEQUENCE:0
 SUMMARY:Improve the quality and readability of your code using tools from 
  Microsoft and the BC community [300 - Advanced]
-UID:e306b19e-b158-42c5-9847-24d3a71f5ab1
+UID:a9cd15b1-5492-4620-8a73-eca56c4a7f91
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:For this session we decided to join hands to talk to you about
@@ -324,22 +324,22 @@ DESCRIPTION:For this session we decided to join hands to talk to you about
  ions\, testing webservices and test doubling\, aka mocking.\n\nSpeaker(s)
  : Luc van Vugt\, Nikola Kukrika
 DTEND:20220916T103000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220916T090000
 LOCATION:Room 9
 SEQUENCE:0
 SUMMARY:Advanced topics in test automation [300 - Advanced]
-UID:fff3fd83-e7b6-4681-943e-f7c0b8ef937f
+UID:30017f45-c23a-4a43-96a7-e760ae936d73
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20220916T110000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220916T103000
 LOCATION:
 SEQUENCE:0
 SUMMARY:Coffee Break\, Exhibition\, Sponsor Presentation
-UID:afd11948-70d4-487c-8821-0f3746f87b01
+UID:f62fafa5-122c-4868-9912-3b0610319441
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Business Central certainly is a great solution\, with a lot of
@@ -351,12 +351,12 @@ DESCRIPTION:Business Central certainly is a great solution\, with a lot of
  elp you and you will also see how to use them\n\nSpeaker(s): Bert Verbeek
  \, Tobias Fenster
 DTEND:20220916T123000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220916T110000
 LOCATION:Room 8
 SEQUENCE:0
 SUMMARY:Above and beyond - When BC is not enough [300 - Advanced]
-UID:104157c9-cdb6-49c2-b2d5-0054363fb834
+UID:a0130c55-d55b-490c-aaab-8c223eff8c84
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Learn about the new Business Central client changes and how to
@@ -366,13 +366,13 @@ DESCRIPTION:Learn about the new Business Central client changes and how to
  ll also cover changes in client add-in model\, list views\, data entry an
  d more.\n\nSpeaker(s): Quentin Tresontani\, Eigo Kawatani
 DTEND:20220916T123000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220916T110000
 LOCATION:Room 5
 SEQUENCE:0
 SUMMARY:What's new in Business Central clients for AL developers [300 - Ad
  vanced]
-UID:206be254-64a3-4ff4-aea8-5b06e5c1d2ae
+UID:c76cd4f0-344c-40f6-be07-7a49caace05c
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:As a part on the Universal Code initiative all extensions shou
@@ -382,12 +382,12 @@ DESCRIPTION:As a part on the Universal Code initiative all extensions shou
  to Universl Code. Additionally\, we will demonstrate real-life examples.\
  n\nSpeaker(s): Esben Nyhuus Kristoffersen\, Michael Nielsen
 DTEND:20220916T123000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220916T110000
 LOCATION:Room 5
 SEQUENCE:0
 SUMMARY:Universal Code – Target must be cloud [300 - Advanced]
-UID:2193f501-631a-4867-b10a-1918191bb93f
+UID:6657685f-a617-4459-a40c-f2471c082ff6
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:It has always been a challenge for developers to write efficie
@@ -401,22 +401,22 @@ DESCRIPTION:It has always been a challenge for developers to write efficie
  o find out more about optimizing the Business Central.\n\nSpeaker(s): Mil
  an Milincevic
 DTEND:20220916T123000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220916T110000
 LOCATION:Room 9
 SEQUENCE:0
 SUMMARY:Optimizing SQL queries in Business Central [300 - Advanced]
-UID:b079e09b-44a0-4416-885a-2850be97566d
+UID:0d2851b2-5e87-4782-94cc-dac4594f954b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20220916T133000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220916T123000
 LOCATION:
 SEQUENCE:0
 SUMMARY:Lunch Break\, Exhibition\, Sponsor Presentations
-UID:77c1ef10-6bb4-42d1-83f2-bb64ec794a59
+UID:5cbf2de6-2568-4281-9fbc-acc8a0b14b7e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:This will be a session on bad habits and how to make them bett
@@ -424,12 +424,12 @@ DESCRIPTION:This will be a session on bad habits and how to make them bett
  our community using it\, not only good habits have developed.\n\nSpeaker(
  s): Vjekoslav Babić\, Eric Wauters (waldo)
 DTEND:20220916T150000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220916T133000
 LOCATION:Room 8
 SEQUENCE:0
 SUMMARY:Bad habits of AL Developers [300 - Advanced]
-UID:dd2af3a4-50e3-48ee-8215-68cd7b83b35b
+UID:d828b2a0-07f9-42a0-9c05-94f9df508770
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Telemetry gives developers\, as well as decision-makers\, the 
@@ -443,13 +443,13 @@ DESCRIPTION:Telemetry gives developers\, as well as decision-makers\, the
  nteractive session with live questions and the ability to interact with w
  hat is presented.\n\nSpeaker(s): Krzysztof Bialowas\, Kennie Pontoppidan
 DTEND:20220916T150000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220916T133000
 LOCATION:Room 5
 SEQUENCE:0
 SUMMARY:Telemetry for Business Central from basics to advanced usage [200 
  - Intermediate]
-UID:562eb085-ac78-4248-a3b1-f32b63208f99
+UID:c8717747-d5ab-405c-a45e-0dbfdb49a30f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Business Central's open-source story is progressing quickly. U
@@ -461,13 +461,13 @@ DESCRIPTION:Business Central's open-source story is progressing quickly. U
  laboration with our community.\n\nSpeaker(s): Jesper Schulz-Wedde\, Maria
   Zhelezova
 DTEND:20220916T150000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220916T133000
 LOCATION:Room 9
 SEQUENCE:0
 SUMMARY:Collaborating on Business Central's open-source platform [300 - Ad
  vanced]
-UID:2259f292-89be-4dbe-9004-30303a277fc8
+UID:2d1ab995-b3ea-4e40-8ebe-06cddf1f3a5d
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Join this session to learn how to effectively leverage Onboard
@@ -477,31 +477,31 @@ DESCRIPTION:Join this session to learn how to effectively leverage Onboard
  ferent onboarding framework building blocks in AL to create a coherent on
  boarding story.\n\nSpeaker(s): Tomas Grubliauskas\, Cody Hoover
 DTEND:20220916T150000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220916T133000
 LOCATION:Room 9
 SEQUENCE:0
 SUMMARY:Adopting "Onboarding first" developer mindset [200 - Intermediate]
-UID:1db8cfe4-b9e4-49bc-9fb5-a76996ac102d
+UID:1292c5f8-2d4a-4535-a28b-14d07d540909
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20220916T153000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220916T150000
 LOCATION:
 SEQUENCE:0
 SUMMARY:Coffee Break\, Exhibition\, Sponsor Presentation
-UID:2c1880ca-dba5-4336-8c3d-9250b9ed8b9e
+UID:6a639db4-cab3-446d-81c4-cbcb9efd8959
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20220916T163000
-DTSTAMP:20220814T120438Z
+DTSTAMP:20220814T150535Z
 DTSTART:20220916T153000
 LOCATION:Room 8\, Room 5
 SEQUENCE:0
 SUMMARY:Closing
-UID:2b8c1197-66c7-4d7c-a0bb-8a639ea1dabe
+UID:1d22ccfc-9da0-4959-9e56-a846e329e3d6
 END:VEVENT
 END:VCALENDAR
