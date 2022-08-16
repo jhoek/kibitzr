@@ -22,11 +22,12 @@ jobs:
         shell: pwsh
         run: |
           Get-iPlayerFeatured
+          | Where-Object Genre -ne Sport
           | ForEach-Object {
             New-RssFeedItem `
               -ID $_.Link `
               -Title "[$($_.Genre)] $($_.Title) - $($_.SubTitle)" `
-              -Description $_.Synopsis `
+              -Description "<img src='$($_.Image)'/>$($_.Synopsis)" `
               -PubDate (Get-Date) }
           | New-RssFeed `
             -Title 'BBC iPlayer Featured' `
