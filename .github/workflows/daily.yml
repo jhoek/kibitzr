@@ -1,0 +1,8 @@
+name: daily
+
+on: [workflow_dispatch]
+
+jobs:
+  bertkeizer:
+    uses: ./.github/workflows/bertkeizer.yml
+    name: Bert Keizer
