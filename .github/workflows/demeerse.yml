@@ -41,7 +41,7 @@ jobs:
         shell: pwsh
         run: |
           Get-DeMeerseHoofddorp
-          | ForEach-Object { New-CalendarEvent -Start $_.Date -End ($_.Date).AddHours(2) -Summary "De Meerse: $($_Genre): $($_Artist) $($_.Title)" -Description "<img src='$($_.Image)'>" }
+          | ForEach-Object { New-CalendarEvent -Start $_.Date -End ($_.Date).AddHours(2) -Summary "De Meerse: $($_.Genre): $($_.Artist) $($_.Title)" -Description "<img src='$($_.Image)'>" }
           | Export-Calendar -Name 'De Meerse Hoofddorp' -Path (Join-Path -Path $env:DataFolderName -ChildPath demeerse.ics)
 
       - name: Push changes to git repo
