@@ -40,7 +40,7 @@ jobs:
       - name: Update calendar file
         shell: pwsh
         run: |
-          Get-DeMeerseHoofddorp
+          Get-DeMeerseHoofddorp -Genre cabaret-en-kleinkunst
           | ForEach-Object { New-CalendarEvent -Start $_.Date -End ($_.Date).AddHours(2) -Summary "De Meerse: $($_.Genre): $($_.Artist) $($_.Title)" -Description "<img src='$($_.Image)'>" }
           | Export-Calendar -Name 'De Meerse Hoofddorp' -Path (Join-Path -Path $env:DataFolderName -ChildPath demeerse.ics)
 
