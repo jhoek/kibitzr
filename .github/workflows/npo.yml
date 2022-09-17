@@ -35,7 +35,7 @@ jobs:
             New-RssFeedItem `
               -ID $_.Link `
               -Title $_.Title `
-              -Description "<img src='$($_.Image)'>" `
+              -Description "<img src='$($_.Image)'><br/>$($_.Synopsis)" `
               -PubDate (Get-Date) }
           | New-RssFeed `
             -Title 'NPO Featured' `
