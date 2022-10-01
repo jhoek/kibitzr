@@ -45,7 +45,7 @@ jobs:
             -Title 'Gummbah' `
             -Link 'https://www.volkskrant.nl/cultuur-media/gummbah~b3681e20/' `
             -Description 'Gummbah'
-          | Set-Content -Path ./data/Gummbah.xml
+          | Set-Content -Path ./data/gummbah.xml
 
       - name: Commit and push feed
         shell: bash
