@@ -1,0 +1,55 @@
+name: wetenschapsrijm
+
+on:
+  schedule:
+    - cron: "0 13 * * 1-6"
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install pup
+        shell: bash
+        run: |
+          go get github.com/ericchiang/pup
+          export GOROOT=/usr/bin/go
+          cd ~/go/bin
+          sudo cp pup /usr/bin
+          pup --version
+
+      - name: Install and cache PowerShell modules
+        id: psmodulecache
+        uses: potatoqualitee/psmodulecache@v4
+        with:
+          modules-to-cache: UncommonSense.Nrc, UncommonSense.Rss
+
+      - name: Update feed
+        shell: pwsh
+        run: |
+          Get-Wetenschapsrijm
+          | Select-Object -First 10
+          | ForEach-Object {
+            New-RssFeedItem `
+              -ID $_.Url `
+              -Title $_.Title `
+              -Description $_.Body `
+              -PubDate $_.Date }
+          | New-RssFeed `
+            -Title 'Wetenschapsrijm' `
+            -Link 'https://nrc.nl/rubriek/wetenschapsrijm' `
+            -Description 'Wetenschapsrijm'
+          | Set-Content -Path ./data/wetenschapsrijm.xml
+
+      - name: Commit and push feed
+        shell: bash
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git pull
+          git add .
+          git commit -m "generated" || echo "No changes to commit"
+          git push
