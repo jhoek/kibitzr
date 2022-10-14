@@ -21,11 +21,11 @@ jobs:
           sudo cp pup /usr/bin
           pup --version
 
-      - name: Install and cache PowerShell modules
-        id: psmodulecache
-        uses: potatoqualitee/psmodulecache@v4
-        with:
-          modules-to-cache: UncommonSense.Nrc, UncommonSense.Rss
+      - name: Install required PowerShell modules
+        shell: pwsh
+        run: |
+          Set-PSRepository PSGallery -InstallationPolicy Trusted
+          Install-Module UncommonSense.Nrc, UncommonSense.Rss -Scope CurrentUser
 
       - name: Update feed
         shell: pwsh
