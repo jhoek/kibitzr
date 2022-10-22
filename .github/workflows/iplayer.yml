@@ -22,7 +22,7 @@ jobs:
         shell: pwsh
         run: |
           Get-iPlayerFeatured
-          | Where-Object Genre -ne Sport
+          | Where-Object Genre -notin 'Sport', 'CBeebies', 'News'
           | ForEach-Object {
             New-RssFeedItem `
               -ID $_.Link `
