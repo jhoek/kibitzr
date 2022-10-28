@@ -5,6 +5,29 @@
     <link>https://www.volkskrant.nl/auteur/ionica-smeets</link>
     <description><![CDATA[Ionica Smeets]]></description>
     <item>
+      <title><![CDATA[Laatst kwam ik een prachtig wiskundig bewijs tegen over datacompressie]]></title>
+      <description><![CDATA[<p>De naam S10 is een elegant gecomprimeerde versie van ‘Stien’. Als je de tekst van haar nummer</p>
+<p>De diepte</p>
+<p>compacter wilt opschrijven, dan kun je bijvoorbeeld ‘Tadadadadadadadada’, vervangen door ‘Ta 78 x da’.</p>
+<p>Bij verliesvrije datacompressie kun je uit het gecomprimeerde bestand het oorspronkelijke bestand weer precies terugtoveren. Dit is niet vanzelfsprekend, denk aan de blokkerige foto’s die je soms ziet: daar is het fotobestand zo verkleind dat je niet meer terug kunt naar het oorspronkelijke plaatje.</p>
+<p>Laatst kwam ik een prachtig wiskundig bewijs tegen dat een methode voor verliesvrije datacompressie nooit kan werken voor álle bestanden. Als je een methode hebt die minstens één bestand kleiner maakt, dan bestaat er onvermijdelijk een bestand dat door diezelfde methode juist groter wordt.</p>
+<p>Het is een bewijs uit het ongerijmde: je begint met het tegenovergestelde van wat je wilt bewijzen, redeneert vanuit daar volgens een aantal volkomen logische stappen, net zo lang tot je een tegenstelling tegenkomt. Omdat al je stappen logisch en correct waren is de enige mogelijke conclusie dat je eerste aanname niet klopte.</p>
+<p>In dit bewijs redeneren we over bestanden die opgeslagen zijn als een eindige reeks bits (die elk 0 of 1 kunnen zijn). We nemen aan dat er een compressiemethode bestaat die minstens één bestand omzet naar een output die korter is dan het origineel én dat deze methode alle andere bestanden niet langer maakt dan ze waren. (Bestanden langer maken is namelijk niet zo’n heel handige vorm van compressie.)</p>
+<p>Nu volgt er een klein beetje notatie: Laat M het kleinste getal zijn zodat er een bestand B bestaat met lengte M dat in een korter bestand wordt omgezet. Laat N de lengte zijn van de gecomprimeerde versie van dit bestand.</p>
+<p>Omdat N kleiner is dan M, zal elk bestand van lengte N precies even lang blijven wanneer het gecomprimeerd wordt (want M was de kleinste lengte die omgezet kon worden in een korter bestand en we hebben aangenomen dat onze methode bestanden nooit groter zal maken).</p>
+<p>Hoeveel bestanden van lengte N zijn er? Elke van de N bits kan 0 of 1 zijn, daarmee zijn er in totaal 2</p>
+<p>N</p>
+<p>verschillende bestanden mogelijk.</p>
+<p>Deze bestanden worden door de compressiemethode allemaal omgezet in één of ander bestand met lengte N. Daarnaast wordt ook het grotere bestand B gecomprimeerd tot een bestand met lengte N. Dat zijn dus samen 2</p>
+<p>N</p>
+<p>+1 gecomprimeerde bestanden van lengte N, terwijl het aantal mogelijke bestanden van deze lengte slechts 2</p>
+<p>N</p>
+<p>is. We hebben één bestand te veel en dat betekent dat er twee verschillende input-bestanden zijn die tot precies hetzelfde gecomprimeerde bestand leiden. Dit maakt het onmogelijk om uit dit gecomprimeerde bestand te bepalen wat het oorspronkelijke bestand was.</p>
+<p>Dit betekent dat onze oorspronkelijke aanname niet kan kloppen: er bestaat dus geen compressiemethode die minstens één bestand kleiner maakt en verder alle andere bestanden niet langer maakt dan ze waren. Dus elke zinvolle verliesvrije compressiemethode maakt minstens één bestand juist groter dan het was. Zoals S10 zong: ‘Ken je het gevoel dat, dat je droom niet uitkomt?’</p>]]></description>
+      <guid>https://volkskrant.nl/wetenschap/laatst-kwam-ik-een-prachtig-wiskundig-bewijs-tegen-over-datacompressie~b4a6addd/</guid>
+      <pubDate>Fri, 21 Oct 2022 00:00:00 +00:00</pubDate>
+    </item>
+    <item>
       <title><![CDATA[In het casino liep ik mee met een vrouw die een systeem zei te hebben waarmee ze altijd won bij roulette]]></title>
       <description><![CDATA[<p>‘Het gemiddeld geleden verlies is 153 euro per maand’, las ik in een</p>
 <p>artikel</p>
@@ -172,26 +195,6 @@
 <p>ionica@volkskrant.nl.</p>]]></description>
       <guid>https://volkskrant.nl/wetenschap/ionica-daagt-u-uit-speel-met-de-regels~b4663bfd/</guid>
       <pubDate>Sat, 20 Aug 2022 00:00:00 +00:00</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Ionica daagt u uit: breng meer willekeur in uw leven]]></title>
-      <description><![CDATA[<p>Een goed gekozen set randvoorwaarden leidt pas écht tot originele uitdagingen. Ionica Smeets daagt u uit deze zomer. Aflevering 5: breng meer willekeur in uw leven.</p>
-<p>Ik weet niet hoe het bij u thuis gaat, maar wij zitten altijd op dezelfde plek aan tafel. Ik zit op de stoel het dichtst bij de keuken. Mijn man zit op zijn zelfgemaakte rode Rietveldstoel daarnaast. Onze zoon zit aan de kop van de tafel en onze dochter zit daarnaast, tegenover mijn man. Als een van de vrienden van onze kinderen blijft eten, dan schuift die aan naast mijn dochter.</p>
-<p>Laatst hoorde ik van een gezin dat geen vaste plaatsen heeft, zij gingen elke maaltijd gewoon zitten waar het uitkwam. Onwillekeurig rekende ik even uit hoeveel opties dat bij ons thuis zou geven. Als we de stoel naast mijn dochter meenemen en elk steeds willekeurig een van de vijf stoelen kiezen, dan kunnen we op 120 verschillende manieren aan tafel gaan zitten.</p>
-<p>Het wiskundig onderzoeksinstituut Oberwolfach organiseert conferenties waarbij de deelnemers tijdens de maaltijden aan ronde tafels zitten, ingedeeld volgens een gerandomiseerd schema om het aantal mogelijke ontmoetingen en gesprekken te maximaliseren. Het Oberwolfach-probleem is een onopgelost probleem in de wiskunde dat vraagt of het altijd mogelijk is om een tafelschikking te maken zodat tijdens een reeks maaltijden alle mogelijke duo’s van deelnemers precies één keer naast elkaar zitten.</p>
-<p>Ineens besefte ik dat we op vakantie géén vaste plaatsen hebben. Of we nu eten op de terrastafel bij ons huisje, of neerploffen bij een strandtent, we zitten steeds anders. Misschien moeten we dit thuis ook invoeren: iets minder vaste patronen en wat meer willekeur.</p>
-<p>Richard Wiseman noemt in zijn boek</p>
-<p>The Luck Factor</p>
-<p>het maximaliseren van toevallige mogelijkheden als een van de belangrijkste eigenschappen van mensen die zichzelf geluksvogels vinden. Op vakantie is het makkelijk om nieuwe dingen te proberen met stadjes die je niet kent, menukaarten vol mysterieuze gerechten en overal onbekende gezichten. In een vertrouwde omgeving kan willekeur je helpen om meer nieuwe dingen mee te maken.</p>
-<p>Kies een andere stoel en je ziet de kamer vanuit een nét ander perspectief. Vraag aan je buren wat zij die avond gaan eten en maak hetzelfde. Neem niet je vaste route, maar sla eens een andere zijstraat in om daar te kijken. Of maak eens een</p>
-<p>random walk</p>
-<p>waarbij je gaat wandelen en op elke kruising willekeurig kiest welke richting je neemt (bijvoorbeeld door een muntje te gooien of een dobbelsteen te rollen).</p>
-<p>Tijdens lockdowns deed ik dit geregeld met mijn zoon en we kwamen op plekken in onze wijk die we nooit eerder gezien hadden. We aaiden allerlei buurtkatten en bewonderden kunst die mensen voor hun raam hadden gezet. Het goede nieuws is dat George Pólya heeft bewezen dat je met zo’n random walk bijna zeker terugkomt bij je beginpunt. Het slechte nieuws is dat het wel heel lang kan duren, maar je kunt natuurlijk op een willekeurig moment besluiten dat het mooi geweest is en snel weer teruglopen naar je eigen vertrouwde eettafel.</p>
-<p>Bent u deze uitdaging aangegaan? Stuur dan een bericht met de resultaten naar</p>
-<p>ionica@volkskrant.nl</p>
-<p>.</p>]]></description>
-      <guid>https://volkskrant.nl/wetenschap/ionica-daagt-u-uit-breng-meer-willekeur-in-uw-leven~b384c270/</guid>
-      <pubDate>Fri, 12 Aug 2022 00:00:00 +00:00</pubDate>
     </item>
   </channel>
 </rss>
