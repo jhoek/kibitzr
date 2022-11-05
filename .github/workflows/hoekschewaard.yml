@@ -1,0 +1,55 @@
+name: hoekschewaard
+
+on:
+  schedule:
+    - cron: "0 2 * * *" # GitHub uses UTC
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    env:
+      DataFolderName: ./data/events
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install pup
+        shell: bash
+        run: |
+          go get github.com/ericchiang/pup
+          export GOROOT=/usr/bin/go
+          cd ~/go/bin
+          sudo cp pup /usr/bin
+          pup --version
+
+      - name: Install required PowerShell modules
+        shell: pwsh
+        run: |
+          Set-PSRepository PSGallery -InstallationPolicy Trusted
+          Install-Module UncommonSense.HoekscheWaard, UncommonSense.iCalendar -Scope CurrentUser
+
+      - name: Create data folder
+        shell: pwsh
+        run: |
+          if (-not (Test-Path -Path $env:DataFolderName -PathType Container))
+          {
+            New-Item -Path $env:DataFolderName -ItemType Directory | Out-Null
+          }
+
+      - name: Update calendar file
+        shell: pwsh
+        run: |
+          Get-UitAgendaHoekscheWaard
+          | ForEach-Object { New-CalendarEvent -Start $_.StartDate -End $_.EndDate -Summary "Hoeksche Waard: $($_.Title)" -Description $_.Description -Location $_.Location }
+          | Export-Calendar -Name 'Uitagenda Hoeksche Waard' -Path (Join-Path -Path $env:DataFolderName -ChildPath hoekschewaard.ics)
+
+      - name: Push changes to git repo
+        run: |
+          git config --global user.name 'Jan Hoek'
+          git config --global user.email 'github@uncommonsense.nl'
+          git remote set-url origin https://x-access-token:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}
+          git pull
+          git add ./data/cinema/*
+          git commit -am 'Updated calendar files'
+          git push
