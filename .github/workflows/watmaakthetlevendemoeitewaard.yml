@@ -39,7 +39,7 @@ jobs:
               -Description (($_.Body | ForEach-Object { $_.Trim()} | Where-Object {$_} | ForEach-Object { "<p>$($_)</p>"}) -join "`n") `
               -PubDate $_.Date }
           | New-RssFeed `
-            -Title 'Durf te vragen' `
+            -Title 'Wat maakt het leven de moeite waard' `
             -Link 'https://www.nrc.nl/rubriek/wat-maakt-het-leven-de-moeite-waard/' `
             -Description 'Wat maakt het leven de moeite waard'
           | Set-Content -Path ./data/watmaakthetlevendemoeitewaard.xml

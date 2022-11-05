@@ -5,6 +5,64 @@
     <link>https://www.volkskrant.nl/auteur/ionica-smeets</link>
     <description><![CDATA[Ionica Smeets]]></description>
     <item>
+      <title><![CDATA[Veel nepnieuws is opgebouwd rond uitspraken die wel kloppen, maar die niets betekenen]]></title>
+      <description><![CDATA[<p>Een groeiend aantal collega’s doet onderzoek naar desinformatie. Wie verspreiden er nepnieuws? Wat is een goede manier om misinformatie te corrigeren? Hoe leer je mensen om zich te wapenen tegen misleiding? De raakste observatie over nepnieuws las ik echter niet in een van hun artikelen, maar in de dit jaar verschenen thriller</p>
+<p>De Repair Club</p>
+<p>van Charles den Tex.</p>
+<p>‘Veel nepnieuws is opgebouwd rond uitspraken die wel kloppen, maar die niets betekenen en die het moeilijk maken om waardevolle informatie eruit te filteren’, aldus een personage dat bij de Nederlandse geheime dienst werkt.</p>
+<p>Nieuws dat wel klopt, maar niet waar is. Als voorbeeld noemt dit personage hoe vanuit Moskou een bericht wordt rondgepompt dat een groeiend aantal Nederlanders tegen de inmenging van de Verenigde Staten in Syrië is: ‘Een groeiend aantal Nederlanders, dat was typisch zo’n betekenisloze opmerking. Als er eerst honderd mensen tegen de Amerikaanse activiteiten waren en nu tweehonderd, dan is dat een groeiend aantal, zelfs een sterk groeiend aantal want dan is het aantal mensen verdubbeld. Maar het is nog steeds een te verwaarlozen aantal.’ Het personage merkt ook op dat: ‘Zelfs als de dienst de berichten kan weerleggen, zal de inhoud van het artikel eindeloos lang blijven rondzingen en zullen er mensen blijven die het antwoord domweg niet geloven.’</p>
+<p>Het is pijnlijk raak wat Den Tex schrijft. Het gaat bij ophef vaak over ‘steeds meer’ of een ‘verdubbeling van’, terwijl het dan nog steeds om heel kleine aantallen gaat.</p>
+<p>Getallen hoeven bij dit soort berichten ook niet zo precies te zijn. Neem de berichten over de Utrechtse statushouders die hun baan hadden opgezegd nadat ze een huurwoning kregen toegewezen – tientallen zouden het er zijn. Er volgde veel ophef, er werden allerlei boze vragen gesteld en beleid werd in twijfel getrokken. Bij nader inzien bleek het om</p>
+<p>drie mensen</p>
+<p>te gaan in een groep van 650. Ik durf er een nulurencontract bij McDonald’s onder te verwedden dat bij veel mensen toch vooral de oorspronkelijke boodschap is blijven hangen.</p>
+<p>Hoewel onderzoek laat zien dat factchecken van onware beweringen helpt, is het lastig dat je met dit soort correcties slechts een kleine groep mensen bereikt. Een interessante ontwikkeling in onderzoek zijn spellen die mensen helpen om psychologische weerstand tegen misinformatie te laten opbouwen, zoals</p>
+<p>The Bad News Game</p>
+<p>. Hierin is het doel om als speler de reputatie van een multinational om zeep te helpen met misinformatie. Je leert precies welke technieken je daarbij nodig hebt. Bijvoorbeeld onder in de categorie vermommen: ‘Om geloofwaardig te zijn op het internet moet je je vermommen als serieuze nieuwsmaker. Een betrouwbare naam. Een interessante functie.’</p>
+<p>Gerandomiseerde onderzoeken laten zien dat mensen die dit spel gespeeld hebben daarna misinformatie op sociale media minder snel geloven. Maar dat effect zwakt na een tijdje af en het werkt vooral goed bij de soorten misleiding die mensen uit het spel kennen.</p>
+<p>Zoals ik al schreef doet een groeiend aantal collega’s dit soort onderzoek naar desinformatie. Maar ik weet dus niet goed of dit in het grote geheel nu een te verwaarlozen aantal is of niet.</p>]]></description>
+      <guid>https://volkskrant.nl/wetenschap/veel-nepnieuws-is-opgebouwd-rond-uitspraken-die-wel-kloppen-maar-die-niets-betekenen~b2419f8a/</guid>
+      <pubDate>Fri, 28 Oct 2022 00:00:00 +00:00</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Laatst kwam ik een prachtig wiskundig bewijs tegen over datacompressie]]></title>
+      <description><![CDATA[<p>De naam S10 is een elegant gecomprimeerde versie van ‘Stien’. Als je de tekst van haar nummer</p>
+<p>De diepte</p>
+<p>compacter wilt opschrijven, dan kun je bijvoorbeeld ‘Tadadadadadadadada’, vervangen door ‘Ta 78 x da’.</p>
+<p>Bij verliesvrije datacompressie kun je uit het gecomprimeerde bestand het oorspronkelijke bestand weer precies terugtoveren. Dit is niet vanzelfsprekend, denk aan de blokkerige foto’s die je soms ziet: daar is het fotobestand zo verkleind dat je niet meer terug kunt naar het oorspronkelijke plaatje.</p>
+<p>Laatst kwam ik een prachtig wiskundig bewijs tegen dat een methode voor verliesvrije datacompressie nooit kan werken voor álle bestanden. Als je een methode hebt die minstens één bestand kleiner maakt, dan bestaat er onvermijdelijk een bestand dat door diezelfde methode juist groter wordt.</p>
+<p>Het is een bewijs uit het ongerijmde: je begint met het tegenovergestelde van wat je wilt bewijzen, redeneert vanuit daar volgens een aantal volkomen logische stappen, net zo lang tot je een tegenstelling tegenkomt. Omdat al je stappen logisch en correct waren is de enige mogelijke conclusie dat je eerste aanname niet klopte.</p>
+<p>In dit bewijs redeneren we over bestanden die opgeslagen zijn als een eindige reeks bits (die elk 0 of 1 kunnen zijn). We nemen aan dat er een compressiemethode bestaat die minstens één bestand omzet naar een output die korter is dan het origineel én dat deze methode alle andere bestanden niet langer maakt dan ze waren. (Bestanden langer maken is namelijk niet zo’n heel handige vorm van compressie.)</p>
+<p>Nu volgt er een klein beetje notatie: Laat M het kleinste getal zijn zodat er een bestand B bestaat met lengte M dat in een korter bestand wordt omgezet. Laat N de lengte zijn van de gecomprimeerde versie van dit bestand.</p>
+<p>Omdat N kleiner is dan M, zal elk bestand van lengte N precies even lang blijven wanneer het gecomprimeerd wordt (want M was de kleinste lengte die omgezet kon worden in een korter bestand en we hebben aangenomen dat onze methode bestanden nooit groter zal maken).</p>
+<p>Hoeveel bestanden van lengte N zijn er? Elke van de N bits kan 0 of 1 zijn, daarmee zijn er in totaal 2</p>
+<p>N</p>
+<p>verschillende bestanden mogelijk.</p>
+<p>Deze bestanden worden door de compressiemethode allemaal omgezet in één of ander bestand met lengte N. Daarnaast wordt ook het grotere bestand B gecomprimeerd tot een bestand met lengte N. Dat zijn dus samen 2</p>
+<p>N</p>
+<p>+1 gecomprimeerde bestanden van lengte N, terwijl het aantal mogelijke bestanden van deze lengte slechts 2</p>
+<p>N</p>
+<p>is. We hebben één bestand te veel en dat betekent dat er twee verschillende input-bestanden zijn die tot precies hetzelfde gecomprimeerde bestand leiden. Dit maakt het onmogelijk om uit dit gecomprimeerde bestand te bepalen wat het oorspronkelijke bestand was.</p>
+<p>Dit betekent dat onze oorspronkelijke aanname niet kan kloppen: er bestaat dus geen compressiemethode die minstens één bestand kleiner maakt en verder alle andere bestanden niet langer maakt dan ze waren. Dus elke zinvolle verliesvrije compressiemethode maakt minstens één bestand juist groter dan het was. Zoals S10 zong: ‘Ken je het gevoel dat, dat je droom niet uitkomt?’</p>]]></description>
+      <guid>https://volkskrant.nl/wetenschap/laatst-kwam-ik-een-prachtig-wiskundig-bewijs-tegen-over-datacompressie~b4a6addd/</guid>
+      <pubDate>Fri, 21 Oct 2022 00:00:00 +00:00</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[In het casino liep ik mee met een vrouw die een systeem zei te hebben waarmee ze altijd won bij roulette]]></title>
+      <description><![CDATA[<p>‘Het gemiddeld geleden verlies is 153 euro per maand’, las ik in een</p>
+<p>artikel</p>
+<p>over onlinegokken. Ik vind het moeilijk om me iets voor te stellen dat treuriger is dan iemand die online gokt (hooguit ‘een man die met twee bakkebaarden aan en haar op z’n hoofd als Bison Kit op de kermis alleen in een botsauto zit’, om Jeroen van Merwijk te citeren).</p>
+<p>Bij een casino weet je ook dat je uiteindelijk altijd verliest, maar ben je in elk geval nog een avondje uit. Jaren terug liep ik voor een</p>
+<p>rapportage</p>
+<p>een avond mee met iemand die beweerde dat zij een systeem had bedacht om altijd te winnen bij roulette.</p>
+<p>Haar systeem was een variant op een klassieke strategie waarbij je inzet op rood of zwart en elke keer als je verliest je inzet verdubbelt. Zodra je wint, krijg je alle verliezen terug plus win je de oorspronkelijke inzet. Als je bijvoorbeeld begint met 1 euro en drie keer achter elkaar verliest voordat je wint, dan heb je in totaal 1 + 2 + 4 + 8 = 15 euro ingezet. Zodra je de vierde keer bij je inzet van 8 euro wint, krijg je 16 euro. Je wint dus één euro.</p>
+<p>Er zijn hierbij twee problemen: er zit een nul op het rad wat de kansen in je nadeel verandert. En het tweede, nog grotere, probleem is dat die verdubbelingen nogal hard gaan. De inzetten groeien net als het aantal besmettingen tijdens een pandemie exponentieel. Gokkers lopen al snel aan tegen de limiet van het casino of die van hun eigen bankrekening.</p>
+<p>De gokker met wie ik meeliep, had een eigen variant uitgepuzzeld en beweerde dat zij nooit verloor. Dat leek me mathematisch onmogelijk en ik rende een avond achter haar aan van roulettetafel naar roulettetafel om te kijken wat ze deed. Die avond verliet ze het casino met een mooie winst en een triomfantelijke lach naar mij.</p>
+<p>Thuis rekende ik haar systeem door en maakte simulaties met behulp van collega Wouter van Joolingen. Zoals de wetten van de wiskunde al voorspelden, verliest ze op de lange termijn wel degelijk geld. Alleen op een heel slimme manier: van de duizend keer spelen verliest ze gemiddeld slechts dertien keer. Alleen zijn de winsten gemiddeld zo’n 12 euro en de verliezen steeds de volle 1.000 euro. Zo wint het casino op den duur toch, maar zijn er vooral veel avonden dat de gokker met een vrolijk gevoel het casino verlaat.</p>
+<p>Hoeveel vrolijkheid hebben de onlinegokkers van hun 153 euro per maand? Voor hetzelfde geld kun je elke week twee keer naar de bioscoop (inclusief popcorn). Of je kunt lid worden van een heel exclusieve sportclub. Je kunt elke maand zeker drie nieuwe geweldige bordspellen of games kopen. Je kunt de shortlist van een literaire prijs naar keuze bestellen en avonden lezen. Je kunt een vriend trakteren op een heel lekker etentje. En als je per se een verwaarloosbare kans wilt om rijk te worden, dan kun je een schoolbord plus krijtjes bestellen en proberen om de Riemann-hypothese te bewijzen waar een miljoen dollar op staat.</p>]]></description>
+      <guid>https://volkskrant.nl/wetenschap/in-het-casino-liep-ik-mee-met-een-vrouw-die-een-systeem-zei-te-hebben-waarmee-ze-altijd-won-bij-roulette~b6814e86/</guid>
+      <pubDate>Fri, 14 Oct 2022 00:00:00 +00:00</pubDate>
+    </item>
+    <item>
       <title><![CDATA[Zijn de deepfakes die worden gebruikt voor rouwverwerking nou zo’n goed idee?]]></title>
       <description><![CDATA[<p>In deze Nobelprijsweek herlas ik het gedicht</p>
 <p>The Committee Weighs In</p>
@@ -138,69 +196,6 @@
 <p>Verreweg de meeste reacties kwamen binnen voor de uitdaging ‘Doe iets dat bijna in uw naam zit’ en onze absolute favoriet was Harmjan Snijder die schreef: ‘Sinds ik door werkelijk iedereen voorbijgefietst word: Kalman Rijder.’</p>]]></description>
       <guid>https://volkskrant.nl/wetenschap/verreweg-de-meeste-reacties-kwamen-binnen-voor-de-uitdaging-doe-iets-dat-bijna-in-uw-naam-zit~b6e13d16/</guid>
       <pubDate>Fri, 26 Aug 2022 00:00:00 +00:00</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Ionica daagt u uit: speel met de regels]]></title>
-      <description><![CDATA[<p>Een goed gekozen set randvoorwaarden leidt pas écht tot originele uitdagingen. Ionica Smeets daagt u uit deze zomer. Aflevering 6: speel met de regels.</p>
-<p>Een vriendin zag hoe haar zoon nog steeds niet binnen de lijntjes kleurde, terwijl zijn fijne motoriek al best goed was. Toen ze hem hiernaar vroeg, keek hij haar verbaasd aan. Was dát de bedoeling van die kleurplaten? Dat had niemand hem verteld. Nou, dan wilde hij een volgende keer best binnen de lijntjes kleuren. En inderdaad de volgende kleurplaat bleef hij keurig binnen de lijntjes. Je moet de regels kennen voordat je je eraan kunt houden. Sterker nog: je moet flink wat regels kennen, voor je zelf je eigen regels kunt gaan bepalen.</p>
-<p>De afgelopen weken heb ik u uitgedaagd om met verschillende regels en randvoorwaarden iets bijzonders te doen. Deze keer is de uitdaging van een hoger niveau: ik daag u uit om zelf nieuwe regels te verzinnen.</p>
-<p>Religiewetenschapper James Carse schreef in de jaren tachtig dat er minstens twee soorten spelen zijn: eindige en oneindige. Bij eindige spelen zijn er regels en gaat het om winnen of verliezen. Denk aan sport, maar ook aan politiek of oorlog. Bij het oneindige spel (er is er maar één volgens Carse) is het enige doel om zo lang mogelijk door te blijven spelen. Bij dit spel zoeken spelers niet naar macht of winst, maar naar kracht.</p>
-<p>In alle eerlijkheid: ik snap niet helemaal wat Carse bedoelt en ik heb zijn boek niet gelezen. Maar ik zag zijn citaat ‘Eindige spelers spelen binnen grenzen; oneindige spelers spelen met grenzen’ als motto in een ander boek en bedacht toen dat ik dolgraag een oneindige speler wil zijn. Ik wil niet binnen of buiten de lijntjes kleuren, ik wil zelf die lijntjes tekenen.</p>
-<p>Vanzelfsprekend kan ik u niet vertellen wat u nu moet doen met deze uitdaging, maar laat ik wat voorbeelden geven van mensen die zichzelf bijzondere regels of randvoorwaarden oplegden.</p>
-<p>George Perec schreef een roman zonder woorden met de letter e. Laura Dekker besloot dat zij de jongste persoon wilde zijn die solo rond de wereld zeilde. Drs. P legde zichzelf op dat de ij nooit mocht rijmen op de ei. Kinderen voor Kinderen liep met één béén op de stoep. Student Sairam Gudiseva schreef een essay over natuurkundige Niels Bohr waarbij de eerste woorden van elke regel het refrein vormden van Rick Astley’s</p>
-<p>Never Gonna Give You Up</p>
-<p>.</p>
-<p>Lee Redmond liet haar nagels dertig jaar groeien tot ze een totale lengte van ruim 7,5 meter hadden. Raymond Queneau beschreef hetzelfde verhaaltje in 99 verschillende stijlen. Jeroen van Merwijk maakte een lied over Partycentrum Waselink in Winterswijk waarbij de drie coupletten moesten rijmen op respectievelijk Winterswijk, Waselink en partycentrum. Floor de Goede legt zichzelf regels op als hij personages tekent, zo mocht één bepaald meisje bijvoorbeeld alleen kleding krijgen die filmpersonage Amélie Poulain zou kunnen dragen. Hoogleraar translationele genetica Annemieke Aartsma-Rus bespreekt elke dag een wetenschappelijk artikel op Twitter. George Perec schreef een roman waarin de e de enige klinker was.</p>
-<p>Zo kan ik nog wel even doorgaan. De mogelijkheden voor een oneindige speler zijn oneindig. Ik wens u veel plezier.</p>
-<p>Bent u deze uitdaging aangegaan? Stuur dan een bericht met de resultaten naar</p>
-<p>ionica@volkskrant.nl.</p>]]></description>
-      <guid>https://volkskrant.nl/wetenschap/ionica-daagt-u-uit-speel-met-de-regels~b4663bfd/</guid>
-      <pubDate>Sat, 20 Aug 2022 00:00:00 +00:00</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Ionica daagt u uit: breng meer willekeur in uw leven]]></title>
-      <description><![CDATA[<p>Een goed gekozen set randvoorwaarden leidt pas écht tot originele uitdagingen. Ionica Smeets daagt u uit deze zomer. Aflevering 5: breng meer willekeur in uw leven.</p>
-<p>Ik weet niet hoe het bij u thuis gaat, maar wij zitten altijd op dezelfde plek aan tafel. Ik zit op de stoel het dichtst bij de keuken. Mijn man zit op zijn zelfgemaakte rode Rietveldstoel daarnaast. Onze zoon zit aan de kop van de tafel en onze dochter zit daarnaast, tegenover mijn man. Als een van de vrienden van onze kinderen blijft eten, dan schuift die aan naast mijn dochter.</p>
-<p>Laatst hoorde ik van een gezin dat geen vaste plaatsen heeft, zij gingen elke maaltijd gewoon zitten waar het uitkwam. Onwillekeurig rekende ik even uit hoeveel opties dat bij ons thuis zou geven. Als we de stoel naast mijn dochter meenemen en elk steeds willekeurig een van de vijf stoelen kiezen, dan kunnen we op 120 verschillende manieren aan tafel gaan zitten.</p>
-<p>Het wiskundig onderzoeksinstituut Oberwolfach organiseert conferenties waarbij de deelnemers tijdens de maaltijden aan ronde tafels zitten, ingedeeld volgens een gerandomiseerd schema om het aantal mogelijke ontmoetingen en gesprekken te maximaliseren. Het Oberwolfach-probleem is een onopgelost probleem in de wiskunde dat vraagt of het altijd mogelijk is om een tafelschikking te maken zodat tijdens een reeks maaltijden alle mogelijke duo’s van deelnemers precies één keer naast elkaar zitten.</p>
-<p>Ineens besefte ik dat we op vakantie géén vaste plaatsen hebben. Of we nu eten op de terrastafel bij ons huisje, of neerploffen bij een strandtent, we zitten steeds anders. Misschien moeten we dit thuis ook invoeren: iets minder vaste patronen en wat meer willekeur.</p>
-<p>Richard Wiseman noemt in zijn boek</p>
-<p>The Luck Factor</p>
-<p>het maximaliseren van toevallige mogelijkheden als een van de belangrijkste eigenschappen van mensen die zichzelf geluksvogels vinden. Op vakantie is het makkelijk om nieuwe dingen te proberen met stadjes die je niet kent, menukaarten vol mysterieuze gerechten en overal onbekende gezichten. In een vertrouwde omgeving kan willekeur je helpen om meer nieuwe dingen mee te maken.</p>
-<p>Kies een andere stoel en je ziet de kamer vanuit een nét ander perspectief. Vraag aan je buren wat zij die avond gaan eten en maak hetzelfde. Neem niet je vaste route, maar sla eens een andere zijstraat in om daar te kijken. Of maak eens een</p>
-<p>random walk</p>
-<p>waarbij je gaat wandelen en op elke kruising willekeurig kiest welke richting je neemt (bijvoorbeeld door een muntje te gooien of een dobbelsteen te rollen).</p>
-<p>Tijdens lockdowns deed ik dit geregeld met mijn zoon en we kwamen op plekken in onze wijk die we nooit eerder gezien hadden. We aaiden allerlei buurtkatten en bewonderden kunst die mensen voor hun raam hadden gezet. Het goede nieuws is dat George Pólya heeft bewezen dat je met zo’n random walk bijna zeker terugkomt bij je beginpunt. Het slechte nieuws is dat het wel heel lang kan duren, maar je kunt natuurlijk op een willekeurig moment besluiten dat het mooi geweest is en snel weer teruglopen naar je eigen vertrouwde eettafel.</p>
-<p>Bent u deze uitdaging aangegaan? Stuur dan een bericht met de resultaten naar</p>
-<p>ionica@volkskrant.nl</p>
-<p>.</p>]]></description>
-      <guid>https://volkskrant.nl/wetenschap/ionica-daagt-u-uit-breng-meer-willekeur-in-uw-leven~b384c270/</guid>
-      <pubDate>Fri, 12 Aug 2022 00:00:00 +00:00</pubDate>
-    </item>
-    <item>
-      <title><![CDATA[Ionica daagt u uit: spaar ze allemaal]]></title>
-      <description><![CDATA[<p>Een goed gekozen set randvoorwaarden leidt pas écht tot originele uitdagingen. Ionica Smeets daagt u uit deze zomer. Aflevering 4: Spaar ze allemaal.</p>
-<p>Het was de zomervakantie van 1990 en mijn neef Bas logeerde bij ons. We waren 10 en we verveelden ons. Mijn vader stelde voor om naar de bioscoop te gaan voor</p>
-<p>Back to the Future III</p>
-<p>, maar Bas en ik hadden de eerste twee delen nog niet gezien. Toevallig kwam die avond het eerste deel op televisie. De dag erna gingen we naar de videotheek voor deel 2 en weer een dag later zaten we in de bioscoop voor deel 3. Dit alles was zeer bevredigend, niet alleen omdat we drie heerlijke films over tijdreizen keken. Het was dat voldane gevoel als je het laatste plaatje van een verzamelalbum inplakt, of op een vrijmarkt die ene paperback ontdekt waarmee je eindelijk de hele reeks compleet hebt. Er is weinig bevredigender dan een goed afgebakende set helemaal compleet maken.</p>
-<p>Bedenk deze zomer wat u zou kunnen sparen. Dit kan op veel manieren. U kunt bijvoorbeeld proberen om alle</p>
-<p>54 nog zichtbare hunebedden</p>
-<p>in Nederland te bezoeken. Om het extra interessant te maken, kunt u proberen om de kortst mogelijke route langs al die hunebedden te bepalen. Dat is een variant van het berucht moeilijke handelsreizigersprobleem.</p>
-<p>Een paar jaar terug vroeg ik lezers om een andere variant van dit probleem op te lossen door een zo snel mogelijke</p>
-<p>treinreis te maken langs stations in alle twaalf provincies</p>
-<p>. Dat leverde veel bezoekjes op aan station Rilland-Bath en een winnende tijd van 6 uur en 55 minuten. Kan het in de huidige dienstregeling sneller? Ik hoor het graag als iemand dit lukt. In dezelfde categorie kun je ook de snelste route langs alle Amsterdamse metrostations zoeken, of die in een buitenlandse stad waar je op vakantie bent. Of je kunt langs treinstations reizen tot je alle letters van het alfabet in de stationsnamen hebt gehad (veel plezier in Usquert!).</p>
-<p>Verzamelen kan natuurlijk ook op een heel andere manier. Je kunt proberen om bepaalde dieren te spotten – voor wie naar Afrika reist, is daar de klassieke big five: buffel, leeuw, luipaard, neushoorn en olifant. Dichter bij huis kun je ook proberen in Nederland ree, edelhert, wild zwijn, zeehond en bever te zien in het wild. En voor de urban explorers heeft Rotterdam zijn eigen</p>
-<p>10 van 010</p>
-<p>met dieren én planten.</p>
-<p>Voor wie helemaal niet de deur uit wil, is er een interessant</p>
-<p>kunstproject van Soraya Perry</p>
-<p>dat erom schreeuwt om nagevolgd te worden: bel alle contacten die in je telefoon staan en maak een praatje met hen. Eén voor één. Allemaal. De oom die je al jaren niet meer sprak, de namen waarvan je niet weet wie het zijn en de ex die per ongeluk nog steeds in je telefoon staat. Emmanuel Dzotsi van</p>
-<p>Reply All</p>
-<p>probeerde het dit jaar en haakte af voor hij bij het einde van zijn lijst was, maar maakte wel een mooie podcast van de gesprekken die hij voerde. Overigens is die podcastreeks voor nu gestopt, wat betekent dat de afleveringen op dit moment óók een mooi afgebakende set vormen die je kunt verzamelen door ze stuk voor stuk te beluisteren.</p>
-<p>Bent u deze uitdaging aangegaan? Stuur dan een bericht met de resultaten naar</p>
-<p>ionica@volkskrant.nl</p>]]></description>
-      <guid>https://volkskrant.nl/wetenschap/ionica-daagt-u-uit-spaar-ze-allemaal~b2b2fdc7/</guid>
-      <pubDate>Fri, 5 Aug 2022 00:00:00 +00:00</pubDate>
     </item>
   </channel>
 </rss>
