@@ -28,7 +28,6 @@
 [![iplayer](https://github.com/jhoek/kibitzr/actions/workflows/iplayer.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/iplayer.yml)
 [![japked](https://github.com/jhoek/kibitzr/actions/workflows/japked.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/japked.yml)
 [![jipvandentoorn](https://github.com/jhoek/kibitzr/actions/workflows/jipvandentoorn.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/jipvandentoorn.yml)
-[![joostprinsen](https://github.com/jhoek/kibitzr/actions/workflows/joostprinsen.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/joostprinsen.yml)
 [![kamagurka](https://github.com/jhoek/kibitzr/actions/workflows/kamagurka.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/kamagurka.yml)
 [![kicksvoorniks](https://github.com/jhoek/kibitzr/actions/workflows/kicksvoorniks.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/kicksvoorniks.yml)
 [![marcelvanroosmalen](https://github.com/jhoek/kibitzr/actions/workflows/marcelvanroosmalen.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/marcelvanroosmalen.yml)
