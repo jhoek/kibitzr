@@ -31,7 +31,7 @@ jobs:
       - name: Update calendar file
         shell: pwsh
         run: |
-          $Weather = Get-Weather
+          $Weather = Get-Weather -Latitude 52.30462 -Longitude 5.01612 -Units metric
           $Hourly = $Weather.Hourly.ForEach{ New-CalendarEvent -Start $_.DateTime -End $_.DateTime.AddMinutes(59) -Summary $_.Weather.Description }
           $Hourly | Export-Calendar -Name 'Weather' -Path (Join-Path -Path $env:DataFolderName -ChildPath weather.ics)
 
