@@ -34,7 +34,7 @@ jobs:
           OPENWEATHERMAP: ${{secrets.OPENWEATHERMAP}}
         run: |
           $Weather = Get-Weather -Latitude 52.30462 -Longitude 5.01612 -Units metric -ApiKey $env:OPENWEATHERMAP
-          $Hourly = $Weather.Hourly.ForEach{ New-CalendarEvent -Start $_.DateTime.Add($_.TimeZoneOffset) -End $_.DateTime.Add($_.TimeZoneOffset).AddMinutes(59) -Summary $_.Weather.Description }
+          $Hourly = $Weather.Hourly.ForEach{ New-CalendarEvent -Start $_.DateTime.Add($Weather.TimeZoneOffset) -End $_.DateTime.Add($Weather.TimeZoneOffset).AddMinutes(59) -Summary $_.Weather.Description }
           $Hourly | Export-Calendar -Name 'Weather' -Path (Join-Path -Path $env:DataFolderName -ChildPath weather.ics)
 
       - name: Push changes to git repo
