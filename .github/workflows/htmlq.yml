@@ -11,6 +11,6 @@ jobs:
       - name: Install htmlq
         shell: bash
         run: |
-          apt install cargo        
+          sudo apt install cargo        
           cargo install htmlq
           htmlq --version
