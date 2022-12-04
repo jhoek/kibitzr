@@ -1,0 +1,15 @@
+name: htmlq
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install htmlq
+        shell: bash
+        run: |
+          pkg install htmlq
+          htmlq --version
