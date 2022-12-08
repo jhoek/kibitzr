@@ -1,0 +1,20 @@
+name: htmlq
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install htmlq
+        shell: bash
+        run: |
+          sudo apt install cargo        
+          cargo install htmlq
+          htmlq --version
+      - name: Foo
+        shell: pwsh
+        run: | 
+          '<title>Oink</title>' | htmlq --text title
