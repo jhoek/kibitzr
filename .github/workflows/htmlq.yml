@@ -14,3 +14,7 @@ jobs:
           sudo apt install cargo        
           cargo install htmlq
           htmlq --version
+      - name: Foo
+        shell: pwsh
+        run: | 
+          '<title>Oink</title>' | htmlq --text title
