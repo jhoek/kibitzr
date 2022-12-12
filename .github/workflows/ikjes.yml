@@ -10,15 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Install pup
-        shell: bash
-        run: |
-          go get github.com/ericchiang/pup
-          export GOROOT=/usr/bin/go
-          cd ~/go/bin
-          sudo cp pup /usr/bin
-          pup --version
-
       - name: Install required PowerShell modules
         shell: pwsh
         run: |
