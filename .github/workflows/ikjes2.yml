@@ -16,7 +16,7 @@ jobs:
         id: psmodulecache
         uses: potatoqualitee/psmodulecache@v4
         with:
-          modules-to-cache: UncommonSense.Nrc, UncommonSense.Rss
+          modules-to-cache: UncommonSense.Hap, UncommonSense.Nrc, UncommonSense.Rss
 
       - name: Update feed
         shell: pwsh

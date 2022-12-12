@@ -14,7 +14,7 @@ jobs:
         shell: pwsh
         run: |
           Set-PSRepository PSGallery -InstallationPolicy Trusted
-          Install-Module UncommonSense.Nrc, UncommonSense.Pushover -Scope CurrentUser
+          Install-Module UncommonSense.Hap, UncommonSense.Nrc, UncommonSense.Pushover -Scope CurrentUser
 
       - name: Send notification
         shell: pwsh
