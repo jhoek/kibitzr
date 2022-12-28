@@ -12,20 +12,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install pup
-        shell: bash
-        run: |
-          go get github.com/ericchiang/pup
-          export GOROOT=/usr/bin/go
-          cd ~/go/bin
-          sudo cp pup /usr/bin
-          pup --version
-
       - name: Install required PowerShell modules
         shell: pwsh
         run: |
           Set-PSRepository PSGallery -InstallationPolicy Trusted
-          Install-Module UncommonSense.Nrc, UncommonSense.Rss -Scope CurrentUser
+          Install-Module UncommonSense.Hap, UncommonSense.Nrc, UncommonSense.Rss -Scope CurrentUser
 
       - name: Update feed
         shell: pwsh
