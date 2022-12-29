@@ -19,7 +19,6 @@
 [![fokkesukke](https://github.com/jhoek/kibitzr/actions/workflows/fokkesukke.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/fokkesukke.yml)
 [![frankheinen](https://github.com/jhoek/kibitzr/actions/workflows/frankheinen.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/frankheinen.yml)
 [![gummbah](https://github.com/jhoek/kibitzr/actions/workflows/gummbah.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/gummbah.yml)
-[![hajo](https://github.com/jhoek/kibitzr/actions/workflows/hajo.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/hajo.yml)
 [![heindekort](https://github.com/jhoek/kibitzr/actions/workflows/heindekort.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/heindekort.yml)
 [![hoekschewaard](https://github.com/jhoek/kibitzr/actions/workflows/hoekschewaard.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/hoekschewaard.yml)
 [![htmlq](https://github.com/jhoek/kibitzr/actions/workflows/htmlq.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/htmlq.yml)
