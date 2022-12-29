@@ -16,7 +16,7 @@ jobs:
         shell: pwsh
         run: |
           Set-PSRepository PSGallery -InstallationPolicy Trusted
-          Install-Module UncommonSense.Nrc, UncommonSense.Rss -Scope CurrentUser
+          Install-Module UncommonSense.Hap, UncommonSense.Nrc, UncommonSense.Rss -Scope CurrentUser
 
       - name: Update feed
         shell: pwsh
