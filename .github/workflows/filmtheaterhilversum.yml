@@ -22,7 +22,6 @@ jobs:
         shell: pwsh
         run: |
           Get-FilmtheaterHilversum
-          | Select-Object -First 10
           | ForEach-Object {
             New-RssFeedItem `
               -ID $_.Url `
