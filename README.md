@@ -5,6 +5,7 @@
 [![bctechdays](https://github.com/jhoek/kibitzr/actions/workflows/bctechdays.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/bctechdays.yml)
 [![bertkeizer](https://github.com/jhoek/kibitzr/actions/workflows/bertkeizer.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/bertkeizer.yml)
 [![casperalbers](https://github.com/jhoek/kibitzr/actions/workflows/casperalbers.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/casperalbers.yml)
+[![collignon](https://github.com/jhoek/kibitzr/actions/workflows/collignon.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/collignon.yml)
 [![corinekoole](https://github.com/jhoek/kibitzr/actions/workflows/corinekoole.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/corinekoole.yml)
 [![delaatstebladzijde](https://github.com/jhoek/kibitzr/actions/workflows/delaatstebladzijde.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/delaatstebladzijde.yml)
 [![dirkjan](https://github.com/jhoek/kibitzr/actions/workflows/dirkjan.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/dirkjan.yml)
