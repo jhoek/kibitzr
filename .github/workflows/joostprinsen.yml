@@ -1,11 +1,8 @@
-name: gummbah
+name: joostprinsen
 
 on:
-  # push:
-  #   branches:
-  #     - master
   schedule:
-    - cron: "5 6 * * *"
+    - cron: "50 6 * * 2,3"
   workflow_dispatch:
 
 jobs:
@@ -19,24 +16,24 @@ jobs:
         shell: pwsh
         run: |
           Set-PSRepository PSGallery -InstallationPolicy Trusted
-          Install-Module UncommonSense.Hap, UncommonSense.Volkskrant, UncommonSense.Rss -Scope CurrentUser
+          Install-Module UncommonSense.Hap, UncommonSense.HaarlemsDagblad, UncommonSense.Rss -Scope CurrentUser
 
-      - name: Update feed
+      - name: Get Recent data
         shell: pwsh
         run: |
-          Get-Gummbah
+          Get-JoostPrinsen
           | Select-Object -First 10
           | ForEach-Object {
             New-RssFeedItem `
               -ID $_.Url `
               -Title $_.Title `
-              -Description "<img src='$($_.Body)'/>" `
+              -Description (($_.Body | ForEach-Object { $_.Trim()} | Where-Object {$_} | ForEach-Object { "<p>$($_)</p>"}) -join "`n") `
               -PubDate $_.Date }
           | New-RssFeed `
-            -Title 'Gummbah' `
-            -Link 'https://www.volkskrant.nl/cultuur-media/gummbah~b3681e20/' `
-            -Description 'Gummbah'
-          | Set-Content -Path ./data/gummbah.xml
+            -Title 'Joost Prinsen' `
+            -Link 'https://www.haarlemsdagblad.nl/zoeken?keyword=joost+prinsen' `
+            -Description 'Joost Prinsen'
+          | Set-Content -Path ./data/joostprinsen.xml
 
       - name: Commit and push feed
         shell: bash
