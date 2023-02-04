@@ -22,6 +22,7 @@ jobs:
       - name: Get Recent data
         shell: pwsh
         run: |
+          Import-Module UncommonSense.Npo
           Get-NpoFeatured
           | ForEach-Object {
             New-RssFeedItem `
