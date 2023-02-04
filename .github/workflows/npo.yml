@@ -17,7 +17,7 @@ jobs:
         run: |
           Set-PSRepository PSGallery -InstallationPolicy Trusted
           Install-Module UncommonSense.Hap, UncommonSense.Npo, UncommonSense.Rss -Scope CurrentUser
-          Get-Module -ListAvaiable | Format-Table | Out-String | Write-Host
+          Get-Module -ListAvailable | Format-Table | Out-String | Write-Host
 
       - name: Get Recent data
         shell: pwsh
