@@ -1,0 +1,48 @@
+name: calvinandhobbes
+
+on:
+  # push:
+  #   branches:
+  #     - master
+  schedule:
+    - cron: "15 5 * * 1"
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install required PowerShell modules
+        shell: pwsh
+        run: |
+          Set-PSRepository PSGallery -InstallationPolicy Trusted
+          Install-Module UncommonSense.CalvinAndHobbes, UncommonSense.Rss -Scope CurrentUser
+
+      - name: Update feed
+        shell: pwsh
+        run: |
+          Get-CalvinAndHobbes
+          | ForEach-Object {
+            New-RssFeedItem `
+              -ID $_.Url `
+              -Title $_.Title `
+              -Description "<img src='$($_.Body)'/>" `
+              -PubDate $_.Date }
+          | New-RssFeed `
+            -Title 'Calvin & Hobbes' `
+            -Link 'https://www.gocomics.com/calvinandhobbes' `
+            -Description 'Calvin & Hobbes'
+          | Set-Content -Path ./data/calvinandhobbes.xml
+
+      - name: Commit and push feed
+        shell: bash
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git pull
+          git add .
+          git commit -m "generated" || echo "No changes to commit"
+          git push
