@@ -14,19 +14,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install HTML/XML Utils
-        shell: bash
-        run: sudo apt-get install html-xml-utils
-
-      - name: Install xml2
-        shell: bash
-        run: sudo apt-get install xml2
-
       - name: Install required PowerShell modules
         shell: pwsh
         run: |
           Set-PSRepository PSGallery -InstallationPolicy Trusted
-          Install-Module UncommonSense.Triodos, UncommonSense.Pushover -Scope CurrentUser
+          Install-Module UncommonSense.Hap, UncommonSense.Triodos, UncommonSense.Pushover -Scope CurrentUser
 
       - name: Create data folder
         shell: pwsh
