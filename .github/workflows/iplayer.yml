@@ -26,8 +26,8 @@ jobs:
           | ForEach-Object {
             New-RssFeedItem `
               -ID $_.Link `
-              -Title "[$($_.Genre)] $($_.Title) - $($_.SubTitle)" `
-              -Description "<img src='$($_.Image)'/><br/>$($_.Synopsis)" `
+              -Title "$($_.Title)" `
+              -Description "<img src='$($_.Image)'/><br/>$($_.Synopsis)<br/>$($_.Duration)" `
               -PubDate (Get-Date) }
           | New-RssFeed `
             -Title 'BBC iPlayer Featured' `
