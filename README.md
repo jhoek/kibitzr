@@ -55,7 +55,6 @@
 [![thomasvanluyn](https://github.com/jhoek/kibitzr/actions/workflows/thomasvanluyn.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/thomasvanluyn.yml)
 [![tiengeboden](https://github.com/jhoek/kibitzr/actions/workflows/tiengeboden.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/tiengeboden.yml)
 [![tomgauld](https://github.com/jhoek/kibitzr/actions/workflows/tomgauld.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/tomgauld.yml)
-[![tomgauld2](https://github.com/jhoek/kibitzr/actions/workflows/tomgauld2.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/tomgauld2.yml)
 [![triodos](https://github.com/jhoek/kibitzr/actions/workflows/triodos.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/triodos.yml)
 [![verdienenenuitgeven](https://github.com/jhoek/kibitzr/actions/workflows/verdienenenuitgeven.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/verdienenenuitgeven.yml)
 [![watchdog](https://github.com/jhoek/kibitzr/actions/workflows/watchdog.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/watchdog.yml)
