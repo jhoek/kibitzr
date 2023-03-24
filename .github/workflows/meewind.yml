@@ -2,7 +2,7 @@ name: meewind
 
 on:
   schedule:
-    - cron: "5 14 * * 5"
+    - cron: "5 15 * * 5"
   # push:
   #   branches:
   #     - "master"
