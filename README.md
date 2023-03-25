@@ -8,7 +8,6 @@
 [![collignon](https://github.com/jhoek/kibitzr/actions/workflows/collignon.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/collignon.yml)
 [![corinekoole](https://github.com/jhoek/kibitzr/actions/workflows/corinekoole.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/corinekoole.yml)
 [![delaatstebladzijde](https://github.com/jhoek/kibitzr/actions/workflows/delaatstebladzijde.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/delaatstebladzijde.yml)
-[![dilbert](https://github.com/jhoek/kibitzr/actions/workflows/dilbert.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/dilbert.yml)
 [![dirkjan](https://github.com/jhoek/kibitzr/actions/workflows/dirkjan.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/dirkjan.yml)
 [![ditbenik](https://github.com/jhoek/kibitzr/actions/workflows/ditbenik.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/ditbenik.yml)
 [![durftevragen](https://github.com/jhoek/kibitzr/actions/workflows/durftevragen.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/durftevragen.yml)
