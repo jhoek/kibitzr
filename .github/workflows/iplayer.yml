@@ -25,9 +25,9 @@ jobs:
           | Where-Object Genre -notin 'Sport', 'CBeebies', 'News'
           | ForEach-Object {
             New-RssFeedItem `
-              -ID $_.Link `
-              -Title "$($_.Title)" `
-              -Description "<img src='$($_.Image)'/><br/>$($_.Synopsis)<br/>$($_.Duration)" `
+              -ID $_.ID `
+              -Title "$($_.Title) - $($_.SubTitle)" `
+              -Description "<img src='$($_.Image)'/><br/>$($_.Synopsis)" `
               -PubDate (Get-Date) }
           | New-RssFeed `
             -Title 'BBC iPlayer Featured' `
