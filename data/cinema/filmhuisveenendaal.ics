@@ -3,38 +3,6 @@ PRODID:-//github.com/rianjs/ical.net//NONSGML ical.net 4.0//EN
 VERSION:2.0
 X-WR-CALNAME:Filmhuis Veenendaal
 BEGIN:VEVENT
-DESCRIPTION:The Fabelmans van Steven Spielberg is een diep persoonlijk por
- tret van de jongen Sammy Fabelmans\, die opgroeit in het Arizona van na d
- e Tweede Wereldoorlog. Sammy Fabelman ontdekt op jonge leeftijd zijn pass
- ie voor film\, tot grote vreugde van zijn creatieve moeder\, Mitzi (Miche
- lle Williams). Sammy’s vader (Paul Dano) daarentegen ziet het meer als ee
- n hobby. In de loop der jaren legt Sammy de avonturen van zijn familie va
- st op beeld\, maar ontdekt op zijn 16e een hartverscheurende waarheid ove
- r zijn moeder die de familiedynamiek voorgoed verandert.
-DTEND:20230416T163000
-DTSTAMP:20230404T021603Z
-DTSTART:20230416T143000
-SEQUENCE:0
-SUMMARY:Filmhuis Veenendaal: The Fabelmans
-UID:50ec88b1-4ec6-4d28-b571-51ef36e47682
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:In The Banshees of Inisherin volgen we twee goede vrienden Pad
- raic (Colin Farrell) en Colm (Brendan Gleeson) op een eiland voor de west
- kust van Ierland. Wanneer Colm plotseling besluit hun vriendschap te verb
- reken en daarbij een drastisch ultimatum stelt\, escaleren de gebeurtenis
- sen volledig. Regisseur Martin McDonagh levert met The Banshees of Inishe
- rin een meesterlijke teloorgang van een vriendschap af. De film won inmid
- dels drie Golden Globes en werd genomineerd voor maar liefst negen Oscars
-  (waaronder die voor Beste Acteur).
-DTEND:20230402T163000
-DTSTAMP:20230404T021604Z
-DTSTART:20230402T143000
-SEQUENCE:0
-SUMMARY:Filmhuis Veenendaal: The Banshees of Inisherin
-UID:f150f4e7-751d-4cfe-b7cb-a411dacaa5e9
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:De Acht Bergen (naar de bestseller Le Otto Montagne van Paolo 
  Cognetti) vertelt het verhaal van de bijzondere vriendschap tussen de sta
  dse Pietro en Bruno\; een jongen uit de bergen. In hun levenslange zoekto
@@ -44,11 +12,11 @@ DESCRIPTION:De Acht Bergen (naar de bestseller Le Otto Montagne van Paolo
  de tussen mensen\, eenzaamheid\, houvast\, familierelaties en verknochthe
  id aan een streek. Juryprijs van het Cannes-filmfestival.
 DTEND:20230407T220000
-DTSTAMP:20230404T021604Z
+DTSTAMP:20230406T021447Z
 DTSTART:20230407T200000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: De Acht Bergen
-UID:19b9ffed-31a8-48e7-bde6-ec77b75dd520
+UID:4f5fa89d-9c99-4d9e-bbe4-f8baa6c2c75b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Babylon is een hilarische zedenschets en tegelijk een ode aan 
@@ -61,22 +29,22 @@ DESCRIPTION:Babylon is een hilarische zedenschets en tegelijk een ode aan
  ervelend zelfportret voor echte filmliefhebbers met o.a. Brad Pitt en Mar
  got Robbie.
 DTEND:20230408T220000
-DTSTAMP:20230404T021605Z
+DTSTAMP:20230406T021447Z
 DTSTART:20230408T200000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: Babylon
-UID:193042ab-4a47-4540-9300-59366af31ff5
+UID:7ad5a02d-21c2-457e-aaea-64f4d47a5e4a
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Genre: animatie\, familiefilm (Nederland\, 2022)Regisseur: Mas
  cha HalberstadHoofdrollen (stemmen): Kees Prins\, Jelka van Houten\, Henr
  y van LoonSpeelduur: 72 minuten
 DTEND:20230409T163000
-DTSTAMP:20230404T021605Z
+DTSTAMP:20230406T021447Z
 DTSTART:20230409T143000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: Knor
-UID:d80907bd-299c-44ae-aacb-7a1390215c1d
+UID:c7d28b30-15c2-4c43-9725-0a0a7c4df633
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Charlie – fenomenaal gespeeld door Brendan Fraser – heeft erns
@@ -88,11 +56,11 @@ DESCRIPTION:Charlie – fenomenaal gespeeld door Brendan Fraser – heeft erns
  , waarbij Oscargenomineerde regisseur Darren Aronofsky een ontroerend por
  tret schetst van een man die zijn leven opnieuw betekenis wil geven.
 DTEND:20230415T220000
-DTSTAMP:20230404T021605Z
+DTSTAMP:20230406T021448Z
 DTSTART:20230415T200000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: The Whale
-UID:77ba35f7-f0f7-428e-bd9c-c43eb7a866ab
+UID:af54dd69-fa91-463c-babf-2fa39e77362c
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Charlie – fenomenaal gespeeld door Brendan Fraser – heeft erns
@@ -104,33 +72,49 @@ DESCRIPTION:Charlie – fenomenaal gespeeld door Brendan Fraser – heeft erns
  , waarbij Oscargenomineerde regisseur Darren Aronofsky een ontroerend por
  tret schetst van een man die zijn leven opnieuw betekenis wil geven.
 DTEND:20230423T163000
-DTSTAMP:20230404T021605Z
+DTSTAMP:20230406T021448Z
 DTSTART:20230423T143000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: The Whale
-UID:ede74bbe-307e-4337-bf96-b8cb984f6582
+UID:7143d2d8-02ed-4446-9c15-194d81a12326
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:The Fabelmans van Steven Spielberg is een diep persoonlijk por
+ tret van de jongen Sammy Fabelmans\, die opgroeit in het Arizona van na d
+ e Tweede Wereldoorlog. Sammy Fabelman ontdekt op jonge leeftijd zijn pass
+ ie voor film\, tot grote vreugde van zijn creatieve moeder\, Mitzi (Miche
+ lle Williams). Sammy’s vader (Paul Dano) daarentegen ziet het meer als ee
+ n hobby. In de loop der jaren legt Sammy de avonturen van zijn familie va
+ st op beeld\, maar ontdekt op zijn 16e een hartverscheurende waarheid ove
+ r zijn moeder die de familiedynamiek voorgoed verandert.
+DTEND:20230416T163000
+DTSTAMP:20230406T021448Z
+DTSTART:20230416T143000
+SEQUENCE:0
+SUMMARY:Filmhuis Veenendaal: The Fabelmans
+UID:4f0a6f81-cef2-4241-b005-bf2adf1c559d
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Genre: drama (IJsland\, Denemarken\, 2022)Regisseur: Hlynur Pá
  lmasonHoofdrollen: Elliott Crosset Hove\, Ingvar Sigurdsson\, Vic Carmen 
  SonneSpeelduur: 143 minuten
 DTEND:20230422T220000
-DTSTAMP:20230404T021606Z
+DTSTAMP:20230406T021449Z
 DTSTART:20230422T200000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: Godland
-UID:1c46a812-e26b-4583-bebe-df15ca6a9867
+UID:55dc6b4f-7a45-4db6-acd7-761e9979c7cc
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Genre: drama\, muziek (Verenigde Staten\, 2022)Regisseur: Todd
   FieldHoofdrollen: Cate Blanchett\, Nina Hoss\, Noémie MerlantSpeelduur: 
  158 minuten
 DTEND:20230429T220000
-DTSTAMP:20230404T021606Z
+DTSTAMP:20230406T021449Z
 DTSTART:20230429T200000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: Tár
-UID:45288dad-5017-4c3c-a551-2631da107539
+UID:c1a6e912-03f1-4562-8acc-9f7e3071ecc1
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Terug op het witte doek: Kieslowski’s beroemde en bekroonde Tr
@@ -142,11 +126,11 @@ DESCRIPTION:Terug op het witte doek: Kieslowski’s beroemde en bekroonde Tr
   grote leeftijdsverschil. Trois Couleurs Rouge kreeg 3 Oscarnominaties: B
  este Regie\, Scenario en Cinematografie
 DTEND:20230430T163000
-DTSTAMP:20230404T021607Z
+DTSTAMP:20230406T021449Z
 DTSTART:20230430T143000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: Trois Couleurs: Rouge
-UID:c4daba67-3118-4481-b1bc-663ece470c15
+UID:2ed3b887-eb89-4ffb-a001-53024517304f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In de sfeervolle coming-of-age film Aftersun gaan de jonge Sch
@@ -158,11 +142,11 @@ DESCRIPTION:In de sfeervolle coming-of-age film Aftersun gaan de jonge Sch
  hartverscheurend portret van hun relatie\, waarbij ze probeert de donkere
   kant van haar liefdevolle vader te begrijpen.
 DTEND:20230506T220000
-DTSTAMP:20230404T021607Z
+DTSTAMP:20230406T021450Z
 DTSTART:20230506T200000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: Aftersun
-UID:76e5501f-e9a6-4c3b-8efe-cc03add8e698
+UID:c1d0803a-364c-4919-b303-15007e132455
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In De Koninklijke Republiek krijgt de Spaans-Nederlandse filmm
@@ -174,11 +158,11 @@ DESCRIPTION:In De Koninklijke Republiek krijgt de Spaans-Nederlandse filmm
  dat in het 135-jarig bestaan ​​van het orkest slechts 26 musici virtuoos 
  genoeg werden geacht om deel uit te kunnen maken van dit team.
 DTEND:20230507T163000
-DTSTAMP:20230404T021607Z
+DTSTAMP:20230406T021450Z
 DTSTART:20230507T143000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: de Koninklijke Republiek
-UID:792625f0-e67f-431b-b4f3-2ee5c54c33f3
+UID:6b28240b-7a95-4bf2-83e4-d3a765fd90c2
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Dertigers en jeugdvrienden Zoe en Kazim lopen elkaar na lange 
@@ -190,11 +174,11 @@ DESCRIPTION:Dertigers en jeugdvrienden Zoe en Kazim lopen elkaar na lange
  tale dating perikelen én moet ze leren omgaan met haar bemoeizuchtige moe
  der Cath (Emma Thompson).
 DTEND:20230512T220000
-DTSTAMP:20230404T021608Z
+DTSTAMP:20230406T021450Z
 DTSTART:20230512T200000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: What's Love Got To Do With It?
-UID:3ba06ea0-30c1-4094-ac3f-ab39d6da7049
+UID:329c623c-e0f6-47a5-830c-f52e883fd804
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Dertigers en jeugdvrienden Zoe en Kazim lopen elkaar na lange 
@@ -206,11 +190,11 @@ DESCRIPTION:Dertigers en jeugdvrienden Zoe en Kazim lopen elkaar na lange
  tale dating perikelen én moet ze leren omgaan met haar bemoeizuchtige moe
  der Cath (Emma Thompson).
 DTEND:20230514T163000
-DTSTAMP:20230404T021608Z
+DTSTAMP:20230406T021450Z
 DTSTART:20230514T143000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: What's Love Got To Do With It?
-UID:6f507a8c-4104-436f-91ad-7359692cf934
+UID:4d05b2b3-4941-4821-aa0a-1729af4d2f82
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Women Talking is gebaseerd op de gelijknamige novelle van Miri
@@ -222,10 +206,10 @@ DESCRIPTION:Women Talking is gebaseerd op de gelijknamige novelle van Miri
  ht. De dames hebben drie keuzes: Alles bij het oude laten\, vluchten of b
  lijven en vechten.
 DTEND:20230513T220000
-DTSTAMP:20230404T021608Z
+DTSTAMP:20230406T021451Z
 DTSTART:20230513T200000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: Women Talking
-UID:9b30a3f2-b998-4f23-a36b-eb1c2cb25021
+UID:7740c063-a397-481c-b9b7-99daff958b55
 END:VEVENT
 END:VCALENDAR
