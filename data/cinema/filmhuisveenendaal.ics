@@ -3,64 +3,48 @@ PRODID:-//github.com/rianjs/ical.net//NONSGML ical.net 4.0//EN
 VERSION:2.0
 X-WR-CALNAME:Filmhuis Veenendaal
 BEGIN:VEVENT
-DESCRIPTION:Genre: drama (Verenigde Staten\, 2022)Regisseur: Darren Aronof
- skyHoofdrollen: Brendan Fraser\, Sadie Sink\, Ty SimpkinsSpeelduur: 117 m
- inuten
-DTEND:20230423T163000
-DTSTAMP:20230418T021453Z
-DTSTART:20230423T143000
-SEQUENCE:0
-SUMMARY:Filmhuis Veenendaal: The Whale
-UID:e271fcee-d8e4-4eda-9e60-7c26535aeaf0
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:The Fabelmans van Steven Spielberg is een diep persoonlijk por
- tret van de jongen Sammy Fabelmans\, die opgroeit in het Arizona van na d
- e Tweede Wereldoorlog. Sammy Fabelman ontdekt op jonge leeftijd zijn pass
- ie voor film\, tot grote vreugde van zijn creatieve moeder\, Mitzi (Miche
- lle Williams). Sammy’s vader (Paul Dano) daarentegen ziet het meer als ee
- n hobby. In de loop der jaren legt Sammy de avonturen van zijn familie va
- st op beeld\, maar ontdekt op zijn 16e een hartverscheurende waarheid ove
- r zijn moeder die de familiedynamiek voorgoed verandert.
-DTEND:20230416T163000
-DTSTAMP:20230418T021453Z
-DTSTART:20230416T143000
-SEQUENCE:0
-SUMMARY:Filmhuis Veenendaal: The Fabelmans
-UID:d96d1446-e8b9-4dd9-9f4a-3b313ee2f615
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Genre: drama (IJsland\, Denemarken\, 2022)Regisseur: Hlynur Pá
  lmasonHoofdrollen: Elliott Crosset Hove\, Ingvar Sigurdsson\, Vic Carmen 
  SonneSpeelduur: 143 minuten
 DTEND:20230422T220000
-DTSTAMP:20230418T021453Z
+DTSTAMP:20230419T021621Z
 DTSTART:20230422T200000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: Godland
-UID:45c6203a-701d-4003-9f11-815798a1ce6d
+UID:4698c19d-e956-46eb-8aeb-a6f368172c1a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Genre: drama (Verenigde Staten\, 2022)Regisseur: Darren Aronof
+ skyHoofdrollen: Brendan Fraser\, Sadie Sink\, Ty SimpkinsSpeelduur: 117 m
+ inuten
+DTEND:20230423T163000
+DTSTAMP:20230419T021621Z
+DTSTART:20230423T143000
+SEQUENCE:0
+SUMMARY:Filmhuis Veenendaal: The Whale
+UID:a93e8c26-d710-442f-8e4f-8ab5d0366ce8
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Genre: drama\, muziek (Verenigde Staten\, 2022)Regisseur: Todd
   FieldHoofdrollen: Cate Blanchett\, Nina Hoss\, Noémie MerlantSpeelduur: 
  158 minuten
 DTEND:20230429T220000
-DTSTAMP:20230418T021454Z
+DTSTAMP:20230419T021622Z
 DTSTART:20230429T200000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: Tár
-UID:6bd93d5c-dbfc-47a3-b70a-88ab00cd4c9e
+UID:901249c7-6c77-4787-ae17-7793c7fc2c3e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Genre: drama\, muziek (Verenigde Staten\, 2022)Regisseur: Todd
   FieldHoofdrollen: Cate Blanchett\, Nina Hoss\, Noémie MerlantSpeelduur: 
  158 minuten
 DTEND:20230521T163000
-DTSTAMP:20230418T021454Z
+DTSTAMP:20230419T021622Z
 DTSTART:20230521T143000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: Tár
-UID:cfc91095-aea8-48f2-a11b-3cf4d51e7f51
+UID:9accb5e9-830a-48ba-9dc5-496d46581468
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Terug op het witte doek: Kieslowski’s beroemde en bekroonde Tr
@@ -72,11 +56,11 @@ DESCRIPTION:Terug op het witte doek: Kieslowski’s beroemde en bekroonde Tr
   grote leeftijdsverschil. Trois Couleurs Rouge kreeg 3 Oscarnominaties: B
  este Regie\, Scenario en Cinematografie
 DTEND:20230430T163000
-DTSTAMP:20230418T021455Z
+DTSTAMP:20230419T021622Z
 DTSTART:20230430T143000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: Trois Couleurs: Rouge
-UID:b2b9c46a-cb55-4228-b71e-2467bdd7a908
+UID:dd95a5bf-655d-4892-9d21-4b421e674fbb
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De Acht Bergen (naar de bestseller Le Otto Montagne van Paolo 
@@ -88,11 +72,11 @@ DESCRIPTION:De Acht Bergen (naar de bestseller Le Otto Montagne van Paolo
  de tussen mensen\, eenzaamheid\, houvast\, familierelaties en verknochthe
  id aan een streek. Juryprijs van het Cannes-filmfestival.
 DTEND:20230505T220000
-DTSTAMP:20230418T021455Z
+DTSTAMP:20230419T021623Z
 DTSTART:20230505T200000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: De Acht Bergen
-UID:c5e2979d-7cf5-4b7e-90f3-06d68936e417
+UID:1b0a39fd-903a-4d02-81fc-51b4e7014476
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In de sfeervolle coming-of-age film Aftersun gaan de jonge Sch
@@ -104,11 +88,11 @@ DESCRIPTION:In de sfeervolle coming-of-age film Aftersun gaan de jonge Sch
  hartverscheurend portret van hun relatie\, waarbij ze probeert de donkere
   kant van haar liefdevolle vader te begrijpen.
 DTEND:20230506T220000
-DTSTAMP:20230418T021455Z
+DTSTAMP:20230419T021623Z
 DTSTART:20230506T200000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: Aftersun
-UID:b391c292-0eda-4290-be32-d344ed0b044a
+UID:a7d225e6-aec2-419e-9fff-f92ea20078cb
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In De Koninklijke Republiek krijgt de Spaans-Nederlandse filmm
@@ -120,11 +104,11 @@ DESCRIPTION:In De Koninklijke Republiek krijgt de Spaans-Nederlandse filmm
  dat in het 135-jarig bestaan ​​van het orkest slechts 26 musici virtuoos 
  genoeg werden geacht om deel uit te kunnen maken van dit team.
 DTEND:20230507T163000
-DTSTAMP:20230418T021456Z
+DTSTAMP:20230419T021623Z
 DTSTART:20230507T143000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: de Koninklijke Republiek
-UID:3bba07ac-f62a-4d00-b9f9-814b0437ae5f
+UID:297658f8-c12d-452e-a4ad-063f9c952dbc
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Dertigers en jeugdvrienden Zoe en Kazim lopen elkaar na lange 
@@ -136,11 +120,11 @@ DESCRIPTION:Dertigers en jeugdvrienden Zoe en Kazim lopen elkaar na lange
  tale dating perikelen én moet ze leren omgaan met haar bemoeizuchtige moe
  der Cath (Emma Thompson).
 DTEND:20230512T220000
-DTSTAMP:20230418T021456Z
+DTSTAMP:20230419T021624Z
 DTSTART:20230512T200000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: What's Love Got To Do With It?
-UID:0ddf203d-1b43-4dba-9dad-e4f3861e4dd7
+UID:a34de092-066c-4a5b-a255-5525d53e6e42
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Dertigers en jeugdvrienden Zoe en Kazim lopen elkaar na lange 
@@ -152,11 +136,11 @@ DESCRIPTION:Dertigers en jeugdvrienden Zoe en Kazim lopen elkaar na lange
  tale dating perikelen én moet ze leren omgaan met haar bemoeizuchtige moe
  der Cath (Emma Thompson).
 DTEND:20230514T163000
-DTSTAMP:20230418T021456Z
+DTSTAMP:20230419T021624Z
 DTSTART:20230514T143000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: What's Love Got To Do With It?
-UID:89a40194-306a-490d-8c68-c87275a3ff8b
+UID:97ba1412-201d-4c9c-adf7-3aa8d9f8ecad
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Women Talking is gebaseerd op de gelijknamige novelle van Miri
@@ -168,10 +152,90 @@ DESCRIPTION:Women Talking is gebaseerd op de gelijknamige novelle van Miri
  ht. De dames hebben drie keuzes: Alles bij het oude laten\, vluchten of b
  lijven en vechten.
 DTEND:20230513T220000
-DTSTAMP:20230418T021456Z
+DTSTAMP:20230419T021624Z
 DTSTART:20230513T200000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: Women Talking
-UID:e87d1451-eb72-4687-8d6a-23c9a598530f
+UID:34aafe50-dc61-4caa-b6a5-70346e84843d
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Het vinden van de perfecte date en een (ogenschijnlijk) perfec
+ te relatie blijkt in New York nog steeds een bijna onmogelijke opgave. Al
+ most Love is een imperfecte\, maar warmhartige film over een amusante vri
+ endengroep\, verbonden door het stel Adam en Marklin. Vijf jaar zijn de d
+ ertigers inmiddels samen\, wat hun vrijgezelle vrienden verschrikkelijk l
+ ang maar ook inspirerend vinden. Zij worstelen ieder voor zich met single
+  zijn. Samen proberen ze om te gaan met de relaties die ze hebben\, met a
+ ls uiteindelijke vraag: Is een happy end voor iedereen weggelegd?
+DTEND:20230520T220000
+DTSTAMP:20230419T021624Z
+DTSTART:20230520T200000
+SEQUENCE:0
+SUMMARY:Filmhuis Veenendaal: Almost Love
+UID:f9b90372-4fbf-4f4c-a442-c7ae10725f0d
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:‘Al duizenden jaren zingen mensen Hallelujah om onze kleine re
+ is hier op aarde te beamen’\, zegt de legendarische Canadese zanger en di
+ chter Leonard Cohen aan het begin van dit portret\, waarin zijn bekendste
+  en meest gecoverde nummer ‘Hallelujah’ centraal staat. Het nummer waaraa
+ n hij zeven jaar werkte telde uiteindelijk op papier meer dan honderdvijf
+ tig coupletten. De film is opgebouwd uit niet eerder vertoond archiefmate
+ riaal van Cohen zelf en gesprekken met mensen die een belangrijke rol spe
+ elden in zijn leven en het (her)creëren van de song.
+DTEND:20230527T220000
+DTSTAMP:20230419T021625Z
+DTSTART:20230527T200000
+SEQUENCE:0
+SUMMARY:Filmhuis Veenendaal: Hallelujah: Leonard Cohen\, A Journey\, A Song
+UID:6d9c102a-0296-4f94-b916-294e2092ac9b
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:In Dicht bij Vermeer geeft Gouden Kalf winnaar Suzanne Raes ee
+ n unieke inkijk in de totstandkoming van de grootste Vermeertentoonstelli
+ ng ooit. Ze filmt Rijksmuseum curatoren en restauratoren in hun missie om
+  een nieuwer\, completer beeld te geven van de schilder. Want hoewel zijn
+  schilderijen wereldberoemd zijn\, weten we weinig van Johannes Vermeer z
+ elf. Verflaagje voor verflaagje duiken we dieper de wereld van Vermeer in
+  en zien we zijn meesterwerken letterlijk van dichtbij door microscopen\,
+  scans en infraroodbeelden.
+DTEND:20230528T163000
+DTSTAMP:20230419T021625Z
+DTSTART:20230528T143000
+SEQUENCE:0
+SUMMARY:Filmhuis Veenendaal: Dicht bij Vermeer
+UID:7a4fdeb8-d49a-4e96-9dcb-063637277a86
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Halim heeft samen met zijn vrouw Mina een traditionele kaftanw
+ inkel in de medina van Salé\, Marokko. Hun hele huwelijk lang leven ze al
+  met een geheim\, maar dit heeft geen invloed op hun liefde voor elkaar. 
+ Totdat met Mina’s ziekte en de komst van Youssef – een nieuwe leerling di
+ e het vak wil leren – het fragiele evenwicht in hun relatie onder druk ko
+ mt te staan. Durven ze alle drie hun angsten onder ogen te zien? Regisseu
+ r Maryam Touzani toont in The Blue Caftan dat liefde verschillende vormen
+  kan aannemen. In Cannes werd deze film met een staande ovatie ontvangen.
+DTEND:20230603T220000
+DTSTAMP:20230419T021625Z
+DTSTART:20230603T200000
+SEQUENCE:0
+SUMMARY:Filmhuis Veenendaal: The Blue Caftan
+UID:3eb45157-ce07-43b9-a6a7-8c5290c5ff09
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Mon Crime is de nieuwe Franse komedie van de bekende regisseur
+  en ‘veelfilmer’ François Ozon.In de film gaan we terug naar het Parijs v
+ an de jaren 30. Als de jonge actrice Madeleine beschuldigd wordt van moor
+ d op een beroemde theaterproducent\, lijkt haar carrière al voorbij nog v
+ oordat deze begonnen is. Met de hulp van haar beste vriendin en advocate 
+ Pauline kan ze echter bewijzen dat ze uit zelfverdediging handelde. Het b
+ lijkt het begin van een nieuw en zeer succesvol hoofdstuk in haar leven. 
+ Tot de waarheid aan het licht komt…
+DTEND:20230610T220000
+DTSTAMP:20230419T021626Z
+DTSTART:20230610T200000
+SEQUENCE:0
+SUMMARY:Filmhuis Veenendaal: Mon Crime
+UID:7702e719-c0ca-4f60-b13d-8877678811b4
 END:VEVENT
 END:VCALENDAR
