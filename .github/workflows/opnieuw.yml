@@ -24,7 +24,7 @@ jobs:
           Get-Opnieuw
           | Select-Object -First 10
           | ForEach-Object {
-            $Description = (($_.Body | ForEach-Object { $_.Trim()} | Where-Object {$_} | ForEach-Object { "<p>$($_)</p>"}) -join "`n") + "`n<img src='$_.Image'/>"
+            $Description = (($_.Body | ForEach-Object { $_.Trim()} | Where-Object {$_} | ForEach-Object { "<p>$($_)</p>"}) -join "`n") + "`n<img src='$($_.Image)'/>"
 
             New-RssFeedItem `
               -ID $_.Url `
