@@ -24,7 +24,7 @@ jobs:
           Get-Oogopslag
           | Select-Object -First 10
           | ForEach-Object {
-            $Description = <img src='$($_.Image)'/>"
+            $Description = "<img src='$($_.Image)'/>"
 
             New-RssFeedItem `
               -ID $_.Url `
