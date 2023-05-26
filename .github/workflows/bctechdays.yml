@@ -22,8 +22,12 @@ jobs:
         shell: pwsh
         run: |
           Get-BcTechDaysSchedule
-          | ForEach-Object { $Level = $_.Level ? " [$($_.Level)]" : ''; $Speakers = $_.Speakers ? "`n`nSpeaker(s): $($_.Speakers -join ', ')" : ''; New-CalendarEvent -Start $_.StartDate -End $_.EndDate -Summary "$($_.Title)$Level" -Description "$($_.Description)$Speakers" -Location ($_.Location -join ', ') }
-          | Export-Calendar -Name 'BC TechDays' -Path ./data/bctechdays.ics
+          | ForEach-Object {
+            $Level = $_.Level ? " [$($_.Level)]" : '';
+            $Duration = $_.Duration ? "[$($_.Duration)]" : '';
+            $Speakers = $_.Speakers ? "`n`nSpeaker(s): $($_.Speakers -join ', ')" : '';
+            New-CalendarEvent -Start $_.StartDate -End $_.EndDate -Summary "$($_.Title)$($Level)$($Duration)" -Description "$($_.Description)$Speakers" -Location ($_.Location -join ', ')
+          } | Export-Calendar -Name 'BC TechDays' -Path ./data/bctechdays.ics
 
       - name: Push changes to git repo
         run: |
