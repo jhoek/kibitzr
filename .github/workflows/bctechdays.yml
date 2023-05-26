@@ -17,6 +17,7 @@ jobs:
         run: |
           Set-PSRepository PSGallery -InstallationPolicy Trusted
           Install-Module UncommonSense.BcTechDays, UncommonSense.iCalendar -Scope CurrentUser
+          Get-Module -ListAvailable
 
       - name: Update calendar file
         shell: pwsh
