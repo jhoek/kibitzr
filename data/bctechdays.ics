@@ -3,589 +3,950 @@ PRODID:-//github.com/rianjs/ical.net//NONSGML ical.net 4.0//EN
 VERSION:2.0
 X-WR-CALNAME:BC TechDays
 BEGIN:VEVENT
-DESCRIPTION:
-DTEND:20220915T070000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220915T053000Z
-LOCATION:
+DESCRIPTION:When you are familiar with AL code and writing extensions for 
+ Business Central\, there might be the feeling that there is more to disco
+ ver. There are features in AL that you may have come across but never use
+ d because you don’t exactly know how they work. Or you wonder if you are 
+ using the full potential of the AL language.Then this course is for you!I
+ n one day\, we will cover many features that will fill up your AL toolbel
+ t! Just to pick a few: interfaces\, partial records\, collecting errors\,
+  deep dive into events\, and much\, much more!\nPrerequisites:\nWorkshop 
+ date: Tue 20 or Wed 21 June (This is a one-day workshop)\n\nSpeaker(s): A
+ rend-Jan Kauffmann
+DTEND:20230620T150000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230620T070000Z
+LOCATION:Conference Hotel
 SEQUENCE:0
-SUMMARY:Registration\, Breakfast and Exhibition
-UID:1a961b5f-f6c9-4833-9ed7-81e22cc7cddc
+SUMMARY:AL Advanced Development [300 - Advanced]
+UID:5bcb1a00-3925-4092-ba19-47132fb005d1
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:\n\nSpeaker(s): Vincent Nicolas\, Aida Seifi Labrosse\, Horina
-  Serbanescu\, Peter Christensen\, Freddy Kristiansen
-DTEND:20220915T090000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220915T070000Z
+DESCRIPTION:You have a working extension or set of extensions. How can you
+  take that solution through all the myriad best practices:\nAnd how do yo
+ u communicate the value of the cost of these efforts to customers/stakeho
+ lders?\nAll of these topics are worthy of their own full exploration\, bu
+ t this session is to help folks catch up with the essentials of each in a
+  fast-changing industry to get attendees -- and the whole team back home 
+ -- moving in the right direction.\nPrerequisites:\nWorkshop date: Tue 20 
+ or Wed 21 June (This is a one-day workshop)\n\nSpeaker(s): Jeremy Vyska\,
+  Kamil Sáček
+DTEND:20230620T150000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230620T070000Z
+LOCATION:Conference Hotel
+SEQUENCE:0
+SUMMARY:Evolving Your Solution [300 - Advanced]
+UID:176af6a6-857f-46cb-9374-d9e4e7c77c59
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Learn how to develop more flexible Business Central apps with 
+ the help of object oriented design patterns.The workshop will cover topic
+ s such as multi app architecture\, design patterns in al\, implementation
+  of parts of the SOLID principle and especially the dependency inversion 
+ principle.\nPrerequisites:\nWorkshop date: Tue 20 or Wed 21 June (This is
+  a one-day workshop)\n\nSpeaker(s): Patrick Schiefer
+DTEND:20230620T150000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230620T070000Z
+LOCATION:Conference Hotel
+SEQUENCE:0
+SUMMARY:Object Oriented Design approaches in Business Central [200 - Inter
+ mediate]
+UID:817504aa-141f-4d77-84d0-d6d2f60c4b19
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:A good performing application is one of the main things that w
+ ill make users happy\, although\, identifying and solving performance rel
+ ated issues can be a daunting task. How can you confirm when users say "i
+ t is slow"? What are the actions you can take to prevent performance issu
+ es? What are actions that would be able to identify the problems - to put
+  the finger on the wound? How can you solve it? …This workshop will provi
+ de answers to questions like that! Because it is a simple fact: the most 
+ probable cause of ANY performance issue at customers\, is code! Once you 
+ accept that - you are a very big step forward in solving the issues as we
+ ll.In this workshop\, we'll look into performance problems\, into the too
+ ls to predict\, confirm and analyse them\, and into techniques on how to 
+ prevent and solve them.\nPrerequisites:\nWorkshop date: Tue 20 or Wed 21 
+ June (This is a one-day workshop)\n\nSpeaker(s): Eric Wauters (waldo)
+DTEND:20230620T150000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230620T070000Z
+LOCATION:Conference Hotel
+SEQUENCE:0
+SUMMARY:Coding 4 Performance [400 - Expert]
+UID:6a87f75d-45f0-4640-a636-18e39a81c648
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:In this workshop you will experience how to work with AL in an
+  environment with multiple developers working in the same environments wi
+ th projects with different timelines. We will go through how to assign pr
+ ojects to the various developers and how to commit changes to development
+  and UAT environments without stepping on each other’s toes. We will also
+  go through the process of isolating development that has been tested and
+  the deployment to the live environment.The agenda will be:\nAnd a couple
+  of tips for best practices.\nPrerequisites:\nWorkshop date: Tue 20 or We
+ d 21 June (This is a one-day workshop)\n\nSpeaker(s): Peik Bech-Andersen
+DTEND:20230620T150000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230620T070000Z
+LOCATION:Conference Hotel
+SEQUENCE:0
+SUMMARY:Working with AL\, Git and Github in organizations [300 - Advanced]
+UID:fb8f0c8e-3b95-464e-a971-fcec91614901
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Telemetry is one of the most important topics in the last rele
+ ases for Business Central. In SaaS environments\, it allows reacting on i
+ ssues faster or can give input on how Business Central is being used. It 
+ also can help with troubleshooting performance issues.During the training
+ \, we will cover:1. How to start with telemetry - what are the possibilit
+ ies\, what are the limitations\, how to set it up2. How to write queries 
+ for the telemetry (KQL) and get more information from the Azure Applicati
+ on Insights3. How to build alerts and notifications for the telemetry sig
+ nals4. How to use telemetry for performance tuning and troubleshooting5. 
+ How to build custom signals in AL to get more information about your user
+ s and how they use the apps6. How to manage costs of the telemetry\nPrere
+ quisites:\nWorkshop date: Tue 20 or Wed 21 June (This is a one-day worksh
+ op)\n\nSpeaker(s): Krzysztof Bialowas
+DTEND:20230620T150000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230620T070000Z
+LOCATION:Conference Hotel
+SEQUENCE:0
+SUMMARY:Telemetry in a Day [200 - Intermediate]
+UID:38ca68ce-dd14-4f1a-bb1c-04a1a1faff03
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Interfaces are not new in AL\, but after a few years of being 
+ around\, they are still heavily underused both by Microsoft and by the co
+ mmunity. And yet\, they are possibly the best single addition to AL stack
+  in the recent years\, with potential to transform your coding style to o
+ ther dimension.This workshop will go deep into interfaces and show you ho
+ w to make the best out of them\, with a lot of practical examples\, rangi
+ ng from simple to advanced. You’ll get hands on about how to scale your c
+ ode\, make it more extensible and robust. Since interfaces have their spe
+ cial place in testability\, you’ll learn how to use interfaces to make yo
+ ur code more testable\, and how to take advantage of interfaces in your t
+ est code as well.\nPrerequisites:\nWorkshop date: Tue 20 or Wed 21 June (
+ This is a one-day workshop)\n\nSpeaker(s): Vjekoslav Babić
+DTEND:20230620T150000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230620T070000Z
+LOCATION:Conference Hotel
+SEQUENCE:0
+SUMMARY:Using interfaces to write better code (and better tests) [300 - Ad
+ vanced]
+UID:5294ffa4-74d9-4a58-8631-e9ca79796bf2
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:In this one day workshop Luc van Vugt\, the godfather of BC te
+ st automation\, will learn you how to efficiently automate test cases.You
+  will also learn how and where to start and get a broader view on what te
+ st automation can and should entail.\nPrerequisites:\nWorkshop date: Tue 
+ 20 or Wed 21 June (This is a one-day workshop)\n\nSpeaker(s): Luc van Vug
+ t
+DTEND:20230620T150000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230620T070000Z
+LOCATION:Conference Hotel
+SEQUENCE:0
+SUMMARY:Writing your own automated tests for Dynamics 365 Business Central
+  [200 - Intermediate]
+UID:bd62055b-a864-4966-ae05-51f647799888
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:When you are familiar with AL code and writing extensions for 
+ Business Central\, there might be the feeling that there is more to disco
+ ver. There are features in AL that you may have come across but never use
+ d because you don’t exactly know how they work. Or you wonder if you are 
+ using the full potential of the AL language.Then this course is for you!I
+ n one day\, we will cover many features that will fill up your AL toolbel
+ t! Just to pick a few: interfaces\, partial records\, collecting errors\,
+  deep dive into events\, and much\, much more!\nPrerequisites:\nWorkshop 
+ date: Tue 20 or Wed 21 June (This is a one-day workshop)\n\nSpeaker(s): A
+ rend-Jan Kauffmann
+DTEND:20230621T150000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230621T070000Z
+LOCATION:Conference Hotel
+SEQUENCE:0
+SUMMARY:AL Advanced Development [300 - Advanced]
+UID:3c926fac-ffb1-40d6-8301-a7cbd2dbccbb
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:You have a working extension or set of extensions. How can you
+  take that solution through all the myriad best practices:\nAnd how do yo
+ u communicate the value of the cost of these efforts to customers/stakeho
+ lders?\nAll of these topics are worthy of their own full exploration\, bu
+ t this session is to help folks catch up with the essentials of each in a
+  fast-changing industry to get attendees -- and the whole team back home 
+ -- moving in the right direction.\nPrerequisites:\nWorkshop date: Tue 20 
+ or Wed 21 June (This is a one-day workshop)\n\nSpeaker(s): Jeremy Vyska\,
+  Kamil Sáček
+DTEND:20230621T150000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230621T070000Z
+LOCATION:Conference Hotel
+SEQUENCE:0
+SUMMARY:Evolving Your Solution [300 - Advanced]
+UID:63658195-3850-45fa-9ec6-5c25500435a4
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Learn how to develop more flexible Business Central apps with 
+ the help of object oriented design patterns.The workshop will cover topic
+ s such as multi app architecture\, design patterns in al\, implementation
+  of parts of the SOLID principle and especially the dependency inversion 
+ principle.\nPrerequisites:\nWorkshop date: Tue 20 or Wed 21 June (This is
+  a one-day workshop)\n\nSpeaker(s): Patrick Schiefer
+DTEND:20230621T150000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230621T070000Z
+LOCATION:Conference Hotel
+SEQUENCE:0
+SUMMARY:Object Oriented Design approaches in Business Central [200 - Inter
+ mediate]
+UID:28ad15f6-57b2-43e2-b610-d6030dbe5346
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:A good performing application is one of the main things that w
+ ill make users happy\, although\, identifying and solving performance rel
+ ated issues can be a daunting task. How can you confirm when users say "i
+ t is slow"? What are the actions you can take to prevent performance issu
+ es? What are actions that would be able to identify the problems - to put
+  the finger on the wound? How can you solve it? …This workshop will provi
+ de answers to questions like that! Because it is a simple fact: the most 
+ probable cause of ANY performance issue at customers\, is code! Once you 
+ accept that - you are a very big step forward in solving the issues as we
+ ll.In this workshop\, we'll look into performance problems\, into the too
+ ls to predict\, confirm and analyse them\, and into techniques on how to 
+ prevent and solve them.\nPrerequisites:\nWorkshop date: Tue 20 or Wed 21 
+ June (This is a one-day workshop)\n\nSpeaker(s): Eric Wauters (waldo)
+DTEND:20230621T150000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230621T070000Z
+LOCATION:Conference Hotel
+SEQUENCE:0
+SUMMARY:Coding 4 Performance [400 - Expert]
+UID:1e67a430-c0ea-461d-87bc-bbec61985dae
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:In this workshop you will experience how to work with AL in an
+  environment with multiple developers working in the same environments wi
+ th projects with different timelines. We will go through how to assign pr
+ ojects to the various developers and how to commit changes to development
+  and UAT environments without stepping on each other’s toes. We will also
+  go through the process of isolating development that has been tested and
+  the deployment to the live environment.The agenda will be:\nAnd a couple
+  of tips for best practices.\nPrerequisites:\nWorkshop date: Tue 20 or We
+ d 21 June (This is a one-day workshop)\n\nSpeaker(s): Peik Bech-Andersen
+DTEND:20230621T150000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230621T070000Z
+LOCATION:Conference Hotel
+SEQUENCE:0
+SUMMARY:Working with AL\, Git and Github in organizations [300 - Advanced]
+UID:87e8ac45-3959-42c7-86e6-e6271927c082
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Telemetry is one of the most important topics in the last rele
+ ases for Business Central. In SaaS environments\, it allows reacting on i
+ ssues faster or can give input on how Business Central is being used. It 
+ also can help with troubleshooting performance issues.During the training
+ \, we will cover:1. How to start with telemetry - what are the possibilit
+ ies\, what are the limitations\, how to set it up2. How to write queries 
+ for the telemetry (KQL) and get more information from the Azure Applicati
+ on Insights3. How to build alerts and notifications for the telemetry sig
+ nals4. How to use telemetry for performance tuning and troubleshooting5. 
+ How to build custom signals in AL to get more information about your user
+ s and how they use the apps6. How to manage costs of the telemetry\nPrere
+ quisites:\nWorkshop date: Tue 20 or Wed 21 June (This is a one-day worksh
+ op)\n\nSpeaker(s): Krzysztof Bialowas
+DTEND:20230621T150000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230621T070000Z
+LOCATION:Conference Hotel
+SEQUENCE:0
+SUMMARY:Telemetry in a Day [200 - Intermediate]
+UID:5ad47453-4239-4f49-b363-81b3feaafd1d
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Interfaces are not new in AL\, but after a few years of being 
+ around\, they are still heavily underused both by Microsoft and by the co
+ mmunity. And yet\, they are possibly the best single addition to AL stack
+  in the recent years\, with potential to transform your coding style to o
+ ther dimension.This workshop will go deep into interfaces and show you ho
+ w to make the best out of them\, with a lot of practical examples\, rangi
+ ng from simple to advanced. You’ll get hands on about how to scale your c
+ ode\, make it more extensible and robust. Since interfaces have their spe
+ cial place in testability\, you’ll learn how to use interfaces to make yo
+ ur code more testable\, and how to take advantage of interfaces in your t
+ est code as well.\nPrerequisites:\nWorkshop date: Tue 20 or Wed 21 June (
+ This is a one-day workshop)\n\nSpeaker(s): Vjekoslav Babić
+DTEND:20230621T150000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230621T070000Z
+LOCATION:Conference Hotel
+SEQUENCE:0
+SUMMARY:Using interfaces to write better code (and better tests) [300 - Ad
+ vanced]
+UID:0baeec10-ead7-4fb3-9cf3-bd66989192c8
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:In this one day workshop Luc van Vugt\, the godfather of BC te
+ st automation\, will learn you how to efficiently automate test cases.You
+  will also learn how and where to start and get a broader view on what te
+ st automation can and should entail.\nPrerequisites:\nWorkshop date: Tue 
+ 20 or Wed 21 June (This is a one-day workshop)\n\nSpeaker(s): Luc van Vug
+ t
+DTEND:20230621T150000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230621T070000Z
+LOCATION:Conference Hotel
+SEQUENCE:0
+SUMMARY:Writing your own automated tests for Dynamics 365 Business Central
+  [200 - Intermediate]
+UID:199adfde-05ca-4f32-8971-738599872e3a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:
+DTEND:20230622T070000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230622T053000Z
+LOCATION:Expo Area
+SEQUENCE:0
+SUMMARY:Registration\, Breakfast and Exhibition
+UID:8a6d5d30-e153-4e20-a723-1a93cb2f6957
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n\nSpeaker(s): Vincent Nicolas\, Evgenij Korovin\, Steffen Ba
+ lslev
+DTEND:20230622T090000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230622T070000Z
 LOCATION:Room 8\, Room 5
 SEQUENCE:0
 SUMMARY:Opening Keynote
-UID:ece96356-b86b-4582-af0f-209886fec29a
+UID:c85aea2b-3dc6-406f-9aca-54d3f8c319e1
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
-DTEND:20220915T093000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220915T090000Z
-LOCATION:
+DTEND:20230622T093000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230622T090000Z
+LOCATION:Expo Area
 SEQUENCE:0
 SUMMARY:Coffee Break\, Exhibition\, Sponsor Presentation
-UID:63d469f3-fa43-4e23-b6af-a844bbdd0fb9
+UID:9f1bb4a2-38db-4b2e-aa2a-b4ca35743738
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
-DTEND:20220915T092500Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220915T091000Z
-LOCATION:
+DESCRIPTION:Sponsor presentation
+DTEND:20230622T092500Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230622T091000Z
+LOCATION:Presentations Area
 SEQUENCE:0
-SUMMARY:Sponsor Presentation: ForNAV
-UID:e156385e-3d79-43da-8ef5-50e0d567f7dd
+SUMMARY:Sponsor presentation: Anveo[15 min]
+UID:9b2e32be-c7bb-4831-8380-3089227f841f
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Join this session to learn about some of the troubleshooting t
- ools in Business Central. In client profiler\, profiling in Visual Studio
-  Code\, instrumentation versus sampling\, debugging\, and snapshot debugg
- ing.\n\nSpeaker(s): Kalman Beres\, Nikolay Dobrev
-DTEND:20220915T110000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220915T093000Z
+DESCRIPTION:You've tried ChatGPT\, Bing Chat and seen the Business Central
+  Launch Event session: now join the product team in person to learn more 
+ about how Copilot has been developed responsibly at Microsoft. Understand
+  in depth what it takes to build an AI-powered experience\, and what's co
+ ming ahead. This session covers all you need to know about Copilot and th
+ e future of Generative AI within Business Central.\n\nSpeaker(s): Evgenij
+  Korovin\, Sam van Lieshout
+DTEND:20230622T110000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230622T093000Z
 LOCATION:Room 8
 SEQUENCE:0
-SUMMARY:Troubleshooting Business Central SaaS environments [300 - Advanced]
-UID:4426379b-cffb-4f0f-8c56-ed15f777ff45
+SUMMARY:Microsoft Presents: Introducing Microsoft Dynamics 365 Copilot [20
+ 0 - Intermediate][45 min]
+UID:cdd0f938-a7c6-4abb-8515-c3e544dce843
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:As more and more of our existing on-premises customers chose t
- o move to the cloud and migrate to Business Central online\, we are makin
- g sure that our data migration tooling is evolving to match their needs. 
- In this session we will share the improvements in the migration flow\, ne
- w automation capabilities and some helpful tips and telemetry insights to
-  help you understand the migration flow better\, configure and run it wit
- h more confidence.\n\nSpeaker(s): Roman Sauber\, Julia Lisovaya\, Nikola 
- Kukrika
-DTEND:20220915T110000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220915T093000Z
+DESCRIPTION:This demo-packed session delivered by the Business Central eng
+ ineering team provides a deeper look at Power Automate integration in Bus
+ iness Central 2023 release wave 1. You will see how to create new actions
+  and workflow using Power Automate - including creating custom actions an
+ d business events in AL\, using new workflow templates\, operating on ada
+ ptive cards and much more.\n\nSpeaker(s): Evgenij Korovin\, Ayrton Massey
+DTEND:20230622T110000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230622T093000Z
 LOCATION:Room 8
 SEQUENCE:0
-SUMMARY:Cloud Migration [200 - Intermediate]
-UID:571a3c30-fbe1-4179-8a79-8343502f9b0b
+SUMMARY:Microsoft Presents: What's new in Power Platform development: Powe
+ r Automate and workflows [200 - Intermediate][45 min]
+UID:a411851e-0427-4df5-a65b-c0e66a210504
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Microsoft's Center of Excellence Starter Kit provide amazing c
- omponents to leverage the adoption\, administration\, governance and nurt
- uring of the Power Platform. An important one is the ALM Accelerator for 
- Power Platform. This solution helps Makers as well as Pro-Developers to e
- stablish an enterprise grade Application Lifecycle Management process for
-  their Dataverse solutions.In my session you gain a brief understanding o
- f the ALM basics in Dataverse. I will explain why it makes sense to have 
- a clear environment strategy. Furthermore I'll show you\, how I use solut
- ions to pack and transport my PowerApps and Power Automate flows between 
- my Dataverse environments. After clarifying these concepts\, I will give 
- you a deep-dive into Microsoft's ALM Accelerator for Power Platform. I ex
- plain in demos\, how a fully automated ALM process works.\n\nSpeaker(s): 
- Michael Megel
-DTEND:20220915T110000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220915T093000Z
+DESCRIPTION:Creating APIs is quite easy\, and many solutions include APIs 
+ to expose data to external services. But API objects are different from a
+ ny other AL object. In this session we will cover the best practices for 
+ creating APIs: how should they be designed\, how to get the best performa
+ nce and how can you test APIs? We will also turn around and look from the
+  outside world and see how to create applications that work with Business
+  Central APIs.\n\nSpeaker(s): Arend-Jan Kauffmann
+DTEND:20230622T110000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230622T093000Z
 LOCATION:Room 5
 SEQUENCE:0
-SUMMARY:ALM Accelerator for Power Platform [CoE Starter Kit] [300 - Advanc
- ed]
-UID:e18b8851-96ea-4902-8f63-926bf67ebf75
+SUMMARY:API best practices [300 - Advanced][90 min]
+UID:6d5d242b-5621-4f2d-99fa-4884b5cd596e
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:This session takes the audience on a journey inside Git and ai
- ms to demystify this tool that we all use in our daily lives. While Git o
- ften just works\, sometimes it can be outright scary. This session explai
- ns how Git works on the inside.Topics covered: This session does help AL 
- developers improve and master an essential tool they use every day.\n\nSp
- eaker(s): Vjekoslav Babić
-DTEND:20220915T110000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220915T093000Z
+DESCRIPTION:Feature management is a modern software-development practice t
+ hat decouples feature release from code deployment and enables quick chan
+ ges to feature availability on demand. It uses a technique called feature
+  flags (also known as feature toggles and feature switches) to dynamicall
+ y administer a feature's lifecycle.Feature management helps developers ad
+ dress the following problems: How to handle code branching when your team
+  have to do fixes and new functionality simultaneously? How to test multi
+ ple isolated changes within actual customer data? How do rollback changes
+  with minimal downtime and effort? How can some users try new features on
+  production without breaking others?Tharanga Chandrasekara\, Lead Technic
+ al Consultant at Theta (NZ) and Business Central MVP for the past seven y
+ ears\, together with Volodymyr Leonov\, Technical Lead at Theta (NZ)\, wi
+ ll take the audience through a short overview of the "trunk-based" and fe
+ ature flag approach.Then the presenters will present how Microsoft uses B
+ usiness Central Feature Management functionality to handle and control br
+ aking changes for 100K+ SaaS customers.Presenters will demonstrate how a 
+ standard delivery pipeline changes when you spice it with feature managem
+ ent\, diving deep into coding practices and toolsets. Toolset includes an
+  open-source extension that partners can start using right away.Attendees
+  can take home a few great ideas on delivering sound solutions faster and
+  illuminating waits within a complete delivery cycle.Topics:\n\nSpeaker(s
+ ): Tharanga Chandrasekara\, Vlad Leonov
+DTEND:20230622T110000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230622T093000Z
 LOCATION:Room 9
 SEQUENCE:0
-SUMMARY:Git under the hood [300 - Advanced]
-UID:1e00548d-8f13-4178-a78c-2cb75cd30ed8
+SUMMARY:Feature Management for Continuous Delivery [300 - Advanced][90 min]
+UID:66781e45-28ed-4b56-96b4-cd2e2b67ce38
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
-DTEND:20220915T120000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220915T110000Z
-LOCATION:
+DTEND:20230622T120000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230622T110000Z
+LOCATION:Expo Area
 SEQUENCE:0
 SUMMARY:Lunch Break\, Exhibition\, Sponsor Presentations
-UID:da7bf14f-723d-4fde-8113-60cf86938a9a
+UID:e3c37bc9-f70c-4431-9c9a-d544c057a233
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
-DTEND:20220915T112500Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220915T111000Z
-LOCATION:
+DESCRIPTION:Sponsor presentation
+DTEND:20230622T112500Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230622T111000Z
+LOCATION:Presentations Area
 SEQUENCE:0
-SUMMARY:Sponsor Presentation: Insight Works
-UID:a594e297-0c9e-4f5c-aec3-d04c782a151e
+SUMMARY:Sponsor presentation: Continia[15 min]
+UID:866f4761-a69f-41d1-948f-b1975d4b09b9
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
-DTEND:20220915T115000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220915T113500Z
-LOCATION:
+DESCRIPTION:Sponsor presentation
+DTEND:20230622T115000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230622T113500Z
+LOCATION:Presentations Area
 SEQUENCE:0
-SUMMARY:Sponsor Presentation: ALOps
-UID:7e0714d6-c8e6-4445-9565-bc4cdb5dc7ce
+SUMMARY:Sponsor presentation: ALOps[15 min]
+UID:a34695ec-d0fd-41a8-be5a-9550e629e527
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:For a few years we have been able to work with VS Code. This d
- evelopment environment offers many features that allow us to develop our 
- solutions more efficiently. We want to cover a few possibilities of them.
-  We are going to cover both general and specific topics. Starting from si
- mple configurations\, to extensions we recommend\, to built-in tools and 
- we'll also cover how to extend the VS Code development environment if you
- 're still missing some functionality.\n\nSpeaker(s): Tobias Fenster\, Dav
- id Feldhoff
-DTEND:20220915T133000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220915T120000Z
+DESCRIPTION:In this session\, you'll learn how Copilot and ChatGPT can hel
+ p create smarter apps\, to transform the way users interact with data in 
+ Business Central\, in much less time.Discover how these powerful tools ca
+ n transform your days as a BC developer\, making them more fun\, producti
+ ve\, and memorable.Explore how ChatGPT can be leveraged to extend Busines
+ s Central functionality beyond what's possible with AL alone.\n\nSpeaker(
+ s): Dmitry Katson\, Stefano Demiliani
+DTEND:20230622T133000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230622T120000Z
 LOCATION:Room 8
 SEQUENCE:0
-SUMMARY:Being more efficient with VS Code [200 - Intermediate]
-UID:ee5f0b7b-5525-4bb8-8c46-f7193a62ce02
+SUMMARY:Smarter Apps in Less Time: Copilot and ChatGPT Integration for BC 
+ Developers [200 - Intermediate][90 min]
+UID:eb9a3919-24a7-4a74-8f87-7dbf2c3120ea
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:OAuth is quite a mystery for many people. It has a lot of secr
- ets (pun intended). But we can't avoid it anymore\, so we better get used
-  to it.During this session we will turn OAuth inside out. You will get in
- sights on how it works\, what the differences are between public and conf
- idential clients\, what the different authorization flows mean\, and a lo
- t more!\n\nSpeaker(s): Arend-Jan Kauffmann
-DTEND:20220915T133000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220915T120000Z
+DESCRIPTION:Curious about all the new enhancements to the AL developer exp
+ erience? Join this session to get a deep dive into improved debugging and
+  troubleshooting\, code editing\, productivity\, AppSource improvements a
+ nd first wave of monetization support\, a short overview of the new promo
+ ted actions programming model and more.\n\nSpeaker(s): Steffen Balslev\, 
+ Blanca Robledo
+DTEND:20230622T133000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230622T120000Z
 LOCATION:Room 5
 SEQUENCE:0
-SUMMARY:OAuth revealed [400 - Expert]
-UID:8535773e-9da2-4db1-92cc-9816f5105774
+SUMMARY:Microsoft Presents: What's new in AL [200 - Intermediate][45 min]
+UID:03531b78-2521-4893-a831-af7cfcc980cb
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Learn how to use the Business Central Performance Toolkit (BCP
- T) to validate your solution's performance and simulate the load on the s
- ystem. We will go over examples of test codeunits\, how to plan the test 
- together with the customer\, and how you can use the tool in your daily w
- ork as a developer.\n\nSpeaker(s): Bardur Knudsen\, Henrik Frovst Madsen\
- , Simon Albrechtsen
-DTEND:20220915T133000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220915T120000Z
-LOCATION:Room 9
+DESCRIPTION:In this session we will demonstrate how developers can utilize
+  navigation\, debugging\, exploration\, and other tools to facilitate a b
+ etter comprehension of AL code.\n\nSpeaker(s): Blanca Robledo\, Thomas Pe
+ dersen
+DTEND:20230622T133000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230622T120000Z
+LOCATION:Room 5
 SEQUENCE:0
-SUMMARY:Business Central Performance Toolkit [300 - Advanced]
-UID:198c5389-3c0b-41cc-99fc-8c0ed81ec131
+SUMMARY:Microsoft Presents: Unlock the Power of AL extension toolset: A de
+ tailed overview of AL code debugging and navigation [200 - Intermediate][
+ 45 min]
+UID:cf698aa2-be05-4703-b336-8e9c7fe6c36d
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:The Business Central permission system is getting an overhaul!
-  In this session\, we’ll introduce the new capabilities in the permission
- s system. We’ll explain how to use them to create more stable code and sp
- end less time maintaining permission sets for your customers. This sessio
- n is packed with best practices and hands-on examples.\n\nSpeaker(s): Dar
- rick Joo\, Jens Møller-Pedersen
-DTEND:20220915T133000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220915T120000Z
+DESCRIPTION:You have Business Central and have the consideration to start 
+ with some chatbots. The main focus is how this chatbot can work with BC.P
+ ower Virtual Agent can be connected directly to BC\, and we will show you
+  how to create a Sales Order in PVA directly to BC without any code.\n\nS
+ peaker(s): Marko Totovic\, Nikola Pancic
+DTEND:20230622T133000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230622T120000Z
 LOCATION:Room 9
 SEQUENCE:0
-SUMMARY:Permissions revisited [300 - Advanced]
-UID:d57a548b-4e35-4146-b587-2cc9a3edc2c8
+SUMMARY:How to connect Power Virtual Agent and Business Central [200 - Int
+ ermediate][90 min]
+UID:1f78b56d-a5c2-45ca-baca-2c534677bf45
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
-DTEND:20220915T140000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220915T133000Z
-LOCATION:
+DTEND:20230622T140000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230622T133000Z
+LOCATION:Expo Area
 SEQUENCE:0
 SUMMARY:Coffee Break\, Exhibition\, Sponsor Presentation
-UID:945c31d9-a1ba-44c8-bc67-3f3eb3bca8d7
+UID:fa2f233d-438c-4b9a-92d6-49031e93bf20
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
-DTEND:20220915T135500Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220915T134000Z
-LOCATION:
+DESCRIPTION:Sponsor presentation
+DTEND:20230622T135500Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230622T134000Z
+LOCATION:Presentations Area
 SEQUENCE:0
-SUMMARY:Sponsor Presentation: Dime
-UID:5c27ad51-fa4a-46b5-995b-3e8125724ca0
+SUMMARY:Sponsor presentation: MultiSoft[15 min]
+UID:639d87a3-4d88-47fc-9a5f-294dc541746c
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:We can implement the most astonishing design patterns\, or the
-  most complex and nerdy design guidelines. But when we forget about "perf
- ormance"\, all of that goes to waste. But what does "thinking about perfo
- rmance" really mean? Does that mean we need to prevent any kind of perfor
- mance problems? Or do we have to be able to efficiently react when we hav
- e problems? I can tell you already: the answer is "both"! During this ses
- sion\, I'm going to go through performance-scenarios that we all encounte
- r during our life in Business Central. Some obvious\, some less obvious\,
-  some completely unexpected. While analysing the scenarios\, we'll use so
- me interesting tools along the way that are indispensable for an efficien
- t analysis or solution to performance related problems.\n\nSpeaker(s): Er
- ic Wauters (waldo)
-DTEND:20220915T153000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220915T140000Z
+DESCRIPTION:Never had a chance to check what is in SystemApp? No worries -
+  sit in the comfort chair at Kinepolis and watch a session full of exampl
+ es of how to write better code and what is more important: create it fast
+ er. How to integrate with Azure Blob Storage or with SharePoint in just a
+  few lines? How to print barcodes without any ISV solutions? See more and
+  explore what you can do to make it even better.\n\nSpeaker(s): Krzysztof
+  Bialowas\, Jesper Schulz-Wedde
+DTEND:20230622T153000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230622T140000Z
 LOCATION:Room 8
 SEQUENCE:0
-SUMMARY:Coding 4 Performance [400 - Expert]
-UID:c9587693-2e29-461b-b10f-850f2470fffa
+SUMMARY:The System App in examples. How to develop more with less lines of
+  code [200 - Intermediate][90 min]
+UID:5afe5be9-ca37-4971-9409-d504d5701791
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Join this demo packed session to learn what's new for users an
- d developers in Business Central integrations with Microsoft Teams and Mi
- crosoft 365 apps like OneDrive\, Outlook and Excel. Learn how to extend T
- eam's adaptive cards\, how to bring OneDrive integration to your solution
- s\, or how to enrich your Excel worksheet with live data\, coming directl
- y from Business Central. This sessions is unique opportunity to catch up 
- on what's latest and coolest in the collaboration space.\n\nSpeaker(s): M
- onica Ahuja\, Sam van Lieshout\, Ievgenii Korovin
-DTEND:20220915T153000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220915T140000Z
+DESCRIPTION:In the words of Abraham Maslow\, the law of the instrument sta
+ tes that if we have a hammer\, we tend to see everything as a nail. When 
+ it comes to Business Central\, the Testing Framework IS a hammer that can
+  help you identify and fix issues you encounter throughout normal operati
+ ons.Unleash the full potential of your Business Central toolbox with Test
+ ability and TestRunners - while these tools are undoubtedly essential for
+  ensuring your code works\, you may be surprised to learn that they can a
+ lso give your Business Central lifecycle a major boost in many other ways
+ . From debugging to optimization\, your testability expertise can take yo
+ ur Business Central game to the next level.Discover how to accelerate you
+ r demos like Microsoft is doing with Contoso\, streamline your training a
+ nd self-onboarding processes\, and even create powerful diagnostics and s
+ upport applications.\n\nSpeaker(s): Jeremy Vyska
+DTEND:20230622T153000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230622T140000Z
 LOCATION:Room 5
 SEQUENCE:0
-SUMMARY:Build collaborative apps for Business Central with Microsoft 365 a
- nd Teams [200 - Intermediate]
-UID:f3efa4a2-8c83-4c50-ac2d-b6cdf09d8583
+SUMMARY:Testability - The Hammer and the Nail [400 - Expert][90 min]
+UID:c068190e-69eb-4e73-b077-db76a30e7b15
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Join this session to learn about some of the less known settin
- gs that can boost performance. Learn about how to work with workspaces us
- ing tools like Dependency publishing and Rapid Application Development.\n
- \nSpeaker(s): Kalman Beres\, Nikolay Dobrev
-DTEND:20220915T153000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220915T140000Z
-LOCATION:Room 5
-SEQUENCE:0
-SUMMARY:Customizing the developer experience [300 - Advanced]
-UID:d93e503a-49ba-45d4-b215-f406cc795aa1
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Everyone is producting their Extensions/Apps and we are mostly
-  driven by our intuition when to create new app or use existing one. It i
- s time to bring some rules into this process.\n\nSpeaker(s): Kamil Sáček\
- , Jeremy Vyska
-DTEND:20220915T153000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220915T140000Z
+DESCRIPTION:In this session Microsoft will cover the changes to the upgrad
+ e process and will show new enhancements to the cloud migration tooling t
+ hat will help to reduce time moving the tenants to the cloud. We will pre
+ sent the plans for the new upgrade process. For cloud migration we will c
+ over moving the customized fields during the cloud migration to the table
+  extensions\, new UI for the cloud migration\, the tooling you can use to
+  quickly unblock the cloud migration. We will also discuss performance fi
+ xes and some limits in the migration tool to be aware of. Finally\, watch
+  demos of future features and plans for coming versions of the migration 
+ tool\n\nSpeaker(s): Nikola Kukrika\, Julia Lisovaya
+DTEND:20230622T153000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230622T140000Z
 LOCATION:Room 9
 SEQUENCE:0
-SUMMARY:Multi-Application Architecture [200 - Intermediate]
-UID:780f0f23-f3ed-4526-bb2f-729fa2fbc801
+SUMMARY:Microsoft Presents: What's new in cloud migration and upgrade [300
+  - Advanced][45 min]
+UID:50af1f38-0d3a-4646-8b57-5abca8d63227
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
-DTEND:20220915T190000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220915T153000Z
-LOCATION:
+DESCRIPTION:Today there are 3000 apps and counting in AppSource for Busine
+ ss Central. With even more features like monetization being added\, where
+  do I as a partner get started? How does it all fit together? In this ses
+ sion we demo an end-to-end creation of a new offer\, the benefits of usin
+ g AL: Go for GitHub\, and the common errors you might encounter along the
+  way.\n\nSpeaker(s): Quentin Tresontani\, Emil Damsbo
+DTEND:20230622T153000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230622T140000Z
+LOCATION:Room 9
 SEQUENCE:0
-SUMMARY:Walking Dinner\, Exhibition
-UID:177baa9b-7619-46d8-8b29-a98cb32f5623
+SUMMARY:Microsoft Presents: Demystifying AppSource development [200 - Inte
+ rmediate][45 min]
+UID:f38b0194-a16f-4b56-ac2b-a3d97cf00289
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
-DTEND:20220916T070000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220916T060000Z
-LOCATION:
+DTEND:20230622T190000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230622T153000Z
+LOCATION:Expo Area
+SEQUENCE:0
+SUMMARY:Walking Dinner & Exhibition
+UID:677e85e3-99af-4b72-a1d7-73b5da6fc7b8
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:
+DTEND:20230623T070000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230623T060000Z
+LOCATION:Expo Area
 SEQUENCE:0
 SUMMARY:Registration\, Breakfast and Exhibition
-UID:2452bf51-fb6e-4770-b9c1-f3f80b9dbdca
+UID:b7a6448b-8afb-4ce2-8604-4301124ab242
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Join us to explore the Data Synchronization way of integrating
-  to Dataverse and Dynamics 365 apps. We will share tips and tricks on how
-  to extended and build integration to Dataverse.\n\nSpeaker(s): Onat Buyu
- kakkus\, Djordje Čenić
-DTEND:20220916T083000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220916T070000Z
+DESCRIPTION:One of the common (and top requested) requirements of a Dynami
+ cs 365 Business Central ERP project is executing custom code in the cloud
+  for serverless integrations or re-using .NET add-ins in a cloud-complian
+ t way. For these tasks\, Azure Function is often the response.But using A
+ zure Functions efficiently is not just deploying a code in the cloud. For
+  a successful implementation\, there's more than this.Are you using Azure
+  Functions at best? Are you working for scalability and reliability? Are 
+ your functions secure? Are you using the latest technologies? Are your fu
+ nction apps ready for the future? Are you optimizing costs?In this sessio
+ n we’ll explore present and future of Azure Functions with the focus on D
+ 365BC projects. We’ll see how to efficiently use Azure Functions in a Dyn
+ amics 365 Business Central project. We'll explore the in-process and isol
+ ated model\, we'll see deployment options\, tips for scalability\, reliab
+ ility and security\, how to integrate Azure Functions and Dataverse for c
+ omplex ERP to Power Platform integrations and we'll see how to use them f
+ rom AL code or for replacing standard ERP tools.\n\nSpeaker(s): Stefano D
+ emiliani
+DTEND:20230623T083000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230623T070000Z
 LOCATION:Room 8
 SEQUENCE:0
-SUMMARY:Better together: Business Central and Dataverse [300 - Advanced]
-UID:27d8e7b3-ec7c-4720-b512-a132ef3ffd01
+SUMMARY:Azure Functions Deep Dive for Dynamics 365 Business Central develo
+ pers: present and future [400 - Expert][90 min]
+UID:eff89e59-1472-4c3f-a2fe-d623a39eb506
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Join this demo packed session to learn what's new for power us
- ers and developers in Business Central integrations with Power Platform. 
- Learn how to infuse Business Central with Power Automate workflows\, how 
- to build modern Power Apps based on Business Central APIs and how to surf
- ace your Business Central data in Dataverse using Virtual Tables technolo
- gy. This session is a unique opportunity to catch up on what's latest and
-  coolest in the Power Platform and Dataverse integration space.\n\nSpeake
- r(s): Lukasz Zoglowek\, Enrico Cimitan\, Ayrton Massey
-DTEND:20220916T083000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220916T070000Z
-LOCATION:Room 8
-SEQUENCE:0
-SUMMARY:Empower citizen and pro AL developers to do more with Power Platfo
- rm [300 - Advanced]
-UID:fdfeb09c-4f4a-4c2d-8456-07cc2a43de2a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:When we are writing our code\, we should make sure that it not
-  only meets customer requirements but is also easy to understand and modi
- fy by other developers. In this session\, I would like to show you how we
-  can use code analyzers\, code actions and code transformation commands c
- reated by Microsoft and the Business Central community to improve the qua
- lity and readability of our code.\n\nSpeaker(s): Andrzej Zwierzchowski
-DTEND:20220916T083000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220916T070000Z
+DESCRIPTION:You will learn how to unlock the latest user productivity feat
+ ures\, such as actionable error messages from AL code. You will also disc
+ over which new features your users can enjoy without writing a single new
+  line of AL code\, including analysis mode\, access keys and more. Additi
+ onally\, you will get an exclusive view of what new APIs we are planning 
+ for Business Central 2023 release wave 2 .\n\nSpeaker(s): Erida Nurçe\, V
+ asil Iliev
+DTEND:20230623T083000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230623T070000Z
 LOCATION:Room 5
 SEQUENCE:0
-SUMMARY:Improve the quality and readability of your code using tools from 
- Microsoft and the BC community [300 - Advanced]
-UID:b61406ec-0a6a-42c6-9105-b75a28bbab5e
+SUMMARY:Microsoft Presents: What's new in Business Central clients for AL 
+ developers [200 - Intermediate][45 min]
+UID:cb70c8c2-d5ba-49c7-ade2-e79135d6c5d1
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:For this session we decided to join hands to talk to you about
-  some of the theories behind test automation and how to apply them. We al
- so will share with you what tooling can already be used to support you in
-  this\, and what tooling is being worked on. Finally\, we will discuss se
- veral advanced subjects like testing of job queues\, testing with permiss
- ions\, testing webservices and test doubling\, aka mocking.\n\nSpeaker(s)
- : Luc van Vugt\, Nikola Kukrika
-DTEND:20220916T083000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220916T070000Z
+DESCRIPTION:In this session\, we will present the conceptual changes we've
+  introduced to the permission system and user management. How can you lev
+ erage these changes to make permission management of your applications ea
+ sier?\n\nSpeaker(s): Jesper Schulz-Wedde\, Stig Killendahl
+DTEND:20230623T083000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230623T070000Z
+LOCATION:Room 5
+SEQUENCE:0
+SUMMARY:Microsoft Presents: Ease permission management in your application
+ s\, levering the latest permission system enhancements [200 - Intermediat
+ e][45 min]
+UID:141067ec-379a-4ee4-9a3f-f1c78320e04f
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Wasm\, short for WebAssembly\, has been one of the software de
+ velopment hype topics in the past months. But what is it actually? Does i
+ t matter for Business Central? And if yes\, why? In this session\, you wi
+ ll get a general intro into the topic and see with practical examples how
+  it might matter for BC. We'll look into use cases both in the backend an
+ d in the frontend.\nIn the second part of this session\, we will dive int
+ o VS Code devcontainers and GitHub Codespaces. We will give you an idea w
+ hat they are\, why they matter and how they work. And yes\, we will use t
+ hem with AL and show you how to connect them to Azure DevOps repositories
+ .\nBe warned though: For some aspects of this session\, it is very early 
+ days and experimental\, so if you are looking for content usable in your 
+ customer projects tomorrow\, this is not for you. But if you want to see 
+ the hot stuff in dev today that might change the landscape mid- to long-t
+ erm\, this will be fun!\n\nSpeaker(s): Tobias Fenster\, Stefan Maron
+DTEND:20230623T083000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230623T070000Z
 LOCATION:Room 9
 SEQUENCE:0
-SUMMARY:Advanced topics in test automation [300 - Advanced]
-UID:f0c714c8-c103-4065-9c95-b6d9ba72be0a
+SUMMARY:Experiments for BC - Wasm? Codespaces? Linux? Wtf! [300 - Advanced
+ ][90 min]
+UID:92ef1f12-c187-488b-8952-4dbd746f4efc
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
-DTEND:20220916T090000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220916T083000Z
-LOCATION:
+DTEND:20230623T090000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230623T083000Z
+LOCATION:Expo Area
 SEQUENCE:0
 SUMMARY:Coffee Break\, Exhibition\, Sponsor Presentation
-UID:5a297103-de09-4f55-95bc-fc233e593072
+UID:441574a8-f290-4bc0-b147-1006724f33fa
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
-DTEND:20220916T085500Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220916T084000Z
-LOCATION:
+DESCRIPTION:Sponsor presentation
+DTEND:20230623T085500Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230623T084000Z
+LOCATION:Presentations Area
 SEQUENCE:0
-SUMMARY:Sponsor Presentation: Continia
-UID:a3082b78-7001-45b9-8d45-5fbd2b49231c
+SUMMARY:Sponsor presentation: Insight Works[15 min]
+UID:96a7924b-3c69-4dfb-890a-e040d727df8b
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Business Central certainly is a great solution\, with a lot of
-  flexibility and extendability. But at the same time\, it has its limits 
- and also\, while you can do some things in BC\, it actually is better to 
- do them somewhere else. In this session we want to tackle three aspects o
- f that: After this session\, you will have an idea about the solutions th
- ose products offer in connection with Business Central\, where they can h
- elp you and you will also see how to use them\n\nSpeaker(s): Bert Verbeek
- \, Tobias Fenster
-DTEND:20220916T103000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220916T090000Z
+DESCRIPTION:There has never been a feature in AL language that was at the 
+ same time so amazingly powerful\, and yet so unbelievably underused\, bot
+ h by Microsoft and by the partner community at large. When they were intr
+ oduced in BC16 one could have expected that their use in the base app and
+  the system app would explode. Any major product written in a language th
+ at supports interfaces typically has more interfaces than classes\, yet w
+ e\, in the base app have one interface per more than one hundred codeunit
+ s. It’s an opportunity lost.This session will aim to demonstrate the grea
+ t power of the interface type in AL. You will see how you can use them th
+ e way Microsoft had in mind when they added them to the AL technical stac
+ k. But that’s not all! You will see interfaces from a completely differen
+ t angle\, and you will see how they make things possible that neither Mic
+ rosoft nor you have probably ever considered. And the best of all is that
+  it won’t be just some AL acrobatics for showing off on stage at TechDays
+  – absolutely not! You will see how interfaces allow you to build cleanes
+ t\, most maintainable\, and highest quality AL code ever.And – just for g
+ ood measure – we’ll add a pinch of testability to it. You will see why in
+ terfaces make for the most testable code out there and how you can apply 
+ a few simple test patterns to take both your app and test code to the nex
+ t level\, that would not be remotely possible without interfaces.\n\nSpea
+ ker(s): Eric Wauters (waldo)\, Vjekoslav Babić
+DTEND:20230623T103000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230623T090000Z
 LOCATION:Room 8
 SEQUENCE:0
-SUMMARY:Above and beyond - When BC is not enough [300 - Advanced]
-UID:296fefcf-b92e-4cfa-8acb-c8ab176a4ac8
+SUMMARY:The Power of Interfaces: Unleashing Their Full Potential in AL [40
+ 0 - Expert][90 min]
+UID:636f7eaf-3b5f-4a4e-8aef-8311bc8331a4
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Learn about the new Business Central client changes and how to
-  best leverage it in your code. We will highlight the new Action Bar desi
- gn and you will learn all about the new ways to design\, extend\, customi
- ze\, and personalize the Action Bar to the needs of your customers. We wi
- ll also cover changes in client add-in model\, list views\, data entry an
- d more.\n\nSpeaker(s): Quentin Tresontani\, Eigo Kawatani
-DTEND:20220916T103000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220916T090000Z
+DESCRIPTION:DevOps is to development organizations what ERP is to business
+ es! AL-Go for GitHub is the plug-and-play DevOps solution for Business Ce
+ ntral development on GitHub. This session takes you through how several o
+ f your everyday DevOps tasks are handled using AL-Go for GitHub and how y
+ ou can focus on bringing customer value instead of spending time on maint
+ aining your DevOps setup.We will also cover automated submission to AppSo
+ urce and AppSource monetization.\n\nSpeaker(s): Freddy Kristiansen\, Krzy
+ sztof Bialowas
+DTEND:20230623T103000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230623T090000Z
 LOCATION:Room 5
 SEQUENCE:0
-SUMMARY:What's new in Business Central clients for AL developers [300 - Ad
- vanced]
-UID:297f31ce-b9dd-4731-90b7-47de7f0d1ffe
+SUMMARY:Microsoft Presents: Using AL-Go for GitHub [300 - Advanced][45 min]
+UID:2812aba9-9ee5-4e50-bd39-3fb41dfca574
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:As a part on the Universal Code initiative all extensions shou
- ld be cloud-optimized to avoid being impacted by increasing fees. Cloud-o
- ptimized extensions must be compiled with Target = Cloud. In this session
- \, you will be shown some general solutions and patterns to help you get 
- to Universl Code. Additionally\, we will demonstrate real-life examples.\
- n\nSpeaker(s): Esben Nyhuus Kristoffersen\, Michael Nielsen
-DTEND:20220916T103000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220916T090000Z
+DESCRIPTION:Did you know that Microsoft just recently shipped a set of Pow
+ er App samples and extended AL-Go for GitHub to make it easier than ever 
+ to use the power of Power Platform along with Business Central?Learn how 
+ to use Power Platform solutions with your favourite AL project and how to
+  store\, build\, test\, and deploy your solution using the free AL-Go PTE
+  template.This demo-packed session is focused on canvas Power Apps.\n\nSp
+ eaker(s): Evgenij Korovin\, Anders Gade Nørskov
+DTEND:20230623T103000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230623T090000Z
 LOCATION:Room 5
 SEQUENCE:0
-SUMMARY:Universal Code – Target must be cloud [300 - Advanced]
-UID:2c545afc-30a7-4846-94f2-f44aea16abf2
+SUMMARY:Microsoft Presents: Introducing flexible Power App solutions for B
+ usiness Central [300 - Advanced][45 min]
+UID:cd288896-97d6-4b1d-b21c-3baf1b5681d0
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:It has always been a challenge for developers to write efficie
- nt and optimized code. With the last few versions of Dynamics 365 Busines
- s Central\, Microsoft introduced a different set of tools that can help a
- nalyze code. It has never been easier to detect problems in Business Cent
- ral. In this session\, I will show you how to detect\, analyze and optimi
- ze your possibly inefficient solution. Since indexes have a large impact 
- on performance\, I will talk about the SIFT and NCCI indexes\, when to us
- e them\, and how to apply them to real examples. Join my 90 min session t
- o find out more about optimizing the Business Central.\n\nSpeaker(s): Mil
- an Milincevic
-DTEND:20220916T103000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220916T090000Z
+DESCRIPTION:Upgrading to the latest version of Business Central on Cloud c
+ an be a daunting task for many companies. With an ever-evolving cloud lan
+ dscape\, companies are often faced with the challenge of upgrading to the
+  latest version of Business Central on the Cloud while ensuring their exi
+ sting data and processes remain intact.It is important to understand the 
+ various challenges that come with upgrading to the latest version of BC o
+ n the Cloud. The most common challenge is the potential for data loss dur
+ ing the upgrade process. Companies must also consider the compatibility o
+ f their existing third-party applications and integrations with the new v
+ ersion of BC on the Cloud. If the necessary changes are not made\, the th
+ ird-party applications and integrations may not work after the upgrade.De
+ spite the challenges of upgrading to the latest version of BC on the Clou
+ d\, there are also several best practices that can help ensure the upgrad
+ e process is successful\, which we will cover in this session.We as an ex
+ perienced company that is doing a lot of upgrade projects can share real-
+ world Challenges and issues to ensure the upgrade process is successful a
+ nd minimize any potential risks for others who try to upgrade its product
+ s.Upgrading to the latest version of Business Central on Cloud can be a c
+ omplex and time-consuming process. However\, by following the best practi
+ ces shown in the session\, companies can ensure the upgrade process is su
+ ccessful and their data remains intact. Companies should also ensure that
+  any necessary third-party applications and integrations are compatible w
+ ith the new version of BC on Cloud before proceeding with the upgrade. By
+  following these best practices\, companies can ensure their upgrade to t
+ he latest version of BC on Cloud is successful and their data remains com
+ plete and secure.\n\nSpeaker(s): Stefan Šošić\, Nemanja Kutlesic
+DTEND:20230623T103000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230623T090000Z
 LOCATION:Room 9
 SEQUENCE:0
-SUMMARY:Optimizing SQL queries in Business Central [300 - Advanced]
-UID:15e67170-0012-42e0-86eb-22b085338d2f
+SUMMARY:Challenges and Best practices for upgrading to the latest Business
+  Central on Cloud [300 - Advanced][90 min]
+UID:e4176c7d-b5b9-4858-91f6-f550227cf3d9
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
-DTEND:20220916T113000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220916T103000Z
-LOCATION:
+DTEND:20230623T113000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230623T103000Z
+LOCATION:Expo Area
 SEQUENCE:0
 SUMMARY:Lunch Break\, Exhibition\, Sponsor Presentations
-UID:f4634de8-549d-4a62-a81d-1f6056a739a4
+UID:41cabf0e-e651-4c12-a7ca-433560ba026a
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
-DTEND:20220916T105500Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220916T104000Z
-LOCATION:
+DESCRIPTION:Sponsor presentation
+DTEND:20230623T112000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230623T110500Z
+LOCATION:Presentations Area
 SEQUENCE:0
-SUMMARY:Sponsor Presentation: Innoqubit
-UID:dbb42aaa-d5f9-4f4e-b43d-70790818f9bc
+SUMMARY:Sponsor presentation: COSMO CONSULT[15 min]
+UID:2861fbe6-7960-4ce9-bfcd-66deb5ac8211
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
-DTEND:20220916T112000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220916T110500Z
-LOCATION:
-SEQUENCE:0
-SUMMARY:Sponsor Presentation: Anveo
-UID:9c0582e2-9f80-45b1-889d-304ee70fa419
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:A wise man once said "One bad habit often spoils a dozen good 
- ones". And I think we can all relate to this. On top of that\, habits are
-  hard to break\, especially the bad ones. During this session\, we'll dis
- cuss some (what we believe to be) bad habits in AL Development. Some of t
- hem are left-overs from C/AL (NAV) development\, some are brand new\, sta
- te-of-the-art bad habits from pure AL. Let's break these bad habits and l
- earn about alternatives!\n\nSpeaker(s): Vjekoslav Babić\, Eric Wauters (w
- aldo)
-DTEND:20220916T130000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220916T113000Z
+DESCRIPTION:With almost every new version of Dynamics 365 Business Central
+ \, developers and consults get new\, improved\, and better ways how to ma
+ ke customers happy with reporting on top of Business Central data.In this
+  session\, we will deep dive technically in all reporting capabilities\, 
+ like for example:\nSo if you want a good overview and a technical deep di
+ ve of all Business Central reporting capabilities\, advantages/disadvanta
+ ges\, use cases\, then this session is the one!\n\nSpeaker(s): Steven Ren
+ ders\, Renato Fajdiga
+DTEND:20230623T130000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230623T113000Z
 LOCATION:Room 8
 SEQUENCE:0
-SUMMARY:Bad habits of AL Developers [300 - Advanced]
-UID:ee9bd5c7-811a-4492-a24c-0b7b43966833
+SUMMARY:Business Central Reporting demystified [300 - Advanced][90 min]
+UID:8d0468cf-adfd-4f82-bbcc-39105536fcf4
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Telemetry gives developers\, as well as decision-makers\, the 
- advantage that we did not have in past in the NAV world. It allows to rea
- ct quicker on errors\, allows to monitor the usage of the solutions\, and
-  control if everything works correctly. In other words\, it can save us a
-  lot of time and stress if we know how to use it.In the session\, we will
-  present how to use telemetry for troubleshooting\, how to create in easy
-  way notifications about the issues\, and how to use telemetry to make de
- cisions about the application if you are the ISV or VAR. This will be an 
- interactive session with live questions and the ability to interact with 
- what is presented.\n\nSpeaker(s): Krzysztof Bialowas\, Kennie Pontoppidan
-DTEND:20220916T130000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220916T113000Z
+DESCRIPTION:All your business-critical data is stored in Dataverse\, segme
+ nted\, secured\, and available for all your Power Platform-based applicat
+ ions. Now\, what if you want to access that data from a custom-built app?
+  Or how do you get access to this data in an Azure Function\, in a secure
+  way? You are a SaaS-platform developer and need to understand multi-tena
+ nt?Don't worry\, Mats and Yannick are here to teach you all about the pro
+ s and cons of each authentication method\, managed identities for Power P
+ latform\, available SDK's\, and API limits!\n\nSpeaker(s): Yannick Reekma
+ ns\, Mats Necker
+DTEND:20230623T130000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230623T113000Z
 LOCATION:Room 5
 SEQUENCE:0
-SUMMARY:Telemetry for Business Central from basics to advanced usage [200 
- - Intermediate]
-UID:d1f4f0cc-bca1-45e4-8c7a-9e44d7672557
+SUMMARY:Connecting to Dataverse: do's\, don'ts\, and how not to make all y
+ our data public by accident [300 - Advanced][90 min]
+UID:e71ca53a-2ee2-4279-861e-e7ddd30602b3
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Business Central's open-source story is progressing quickly. U
- niversal code is rapidly replacing the code customization model\, requiri
- ng developers to influence our application platform in totally new ways. 
- In this session\, you’ll learn how to collaborate with Microsoft to contr
- ibute to the application platform. You’ll also learn how Microsoft is cha
- nging its approach to development to add transparency and improve our col
- laboration with our community.\n\nSpeaker(s): Jesper Schulz-Wedde\, Maria
-  Zhelezova
-DTEND:20220916T130000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220916T113000Z
+DESCRIPTION:Technical deep dive session exploring how locking is applied b
+ y the AL Runtime and what AL developers can do to explicitly control lock
+ ing. Introducing the newly added “Record Instance Isolation Level” and ex
+ plaining how it can be used to reduce lock contention by applying it to p
+ revious AL patterns.\n\nSpeaker(s): Mads Gram\, Nikola Kukrika
+DTEND:20230623T130000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230623T113000Z
 LOCATION:Room 9
 SEQUENCE:0
-SUMMARY:Collaborating on Business Central's open-source platform [300 - Ad
- vanced]
-UID:7957cbc9-6613-46b5-9161-b209e969415f
+SUMMARY:Microsoft Presents: Locking in AL: Runtime and explicit AL control
+  [300 - Advanced][45 min]
+UID:e78780cc-cc37-41cc-808e-fe245e3362f8
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Join this session to learn how to effectively leverage Onboard
- ing framework in AL to turn customer onboarding into a scalable process. 
- You will learn about onboarding design principles and motivation for maki
- ng it part of your developer culture. Your will also learn how to use dif
- ferent onboarding framework building blocks in AL to create a coherent on
- boarding story.\n\nSpeaker(s): Tomas Grubliauskas\, Cody Hoover
-DTEND:20220916T130000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220916T113000Z
+DESCRIPTION:Join us for an insightful session on migrating Business Centra
+ l Server to .NET Core. Learn the motivations behind the transition\, the 
+ benefits it brought to Business Central\, and the valuable lessons our te
+ am gained from this experience. This session is relevant for .NET develop
+ ers eager to enhance their skills\, modernize their applications\, and na
+ vigate the challenges of migration from the legacy .NET Framework to the 
+ robust .NET Core platform.\n\nSpeaker(s): Vladislav Nagornyi\, Wael AbuSe
+ ada
+DTEND:20230623T130000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230623T113000Z
 LOCATION:Room 9
 SEQUENCE:0
-SUMMARY:Adopting "Onboarding first" developer mindset [200 - Intermediate]
-UID:d1c11b48-19eb-43d6-be49-ead2bfe1c310
+SUMMARY:Microsoft Presents: Lessons learned from migrating to .NET Core [2
+ 00 - Intermediate][45 min]
+UID:6a832aec-0ec1-4069-8001-29fcdff85e0d
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
-DTEND:20220916T133000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220916T130000Z
-LOCATION:
+DTEND:20230623T133000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230623T130000Z
+LOCATION:Expo Area
 SEQUENCE:0
 SUMMARY:Coffee Break\, Exhibition\, Sponsor Presentation
-UID:888a30d2-eef7-42de-b130-f2ba1217134f
+UID:411ae604-e5a1-47da-9dba-85b0c53b0235
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
-DTEND:20220916T132500Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220916T131000Z
-LOCATION:
-SEQUENCE:0
-SUMMARY:Sponsor Presentation: MultiSoft
-UID:d770ec6f-1c57-40be-9108-dbd23f08e873
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:
-DTEND:20220916T143000Z
-DTSTAMP:20221102T180439Z
-DTSTART:20220916T133000Z
+DTEND:20230623T143000Z
+DTSTAMP:20230611T120650Z
+DTSTART:20230623T133000Z
 LOCATION:Room 8
 SEQUENCE:0
 SUMMARY:Closing
-UID:9ed7aea3-8d83-4563-88df-21150cd68deb
+UID:2778efc8-f7fc-404d-af0c-2315762248a1
 END:VEVENT
 END:VCALENDAR

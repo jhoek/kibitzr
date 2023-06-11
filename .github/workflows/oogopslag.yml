@@ -1,8 +1,8 @@
-name: tomgauld2
+name: oogopslag
 
 on:
   schedule:
-    - cron: "0 10 * * 6"
+    - cron: "40 4 * * 5"
   workflow_dispatch:
 
 jobs:
@@ -12,37 +12,30 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Install pup
-        shell: bash
-        run: |
-          go get github.com/ericchiang/pup
-          export GOROOT=/usr/bin/go
-          cd ~/go/bin
-          sudo cp pup /usr/bin
-          pup --version
-
       - name: Install required PowerShell modules
         shell: pwsh
         run: |
           Set-PSRepository PSGallery -InstallationPolicy Trusted
-          Install-Module UncommonSense.TheGuardian, UncommonSense.Rss -Scope CurrentUser
+          Install-Module UncommonSense.Hap, UncommonSense.Nrc, UncommonSense.Rss -Scope CurrentUser
 
-      - name: Update feed
+      - name: Get Recent data
         shell: pwsh
         run: |
-          Get-TomGauld
+          Get-Oogopslag
           | Select-Object -First 10
           | ForEach-Object {
+            $Description = "<img src='$($_.Image)'/>"
+
             New-RssFeedItem `
               -ID $_.Url `
               -Title $_.Title `
-              -Description "<img src='$($_.Body)'/>" `
+              -Description $Description `
               -PubDate $_.Date }
           | New-RssFeed `
-            -Title 'Tom Gauld' `
-            -Link 'https://www.theguardian.com/profile/tom-gauld' `
-            -Description 'Tom Gauld'
-          | Set-Content -Path ./data/tomgauld2.xml
+            -Title 'Oogopslag' `
+            -Link 'https://www.nrc.nl/rubriek/oogopslag/' `
+            -Description 'Oogopslag'
+          | Set-Content -Path ./data/oogopslag.xml
 
       - name: Commit and push feed
         shell: bash
