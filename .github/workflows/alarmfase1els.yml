@@ -22,8 +22,7 @@ jobs:
           PUSHOVER_APP_ALARMFASE1: ${{secrets.PUSHOVER_APP_ALARMFASE1}}
           PUSHOVER_USER_ELS: ${{secrets.PUSHOVER_USER_ELS}}
         run: |
-          3901..3907 | ForEach-Object {
-            Get-P2000Entry -PostCode $_
+            Get-P2000Entry -Region utrecht -City veenendaal
             | Where-Object Priority -In 'P1', 'A1' `
             | Where-Object DateTimeUtc -GT (Get-Date -AsUtc).AddMinutes(-10) `
             | Select-Object -First 10
@@ -35,4 +34,3 @@ jobs:
                   -Message $_.Original `
                   -SupplementaryUrl $_.Link
               }
-          }
