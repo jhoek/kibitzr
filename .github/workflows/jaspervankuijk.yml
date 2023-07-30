@@ -1,4 +1,4 @@
-name: thomasvankuijk
+name: jaspervankuijk
 
 on:
   schedule:
@@ -21,7 +21,7 @@ jobs:
       - name: Get Recent data
         shell: pwsh
         run: |
-          Get-ThomasVanKuijk
+          Get-JasperVanKuijk
           | Select-Object -First 10
           | ForEach-Object {
             New-RssFeedItem `
@@ -30,10 +30,10 @@ jobs:
               -Description (($_.Body | ForEach-Object { $_.Trim()} | Where-Object {$_} | ForEach-Object { "<p>$($_)</p>"}) -join "`n") `
               -PubDate $_.Date }
           | New-RssFeed `
-            -Title 'Thomas van Kuijk' `
-            -Link 'https://www.volkskrant.nl/auteur/thomas-van-kuijk' `
-            -Description 'Thomas van Kuijk'
-          | Set-Content -Path ./data/thomasvankuijk.xml
+            -Title 'Jasper van Kuijk' `
+            -Link 'https://www.volkskrant.nl/auteur/jasper-van-kuijk' `
+            -Description 'Jasper van Kuijk'
+          | Set-Content -Path ./data/jaspervankuijk.xml
 
       - name: Commit and push feed
         shell: bash
