@@ -34,7 +34,7 @@ jobs:
           Import-Module UncommonSense.Asn
           $DataFileName = "$(Get-Date -Format FileDate).xml"
           $DataFilePath = Join-Path -Path $env:DataFolderName -ChildPath $DataFileName
-          Write-Host (Invoke-WebRequest https://www.asnbank.nl/beleggen/koersen.html | Select-Object -ExpandProperty Links | Format-Table | Out-Default)
+          Write-Host (Invoke-WebRequest https://www.asnbank.nl/beleggen/koersen.html -UserAgent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36' | Select-Object -ExpandProperty Links | Format-Table | Out-Default)
           Write-Host (ConvertTo-HtmlDocument -Uri https://www.asnbank.nl/beleggen/koersen.html | Select-HtmlNode -CssSelector '.fundrates thead tr th' -all | Get-HtmlNodeText)
           Get-AsnFundPrice -Verbose | Where-Object { $_.Date.Date -eq (Get-Date).Date} | Export-CliXml -Path $DataFilePath
 
