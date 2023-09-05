@@ -31,10 +31,12 @@ jobs:
       - name: Update fund data
         shell: pwsh
         run: |
-          Import-Module UncommonSense.Asn -Verbose
+          Import-Module UncommonSense.Asn
           $DataFileName = "$(Get-Date -Format FileDate).xml"
+          Write-Host "Data file name is $DataFileName"
           $DataFilePath = Join-Path -Path $env:DataFolderName -ChildPath $DataFileName
-          Get-AsnFundPrice | Where-Object { $_.Date.Date -eq (Get-Date).Date} | Export-CliXml -Path $DataFilePath
+          Write-Host "Data file path is $DataFilePath"
+          Get-AsnFundPrice -Verbose | Where-Object { $_.Date.Date -eq (Get-Date).Date} | Export-CliXml -Path $DataFilePath
 
       - name: Clean-up data folder
         shell: pwsh
