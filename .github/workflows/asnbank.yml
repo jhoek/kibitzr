@@ -33,9 +33,9 @@ jobs:
         run: |
           Import-Module UncommonSense.Asn
           $DataFileName = "$(Get-Date -Format FileDate).xml"
-          Write-Host "Data file name is $DataFileName"
           $DataFilePath = Join-Path -Path $env:DataFolderName -ChildPath $DataFileName
-          Write-Host "Data file path is $DataFilePath"
+          Write-Host (Invoke-WebRequest https://www.asnbank.nl/beleggen/koersen.html | Select-Object -ExpandProperty Links | Format-Table | Out-Default)
+          Write-Host (ConvertTo-HtmlDocument -Uri https://www.asnbank.nl/beleggen/koersen.html | Select-HtmlNode -CssSelector '.fundrates thead tr th' -all | Get-HtmlNodeText)
           Get-AsnFundPrice -Verbose | Where-Object { $_.Date.Date -eq (Get-Date).Date} | Export-CliXml -Path $DataFilePath
 
       - name: Clean-up data folder
