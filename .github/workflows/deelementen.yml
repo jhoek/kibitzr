@@ -1,8 +1,8 @@
-name: eetwaar
+name: deelementen
 
 on:
   schedule:
-    - cron: "20 10 * * *"
+    - cron: "36 5 * * 5"
   workflow_dispatch:
 
 jobs:
@@ -21,7 +21,7 @@ jobs:
       - name: Get Recent data
         shell: pwsh
         run: |
-          Get-Eetwaar
+          Get-DeElementen
           | Select-Object -First 10
           | ForEach-Object {
             New-RssFeedItem `
@@ -30,10 +30,10 @@ jobs:
               -Description (($_.Body | ForEach-Object { $_.Trim()} | Where-Object {$_} | ForEach-Object { "<p>$($_)</p>"}) -join "`n") `
               -PubDate $_.Date }
           | New-RssFeed `
-            -Title 'Eetwaar' `
-            -Link 'https://www.nrc.nl/rubriek/eetwaar/' `
-            -Description 'Eetwaar'
-          | Set-Content -Path ./data/eetwaar.xml
+            -Title 'De elementen' `
+            -Link 'https://www.nrc.nl/rubriek/de-elementen/' `
+            -Description 'De elementen'
+          | Set-Content -Path ./data/deelementen.xml
 
       - name: Commit and push feed
         shell: bash
