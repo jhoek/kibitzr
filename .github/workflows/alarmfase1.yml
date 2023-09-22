@@ -10,10 +10,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Install and cache PowerShell modules
-        uses: potatoqualitee/psmodulecache@v5.2
-        with:
-          modules-to-cache: Uncommonsense.Hap, UncommonSense.P2000, UncommonSense.Pushover
+      - name: Install required PowerShell modules
+        shell: pwsh
+        run: |
+          Set-PSRepository PSGallery -InstallationPolicy Trusted
+          Install-Module Uncommonsense.Hap, UncommonSense.P2000, UncommonSense.Pushover -Scope CurrentUser
 
       - name: Send notifications
         shell: pwsh
@@ -21,8 +22,6 @@ jobs:
           PUSHOVER_APP_ALARMFASE1: ${{secrets.PUSHOVER_APP_ALARMFASE1}}
           PUSHOVER_USER_JUSTME: ${{secrets.PUSHOVER_USER_JUSTME}}
         run: |
-          Import-module UncommonSense.Hap -Force -Verbose
-          Import-module UncommonSense.P2000 -Force -Verbose
           1109, 3286, 1432 | ForEach-Object {
             Get-P2000Entry -PostCode $_
             | Where-Object Priority -In 'P1', 'A1' `
