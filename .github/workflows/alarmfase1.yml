@@ -10,11 +10,10 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Install required PowerShell modules
-        shell: pwsh
-        run: |
-          Set-PSRepository PSGallery -InstallationPolicy Trusted
-          Install-Module Uncommonsense.Hap, UncommonSense.P2000, UncommonSense.Pushover -Scope CurrentUser
+      - name: Install and cache PowerShell modules
+        uses: potatoqualitee/psmodulecache@v5.2
+        with:
+          modules-to-cache: Uncommonsense.Hap, UncommonSense.P2000, UncommonSense.Pushover
 
       - name: Send notifications
         shell: pwsh
