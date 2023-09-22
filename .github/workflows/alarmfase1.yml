@@ -21,6 +21,7 @@ jobs:
           PUSHOVER_APP_ALARMFASE1: ${{secrets.PUSHOVER_APP_ALARMFASE1}}
           PUSHOVER_USER_JUSTME: ${{secrets.PUSHOVER_USER_JUSTME}}
         run: |
+          Import-module UncommonSense.P2000 -Force -Verbose
           1109, 3286, 1432 | ForEach-Object {
             Get-P2000Entry -PostCode $_
             | Where-Object Priority -In 'P1', 'A1' `
