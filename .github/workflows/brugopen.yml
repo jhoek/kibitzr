@@ -19,7 +19,7 @@ jobs:
       - name: Send notifications
         shell: pwsh
         env:
-          PUSHOVER_APP_ALARMFASE1: ${{secrets.PUSHOVER_APP_BRUGOPEN}}
+          PUSHOVER_APP_BRUGOPEN: ${{secrets.PUSHOVER_APP_BRUGOPEN}}
           PUSHOVER_USER_JUSTME: ${{secrets.PUSHOVER_USER_JUSTME}}
         run: |
             Get-CurrentlyOpenBridge
