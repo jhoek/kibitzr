@@ -31,4 +31,4 @@ jobs:
                   -Title "$($_.BridgeName) is open" `
                   -Message "Since $($_.Since) for a duration of $($_.Duration)"
               }
-          }
+            }
