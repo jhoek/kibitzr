@@ -30,5 +30,4 @@ jobs:
                   -Recipient $env:PUSHOVER_USER_JUSTME `
                   -Title "$($_.BridgeName) is open" `
                   -Message "Since $($_.Since) for a duration of $($_.Duration)"
-              }
             }
