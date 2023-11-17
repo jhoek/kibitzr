@@ -23,7 +23,6 @@ jobs:
           PUSHOVER_USER_JUSTME: ${{secrets.PUSHOVER_USER_JUSTME}}
         run: |
             Get-CurrentlyOpenBridge
-            # | Where-Object BridgeID -eq 'bosrandbrug'
             | ForEach-Object {
               Send-PushoverNotification `
                   -ApplicationToken $env:PUSHOVER_APP_BRUGOPEN `
