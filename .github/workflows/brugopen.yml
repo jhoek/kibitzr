@@ -28,6 +28,7 @@ jobs:
                 -ApplicationToken $env:PUSHOVER_APP_BRUGOPEN `
                 -Recipient $env:PUSHOVER_USER_JUSTME `
                 -Title "$($_.BridgeName) is open" `
+                -Sound climb `
                 -Message "Since $($_.Since) for a duration of $($_.Duration)"
             }
             # | Where-Object BridgeId -eq 'bosrandbrug'
