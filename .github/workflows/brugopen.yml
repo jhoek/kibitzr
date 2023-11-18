@@ -23,11 +23,11 @@ jobs:
           PUSHOVER_USER_JUSTME: ${{secrets.PUSHOVER_USER_JUSTME}}
         run: |
             Get-CurrentlyOpenBridge
-            | Where-Object BridgeId -eq 'bosrandbrug'
             | ForEach-Object {
-              Send-PushoverNotification `
-                  -ApplicationToken $env:PUSHOVER_APP_BRUGOPEN `
-                  -Recipient $env:PUSHOVER_USER_JUSTME `
-                  -Title "$($_.BridgeName) is open" `
-                  -Message "Since $($_.Since) for a duration of $($_.Duration)"
+                Send-PushoverNotification `
+                -ApplicationToken $env:PUSHOVER_APP_BRUGOPEN `
+                -Recipient $env:PUSHOVER_USER_JUSTME `
+                -Title "$($_.BridgeName) is open" `
+                -Message "Since $($_.Since) for a duration of $($_.Duration)"
             }
+            # | Where-Object BridgeId -eq 'bosrandbrug'
