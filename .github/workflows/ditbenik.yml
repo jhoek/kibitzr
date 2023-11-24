@@ -27,7 +27,7 @@ jobs:
             New-RssFeedItem `
               -ID $_.Url `
               -Title $_.Title `
-              -Description (($_.Body | ForEach-Object { $_.Trim()} | Where-Object {$_} | ForEach-Object { "<p>$($_)</p>"}) -join "`n") `
+              -Description (($_.Body | ForEach-Object { $_.Trim()} | Where-Object {$_} | ForEach-Object { "<p>$($_)</p>"}) -join "`n") + "`n<img src='$($_.Image)'/>" `
               -PubDate $_.Date }
           | New-RssFeed `
             -Title 'Dit ben ik' `
