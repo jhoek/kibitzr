@@ -6,33 +6,41 @@
       <T>System.Object</T>
     </TN>
     <MS>
-      <DT N="Date">2023-11-10T00:00:00</DT>
+      <DT N="Date">2023-12-08T00:00:00</DT>
       <S N="Fund">Aandelen Wereldwijd Totaal</S>
-      <D N="Price">67.2757</D>
+      <D N="Price">70.2356</D>
     </MS>
   </Obj>
   <Obj RefId="1">
     <TNRef RefId="0" />
     <MS>
-      <DT N="Date">2023-11-10T00:00:00</DT>
-      <S N="Fund">Aandelen Duurzame Toekomst</S>
-      <D N="Price">50.3054</D>
+      <DT N="Date">2023-12-08T00:00:00</DT>
+      <S N="Fund">Aandelen Verantwoorde Toekomst</S>
+      <D N="Price">52.4817</D>
     </MS>
   </Obj>
   <Obj RefId="2">
     <TNRef RefId="0" />
     <MS>
-      <DT N="Date">2023-11-10T00:00:00</DT>
+      <DT N="Date">2023-12-08T00:00:00</DT>
       <S N="Fund">Obligaties Wereldwijd</S>
-      <D N="Price">47.2004</D>
+      <D N="Price">47.3831</D>
     </MS>
   </Obj>
   <Obj RefId="3">
     <TNRef RefId="0" />
     <MS>
-      <DT N="Date">2023-11-10T00:00:00</DT>
+      <DT N="Date">2023-12-11T00:00:00</DT>
       <S N="Fund">Obligaties Eurolanden</S>
-      <D N="Price">68.3822</D>
+      <D N="Price">70.7204</D>
+    </MS>
+  </Obj>
+  <Obj RefId="4">
+    <TNRef RefId="0" />
+    <MS>
+      <DT N="Date">2023-12-08T00:00:00</DT>
+      <S N="Fund">Meesman Rentefonds</S>
+      <D N="Price">50.0000</D>
     </MS>
   </Obj>
 </Objs>
