@@ -23,11 +23,10 @@ jobs:
           PUSHOVER_USER_DADJOKE: ${{secrets.PUSHOVER_USER_DADJOKE}}
         run: |
             Invoke-RestMethod https://icanhazdadjoke.com -Headers @{'Accept'= 'application/json'}
-            | Select-Object -ExpandProperty joke
             | ForEach-Object {
                 Send-PushoverNotification `
                     -ApplicationToken $env:PUSHOVER_APP_DADJOKE `
                     -Recipient $env:PUSHOVER_USER_DADJOKE `
-                    -Message $_.Body `
+                    -Message $_.Joke `
                     -Title 'Dad Joke'
             }
