@@ -1,0 +1,33 @@
+name: dadjoke
+
+on:
+  schedule:
+    - cron: "41 5 * * *"
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install required PowerShell modules
+        shell: pwsh
+        run: |
+          Set-PSRepository PSGallery -InstallationPolicy Trusted
+          Install-Module UncommonSense.Pushover -Scope CurrentUser
+
+      - name: Send notification
+        shell: pwsh
+        env:
+          PUSHOVER_APP_IKJE: ${{secrets.PUSHOVER_APP_DADJOKE}}
+          PUSHOVER_USER_IKJE: ${{secrets.PUSHOVER_USER_DADJOKE}}
+        run: |
+            Invoke-RestMethod https://icanhazdadjoke.com -Headers @{'Accept'= 'application/json'}
+            | Select-Object -ExpandProperty joke
+            | ForEach-Object {
+                Send-PushoverNotification `
+                    -ApplicationToken $env:PUSHOVER_APP_DADJOKE `
+                    -Recipient $env:PUSHOVER_USER_DADJOKE `
+                    -Message $_.Body `
+                    -Title 'Dad Joke'
+            }
