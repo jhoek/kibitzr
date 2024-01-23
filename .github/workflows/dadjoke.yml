@@ -19,8 +19,8 @@ jobs:
       - name: Send notification
         shell: pwsh
         env:
-          PUSHOVER_APP_IKJE: ${{secrets.PUSHOVER_APP_DADJOKE}}
-          PUSHOVER_USER_IKJE: ${{secrets.PUSHOVER_USER_DADJOKE}}
+          PUSHOVER_APP_DADJOKE: ${{secrets.PUSHOVER_APP_DADJOKE}}
+          PUSHOVER_USER_DADJOKE: ${{secrets.PUSHOVER_USER_DADJOKE}}
         run: |
             Invoke-RestMethod https://icanhazdadjoke.com -Headers @{'Accept'= 'application/json'}
             | Select-Object -ExpandProperty joke
