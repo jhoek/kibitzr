@@ -1,4 +1,4 @@
-#!/usr/bin/env pwsh
+#!/usr/local/microsoft/powershell/7/pwsh
 
 function Update-RssFeed
 {
