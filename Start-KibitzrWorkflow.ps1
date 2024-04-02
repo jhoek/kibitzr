@@ -37,10 +37,18 @@ Push-Location ~/GitHub/kibitzr
 
 try
 {
+    git pull
+
     Update-RssFeed -Source { Get-BertKeizer } -Title 'Bert Keizer' -Link 'https://www.trouw.nl/auteur/bert-keizer' -Destination './data/bertkeizer.xml'
     Update-RssFeed -Source { Get-TeunVanDeKeuken } -Title 'Teun van de Keuken' -Link 'https://www.volkskrant.nl/auteur/teun-van-de-keuken' -Destination './data/teunvandekeuken.xml'
     Update-RssFeed -Source { Get-SylviaWitteman } -Title 'Sylvia Witteman' -Link 'https://www.volkskrant.nl/auteur/Sylvia%20Witteman' -Destination './data/sylviawitteman.xml'
     Update-RssFeed -Source { Get-EvaHoeke } -Title 'Eva Hoeke' -Link 'https://www.volkskrant.nl/auteur/eva-hoeke' -Destination './data/evahoeke.xml'
+
+    # git config user.name github-actions
+    # git config user.email github-actions@github.com
+    git add .
+    git commit -m "generated" || Write-Output "No changes to commit"
+    git push
 }
 finally
 {
