@@ -50,7 +50,6 @@
 [![spotprent](https://github.com/jhoek/kibitzr/actions/workflows/spotprent.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/spotprent.yml)
 [![stinejensen](https://github.com/jhoek/kibitzr/actions/workflows/stinejensen.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/stinejensen.yml)
 [![sudoku](https://github.com/jhoek/kibitzr/actions/workflows/sudoku.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/sudoku.yml)
-[![tiengeboden](https://github.com/jhoek/kibitzr/actions/workflows/tiengeboden.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/tiengeboden.yml)
 [![tomgauld](https://github.com/jhoek/kibitzr/actions/workflows/tomgauld.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/tomgauld.yml)
 [![triodos](https://github.com/jhoek/kibitzr/actions/workflows/triodos.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/triodos.yml)
 [![verdienenenuitgeven](https://github.com/jhoek/kibitzr/actions/workflows/verdienenenuitgeven.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/verdienenenuitgeven.yml)
