@@ -46,6 +46,7 @@ try
     Update-RssFeed -Source { Get-EvaHoeke } -Title 'Eva Hoeke' -Link 'https://www.volkskrant.nl/auteur/eva-hoeke' -Destination './data/evahoeke.xml'
     Update-RssFeed -Source { Get-IonicaSmeets } -Title 'Ionica Smeets' -Link 'https://www.volkskrant.nl/auteur/ionica-smeets' -Destination './data/ionicasmeets.xml'
     Update-RssFeed -Source { Get-ThomasVanLuyn } -Title 'Thomas van Luyn' -Link 'https://www.volkskrant.nl/auteur/thomas-van-luyn' -Destination './data/thomasvanluyn.xml'
+    Update-RssFeed -Source { Get-JipVanDenToorn } -Title 'Jip van den Toorn' -Link 'https://www.volkskrant.nl/cartoons/jip-van-den-toorn~bbe9994c/' -Destination './data/jipvandentoorn.xml'
 
     # git config user.name github-actions
     # git config user.email github-actions@github.com
