@@ -3,7 +3,6 @@
 [![asnbank](https://github.com/jhoek/kibitzr/actions/workflows/asnbank.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/asnbank.yml)
 [![basvanderschot](https://github.com/jhoek/kibitzr/actions/workflows/basvanderschot.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/basvanderschot.yml)
 [![bctechdays](https://github.com/jhoek/kibitzr/actions/workflows/bctechdays.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/bctechdays.yml)
-[![bertkeizer](https://github.com/jhoek/kibitzr/actions/workflows/bertkeizer.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/bertkeizer.yml)
 [![brugopen](https://github.com/jhoek/kibitzr/actions/workflows/brugopen.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/brugopen.yml)
 [![calvinandhobbes](https://github.com/jhoek/kibitzr/actions/workflows/calvinandhobbes.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/calvinandhobbes.yml)
 [![collignon](https://github.com/jhoek/kibitzr/actions/workflows/collignon.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/collignon.yml)
