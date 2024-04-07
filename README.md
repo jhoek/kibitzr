@@ -1,7 +1,6 @@
 [![alarmfase1](https://github.com/jhoek/kibitzr/actions/workflows/alarmfase1.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/alarmfase1.yml)
 [![alarmfase1els](https://github.com/jhoek/kibitzr/actions/workflows/alarmfase1els.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/alarmfase1els.yml)
 [![asnbank](https://github.com/jhoek/kibitzr/actions/workflows/asnbank.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/asnbank.yml)
-[![basvanderschot](https://github.com/jhoek/kibitzr/actions/workflows/basvanderschot.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/basvanderschot.yml)
 [![bctechdays](https://github.com/jhoek/kibitzr/actions/workflows/bctechdays.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/bctechdays.yml)
 [![brugopen](https://github.com/jhoek/kibitzr/actions/workflows/brugopen.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/brugopen.yml)
 [![calvinandhobbes](https://github.com/jhoek/kibitzr/actions/workflows/calvinandhobbes.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/calvinandhobbes.yml)
