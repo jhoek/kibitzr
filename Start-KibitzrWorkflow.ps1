@@ -14,16 +14,23 @@ function Update-RssFeed
         [string]$Link,
 
         [Parameter(Mandatory)]
-        [string]$Destination
+        [string]$Destination,
+
+        [switch]$Cartoon
     )
 
     (& $Source)
     | Select-Object -First 10
     | ForEach-Object {
+        $Description =
+        $Cartoon ?
+        "<img src='$($_.Body)'/>" :
+            (($_.Body | ForEach-Object { $_.Trim() } | Where-Object { $_ } | ForEach-Object { "<p>$($_)</p>" }) -join "`n")
+
         New-RssFeedItem `
             -ID $_.Url `
             -Title $_.Title `
-            -Description (($_.Body | ForEach-Object { $_.Trim() } | Where-Object { $_ } | ForEach-Object { "<p>$($_)</p>" }) -join "`n") `
+            -Description $Description `
             -PubDate $_.Date
     }
     | New-RssFeed `
