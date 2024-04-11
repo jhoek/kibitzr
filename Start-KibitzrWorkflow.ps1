@@ -53,8 +53,8 @@ try
     Update-RssFeed -Source { Get-EvaHoeke } -Title 'Eva Hoeke' -Link 'https://www.volkskrant.nl/auteur/eva-hoeke' -Destination './data/evahoeke.xml'
     Update-RssFeed -Source { Get-IonicaSmeets } -Title 'Ionica Smeets' -Link 'https://www.volkskrant.nl/auteur/ionica-smeets' -Destination './data/ionicasmeets.xml'
     Update-RssFeed -Source { Get-ThomasVanLuyn } -Title 'Thomas van Luyn' -Link 'https://www.volkskrant.nl/auteur/thomas-van-luyn' -Destination './data/thomasvanluyn.xml'
-    Update-RssFeed -Source { Get-JipVanDenToorn } -Title 'Jip van den Toorn' -Link 'https://www.volkskrant.nl/cartoons/jip-van-den-toorn~bbe9994c/' -Destination './data/jipvandentoorn.xml'
-    Update-RssFeed -Source { Get-BasVanDerSchot } -Title 'Bas van der Schot' -Link 'https://www.volkskrant.nl/cartoons/bas-van-der-schot~b31a8d34/' -Destination './data/basvanderschot.xml'
+    Update-RssFeed -Source { Get-JipVanDenToorn } -Title 'Jip van den Toorn' -Link 'https://www.volkskrant.nl/cartoons/jip-van-den-toorn~bbe9994c/' -Destination './data/jipvandentoorn.xml' -Cartoon
+    Update-RssFeed -Source { Get-BasVanDerSchot } -Title 'Bas van der Schot' -Link 'https://www.volkskrant.nl/cartoons/bas-van-der-schot~b31a8d34/' -Destination './data/basvanderschot.xml' -Cartoon
     Update-RssFeed -Source { Get-JasperVanKuijk } -Title 'Jasper van Kuijk' -Link 'https://www.volkskrant.nl/auteur/jasper-van-kuijk' -Destination './data/jaspervankuijk'
 
     # git config user.name github-actions
