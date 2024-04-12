@@ -50,7 +50,6 @@
 [![verdienenenuitgeven](https://github.com/jhoek/kibitzr/actions/workflows/verdienenenuitgeven.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/verdienenenuitgeven.yml)
 [![watchdog](https://github.com/jhoek/kibitzr/actions/workflows/watchdog.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/watchdog.yml)
 [![watmaakthetlevendemoeitewaard](https://github.com/jhoek/kibitzr/actions/workflows/watmaakthetlevendemoeitewaard.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/watmaakthetlevendemoeitewaard.yml)
-[![weather](https://github.com/jhoek/kibitzr/actions/workflows/weather.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/weather.yml)
 [![woord](https://github.com/jhoek/kibitzr/actions/workflows/woord.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/woord.yml)
 [![youp](https://github.com/jhoek/kibitzr/actions/workflows/youp.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/youp.yml)
 [![zoeetik](https://github.com/jhoek/kibitzr/actions/workflows/zoeetik.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/zoeetik.yml)
