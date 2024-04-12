@@ -42,5 +42,5 @@ jobs:
           git remote set-url origin https://x-access-token:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}
           git pull
           git add ./data/cinema/*
-          git commit -am 'Updated tvguide files'
+          git commit -am 'Updated filmhuisveenendaal calendar'
           git push
