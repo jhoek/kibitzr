@@ -44,8 +44,6 @@ Push-Location ~/GitHub/kibitzr
 
 try
 {
-    git pull
-
     Update-RssFeed -Source { Get-BertKeizer } -Title 'Bert Keizer' -Link 'https://www.trouw.nl/auteur/bert-keizer' -Destination './data/bertkeizer.xml'
     Update-RssFeed -Source { Get-TienGeboden } -Title 'Tien Geboden' -Link 'https://www.trouw.nl/dossier-tien-geboden' -Destination './data/tiengeboden.xml'
     Update-RssFeed -Source { Get-TeunVanDeKeuken } -Title 'Teun van de Keuken' -Link 'https://www.volkskrant.nl/auteur/teun-van-de-keuken' -Destination './data/teunvandekeuken.xml'
@@ -57,8 +55,10 @@ try
     Update-RssFeed -Source { Get-BasVanDerSchot } -Title 'Bas van der Schot' -Link 'https://www.volkskrant.nl/cartoons/bas-van-der-schot~b31a8d34/' -Destination './data/basvanderschot.xml' -Cartoon
     Update-RssFeed -Source { Get-JasperVanKuijk } -Title 'Jasper van Kuijk' -Link 'https://www.volkskrant.nl/auteur/jasper-van-kuijk' -Destination './data/jaspervankuijk.xml'
     Update-RssFeed -Source { Get-HeinDeKort } -Title 'Hein de Kort' -Link 'https://www.parool.nl' -Destination './data/heindekort.xml' -Cartoon
-    Update-RssFeed -Source { Get-DirkJan } -Titel 'Dirk-Jan' -Link 'https://www.parool.nl' -Destination './data/dirkjan.xml' -Cartoon
+    Update-RssFeed -Source { Get-DirkJan } -Title 'Dirk-Jan' -Link 'https://www.parool.nl' -Destination './data/dirkjan.xml' -Cartoon
+    Update-RssFeed -Source { Get-SanderSchimmelpenninck } -Title 'Sander Schimmelpenninck' -Link 'https://www.volkskrant.nl/auteur/sander-schimmelpenninck' -Destination './data/sanderschimmelpenninck.xml'
 
+    git pull
     # git config user.name github-actions
     # git config user.email github-actions@github.com
     git add .
