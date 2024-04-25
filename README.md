@@ -39,7 +39,6 @@
 [![readme](https://github.com/jhoek/kibitzr/actions/workflows/readme.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/readme.yml)
 [![rubenloppenheimer](https://github.com/jhoek/kibitzr/actions/workflows/rubenloppenheimer.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/rubenloppenheimer.yml)
 [![spitsuur](https://github.com/jhoek/kibitzr/actions/workflows/spitsuur.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/spitsuur.yml)
-[![spotprent](https://github.com/jhoek/kibitzr/actions/workflows/spotprent.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/spotprent.yml)
 [![stinejensen](https://github.com/jhoek/kibitzr/actions/workflows/stinejensen.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/stinejensen.yml)
 [![sudoku](https://github.com/jhoek/kibitzr/actions/workflows/sudoku.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/sudoku.yml)
 [![tomgauld](https://github.com/jhoek/kibitzr/actions/workflows/tomgauld.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/tomgauld.yml)
