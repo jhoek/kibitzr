@@ -38,10 +38,14 @@ function Update-RssFeed
         -Link $Link `
         -Description $Title
     | Set-Content -Path $Destination
+
+    git pull
+    git add .
+    git commit -m "generated" || Write-Output "No changes to commit"
+    git push
 }
 
 Push-Location ~/GitHub/kibitzr
-
 try
 {
     Update-RssFeed -Source { Get-BertKeizer } -Title 'Bert Keizer' -Link 'https://www.trouw.nl/auteur/bert-keizer' -Destination './data/bertkeizer.xml'
@@ -58,13 +62,6 @@ try
     Update-RssFeed -Source { Get-DirkJan } -Title 'Dirk-Jan' -Link 'https://www.parool.nl' -Destination './data/dirkjan.xml' -Cartoon
     Update-RssFeed -Source { Get-SanderSchimmelpenninck } -Title 'Sander Schimmelpenninck' -Link 'https://www.volkskrant.nl/auteur/sander-schimmelpenninck' -Destination './data/sanderschimmelpenninck.xml'
     Update-RssFeed -Source { Get-Sigmund } -Title 'Sigmund' -Link 'https://www.volkskrant.nl/cartoons/sigmund~b82ba1fa5/' -Destination './data/sigmund.xml'
-
-    git pull
-    # git config user.name github-actions
-    # git config user.email github-actions@github.com
-    git add .
-    git commit -m "generated" || Write-Output "No changes to commit"
-    git push
 }
 finally
 {
