@@ -37,7 +37,6 @@
 [![opml](https://github.com/jhoek/kibitzr/actions/workflows/opml.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/opml.yml)
 [![opnieuw](https://github.com/jhoek/kibitzr/actions/workflows/opnieuw.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/opnieuw.yml)
 [![readme](https://github.com/jhoek/kibitzr/actions/workflows/readme.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/readme.yml)
-[![roosschlikker](https://github.com/jhoek/kibitzr/actions/workflows/roosschlikker.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/roosschlikker.yml)
 [![rubenloppenheimer](https://github.com/jhoek/kibitzr/actions/workflows/rubenloppenheimer.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/rubenloppenheimer.yml)
 [![spitsuur](https://github.com/jhoek/kibitzr/actions/workflows/spitsuur.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/spitsuur.yml)
 [![spotprent](https://github.com/jhoek/kibitzr/actions/workflows/spotprent.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/spotprent.yml)
