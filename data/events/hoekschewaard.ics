@@ -3,14 +3,25 @@ PRODID:-//github.com/rianjs/ical.net//NONSGML ical.net 4.0//EN
 VERSION:2.0
 X-WR-CALNAME:Uitagenda Hoeksche Waard
 BEGIN:VEVENT
+DESCRIPTION:Er is kermis op het Vierwiekenplein in Oud-Beijerland\, van wo
+ ensdag 24 april tot en met zaterdag 4 mei. Vermaak voor jong en oud!
+DTEND:20240426T235900
+DTSTAMP:20240426T020931Z
+DTSTART;VALUE=DATE:20240426
+LOCATION:Oud-Beijerland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Koningskermis Oud-Beijerland
+UID:085b9600-09c7-4f99-90d0-7eb9fe473ac4
+END:VEVENT
+BEGIN:VEVENT
 DESCRIPTION:Feestweek rond Koningsdag
-DTEND:20240425T235900
-DTSTAMP:20240425T020958Z
-DTSTART;VALUE=DATE:20240425
+DTEND:20240426T235900
+DTSTAMP:20240426T020931Z
+DTSTART;VALUE=DATE:20240426
 LOCATION:Ridder van Dorplaan\, Zuid-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Feestweek Koningsdag Zuid-Beijerland
-UID:06b9353c-3bd1-4253-ae70-df2f0d3f4300
+UID:30156e52-4771-4548-9215-50230b1de041
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Oud-Beijerland\, met in het centrum de mooi gelegen Vliet met 
@@ -30,25 +41,14 @@ DESCRIPTION:Oud-Beijerland\, met in het centrum de mooi gelegen Vliet met
  t de rondleiding gedaan door meerdere gidsen. Voor meer informatie en het
   maken van een afspraak kun je mailen naar de Historische Vereniging Oud-
  Beijerland.
-DTEND:20240425T235900
-DTSTAMP:20240425T020958Z
-DTSTART;VALUE=DATE:20240425
+DTEND:20240426T235900
+DTSTAMP:20240426T020931Z
+DTSTART;VALUE=DATE:20240426
 LOCATION:Historische Vereninging Oud-Beijerland\, Waterstal 1\, 3262 JR\, 
  Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Dorpswandeling
-UID:9a584733-7e04-4ad4-98db-b00515196372
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Er is kermis op het Vierwiekenplein in Oud-Beijerland\, van wo
- ensdag 24 april tot en met zaterdag 4 mei. Vermaak voor jong en oud!
-DTEND:20240425T235900
-DTSTAMP:20240425T020958Z
-DTSTART;VALUE=DATE:20240425
-LOCATION:Oud-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Koningskermis Oud-Beijerland
-UID:d8de9ab6-4fc1-4b76-ab9b-43e77671d256
+UID:70c1a1cb-ea08-4614-a043-13ce4f59f9e6
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Museum Hoeksche Waard start met nieuwe tentoonstellingIn de Ho
@@ -62,13 +62,13 @@ DESCRIPTION:Museum Hoeksche Waard start met nieuwe tentoonstellingIn de Ho
  sstraat 13\, 3274 BB Heinenoord. Voor verdere informatie: www.museumhw.nl
  .U betaalt alleen de toegang tot het museum\; houders van de museumjaarka
  art en vrienden van het museum kunnen gratis naar binnen.
-DTEND:20240425T235900
-DTSTAMP:20240425T020958Z
-DTSTART;VALUE=DATE:20240425
+DTEND:20240426T235900
+DTSTAMP:20240426T020931Z
+DTSTART;VALUE=DATE:20240426
 LOCATION:Dorpsstraat 13\, 3274BB\, Heinenoord
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Verrassend Rood
-UID:7e5b7b51-8842-4477-a16b-540335a00150
+UID:62e1aa28-bee2-4faa-a06a-8c38a4065382
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:GA JIJ MET ONS MEE OP REIS?Een losse sessie kan je al iets hee
@@ -86,255 +86,13 @@ DESCRIPTION:GA JIJ MET ONS MEE OP REIS?Een losse sessie kan je al iets hee
  worden gehouden\, waarin we meer over onszelf en het traject vertellenOpg
  even en voor meer info stuur ons een pb: maartje@befitandhappy.nl of info
  @knowlegdeofpower.nl of via onze websites.Liefs\, Maartje en Jeffrey
-DTEND:20240425T160000
-DTSTAMP:20240425T020958Z
-DTSTART:20240425T100000
+DTEND:20240426T160000
+DTSTAMP:20240426T020931Z
+DTSTART:20240426T100000
 LOCATION:Mijnsheerenland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: transformatiereis 2024
-UID:7a3e2329-0124-4b52-a316-787c485600e9
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:De Commissie Kunst in de Kerk organiseert permanent wisselende
-  exposities in de Omloop van De Open Hof in Oud-Beijerland. Dit keer is h
- et een expositie van twee fotografen\, Peter de Groot en Janneke Hempel. 
- Het gaat dan vooral om abstracte fotografie.Peter de Groot (1973) is schr
- ijver\, dichter en beeldend kunstenaar. Peter gebruikt fotografie om tot 
- abstracte beelden te komen. Hij experimenteert veel en maakt vooral veel 
- foto’s om tot geniale werken te komen. "Ik maak meer slechte foto's\, dan
-  goede. Dat is niet erg. Zolang de goede maar heel goed zijn." In 1993 wo
- n Peter de 'Kleurenfoto van het Jaar' bij fotoclub de Hoeksche Waard. In 
- 2021 pakte hij het abstracte fotograferen pas echt op. Wie zijn werk ziet
- \, snapt zijn bedoeling een stuk beter.Foto’s maken heeft Janneke Hempel 
- altijd al leuk gevonden. Ze kocht op haar 12e haar eerste fototoestel van
-  haar eerst verdiende geld. Dat was toen nog een simpel apparaat met cass
- ettes erin\; het was analoog\, dus er moesten kritisch foto’s worden gema
- akt\, want het ontwikkelen was duur. Op haar 19e ging ze een stapje verde
- r en heeft ze een analoge spiegelreflexcamera aangeschaft. “Daarmee heb i
- k veel macro- en natuurfoto’s gemaakt. En nu in het digitale tijdperk\, i
- nmiddels met een systeemcamera\, zijn de mogelijkheden onbeperkt. Door he
- t vele foto’s maken\, leer je ook anders kijken en vind ik het maken van 
- abstracte foto’s een mooie toevoeging. Details\, waar je anders aan voorb
- ij zou gaan\, worden zichtbaar. Kleuren zijn vaak erg mooi en het is nooi
- t hetzelfde. Dat wil ik dan ook graag laten zien in deze fotoserie.De exp
- ositie is te bekijken maandag t/m vrijdag van 10.00 tot 12.00 uur en ook 
- op woensdagmiddag van 14.00 tot 17.00 uur in de Protestantse Gemeente De 
- Open Hof in Oud-Beijerland.
-DTEND:20240425T120000
-DTSTAMP:20240425T020958Z
-DTSTART:20240425T100000
-LOCATION:De Open Hof Oud-Beijerland\, Willem van Vlietstraat 2a\, 3262 GM\
- , Oud-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Expositie met abstracte fotografie in De Open Hof
-UID:97089152-cf6f-4411-be9b-5403e2d5bb9a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Het Landbouwmuseum op Tiengemeten geeft een beeld van de landb
- ouwmechanisatie (1920-1955). Diverse landbouwmachines en landbouwproducte
- n tonen de ontwikkeling. Nieuw in de collectie is dit jaar de rosmolen.Op
-  proefveldjes worden graansoorten\, suikerbieten\, aardappelen\, diverse 
- groenten en de Hoeksche akkerranden geteeld. Op een simulator trekker kun
- nen de kinderen beleven hoe deze werkt.De meccano expositie mag niet over
- geslagen worden: In de educatieve ruimte kunnen ouders en kinderen hun ha
- rt ophalen. Je kunt er naar kijken en genieten en zelfs mee spelen. Korto
- m\, de moeite waard!Beide musea worden bemand door vrijwilligers. Lijkt h
- et u ook wat? Maak dan een afspraak om eens een kijkje te komen nemen.Wil
- t u de musea met een groep bezoeken? Maak dan een afspraak om de verschil
- lende mogelijkheden te bespreken voor een dagje Tiengemeten!Als u de muse
- a wilt bezoeken\, moet u eerst met de pont naar het natuureiland Tiengeme
- ten varen. De pont vertrekt elk heel uur vanaf Nieuwendijk (Zuid-Beijerla
- nd).De gehele week m.u.v. de maandag zijn de musea geopend van 11.30 - 16
- .30 uur.Voor verdere informatie:: www.landbouwmuseumtiengemeten.nl
-DTEND:20240425T163000
-DTSTAMP:20240425T020958Z
-DTSTART:20240425T113000
-LOCATION:Tiengemeten 14\, 3284 BE\, Zuid-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Landbouwmuseum Tiengemeten
-UID:7aa249a7-8b25-4ee7-9317-0594f4b1d52c
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Rien Poortvliet Museum.Rien Poortvliet (1932 - 1995) wordt ook
-  wel de man van de boeken genoemd. Vele boeken met verschillende onderwer
- pen geven een beeld van zijn teken- en schildertalent. Elk jaar wordt een
-  nieuwe tentoonstelling van zijn originele werken samengesteld.Het thema 
- van de expositie van dit jaar is: ”Toen…….”. Originele werken van illustr
- aties uit de boeken en van de jaarkalenders geven een beeld van vroeger. 
- Op verschillende onderwerpen wordt teruggeblikt: het buitenleven\, het in
- terieur\, leven van de kinderen\, de middenstand\, klederdrachten\, het v
- ervoer\, van leven tot dood\, het geloof en de oorlog. Voor velen een bli
- k van herkenning!Ook zijn de boeken van de kabouters van zijn hand over d
- e hele wereld bekend geworden.De Kabouters wonen nog steeds op de kaboute
- rzolder. Ook originele aquarellen uit diverse kabouterboeken omringen het
-  kabouterspeelhuis\, de kabouterboot en de voorlees- en knutseltafel. De 
- kinderen kunnen er naar hartenlust spelen en genieten van alles wat er te
-  zien is.Buiten is een kabouterpad aangelegd\, waar kinderen met hun bege
- leiders allerlei opdrachten kunnen uitvoeren. Kortom: voor jong en oud ve
- el moois te zien en te beleven!
-DTEND:20240425T163000
-DTSTAMP:20240425T020958Z
-DTSTART:20240425T113000
-LOCATION:Tiengemeten 14A\, 3284 BE\, Zuid-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Opening Rien Poortvliet Museum op Tiengemeten
-UID:85bad0cb-734e-4be4-b4ba-6d4378397854
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Beeldend kunstenaar Heleen Velthoen toont de komende maanden h
- aar werk in Numansdorp. Intuïtief begint ze met kleuren te kiezen en gaat
-  aan het werk zonder precies te weten welke richting haar schilderijen zu
- llen gaan. Soms is ze in gedachten en ziet ze later het werk op het linne
- n doek vorm krijgen. De focus ligt op het proces en de ontwikkeling van h
- et schilderij. Durven loslaten.Ze gebruikt verschillende materialen zoals
-  zand\, hout\, stof\, cement\, wol\, acryl\, olieverf\, was\, inkt… Daarn
- aast creëert ze verrassende effecten door soms iets weg te laten\, met ee
- n spons te wissen.Heleen schildert al jaren met plezier en wordt geïnspir
- eerd door het kijken naar kunst in musea.Petra Kleinendorst heeft zowel d
- e liefde voor textiele handwerken als de Hoekschewaardse natuur van jongs
-  af aan meegekregen. De combinatie van deze twee is terug te vinden in ha
- ar textielwerk\, vaak schilderijtjes met landschappen en natuurtaferelen\
- , soms ruimtelijk werk\, traditioneel of modern. Ze maakt ook viltwerk me
- t wol van de schapen uit de Hoeksche Waard\, waar mogelijk geverfd met pl
- anten uit de buurt. Wol is een bijzonder materiaal\, warm en op velerlei 
- manieren te bewerken.Ze volgt regelmatig cursussen om nieuwe technieken t
- e leren of zich te verbeteren. Er is zó’n veelzijdigheid in het werken me
- t een lapje stof\, een naald\, draad of wat wol\, met de hand of machinaa
- l\, eventueel in combinatie met andere materialen: echt handwerk!Voor ope
- ningstijden: 0186 685 729
-DTEND:20240425T100000
-DTSTAMP:20240425T020958Z
-DTSTART:20240425T120000
-LOCATION:Buttervliet 1\, 3281 LK\, Numansdorp
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Expositie in Het Numans-Dorps-Huis
-UID:7bbf0482-dfff-4656-82cf-c576050f5615
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Van woensdag 24 april tot en met zaterdag 4 mei is de kermis w
- eer in Oud-Beijerland. Zowel voor de kleintjes als oudere waaghalzen\, is
-  er van alles te beleven. Kom met familie of vrienden en laat je vermaken
-  door de attracties. De attracties die komen: schiettent\, touwtje trekke
- n\, trampolinespringen\, botsauto's\, Mini Cars\, Babysport\, Pinkdate\, 
- Crazy Beach Dance\, Pusher\, Lucky Duck\, grijpmachines en de Polyp. Natu
- urlijk kun je ook genieten van een lekkere suikerspin of vers gemaakte po
- pcorn.Kijk voor het meest actuele overzicht van attracties op www.oranjeo
- bl.nl.
-DTEND:20240425T170000
-DTSTAMP:20240425T020958Z
-DTSTART:20240425T130000
-LOCATION:Vierwiekenplein\, Oud-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Kermis Oud-Beijerland
-UID:6f8d1fc6-3b29-4dcd-8b50-ac27f5aade50
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Ontdek het plezier van samen muziek maken.Heb je altijd al een
-  muziek instrument willen leren bespelen? Of lijkt samen muziek maken je 
- geweldig? Dan is dit je kans!In Klaaswaal start 6 april het Nieuw Talent 
- Orkest Hoeksche Waard. Een uniek muziekproject voor volwassenen. In 10 re
- petities ervaar je hoe het is om samen muziek te maken. Ervaring is niet 
- nodig. Meer informatie en aanmelden via www.muziekschoolhoekschewaard.nl
-DTEND:20240425T200000
-DTSTAMP:20240425T020958Z
-DTSTART:20240425T143000
-LOCATION:Jaap Kosterstraat 4\, 3286 VT\, Klaaswaal
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Nieuw Talent Orkest Hoeksche Waard
-UID:ef0a51ac-0306-4175-a66a-9c30304aedf4
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:25 april 2024\, van 19:30 tot 21:30 | Bibliotheek Oud-Beijerla
- nd CentrumKosten: €5\,50 (plusabonnement)\, €6\,50 (basisabonnement)\, €7
- \,50 (niet-leden)In de Hoeksche Waard zijn duizenden hobby-schrijvers. Ie
- dereen die van schrijven houdt wordt uitgedaagd om op donderdagavond 25 a
- pril van 19.30 tot 21.30 uur in de Bibliotheek Oud-Beijerland Centrum zij
- n of haar schrijfskills te verbeteren. Het thema is: schrijf een kort spa
- nnend verhaal.Thrillerschrijfster Marjolein van der Gaag\, opgegroeid in 
- de Hoeksche Waard\, schreef diverse thrillers. In 2022 won zij de Zilvere
- n Strop met haar verhaal Onder de waterspiegel en op 1 maart 2024 is haar
-  nieuwe boek ‘Verlaat de gevangenis zonder betalen’ uitgekomen. In deze w
- orkshop laat Marjolein je kennismaken met verschillende schrijftechnieken
-  om spanning te creëren.Schrijf jij graag? Dan is deze avond iets voor jo
- u! Neem je pen en papier mee en grijp deze kans. De workshop is op donder
- dag 25 april 2024 in de bibliotheek in het Oude Raadhuis in Oud-Beijerlan
- d van 19.30 uur tot 21.30. Graag vooraf aanmelden via onderstaande knop o
- f bij de balie in de Bibliotheek.
-DTEND:20240425T213000
-DTSTAMP:20240425T020958Z
-DTSTART:20240425T193000
-LOCATION:Òud-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Workshop Schrijf een kort spannend verhaal
-UID:52493bc7-fdb6-4250-a49b-2b0671cc7929
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Oud-Beijerland\, met in het centrum de mooi gelegen Vliet met 
- daaromheen veel monumentale panden\, is gesticht in 1559 door graaf Lamor
- aal van Egmont. Hij vernoemde het dorp naar zijn echtgenote Sabina van Be
- ijeren. Veel van de door Lamoraal van Egmont ontworpen structuur van het 
- dorp is nog aanwezig. Oud-Beijerland telt 28 rijksmonumenten en 90 gemeen
- telijke monumenten.DIT GA JE DOENAlvorens de rondleiding word je ontvange
- n in het Oude Raadhuis. Er is gelegenheid om koffie of thee te drinken\, 
- en de gids vertelt je iets over het ontstaan van Oud-Beijerland en het Ou
- de Raadhuis. Onder leiding van één of meer gidsen loop je langs de monume
- ntale panden\, onder andere aan de West-Voorstraat en de Havendam. Je sto
- pt even bij de oude zadelmakerij.INFORMATIEDe rondleiding duurt ongeveer 
- een uur en is te boeken op dinsdag tot en met zaterdag. De maximale groep
- sgrootte is 10 personen voor 1 gids\, en is dus ideaal voor een groep vri
- enden\, een familie of voor een vereniging. Is de groep groter\, dan word
- t de rondleiding gedaan door meerdere gidsen. Voor meer informatie en het
-  maken van een afspraak kun je mailen naar de Historische Vereniging Oud-
- Beijerland.
-DTEND:20240426T235900
-DTSTAMP:20240425T020958Z
-DTSTART;VALUE=DATE:20240426
-LOCATION:Historische Vereninging Oud-Beijerland\, Waterstal 1\, 3262 JR\, 
- Oud-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Dorpswandeling
-UID:e08c9776-b0b5-4c51-a527-4a44cad4f476
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Er is kermis op het Vierwiekenplein in Oud-Beijerland\, van wo
- ensdag 24 april tot en met zaterdag 4 mei. Vermaak voor jong en oud!
-DTEND:20240426T235900
-DTSTAMP:20240425T020958Z
-DTSTART;VALUE=DATE:20240426
-LOCATION:Oud-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Koningskermis Oud-Beijerland
-UID:fc4e6b85-ca12-4d45-9707-d4e7a1978bcf
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Feestweek rond Koningsdag
-DTEND:20240426T235900
-DTSTAMP:20240425T020958Z
-DTSTART;VALUE=DATE:20240426
-LOCATION:Ridder van Dorplaan\, Zuid-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Feestweek Koningsdag Zuid-Beijerland
-UID:14932b5e-f031-464b-81e8-edb34c31e63a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Museum Hoeksche Waard start met nieuwe tentoonstellingIn de Ho
- eksche Waard verbouwden veel boeren in de 17e tot halverwege de 19e eeuw 
- meekrap. Dit deden zij voor de rode kleurstof\, die uit de wortels werd g
- ewonnen. In goede jaren resulteerde de teelt van dit plantje in een hoog 
- inkomen en veel werkgelegenheid. Over rood valt nog veel meer te vertelle
- n. Dat laten we in de tentoonstelling zien die in de komende maanden in M
- useum Hoeksche Waard te bezichtigen is.De expositie is te bezichtigen van
-  23 maart t/m 27 oktober 2024 in museumboerderij Oost-Leeuwenstein\, Dorp
- sstraat 13\, 3274 BB Heinenoord. Voor verdere informatie: www.museumhw.nl
- .U betaalt alleen de toegang tot het museum\; houders van de museumjaarka
- art en vrienden van het museum kunnen gratis naar binnen.
-DTEND:20240426T235900
-DTSTAMP:20240425T020958Z
-DTSTART;VALUE=DATE:20240426
-LOCATION:Dorpsstraat 13\, 3274BB\, Heinenoord
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Verrassend Rood
-UID:4c109bcf-4a76-448e-a3c0-38c46990a16d
+UID:ed6e78a7-16d1-4ad4-8360-2830528e5098
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De Commissie Kunst in de Kerk organiseert permanent wisselende
@@ -363,37 +121,13 @@ DESCRIPTION:De Commissie Kunst in de Kerk organiseert permanent wisselende
  op woensdagmiddag van 14.00 tot 17.00 uur in de Protestantse Gemeente De 
  Open Hof in Oud-Beijerland.
 DTEND:20240426T120000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240426T100000
 LOCATION:De Open Hof Oud-Beijerland\, Willem van Vlietstraat 2a\, 3262 GM\
  , Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Expositie met abstracte fotografie in De Open Hof
-UID:1a0e102f-8d98-4f08-aaed-eb095942e283
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:GA JIJ MET ONS MEE OP REIS?Een losse sessie kan je al iets hee
- l moois geven\, maar wil je echt de diepte ingaan dan kun je met ons op t
- ransformatiereis in 2024De paarden zullen jouw de spiegel laten voorhoude
- n en we gaan de diepte in dmv ademwerk. Daarnaast zullen we nog andere te
- chnieken toepassen om de reis compleet te makenIn een kleine groep ( 4-6 
- pers.) creëren we een veilige plek zodat je samen met ons en de groep de 
- stappen mag gaan maken om persoonlijk te groeien Wat krijg je ervoor:Inta
- kegesprek10x groepssessies in 20242x 1:1 coach sessies4x Q&A sessies met 
- de groepWhatsApp groep als veilige basisInformatie:Wanneer: Start zaterda
- g 3 februari\; Diverse zaterdagen in 2024Waar: Barendrecht en Mijnsheeren
- landInvestering: €2499 incl. BTW (bedrijven excl btw)Meer informatie en d
- e exacte data kunnen we via pb sturen.In januari zal een informatieavond 
- worden gehouden\, waarin we meer over onszelf en het traject vertellenOpg
- even en voor meer info stuur ons een pb: maartje@befitandhappy.nl of info
- @knowlegdeofpower.nl of via onze websites.Liefs\, Maartje en Jeffrey
-DTEND:20240426T160000
-DTSTAMP:20240425T020958Z
-DTSTART:20240426T100000
-LOCATION:Mijnsheerenland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: transformatiereis 2024
-UID:24f2d685-0945-4642-86f9-26f3761e15e6
+UID:c4699770-ac4c-4c9b-89e4-6b404f26596c
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:26 april 2024\, van 10:30 tot 11:30 | Bibliotheek Oud-Beijerla
@@ -406,37 +140,12 @@ DESCRIPTION:26 april 2024\, van 10:30 tot 11:30 | Bibliotheek Oud-Beijerla
  je. We plakken\, knippen en kleuren tot we een mooie kroon hebben voor Ko
  ningsdag.
 DTEND:20240426T113000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240426T103000
 LOCATION:Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Peuterparade
-UID:a29979e2-ace9-4e77-ba1c-37dd1feb36ad
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Het Landbouwmuseum op Tiengemeten geeft een beeld van de landb
- ouwmechanisatie (1920-1955). Diverse landbouwmachines en landbouwproducte
- n tonen de ontwikkeling. Nieuw in de collectie is dit jaar de rosmolen.Op
-  proefveldjes worden graansoorten\, suikerbieten\, aardappelen\, diverse 
- groenten en de Hoeksche akkerranden geteeld. Op een simulator trekker kun
- nen de kinderen beleven hoe deze werkt.De meccano expositie mag niet over
- geslagen worden: In de educatieve ruimte kunnen ouders en kinderen hun ha
- rt ophalen. Je kunt er naar kijken en genieten en zelfs mee spelen. Korto
- m\, de moeite waard!Beide musea worden bemand door vrijwilligers. Lijkt h
- et u ook wat? Maak dan een afspraak om eens een kijkje te komen nemen.Wil
- t u de musea met een groep bezoeken? Maak dan een afspraak om de verschil
- lende mogelijkheden te bespreken voor een dagje Tiengemeten!Als u de muse
- a wilt bezoeken\, moet u eerst met de pont naar het natuureiland Tiengeme
- ten varen. De pont vertrekt elk heel uur vanaf Nieuwendijk (Zuid-Beijerla
- nd).De gehele week m.u.v. de maandag zijn de musea geopend van 11.30 - 16
- .30 uur.Voor verdere informatie:: www.landbouwmuseumtiengemeten.nl
-DTEND:20240426T163000
-DTSTAMP:20240425T020958Z
-DTSTART:20240426T113000
-LOCATION:Tiengemeten 14\, 3284 BE\, Zuid-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Landbouwmuseum Tiengemeten
-UID:fcfb99bc-7884-4141-9a05-1659b4e7855b
+UID:d096154b-7fcc-4477-b1c5-813e850eadf0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Rien Poortvliet Museum.Rien Poortvliet (1932 - 1995) wordt ook
@@ -457,12 +166,37 @@ DESCRIPTION:Rien Poortvliet Museum.Rien Poortvliet (1932 - 1995) wordt ook
  leiders allerlei opdrachten kunnen uitvoeren. Kortom: voor jong en oud ve
  el moois te zien en te beleven!
 DTEND:20240426T163000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240426T113000
 LOCATION:Tiengemeten 14A\, 3284 BE\, Zuid-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Opening Rien Poortvliet Museum op Tiengemeten
-UID:b28c3c32-7bef-41eb-8e56-5c6314ac4f37
+UID:39a02096-c669-46de-a2ed-2e4d4ab9c035
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Het Landbouwmuseum op Tiengemeten geeft een beeld van de landb
+ ouwmechanisatie (1920-1955). Diverse landbouwmachines en landbouwproducte
+ n tonen de ontwikkeling. Nieuw in de collectie is dit jaar de rosmolen.Op
+  proefveldjes worden graansoorten\, suikerbieten\, aardappelen\, diverse 
+ groenten en de Hoeksche akkerranden geteeld. Op een simulator trekker kun
+ nen de kinderen beleven hoe deze werkt.De meccano expositie mag niet over
+ geslagen worden: In de educatieve ruimte kunnen ouders en kinderen hun ha
+ rt ophalen. Je kunt er naar kijken en genieten en zelfs mee spelen. Korto
+ m\, de moeite waard!Beide musea worden bemand door vrijwilligers. Lijkt h
+ et u ook wat? Maak dan een afspraak om eens een kijkje te komen nemen.Wil
+ t u de musea met een groep bezoeken? Maak dan een afspraak om de verschil
+ lende mogelijkheden te bespreken voor een dagje Tiengemeten!Als u de muse
+ a wilt bezoeken\, moet u eerst met de pont naar het natuureiland Tiengeme
+ ten varen. De pont vertrekt elk heel uur vanaf Nieuwendijk (Zuid-Beijerla
+ nd).De gehele week m.u.v. de maandag zijn de musea geopend van 11.30 - 16
+ .30 uur.Voor verdere informatie:: www.landbouwmuseumtiengemeten.nl
+DTEND:20240426T163000
+DTSTAMP:20240426T020931Z
+DTSTART:20240426T113000
+LOCATION:Tiengemeten 14\, 3284 BE\, Zuid-Beijerland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Landbouwmuseum Tiengemeten
+UID:0dec40f2-412c-46ad-9f1e-5c922e4ed3dd
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Beeldend kunstenaar Heleen Velthoen toont de komende maanden h
@@ -487,12 +221,12 @@ DESCRIPTION:Beeldend kunstenaar Heleen Velthoen toont de komende maanden h
  l\, eventueel in combinatie met andere materialen: echt handwerk!Voor ope
  ningstijden: 0186 685 729
 DTEND:20240426T100000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240426T120000
 LOCATION:Buttervliet 1\, 3281 LK\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Expositie in Het Numans-Dorps-Huis
-UID:cf907923-d2c9-4127-9b96-b6703ca10f32
+UID:c03b8845-dd59-4baf-b137-db546964423f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Van woensdag 24 april tot en met zaterdag 4 mei is de kermis w
@@ -505,12 +239,12 @@ DESCRIPTION:Van woensdag 24 april tot en met zaterdag 4 mei is de kermis w
  pcorn.Kijk voor het meest actuele overzicht van attracties op www.oranjeo
  bl.nl.
 DTEND:20240426T170000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240426T130000
 LOCATION:Vierwiekenplein\, Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Kermis Oud-Beijerland
-UID:41ece079-1717-4eda-b44d-8b89649741bb
+UID:f94a170f-ebb1-4063-a863-6455f95575f4
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Ontdek het plezier van samen muziek maken.Heb je altijd al een
@@ -520,12 +254,12 @@ DESCRIPTION:Ontdek het plezier van samen muziek maken.Heb je altijd al een
  petities ervaar je hoe het is om samen muziek te maken. Ervaring is niet 
  nodig. Meer informatie en aanmelden via www.muziekschoolhoekschewaard.nl
 DTEND:20240426T200000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240426T143000
 LOCATION:Jaap Kosterstraat 4\, 3286 VT\, Klaaswaal
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Nieuw Talent Orkest Hoeksche Waard
-UID:31e76cb3-a306-4f70-810a-bbc36bd2b52e
+UID:4480cae3-ba8b-41ff-aedf-c680a6aed256
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Koningsnacht op 26 april beloofd weer een groot feest te worde
@@ -535,31 +269,12 @@ DESCRIPTION:Koningsnacht op 26 april beloofd weer een groot feest te worde
  tartiest IrvineRaoelDJ JipMis het niet! Tickets beschikbaar via de link: 
  https://loddereventsensfeermakers.nl
 DTEND;VALUE=DATE:20240426
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240426T183000
 LOCATION:Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Koningsnacht-Numansdorp
-UID:8c72b56c-1fa4-4b60-8406-b4215cbc813b
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Koningsnacht Countdown begint NU!Oranje lovers\, verzamel je f
- eestmaatjes want Koningsnacht wordt dit jaar LEGENDARISCH!- Line-up die d
- e kroon steelt:- Wesley Rooijakkers - Hak op de Tak (bekend van o.a. SLAM
- !)- Dr. Rude (bekend van o.a. X-Qlusive Holland en Defqon.1)Een line-up d
- ie je niet mag missen! Earlybirds:Snelle beslissers\, jullie hebben het v
- oordeel! Grijp je kans en laat dit niet aan je voorbijgaan\, de eerste 25
- 0 kaarten gaan vanaf nu in de verkoop voor € 15\,- (excl. ticketfee). Daa
- rna worden de kaarten duurder! KAARTEN VIA DE LINK: https://www.nowonline
- tickets.nl/.../54B70F133D42725572310...Mis het niet\, want deze nacht wor
- dt een oranje oase van beats\, plezier en koninklijke vibes!
-DTEND:20240426T003000
-DTSTAMP:20240425T020958Z
-DTSTART:20240426T193000
-LOCATION:Puttershoek
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Koningsnacht - Puttershoek
-UID:24f7239d-9f3c-4bef-b910-60da71d7016b
+UID:52f1e18a-5e19-4e13-b0c5-84b80550bf41
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Mantra Muziek Avond & Cacao CeremonieElke maand een vrijdagavo
@@ -573,23 +288,72 @@ DESCRIPTION:Mantra Muziek Avond & Cacao CeremonieElke maand een vrijdagavo
  oeren door de helende vibraties van cacao en live mantra en helende muzie
  k. Van 19:30 tot 21:00 uur (inloop vanaf 19:20).
 DTEND:20240426T210000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240426T193000
 LOCATION:Laning 13achterkant van het gebouw\, 3297 TB\, Puttershoek
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Mantra Avond met Cacao Ceremonie
-UID:4d9e834d-9824-4ac4-8e14-8c5c1a9efc22
+UID:6fc58a7c-ca1f-4519-8d0b-f15919293ee1
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Koningsnacht Countdown begint NU!Oranje lovers\, verzamel je f
+ eestmaatjes want Koningsnacht wordt dit jaar LEGENDARISCH!- Line-up die d
+ e kroon steelt:- Wesley Rooijakkers - Hak op de Tak (bekend van o.a. SLAM
+ !)- Dr. Rude (bekend van o.a. X-Qlusive Holland en Defqon.1)Een line-up d
+ ie je niet mag missen! Earlybirds:Snelle beslissers\, jullie hebben het v
+ oordeel! Grijp je kans en laat dit niet aan je voorbijgaan\, de eerste 25
+ 0 kaarten gaan vanaf nu in de verkoop voor € 15\,- (excl. ticketfee). Daa
+ rna worden de kaarten duurder! KAARTEN VIA DE LINK: https://www.nowonline
+ tickets.nl/.../54B70F133D42725572310...Mis het niet\, want deze nacht wor
+ dt een oranje oase van beats\, plezier en koninklijke vibes!
+DTEND:20240426T003000
+DTSTAMP:20240426T020931Z
+DTSTART:20240426T193000
+LOCATION:Puttershoek
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Koningsnacht - Puttershoek
+UID:547335b6-cddd-4f8c-97e8-7cdb37970777
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Feestweek rond Koningsdag
+DTEND:20240427T235900
+DTSTAMP:20240426T020931Z
+DTSTART;VALUE=DATE:20240427
+LOCATION:Ridder van Dorplaan\, Zuid-Beijerland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Feestweek Koningsdag Zuid-Beijerland
+UID:d11b36a4-822b-4e6c-8d18-081c1eee063a
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Er is kermis op het Vierwiekenplein in Oud-Beijerland\, van wo
  ensdag 24 april tot en met zaterdag 4 mei. Vermaak voor jong en oud!
 DTEND:20240427T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240427
 LOCATION:Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Koningskermis Oud-Beijerland
-UID:47474123-188f-4f03-b2a7-139ec47fbc4d
+UID:76ec1856-8fdc-4082-88a5-0ac6b9466828
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Museum Hoeksche Waard start met nieuwe tentoonstellingIn de Ho
+ eksche Waard verbouwden veel boeren in de 17e tot halverwege de 19e eeuw 
+ meekrap. Dit deden zij voor de rode kleurstof\, die uit de wortels werd g
+ ewonnen. In goede jaren resulteerde de teelt van dit plantje in een hoog 
+ inkomen en veel werkgelegenheid. Over rood valt nog veel meer te vertelle
+ n. Dat laten we in de tentoonstelling zien die in de komende maanden in M
+ useum Hoeksche Waard te bezichtigen is.De expositie is te bezichtigen van
+  23 maart t/m 27 oktober 2024 in museumboerderij Oost-Leeuwenstein\, Dorp
+ sstraat 13\, 3274 BB Heinenoord. Voor verdere informatie: www.museumhw.nl
+ .U betaalt alleen de toegang tot het museum\; houders van de museumjaarka
+ art en vrienden van het museum kunnen gratis naar binnen.
+DTEND:20240427T235900
+DTSTAMP:20240426T020931Z
+DTSTART;VALUE=DATE:20240427
+LOCATION:Dorpsstraat 13\, 3274BB\, Heinenoord
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Verrassend Rood
+UID:765eb04f-1eaa-4d58-b3e7-b4cad92a3624
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Oud-Beijerland\, met in het centrum de mooi gelegen Vliet met 
@@ -610,53 +374,23 @@ DESCRIPTION:Oud-Beijerland\, met in het centrum de mooi gelegen Vliet met
   maken van een afspraak kun je mailen naar de Historische Vereniging Oud-
  Beijerland.
 DTEND:20240427T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240427
 LOCATION:Historische Vereninging Oud-Beijerland\, Waterstal 1\, 3262 JR\, 
  Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Dorpswandeling
-UID:0b3b28e1-354a-49e1-809a-6f2d9a9dd1f0
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Feestweek rond Koningsdag
-DTEND:20240427T235900
-DTSTAMP:20240425T020958Z
-DTSTART;VALUE=DATE:20240427
-LOCATION:Ridder van Dorplaan\, Zuid-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Feestweek Koningsdag Zuid-Beijerland
-UID:1319473e-dcb3-49b7-b040-18aaf87a9acc
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Museum Hoeksche Waard start met nieuwe tentoonstellingIn de Ho
- eksche Waard verbouwden veel boeren in de 17e tot halverwege de 19e eeuw 
- meekrap. Dit deden zij voor de rode kleurstof\, die uit de wortels werd g
- ewonnen. In goede jaren resulteerde de teelt van dit plantje in een hoog 
- inkomen en veel werkgelegenheid. Over rood valt nog veel meer te vertelle
- n. Dat laten we in de tentoonstelling zien die in de komende maanden in M
- useum Hoeksche Waard te bezichtigen is.De expositie is te bezichtigen van
-  23 maart t/m 27 oktober 2024 in museumboerderij Oost-Leeuwenstein\, Dorp
- sstraat 13\, 3274 BB Heinenoord. Voor verdere informatie: www.museumhw.nl
- .U betaalt alleen de toegang tot het museum\; houders van de museumjaarka
- art en vrienden van het museum kunnen gratis naar binnen.
-DTEND:20240427T235900
-DTSTAMP:20240425T020958Z
-DTSTART;VALUE=DATE:20240427
-LOCATION:Dorpsstraat 13\, 3274BB\, Heinenoord
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Verrassend Rood
-UID:5c642e01-4d9f-4e7d-89cd-0a4e4986258e
+UID:5a8dc289-c868-47b0-bc39-436dc285e162
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:voor jong en oud (geen kofferbakverkoop)
 DTEND;VALUE=DATE:20240427
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240427T090000
 LOCATION:Molenstraat\, Strijen
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Vrijmarkt Strijen
-UID:81f29fbc-24b1-4c5f-8206-452ffbda3e83
+UID:e9908fad-3b1d-4078-b2d9-33af0d75628f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op zaterdag 27 april vieren we de verjaardag van Koning Willem
@@ -692,12 +426,36 @@ DESCRIPTION:Op zaterdag 27 april vieren we de verjaardag van Koning Willem
  entrum. Ze laten graag aan je zien wat ze je te bieden hebben. Kijk voor 
  meer informatie op www.oranjeobl.nl.
 DTEND:20240427T170000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240427T094500
 LOCATION:Waterstal 1 1\, 3262 JR\, Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Koningsdag Oud-Beijerland
-UID:223e7309-4d9d-4445-8de7-b2915d108ede
+UID:60d469c9-38ff-4ce0-a015-04ed3ffff6f8
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:GA JIJ MET ONS MEE OP REIS?Een losse sessie kan je al iets hee
+ l moois geven\, maar wil je echt de diepte ingaan dan kun je met ons op t
+ ransformatiereis in 2024De paarden zullen jouw de spiegel laten voorhoude
+ n en we gaan de diepte in dmv ademwerk. Daarnaast zullen we nog andere te
+ chnieken toepassen om de reis compleet te makenIn een kleine groep ( 4-6 
+ pers.) creëren we een veilige plek zodat je samen met ons en de groep de 
+ stappen mag gaan maken om persoonlijk te groeien Wat krijg je ervoor:Inta
+ kegesprek10x groepssessies in 20242x 1:1 coach sessies4x Q&A sessies met 
+ de groepWhatsApp groep als veilige basisInformatie:Wanneer: Start zaterda
+ g 3 februari\; Diverse zaterdagen in 2024Waar: Barendrecht en Mijnsheeren
+ landInvestering: €2499 incl. BTW (bedrijven excl btw)Meer informatie en d
+ e exacte data kunnen we via pb sturen.In januari zal een informatieavond 
+ worden gehouden\, waarin we meer over onszelf en het traject vertellenOpg
+ even en voor meer info stuur ons een pb: maartje@befitandhappy.nl of info
+ @knowlegdeofpower.nl of via onze websites.Liefs\, Maartje en Jeffrey
+DTEND:20240427T160000
+DTSTAMP:20240426T020931Z
+DTSTART:20240427T100000
+LOCATION:Mijnsheerenland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: transformatiereis 2024
+UID:48b29ec8-7d9a-4fdc-9d84-593b01a4008c
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Het is bijna weer zo ver: Koningsdag en dat betekend maar 1 di
@@ -709,12 +467,12 @@ DESCRIPTION:Het is bijna weer zo ver: Koningsdag en dat betekend maar 1 di
  :30-20:00: Esther van Heeswijk20:00-20:30: Bart van DishoeckVoor deze dag
   nemen we geen reserveringen aan.‍GRATIS ENTREE
 DTEND:20240427T203000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240427T100000
 LOCATION:West voorstraat 2223\, Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: HP Kingsday
-UID:8d5ee0e0-e7fd-41b1-9ed9-ee3368b18a8e
+UID:94a05325-bb44-43cc-bcf4-768ede81c0bd
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op Koningsdag organiseert Oranjevereniging Prinses Irene Maasd
@@ -739,36 +497,12 @@ DESCRIPTION:Op Koningsdag organiseert Oranjevereniging Prinses Irene Maasd
  unk & Jazzband Hit the Roof. Leden gratis entree\, 10 euro voor niet lede
  n.
 DTEND:20240427T003000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240427T100000
 LOCATION:Fazant 3\, 3299BS\, Maasdam
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Koningsfeestavond Sportzaal Duyvesteyn Maasdam
-UID:809018f9-1820-4c6e-b870-153012de4126
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:GA JIJ MET ONS MEE OP REIS?Een losse sessie kan je al iets hee
- l moois geven\, maar wil je echt de diepte ingaan dan kun je met ons op t
- ransformatiereis in 2024De paarden zullen jouw de spiegel laten voorhoude
- n en we gaan de diepte in dmv ademwerk. Daarnaast zullen we nog andere te
- chnieken toepassen om de reis compleet te makenIn een kleine groep ( 4-6 
- pers.) creëren we een veilige plek zodat je samen met ons en de groep de 
- stappen mag gaan maken om persoonlijk te groeien Wat krijg je ervoor:Inta
- kegesprek10x groepssessies in 20242x 1:1 coach sessies4x Q&A sessies met 
- de groepWhatsApp groep als veilige basisInformatie:Wanneer: Start zaterda
- g 3 februari\; Diverse zaterdagen in 2024Waar: Barendrecht en Mijnsheeren
- landInvestering: €2499 incl. BTW (bedrijven excl btw)Meer informatie en d
- e exacte data kunnen we via pb sturen.In januari zal een informatieavond 
- worden gehouden\, waarin we meer over onszelf en het traject vertellenOpg
- even en voor meer info stuur ons een pb: maartje@befitandhappy.nl of info
- @knowlegdeofpower.nl of via onze websites.Liefs\, Maartje en Jeffrey
-DTEND:20240427T160000
-DTSTAMP:20240425T020958Z
-DTSTART:20240427T100000
-LOCATION:Mijnsheerenland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: transformatiereis 2024
-UID:3e8d16de-bf34-466f-b13b-e53df465c4c9
+UID:591d432a-dc89-4031-ab62-a49131c5ff25
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
@@ -791,13 +525,13 @@ DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
  nismaken met digitale vaardigheden van de 21e eeuw\, heeft de Bibliotheek
   Hoeksche Waard een CoderDojo opgericht in de Hoeksche Waard.
 DTEND:20240427T130000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240427T110000
 LOCATION:Bibliotheek Oud-Beijerland Centrum\, Waterstal 1\, 3262 JR\, Oud-
  Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: (Leren) programmeren tijdens de CoderDojo
-UID:7e3f92e4-6274-46b0-b896-0a6d2f2fa6ce
+UID:60d33c0a-c5db-4cf6-b77c-d1ab89dcd483
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:U kunt voorinschrijven tot en met 26 april 2024.De Oranjeveren
@@ -808,37 +542,12 @@ DESCRIPTION:U kunt voorinschrijven tot en met 26 april 2024.De Oranjeveren
  te fanatieke lopers is er tijdswaarneming.Voor iedere deelnemer ligt er e
  en herinnering.De lopers worden begeleid door Afrokick Djembegroep.
 DTEND;VALUE=DATE:20240427
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240427T110000
 LOCATION:Boompjesstraat\, Strijen
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Striense koningsloop
-UID:09cdb25e-f514-454a-ac0a-cb1956aeb777
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Het Landbouwmuseum op Tiengemeten geeft een beeld van de landb
- ouwmechanisatie (1920-1955). Diverse landbouwmachines en landbouwproducte
- n tonen de ontwikkeling. Nieuw in de collectie is dit jaar de rosmolen.Op
-  proefveldjes worden graansoorten\, suikerbieten\, aardappelen\, diverse 
- groenten en de Hoeksche akkerranden geteeld. Op een simulator trekker kun
- nen de kinderen beleven hoe deze werkt.De meccano expositie mag niet over
- geslagen worden: In de educatieve ruimte kunnen ouders en kinderen hun ha
- rt ophalen. Je kunt er naar kijken en genieten en zelfs mee spelen. Korto
- m\, de moeite waard!Beide musea worden bemand door vrijwilligers. Lijkt h
- et u ook wat? Maak dan een afspraak om eens een kijkje te komen nemen.Wil
- t u de musea met een groep bezoeken? Maak dan een afspraak om de verschil
- lende mogelijkheden te bespreken voor een dagje Tiengemeten!Als u de muse
- a wilt bezoeken\, moet u eerst met de pont naar het natuureiland Tiengeme
- ten varen. De pont vertrekt elk heel uur vanaf Nieuwendijk (Zuid-Beijerla
- nd).De gehele week m.u.v. de maandag zijn de musea geopend van 11.30 - 16
- .30 uur.Voor verdere informatie:: www.landbouwmuseumtiengemeten.nl
-DTEND:20240427T163000
-DTSTAMP:20240425T020958Z
-DTSTART:20240427T113000
-LOCATION:Tiengemeten 14\, 3284 BE\, Zuid-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Landbouwmuseum Tiengemeten
-UID:519d9120-5266-4c8a-b34e-aa50e8ea8a3f
+UID:44397c21-a569-45c4-a8dd-da3684c16eb9
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Rien Poortvliet Museum.Rien Poortvliet (1932 - 1995) wordt ook
@@ -859,12 +568,37 @@ DESCRIPTION:Rien Poortvliet Museum.Rien Poortvliet (1932 - 1995) wordt ook
  leiders allerlei opdrachten kunnen uitvoeren. Kortom: voor jong en oud ve
  el moois te zien en te beleven!
 DTEND:20240427T163000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240427T113000
 LOCATION:Tiengemeten 14A\, 3284 BE\, Zuid-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Opening Rien Poortvliet Museum op Tiengemeten
-UID:9c4e8b67-ab25-4048-a4ab-2b69d8407aad
+UID:3f2e0d00-e6f3-4f2d-a207-551a10a0a4c6
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Het Landbouwmuseum op Tiengemeten geeft een beeld van de landb
+ ouwmechanisatie (1920-1955). Diverse landbouwmachines en landbouwproducte
+ n tonen de ontwikkeling. Nieuw in de collectie is dit jaar de rosmolen.Op
+  proefveldjes worden graansoorten\, suikerbieten\, aardappelen\, diverse 
+ groenten en de Hoeksche akkerranden geteeld. Op een simulator trekker kun
+ nen de kinderen beleven hoe deze werkt.De meccano expositie mag niet over
+ geslagen worden: In de educatieve ruimte kunnen ouders en kinderen hun ha
+ rt ophalen. Je kunt er naar kijken en genieten en zelfs mee spelen. Korto
+ m\, de moeite waard!Beide musea worden bemand door vrijwilligers. Lijkt h
+ et u ook wat? Maak dan een afspraak om eens een kijkje te komen nemen.Wil
+ t u de musea met een groep bezoeken? Maak dan een afspraak om de verschil
+ lende mogelijkheden te bespreken voor een dagje Tiengemeten!Als u de muse
+ a wilt bezoeken\, moet u eerst met de pont naar het natuureiland Tiengeme
+ ten varen. De pont vertrekt elk heel uur vanaf Nieuwendijk (Zuid-Beijerla
+ nd).De gehele week m.u.v. de maandag zijn de musea geopend van 11.30 - 16
+ .30 uur.Voor verdere informatie:: www.landbouwmuseumtiengemeten.nl
+DTEND:20240427T163000
+DTSTAMP:20240426T020931Z
+DTSTART:20240427T113000
+LOCATION:Tiengemeten 14\, 3284 BE\, Zuid-Beijerland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Landbouwmuseum Tiengemeten
+UID:ccaa15a2-7590-419d-9c32-b23b6a800da2
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Beeldend kunstenaar Heleen Velthoen toont de komende maanden h
@@ -889,12 +623,27 @@ DESCRIPTION:Beeldend kunstenaar Heleen Velthoen toont de komende maanden h
  l\, eventueel in combinatie met andere materialen: echt handwerk!Voor ope
  ningstijden: 0186 685 729
 DTEND:20240427T100000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240427T120000
 LOCATION:Buttervliet 1\, 3281 LK\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Expositie in Het Numans-Dorps-Huis
-UID:7eff7f0f-e1c0-49c5-b89b-a7e75e544897
+UID:cc067c77-ac5c-4ae5-8d8a-e8395a5e3519
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:ZESKAMP GOUDSWAARD Met o.a. spijkerbroek hangen & touw trekker
+ trek. Maak samen met je familie\, vrienden\, buren of collega's een team 
+ van minimaal 6 personen. Een middag vol spanning\, sensatie\, en een hoop
+  gezelligheid. Iedereen die meedoet of komt kijken heeft plezier.Je kunt 
+ je inschrijven als team via oranjevereniging@hotmail.nlHet winnende team 
+ wint uiteraard een mooie prijs! 🏆🏅
+DTEND:20240427T160000
+DTSTAMP:20240426T020931Z
+DTSTART:20240427T130000
+LOCATION:Goudswaard
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Gezins zeskamp Goudswaard
+UID:5fe7d630-a06f-427d-ab71-99363afc1395
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Van woensdag 24 april tot en met zaterdag 4 mei is de kermis w
@@ -907,27 +656,12 @@ DESCRIPTION:Van woensdag 24 april tot en met zaterdag 4 mei is de kermis w
  pcorn.Kijk voor het meest actuele overzicht van attracties op www.oranjeo
  bl.nl.
 DTEND:20240427T170000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240427T130000
 LOCATION:Vierwiekenplein\, Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Kermis Oud-Beijerland
-UID:5ac6184c-6dc0-49a1-8e9f-023516c13f95
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:ZESKAMP GOUDSWAARD Met o.a. spijkerbroek hangen & touw trekker
- trek. Maak samen met je familie\, vrienden\, buren of collega's een team 
- van minimaal 6 personen. Een middag vol spanning\, sensatie\, en een hoop
-  gezelligheid. Iedereen die meedoet of komt kijken heeft plezier.Je kunt 
- je inschrijven als team via oranjevereniging@hotmail.nlHet winnende team 
- wint uiteraard een mooie prijs! 🏆🏅
-DTEND:20240427T160000
-DTSTAMP:20240425T020958Z
-DTSTART:20240427T130000
-LOCATION:Goudswaard
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Gezins zeskamp Goudswaard
-UID:811f7048-749e-44b0-8706-6be6a93fd720
+UID:5b11517d-f63d-4cb7-8cc9-239a519e2a44
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Er is paniek in het paleis van de koning… De koning kan niet r
@@ -938,13 +672,13 @@ DESCRIPTION:Er is paniek in het paleis van de koning… De koning kan niet r
  ww.ludiek.nl/agenda is gewenst\, want vol is vol. We zien jullie graag op
   zaterdag 27 april!!!
 DTEND:20240427T144500
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240427T140000
 LOCATION:Molenstraat 16\, 3291 EG\, Strijen
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Koningsdag Poppentheater met Prinses Vrolijkje ver
  veelt zich
-UID:680e2eb0-c2d7-4e2f-b7e7-cc80a2d1df22
+UID:173518e9-1b82-483d-b8d6-5faf96e66076
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Ontdek het plezier van samen muziek maken.Heb je altijd al een
@@ -954,12 +688,12 @@ DESCRIPTION:Ontdek het plezier van samen muziek maken.Heb je altijd al een
  petities ervaar je hoe het is om samen muziek te maken. Ervaring is niet 
  nodig. Meer informatie en aanmelden via www.muziekschoolhoekschewaard.nl
 DTEND:20240427T200000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240427T143000
 LOCATION:Jaap Kosterstraat 4\, 3286 VT\, Klaaswaal
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Nieuw Talent Orkest Hoeksche Waard
-UID:900bc0a1-3b0a-45a7-9697-00bfd19036b2
+UID:bfcfd963-eb40-4626-b6d5-a5b813ef8c60
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Koningsnacht Countdown begint NU!Oranje lovers\, verzamel je f
@@ -973,23 +707,12 @@ DESCRIPTION:Koningsnacht Countdown begint NU!Oranje lovers\, verzamel je f
  tickets.nl/.../54B70F133D42725572310...Mis het niet\, want deze nacht wor
  dt een oranje oase van beats\, plezier en koninklijke vibes!
 DTEND:20240427T003000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240427T193000
 LOCATION:Puttershoek
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Koningsnacht - Puttershoek
-UID:0ec5647e-1fa1-4aae-84b2-bcff969998a3
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Er is kermis op het Vierwiekenplein in Oud-Beijerland\, van wo
- ensdag 24 april tot en met zaterdag 4 mei. Vermaak voor jong en oud!
-DTEND:20240428T235900
-DTSTAMP:20240425T020958Z
-DTSTART;VALUE=DATE:20240428
-LOCATION:Oud-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Koningskermis Oud-Beijerland
-UID:6beb0ce0-f561-42f5-af96-5e8e8598f864
+UID:8bcd95c8-bc2f-4d75-89db-aa1759f7229a
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Museum Hoeksche Waard start met nieuwe tentoonstellingIn de Ho
@@ -1004,22 +727,33 @@ DESCRIPTION:Museum Hoeksche Waard start met nieuwe tentoonstellingIn de Ho
  .U betaalt alleen de toegang tot het museum\; houders van de museumjaarka
  art en vrienden van het museum kunnen gratis naar binnen.
 DTEND:20240428T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240428
 LOCATION:Dorpsstraat 13\, 3274BB\, Heinenoord
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Verrassend Rood
-UID:163931cf-dbaf-4812-87f3-bf9ad72f6ce4
+UID:db89fa6d-5367-4d3a-a8b9-51c28471f223
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Er is kermis op het Vierwiekenplein in Oud-Beijerland\, van wo
+ ensdag 24 april tot en met zaterdag 4 mei. Vermaak voor jong en oud!
+DTEND:20240428T235900
+DTSTAMP:20240426T020931Z
+DTSTART;VALUE=DATE:20240428
+LOCATION:Oud-Beijerland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Koningskermis Oud-Beijerland
+UID:817c32bc-3fe1-4ec3-a70b-7e7e4bd77e7b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Feestweek rond Koningsdag
 DTEND:20240428T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240428
 LOCATION:Ridder van Dorplaan\, Zuid-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Feestweek Koningsdag Zuid-Beijerland
-UID:f94825eb-dd17-490f-b6a7-ccb9039afd68
+UID:525e22cb-3d7e-43f0-818f-b76b5f34574c
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op Koningsdag organiseert Oranjevereniging Prinses Irene Maasd
@@ -1044,12 +778,12 @@ DESCRIPTION:Op Koningsdag organiseert Oranjevereniging Prinses Irene Maasd
  unk & Jazzband Hit the Roof. Leden gratis entree\, 10 euro voor niet lede
  n.
 DTEND:20240428T003000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240428T100000
 LOCATION:Fazant 3\, 3299BS\, Maasdam
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Koningsfeestavond Sportzaal Duyvesteyn Maasdam
-UID:dc4ae097-b435-41ce-be3e-ebac87201a36
+UID:2c4e6e61-320c-433c-bb55-321e1cfe586d
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:GA JIJ MET ONS MEE OP REIS?Een losse sessie kan je al iets hee
@@ -1068,12 +802,12 @@ DESCRIPTION:GA JIJ MET ONS MEE OP REIS?Een losse sessie kan je al iets hee
  even en voor meer info stuur ons een pb: maartje@befitandhappy.nl of info
  @knowlegdeofpower.nl of via onze websites.Liefs\, Maartje en Jeffrey
 DTEND:20240428T160000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240428T100000
 LOCATION:Mijnsheerenland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: transformatiereis 2024
-UID:bf0cf5ff-c71b-41f7-a64d-4d8fb021a9cf
+UID:b986a8d1-7b55-49eb-ace7-ec30db226989
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Classics in new lightEen prachtig optreden van sopraan Waldin 
@@ -1083,12 +817,12 @@ DESCRIPTION:Classics in new lightEen prachtig optreden van sopraan Waldin
  aat alle info over repertoire en ervaring van de leden van dit Trio. Daar
   zijn natuurlijk ook de kaartjes (10\,-) te koop.
 DTEND:20240428T120000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240428T110000
 LOCATION:Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Trio Stuarda- Classics in new light
-UID:f0fcfe03-93f7-421e-86a1-ad2610e8fa3a
+UID:24252f31-32b9-417b-b104-87c07c8313a4
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Een prachtig optreden van sopraan Waldin Roes\, pianist Wim Wa
@@ -1098,12 +832,12 @@ DESCRIPTION:Een prachtig optreden van sopraan Waldin Roes\, pianist Wim Wa
  ver repertoire en ervaring van de leden van dit Trio. Daar zijn natuurlij
  k ook de kaartjes (€ 10\,-) te koop.
 DTEND:20240428T120000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240428T110000
 LOCATION:Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Klassiek op zondagochtend
-UID:6505c31b-d095-4aaf-893f-5ea1298983b6
+UID:e8b66dcf-9140-453d-a9dc-d756830ef563
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Het Landbouwmuseum op Tiengemeten geeft een beeld van de landb
@@ -1123,12 +857,12 @@ DESCRIPTION:Het Landbouwmuseum op Tiengemeten geeft een beeld van de landb
  nd).De gehele week m.u.v. de maandag zijn de musea geopend van 11.30 - 16
  .30 uur.Voor verdere informatie:: www.landbouwmuseumtiengemeten.nl
 DTEND:20240428T163000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240428T113000
 LOCATION:Tiengemeten 14\, 3284 BE\, Zuid-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Landbouwmuseum Tiengemeten
-UID:b7354dbc-a483-4d39-8422-1a210fcedb15
+UID:749e8595-e066-4588-ae8b-bdf5d8500767
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Rien Poortvliet Museum.Rien Poortvliet (1932 - 1995) wordt ook
@@ -1149,12 +883,12 @@ DESCRIPTION:Rien Poortvliet Museum.Rien Poortvliet (1932 - 1995) wordt ook
  leiders allerlei opdrachten kunnen uitvoeren. Kortom: voor jong en oud ve
  el moois te zien en te beleven!
 DTEND:20240428T163000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240428T113000
 LOCATION:Tiengemeten 14A\, 3284 BE\, Zuid-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Opening Rien Poortvliet Museum op Tiengemeten
-UID:4c1ada5a-8149-4c58-91f0-59a76dd381bf
+UID:646d0705-03e2-4c90-808b-4c26b1e591ea
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Beeldend kunstenaar Heleen Velthoen toont de komende maanden h
@@ -1179,12 +913,12 @@ DESCRIPTION:Beeldend kunstenaar Heleen Velthoen toont de komende maanden h
  l\, eventueel in combinatie met andere materialen: echt handwerk!Voor ope
  ningstijden: 0186 685 729
 DTEND:20240428T100000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240428T120000
 LOCATION:Buttervliet 1\, 3281 LK\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Expositie in Het Numans-Dorps-Huis
-UID:0e20cd85-0270-416c-8e65-2aecf03f58d7
+UID:eefcbe1d-cdc9-4a20-8aca-042a2ecd1a41
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Van woensdag 24 april tot en met zaterdag 4 mei is de kermis w
@@ -1197,12 +931,12 @@ DESCRIPTION:Van woensdag 24 april tot en met zaterdag 4 mei is de kermis w
  pcorn.Kijk voor het meest actuele overzicht van attracties op www.oranjeo
  bl.nl.
 DTEND:20240428T170000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240428T130000
 LOCATION:Vierwiekenplein\, Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Kermis Oud-Beijerland
-UID:47260bfa-5a89-4138-8dbc-0f8cf43252dc
+UID:8aafabfb-0aad-453d-b047-fcb68b8ab488
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Ontdek het plezier van samen muziek maken.Heb je altijd al een
@@ -1212,45 +946,35 @@ DESCRIPTION:Ontdek het plezier van samen muziek maken.Heb je altijd al een
  petities ervaar je hoe het is om samen muziek te maken. Ervaring is niet 
  nodig. Meer informatie en aanmelden via www.muziekschoolhoekschewaard.nl
 DTEND:20240428T200000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240428T143000
 LOCATION:Jaap Kosterstraat 4\, 3286 VT\, Klaaswaal
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Nieuw Talent Orkest Hoeksche Waard
-UID:2281936f-a82d-4fa4-af7a-bc161324ab53
+UID:b326ee27-af3b-416d-a3ea-588f49450e35
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Er is kermis op het Vierwiekenplein in Oud-Beijerland\, van wo
+ ensdag 24 april tot en met zaterdag 4 mei. Vermaak voor jong en oud!
+DTEND:20240429T235900
+DTSTAMP:20240426T020931Z
+DTSTART;VALUE=DATE:20240429
+LOCATION:Oud-Beijerland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Koningskermis Oud-Beijerland
+UID:2e27dc7f-a30f-49f4-8a05-9b979bb37bd3
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De meivakantie staat voor de deur! Bij de zwembaden in de Hoek
  sche Waard kan je daardoor extra veel vrij zwemmen en zijn er leuke activ
  iteiten. Kijk op de website voor meer informatie en het rooster.
 DTEND:20240429T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240429
 LOCATION:Hoeksche Waard
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Zwemplezier in de meivakantie
-UID:fa78f009-0451-4dd4-953a-c3660c8ff9c8
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Er is kermis op het Vierwiekenplein in Oud-Beijerland\, van wo
- ensdag 24 april tot en met zaterdag 4 mei. Vermaak voor jong en oud!
-DTEND:20240429T235900
-DTSTAMP:20240425T020958Z
-DTSTART;VALUE=DATE:20240429
-LOCATION:Oud-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Koningskermis Oud-Beijerland
-UID:156b166c-34f6-41f1-a377-c61e6e2fe61e
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Feestweek rond Koningsdag
-DTEND:20240429T235900
-DTSTAMP:20240425T020958Z
-DTSTART;VALUE=DATE:20240429
-LOCATION:Ridder van Dorplaan\, Zuid-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Feestweek Koningsdag Zuid-Beijerland
-UID:b46078b1-a330-4ac1-9dba-f04bdc7210ed
+UID:ccc74700-2264-4666-9d3b-bb4837318db0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Museum Hoeksche Waard start met nieuwe tentoonstellingIn de Ho
@@ -1265,12 +989,46 @@ DESCRIPTION:Museum Hoeksche Waard start met nieuwe tentoonstellingIn de Ho
  .U betaalt alleen de toegang tot het museum\; houders van de museumjaarka
  art en vrienden van het museum kunnen gratis naar binnen.
 DTEND:20240429T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240429
 LOCATION:Dorpsstraat 13\, 3274BB\, Heinenoord
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Verrassend Rood
-UID:2ee4bae5-b7d2-4a2e-9abc-1552975a8d5e
+UID:57fbb417-7e07-4b70-91d7-7eab5b0f2b29
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Feestweek rond Koningsdag
+DTEND:20240429T235900
+DTSTAMP:20240426T020931Z
+DTSTART;VALUE=DATE:20240429
+LOCATION:Ridder van Dorplaan\, Zuid-Beijerland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Feestweek Koningsdag Zuid-Beijerland
+UID:6610cd04-acd1-47d7-bbb0-2edea4d62497
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:GA JIJ MET ONS MEE OP REIS?Een losse sessie kan je al iets hee
+ l moois geven\, maar wil je echt de diepte ingaan dan kun je met ons op t
+ ransformatiereis in 2024De paarden zullen jouw de spiegel laten voorhoude
+ n en we gaan de diepte in dmv ademwerk. Daarnaast zullen we nog andere te
+ chnieken toepassen om de reis compleet te makenIn een kleine groep ( 4-6 
+ pers.) creëren we een veilige plek zodat je samen met ons en de groep de 
+ stappen mag gaan maken om persoonlijk te groeien Wat krijg je ervoor:Inta
+ kegesprek10x groepssessies in 20242x 1:1 coach sessies4x Q&A sessies met 
+ de groepWhatsApp groep als veilige basisInformatie:Wanneer: Start zaterda
+ g 3 februari\; Diverse zaterdagen in 2024Waar: Barendrecht en Mijnsheeren
+ landInvestering: €2499 incl. BTW (bedrijven excl btw)Meer informatie en d
+ e exacte data kunnen we via pb sturen.In januari zal een informatieavond 
+ worden gehouden\, waarin we meer over onszelf en het traject vertellenOpg
+ even en voor meer info stuur ons een pb: maartje@befitandhappy.nl of info
+ @knowlegdeofpower.nl of via onze websites.Liefs\, Maartje en Jeffrey
+DTEND:20240429T160000
+DTSTAMP:20240426T020931Z
+DTSTART:20240429T100000
+LOCATION:Mijnsheerenland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: transformatiereis 2024
+UID:1f5fd5ed-22c0-4ce5-b15b-b3a16af6c821
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De Commissie Kunst in de Kerk organiseert permanent wisselende
@@ -1299,37 +1057,13 @@ DESCRIPTION:De Commissie Kunst in de Kerk organiseert permanent wisselende
  op woensdagmiddag van 14.00 tot 17.00 uur in de Protestantse Gemeente De 
  Open Hof in Oud-Beijerland.
 DTEND:20240429T120000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240429T100000
 LOCATION:De Open Hof Oud-Beijerland\, Willem van Vlietstraat 2a\, 3262 GM\
  , Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Expositie met abstracte fotografie in De Open Hof
-UID:c7fcd8a8-7acc-4778-8ee1-7c1dc1895fa3
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:GA JIJ MET ONS MEE OP REIS?Een losse sessie kan je al iets hee
- l moois geven\, maar wil je echt de diepte ingaan dan kun je met ons op t
- ransformatiereis in 2024De paarden zullen jouw de spiegel laten voorhoude
- n en we gaan de diepte in dmv ademwerk. Daarnaast zullen we nog andere te
- chnieken toepassen om de reis compleet te makenIn een kleine groep ( 4-6 
- pers.) creëren we een veilige plek zodat je samen met ons en de groep de 
- stappen mag gaan maken om persoonlijk te groeien Wat krijg je ervoor:Inta
- kegesprek10x groepssessies in 20242x 1:1 coach sessies4x Q&A sessies met 
- de groepWhatsApp groep als veilige basisInformatie:Wanneer: Start zaterda
- g 3 februari\; Diverse zaterdagen in 2024Waar: Barendrecht en Mijnsheeren
- landInvestering: €2499 incl. BTW (bedrijven excl btw)Meer informatie en d
- e exacte data kunnen we via pb sturen.In januari zal een informatieavond 
- worden gehouden\, waarin we meer over onszelf en het traject vertellenOpg
- even en voor meer info stuur ons een pb: maartje@befitandhappy.nl of info
- @knowlegdeofpower.nl of via onze websites.Liefs\, Maartje en Jeffrey
-DTEND:20240429T160000
-DTSTAMP:20240425T020958Z
-DTSTART:20240429T100000
-LOCATION:Mijnsheerenland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: transformatiereis 2024
-UID:7516ff19-07f9-48e8-8eb2-11e23959001e
+UID:b2c741c6-e9b7-49c5-82b2-fbe426d5ddb0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Rien Poortvliet Museum.Rien Poortvliet (1932 - 1995) wordt ook
@@ -1350,12 +1084,12 @@ DESCRIPTION:Rien Poortvliet Museum.Rien Poortvliet (1932 - 1995) wordt ook
  leiders allerlei opdrachten kunnen uitvoeren. Kortom: voor jong en oud ve
  el moois te zien en te beleven!
 DTEND:20240429T163000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240429T113000
 LOCATION:Tiengemeten 14A\, 3284 BE\, Zuid-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Opening Rien Poortvliet Museum op Tiengemeten
-UID:307733c7-92a3-4ce2-9196-b433fe67b47f
+UID:65a7182d-81f7-4763-8929-c1cb963690d1
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Het Landbouwmuseum op Tiengemeten geeft een beeld van de landb
@@ -1375,12 +1109,12 @@ DESCRIPTION:Het Landbouwmuseum op Tiengemeten geeft een beeld van de landb
  nd).De gehele week m.u.v. de maandag zijn de musea geopend van 11.30 - 16
  .30 uur.Voor verdere informatie:: www.landbouwmuseumtiengemeten.nl
 DTEND:20240429T163000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240429T113000
 LOCATION:Tiengemeten 14\, 3284 BE\, Zuid-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Landbouwmuseum Tiengemeten
-UID:0ef418ea-6624-43f5-a6e5-43e29b1954d0
+UID:2b84f575-8b49-4c9e-959c-2a189ce66d77
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Beeldend kunstenaar Heleen Velthoen toont de komende maanden h
@@ -1405,12 +1139,12 @@ DESCRIPTION:Beeldend kunstenaar Heleen Velthoen toont de komende maanden h
  l\, eventueel in combinatie met andere materialen: echt handwerk!Voor ope
  ningstijden: 0186 685 729
 DTEND:20240429T100000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240429T120000
 LOCATION:Buttervliet 1\, 3281 LK\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Expositie in Het Numans-Dorps-Huis
-UID:c759d4ce-99aa-4eaa-85d2-2cb2a7a6659e
+UID:87b8a09f-e8f2-406f-a12c-3e6b515d82b8
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Van woensdag 24 april tot en met zaterdag 4 mei is de kermis w
@@ -1423,12 +1157,12 @@ DESCRIPTION:Van woensdag 24 april tot en met zaterdag 4 mei is de kermis w
  pcorn.Kijk voor het meest actuele overzicht van attracties op www.oranjeo
  bl.nl.
 DTEND:20240429T170000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240429T130000
 LOCATION:Vierwiekenplein\, Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Kermis Oud-Beijerland
-UID:8eb624cc-e6cd-4036-9051-a57833f11c78
+UID:a7af9a46-58e6-49b9-bea6-24d29aaa5118
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
@@ -1439,13 +1173,28 @@ DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
  un je terecht bij Regina Snel\, 06 28151182\, of kun je mailen naar linda
  .vanderwal@welzijnhw.nl.
 DTEND:20240429T170000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240429T140000
 LOCATION:Huiskamer van de Wijk Wijkhuis\, Bernhardstraat 25\, 3281 BC\, Nu
  mansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Klaverjassen in de Huiskamer van Numansdorp
-UID:5299a601-9792-4a73-8f52-0e6e6be4efed
+UID:e8ee06e1-3e17-4056-9c62-162f616909ee
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:We kondigen de tweede Pick and Play aan!Jongeren in de Hoeksch
+ e Waard\; Doe mee met Pick and Play. We gaan lekker muziek maken met elka
+ ar. Gewoon luisteren met een drankje erbij is ook prima. Op maandag 29 ap
+ ril vanaf 14.00. Kom naar deze activiteit in de meivakantie.Groeten Monic
+ a\, Bart-Jan en DennisMuziekschool Hoeksche Waard en Popschool Hoeksche W
+ aard
+DTEND:20240429T170000
+DTSTAMP:20240426T020931Z
+DTSTART:20240429T140000
+LOCATION:Karen Doormanstraat 63a\, Oud-Beijerland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Pick and Play
+UID:06d338ad-0bde-4fa3-8011-73178320799c
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Ontdek het plezier van samen muziek maken.Heb je altijd al een
@@ -1455,65 +1204,24 @@ DESCRIPTION:Ontdek het plezier van samen muziek maken.Heb je altijd al een
  petities ervaar je hoe het is om samen muziek te maken. Ervaring is niet 
  nodig. Meer informatie en aanmelden via www.muziekschoolhoekschewaard.nl
 DTEND:20240429T200000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240429T143000
 LOCATION:Jaap Kosterstraat 4\, 3286 VT\, Klaaswaal
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Nieuw Talent Orkest Hoeksche Waard
-UID:e3d38090-a2ca-430f-a6c5-35615a7c4a9c
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Feestweek rond Koningsdag
-DTEND:20240430T235900
-DTSTAMP:20240425T020958Z
-DTSTART;VALUE=DATE:20240430
-LOCATION:Ridder van Dorplaan\, Zuid-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Feestweek Koningsdag Zuid-Beijerland
-UID:4fb4910a-a4f6-431d-8a80-af3bed9e68c5
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Er is kermis op het Vierwiekenplein in Oud-Beijerland\, van wo
- ensdag 24 april tot en met zaterdag 4 mei. Vermaak voor jong en oud!
-DTEND:20240430T235900
-DTSTAMP:20240425T020958Z
-DTSTART;VALUE=DATE:20240430
-LOCATION:Oud-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Koningskermis Oud-Beijerland
-UID:e5ab3921-2114-491e-a827-90dd669283b3
+UID:a1146e9e-c688-4bc6-b8a0-8a521f11bcbf
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De meivakantie staat voor de deur! Bij de zwembaden in de Hoek
  sche Waard kan je daardoor extra veel vrij zwemmen en zijn er leuke activ
  iteiten. Kijk op de website voor meer informatie en het rooster.
 DTEND:20240430T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240430
 LOCATION:Hoeksche Waard
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Zwemplezier in de meivakantie
-UID:0e0cbc7b-0976-4970-b851-8b4c6ae5a56a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Museum Hoeksche Waard start met nieuwe tentoonstellingIn de Ho
- eksche Waard verbouwden veel boeren in de 17e tot halverwege de 19e eeuw 
- meekrap. Dit deden zij voor de rode kleurstof\, die uit de wortels werd g
- ewonnen. In goede jaren resulteerde de teelt van dit plantje in een hoog 
- inkomen en veel werkgelegenheid. Over rood valt nog veel meer te vertelle
- n. Dat laten we in de tentoonstelling zien die in de komende maanden in M
- useum Hoeksche Waard te bezichtigen is.De expositie is te bezichtigen van
-  23 maart t/m 27 oktober 2024 in museumboerderij Oost-Leeuwenstein\, Dorp
- sstraat 13\, 3274 BB Heinenoord. Voor verdere informatie: www.museumhw.nl
- .U betaalt alleen de toegang tot het museum\; houders van de museumjaarka
- art en vrienden van het museum kunnen gratis naar binnen.
-DTEND:20240430T235900
-DTSTAMP:20240425T020958Z
-DTSTART;VALUE=DATE:20240430
-LOCATION:Dorpsstraat 13\, 3274BB\, Heinenoord
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Verrassend Rood
-UID:00f955d8-dea6-4733-a47d-ff28d8678f56
+UID:f57b1afb-8140-4620-a6ab-5677bd38a0a1
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Oud-Beijerland\, met in het centrum de mooi gelegen Vliet met 
@@ -1534,13 +1242,54 @@ DESCRIPTION:Oud-Beijerland\, met in het centrum de mooi gelegen Vliet met
   maken van een afspraak kun je mailen naar de Historische Vereniging Oud-
  Beijerland.
 DTEND:20240430T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240430
 LOCATION:Historische Vereninging Oud-Beijerland\, Waterstal 1\, 3262 JR\, 
  Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Dorpswandeling
-UID:81e9b5fd-044a-44d6-a7b4-dc5932c79d0b
+UID:706237d9-3666-409d-a299-2fdeac14c964
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Museum Hoeksche Waard start met nieuwe tentoonstellingIn de Ho
+ eksche Waard verbouwden veel boeren in de 17e tot halverwege de 19e eeuw 
+ meekrap. Dit deden zij voor de rode kleurstof\, die uit de wortels werd g
+ ewonnen. In goede jaren resulteerde de teelt van dit plantje in een hoog 
+ inkomen en veel werkgelegenheid. Over rood valt nog veel meer te vertelle
+ n. Dat laten we in de tentoonstelling zien die in de komende maanden in M
+ useum Hoeksche Waard te bezichtigen is.De expositie is te bezichtigen van
+  23 maart t/m 27 oktober 2024 in museumboerderij Oost-Leeuwenstein\, Dorp
+ sstraat 13\, 3274 BB Heinenoord. Voor verdere informatie: www.museumhw.nl
+ .U betaalt alleen de toegang tot het museum\; houders van de museumjaarka
+ art en vrienden van het museum kunnen gratis naar binnen.
+DTEND:20240430T235900
+DTSTAMP:20240426T020931Z
+DTSTART;VALUE=DATE:20240430
+LOCATION:Dorpsstraat 13\, 3274BB\, Heinenoord
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Verrassend Rood
+UID:b36f4ef5-6f47-4bf0-84d8-8d5349aa4aff
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Er is kermis op het Vierwiekenplein in Oud-Beijerland\, van wo
+ ensdag 24 april tot en met zaterdag 4 mei. Vermaak voor jong en oud!
+DTEND:20240430T235900
+DTSTAMP:20240426T020931Z
+DTSTART;VALUE=DATE:20240430
+LOCATION:Oud-Beijerland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Koningskermis Oud-Beijerland
+UID:0f61e960-59a4-428a-9eb1-cb04058ff255
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Feestweek rond Koningsdag
+DTEND:20240430T235900
+DTSTAMP:20240426T020931Z
+DTSTART;VALUE=DATE:20240430
+LOCATION:Ridder van Dorplaan\, Zuid-Beijerland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Feestweek Koningsdag Zuid-Beijerland
+UID:5a2eadd6-7cc7-430e-8af1-96029f0f0e4c
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:GA JIJ MET ONS MEE OP REIS?Een losse sessie kan je al iets hee
@@ -1559,12 +1308,12 @@ DESCRIPTION:GA JIJ MET ONS MEE OP REIS?Een losse sessie kan je al iets hee
  even en voor meer info stuur ons een pb: maartje@befitandhappy.nl of info
  @knowlegdeofpower.nl of via onze websites.Liefs\, Maartje en Jeffrey
 DTEND:20240430T160000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240430T100000
 LOCATION:Mijnsheerenland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: transformatiereis 2024
-UID:bad1a6a9-2553-4638-ae50-55ae72ea7a2a
+UID:4320e163-8299-4e60-8973-92a558829f5e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De Commissie Kunst in de Kerk organiseert permanent wisselende
@@ -1593,13 +1342,13 @@ DESCRIPTION:De Commissie Kunst in de Kerk organiseert permanent wisselende
  op woensdagmiddag van 14.00 tot 17.00 uur in de Protestantse Gemeente De 
  Open Hof in Oud-Beijerland.
 DTEND:20240430T120000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240430T100000
 LOCATION:De Open Hof Oud-Beijerland\, Willem van Vlietstraat 2a\, 3262 GM\
  , Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Expositie met abstracte fotografie in De Open Hof
-UID:1c1927d7-6d70-421c-92fe-4a8cc7e29f18
+UID:dbd83240-0c15-49b0-9bee-bdfab9ef4aaa
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Het Landbouwmuseum op Tiengemeten geeft een beeld van de landb
@@ -1619,12 +1368,12 @@ DESCRIPTION:Het Landbouwmuseum op Tiengemeten geeft een beeld van de landb
  nd).De gehele week m.u.v. de maandag zijn de musea geopend van 11.30 - 16
  .30 uur.Voor verdere informatie:: www.landbouwmuseumtiengemeten.nl
 DTEND:20240430T163000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240430T113000
 LOCATION:Tiengemeten 14\, 3284 BE\, Zuid-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Landbouwmuseum Tiengemeten
-UID:9bfb34dd-faea-43b4-a817-b0977f0a020c
+UID:d0cc6d62-9cff-45d9-bc86-0f764d65f273
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Rien Poortvliet Museum.Rien Poortvliet (1932 - 1995) wordt ook
@@ -1645,12 +1394,12 @@ DESCRIPTION:Rien Poortvliet Museum.Rien Poortvliet (1932 - 1995) wordt ook
  leiders allerlei opdrachten kunnen uitvoeren. Kortom: voor jong en oud ve
  el moois te zien en te beleven!
 DTEND:20240430T163000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240430T113000
 LOCATION:Tiengemeten 14A\, 3284 BE\, Zuid-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Opening Rien Poortvliet Museum op Tiengemeten
-UID:b8585151-3371-4e28-9db1-d4190648803a
+UID:feb00a64-e3a9-4e05-8a0a-fce6605bbaf9
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Beeldend kunstenaar Heleen Velthoen toont de komende maanden h
@@ -1675,12 +1424,12 @@ DESCRIPTION:Beeldend kunstenaar Heleen Velthoen toont de komende maanden h
  l\, eventueel in combinatie met andere materialen: echt handwerk!Voor ope
  ningstijden: 0186 685 729
 DTEND:20240430T100000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240430T120000
 LOCATION:Buttervliet 1\, 3281 LK\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Expositie in Het Numans-Dorps-Huis
-UID:5f435824-c162-4a54-9e98-9f42e1d3bcf0
+UID:7b5f0f1c-be74-4a1c-9c9d-491fe21fe036
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Van woensdag 24 april tot en met zaterdag 4 mei is de kermis w
@@ -1693,12 +1442,12 @@ DESCRIPTION:Van woensdag 24 april tot en met zaterdag 4 mei is de kermis w
  pcorn.Kijk voor het meest actuele overzicht van attracties op www.oranjeo
  bl.nl.
 DTEND:20240430T170000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240430T130000
 LOCATION:Vierwiekenplein\, Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Kermis Oud-Beijerland
-UID:2c606d3b-f51c-456e-9d0f-aabaf5bbc9f9
+UID:5175713a-7a99-4970-94fc-e07be09bf6ec
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Ontdek het plezier van samen muziek maken.Heb je altijd al een
@@ -1708,12 +1457,12 @@ DESCRIPTION:Ontdek het plezier van samen muziek maken.Heb je altijd al een
  petities ervaar je hoe het is om samen muziek te maken. Ervaring is niet 
  nodig. Meer informatie en aanmelden via www.muziekschoolhoekschewaard.nl
 DTEND:20240430T200000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240430T143000
 LOCATION:Jaap Kosterstraat 4\, 3286 VT\, Klaaswaal
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Nieuw Talent Orkest Hoeksche Waard
-UID:a8a16cde-d407-448a-b7c6-c05fad4918fa
+UID:25bb1fd5-a469-4c44-b56d-87c1f036c014
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Kom lekker in beweging tijdens het ‘Be Fit and Happy HOUR’! He
@@ -1723,24 +1472,22 @@ DESCRIPTION:Kom lekker in beweging tijdens het ‘Be Fit and Happy HOUR’! He
  portkleding en 2 volle flesjes water mee als gewichtjes. Het sportuurtje 
  is geschikt voor iedereen!
 DTEND:20240430T203000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240430T193000
 LOCATION:van Cromstrijensingel 3\, 3281 ST\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Wandel-\, mindfulness-\, en bootcamp-sportuurtje
-UID:569f13f5-c1ea-476e-9888-b0e4a95a85d0
+UID:600b1dde-20d7-4eaa-9b60-d213d90c705f
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:De meivakantie staat voor de deur! Bij de zwembaden in de Hoek
- sche Waard kan je daardoor extra veel vrij zwemmen en zijn er leuke activ
- iteiten. Kijk op de website voor meer informatie en het rooster.
+DESCRIPTION:Feestweek rond Koningsdag
 DTEND:20240501T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240501
-LOCATION:Hoeksche Waard
+LOCATION:Ridder van Dorplaan\, Zuid-Beijerland
 SEQUENCE:0
-SUMMARY:Hoeksche Waard: Zwemplezier in de meivakantie
-UID:38940297-dc4f-4aef-af94-f531afc1d6eb
+SUMMARY:Hoeksche Waard: Feestweek Koningsdag Zuid-Beijerland
+UID:4727f380-0427-4c6a-8bb7-f181eea86c4e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Oud-Beijerland\, met in het centrum de mooi gelegen Vliet met 
@@ -1761,13 +1508,13 @@ DESCRIPTION:Oud-Beijerland\, met in het centrum de mooi gelegen Vliet met
   maken van een afspraak kun je mailen naar de Historische Vereniging Oud-
  Beijerland.
 DTEND:20240501T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240501
 LOCATION:Historische Vereninging Oud-Beijerland\, Waterstal 1\, 3262 JR\, 
  Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Dorpswandeling
-UID:eac650d6-010b-4062-82b8-746525b13f11
+UID:7f1c0522-6be5-4797-8153-f42394a69e40
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Museum Hoeksche Waard start met nieuwe tentoonstellingIn de Ho
@@ -1782,33 +1529,53 @@ DESCRIPTION:Museum Hoeksche Waard start met nieuwe tentoonstellingIn de Ho
  .U betaalt alleen de toegang tot het museum\; houders van de museumjaarka
  art en vrienden van het museum kunnen gratis naar binnen.
 DTEND:20240501T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240501
 LOCATION:Dorpsstraat 13\, 3274BB\, Heinenoord
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Verrassend Rood
-UID:2f5e5432-801c-42a9-9b96-d6691e92f328
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Feestweek rond Koningsdag
-DTEND:20240501T235900
-DTSTAMP:20240425T020958Z
-DTSTART;VALUE=DATE:20240501
-LOCATION:Ridder van Dorplaan\, Zuid-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Feestweek Koningsdag Zuid-Beijerland
-UID:c67da229-48c7-4416-a47c-2d8707f42fa9
+UID:dafd1727-b965-4b62-a64e-8f4e5971a0c1
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Er is kermis op het Vierwiekenplein in Oud-Beijerland\, van wo
  ensdag 24 april tot en met zaterdag 4 mei. Vermaak voor jong en oud!
 DTEND:20240501T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240501
 LOCATION:Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Koningskermis Oud-Beijerland
-UID:e90472d8-a6cf-4824-9ec6-45823e4f4101
+UID:f9649760-7b41-4c47-aa61-ba04fb91f729
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:De meivakantie staat voor de deur! Bij de zwembaden in de Hoek
+ sche Waard kan je daardoor extra veel vrij zwemmen en zijn er leuke activ
+ iteiten. Kijk op de website voor meer informatie en het rooster.
+DTEND:20240501T235900
+DTSTAMP:20240426T020931Z
+DTSTART;VALUE=DATE:20240501
+LOCATION:Hoeksche Waard
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Zwemplezier in de meivakantie
+UID:2a06eb35-773c-44e2-9e27-788f09c2c98f
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Weet jij hoe de heerlijke Hoeksche Chips wordt gemaakt? Je kun
+ t het met eigen ogen gaan bekijken\, want iedere woensdag worden er rondl
+ eidingen gegeven bij de Hoeksche Hoeve! Leuk voor jong en oud. De rondlei
+ ding begint bij het Foodlab inspiratiepunt. Hierna leidt de gids je langs
+  de akkers waar de aardappelen voor de chips worden verbouwd. Ook ga je e
+ en kijkje nemen in de productie waar het proces van aardappel tot chips w
+ ordt toegelicht. Door verschillende gangen en grote ramen zie je hoe de c
+ hips wordt geproduceerd. Ten slotte maak je een wandeling door de mooie n
+ atuurtuin.
+DTEND:20240501T110000
+DTSTAMP:20240426T020931Z
+DTSTART:20240501T100000
+LOCATION:Hoeksche Hoeve\, Boendersweg 36a\, 3295 LB\, 's-Gravendeel
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Rondleiding Hoeksche Hoeve
+UID:068528aa-5d94-4dcb-90c5-45f59e9c3eb4
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:GA JIJ MET ONS MEE OP REIS?Een losse sessie kan je al iets hee
@@ -1827,30 +1594,12 @@ DESCRIPTION:GA JIJ MET ONS MEE OP REIS?Een losse sessie kan je al iets hee
  even en voor meer info stuur ons een pb: maartje@befitandhappy.nl of info
  @knowlegdeofpower.nl of via onze websites.Liefs\, Maartje en Jeffrey
 DTEND:20240501T160000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240501T100000
 LOCATION:Mijnsheerenland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: transformatiereis 2024
-UID:83ca9602-c157-4771-a5b7-81a61b2ade60
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Weet jij hoe de heerlijke Hoeksche Chips wordt gemaakt? Je kun
- t het met eigen ogen gaan bekijken\, want iedere woensdag worden er rondl
- eidingen gegeven bij de Hoeksche Hoeve! Leuk voor jong en oud. De rondlei
- ding begint bij het Foodlab inspiratiepunt. Hierna leidt de gids je langs
-  de akkers waar de aardappelen voor de chips worden verbouwd. Ook ga je e
- en kijkje nemen in de productie waar het proces van aardappel tot chips w
- ordt toegelicht. Door verschillende gangen en grote ramen zie je hoe de c
- hips wordt geproduceerd. Ten slotte maak je een wandeling door de mooie n
- atuurtuin.
-DTEND:20240501T110000
-DTSTAMP:20240425T020958Z
-DTSTART:20240501T100000
-LOCATION:Hoeksche Hoeve\, Boendersweg 36a\, 3295 LB\, 's-Gravendeel
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Rondleiding Hoeksche Hoeve
-UID:1ae05b09-7ffc-47d4-9a43-6173063d8a8b
+UID:5bdd7f59-1e57-4a9e-84e2-1e8da5dc18f3
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Het Landbouwmuseum op Tiengemeten geeft een beeld van de landb
@@ -1870,12 +1619,12 @@ DESCRIPTION:Het Landbouwmuseum op Tiengemeten geeft een beeld van de landb
  nd).De gehele week m.u.v. de maandag zijn de musea geopend van 11.30 - 16
  .30 uur.Voor verdere informatie:: www.landbouwmuseumtiengemeten.nl
 DTEND:20240501T163000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240501T113000
 LOCATION:Tiengemeten 14\, 3284 BE\, Zuid-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Landbouwmuseum Tiengemeten
-UID:bc1f950c-ef21-4eb2-9c60-b32a6ab743b9
+UID:ffa4b68b-51ed-44e0-87af-bb793669bc5b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Rien Poortvliet Museum.Rien Poortvliet (1932 - 1995) wordt ook
@@ -1896,12 +1645,12 @@ DESCRIPTION:Rien Poortvliet Museum.Rien Poortvliet (1932 - 1995) wordt ook
  leiders allerlei opdrachten kunnen uitvoeren. Kortom: voor jong en oud ve
  el moois te zien en te beleven!
 DTEND:20240501T163000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240501T113000
 LOCATION:Tiengemeten 14A\, 3284 BE\, Zuid-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Opening Rien Poortvliet Museum op Tiengemeten
-UID:29146342-8add-47b4-bfc3-a11a054e9036
+UID:f81aaa94-064a-49f5-9287-45aa7766e40e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Beeldend kunstenaar Heleen Velthoen toont de komende maanden h
@@ -1926,30 +1675,12 @@ DESCRIPTION:Beeldend kunstenaar Heleen Velthoen toont de komende maanden h
  l\, eventueel in combinatie met andere materialen: echt handwerk!Voor ope
  ningstijden: 0186 685 729
 DTEND:20240501T100000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240501T120000
 LOCATION:Buttervliet 1\, 3281 LK\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Expositie in Het Numans-Dorps-Huis
-UID:843cab0c-ff1c-44ea-b18c-9e0e3c89a57d
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Van woensdag 24 april tot en met zaterdag 4 mei is de kermis w
- eer in Oud-Beijerland. Zowel voor de kleintjes als oudere waaghalzen\, is
-  er van alles te beleven. Kom met familie of vrienden en laat je vermaken
-  door de attracties. De attracties die komen: schiettent\, touwtje trekke
- n\, trampolinespringen\, botsauto's\, Mini Cars\, Babysport\, Pinkdate\, 
- Crazy Beach Dance\, Pusher\, Lucky Duck\, grijpmachines en de Polyp. Natu
- urlijk kun je ook genieten van een lekkere suikerspin of vers gemaakte po
- pcorn.Kijk voor het meest actuele overzicht van attracties op www.oranjeo
- bl.nl.
-DTEND:20240501T170000
-DTSTAMP:20240425T020958Z
-DTSTART:20240501T130000
-LOCATION:Vierwiekenplein\, Oud-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Kermis Oud-Beijerland
-UID:5c5a90d0-9a15-4d50-9cb8-1e3d08f6a04e
+UID:614d2e85-13e4-45ab-8c7a-ab8e4dd23bc9
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Met ridders en jonkvrouwen terug naar de middeleeuwen in Museu
@@ -1966,12 +1697,30 @@ DESCRIPTION:Met ridders en jonkvrouwen terug naar de middeleeuwen in Museu
  museum is de toegang gratis.Opgeven graag uiterlijk 30 april bij educatie
  @museumhw.nl
 DTEND:20240501T160000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240501T130000
 LOCATION:Hofweg 13\, 3274BK\, Heinenoord
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Kindermiddag in Museum Hoeksche Waard
-UID:7561b9fd-2385-4139-b0c8-0175e5c3cbca
+UID:3747e97a-ee8f-446f-8502-3feb3769d6ba
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Van woensdag 24 april tot en met zaterdag 4 mei is de kermis w
+ eer in Oud-Beijerland. Zowel voor de kleintjes als oudere waaghalzen\, is
+  er van alles te beleven. Kom met familie of vrienden en laat je vermaken
+  door de attracties. De attracties die komen: schiettent\, touwtje trekke
+ n\, trampolinespringen\, botsauto's\, Mini Cars\, Babysport\, Pinkdate\, 
+ Crazy Beach Dance\, Pusher\, Lucky Duck\, grijpmachines en de Polyp. Natu
+ urlijk kun je ook genieten van een lekkere suikerspin of vers gemaakte po
+ pcorn.Kijk voor het meest actuele overzicht van attracties op www.oranjeo
+ bl.nl.
+DTEND:20240501T170000
+DTSTAMP:20240426T020931Z
+DTSTART:20240501T130000
+LOCATION:Vierwiekenplein\, Oud-Beijerland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Kermis Oud-Beijerland
+UID:215f0f53-2570-49e1-81f7-f988c42b77af
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Weet jij hoe de heerlijke Hoeksche Chips wordt gemaakt? Je kun
@@ -1984,12 +1733,12 @@ DESCRIPTION:Weet jij hoe de heerlijke Hoeksche Chips wordt gemaakt? Je kun
  hips wordt geproduceerd. Ten slotte maak je een wandeling door de mooie n
  atuurtuin.
 DTEND:20240501T143000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240501T133000
 LOCATION:Hoeksche Hoeve\, Boendersweg 36a\, 3295 LB\, 's-Gravendeel
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Rondleiding Hoeksche Hoeve
-UID:112d4b7b-7a92-4bbc-8715-ec723f3efaa2
+UID:580c8528-f26e-4129-b4a9-9e85244864a6
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:We organiseren weer een Knutsel-woensdagmiddag! Het thema is n
@@ -1997,12 +1746,12 @@ DESCRIPTION:We organiseren weer een Knutsel-woensdagmiddag! Het thema is n
  nJe bent welkom van 14:00 uur tot 15:30Kaartjes kun je via de webshop van
   numansdorpshuis.nl bestellen.
 DTEND:20240501T153000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240501T140000
 LOCATION:Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Moederdag-knutselen
-UID:84ef5269-e0b5-4ae7-bba8-2f6048f93e33
+UID:b0fa9b4e-b759-4cf0-b6d1-68cc35ba11bc
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Ontdek het plezier van samen muziek maken.Heb je altijd al een
@@ -2012,12 +1761,12 @@ DESCRIPTION:Ontdek het plezier van samen muziek maken.Heb je altijd al een
  petities ervaar je hoe het is om samen muziek te maken. Ervaring is niet 
  nodig. Meer informatie en aanmelden via www.muziekschoolhoekschewaard.nl
 DTEND:20240501T200000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240501T143000
 LOCATION:Jaap Kosterstraat 4\, 3286 VT\, Klaaswaal
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Nieuw Talent Orkest Hoeksche Waard
-UID:ca62ecd8-1c34-40d5-ba64-feded53e11a1
+UID:395e8c33-739c-4563-b489-bb22fe7c32f8
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Weet jij hoe de heerlijke Hoeksche Chips wordt gemaakt? Je kun
@@ -2030,24 +1779,12 @@ DESCRIPTION:Weet jij hoe de heerlijke Hoeksche Chips wordt gemaakt? Je kun
  hips wordt geproduceerd. Ten slotte maak je een wandeling door de mooie n
  atuurtuin.
 DTEND:20240501T160000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240501T150000
 LOCATION:Hoeksche Hoeve\, Boendersweg 36a\, 3295 LB\, 's-Gravendeel
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Rondleiding Hoeksche Hoeve
-UID:21980d7b-7009-4182-9912-f5031758e927
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:De meivakantie staat voor de deur! Bij de zwembaden in de Hoek
- sche Waard kan je daardoor extra veel vrij zwemmen en zijn er leuke activ
- iteiten. Kijk op de website voor meer informatie en het rooster.
-DTEND:20240502T235900
-DTSTAMP:20240425T020958Z
-DTSTART;VALUE=DATE:20240502
-LOCATION:Hoeksche Waard
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Zwemplezier in de meivakantie
-UID:656bb229-06f7-440c-a1dc-7626f0bfe266
+UID:fb03c06e-f0b9-4b61-85db-bd1927b5f7d1
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Oud-Beijerland\, met in het centrum de mooi gelegen Vliet met 
@@ -2068,34 +1805,25 @@ DESCRIPTION:Oud-Beijerland\, met in het centrum de mooi gelegen Vliet met
   maken van een afspraak kun je mailen naar de Historische Vereniging Oud-
  Beijerland.
 DTEND:20240502T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240502
 LOCATION:Historische Vereninging Oud-Beijerland\, Waterstal 1\, 3262 JR\, 
  Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Dorpswandeling
-UID:ac82a205-b1d8-43d9-99ee-98d0c3fc9a89
+UID:879b9113-a45a-4eaf-aac6-c7686477c51f
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Er is kermis op het Vierwiekenplein in Oud-Beijerland\, van wo
- ensdag 24 april tot en met zaterdag 4 mei. Vermaak voor jong en oud!
+DESCRIPTION:De meivakantie staat voor de deur! Bij de zwembaden in de Hoek
+ sche Waard kan je daardoor extra veel vrij zwemmen en zijn er leuke activ
+ iteiten. Kijk op de website voor meer informatie en het rooster.
 DTEND:20240502T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240502
-LOCATION:Oud-Beijerland
+LOCATION:Hoeksche Waard
 SEQUENCE:0
-SUMMARY:Hoeksche Waard: Koningskermis Oud-Beijerland
-UID:ec5e71bb-8c1c-4bde-9cf6-278cf562c6dc
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Feestweek rond Koningsdag
-DTEND:20240502T235900
-DTSTAMP:20240425T020958Z
-DTSTART;VALUE=DATE:20240502
-LOCATION:Ridder van Dorplaan\, Zuid-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Feestweek Koningsdag Zuid-Beijerland
-UID:c76e6c51-1413-4ca5-8208-6d9c56b352a1
+SUMMARY:Hoeksche Waard: Zwemplezier in de meivakantie
+UID:29e12662-3475-4aa0-a4bc-721a8b2e3241
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Museum Hoeksche Waard start met nieuwe tentoonstellingIn de Ho
@@ -2110,36 +1838,33 @@ DESCRIPTION:Museum Hoeksche Waard start met nieuwe tentoonstellingIn de Ho
  .U betaalt alleen de toegang tot het museum\; houders van de museumjaarka
  art en vrienden van het museum kunnen gratis naar binnen.
 DTEND:20240502T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240502
 LOCATION:Dorpsstraat 13\, 3274BB\, Heinenoord
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Verrassend Rood
-UID:bbfb7b5a-dbba-4304-8e8a-87c8d4a50249
+UID:22c3e8df-c806-461f-9d42-b2796ef22eda
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:GA JIJ MET ONS MEE OP REIS?Een losse sessie kan je al iets hee
- l moois geven\, maar wil je echt de diepte ingaan dan kun je met ons op t
- ransformatiereis in 2024De paarden zullen jouw de spiegel laten voorhoude
- n en we gaan de diepte in dmv ademwerk. Daarnaast zullen we nog andere te
- chnieken toepassen om de reis compleet te makenIn een kleine groep ( 4-6 
- pers.) creëren we een veilige plek zodat je samen met ons en de groep de 
- stappen mag gaan maken om persoonlijk te groeien Wat krijg je ervoor:Inta
- kegesprek10x groepssessies in 20242x 1:1 coach sessies4x Q&A sessies met 
- de groepWhatsApp groep als veilige basisInformatie:Wanneer: Start zaterda
- g 3 februari\; Diverse zaterdagen in 2024Waar: Barendrecht en Mijnsheeren
- landInvestering: €2499 incl. BTW (bedrijven excl btw)Meer informatie en d
- e exacte data kunnen we via pb sturen.In januari zal een informatieavond 
- worden gehouden\, waarin we meer over onszelf en het traject vertellenOpg
- even en voor meer info stuur ons een pb: maartje@befitandhappy.nl of info
- @knowlegdeofpower.nl of via onze websites.Liefs\, Maartje en Jeffrey
-DTEND:20240502T160000
-DTSTAMP:20240425T020958Z
-DTSTART:20240502T100000
-LOCATION:Mijnsheerenland
+DESCRIPTION:Feestweek rond Koningsdag
+DTEND:20240502T235900
+DTSTAMP:20240426T020931Z
+DTSTART;VALUE=DATE:20240502
+LOCATION:Ridder van Dorplaan\, Zuid-Beijerland
 SEQUENCE:0
-SUMMARY:Hoeksche Waard: transformatiereis 2024
-UID:c88e6a9d-455b-4b7c-ba7d-1ba50ca39792
+SUMMARY:Hoeksche Waard: Feestweek Koningsdag Zuid-Beijerland
+UID:3c251c8a-ae60-4fbe-82cc-a1ddea21275d
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Er is kermis op het Vierwiekenplein in Oud-Beijerland\, van wo
+ ensdag 24 april tot en met zaterdag 4 mei. Vermaak voor jong en oud!
+DTEND:20240502T235900
+DTSTAMP:20240426T020931Z
+DTSTART;VALUE=DATE:20240502
+LOCATION:Oud-Beijerland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Koningskermis Oud-Beijerland
+UID:3c947736-8741-43f0-af7f-c9f7938a5ea5
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De Commissie Kunst in de Kerk organiseert permanent wisselende
@@ -2168,13 +1893,37 @@ DESCRIPTION:De Commissie Kunst in de Kerk organiseert permanent wisselende
  op woensdagmiddag van 14.00 tot 17.00 uur in de Protestantse Gemeente De 
  Open Hof in Oud-Beijerland.
 DTEND:20240502T120000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240502T100000
 LOCATION:De Open Hof Oud-Beijerland\, Willem van Vlietstraat 2a\, 3262 GM\
  , Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Expositie met abstracte fotografie in De Open Hof
-UID:ed786320-e0e7-44cb-a5c4-85be23e3c2a4
+UID:bcc23561-bd6b-4d37-9673-bae6e7a7ad5b
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:GA JIJ MET ONS MEE OP REIS?Een losse sessie kan je al iets hee
+ l moois geven\, maar wil je echt de diepte ingaan dan kun je met ons op t
+ ransformatiereis in 2024De paarden zullen jouw de spiegel laten voorhoude
+ n en we gaan de diepte in dmv ademwerk. Daarnaast zullen we nog andere te
+ chnieken toepassen om de reis compleet te makenIn een kleine groep ( 4-6 
+ pers.) creëren we een veilige plek zodat je samen met ons en de groep de 
+ stappen mag gaan maken om persoonlijk te groeien Wat krijg je ervoor:Inta
+ kegesprek10x groepssessies in 20242x 1:1 coach sessies4x Q&A sessies met 
+ de groepWhatsApp groep als veilige basisInformatie:Wanneer: Start zaterda
+ g 3 februari\; Diverse zaterdagen in 2024Waar: Barendrecht en Mijnsheeren
+ landInvestering: €2499 incl. BTW (bedrijven excl btw)Meer informatie en d
+ e exacte data kunnen we via pb sturen.In januari zal een informatieavond 
+ worden gehouden\, waarin we meer over onszelf en het traject vertellenOpg
+ even en voor meer info stuur ons een pb: maartje@befitandhappy.nl of info
+ @knowlegdeofpower.nl of via onze websites.Liefs\, Maartje en Jeffrey
+DTEND:20240502T160000
+DTSTAMP:20240426T020931Z
+DTSTART:20240502T100000
+LOCATION:Mijnsheerenland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: transformatiereis 2024
+UID:d9fcc9aa-bc92-41d6-99a0-7f29a57e773c
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Het Landbouwmuseum op Tiengemeten geeft een beeld van de landb
@@ -2194,12 +1943,12 @@ DESCRIPTION:Het Landbouwmuseum op Tiengemeten geeft een beeld van de landb
  nd).De gehele week m.u.v. de maandag zijn de musea geopend van 11.30 - 16
  .30 uur.Voor verdere informatie:: www.landbouwmuseumtiengemeten.nl
 DTEND:20240502T163000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240502T113000
 LOCATION:Tiengemeten 14\, 3284 BE\, Zuid-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Landbouwmuseum Tiengemeten
-UID:7151ee1f-486d-4a59-9aca-cccb74fab596
+UID:4de126b8-fbe5-46bf-959b-4fd63a60c692
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Rien Poortvliet Museum.Rien Poortvliet (1932 - 1995) wordt ook
@@ -2220,12 +1969,12 @@ DESCRIPTION:Rien Poortvliet Museum.Rien Poortvliet (1932 - 1995) wordt ook
  leiders allerlei opdrachten kunnen uitvoeren. Kortom: voor jong en oud ve
  el moois te zien en te beleven!
 DTEND:20240502T163000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240502T113000
 LOCATION:Tiengemeten 14A\, 3284 BE\, Zuid-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Opening Rien Poortvliet Museum op Tiengemeten
-UID:4b6e7149-f9de-43d9-8724-b3581470081a
+UID:e8dbe905-65eb-4d99-9db3-c950b07b20b0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Beeldend kunstenaar Heleen Velthoen toont de komende maanden h
@@ -2250,12 +1999,12 @@ DESCRIPTION:Beeldend kunstenaar Heleen Velthoen toont de komende maanden h
  l\, eventueel in combinatie met andere materialen: echt handwerk!Voor ope
  ningstijden: 0186 685 729
 DTEND:20240502T100000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240502T120000
 LOCATION:Buttervliet 1\, 3281 LK\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Expositie in Het Numans-Dorps-Huis
-UID:842fdb8a-6fc9-41d9-b78f-86ed84cd77e9
+UID:46f565f2-ec16-47ff-b0d1-91a7bc618519
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Van woensdag 24 april tot en met zaterdag 4 mei is de kermis w
@@ -2268,12 +2017,12 @@ DESCRIPTION:Van woensdag 24 april tot en met zaterdag 4 mei is de kermis w
  pcorn.Kijk voor het meest actuele overzicht van attracties op www.oranjeo
  bl.nl.
 DTEND:20240502T170000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240502T130000
 LOCATION:Vierwiekenplein\, Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Kermis Oud-Beijerland
-UID:8803579d-e0d8-49b7-b0b3-daf01a180718
+UID:4b8c0a94-2be8-4d55-9eac-7821809e02a5
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Ontdek het plezier van samen muziek maken.Heb je altijd al een
@@ -2283,55 +2032,75 @@ DESCRIPTION:Ontdek het plezier van samen muziek maken.Heb je altijd al een
  petities ervaar je hoe het is om samen muziek te maken. Ervaring is niet 
  nodig. Meer informatie en aanmelden via www.muziekschoolhoekschewaard.nl
 DTEND:20240502T200000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240502T143000
 LOCATION:Jaap Kosterstraat 4\, 3286 VT\, Klaaswaal
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Nieuw Talent Orkest Hoeksche Waard
-UID:a2b3d08b-b1a6-4e44-a7c1-9ccac75e76a6
+UID:77289135-40ec-47d1-ab72-039689c78298
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Museum Hoeksche Waard start met nieuwe tentoonstellingIn de Ho
+ eksche Waard verbouwden veel boeren in de 17e tot halverwege de 19e eeuw 
+ meekrap. Dit deden zij voor de rode kleurstof\, die uit de wortels werd g
+ ewonnen. In goede jaren resulteerde de teelt van dit plantje in een hoog 
+ inkomen en veel werkgelegenheid. Over rood valt nog veel meer te vertelle
+ n. Dat laten we in de tentoonstelling zien die in de komende maanden in M
+ useum Hoeksche Waard te bezichtigen is.De expositie is te bezichtigen van
+  23 maart t/m 27 oktober 2024 in museumboerderij Oost-Leeuwenstein\, Dorp
+ sstraat 13\, 3274 BB Heinenoord. Voor verdere informatie: www.museumhw.nl
+ .U betaalt alleen de toegang tot het museum\; houders van de museumjaarka
+ art en vrienden van het museum kunnen gratis naar binnen.
+DTEND:20240503T235900
+DTSTAMP:20240426T020931Z
+DTSTART;VALUE=DATE:20240503
+LOCATION:Dorpsstraat 13\, 3274BB\, Heinenoord
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Verrassend Rood
+UID:6fb3fbd4-aa4f-497b-a02f-97739f048f16
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Elke even week op vrijdag van 8.30 tot 10.30
+DTEND:20240503T235900
+DTSTAMP:20240426T020931Z
+DTSTART;VALUE=DATE:20240503
+LOCATION:Oud-Beijerland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Koffie en spelen Mini Wereld
+UID:738f9a81-1b8b-42c6-bcaf-0917df31745b
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Feestweek rond Koningsdag
+DTEND:20240503T235900
+DTSTAMP:20240426T020931Z
+DTSTART;VALUE=DATE:20240503
+LOCATION:Ridder van Dorplaan\, Zuid-Beijerland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Feestweek Koningsdag Zuid-Beijerland
+UID:ab29f857-7ade-48ba-8b7a-c2419d380ed1
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Er is kermis op het Vierwiekenplein in Oud-Beijerland\, van wo
  ensdag 24 april tot en met zaterdag 4 mei. Vermaak voor jong en oud!
 DTEND:20240503T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240503
 LOCATION:Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Koningskermis Oud-Beijerland
-UID:649fe231-6e43-4e26-916d-de70f5de4531
+UID:2075e42f-133e-45ed-befd-d4c1ad1e86f7
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De meivakantie staat voor de deur! Bij de zwembaden in de Hoek
  sche Waard kan je daardoor extra veel vrij zwemmen en zijn er leuke activ
  iteiten. Kijk op de website voor meer informatie en het rooster.
 DTEND:20240503T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240503
 LOCATION:Hoeksche Waard
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Zwemplezier in de meivakantie
-UID:176faef4-654e-4c99-af44-cd7b5dfa7745
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Feestweek rond Koningsdag
-DTEND:20240503T235900
-DTSTAMP:20240425T020958Z
-DTSTART;VALUE=DATE:20240503
-LOCATION:Ridder van Dorplaan\, Zuid-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Feestweek Koningsdag Zuid-Beijerland
-UID:4ea8eca5-e61b-46d9-8800-7daaa8a08c55
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Elke even week op vrijdag van 8.30 tot 10.30
-DTEND:20240503T235900
-DTSTAMP:20240425T020958Z
-DTSTART;VALUE=DATE:20240503
-LOCATION:Oud-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Koffie en spelen Mini Wereld
-UID:81c28eb5-e7c2-4707-9f47-daccf766e9f3
+UID:501076c1-2836-498f-8668-00b43d4d2981
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Oud-Beijerland\, met in het centrum de mooi gelegen Vliet met 
@@ -2352,33 +2121,13 @@ DESCRIPTION:Oud-Beijerland\, met in het centrum de mooi gelegen Vliet met
   maken van een afspraak kun je mailen naar de Historische Vereniging Oud-
  Beijerland.
 DTEND:20240503T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240503
 LOCATION:Historische Vereninging Oud-Beijerland\, Waterstal 1\, 3262 JR\, 
  Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Dorpswandeling
-UID:16c43718-9613-4fc8-8f7b-833d3103d126
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Museum Hoeksche Waard start met nieuwe tentoonstellingIn de Ho
- eksche Waard verbouwden veel boeren in de 17e tot halverwege de 19e eeuw 
- meekrap. Dit deden zij voor de rode kleurstof\, die uit de wortels werd g
- ewonnen. In goede jaren resulteerde de teelt van dit plantje in een hoog 
- inkomen en veel werkgelegenheid. Over rood valt nog veel meer te vertelle
- n. Dat laten we in de tentoonstelling zien die in de komende maanden in M
- useum Hoeksche Waard te bezichtigen is.De expositie is te bezichtigen van
-  23 maart t/m 27 oktober 2024 in museumboerderij Oost-Leeuwenstein\, Dorp
- sstraat 13\, 3274 BB Heinenoord. Voor verdere informatie: www.museumhw.nl
- .U betaalt alleen de toegang tot het museum\; houders van de museumjaarka
- art en vrienden van het museum kunnen gratis naar binnen.
-DTEND:20240503T235900
-DTSTAMP:20240425T020958Z
-DTSTART;VALUE=DATE:20240503
-LOCATION:Dorpsstraat 13\, 3274BB\, Heinenoord
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Verrassend Rood
-UID:9ac567d6-beec-48bb-b57a-6d88d0f9c59b
+UID:53d4c85c-f6ed-46cd-a4dd-7d077d48de13
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De Commissie Kunst in de Kerk organiseert permanent wisselende
@@ -2407,13 +2156,13 @@ DESCRIPTION:De Commissie Kunst in de Kerk organiseert permanent wisselende
  op woensdagmiddag van 14.00 tot 17.00 uur in de Protestantse Gemeente De 
  Open Hof in Oud-Beijerland.
 DTEND:20240503T120000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240503T100000
 LOCATION:De Open Hof Oud-Beijerland\, Willem van Vlietstraat 2a\, 3262 GM\
  , Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Expositie met abstracte fotografie in De Open Hof
-UID:b4a77110-9670-45ae-9f6d-2c8790c3ef38
+UID:f89f8f1a-339c-4d94-8ba1-ce6038bbee37
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:GA JIJ MET ONS MEE OP REIS?Een losse sessie kan je al iets hee
@@ -2432,12 +2181,37 @@ DESCRIPTION:GA JIJ MET ONS MEE OP REIS?Een losse sessie kan je al iets hee
  even en voor meer info stuur ons een pb: maartje@befitandhappy.nl of info
  @knowlegdeofpower.nl of via onze websites.Liefs\, Maartje en Jeffrey
 DTEND:20240503T160000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240503T100000
 LOCATION:Mijnsheerenland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: transformatiereis 2024
-UID:79f60dbf-eafb-4c9c-8708-b1dcc7f32a62
+UID:211fd18b-046a-459f-8f7c-7f6aa444ba12
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Het Landbouwmuseum op Tiengemeten geeft een beeld van de landb
+ ouwmechanisatie (1920-1955). Diverse landbouwmachines en landbouwproducte
+ n tonen de ontwikkeling. Nieuw in de collectie is dit jaar de rosmolen.Op
+  proefveldjes worden graansoorten\, suikerbieten\, aardappelen\, diverse 
+ groenten en de Hoeksche akkerranden geteeld. Op een simulator trekker kun
+ nen de kinderen beleven hoe deze werkt.De meccano expositie mag niet over
+ geslagen worden: In de educatieve ruimte kunnen ouders en kinderen hun ha
+ rt ophalen. Je kunt er naar kijken en genieten en zelfs mee spelen. Korto
+ m\, de moeite waard!Beide musea worden bemand door vrijwilligers. Lijkt h
+ et u ook wat? Maak dan een afspraak om eens een kijkje te komen nemen.Wil
+ t u de musea met een groep bezoeken? Maak dan een afspraak om de verschil
+ lende mogelijkheden te bespreken voor een dagje Tiengemeten!Als u de muse
+ a wilt bezoeken\, moet u eerst met de pont naar het natuureiland Tiengeme
+ ten varen. De pont vertrekt elk heel uur vanaf Nieuwendijk (Zuid-Beijerla
+ nd).De gehele week m.u.v. de maandag zijn de musea geopend van 11.30 - 16
+ .30 uur.Voor verdere informatie:: www.landbouwmuseumtiengemeten.nl
+DTEND:20240503T163000
+DTSTAMP:20240426T020931Z
+DTSTART:20240503T113000
+LOCATION:Tiengemeten 14\, 3284 BE\, Zuid-Beijerland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Landbouwmuseum Tiengemeten
+UID:18e8ccda-6746-42de-acc6-b629ff2c1c43
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Rien Poortvliet Museum.Rien Poortvliet (1932 - 1995) wordt ook
@@ -2458,37 +2232,12 @@ DESCRIPTION:Rien Poortvliet Museum.Rien Poortvliet (1932 - 1995) wordt ook
  leiders allerlei opdrachten kunnen uitvoeren. Kortom: voor jong en oud ve
  el moois te zien en te beleven!
 DTEND:20240503T163000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240503T113000
 LOCATION:Tiengemeten 14A\, 3284 BE\, Zuid-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Opening Rien Poortvliet Museum op Tiengemeten
-UID:24b9b31b-a6cd-40cf-8f72-29a6e3bd6c79
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Het Landbouwmuseum op Tiengemeten geeft een beeld van de landb
- ouwmechanisatie (1920-1955). Diverse landbouwmachines en landbouwproducte
- n tonen de ontwikkeling. Nieuw in de collectie is dit jaar de rosmolen.Op
-  proefveldjes worden graansoorten\, suikerbieten\, aardappelen\, diverse 
- groenten en de Hoeksche akkerranden geteeld. Op een simulator trekker kun
- nen de kinderen beleven hoe deze werkt.De meccano expositie mag niet over
- geslagen worden: In de educatieve ruimte kunnen ouders en kinderen hun ha
- rt ophalen. Je kunt er naar kijken en genieten en zelfs mee spelen. Korto
- m\, de moeite waard!Beide musea worden bemand door vrijwilligers. Lijkt h
- et u ook wat? Maak dan een afspraak om eens een kijkje te komen nemen.Wil
- t u de musea met een groep bezoeken? Maak dan een afspraak om de verschil
- lende mogelijkheden te bespreken voor een dagje Tiengemeten!Als u de muse
- a wilt bezoeken\, moet u eerst met de pont naar het natuureiland Tiengeme
- ten varen. De pont vertrekt elk heel uur vanaf Nieuwendijk (Zuid-Beijerla
- nd).De gehele week m.u.v. de maandag zijn de musea geopend van 11.30 - 16
- .30 uur.Voor verdere informatie:: www.landbouwmuseumtiengemeten.nl
-DTEND:20240503T163000
-DTSTAMP:20240425T020958Z
-DTSTART:20240503T113000
-LOCATION:Tiengemeten 14\, 3284 BE\, Zuid-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Landbouwmuseum Tiengemeten
-UID:770a0e68-7f6f-4a41-815c-952f2530adbe
+UID:0bb4f85b-764d-4692-b8f9-fa4adf7d970b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Beeldend kunstenaar Heleen Velthoen toont de komende maanden h
@@ -2513,12 +2262,12 @@ DESCRIPTION:Beeldend kunstenaar Heleen Velthoen toont de komende maanden h
  l\, eventueel in combinatie met andere materialen: echt handwerk!Voor ope
  ningstijden: 0186 685 729
 DTEND:20240503T100000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240503T120000
 LOCATION:Buttervliet 1\, 3281 LK\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Expositie in Het Numans-Dorps-Huis
-UID:09273a0f-891d-4ef5-8c9c-a203ba8bbab4
+UID:719304a3-d335-4737-9e40-45109abb9911
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Van woensdag 24 april tot en met zaterdag 4 mei is de kermis w
@@ -2531,12 +2280,12 @@ DESCRIPTION:Van woensdag 24 april tot en met zaterdag 4 mei is de kermis w
  pcorn.Kijk voor het meest actuele overzicht van attracties op www.oranjeo
  bl.nl.
 DTEND:20240503T170000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240503T130000
 LOCATION:Vierwiekenplein\, Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Kermis Oud-Beijerland
-UID:17116bd9-9df4-4227-9deb-363d1828c174
+UID:cc8e5d9a-68fa-4a96-b56d-f35001206b20
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Ontdek het plezier van samen muziek maken.Heb je altijd al een
@@ -2546,12 +2295,12 @@ DESCRIPTION:Ontdek het plezier van samen muziek maken.Heb je altijd al een
  petities ervaar je hoe het is om samen muziek te maken. Ervaring is niet 
  nodig. Meer informatie en aanmelden via www.muziekschoolhoekschewaard.nl
 DTEND:20240503T200000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240503T143000
 LOCATION:Jaap Kosterstraat 4\, 3286 VT\, Klaaswaal
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Nieuw Talent Orkest Hoeksche Waard
-UID:bb651adb-714f-4199-ab40-3d89befac7b0
+UID:b17556e7-b8e0-4eb0-ab54-04d4014134b2
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke eerste vrijdag van de maand is het een feestje bij Sportc
@@ -2560,56 +2309,24 @@ DESCRIPTION:Elke eerste vrijdag van de maand is het een feestje bij Sportc
  n een zwemdiploma zijn welkom. Ouders die willen kijken\, kunnen plaatsne
  men in de horeca.
 DTEND:20240503T210000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240503T183000
 LOCATION:Sportcentrum de Boogerd\, Hortensiastraat 5\, 3261 BG\, Oud-Beije
  rland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Discozwemmen
-UID:35fbb1f3-ec67-4535-b435-087ad359abe3
+UID:d605a233-e810-4b97-98ba-92661b096322
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Museum Hoeksche Waard start met nieuwe tentoonstellingIn de Ho
- eksche Waard verbouwden veel boeren in de 17e tot halverwege de 19e eeuw 
- meekrap. Dit deden zij voor de rode kleurstof\, die uit de wortels werd g
- ewonnen. In goede jaren resulteerde de teelt van dit plantje in een hoog 
- inkomen en veel werkgelegenheid. Over rood valt nog veel meer te vertelle
- n. Dat laten we in de tentoonstelling zien die in de komende maanden in M
- useum Hoeksche Waard te bezichtigen is.De expositie is te bezichtigen van
-  23 maart t/m 27 oktober 2024 in museumboerderij Oost-Leeuwenstein\, Dorp
- sstraat 13\, 3274 BB Heinenoord. Voor verdere informatie: www.museumhw.nl
- .U betaalt alleen de toegang tot het museum\; houders van de museumjaarka
- art en vrienden van het museum kunnen gratis naar binnen.
-DTEND:20240504T235900
-DTSTAMP:20240425T020958Z
-DTSTART;VALUE=DATE:20240504
-LOCATION:Dorpsstraat 13\, 3274BB\, Heinenoord
+DESCRIPTION:Een workshop voor kinderen vanaf 8 jaar: tiktok.Opgeven via du
+ events@outlook.com
+DTEND:20240503T213000
+DTSTAMP:20240426T020931Z
+DTSTART:20240503T193000
+LOCATION:Numansdorp
 SEQUENCE:0
-SUMMARY:Hoeksche Waard: Verrassend Rood
-UID:72447e57-25ed-4d30-924f-b3a5008cd879
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Er is kermis op het Vierwiekenplein in Oud-Beijerland\, van wo
- ensdag 24 april tot en met zaterdag 4 mei. Vermaak voor jong en oud!
-DTEND:20240504T235900
-DTSTAMP:20240425T020958Z
-DTSTART;VALUE=DATE:20240504
-LOCATION:Oud-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Koningskermis Oud-Beijerland
-UID:ea4d94ee-b3a1-4d96-93a7-cf6756108877
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:De meivakantie staat voor de deur! Bij de zwembaden in de Hoek
- sche Waard kan je daardoor extra veel vrij zwemmen en zijn er leuke activ
- iteiten. Kijk op de website voor meer informatie en het rooster.
-DTEND:20240504T235900
-DTSTAMP:20240425T020958Z
-DTSTART;VALUE=DATE:20240504
-LOCATION:Hoeksche Waard
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Zwemplezier in de meivakantie
-UID:ec3471ba-2b87-4dac-afd7-d72f1d3457ce
+SUMMARY:Hoeksche Waard: Tiktok voor 8+
+UID:69a07882-07fa-4e1b-b954-3798f8bb54f5
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Oud-Beijerland\, met in het centrum de mooi gelegen Vliet met 
@@ -2630,13 +2347,56 @@ DESCRIPTION:Oud-Beijerland\, met in het centrum de mooi gelegen Vliet met
   maken van een afspraak kun je mailen naar de Historische Vereniging Oud-
  Beijerland.
 DTEND:20240504T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240504
 LOCATION:Historische Vereninging Oud-Beijerland\, Waterstal 1\, 3262 JR\, 
  Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Dorpswandeling
-UID:868ecddc-9e0d-4d52-bedf-bd6818481e24
+UID:bf70a44e-1e12-40d5-a0f0-5cd4cee3227f
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:De meivakantie staat voor de deur! Bij de zwembaden in de Hoek
+ sche Waard kan je daardoor extra veel vrij zwemmen en zijn er leuke activ
+ iteiten. Kijk op de website voor meer informatie en het rooster.
+DTEND:20240504T235900
+DTSTAMP:20240426T020931Z
+DTSTART;VALUE=DATE:20240504
+LOCATION:Hoeksche Waard
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Zwemplezier in de meivakantie
+UID:8cce3e88-9a34-4add-8cc7-f20f11596efd
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Museum Hoeksche Waard start met nieuwe tentoonstellingIn de Ho
+ eksche Waard verbouwden veel boeren in de 17e tot halverwege de 19e eeuw 
+ meekrap. Dit deden zij voor de rode kleurstof\, die uit de wortels werd g
+ ewonnen. In goede jaren resulteerde de teelt van dit plantje in een hoog 
+ inkomen en veel werkgelegenheid. Over rood valt nog veel meer te vertelle
+ n. Dat laten we in de tentoonstelling zien die in de komende maanden in M
+ useum Hoeksche Waard te bezichtigen is.De expositie is te bezichtigen van
+  23 maart t/m 27 oktober 2024 in museumboerderij Oost-Leeuwenstein\, Dorp
+ sstraat 13\, 3274 BB Heinenoord. Voor verdere informatie: www.museumhw.nl
+ .U betaalt alleen de toegang tot het museum\; houders van de museumjaarka
+ art en vrienden van het museum kunnen gratis naar binnen.
+DTEND:20240504T235900
+DTSTAMP:20240426T020931Z
+DTSTART;VALUE=DATE:20240504
+LOCATION:Dorpsstraat 13\, 3274BB\, Heinenoord
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Verrassend Rood
+UID:cff9d852-d15a-42d6-ac35-4c96289d5ae6
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Er is kermis op het Vierwiekenplein in Oud-Beijerland\, van wo
+ ensdag 24 april tot en met zaterdag 4 mei. Vermaak voor jong en oud!
+DTEND:20240504T235900
+DTSTAMP:20240426T020931Z
+DTSTART;VALUE=DATE:20240504
+LOCATION:Oud-Beijerland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Koningskermis Oud-Beijerland
+UID:6f88cda9-db8f-4404-9a9c-db4794a676f2
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:GA JIJ MET ONS MEE OP REIS?Een losse sessie kan je al iets hee
@@ -2655,12 +2415,12 @@ DESCRIPTION:GA JIJ MET ONS MEE OP REIS?Een losse sessie kan je al iets hee
  even en voor meer info stuur ons een pb: maartje@befitandhappy.nl of info
  @knowlegdeofpower.nl of via onze websites.Liefs\, Maartje en Jeffrey
 DTEND:20240504T160000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240504T100000
 LOCATION:Mijnsheerenland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: transformatiereis 2024
-UID:c79a5f32-e2e8-4bab-96c5-437984af4025
+UID:3763e384-6b40-4482-9745-234140e4df66
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
@@ -2683,13 +2443,13 @@ DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
  nismaken met digitale vaardigheden van de 21e eeuw\, heeft de Bibliotheek
   Hoeksche Waard een CoderDojo opgericht in de Hoeksche Waard.
 DTEND:20240504T130000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240504T110000
 LOCATION:Bibliotheek Oud-Beijerland Centrum\, Waterstal 1\, 3262 JR\, Oud-
  Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: (Leren) programmeren tijdens de CoderDojo
-UID:dfbcd62b-fec3-4fc6-b074-0060206e258b
+UID:f86f40d8-bb4d-4afa-bf41-9c55ed0aa55b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Het Landbouwmuseum op Tiengemeten geeft een beeld van de landb
@@ -2709,12 +2469,12 @@ DESCRIPTION:Het Landbouwmuseum op Tiengemeten geeft een beeld van de landb
  nd).De gehele week m.u.v. de maandag zijn de musea geopend van 11.30 - 16
  .30 uur.Voor verdere informatie:: www.landbouwmuseumtiengemeten.nl
 DTEND:20240504T163000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240504T113000
 LOCATION:Tiengemeten 14\, 3284 BE\, Zuid-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Landbouwmuseum Tiengemeten
-UID:63627712-18a7-495f-822f-8b553010cb57
+UID:3e3bb416-c926-4519-bff1-f729b142bccf
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Rien Poortvliet Museum.Rien Poortvliet (1932 - 1995) wordt ook
@@ -2735,12 +2495,12 @@ DESCRIPTION:Rien Poortvliet Museum.Rien Poortvliet (1932 - 1995) wordt ook
  leiders allerlei opdrachten kunnen uitvoeren. Kortom: voor jong en oud ve
  el moois te zien en te beleven!
 DTEND:20240504T163000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240504T113000
 LOCATION:Tiengemeten 14A\, 3284 BE\, Zuid-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Opening Rien Poortvliet Museum op Tiengemeten
-UID:eaa097e4-57bd-4183-89b6-2c63dc785b9d
+UID:fc20faa0-7b3f-4dc1-855c-4680e0932304
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Beeldend kunstenaar Heleen Velthoen toont de komende maanden h
@@ -2765,12 +2525,12 @@ DESCRIPTION:Beeldend kunstenaar Heleen Velthoen toont de komende maanden h
  l\, eventueel in combinatie met andere materialen: echt handwerk!Voor ope
  ningstijden: 0186 685 729
 DTEND:20240504T100000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240504T120000
 LOCATION:Buttervliet 1\, 3281 LK\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Expositie in Het Numans-Dorps-Huis
-UID:277e1975-3aaf-40ca-8e4c-175abe949f3c
+UID:8d3f8e9c-17c6-48cb-8bc7-9dd5341ba0ae
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Van woensdag 24 april tot en met zaterdag 4 mei is de kermis w
@@ -2783,12 +2543,12 @@ DESCRIPTION:Van woensdag 24 april tot en met zaterdag 4 mei is de kermis w
  pcorn.Kijk voor het meest actuele overzicht van attracties op www.oranjeo
  bl.nl.
 DTEND:20240504T170000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240504T130000
 LOCATION:Vierwiekenplein\, Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Kermis Oud-Beijerland
-UID:406e19da-fbbd-439f-b07a-eba1aa6868b1
+UID:0e6444c7-57f0-48f4-9e38-b4371b3cc7e5
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Ontdek het plezier van samen muziek maken.Heb je altijd al een
@@ -2798,36 +2558,176 @@ DESCRIPTION:Ontdek het plezier van samen muziek maken.Heb je altijd al een
  petities ervaar je hoe het is om samen muziek te maken. Ervaring is niet 
  nodig. Meer informatie en aanmelden via www.muziekschoolhoekschewaard.nl
 DTEND:20240504T200000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240504T143000
 LOCATION:Jaap Kosterstraat 4\, 3286 VT\, Klaaswaal
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Nieuw Talent Orkest Hoeksche Waard
-UID:7ab638d7-6bcf-473c-b94f-2202ef158c58
+UID:db1c6ffe-37a6-4f64-bc29-68c84129ae92
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Museum Hoeksche Waard start met nieuwe tentoonstellingIn de Ho
+ eksche Waard verbouwden veel boeren in de 17e tot halverwege de 19e eeuw 
+ meekrap. Dit deden zij voor de rode kleurstof\, die uit de wortels werd g
+ ewonnen. In goede jaren resulteerde de teelt van dit plantje in een hoog 
+ inkomen en veel werkgelegenheid. Over rood valt nog veel meer te vertelle
+ n. Dat laten we in de tentoonstelling zien die in de komende maanden in M
+ useum Hoeksche Waard te bezichtigen is.De expositie is te bezichtigen van
+  23 maart t/m 27 oktober 2024 in museumboerderij Oost-Leeuwenstein\, Dorp
+ sstraat 13\, 3274 BB Heinenoord. Voor verdere informatie: www.museumhw.nl
+ .U betaalt alleen de toegang tot het museum\; houders van de museumjaarka
+ art en vrienden van het museum kunnen gratis naar binnen.
+DTEND:20240505T235900
+DTSTAMP:20240426T020931Z
+DTSTART;VALUE=DATE:20240505
+LOCATION:Dorpsstraat 13\, 3274BB\, Heinenoord
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Verrassend Rood
+UID:f322402e-ac5d-4fae-9cd3-7ede4ed5cb52
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De meivakantie staat voor de deur! Bij de zwembaden in de Hoek
  sche Waard kan je daardoor extra veel vrij zwemmen en zijn er leuke activ
  iteiten. Kijk op de website voor meer informatie en het rooster.
 DTEND:20240505T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240505
 LOCATION:Hoeksche Waard
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Zwemplezier in de meivakantie
-UID:72a3bb57-cf89-4125-9d95-8492704ecca0
+UID:4cead18a-f5d0-42c3-864e-649069650350
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:GA JIJ MET ONS MEE OP REIS?Een losse sessie kan je al iets hee
+ l moois geven\, maar wil je echt de diepte ingaan dan kun je met ons op t
+ ransformatiereis in 2024De paarden zullen jouw de spiegel laten voorhoude
+ n en we gaan de diepte in dmv ademwerk. Daarnaast zullen we nog andere te
+ chnieken toepassen om de reis compleet te makenIn een kleine groep ( 4-6 
+ pers.) creëren we een veilige plek zodat je samen met ons en de groep de 
+ stappen mag gaan maken om persoonlijk te groeien Wat krijg je ervoor:Inta
+ kegesprek10x groepssessies in 20242x 1:1 coach sessies4x Q&A sessies met 
+ de groepWhatsApp groep als veilige basisInformatie:Wanneer: Start zaterda
+ g 3 februari\; Diverse zaterdagen in 2024Waar: Barendrecht en Mijnsheeren
+ landInvestering: €2499 incl. BTW (bedrijven excl btw)Meer informatie en d
+ e exacte data kunnen we via pb sturen.In januari zal een informatieavond 
+ worden gehouden\, waarin we meer over onszelf en het traject vertellenOpg
+ even en voor meer info stuur ons een pb: maartje@befitandhappy.nl of info
+ @knowlegdeofpower.nl of via onze websites.Liefs\, Maartje en Jeffrey
+DTEND:20240505T160000
+DTSTAMP:20240426T020931Z
+DTSTART:20240505T100000
+LOCATION:Mijnsheerenland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: transformatiereis 2024
+UID:a69b4450-936b-45c2-95ba-e6e9a229f261
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Rien Poortvliet Museum.Rien Poortvliet (1932 - 1995) wordt ook
+  wel de man van de boeken genoemd. Vele boeken met verschillende onderwer
+ pen geven een beeld van zijn teken- en schildertalent. Elk jaar wordt een
+  nieuwe tentoonstelling van zijn originele werken samengesteld.Het thema 
+ van de expositie van dit jaar is: ”Toen…….”. Originele werken van illustr
+ aties uit de boeken en van de jaarkalenders geven een beeld van vroeger. 
+ Op verschillende onderwerpen wordt teruggeblikt: het buitenleven\, het in
+ terieur\, leven van de kinderen\, de middenstand\, klederdrachten\, het v
+ ervoer\, van leven tot dood\, het geloof en de oorlog. Voor velen een bli
+ k van herkenning!Ook zijn de boeken van de kabouters van zijn hand over d
+ e hele wereld bekend geworden.De Kabouters wonen nog steeds op de kaboute
+ rzolder. Ook originele aquarellen uit diverse kabouterboeken omringen het
+  kabouterspeelhuis\, de kabouterboot en de voorlees- en knutseltafel. De 
+ kinderen kunnen er naar hartenlust spelen en genieten van alles wat er te
+  zien is.Buiten is een kabouterpad aangelegd\, waar kinderen met hun bege
+ leiders allerlei opdrachten kunnen uitvoeren. Kortom: voor jong en oud ve
+ el moois te zien en te beleven!
+DTEND:20240505T163000
+DTSTAMP:20240426T020931Z
+DTSTART:20240505T113000
+LOCATION:Tiengemeten 14A\, 3284 BE\, Zuid-Beijerland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Opening Rien Poortvliet Museum op Tiengemeten
+UID:5db5322e-448c-4415-83ee-578847461fe9
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Het Landbouwmuseum op Tiengemeten geeft een beeld van de landb
+ ouwmechanisatie (1920-1955). Diverse landbouwmachines en landbouwproducte
+ n tonen de ontwikkeling. Nieuw in de collectie is dit jaar de rosmolen.Op
+  proefveldjes worden graansoorten\, suikerbieten\, aardappelen\, diverse 
+ groenten en de Hoeksche akkerranden geteeld. Op een simulator trekker kun
+ nen de kinderen beleven hoe deze werkt.De meccano expositie mag niet over
+ geslagen worden: In de educatieve ruimte kunnen ouders en kinderen hun ha
+ rt ophalen. Je kunt er naar kijken en genieten en zelfs mee spelen. Korto
+ m\, de moeite waard!Beide musea worden bemand door vrijwilligers. Lijkt h
+ et u ook wat? Maak dan een afspraak om eens een kijkje te komen nemen.Wil
+ t u de musea met een groep bezoeken? Maak dan een afspraak om de verschil
+ lende mogelijkheden te bespreken voor een dagje Tiengemeten!Als u de muse
+ a wilt bezoeken\, moet u eerst met de pont naar het natuureiland Tiengeme
+ ten varen. De pont vertrekt elk heel uur vanaf Nieuwendijk (Zuid-Beijerla
+ nd).De gehele week m.u.v. de maandag zijn de musea geopend van 11.30 - 16
+ .30 uur.Voor verdere informatie:: www.landbouwmuseumtiengemeten.nl
+DTEND:20240505T163000
+DTSTAMP:20240426T020931Z
+DTSTART:20240505T113000
+LOCATION:Tiengemeten 14\, 3284 BE\, Zuid-Beijerland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Landbouwmuseum Tiengemeten
+UID:26aae705-773a-40c7-9e06-f9cfc8fbfd8a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Beeldend kunstenaar Heleen Velthoen toont de komende maanden h
+ aar werk in Numansdorp. Intuïtief begint ze met kleuren te kiezen en gaat
+  aan het werk zonder precies te weten welke richting haar schilderijen zu
+ llen gaan. Soms is ze in gedachten en ziet ze later het werk op het linne
+ n doek vorm krijgen. De focus ligt op het proces en de ontwikkeling van h
+ et schilderij. Durven loslaten.Ze gebruikt verschillende materialen zoals
+  zand\, hout\, stof\, cement\, wol\, acryl\, olieverf\, was\, inkt… Daarn
+ aast creëert ze verrassende effecten door soms iets weg te laten\, met ee
+ n spons te wissen.Heleen schildert al jaren met plezier en wordt geïnspir
+ eerd door het kijken naar kunst in musea.Petra Kleinendorst heeft zowel d
+ e liefde voor textiele handwerken als de Hoekschewaardse natuur van jongs
+  af aan meegekregen. De combinatie van deze twee is terug te vinden in ha
+ ar textielwerk\, vaak schilderijtjes met landschappen en natuurtaferelen\
+ , soms ruimtelijk werk\, traditioneel of modern. Ze maakt ook viltwerk me
+ t wol van de schapen uit de Hoeksche Waard\, waar mogelijk geverfd met pl
+ anten uit de buurt. Wol is een bijzonder materiaal\, warm en op velerlei 
+ manieren te bewerken.Ze volgt regelmatig cursussen om nieuwe technieken t
+ e leren of zich te verbeteren. Er is zó’n veelzijdigheid in het werken me
+ t een lapje stof\, een naald\, draad of wat wol\, met de hand of machinaa
+ l\, eventueel in combinatie met andere materialen: echt handwerk!Voor ope
+ ningstijden: 0186 685 729
+DTEND:20240505T100000
+DTSTAMP:20240426T020931Z
+DTSTART:20240505T120000
+LOCATION:Buttervliet 1\, 3281 LK\, Numansdorp
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Expositie in Het Numans-Dorps-Huis
+UID:96b367d6-35a8-44c4-9e2d-33d9ddb1b6f8
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Ontdek het plezier van samen muziek maken.Heb je altijd al een
+  muziek instrument willen leren bespelen? Of lijkt samen muziek maken je 
+ geweldig? Dan is dit je kans!In Klaaswaal start 6 april het Nieuw Talent 
+ Orkest Hoeksche Waard. Een uniek muziekproject voor volwassenen. In 10 re
+ petities ervaar je hoe het is om samen muziek te maken. Ervaring is niet 
+ nodig. Meer informatie en aanmelden via www.muziekschoolhoekschewaard.nl
+DTEND:20240505T200000
+DTSTAMP:20240426T020931Z
+DTSTART:20240505T143000
+LOCATION:Jaap Kosterstraat 4\, 3286 VT\, Klaaswaal
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Nieuw Talent Orkest Hoeksche Waard
+UID:85f91ea2-2c14-4385-8e10-1cda3c9c4b47
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De meivakantie staat voor de deur! Bij de zwembaden in de Hoek
  sche Waard kan je daardoor extra veel vrij zwemmen en zijn er leuke activ
  iteiten. Kijk op de website voor meer informatie en het rooster.
 DTEND:20240506T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240506
 LOCATION:Hoeksche Waard
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Zwemplezier in de meivakantie
-UID:d716bd68-37a7-47c2-831e-a016663d3323
+UID:653f0927-c1be-4792-9707-bee19aaf2c54
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De Commissie Kunst in de Kerk organiseert permanent wisselende
@@ -2856,13 +2756,13 @@ DESCRIPTION:De Commissie Kunst in de Kerk organiseert permanent wisselende
  op woensdagmiddag van 14.00 tot 17.00 uur in de Protestantse Gemeente De 
  Open Hof in Oud-Beijerland.
 DTEND:20240506T120000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240506T100000
 LOCATION:De Open Hof Oud-Beijerland\, Willem van Vlietstraat 2a\, 3262 GM\
  , Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Expositie met abstracte fotografie in De Open Hof
-UID:6da94b53-df07-4acd-9d82-be8a7186a4b1
+UID:019a4490-17fa-4a30-b3fb-36a0f3fe190b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
@@ -2873,13 +2773,13 @@ DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
  un je terecht bij Regina Snel\, 06 28151182\, of kun je mailen naar linda
  .vanderwal@welzijnhw.nl.
 DTEND:20240506T170000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240506T140000
 LOCATION:Huiskamer van de Wijk Wijkhuis\, Bernhardstraat 25\, 3281 BC\, Nu
  mansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Klaverjassen in de Huiskamer van Numansdorp
-UID:95c056ab-3764-4b2b-affa-967291b25b0d
+UID:f7227cc3-71d6-4bd8-87a8-9f9d670c4e50
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Oud-Beijerland\, met in het centrum de mooi gelegen Vliet met 
@@ -2900,13 +2800,13 @@ DESCRIPTION:Oud-Beijerland\, met in het centrum de mooi gelegen Vliet met
   maken van een afspraak kun je mailen naar de Historische Vereniging Oud-
  Beijerland.
 DTEND:20240507T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240507
 LOCATION:Historische Vereninging Oud-Beijerland\, Waterstal 1\, 3262 JR\, 
  Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Dorpswandeling
-UID:e30cee48-5427-42ef-b44d-ff1f63deb108
+UID:5b59246d-df26-40cc-98c4-8137353aeadd
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De Commissie Kunst in de Kerk organiseert permanent wisselende
@@ -2935,13 +2835,13 @@ DESCRIPTION:De Commissie Kunst in de Kerk organiseert permanent wisselende
  op woensdagmiddag van 14.00 tot 17.00 uur in de Protestantse Gemeente De 
  Open Hof in Oud-Beijerland.
 DTEND:20240507T120000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240507T100000
 LOCATION:De Open Hof Oud-Beijerland\, Willem van Vlietstraat 2a\, 3262 GM\
  , Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Expositie met abstracte fotografie in De Open Hof
-UID:996ac255-d058-40bf-b528-1d27a345fe8c
+UID:a367c171-a5af-4c34-82b8-735ce1a2e129
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In de tuin van Onder de Regenboog\, wonen heel veel elfjes en 
@@ -2949,12 +2849,12 @@ DESCRIPTION:In de tuin van Onder de Regenboog\, wonen heel veel elfjes en
   én natuurlijk iets moois maken.We eindigen rond 15.30 uur met een vuurtj
  e en marshmallows.
 DTEND:20240507T153000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240507T140000
 LOCATION:Goidschalxoordsedijk 65\, 3261 kp\, Oud Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Natuurkids familie-middg
-UID:ef3a6353-9f60-4306-8730-544dd53e5ae1
+UID:8ae4dda5-585a-47bd-be7a-b2d312132cb5
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Oud-Beijerland\, met in het centrum de mooi gelegen Vliet met 
@@ -2975,13 +2875,13 @@ DESCRIPTION:Oud-Beijerland\, met in het centrum de mooi gelegen Vliet met
   maken van een afspraak kun je mailen naar de Historische Vereniging Oud-
  Beijerland.
 DTEND:20240508T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240508
 LOCATION:Historische Vereninging Oud-Beijerland\, Waterstal 1\, 3262 JR\, 
  Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Dorpswandeling
-UID:adbe5153-8fba-45e1-8327-6e00f4bd9a45
+UID:5c9d034e-261f-45ae-ab24-5d233603a96f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Weet jij hoe de heerlijke Hoeksche Chips wordt gemaakt? Je kun
@@ -2994,12 +2894,12 @@ DESCRIPTION:Weet jij hoe de heerlijke Hoeksche Chips wordt gemaakt? Je kun
  hips wordt geproduceerd. Ten slotte maak je een wandeling door de mooie n
  atuurtuin.
 DTEND:20240508T110000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240508T100000
 LOCATION:Hoeksche Hoeve\, Boendersweg 36a\, 3295 LB\, 's-Gravendeel
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Rondleiding Hoeksche Hoeve
-UID:7fe50273-7796-4f57-a982-143372f82e14
+UID:9e4c7255-e983-47b6-8002-869a5150691a
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Weet jij hoe de heerlijke Hoeksche Chips wordt gemaakt? Je kun
@@ -3012,12 +2912,12 @@ DESCRIPTION:Weet jij hoe de heerlijke Hoeksche Chips wordt gemaakt? Je kun
  hips wordt geproduceerd. Ten slotte maak je een wandeling door de mooie n
  atuurtuin.
 DTEND:20240508T143000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240508T133000
 LOCATION:Hoeksche Hoeve\, Boendersweg 36a\, 3295 LB\, 's-Gravendeel
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Rondleiding Hoeksche Hoeve
-UID:81abe8a4-304b-4ffb-9df8-189e2e3f6302
+UID:7bac49c2-fcf2-4c07-9d66-3fd6e25e6600
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Weet jij hoe de heerlijke Hoeksche Chips wordt gemaakt? Je kun
@@ -3030,12 +2930,39 @@ DESCRIPTION:Weet jij hoe de heerlijke Hoeksche Chips wordt gemaakt? Je kun
  hips wordt geproduceerd. Ten slotte maak je een wandeling door de mooie n
  atuurtuin.
 DTEND:20240508T160000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240508T150000
 LOCATION:Hoeksche Hoeve\, Boendersweg 36a\, 3295 LB\, 's-Gravendeel
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Rondleiding Hoeksche Hoeve
-UID:04253dce-39e7-4ab1-9131-3b13af06b543
+UID:6615be33-a642-4660-88ec-4657430917f7
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Oud-Beijerland\, met in het centrum de mooi gelegen Vliet met 
+ daaromheen veel monumentale panden\, is gesticht in 1559 door graaf Lamor
+ aal van Egmont. Hij vernoemde het dorp naar zijn echtgenote Sabina van Be
+ ijeren. Veel van de door Lamoraal van Egmont ontworpen structuur van het 
+ dorp is nog aanwezig. Oud-Beijerland telt 28 rijksmonumenten en 90 gemeen
+ telijke monumenten.DIT GA JE DOENAlvorens de rondleiding word je ontvange
+ n in het Oude Raadhuis. Er is gelegenheid om koffie of thee te drinken\, 
+ en de gids vertelt je iets over het ontstaan van Oud-Beijerland en het Ou
+ de Raadhuis. Onder leiding van één of meer gidsen loop je langs de monume
+ ntale panden\, onder andere aan de West-Voorstraat en de Havendam. Je sto
+ pt even bij de oude zadelmakerij.INFORMATIEDe rondleiding duurt ongeveer 
+ een uur en is te boeken op dinsdag tot en met zaterdag. De maximale groep
+ sgrootte is 10 personen voor 1 gids\, en is dus ideaal voor een groep vri
+ enden\, een familie of voor een vereniging. Is de groep groter\, dan word
+ t de rondleiding gedaan door meerdere gidsen. Voor meer informatie en het
+  maken van een afspraak kun je mailen naar de Historische Vereniging Oud-
+ Beijerland.
+DTEND:20240509T235900
+DTSTAMP:20240426T020931Z
+DTSTART;VALUE=DATE:20240509
+LOCATION:Historische Vereninging Oud-Beijerland\, Waterstal 1\, 3262 JR\, 
+ Oud-Beijerland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Dorpswandeling
+UID:a80042f1-d260-4fb7-9ac7-1b0cbef22b0e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Speciaal voor natuurliefhebbers die op Hemelvaart vroeg uit de
@@ -3046,12 +2973,12 @@ DESCRIPTION:Speciaal voor natuurliefhebbers die op Hemelvaart vroeg uit de
   15\,00Ledenprijs:€ 10\,50Kinderen t/m 12 jaarNormaal:€ 7\,50Ledenprijs:€
   5\,25
 DTEND:20240509T100000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240509T070000
 LOCATION:Tiengemeten
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Dauwtrappen op Tiengemeten
-UID:0caaf50f-34f6-4bae-bf45-833ae5802e8b
+UID:9b71cb12-e97a-4ff2-98f5-ee692b67a0ef
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Beste Redactie\,Op Hemelvaartsdag vindt er in de graanschuur e
@@ -3067,32 +2994,12 @@ DESCRIPTION:Beste Redactie\,Op Hemelvaartsdag vindt er in de graanschuur e
  urant de KoningshoeveBotweg 1b3286 LB Klaaswaalwww.dekoningshoeve.nl0186 
  – 57 93 97 / 06 – 20 11 11 14
 DTEND:20240509T160000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240509T090000
 LOCATION:Botweg 1b\, 3286LB\, Klaaswaal
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: The Pokevent
-UID:a89b2408-ae58-4a73-82a9-100abfa8a8b7
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:De eerste Poldermarkt van 2024Donderdag 9 mei\, Hemelvaartsdag
- \, vindt de Poldermarkt in combinatie met Tour langs de Boer plaats bij M
- aria Hoeve Strijen Tijdens deze dag kun je genieten van een gezellige mar
- kt met diverse standhouders met overheerlijke streekproducten 🥖🍯🫖🍫 Ku
- nnen de kinderen deelnemen aan verschillende activiteiten 🔎\, zich mooi 
- laten schminken 🎨 of hun energie kwijt op het springkussen.Voor meer inf
- ormatie omtrent alle deelnemende boerenerven\, boerderijwinkels\, musea e
- n molens kijk www.tourlangsdeboer-hw.nl. Hier koop je tevens voor € 5\,00
-  per kind een tourkaart. Met deze tourkaart kun je starten op een van de 
- 10 locaties.🗓 Donderdag 9 mei (Hemelvaartsdag)🕙 10.00 - 16.00 uur🏚 Mar
- ia Hoeve\, Weelsedijk 61\, Strijen
-DTEND:20240509T160000
-DTSTAMP:20240425T020958Z
-DTSTART:20240509T100000
-LOCATION:Strijen
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Poldermarkt Maria Hoeve
-UID:41dd97ab-efe6-4856-ba1a-ef547fdc95fb
+UID:4c40dd9d-43a2-4dad-b8d5-53e788d913ff
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De Commissie Kunst in de Kerk organiseert permanent wisselende
@@ -3121,13 +3028,13 @@ DESCRIPTION:De Commissie Kunst in de Kerk organiseert permanent wisselende
  op woensdagmiddag van 14.00 tot 17.00 uur in de Protestantse Gemeente De 
  Open Hof in Oud-Beijerland.
 DTEND:20240509T120000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240509T100000
 LOCATION:De Open Hof Oud-Beijerland\, Willem van Vlietstraat 2a\, 3262 GM\
  , Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Expositie met abstracte fotografie in De Open Hof
-UID:80f14218-c431-42d1-8e5a-96f3d9cc8406
+UID:d4ef97ea-b128-4745-a719-e92a3ac1aca0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Tour langs de Boer het leukste dagje uit op Hemelvaartsdag.Een
@@ -3135,12 +3042,12 @@ DESCRIPTION:Tour langs de Boer het leukste dagje uit op Hemelvaartsdag.Een
  r de deelnemers\, kaartverkoop en de activiteiten op deze dag kunt u binn
  enkort vinden op de website.
 DTEND:20240509T160000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240509T100000
 LOCATION:Maasweg 3\, 3271LH\, Mijnsheerenland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Tour langs de Boer
-UID:597e71fa-8ff5-4026-82c3-0aed830ee6c3
+UID:09d4d6d4-045f-4e0a-aae8-f99f3c5c6e1b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Tour langs de boer bij Museum Hoeksche Waard.Museum Hoeksche W
@@ -3160,24 +3067,44 @@ DESCRIPTION:Tour langs de boer bij Museum Hoeksche Waard.Museum Hoeksche W
  ei tussen 10.00 en 16.00 uur.Voor kinderen is de toegang gratis\, volwass
  enen betalen € 2\,50.
 DTEND:20240509T160000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240509T100000
 LOCATION:Dorpsstraat 13\, 3274BB\, Heinenoord
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Tour langs de boer bij Museum Hoeksche Waard
-UID:c35ed8ee-baf3-47ef-9733-84ae2e693f47
+UID:ce24ef53-86fc-4e2a-98bb-db6ab2465368
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:De eerste Poldermarkt van 2024Donderdag 9 mei\, Hemelvaartsdag
+ \, vindt de Poldermarkt in combinatie met Tour langs de Boer plaats bij M
+ aria Hoeve Strijen Tijdens deze dag kun je genieten van een gezellige mar
+ kt met diverse standhouders met overheerlijke streekproducten 🥖🍯🫖🍫 Ku
+ nnen de kinderen deelnemen aan verschillende activiteiten 🔎\, zich mooi 
+ laten schminken 🎨 of hun energie kwijt op het springkussen.Voor meer inf
+ ormatie omtrent alle deelnemende boerenerven\, boerderijwinkels\, musea e
+ n molens kijk www.tourlangsdeboer-hw.nl. Hier koop je tevens voor € 5\,00
+  per kind een tourkaart. Met deze tourkaart kun je starten op een van de 
+ 10 locaties.🗓 Donderdag 9 mei (Hemelvaartsdag)🕙 10.00 - 16.00 uur🏚 Mar
+ ia Hoeve\, Weelsedijk 61\, Strijen
+DTEND:20240509T160000
+DTSTAMP:20240426T020931Z
+DTSTART:20240509T100000
+LOCATION:Strijen
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Poldermarkt Maria Hoeve
+UID:e1b746c0-2a8d-410f-a27c-06984bd9e0d0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Runningteam 222 organiseert ook dit jaar weer de bekende puzze
  lrit door de Hoeksche Waard.Naast een leuke middag dwars door de prachtig
  e Hoeksche Waard\, kunt u er ook nog eens hele mooie prijzen mee winnen.
 DTEND:20240509T170000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240509T130000
 LOCATION:Sassedijk 6A 20\, 3292LD\, Strijensas
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Auto puzzelrit
-UID:67a55c42-75f0-4ad5-818c-2b1084099374
+UID:b7a79e60-d3ad-4993-9883-c4c3b994df20
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De Commissie Kunst in de Kerk organiseert permanent wisselende
@@ -3206,13 +3133,13 @@ DESCRIPTION:De Commissie Kunst in de Kerk organiseert permanent wisselende
  op woensdagmiddag van 14.00 tot 17.00 uur in de Protestantse Gemeente De 
  Open Hof in Oud-Beijerland.
 DTEND:20240510T120000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240510T100000
 LOCATION:De Open Hof Oud-Beijerland\, Willem van Vlietstraat 2a\, 3262 GM\
  , Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Expositie met abstracte fotografie in De Open Hof
-UID:08e3f823-be07-4379-8f5a-7630e26448a6
+UID:44d22fda-d857-4180-9b96-049a903ac532
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:𝐕𝐫𝐢𝐣𝐝𝐚𝐠 𝟏𝟎 𝐦𝐞𝐢: 𝐃𝐢𝐬𝐜𝐨𝐳𝐰𝐞𝐦𝐦𝐞𝐧 𝐛𝐢𝐣 𝐙
@@ -3223,12 +3150,12 @@ DESCRIPTION:𝐕𝐫𝐢𝐣𝐝𝐚𝐠 𝟏𝟎 𝐦𝐞𝐢: 𝐃𝐢𝐬𝐜
  0 mei alvast in je agenda!10 mei 19:00 tot 21:00 uurSchenkeltje 7b\, 3295
   KK 's-Gravendeel€ 7\,95 + drankje en patat
 DTEND:20240510T210000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240510T190000
 LOCATION:Schenkeltje 7B\, 3295 KK\, 's-Gravendeel
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Discozwemmen bij Zwembad de Wellen
-UID:3d6a8d67-ea58-4e2e-a4d7-346abe45f8c3
+UID:d1a541b3-f176-4d91-8604-6bb7a6165bff
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op zaterdag 11 mei is er voor 2CV-rijders een Lelijke Eendjes 
@@ -3248,12 +3175,12 @@ DESCRIPTION:Op zaterdag 11 mei is er voor 2CV-rijders een Lelijke Eendjes
  gaan van deze autootjes in het haventje van Numansdorp waar zij zullen st
  oppen voor de lunch.
 DTEND:20240511T170000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240511T100000
 LOCATION:Achterzeedijk 9\, 2991 SB\, Barendrecht
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Hoeksche Waard Puzzelrit voor 2CV's
-UID:5c671c0a-aa41-47db-a6de-aadcefba3ca9
+UID:5ee95a33-b61d-44f2-a9dd-5a193d7297b9
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Ben jij tussen de 5 en 12 jaar en een echte spoorzoeker? Kom d
@@ -3264,12 +3191,12 @@ DESCRIPTION:Ben jij tussen de 5 en 12 jaar en een echte spoorzoeker? Kom d
  n…KostenVolwassenNormaal:€ 8\,50Ledenprijs:€ 5\,95Kinderen t/m 12 jaarNor
  maal:€ 8\,50Ledenprijs:€ 5\,95
 DTEND:20240511T124500
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240511T101500
 LOCATION:Nieuwendijk 1\, 3284BE\, Zuid Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: OERRR Op zoek naar diersporen op Tiengemeten
-UID:8f2290d8-4d75-426f-82ab-98c81cbf1323
+UID:9d3c6237-7aef-4fdd-9958-4860c268d126
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
@@ -3292,13 +3219,48 @@ DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
  nismaken met digitale vaardigheden van de 21e eeuw\, heeft de Bibliotheek
   Hoeksche Waard een CoderDojo opgericht in de Hoeksche Waard.
 DTEND:20240511T130000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240511T110000
 LOCATION:Bibliotheek Oud-Beijerland Centrum\, Waterstal 1\, 3262 JR\, Oud-
  Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: (Leren) programmeren tijdens de CoderDojo
-UID:43b6e927-3220-4b1f-8ddf-c0b7ffbdbbe0
+UID:37796aa5-01a9-4d4e-b00d-acdf183fb8bb
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:De Commissie Kunst in de Kerk organiseert permanent wisselende
+  exposities in de Omloop van De Open Hof in Oud-Beijerland. Dit keer is h
+ et een expositie van twee fotografen\, Peter de Groot en Janneke Hempel. 
+ Het gaat dan vooral om abstracte fotografie.Peter de Groot (1973) is schr
+ ijver\, dichter en beeldend kunstenaar. Peter gebruikt fotografie om tot 
+ abstracte beelden te komen. Hij experimenteert veel en maakt vooral veel 
+ foto’s om tot geniale werken te komen. "Ik maak meer slechte foto's\, dan
+  goede. Dat is niet erg. Zolang de goede maar heel goed zijn." In 1993 wo
+ n Peter de 'Kleurenfoto van het Jaar' bij fotoclub de Hoeksche Waard. In 
+ 2021 pakte hij het abstracte fotograferen pas echt op. Wie zijn werk ziet
+ \, snapt zijn bedoeling een stuk beter.Foto’s maken heeft Janneke Hempel 
+ altijd al leuk gevonden. Ze kocht op haar 12e haar eerste fototoestel van
+  haar eerst verdiende geld. Dat was toen nog een simpel apparaat met cass
+ ettes erin\; het was analoog\, dus er moesten kritisch foto’s worden gema
+ akt\, want het ontwikkelen was duur. Op haar 19e ging ze een stapje verde
+ r en heeft ze een analoge spiegelreflexcamera aangeschaft. “Daarmee heb i
+ k veel macro- en natuurfoto’s gemaakt. En nu in het digitale tijdperk\, i
+ nmiddels met een systeemcamera\, zijn de mogelijkheden onbeperkt. Door he
+ t vele foto’s maken\, leer je ook anders kijken en vind ik het maken van 
+ abstracte foto’s een mooie toevoeging. Details\, waar je anders aan voorb
+ ij zou gaan\, worden zichtbaar. Kleuren zijn vaak erg mooi en het is nooi
+ t hetzelfde. Dat wil ik dan ook graag laten zien in deze fotoserie.De exp
+ ositie is te bekijken maandag t/m vrijdag van 10.00 tot 12.00 uur en ook 
+ op woensdagmiddag van 14.00 tot 17.00 uur in de Protestantse Gemeente De 
+ Open Hof in Oud-Beijerland.
+DTEND:20240513T120000
+DTSTAMP:20240426T020931Z
+DTSTART:20240513T100000
+LOCATION:De Open Hof Oud-Beijerland\, Willem van Vlietstraat 2a\, 3262 GM\
+ , Oud-Beijerland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Expositie met abstracte fotografie in De Open Hof
+UID:fd49c11e-8223-45a2-9c6f-5e7cb3cd80e9
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
@@ -3309,13 +3271,13 @@ DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
  un je terecht bij Regina Snel\, 06 28151182\, of kun je mailen naar linda
  .vanderwal@welzijnhw.nl.
 DTEND:20240513T170000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240513T140000
 LOCATION:Huiskamer van de Wijk Wijkhuis\, Bernhardstraat 25\, 3281 BC\, Nu
  mansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Klaverjassen in de Huiskamer van Numansdorp
-UID:852092f1-e40c-4a3b-921f-bb630c54ae9b
+UID:ffa61cc3-2402-466c-a7e8-dd226d279334
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Kom lekker in beweging tijdens het ‘Be Fit and Happy HOUR’! He
@@ -3325,12 +3287,12 @@ DESCRIPTION:Kom lekker in beweging tijdens het ‘Be Fit and Happy HOUR’! He
  portkleding en 2 volle flesjes water mee als gewichtjes. Het sportuurtje 
  is geschikt voor iedereen!
 DTEND:20240514T203000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240514T193000
 LOCATION:van Cromstrijensingel 3\, 3281 ST\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Wandel-\, mindfulness-\, en bootcamp-sportuurtje
-UID:4cdf8a0e-f667-4299-98f1-b26ce35ce810
+UID:e9f70c8a-a029-4afc-a504-7c62cd7f4111
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Weet jij hoe de heerlijke Hoeksche Chips wordt gemaakt? Je kun
@@ -3343,12 +3305,12 @@ DESCRIPTION:Weet jij hoe de heerlijke Hoeksche Chips wordt gemaakt? Je kun
  hips wordt geproduceerd. Ten slotte maak je een wandeling door de mooie n
  atuurtuin.
 DTEND:20240515T110000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240515T100000
 LOCATION:Hoeksche Hoeve\, Boendersweg 36a\, 3295 LB\, 's-Gravendeel
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Rondleiding Hoeksche Hoeve
-UID:8b2fb233-1aa9-405a-9bb5-079e04ae0416
+UID:048ab628-ba35-4cef-9efb-178689171d4a
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Weet jij hoe de heerlijke Hoeksche Chips wordt gemaakt? Je kun
@@ -3361,12 +3323,12 @@ DESCRIPTION:Weet jij hoe de heerlijke Hoeksche Chips wordt gemaakt? Je kun
  hips wordt geproduceerd. Ten slotte maak je een wandeling door de mooie n
  atuurtuin.
 DTEND:20240515T143000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240515T133000
 LOCATION:Hoeksche Hoeve\, Boendersweg 36a\, 3295 LB\, 's-Gravendeel
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Rondleiding Hoeksche Hoeve
-UID:8310e1a6-52f5-47cf-a2ef-b4a632d3accf
+UID:173789ab-96f4-4449-9b29-43d172cd9fe0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Weet jij hoe de heerlijke Hoeksche Chips wordt gemaakt? Je kun
@@ -3379,12 +3341,12 @@ DESCRIPTION:Weet jij hoe de heerlijke Hoeksche Chips wordt gemaakt? Je kun
  hips wordt geproduceerd. Ten slotte maak je een wandeling door de mooie n
  atuurtuin.
 DTEND:20240515T160000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240515T150000
 LOCATION:Hoeksche Hoeve\, Boendersweg 36a\, 3295 LB\, 's-Gravendeel
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Rondleiding Hoeksche Hoeve
-UID:d689f8e0-b6b3-4382-92de-eda9c911d801
+UID:0055b4df-c2c4-4bb2-b18f-8a3391965e2f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Geniet samen met je geliefde\, vrienden en/of familie van een 
@@ -3394,22 +3356,22 @@ DESCRIPTION:Geniet samen met je geliefde\, vrienden en/of familie van een
  t in elk restaurant een heerlijke gang met een speciaal uitgekozen\, bijp
  assende wijn. Tussendoor wandel je door de sfeervolle straten.
 DTEND:20240516T223000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240516T183000
 LOCATION:Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Food La Route
-UID:acc8929c-f1a9-43be-a1f2-c07408c871af
+UID:70769e90-e34a-4cf6-963d-9f0dcdaff650
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke even week op vrijdag van 8.30 tot 10.30
 DTEND:20240517T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240517
 LOCATION:Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Koffie en spelen Mini Wereld
-UID:addcbff0-db95-4cb3-a87d-e54a4e4880d0
+UID:3f16ed5a-1e58-4fd7-9240-550854354859
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op vrijdag 17 mei organiseert de LHBTI+ belangenvereniging Hoe
@@ -3420,12 +3382,12 @@ DESCRIPTION:Op vrijdag 17 mei organiseert de LHBTI+ belangenvereniging Hoe
  osten van de consumpties zijn voor eigen rekening.Voor meer informatie\, 
  kijk op www.lhbthw.nl
 DTEND:20240517T220000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240517T200000
 LOCATION:West-Voorstraat 23\, Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Lenteborrel LHBTI+ Hoeksche Waard
-UID:fbc904af-73cb-48e5-ae80-1e6cafb7a592
+UID:cb6d702d-3c34-4023-8a17-249a371ec9bd
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Zaterdag 18 Mei - Brocante Markt Klein FrankrijkOp het eveneme
@@ -3443,12 +3405,12 @@ DESCRIPTION:Zaterdag 18 Mei - Brocante Markt Klein FrankrijkOp het eveneme
  om/brocantemarktkleinfrankrijk https://www.facebook.com/events/1615868395
  929517https://www.instagram.com/klein_frankrijk
 DTEND:20240518T170000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240518T090000
 LOCATION:Vrouwehuisjesweg 1\, 3271LX\, Mijnsheerenland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Brocante Markt Klein Frankrijk
-UID:56e35485-1a3d-4464-9afa-99f9b1f51bad
+UID:e21412aa-b1f4-402c-8231-fc5921986516
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
@@ -3471,13 +3433,13 @@ DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
  nismaken met digitale vaardigheden van de 21e eeuw\, heeft de Bibliotheek
   Hoeksche Waard een CoderDojo opgericht in de Hoeksche Waard.
 DTEND:20240518T130000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240518T110000
 LOCATION:Bibliotheek Oud-Beijerland Centrum\, Waterstal 1\, 3262 JR\, Oud-
  Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: (Leren) programmeren tijdens de CoderDojo
-UID:2f772733-e46b-4f61-b6b7-68bd1a97a0ca
+UID:741a286f-c7e0-4f64-978a-aed105ba710b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op zaterdag 18 mei organiseert Jongerencentrum The Hangout in 
@@ -3493,12 +3455,12 @@ DESCRIPTION:Op zaterdag 18 mei organiseert Jongerencentrum The Hangout in
  an een polsbandje van ons).(voor volwassenen wordt er op zondag 19 mei ee
  n PPO georganiseerd\, zie onze facebook-pagina voor meer informatie)
 DTEND:20240518T220000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240518T190000
 LOCATION:Nijverheidstaat 3\, 3264 XL\, Nieuw-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Peter's Pinball Open Jeugd Toernooi 2024
-UID:070b9a72-9564-471b-b91e-8fa89aba68c6
+UID:285fb0ed-0e4f-4bd8-b148-712df7e8f457
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Deze wedstrijd is voor alle liefhebbers (jong en oud) van flip
@@ -3510,12 +3472,12 @@ DESCRIPTION:Deze wedstrijd is voor alle liefhebbers (jong en oud) van flip
  aan de wedstrijd\, maar het hoeft niet. Deelname: 15 euro.Inschrijven bij
   Peter Koch. Tel. 06-13991926 of per e-mail: inkochnito @ kpnplanet.nl
 DTEND:20240519T220000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240519T140000
 LOCATION:Nijverheidstraat 3\, 3264 XL\, Nieuw-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Peter's Pinball Open
-UID:5e1e13c1-fab9-4f11-87f4-af38b7938121
+UID:16464565-0bcb-4387-a18d-10fe41b5ceb8
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op 20 mei worden de schapen van de kinderboerderij van Recreat
@@ -3526,12 +3488,12 @@ DESCRIPTION:Op 20 mei worden de schapen van de kinderboerderij van Recreat
  olspinnen etc. Ook zijn er verschillende stands die informatie geven over
   bepaalde streek producten.
 DTEND:20240520T160000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240520T110000
 LOCATION:Vrouwenhuisjesweg 1\, 3271LX\, Mijnsheerenland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Schaapscheerdersfeest
-UID:516787e8-fe45-41c9-962a-b3679886eacf
+UID:0e8acd65-5f3a-4c44-9fa0-6621c64fd1e8
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
@@ -3542,23 +3504,23 @@ DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
  un je terecht bij Regina Snel\, 06 28151182\, of kun je mailen naar linda
  .vanderwal@welzijnhw.nl.
 DTEND:20240520T170000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240520T140000
 LOCATION:Huiskamer van de Wijk Wijkhuis\, Bernhardstraat 25\, 3281 BC\, Nu
  mansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Klaverjassen in de Huiskamer van Numansdorp
-UID:4e1f0484-4caf-4cc5-a4c3-ea1bb6b60b96
+UID:1b7fc6ad-21f7-4c59-a935-e340ca528127
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:4 avonden wandelen in Oud-Beijerland
 DTEND:20240521T210100
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240521T190000
 LOCATION:Bijl 1\, 3262 ja\, Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Avond4daagse
-UID:4e982d04-47f9-402a-be28-b4d61ca56a0c
+UID:80ac20a8-578b-4aff-a5a6-59490845d851
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Weet jij hoe de heerlijke Hoeksche Chips wordt gemaakt? Je kun
@@ -3571,42 +3533,55 @@ DESCRIPTION:Weet jij hoe de heerlijke Hoeksche Chips wordt gemaakt? Je kun
  hips wordt geproduceerd. Ten slotte maak je een wandeling door de mooie n
  atuurtuin.
 DTEND:20240522T110000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240522T100000
 LOCATION:Hoeksche Hoeve\, Boendersweg 36a\, 3295 LB\, 's-Gravendeel
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Rondleiding Hoeksche Hoeve
-UID:aee52916-9bc5-47d7-a34c-d34ef630974a
+UID:46a77c89-e678-4d83-a47e-5b1c3401c75c
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:4 avonden wandelen in Oud-Beijerland
 DTEND:20240522T210100
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240522T190000
 LOCATION:Bijl 1\, 3262 ja\, Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Avond4daagse
-UID:36989bb7-0041-443e-be5b-46c3aa9dc454
+UID:82c7b652-bf1d-4f95-bfb1-415b82fe1926
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:4 avonden wandelen in Oud-Beijerland
 DTEND:20240523T210100
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240523T190000
 LOCATION:Bijl 1\, 3262 ja\, Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Avond4daagse
-UID:c223af68-e04b-4a8f-b9a4-49d5052d3bef
+UID:e2c1301c-05f1-45d5-9642-163a411ad8db
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Wegens succes herhaald: op donderdagavond 23 mei is er weer ee
+ n workshop leren tas maken. Verschillende maten\, kleuren en modellen zij
+ n mogelijk. Geef je keuze door als je je opgeeft via de webshop van numan
+ sdorpshuis.nl. De workshop kost 69\,95 en begint om 19.30 uur.
+DTEND:20240523T223000
+DTSTAMP:20240426T020931Z
+DTSTART:20240523T193000
+LOCATION:Numansdorp
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Workshop leren tas maken
+UID:1ee6687e-3fd1-4abe-ac32-437827265d8c
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:4 avonden wandelen in Oud-Beijerland
 DTEND:20240524T210100
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240524T190000
 LOCATION:Bijl 1\, 3262 ja\, Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Avond4daagse
-UID:869fe417-e6e2-4e21-89f6-0f7c7e6d949f
+UID:5cdbe6b6-2354-4db2-a65b-adab95ccd13a
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Ontdek het prachtige eiland Tiengemeten tijdens de Trail Tieng
@@ -3616,12 +3591,12 @@ DESCRIPTION:Ontdek het prachtige eiland Tiengemeten tijdens de Trail Tieng
   per persoon. Zaterdag 25 mei 2024.Schrijf je snel in\, want er is maar p
  laats voor 50 deelnemers!
 DTEND:20240525T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240525
 LOCATION:Tiengemeten
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Trail Tiengemeten
-UID:a5d92e9d-f6a6-4680-86b9-ea21c35da891
+UID:0d217f0e-8b03-41e2-b6d2-a21a0756ed9b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Ons 2e Hoeksch Groen Festival wordt georganiseerd op zaterdag 
@@ -3633,52 +3608,12 @@ DESCRIPTION:Ons 2e Hoeksch Groen Festival wordt georganiseerd op zaterdag
   een gratis kop koffie\, thee of limonade! Tot ziens en… kom je ook op de
   fiets?
 DTEND:20240525T170000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240525T100000
 LOCATION:Stougjesdijk 126\, 3271 KG\, Mijnsheerenland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Hoeksch Groen Festival
-UID:ca9ec627-c170-4483-b9a3-9ff4d6effe58
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Zaterdag 25 mei houdt WSV Binnenmaas een open dag van 11.00uur
-  tot 15.00uur. Voor iedereen die wil kennis maken met jeugdzeilen\, zeile
- n voor volwassenen\, en roeien voor volwassenen. Een enthousiast team van
-  vrijwilligers staat klaar om je te informeren en of mee te nemen in een 
- zeilboot of roeiboot. Kom je ook?
-DTEND:20240525T150000
-DTSTAMP:20240425T020958Z
-DTSTART:20240525T110000
-LOCATION:Laan van Moerkerken 27A\, 3271AH\, Mijnsheerenland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Open dag Watersportvereniging Binnenmaas
-UID:575d0254-559c-40f1-9f46-944d82234b5d
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Kom en vier de lente met ons op het Lentefestival van Muziekve
- reniging Prinses Juliana op 25 mei! Op zaterdag 25 mei verwelkomen we jul
- lie graag op ons Lentefestival\, een dag vol plezier\, spelletjes en muzi
- ek voor het hele gezin! Bekijk onze plattegrond om een idee te krijgen wa
- t er allemaal te doen is:Rommelmarkt: Snuffel door de kraampjes en ontdek
-  verborgen schatten!Oud Hollandse spelletjes: Herleef de nostalgische mom
- enten met leukste spellen voor jong en oud!Game corner: Waag een virtuele
-  sprong in de wereld van VR of versla je vrienden in een spannend potje p
- inball!Eten en drink kraampjes: Laat je smaakpapillen verwennen met heerl
- ijke lekkernijen en verfrissende drankjes!Kids Area: Laat de kleintjes zi
- ch uitleven op het springkussen\, laat ze omtoveren tot hun favoriete per
- sonages met schminken\, en laat ze hun eigen meesterwerk creëren door cup
- cakes te versieren!Loterij: Doe mee en maak kans op fantastische prijzen!
- Carwash: Laat je auto weer stralen terwijl je geniet van al het vermaak!L
- ive muziek: Deze dag is uiteraard niet compleet zonder muziek.Mis deze ge
- weldige dag vol gezelligheid en vermaak niet! Noteer 25 mei alvast in je 
- agenda en vergeet niet om je vrienden en familie mee te nemen.
-DTEND:20240525T170000
-DTSTAMP:20240425T020958Z
-DTSTART:20240525T110000
-LOCATION:Industrieweg 5\, 3286BW\, Klaaswaal
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Lentefestival
-UID:c175c85d-bb9c-4f61-acf1-aa7578c8bb1f
+UID:0c9cc27c-93dc-4331-9e94-6781d9bd57ec
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
@@ -3701,13 +3636,68 @@ DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
  nismaken met digitale vaardigheden van de 21e eeuw\, heeft de Bibliotheek
   Hoeksche Waard een CoderDojo opgericht in de Hoeksche Waard.
 DTEND:20240525T130000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240525T110000
 LOCATION:Bibliotheek Oud-Beijerland Centrum\, Waterstal 1\, 3262 JR\, Oud-
  Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: (Leren) programmeren tijdens de CoderDojo
-UID:014dc361-e394-495d-9788-fc7e0dd5a503
+UID:1ada9a3b-02c8-451a-be6b-6e6308cb6bc7
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Zaterdag 25 mei houdt WSV Binnenmaas een open dag van 11.00uur
+  tot 15.00uur. Voor iedereen die wil kennis maken met jeugdzeilen\, zeile
+ n voor volwassenen\, en roeien voor volwassenen. Een enthousiast team van
+  vrijwilligers staat klaar om je te informeren en of mee te nemen in een 
+ zeilboot of roeiboot. Kom je ook?
+DTEND:20240525T150000
+DTSTAMP:20240426T020931Z
+DTSTART:20240525T110000
+LOCATION:Laan van Moerkerken 27A\, 3271AH\, Mijnsheerenland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Open dag Watersportvereniging Binnenmaas
+UID:44180cb8-a953-4b65-a75b-c5cf2da5f8ee
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Kom en vier de lente met ons op het Lentefestival van Muziekve
+ reniging Prinses Juliana op 25 mei! Op zaterdag 25 mei verwelkomen we jul
+ lie graag op ons Lentefestival\, een dag vol plezier\, spelletjes en muzi
+ ek voor het hele gezin! Bekijk onze plattegrond om een idee te krijgen wa
+ t er allemaal te doen is:Rommelmarkt: Snuffel door de kraampjes en ontdek
+  verborgen schatten!Oud Hollandse spelletjes: Herleef de nostalgische mom
+ enten met leukste spellen voor jong en oud!Game corner: Waag een virtuele
+  sprong in de wereld van VR of versla je vrienden in een spannend potje p
+ inball!Eten en drink kraampjes: Laat je smaakpapillen verwennen met heerl
+ ijke lekkernijen en verfrissende drankjes!Kids Area: Laat de kleintjes zi
+ ch uitleven op het springkussen\, laat ze omtoveren tot hun favoriete per
+ sonages met schminken\, en laat ze hun eigen meesterwerk creëren door cup
+ cakes te versieren!Loterij: Doe mee en maak kans op fantastische prijzen!
+ Carwash: Laat je auto weer stralen terwijl je geniet van al het vermaak!L
+ ive muziek: Deze dag is uiteraard niet compleet zonder muziek.Mis deze ge
+ weldige dag vol gezelligheid en vermaak niet! Noteer 25 mei alvast in je 
+ agenda en vergeet niet om je vrienden en familie mee te nemen.
+DTEND:20240525T170000
+DTSTAMP:20240426T020931Z
+DTSTART:20240525T110000
+LOCATION:Industrieweg 5\, 3286BW\, Klaaswaal
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Lentefestival
+UID:077b1cd6-3bbb-4b07-b807-4480dc03e1ab
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Rock\, blues en pop met MAYDAY Zondagmiddag 26 mei is het tijd
+  voor swingende live muziek in Het Numans- Dorps-huis. Vier muzikanten en
+  een zangeres brengen bekende en minder bekende nummers in stijlen die va
+ riëren van een enkele ballad tot pop/rock\, funk en blues. Kom luisteren 
+ of dans mee.Het optreden begint om 15 uur en is gratis. Reserveer wel! vi
+ a de webshop van numansdorpshuis.nl
+DTEND:20240526T170000
+DTSTAMP:20240426T020931Z
+DTSTART:20240526T150000
+LOCATION:Numansdorp
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: live muziek
+UID:0c7b0fff-a81b-4dcf-9386-222f5b74901e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
@@ -3718,13 +3708,13 @@ DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
  un je terecht bij Regina Snel\, 06 28151182\, of kun je mailen naar linda
  .vanderwal@welzijnhw.nl.
 DTEND:20240527T170000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240527T140000
 LOCATION:Huiskamer van de Wijk Wijkhuis\, Bernhardstraat 25\, 3281 BC\, Nu
  mansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Klaverjassen in de Huiskamer van Numansdorp
-UID:39563e05-16ff-449e-96b1-f04e9e148ca5
+UID:ec363fee-3c0f-4479-ac82-15c15a8aae24
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Kom lekker in beweging tijdens het ‘Be Fit and Happy HOUR’! He
@@ -3734,22 +3724,36 @@ DESCRIPTION:Kom lekker in beweging tijdens het ‘Be Fit and Happy HOUR’! He
  portkleding en 2 volle flesjes water mee als gewichtjes. Het sportuurtje 
  is geschikt voor iedereen!
 DTEND:20240528T203000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240528T193000
 LOCATION:van Cromstrijensingel 3\, 3281 ST\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Wandel-\, mindfulness-\, en bootcamp-sportuurtje
-UID:01a834c9-6666-45bc-af53-6efa88216ec9
+UID:c57fb2da-64ec-4039-951e-c9d46748ba6e
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Op donderdagavond 30 mei is er weer een leuke Groenworkshop in
+  Numansdorp.Onder leiding van Petra Weeda\, van Chique en Simpel\, gaan w
+ e deze keer een mooie Kruiktoef binden op touw. Leuk om neer te leggen of
+  op te hangen. Kosten: 30\,- aanmelden via de webshop van numansdorpshuis
+ .nlGraag een snoeischaar meebrengen.
+DTEND:20240530T223000
+DTSTAMP:20240426T020931Z
+DTSTART:20240530T193000
+LOCATION:Numansdorp
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Kruiktoef maken
+UID:d7d3901d-8e4b-4bb0-83a8-35ae3223b530
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke even week op vrijdag van 8.30 tot 10.30
 DTEND:20240531T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240531
 LOCATION:Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Koffie en spelen Mini Wereld
-UID:08e6ba09-38fa-4130-bd90-5624c34740cd
+UID:892f28dd-31b6-4bc6-bb59-bb6698915a0c
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De voorstelling volgt een aantal ex-psychiatrische patiënten o
@@ -3762,14 +3766,14 @@ DESCRIPTION:De voorstelling volgt een aantal ex-psychiatrische patiënten o
  oneelgroepmask.euLocatie: Boerderij Bouwlust\, Stougjesdijk 126\, 3271KG 
  Mijnsheerenland.
 DTEND;VALUE=DATE:20240531
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240531T200000
 LOCATION:Boerderij Bouwlust Greup\, Stougjesdijk 126\, 3271 KG\, Mijnsheer
  enland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Toneelgroep Mask presenteert haar nieuwe productie
   "Gek!?"
-UID:4627010b-d0b3-4284-a5f3-891b6545e8fc
+UID:45807f56-690c-4449-a81b-26562ba18338
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In 2024 gaan Rootsriders\, een van de bekendste Bob Marley-tri
@@ -3778,12 +3782,12 @@ DESCRIPTION:In 2024 gaan Rootsriders\, een van de bekendste Bob Marley-tri
  e\, Buffalo soldier\, Redemption song en vele andere Reggaehits van Bob M
  arley te laten horen en spreken. De band speelt vanaf 21.15 uur.
 DTEND;VALUE=DATE:20240531
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240531T211500
 LOCATION:Dorpsstraat 183a\, Zuid-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Rootsriders Bob Marley tribute
-UID:f00d1602-02cb-493b-aa5a-926ec52c70e4
+UID:fc8026b4-fb9c-4498-af41-bf70e1cb859d
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
@@ -3806,13 +3810,13 @@ DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
  nismaken met digitale vaardigheden van de 21e eeuw\, heeft de Bibliotheek
   Hoeksche Waard een CoderDojo opgericht in de Hoeksche Waard.
 DTEND:20240601T130000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240601T110000
 LOCATION:Bibliotheek Oud-Beijerland Centrum\, Waterstal 1\, 3262 JR\, Oud-
  Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: (Leren) programmeren tijdens de CoderDojo
-UID:1dceb13e-b62e-4d50-bb27-f08dfc7ce6f7
+UID:3ff159d5-6743-4517-95e3-eda85dfe2e8b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De voorstelling volgt een aantal ex-psychiatrische patiënten o
@@ -3825,14 +3829,30 @@ DESCRIPTION:De voorstelling volgt een aantal ex-psychiatrische patiënten o
  oneelgroepmask.euLocatie: Boerderij Bouwlust\, Stougjesdijk 126\, 3271KG 
  Mijnsheerenland.
 DTEND;VALUE=DATE:20240601
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240601T200000
 LOCATION:Boerderij Bouwlust Greup\, Stougjesdijk 126\, 3271 KG\, Mijnsheer
  enland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Toneelgroep Mask presenteert haar nieuwe productie
   "Gek!?"
-UID:50d22aa5-271b-45a5-921f-5c261943587b
+UID:914c14d0-3974-42af-a46e-6187abc19125
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Een zaterdagavond 1 juni wordt een avond om nooit meer te verg
+ eten: optreden van Mount Temple\, de U2 Tributeband. De hits die voorbijk
+ omen zijn stuk voor stuk meesterwerken. Wat kun je o.a. verwachten: I Wil
+ l Follow\, New Year´s Day\, Bad\, Sunday Bloody Sunday\, With Or Without 
+ You\, Desire\, One\, Beautiful day\, Vertigo. Ben je klaar om los te gaan
+ ? Om 20.00 uur start het optreden\, voor 12\,50 ben je erbij. Koop snel j
+ e kaartje via de webshop van numansdorpshuis.nl
+DTEND:20240601T233000
+DTSTAMP:20240426T020931Z
+DTSTART:20240601T200000
+LOCATION:Numansdorp
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Mount Temple U2 tribute
+UID:d3706b1e-6845-4f14-9c30-ef7735f0b7ce
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De voorstelling volgt een aantal ex-psychiatrische patiënten o
@@ -3845,14 +3865,14 @@ DESCRIPTION:De voorstelling volgt een aantal ex-psychiatrische patiënten o
  oneelgroepmask.euLocatie: Boerderij Bouwlust\, Stougjesdijk 126\, 3271KG 
  Mijnsheerenland.
 DTEND;VALUE=DATE:20240602
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240602T150000
 LOCATION:Boerderij Bouwlust Greup\, Stougjesdijk 126\, 3271 KG\, Mijnsheer
  enland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Toneelgroep Mask presenteert haar nieuwe productie
   "Gek!?"
-UID:02fdb011-2550-4499-bf30-f54472137f98
+UID:555566c1-8ee2-4791-a73f-e849663ba678
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
@@ -3863,13 +3883,13 @@ DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
  un je terecht bij Regina Snel\, 06 28151182\, of kun je mailen naar linda
  .vanderwal@welzijnhw.nl.
 DTEND:20240603T170000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240603T140000
 LOCATION:Huiskamer van de Wijk Wijkhuis\, Bernhardstraat 25\, 3281 BC\, Nu
  mansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Klaverjassen in de Huiskamer van Numansdorp
-UID:5dcca829-5d01-44f7-b5dd-c3e28b67f856
+UID:1c525f6a-e6df-4641-a65c-c1808c2415b7
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Leo Linnartz\, wolvenexpert en medeschrijver van het boek “De 
@@ -3879,13 +3899,13 @@ DESCRIPTION:Leo Linnartz\, wolvenexpert en medeschrijver van het boek “De
  g van wolven en hun sporen aan bod. Tot slot neemt de spreker je mee naar
   wat de komst van de wolf voor je als toekomstige buur betekent.
 DTEND:20240605T193000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240605T193000
 LOCATION:Veerweg 1C\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Lezing: Wolven terug in Nederland (door Leo Linnar
  tz)
-UID:ef6b8e2b-db6b-466f-a44c-4c44af8bb7dc
+UID:96e7db21-08a8-4446-a8fd-c8f638e620d1
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De voorstelling volgt een aantal ex-psychiatrische patiënten o
@@ -3898,14 +3918,14 @@ DESCRIPTION:De voorstelling volgt een aantal ex-psychiatrische patiënten o
  oneelgroepmask.euLocatie: Boerderij Bouwlust\, Stougjesdijk 126\, 3271KG 
  Mijnsheerenland.
 DTEND;VALUE=DATE:20240606
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240606T200000
 LOCATION:Boerderij Bouwlust Greup\, Stougjesdijk 126\, 3271 KG\, Mijnsheer
  enland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Toneelgroep Mask presenteert haar nieuwe productie
   "Gek!?"
-UID:a3cdd175-0ffb-4b26-9986-58b7b86176eb
+UID:d041a2d4-17e3-4bc2-8575-df4a2143a538
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke eerste vrijdag van de maand is het een feestje bij Sportc
@@ -3914,13 +3934,13 @@ DESCRIPTION:Elke eerste vrijdag van de maand is het een feestje bij Sportc
  n een zwemdiploma zijn welkom. Ouders die willen kijken\, kunnen plaatsne
  men in de horeca.
 DTEND:20240607T210000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240607T183000
 LOCATION:Sportcentrum de Boogerd\, Hortensiastraat 5\, 3261 BG\, Oud-Beije
  rland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Discozwemmen
-UID:a81d9d7b-0c23-4f2f-8bc6-894d121dcd1c
+UID:bea55588-97ad-4261-ba3a-8c31dc52b91f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De voorstelling volgt een aantal ex-psychiatrische patiënten o
@@ -3933,25 +3953,25 @@ DESCRIPTION:De voorstelling volgt een aantal ex-psychiatrische patiënten o
  oneelgroepmask.euLocatie: Boerderij Bouwlust\, Stougjesdijk 126\, 3271KG 
  Mijnsheerenland.
 DTEND;VALUE=DATE:20240607
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240607T200000
 LOCATION:Boerderij Bouwlust Greup\, Stougjesdijk 126\, 3271 KG\, Mijnsheer
  enland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Toneelgroep Mask presenteert haar nieuwe productie
   "Gek!?"
-UID:2195626c-88f2-42e4-8d74-98f3f70ec987
+UID:2fba8606-ca77-4e4c-a804-a2ec95ce243e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Circus taferelen Gezellige kraampjesActiviteiten en workshops 
  voor de kinderen Heerlijke home-made zoete & hartige hapjes
 DTEND:20240608T150000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240608T100000
 LOCATION:Jasmijnstraat 6\, 3261BK\, Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Lentemarkt Leeuwenhartschool
-UID:0fcc39a1-eb81-4749-bc17-87b80c2dbf8f
+UID:7c8d4c9b-4529-4143-9b95-fb5f4484e7f3
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
@@ -3974,24 +3994,24 @@ DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
  nismaken met digitale vaardigheden van de 21e eeuw\, heeft de Bibliotheek
   Hoeksche Waard een CoderDojo opgericht in de Hoeksche Waard.
 DTEND:20240608T130000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240608T110000
 LOCATION:Bibliotheek Oud-Beijerland Centrum\, Waterstal 1\, 3262 JR\, Oud-
  Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: (Leren) programmeren tijdens de CoderDojo
-UID:7e6bf941-b87a-4d24-8e08-ac93403a6e46
+UID:5a1c0eed-4713-4a57-8f9b-394665515768
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Er zullen fantastische oldtimers te zien zijn op de Oost- en W
  est-Voorstraat rond de Vliet. Kom ze bewonderen!
 DTEND:20240608T170000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240608T120000
 LOCATION:Oost- en West-Voorstraat\, Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Oldtimers event
-UID:76bf6b64-5ea0-4b19-bfde-dc48c6a123d7
+UID:d2879c8c-76b5-449b-8aea-35497210cb87
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De voorstelling volgt een aantal ex-psychiatrische patiënten o
@@ -4004,14 +4024,32 @@ DESCRIPTION:De voorstelling volgt een aantal ex-psychiatrische patiënten o
  oneelgroepmask.euLocatie: Boerderij Bouwlust\, Stougjesdijk 126\, 3271KG 
  Mijnsheerenland.
 DTEND;VALUE=DATE:20240608
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240608T200000
 LOCATION:Boerderij Bouwlust Greup\, Stougjesdijk 126\, 3271 KG\, Mijnsheer
  enland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Toneelgroep Mask presenteert haar nieuwe productie
   "Gek!?"
-UID:4454c5fa-01f1-4220-955f-aff2e16a59c4
+UID:26008287-ddd5-41b0-98c9-91760e38956d
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Muzikale reis door de levensfasenDe Verbinders verzorgen een m
+ uzikale reis in het Numans-Dorps-Huis in Numansdorp. Dit Muziekduo neemt 
+ jullie deze middag mee in een muzikale reis langs de levensfasen. De cirk
+ el van het leven\, van begin tot einde. Een herkenbaar verhaal over drome
+ n\, innerlijke groei\, licht en donker een lach en een traan. Ze gebruike
+ n hierbij het Enneagram als kapstok. Bekende covers bij iedere fase\, per
+ soonlijke anekdotes over hun eigen reis door ‘ t leven. Uiteraard met zan
+ g\, gitaar en piano zoals we van ze gewend zijn. Natuurlijk mag er meegez
+ ongen worden.Een kaartje kost 15\,- via de webshop van numansdorpshuis.nl
+DTEND:20240609T163000
+DTSTAMP:20240426T020931Z
+DTSTART:20240609T143000
+LOCATION:Numansdorp
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: De levensfasen met muziek
+UID:de87d16e-5638-4375-a225-048bccb96166
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
@@ -4022,13 +4060,13 @@ DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
  un je terecht bij Regina Snel\, 06 28151182\, of kun je mailen naar linda
  .vanderwal@welzijnhw.nl.
 DTEND:20240610T170000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240610T140000
 LOCATION:Huiskamer van de Wijk Wijkhuis\, Bernhardstraat 25\, 3281 BC\, Nu
  mansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Klaverjassen in de Huiskamer van Numansdorp
-UID:0b677c5e-b1ef-4773-929a-4fb3e9a6108a
+UID:713796f3-ce8b-402c-90c1-e62c53bf47d7
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Kom lekker in beweging tijdens het ‘Be Fit and Happy HOUR’! He
@@ -4038,22 +4076,22 @@ DESCRIPTION:Kom lekker in beweging tijdens het ‘Be Fit and Happy HOUR’! He
  portkleding en 2 volle flesjes water mee als gewichtjes. Het sportuurtje 
  is geschikt voor iedereen!
 DTEND:20240611T203000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240611T193000
 LOCATION:van Cromstrijensingel 3\, 3281 ST\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Wandel-\, mindfulness-\, en bootcamp-sportuurtje
-UID:9da3fadc-45c1-43f6-9015-7d2cf50fbd24
+UID:9d6fdd38-88f7-4a91-9468-ba19f3a2f035
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke even week op vrijdag van 8.30 tot 10.30
 DTEND:20240614T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240614
 LOCATION:Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Koffie en spelen Mini Wereld
-UID:5db77589-8b48-44e4-9534-8b2ae57b9400
+UID:ecbf2764-fbb5-46e4-aa4c-640320a326e2
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
@@ -4076,13 +4114,13 @@ DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
  nismaken met digitale vaardigheden van de 21e eeuw\, heeft de Bibliotheek
   Hoeksche Waard een CoderDojo opgericht in de Hoeksche Waard.
 DTEND:20240615T130000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240615T110000
 LOCATION:Bibliotheek Oud-Beijerland Centrum\, Waterstal 1\, 3262 JR\, Oud-
  Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: (Leren) programmeren tijdens de CoderDojo
-UID:b0e51b39-851f-461f-bbd3-446bf876e33d
+UID:41129783-7d26-4a89-9249-60d3802447af
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
@@ -4093,13 +4131,13 @@ DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
  un je terecht bij Regina Snel\, 06 28151182\, of kun je mailen naar linda
  .vanderwal@welzijnhw.nl.
 DTEND:20240617T170000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240617T140000
 LOCATION:Huiskamer van de Wijk Wijkhuis\, Bernhardstraat 25\, 3281 BC\, Nu
  mansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Klaverjassen in de Huiskamer van Numansdorp
-UID:36b07756-bec0-48c8-b614-e4da012aab58
+UID:28b1c272-628f-471a-bc7b-1d759b76c8e7
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Oud-Beijerland!!!!Guess Who's Back!Ook zo’n zin om weer te TOO
@@ -4119,12 +4157,12 @@ DESCRIPTION:Oud-Beijerland!!!!Guess Who's Back!Ook zo’n zin om weer te TOO
   22.00Zaterdag 22 juni\, 13.00 - 22.00Zondag 23 juni\, 13.00 - 20.00Lanin
  gpark\, Oud-Beijerland
 DTEND:20240621T200000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240621T160000
 LOCATION:Langingpark\, Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: TOOST Festival
-UID:0d8b90d9-2a18-4c30-8cad-928005d67855
+UID:24d8c6e4-b387-4966-a229-32370da9f015
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
@@ -4147,13 +4185,13 @@ DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
  nismaken met digitale vaardigheden van de 21e eeuw\, heeft de Bibliotheek
   Hoeksche Waard een CoderDojo opgericht in de Hoeksche Waard.
 DTEND:20240622T130000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240622T110000
 LOCATION:Bibliotheek Oud-Beijerland Centrum\, Waterstal 1\, 3262 JR\, Oud-
  Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: (Leren) programmeren tijdens de CoderDojo
-UID:454ed033-b647-4d49-b8eb-8900fe2cbabb
+UID:c9f59a83-1ae1-4244-9de8-38c7fef7a03e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:30 koren\, 6 podia en heel veel zangers en zangeressen. Dat is
@@ -4162,12 +4200,12 @@ DESCRIPTION:30 koren\, 6 podia en heel veel zangers en zangeressen. Dat is
  horen en zien hoe leuk zingen is!Zaterdag 22 juni tussen 12.00 en 17.30 u
  ur vult het centrum van Oud Beijerland zich met muziek.
 DTEND:20240622T173000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240622T120000
 LOCATION:Voorstraat 18\, 3262ES\, Oud Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Korenfestival Hoeksche Waard
-UID:80e73fd3-e853-4e55-9af6-5ad8de51ec04
+UID:e5f53716-a715-4f3b-a3e6-7e99017e069f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Oud-Beijerland!!!!Guess Who's Back!Ook zo’n zin om weer te TOO
@@ -4187,12 +4225,12 @@ DESCRIPTION:Oud-Beijerland!!!!Guess Who's Back!Ook zo’n zin om weer te TOO
   22.00Zaterdag 22 juni\, 13.00 - 22.00Zondag 23 juni\, 13.00 - 20.00Lanin
  gpark\, Oud-Beijerland
 DTEND:20240622T200000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240622T160000
 LOCATION:Langingpark\, Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: TOOST Festival
-UID:9ce498b9-1f8a-48ae-a852-0970afbadd1a
+UID:0d2ea506-2221-4ea9-a577-b41dec28ba4a
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Oud-Beijerland!!!!Guess Who's Back!Ook zo’n zin om weer te TOO
@@ -4212,12 +4250,12 @@ DESCRIPTION:Oud-Beijerland!!!!Guess Who's Back!Ook zo’n zin om weer te TOO
   22.00Zaterdag 22 juni\, 13.00 - 22.00Zondag 23 juni\, 13.00 - 20.00Lanin
  gpark\, Oud-Beijerland
 DTEND:20240623T200000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240623T160000
 LOCATION:Langingpark\, Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: TOOST Festival
-UID:dea1bd02-8b6b-43a6-839c-45b8d063c447
+UID:e9b99989-d7fa-4b6c-ab19-b11e0b0a4b42
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
@@ -4228,13 +4266,13 @@ DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
  un je terecht bij Regina Snel\, 06 28151182\, of kun je mailen naar linda
  .vanderwal@welzijnhw.nl.
 DTEND:20240624T170000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240624T140000
 LOCATION:Huiskamer van de Wijk Wijkhuis\, Bernhardstraat 25\, 3281 BC\, Nu
  mansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Klaverjassen in de Huiskamer van Numansdorp
-UID:afdfa778-8fa4-48eb-89b6-598b00b43dc6
+UID:c9976eb5-8b21-4816-8758-77f89e21f9e0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Kom lekker in beweging tijdens het ‘Be Fit and Happy HOUR’! He
@@ -4244,22 +4282,22 @@ DESCRIPTION:Kom lekker in beweging tijdens het ‘Be Fit and Happy HOUR’! He
  portkleding en 2 volle flesjes water mee als gewichtjes. Het sportuurtje 
  is geschikt voor iedereen!
 DTEND:20240625T203000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240625T193000
 LOCATION:van Cromstrijensingel 3\, 3281 ST\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Wandel-\, mindfulness-\, en bootcamp-sportuurtje
-UID:c7ba3305-37f3-44cc-85e5-57addfe04b6a
+UID:425fb743-ba3a-49b1-a2dd-da1b6cd3fdf9
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke even week op vrijdag van 8.30 tot 10.30
 DTEND:20240628T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240628
 LOCATION:Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Koffie en spelen Mini Wereld
-UID:968a2012-e427-432c-813a-1bfb5398b9b5
+UID:63dbabf4-1f8c-4b0a-98da-51ec09db185e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
@@ -4282,13 +4320,13 @@ DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
  nismaken met digitale vaardigheden van de 21e eeuw\, heeft de Bibliotheek
   Hoeksche Waard een CoderDojo opgericht in de Hoeksche Waard.
 DTEND:20240629T130000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240629T110000
 LOCATION:Bibliotheek Oud-Beijerland Centrum\, Waterstal 1\, 3262 JR\, Oud-
  Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: (Leren) programmeren tijdens de CoderDojo
-UID:59439262-67a6-4691-be02-7d9ceaef9042
+UID:14d7ea7e-f266-4327-b2d7-f521f7bbdbd4
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Het koor Wij Zingen Zo Graag organiseert een zangmiddag met Ne
@@ -4297,12 +4335,12 @@ DESCRIPTION:Het koor Wij Zingen Zo Graag organiseert een zangmiddag met Ne
  t Jamiro op. Ook zullen de solisten een gezamenlijk optreden verzorgen me
  t het koor. De toegang is GRATIS maar vol is vol
 DTEND:20240629T170000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240629T140000
 LOCATION:Weegje 1c\, 's-Gravendeel
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Zangmiddag
-UID:c21676d6-21e6-459e-9272-6ec75e3026ad
+UID:829eb7cc-fe40-4a5d-9109-25ec735efaeb
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
@@ -4313,13 +4351,13 @@ DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
  un je terecht bij Regina Snel\, 06 28151182\, of kun je mailen naar linda
  .vanderwal@welzijnhw.nl.
 DTEND:20240701T170000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240701T140000
 LOCATION:Huiskamer van de Wijk Wijkhuis\, Bernhardstraat 25\, 3281 BC\, Nu
  mansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Klaverjassen in de Huiskamer van Numansdorp
-UID:9ca464cf-2c32-493d-8405-a6c5bda8ce64
+UID:56245630-567f-4ff0-93c3-1a43ef0e24d8
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke eerste vrijdag van de maand is het een feestje bij Sportc
@@ -4328,13 +4366,13 @@ DESCRIPTION:Elke eerste vrijdag van de maand is het een feestje bij Sportc
  n een zwemdiploma zijn welkom. Ouders die willen kijken\, kunnen plaatsne
  men in de horeca.
 DTEND:20240705T210000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240705T183000
 LOCATION:Sportcentrum de Boogerd\, Hortensiastraat 5\, 3261 BG\, Oud-Beije
  rland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Discozwemmen
-UID:5986194d-f6c4-40b6-988b-a48fd198ef31
+UID:bce904ca-39ea-471b-b940-60409ddfbc0d
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Kom lekker in beweging tijdens het ‘Be Fit and Happy HOUR’! He
@@ -4344,22 +4382,22 @@ DESCRIPTION:Kom lekker in beweging tijdens het ‘Be Fit and Happy HOUR’! He
  portkleding en 2 volle flesjes water mee als gewichtjes. Het sportuurtje 
  is geschikt voor iedereen!
 DTEND:20240709T203000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240709T193000
 LOCATION:van Cromstrijensingel 3\, 3281 ST\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Wandel-\, mindfulness-\, en bootcamp-sportuurtje
-UID:b4076490-8b6a-4d49-b42f-f3ca7aeea9a1
+UID:b8a31799-5a09-4025-8a32-08a3f543181e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke even week op vrijdag van 8.30 tot 10.30
 DTEND:20240712T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240712
 LOCATION:Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Koffie en spelen Mini Wereld
-UID:bd3f251c-5e89-4ee3-aa26-7732edc74761
+UID:645e67b4-598a-478c-80c5-93f77d3fa268
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Kom lekker in beweging tijdens het ‘Be Fit and Happy HOUR’! He
@@ -4369,22 +4407,22 @@ DESCRIPTION:Kom lekker in beweging tijdens het ‘Be Fit and Happy HOUR’! He
  portkleding en 2 volle flesjes water mee als gewichtjes. Het sportuurtje 
  is geschikt voor iedereen!
 DTEND:20240723T203000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240723T193000
 LOCATION:van Cromstrijensingel 3\, 3281 ST\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Wandel-\, mindfulness-\, en bootcamp-sportuurtje
-UID:1a9912f9-ae07-4e88-a52a-289e2c07801c
+UID:c301692e-2c5a-4f97-bf35-3ca828a4bf37
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke even week op vrijdag van 8.30 tot 10.30
 DTEND:20240726T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240726
 LOCATION:Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Koffie en spelen Mini Wereld
-UID:4d8c4bc4-a0c8-4556-a221-aad4ccbaa22b
+UID:4b4aceb7-4049-43cc-b681-6c5bf6b7defe
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke eerste vrijdag van de maand is het een feestje bij Sportc
@@ -4393,13 +4431,13 @@ DESCRIPTION:Elke eerste vrijdag van de maand is het een feestje bij Sportc
  n een zwemdiploma zijn welkom. Ouders die willen kijken\, kunnen plaatsne
  men in de horeca.
 DTEND:20240802T210000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240802T183000
 LOCATION:Sportcentrum de Boogerd\, Hortensiastraat 5\, 3261 BG\, Oud-Beije
  rland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Discozwemmen
-UID:9a46a6ab-790f-4672-9624-b3cb15d05b88
+UID:659d208d-ea8e-434c-8f92-a43bd61a169a
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Kom lekker in beweging tijdens het ‘Be Fit and Happy HOUR’! He
@@ -4409,22 +4447,22 @@ DESCRIPTION:Kom lekker in beweging tijdens het ‘Be Fit and Happy HOUR’! He
  portkleding en 2 volle flesjes water mee als gewichtjes. Het sportuurtje 
  is geschikt voor iedereen!
 DTEND:20240806T203000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240806T193000
 LOCATION:van Cromstrijensingel 3\, 3281 ST\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Wandel-\, mindfulness-\, en bootcamp-sportuurtje
-UID:5a3e5776-863d-44c7-bead-7272e618e483
+UID:bd30bde4-4169-47a7-9407-f8b6b37d4dd4
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke even week op vrijdag van 8.30 tot 10.30
 DTEND:20240809T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240809
 LOCATION:Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Koffie en spelen Mini Wereld
-UID:734ebc6d-53e8-4016-b7be-a4ea2741fee5
+UID:f3331bf8-1d61-411a-92c9-4c656ecca896
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Kom lekker in beweging tijdens het ‘Be Fit and Happy HOUR’! He
@@ -4434,32 +4472,32 @@ DESCRIPTION:Kom lekker in beweging tijdens het ‘Be Fit and Happy HOUR’! He
  portkleding en 2 volle flesjes water mee als gewichtjes. Het sportuurtje 
  is geschikt voor iedereen!
 DTEND:20240820T203000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240820T193000
 LOCATION:van Cromstrijensingel 3\, 3281 ST\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Wandel-\, mindfulness-\, en bootcamp-sportuurtje
-UID:294406d1-1947-41a5-acbe-7872338e8fa7
+UID:c9483742-bf3b-495d-807d-49aa21c4ee51
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke even week op vrijdag van 8.30 tot 10.30
 DTEND:20240823T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240823
 LOCATION:Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Koffie en spelen Mini Wereld
-UID:4d7be491-710d-419a-8d54-406acc133328
+UID:6105d46c-2175-418d-a4d6-06803a4fcfce
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Foodtrucks en gezellige muziek
 DTEND:20240824T230000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240824T170000
 LOCATION:Gravin Sabinastraat\, Zuid-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Taste of Zuid-Beijerland
-UID:36bece6a-14c8-4823-9958-0914df84d847
+UID:eede2af1-25a4-470d-9f23-c5cbccb567ef
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Kom lekker in beweging tijdens het ‘Be Fit and Happy HOUR’! He
@@ -4469,22 +4507,22 @@ DESCRIPTION:Kom lekker in beweging tijdens het ‘Be Fit and Happy HOUR’! He
  portkleding en 2 volle flesjes water mee als gewichtjes. Het sportuurtje 
  is geschikt voor iedereen!
 DTEND:20240903T203000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240903T193000
 LOCATION:van Cromstrijensingel 3\, 3281 ST\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Wandel-\, mindfulness-\, en bootcamp-sportuurtje
-UID:a402cb28-c081-4871-a1d4-6df2393fb713
+UID:bf0e2a3a-55ff-4b51-91ca-038f881a93bd
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke even week op vrijdag van 8.30 tot 10.30
 DTEND:20240906T235900
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART;VALUE=DATE:20240906
 LOCATION:Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Koffie en spelen Mini Wereld
-UID:e9bb9333-6bb5-4305-b425-0a6541b40230
+UID:7483089d-05cf-427f-995d-b65f8cbf8717
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke eerste vrijdag van de maand is het een feestje bij Sportc
@@ -4493,13 +4531,13 @@ DESCRIPTION:Elke eerste vrijdag van de maand is het een feestje bij Sportc
  n een zwemdiploma zijn welkom. Ouders die willen kijken\, kunnen plaatsne
  men in de horeca.
 DTEND:20240906T210000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240906T183000
 LOCATION:Sportcentrum de Boogerd\, Hortensiastraat 5\, 3261 BG\, Oud-Beije
  rland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Discozwemmen
-UID:8e521df4-d792-458b-80b0-e2c014430b6d
+UID:5ed9a72a-96bd-47ab-a7ba-215d2cd2b570
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De derde editie van Wandel Feest Hoeksche Waard vindt plaats o
@@ -4510,12 +4548,12 @@ DESCRIPTION:De derde editie van Wandel Feest Hoeksche Waard vindt plaats o
  oost tijdens het gezellige finishfeest met je wandelvrienden op de puike 
  prestatie.
 DTEND:20240914T180000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20240914T083000
 LOCATION:Sportlaan 6\, 3297TG\, Puttershoek
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Wandel Feest Hoeksche Waard
-UID:efe57491-9ca8-4efd-bd39-d506230f6f20
+UID:7fa19c8a-0a69-4600-9b7d-d1c7590932a3
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke eerste vrijdag van de maand is het een feestje bij Sportc
@@ -4524,13 +4562,13 @@ DESCRIPTION:Elke eerste vrijdag van de maand is het een feestje bij Sportc
  n een zwemdiploma zijn welkom. Ouders die willen kijken\, kunnen plaatsne
  men in de horeca.
 DTEND:20241004T210000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20241004T183000
 LOCATION:Sportcentrum de Boogerd\, Hortensiastraat 5\, 3261 BG\, Oud-Beije
  rland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Discozwemmen
-UID:b4a84c36-fb73-4cef-a11e-10d8d4200eaa
+UID:4ed1c821-82c1-402b-a81c-be4de688d9ae
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke eerste vrijdag van de maand is het een feestje bij Sportc
@@ -4539,13 +4577,13 @@ DESCRIPTION:Elke eerste vrijdag van de maand is het een feestje bij Sportc
  n een zwemdiploma zijn welkom. Ouders die willen kijken\, kunnen plaatsne
  men in de horeca.
 DTEND:20241101T210000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20241101T183000
 LOCATION:Sportcentrum de Boogerd\, Hortensiastraat 5\, 3261 BG\, Oud-Beije
  rland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Discozwemmen
-UID:888c1ebb-b2b8-4f3c-bd2a-ced9c3f6fd59
+UID:293830f3-24c4-4286-8b22-fdefdb7c3e39
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke eerste vrijdag van de maand is het een feestje bij Sportc
@@ -4554,13 +4592,13 @@ DESCRIPTION:Elke eerste vrijdag van de maand is het een feestje bij Sportc
  n een zwemdiploma zijn welkom. Ouders die willen kijken\, kunnen plaatsne
  men in de horeca.
 DTEND:20241206T210000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20241206T183000
 LOCATION:Sportcentrum de Boogerd\, Hortensiastraat 5\, 3261 BG\, Oud-Beije
  rland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Discozwemmen
-UID:4fafb501-ef33-4223-893a-413545d0718e
+UID:7e1db0bb-fb5a-4ee2-890e-c1126d284425
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke eerste vrijdag van de maand is het een feestje bij Sportc
@@ -4569,13 +4607,13 @@ DESCRIPTION:Elke eerste vrijdag van de maand is het een feestje bij Sportc
  n een zwemdiploma zijn welkom. Ouders die willen kijken\, kunnen plaatsne
  men in de horeca.
 DTEND:20250103T210000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20250103T183000
 LOCATION:Sportcentrum de Boogerd\, Hortensiastraat 5\, 3261 BG\, Oud-Beije
  rland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Discozwemmen
-UID:3f487423-4806-410a-92bd-b527e6545982
+UID:46a427c5-55f4-4567-ae8b-79f0d2fd3d0d
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke eerste vrijdag van de maand is het een feestje bij Sportc
@@ -4584,12 +4622,12 @@ DESCRIPTION:Elke eerste vrijdag van de maand is het een feestje bij Sportc
  n een zwemdiploma zijn welkom. Ouders die willen kijken\, kunnen plaatsne
  men in de horeca.
 DTEND:20250207T210000
-DTSTAMP:20240425T020958Z
+DTSTAMP:20240426T020931Z
 DTSTART:20250207T183000
 LOCATION:Sportcentrum de Boogerd\, Hortensiastraat 5\, 3261 BG\, Oud-Beije
  rland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Discozwemmen
-UID:bcc30539-e1ef-4d34-8425-53a4efdb296a
+UID:4adf804f-d598-4a0a-a241-f5ecd693f4d4
 END:VEVENT
 END:VCALENDAR
