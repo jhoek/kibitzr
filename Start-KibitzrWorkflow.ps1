@@ -64,6 +64,7 @@ try
     Update-RssFeed -Source { Get-Sigmund } -Title 'Sigmund' -Link 'https://www.volkskrant.nl/cartoons/sigmund~b82ba1fa5/' -Destination './data/sigmund.xml' -Cartoon
     Update-RssFeed -Source { Get-RoosSchlikker } -Title 'Roos Schlikker' -Link 'https://www.parool.nl/auteur/roos-schlikker' -Destination './data/roosschlikker.xml'
     Update-RssFeed -Source { Get-Spotprent } -Title 'Spotprent' -Link 'https://www.trouw.nl/achterpagina/spotprenten~bc9b7dca/' -Destination './data/spotprent.xml' -Cartoon
+    Update-RssFeed -Source { Get-CorineKoole } -Title 'Corine Koole' -Link 'https://www.volkskrant.nl/auteur/corine-koole' -Destination './data/corinekoole.xml'
 }
 finally
 {
