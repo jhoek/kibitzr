@@ -13,7 +13,6 @@
 [![filmhuisveenendaal](https://github.com/jhoek/kibitzr/actions/workflows/filmhuisveenendaal.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/filmhuisveenendaal.yml)
 [![filmtheaterhilversum](https://github.com/jhoek/kibitzr/actions/workflows/filmtheaterhilversum.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/filmtheaterhilversum.yml)
 [![fokkesukke](https://github.com/jhoek/kibitzr/actions/workflows/fokkesukke.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/fokkesukke.yml)
-[![frankheinen](https://github.com/jhoek/kibitzr/actions/workflows/frankheinen.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/frankheinen.yml)
 [![hoekschewaard](https://github.com/jhoek/kibitzr/actions/workflows/hoekschewaard.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/hoekschewaard.yml)
 [![htmlq](https://github.com/jhoek/kibitzr/actions/workflows/htmlq.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/htmlq.yml)
 [![ikdoeietsgoeds](https://github.com/jhoek/kibitzr/actions/workflows/ikdoeietsgoeds.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/ikdoeietsgoeds.yml)
