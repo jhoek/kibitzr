@@ -31,7 +31,7 @@ jobs:
       - name: Update calendar file
         shell: pwsh
         run: |
-          Get-FilmtheaterHilversum
+          Get-FilmtheaterHilversum -Verbose
           | ForEach-Object { New-CalendarEvent -Start $_.Date -End ($_.Date).AddHours(2) -Summary "Filmtheater Hilversum: $($_.Title)" -Description $_.Body }
           | Export-Calendar -Name 'Filmtheater Hilversum' -Path (Join-Path -Path $env:DataFolderName -ChildPath filmtheaterhilversum.ics)
 
