@@ -8,6 +8,8 @@ on:
 jobs:
   run:
     runs-on: ubuntu-latest
+    env:
+        DataFolderName: ./data/cinema
 
     steps:
       - uses: actions/checkout@v2
@@ -16,24 +18,22 @@ jobs:
         shell: pwsh
         run: |
           Set-PSRepository PSGallery -InstallationPolicy Trusted
-          Install-Module UncommonSense.Hap, UncommonSense.Cinema, UncommonSense.Rss -Scope CurrentUser
+          Install-Module UncommonSense.Hap, UncommonSense.Cinema, UncommonSense.iCalendar -Scope CurrentUser
 
-      - name: Get Recent data
+      - name: Create data folder
         shell: pwsh
         run: |
-          $ErrorActionPreference = 'Stop'
+          if (-not (Test-Path -Path $env:DataFolderName -PathType Container))
+          {
+            New-Item -Path $env:DataFolderName -ItemType Directory | Out-Null
+          }
+
+      - name: Update calendar file
+        shell: pwsh
+        run: |
           Get-FilmtheaterHilversum
-          | ForEach-Object {
-            New-RssFeedItem `
-              -ID $_.Url `
-              -Title $_.Title `
-              -Description ($_.Body -join "`n") `
-              -PubDate $_.Date }
-          | New-RssFeed `
-            -Title 'Filmtheater Hilversum' `
-            -Link 'https://www.filmtheaterhilversum.nl' `
-            -Description 'Filmtheater Hilversum'
-          | Set-Content -Path ./data/filmtheaterhilversum.xml
+          | ForEach-Object { New-CalendarEvent -Start $_.Date -End ($_.Date).AddHours(2) -Summary "Filmtheater Hilversum: $($_.Title)" -Description $_.Body }
+          | Export-Calendar -Name 'Filmtheater Hilversum' -Path (Join-Path -Path $env:DataFolderName -ChildPath filmtheaterhilversum.ics)
 
       - name: Commit and push feed
         shell: bash
