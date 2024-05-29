@@ -11,5 +11,9 @@ jobs:
       - name: Test
         shell: pwsh
         run: |
+            $DutchCulture = Get-Culture nl-NL
             $MyDateTime = Get-Date -Day 1 -Month 6
-            Write-Host ($MyDateTime.ToString('d MMM'))
+            $MyDateTimeAsText = $MyDateTime.ToString('d MMM', $DutchCulture)
+            Write-Host $MyDateTimeAsText
+            $Parsed = ([DateTime]::ParseExact($MyDateTimeAsText, 'd MMM', $DutchCulture))
+            Write-Host $Parsed
