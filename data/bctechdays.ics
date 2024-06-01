@@ -5,43 +5,43 @@ X-WR-CALNAME:BC TechDays
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20240613T070000Z
-DTSTAMP:20240601T120756Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240613T053000Z
 LOCATION:Expo Area
 SEQUENCE:0
 SUMMARY:Registration\, Breakfast and Exhibition
-UID:d6c2fe73-8266-4999-9ba4-ea7db43f9144
+UID:2199390d-52eb-41ec-b647-dd41faf37d0b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:\n\nSpeaker(s): Vincent Nicolas\, Evgenij Korovin\, Steffen Ba
  lslev
 DTEND:20240613T090000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240613T070000Z
 LOCATION:Room 8
 SEQUENCE:0
 SUMMARY:Opening Keynote
-UID:d91e67a2-9013-418f-8b46-04438891db8f
+UID:1fa99b9f-aead-49b3-b9c0-712c013558ec
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20240613T093000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240613T090000Z
 LOCATION:Expo Area
 SEQUENCE:0
 SUMMARY:Coffee Break\, Exhibition\, Sponsor Presentation
-UID:9517f9a3-85dd-4dff-949d-8df72497d1ce
+UID:79c01141-9162-4a8d-b8c0-d02e5852dc6f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Sponsor presentation
 DTEND:20240613T092500Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240613T091000Z
 LOCATION:Presentations Area
 SEQUENCE:0
 SUMMARY:Sponsor presentation: Anveo[15 min]
-UID:02705791-0c32-49a3-b8e4-16b0580a58f4
+UID:a7b45e31-3d12-4b04-80c1-349b46931ec7
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Are you ready to roll up your sleeves and dive into the coding
@@ -56,12 +56,12 @@ DESCRIPTION:Are you ready to roll up your sleeves and dive into the coding
  prepared to learn\, laugh\, and leave with some serious coding swagger (p
  un intended).\n\nSpeaker(s): Eric Wauters (waldo)\, Arend-Jan Kauffmann
 DTEND:20240613T110000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240613T093000Z
 LOCATION:Room 8
 SEQUENCE:0
 SUMMARY:AL Development for OGs [300 - Advanced 200 - Intermediate][90 min]
-UID:cfb85eb0-41fd-4e64-a35c-3c90e696440c
+UID:7a62db82-bc8f-464d-a62f-aea85aec8d76
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Let's face it\, testing AL code isn't exactly the highlight of
@@ -85,13 +85,13 @@ DESCRIPTION:Let's face it\, testing AL code isn't exactly the highlight of
   focused\, meaningful tests that don't feel like a drag.\n\nSpeaker(s): V
  jekoslav Babić
 DTEND:20240613T110000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240613T093000Z
 LOCATION:Room 5
 SEQUENCE:0
 SUMMARY:Double Trouble: A New Perspective on AL Testing [400 - Expert][90 
  min]
-UID:c89f1f50-4cc8-4ea7-b0b8-b9d1bf5afdae
+UID:2ebe72f6-aa88-482a-b85c-72899b6eb62c
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:We want to show interesting design and event patterns based on
@@ -101,13 +101,13 @@ DESCRIPTION:We want to show interesting design and event patterns based on
  h a focus on extensibility\n\nSpeaker(s): Marko Aleksandric\, Anders Lars
  en
 DTEND:20240613T110000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240613T093000Z
 LOCATION:Room 9
 SEQUENCE:0
 SUMMARY:Microsoft Presents: Leveraging advanced design patterns for extens
  ibility [400 - Expert 300 - Advanced][45 min]
-UID:88fe30d0-191c-4fd6-a3be-edd7215553c1
+UID:f9827ee2-c74b-4dd2-9ad1-4ee1246a6274
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:How can I split my monolithic application into smaller\, maint
@@ -117,13 +117,13 @@ DESCRIPTION:How can I split my monolithic application into smaller\, maint
  we will present how and where you might be able to use it in the future.\
  n\nSpeaker(s): Steffen Balslev\, Gert Robyns\, Thomas Pedersen
 DTEND:20240613T110000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240613T093000Z
 LOCATION:Room 9
 SEQUENCE:0
 SUMMARY:Microsoft Presents: Obsolete Move\, Future of delocalization and c
  omponentization [300 - Advanced][45 min]
-UID:aa9b2c60-1937-43d7-a2ee-b1e2c62310bc
+UID:2eefeb91-0ef6-44e2-bd7c-ee2c79350518
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Are you inspired by the Copilot demonstrations from the Keynot
@@ -138,43 +138,43 @@ DESCRIPTION:Are you inspired by the Copilot demonstrations from the Keynot
  ourney into AI-enhanced applications.\n\nSpeaker(s): Dmitry Katson\, Hori
  na Serbanescu
 DTEND:20240613T110000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240613T093000Z
 LOCATION:Room 7
 SEQUENCE:0
 SUMMARY:Copilot Development: AI-Powered Extensions for Business Central [3
  00 - Advanced][90 min]
-UID:a950c61f-fc9e-4ea9-a9c3-f35d0f379f53
+UID:a947c65e-acd9-4150-80a0-4cb4bd83a1d7
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20240613T120000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240613T110000Z
 LOCATION:Expo Area
 SEQUENCE:0
 SUMMARY:Lunch Break\, Exhibition\, Sponsor Presentations
-UID:c4b3a877-f96e-4c7b-84f6-5588ee71a2e3
+UID:79b033ef-9172-499f-8c71-982461e60b21
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Sponsor presentation
 DTEND:20240613T112500Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240613T111000Z
 LOCATION:Presentations Area
 SEQUENCE:0
 SUMMARY:Sponsor presentation: Insight Works[15 min]
-UID:c77eeee6-7178-4fa1-ba32-e320bde775cf
+UID:2e1d28aa-e7cb-45bd-aca8-fe4e2ce3d167
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Sponsor presentation
 DTEND:20240613T115000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240613T113500Z
 LOCATION:Presentations Area
 SEQUENCE:0
 SUMMARY:Sponsor presentation: Statical[15 min]
-UID:bab21101-e7eb-41ab-886f-511fe2c6d29e
+UID:dfc92b6d-5b44-42d2-9190-62ee248bb954
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:You are probably already tired of listening to sessions about 
@@ -189,13 +189,13 @@ DESCRIPTION:You are probably already tired of listening to sessions about
  LWAYS call validate on fields.\n\nSpeaker(s): Stefan Maroń\, Christian Ho
  venbitzer
 DTEND:20240613T133000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240613T120000Z
 LOCATION:Room 8
 SEQUENCE:0
 SUMMARY:Validate() - all tables / all fields / always [200 - Intermediate]
  [90 min]
-UID:5f38bf21-a07a-43b3-9149-32fc9ee267eb
+UID:245c0000-6a25-4166-974d-1862612c6e4a
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Ever searched YouTube for "Power Automate flows"? There are 10
@@ -210,13 +210,13 @@ DESCRIPTION:Ever searched YouTube for "Power Automate flows"? There are 10
  ou learn how it's done. No fluff\, no kool-aid\, just real talk and real 
  examples.\n\nSpeaker(s): AJ Ansari
 DTEND:20240613T133000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240613T120000Z
 LOCATION:Room 5
 SEQUENCE:0
 SUMMARY:Creating Power Automate flows for Business Central that actually m
  atter! [200 - Intermediate][90 min]
-UID:0cb11a04-cfdc-451b-a664-3e53d430e9e5
+UID:558086a5-d0cc-4589-b3c6-9edaf62e7f76
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Virtual Tables and Business Events represent new concepts in i
@@ -225,13 +225,13 @@ DESCRIPTION:Virtual Tables and Business Events represent new concepts in i
  ation built with Power Platform.In this session\, you will learn how to:\
  n\nSpeaker(s): Renato Fajdiga\, Milan Milinčević
 DTEND:20240613T133000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240613T120000Z
 LOCATION:Room 9
 SEQUENCE:0
 SUMMARY:Extending Dynamics 365 Business Central with Virtual Tables and Bu
  siness Events [300 - Advanced][90 min]
-UID:a01c3516-72b4-479e-979c-7d78375cc8d4
+UID:bfa1f2bd-c331-42a2-bc12-90db9dd3abc8
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:This session offers a deep dive into how to leverage some of t
@@ -240,13 +240,13 @@ DESCRIPTION:This session offers a deep dive into how to leverage some of t
  le\, and more. How do they work\, when to use them\, and how to troublesh
  oot them?\n\nSpeaker(s): Rayner Vaz\, Christian Heide Damm
 DTEND:20240613T133000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240613T120000Z
 LOCATION:Room 7
 SEQUENCE:0
 SUMMARY:Microsoft Presents: Authorization techniques you might have never 
  heard about [200 - Intermediate][45 min]
-UID:f56c0385-805b-4349-95e0-7869901ea1e1
+UID:c8f3f83c-4236-4c55-a47d-735c0304e265
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In this session\, we’ll explore how to streamline operations a
@@ -255,23 +255,23 @@ DESCRIPTION:In this session\, we’ll explore how to streamline operations a
  e\, transfer\, update environments\, and install apps—through APIs and au
  tomation.\n\nSpeaker(s): Roman Sauber
 DTEND:20240613T133000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240613T120000Z
 LOCATION:Room 7
 SEQUENCE:0
 SUMMARY:Microsoft Presents: Advanced administration APIs and the developer
   experience [300 - Advanced 200 - Intermediate][45 min]
-UID:bb911499-54e7-43f4-b756-5766e64a8338
+UID:e17b7665-47e7-4c28-a502-15b967a35372
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20240613T140000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240613T133000Z
 LOCATION:Expo Area
 SEQUENCE:0
 SUMMARY:Coffee Break\, Exhibition\, Sponsor Presentation
-UID:f5a203cf-721e-49a4-8717-c7f1f4b3b32b
+UID:ed388e30-e5b5-4d41-9144-8eb271d4f75b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Are you using the HttpClient in AL? And are you using it in th
@@ -288,12 +288,12 @@ DESCRIPTION:Are you using the HttpClient in AL? And are you using it in th
   with support for OAuth and endpoint configuration!\n\nSpeaker(s): Arend-
  Jan Kauffmann
 DTEND:20240613T153000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240613T140000Z
 LOCATION:Room 8
 SEQUENCE:0
 SUMMARY:Http Communication Best Practices [300 - Advanced][90 min]
-UID:590a6797-dda6-4c70-97d2-311a59e70e20
+UID:57a2d780-9fc5-40e1-9a08-d931c18e0d08
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Let's take a deep dive into the security of our Microsoft 365 
@@ -307,13 +307,13 @@ DESCRIPTION:Let's take a deep dive into the security of our Microsoft 365
  , Granular Delegated Admin Privileges (GDAP) and Privileged Identity Mana
  gement (PIM) in Microsoft Entra.\n\nSpeaker(s): Kevin Rosendaal
 DTEND:20240613T153000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240613T140000Z
 LOCATION:Room 5
 SEQUENCE:0
 SUMMARY:Your Microsoft 365 account is more precious than you think [300 - 
  Advanced][90 min]
-UID:cb8b7b89-36bb-4bcb-955d-1425524fa535
+UID:e7195d0a-ea1c-4adb-be48-47a17d645ed8
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Having all the dependencies for your development project "at a
@@ -323,26 +323,26 @@ DESCRIPTION:Having all the dependencies for your development project "at a
  have been using for years. One of them is NuGet packages.\nHow? We will s
  how you!!!\n\nSpeaker(s): Kamil Sáček\, Freddy Kristiansen
 DTEND:20240613T153000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240613T140000Z
 LOCATION:Room 9
 SEQUENCE:0
 SUMMARY:"When a dream comes true" aka NuGetized Business Central [200 - In
  termediate][90 min]
-UID:c7570ade-c73f-47e0-9dcf-8fcb78e32225
+UID:a0d4e34c-7957-46e5-9e33-02c8c225aa13
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:What has changed in the AL Language Extension and other tools.
  \n\nSpeaker(s): Peter Borring\, Esben Nyhuus Kristoffersen\, Steffen Bals
  lev
 DTEND:20240613T153000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240613T140000Z
 LOCATION:Room 7
 SEQUENCE:0
 SUMMARY:Microsoft Presents: What's new in Developer Tools [200 - Intermedi
  ate][45 min]
-UID:369b289d-963e-4cc0-a7d9-27c1337f6d3e
+UID:d7be6395-4621-4614-9874-a8fa1203ffd0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Show how to implement new AL scenarios that we enabled with 24
@@ -352,33 +352,33 @@ DESCRIPTION:Show how to implement new AL scenarios that we enabled with 24
  uent calendar and removal of legacy views.\n\nSpeaker(s): Tomas Grubliaus
  kas\, Claudiu Ciumedean
 DTEND:20240613T153000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240613T140000Z
 LOCATION:Room 7
 SEQUENCE:0
 SUMMARY:Microsoft Presents: What's new in Business Central clients for AL 
  developers [200 - Intermediate][45 min]
-UID:ff3fe5f5-be01-492f-bedf-c53f855cbd5e
+UID:14312d0f-402f-4667-931f-ab51289458db
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20240613T190000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240613T153000Z
 LOCATION:Expo Area
 SEQUENCE:0
 SUMMARY:Walking Dinner & Exhibition
-UID:0f18f7e7-398e-4665-87d3-f0ce703fa7b4
+UID:c2f9a2f5-ae32-42a1-8641-95e920531b71
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20240614T070000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240614T053000Z
 LOCATION:Expo Area
 SEQUENCE:0
 SUMMARY:Registration\, Breakfast and Exhibition
-UID:8aedcaca-205e-4305-968e-b4efd85f80f5
+UID:bfb31331-954e-4fc2-aa31-d752a542ea17
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:If you're not interested in KQL - don't come do this session!I
@@ -389,12 +389,12 @@ DESCRIPTION:If you're not interested in KQL - don't come do this session!I
  \, to make it the most shining gem it can be.\n\nSpeaker(s): Eric Wauters
   (waldo)
 DTEND:20240614T083000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240614T070000Z
 LOCATION:Room 8
 SEQUENCE:0
 SUMMARY:Telemetry: a developer's Best Friend [300 - Advanced][90 min]
-UID:450673a0-f184-4548-8808-7232dd6bbd69
+UID:14d90f81-339c-496f-9e3e-a4832d47712f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:There are still so many Upgrades from NAV to Business Central 
@@ -406,13 +406,13 @@ DESCRIPTION:There are still so many Upgrades from NAV to Business Central
  h problems. In my demo I will show you some ways to handle\n\nSpeaker(s):
   Patrick Schiefer
 DTEND:20240614T083000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240614T070000Z
 LOCATION:Room 5
 SEQUENCE:0
 SUMMARY:Nothing is impossible in BC - ways to handle legacy interfaces in 
  Business Central [300 - Advanced][90 min]
-UID:f0b295d7-1329-48bb-b3ba-78bb0bc45795
+UID:4ce9aefd-85d0-4422-8d2d-fa5d0b3aec31
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Come and learn some of the most effective best practices we fo
@@ -420,13 +420,13 @@ DESCRIPTION:Come and learn some of the most effective best practices we fo
  guidelines to reviews our developers need to go through before shipping a
   feature.\n\nSpeaker(s): Agustín Leyenda Duarte\, Ayrton Massey
 DTEND:20240614T083000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240614T070000Z
 LOCATION:Room 9
 SEQUENCE:0
 SUMMARY:Microsoft Presents: Security & Privacy 101: best practices for an 
  AI and data-centered world [200 - Intermediate][45 min]
-UID:0734a2db-0318-4a7c-b0b2-5cdb4fc7ef93
+UID:561e67ff-100e-47c1-bbd2-02ade568332f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Join this session to learn how Microsoft using the advanced pr
@@ -437,13 +437,13 @@ DESCRIPTION:Join this session to learn how Microsoft using the advanced pr
  it capabilities\, good AL patterns and samples.\n\nSpeaker(s): Qasim Ikra
  m\, Darrick Joo
 DTEND:20240614T083000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240614T070000Z
 LOCATION:Room 9
 SEQUENCE:0
 SUMMARY:Microsoft Presents: Prompt engineering and functional calling in A
  L [200 - Intermediate][45 min]
-UID:2d7dcb8a-c02c-48f6-8f08-eede0b8b7ef5
+UID:88cf1f6a-3c4c-4cf5-9f03-88a3f10e503b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Join this session to discover the latest advancements in Busin
@@ -454,13 +454,13 @@ DESCRIPTION:Join this session to discover the latest advancements in Busin
  rkflows. Don't miss out on unlocking power platform based powerful possib
  ilities for your automation ideas.\n\nSpeaker(s): Monica Ahuja
 DTEND:20240614T083000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240614T070000Z
 LOCATION:Room 7
 SEQUENCE:0
 SUMMARY:Microsoft Presents: What's new in Power Platform development: Powe
  r Automate and workflows [200 - Intermediate][45 min]
-UID:e15afab2-7759-40b6-a111-5a35212173db
+UID:b8c19148-c589-40d4-be22-6d39f2a09ffb
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Join us for an insightful session where we'll explore the exci
@@ -474,33 +474,33 @@ DESCRIPTION:Join us for an insightful session where we'll explore the exci
  novation with Business Central\, Copilot Studio and Power Platform\n\nSpe
  aker(s): Evgenij Korovin\, Monica Ahuja
 DTEND:20240614T083000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240614T070000Z
 LOCATION:Room 7
 SEQUENCE:0
 SUMMARY:Microsoft Presents: Develop Copilot experiences with Power Platfor
  m [200 - Intermediate][45 min]
-UID:71a21770-57b0-46b4-976a-00b9ef484124
+UID:ebea106d-f004-4a70-857d-11fa2f6f6f5d
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20240614T090000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240614T083000Z
 LOCATION:Expo Area
 SEQUENCE:0
 SUMMARY:Coffee Break\, Exhibition\, Sponsor Presentation
-UID:b1e29354-aad9-4170-a6b5-bc9f36af79d2
+UID:01287ee7-2390-4c66-b851-876244e057a3
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Sponsor presentation
 DTEND:20240614T085500Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240614T084000Z
 LOCATION:Presentations Area
 SEQUENCE:0
 SUMMARY:Sponsor presentation: COSMO Alpaca[15 min]
-UID:74e5a43c-11a4-4997-a589-d03c420d5e86
+UID:f5ce0369-91ac-4955-92b7-1989919935f6
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:If you want to maximize the throughput of your Business Centra
@@ -514,13 +514,13 @@ DESCRIPTION:If you want to maximize the throughput of your Business Centra
  s do appear.\n\nSpeaker(s): Christian Heide Damm\, Maria Zaharia Rusu\, R
  ayner Vaz
 DTEND:20240614T103000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240614T090000Z
 LOCATION:Room 8
 SEQUENCE:0
 SUMMARY:Microsoft Presents: Designing for scale in Business Central online
   [200 - Intermediate][90 min]
-UID:1cd9a578-b9b6-409e-a552-c55ab326d8f9
+UID:79af96a1-40b8-4c41-bf02-2ab8ec05d054
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:The move from C/AL to AL brought many new development paradigm
@@ -538,12 +538,12 @@ DESCRIPTION:The move from C/AL to AL brought many new development paradigm
  ession to see how we can take the effectiveness of code reviews to anothe
  r level.\n\nSpeaker(s): Tine Starič
 DTEND:20240614T103000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240614T090000Z
 LOCATION:Room 5
 SEQUENCE:0
 SUMMARY:Reviewing the Code Review [200 - Intermediate][90 min]
-UID:3905bf1b-9831-435d-a486-a55ba271b206
+UID:2215db56-d33c-4bed-9d8a-a39dac180385
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Modern Business Central solutions typically are composed of mu
@@ -557,13 +557,13 @@ DESCRIPTION:Modern Business Central solutions typically are composed of mu
   a good idea how to approach quality assurance outside of BC as well.\n\n
  Speaker(s): Tobias Fenster
 DTEND:20240614T103000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240614T090000Z
 LOCATION:Room 9
 SEQUENCE:0
 SUMMARY:A webservice here\, an additional frontend there\, but how do we e
  nsure quality? [300 - Advanced][90 min]
-UID:bd8642e7-fda3-4924-a9fe-458e39da0bac
+UID:08ac5230-85a8-461e-a108-1fc8f01532a8
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:This session explores the new namespaces in AL. We'll discuss 
@@ -571,13 +571,13 @@ DESCRIPTION:This session explores the new namespaces in AL. We'll discuss
  ut the tooling around these\, as well as the challenges and opportunities
   they bring.\n\nSpeaker(s): Alexander Yakunin\, Steffen Balslev
 DTEND:20240614T103000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240614T090000Z
 LOCATION:Room 7
 SEQUENCE:0
 SUMMARY:Microsoft Presents: What you always wanted to know about AL Namesp
  aces (and never dared to ask) [200 - Intermediate][45 min]
-UID:863f4535-4e55-45c2-a002-baa410f2f34a
+UID:09d764a5-0862-4d03-bdfb-1f42d5e4d914
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Ensuring a pleasant experience for end-users\, even in error s
@@ -590,33 +590,33 @@ DESCRIPTION:Ensuring a pleasant experience for end-users\, even in error s
  their support processes\n\nSpeaker(s): Agnieszka Potulska-Tylenda\, Jens 
  Møller-Pedersen\, Prangshuman Das
 DTEND:20240614T103000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240614T090000Z
 LOCATION:Room 7
 SEQUENCE:0
 SUMMARY:Microsoft Presents: User friendly error handling in AL [200 - Inte
  rmediate][45 min]
-UID:49c1e086-6919-41f3-ab23-f259b5574a91
+UID:082817f7-2843-42e1-a075-6a09b506541e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20240614T113000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240614T103000Z
 LOCATION:Expo Area
 SEQUENCE:0
 SUMMARY:Lunch Break\, Exhibition\, Sponsor Presentations
-UID:816b5ea8-93ab-4550-a84c-b2dec6599359
+UID:1196cda8-f8ca-4f4b-bfbb-8dc1c6cc746d
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Sponsor presentation
 DTEND:20240614T105500Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240614T104000Z
 LOCATION:Presentations Area
 SEQUENCE:0
 SUMMARY:Sponsor presentation: ALOps[15 min]
-UID:01a3b84e-adf9-4e26-bbe3-96edef97f52c
+UID:d8ac682d-3b65-4b17-a859-54d1bcde5665
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:This session will introduce Tri-State locking: a more optimist
@@ -626,13 +626,13 @@ DESCRIPTION:This session will introduce Tri-State locking: a more optimist
  chematics\, and finally update the recommendation to AL developers.\n\nSp
  eaker(s): Mads Gram\, Torben Wind Meyhoff
 DTEND:20240614T130000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240614T113000Z
 LOCATION:Room 8
 SEQUENCE:0
 SUMMARY:Microsoft Presents: Tri-State Locking: Reducing locking in the run
  time [300 - Advanced][45 min]
-UID:8aa3424c-7866-464d-a877-02cd632e2c66
+UID:dc1a428b-eab2-4845-b4a9-5e6a24bafe5d
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Join us for the session on building Excel reports. We have shi
@@ -645,13 +645,13 @@ DESCRIPTION:Join us for the session on building Excel reports. We have shi
  save you time when you use excel to build customer facing layouts.\n\nSpe
  aker(s): Nikola Kukrika\, Niels-Henrik Sejthen
 DTEND:20240614T130000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240614T113000Z
 LOCATION:Room 8
 SEQUENCE:0
 SUMMARY:Microsoft Presents: Mastering Excel Reports in Business Central [4
  00 - Expert 300 - Advanced][45 min]
-UID:0a443755-da11-4e82-8220-2fcf926462b2
+UID:d7f54816-ae01-49e1-8494-620659afa3e2
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Explore the frontier of Microsoft Copilot engineering that goe
@@ -663,13 +663,13 @@ DESCRIPTION:Explore the frontier of Microsoft Copilot engineering that goe
  of how Microsoft confront hallucinations and mitigate risks associated wi
  th generative AI.\n\nSpeaker(s): Evgenij Korovin\, Ayrton Massey
 DTEND:20240614T130000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240614T113000Z
 LOCATION:Room 5
 SEQUENCE:0
 SUMMARY:Microsoft Presents: Building Trust in AI: The Development of Micro
  soft's 'Chat with Copilot' [200 - Intermediate][45 min]
-UID:0af70a8f-eb1c-45f8-a547-8707fbd5038c
+UID:0efd3f90-ad3b-497f-bd16-5b7b43a61aa8
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:This session will introduce you to Microsoft's Copilot testing
@@ -679,13 +679,13 @@ DESCRIPTION:This session will introduce you to Microsoft's Copilot testing
  res\, ensuring your applications meet the highest standards of quality.\n
  \nSpeaker(s): Prangshuman Das\, Sam van Lieshout
 DTEND:20240614T130000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240614T113000Z
 LOCATION:Room 5
 SEQUENCE:0
 SUMMARY:Microsoft Presents: Exploring the Future of AL Development: Testin
  g Copilot Features [200 - Intermediate][45 min]
-UID:ce55d4d0-16fd-4d74-8556-562814c744bd
+UID:f9c7a834-66d6-4666-831e-5c421d0d56ae
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Unlock the full potential of your business with the Shopify Co
@@ -694,13 +694,13 @@ DESCRIPTION:Unlock the full potential of your business with the Shopify Co
  n\, covering its capabilities\, troubleshooting techniques\, and customiz
  ation options for partners.\n\nSpeaker(s): Onat Buyukakkus
 DTEND:20240614T130000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240614T113000Z
 LOCATION:Room 9
 SEQUENCE:0
 SUMMARY:Microsoft Presents: Maximizing Business Productivity: Mastering th
  e Shopify Connector [200 - Intermediate][45 min]
-UID:43b8f3fd-f5d0-41e3-9984-be16a7a5111e
+UID:b05f3734-94f0-44d1-8ea1-91efa20fb54b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Microsoft recently introduced a new E-documents framework\, wh
@@ -711,13 +711,13 @@ DESCRIPTION:Microsoft recently introduced a new E-documents framework\, wh
   features or services. This session is for developers only.\n\nSpeaker(s)
  : Magnus Hartvig Grønbech
 DTEND:20240614T130000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240614T113000Z
 LOCATION:Room 9
 SEQUENCE:0
 SUMMARY:Microsoft Presents: How to extend new E-Documents framework [400 -
   Expert 300 - Advanced][45 min]
-UID:3d2da6bf-4b7d-4d0e-bcd8-48c4ddcfaf75
+UID:a664ba1e-309d-4012-88b8-9be06089e5cf
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:This session will cover Microsoft internal setup for applicati
@@ -729,32 +729,32 @@ DESCRIPTION:This session will cover Microsoft internal setup for applicati
  ties needed in AL-Go to support our transition.\n\nSpeaker(s): Jonas Blun
  ck\, Freddy Kristiansen\, Alexander Holstrup
 DTEND:20240614T130000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240614T113000Z
 LOCATION:Room 7
 SEQUENCE:0
 SUMMARY:Microsoft Presents: How Microsoft is open sourcing the Business Ce
  ntral applications on GitHub [200 - Intermediate][90 min]
-UID:b4eaa60d-de07-4163-b8ea-c84aeecd5d5f
+UID:9e425506-39ef-40bd-affe-e07424bcb9b9
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20240614T133000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240614T130000Z
 LOCATION:Expo Area
 SEQUENCE:0
 SUMMARY:Coffee Break\, Exhibition\, Sponsor Presentation
-UID:214983e2-e913-4983-9ebc-f223793faae1
+UID:14328514-70aa-4d6a-b2c6-80b05b5b0d9c
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20240614T143000Z
-DTSTAMP:20240601T120757Z
+DTSTAMP:20240601T180636Z
 DTSTART:20240614T133000Z
 LOCATION:Room 8
 SEQUENCE:0
 SUMMARY:Closing
-UID:8905063b-17c5-4a0a-b5b6-0b98baef7785
+UID:0ca6d130-108d-4ffc-85d0-86f28264a3f9
 END:VEVENT
 END:VCALENDAR
