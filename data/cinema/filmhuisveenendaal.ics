@@ -3,21 +3,6 @@ PRODID:-//github.com/rianjs/ical.net//NONSGML ical.net 4.0//EN
 VERSION:2.0
 X-WR-CALNAME:Filmhuis Veenendaal
 BEGIN:VEVENT
-DESCRIPTION:Bob Marley: One Love viert het leven en de muziek van een icoo
- n die generaties inspireerde met zijn boodschap van liefde en eenheid. On
- tdek voor het eerst op het grote scherm het krachtige verhaal van Bob Mar
- ley over het overwinnen van tegenspoed en de reis achter zijn revolutiona
- ire muziek. Geproduceerd in samenwerking met de familie Marley\, met King
- sley Ben-Adir als de legendarische muzikant en Lashana Lynch als zijn vro
- uw Rita.
-DTEND:20240601T220000
-DTSTAMP:20240602T021506Z
-DTSTART:20240601T200000
-SEQUENCE:0
-SUMMARY:Filmhuis Veenendaal: Bob Marley: One Love
-UID:1c696972-f3ed-41c7-b6d9-0951155989a8
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Iedereen heeft zijn eigen Chimera: iets wat je probeert te ber
  eiken maar nooit kunt vinden. In de jaren 80 sluit Arthur\, een jonge Eng
  elsman\, zich aan bij een bende van Italiaanse grafrovers om zo de leegte
@@ -27,11 +12,11 @@ DESCRIPTION:Iedereen heeft zijn eigen Chimera: iets wat je probeert te ber
  n\, tussen feesten en eenzaamheid\, blijkt het lot van alle zoekenden naa
  r de Chimera met elkaar verweven te zijn.
 DTEND:20240608T220000
-DTSTAMP:20240602T021507Z
+DTSTAMP:20240603T021754Z
 DTSTART:20240608T200000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: La Chimera
-UID:5e8d8730-c2c4-4b16-8def-6053db5a0cb9
+UID:dd4f65cb-0ecb-4dba-a3c2-afb2d648358e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Een basisschoolleraar in een dorpje in Mexico besluit ‘radical
@@ -44,11 +29,11 @@ DESCRIPTION:Een basisschoolleraar in een dorpje in Mexico besluit ‘radical
   cast en hoofdrolspeler. Winnaar publieksprijs op het Leiden Internationa
  l Film Festival.
 DTEND:20240615T220000
-DTSTAMP:20240602T021508Z
+DTSTAMP:20240603T021755Z
 DTSTART:20240615T200000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: Radical
-UID:66af088b-2406-473d-9007-c4059165f4d6
+UID:26fea82f-c535-401d-8f1b-27c67a943671
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In de verfilming van haar gelijknamige bestseller vertelt regi
@@ -60,11 +45,11 @@ DESCRIPTION:In de verfilming van haar gelijknamige bestseller vertelt regi
  e film brengt het verhaal van de vrouwen\, die alle drie zo’n ander leven
   leiden\, op een mooie manier samen.
 DTEND:20240622T220000
-DTSTAMP:20240602T021509Z
+DTSTAMP:20240603T021756Z
 DTSTART:20240622T200000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: The Braid
-UID:b413cb34-a514-42d8-9c3b-801bdc10d3f2
+UID:cbe1cd2e-ffc1-4a9e-9148-ff1c1e034d11
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Anne Fontaines biopic over Joseph-Maurice Ravel opent met enke
@@ -77,11 +62,11 @@ DESCRIPTION:Anne Fontaines biopic over Joseph-Maurice Ravel opent met enke
  sensuele melodie die de basis vormen voor wat zijn wereldberoemde werk is
  geworden.
 DTEND:20240629T220000
-DTSTAMP:20240602T021510Z
+DTSTAMP:20240603T021757Z
 DTSTART:20240629T200000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: Boléro
-UID:ed685a15-da88-4344-812e-dcda9ce69886
+UID:e5071b40-4cee-4223-8f58-2e030ec4dc41
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Anne Fontaines biopic over Joseph-Maurice Ravel opent met enke
@@ -94,10 +79,169 @@ DESCRIPTION:Anne Fontaines biopic over Joseph-Maurice Ravel opent met enke
  sensuele melodie die de basis vormen voor wat zijn wereldberoemde werk is
  geworden.
 DTEND:20240713T220000
-DTSTAMP:20240602T021510Z
+DTSTAMP:20240603T021757Z
 DTSTART:20240713T200000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: Boléro
-UID:6fe0b222-3c20-4d8b-8de1-950984af9434
+UID:96bcae3b-113f-4583-a901-3fb1b1214e49
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Back to Black is een ode aan een van de meest iconische muziek
+ sterren van de 21e eeuw: Amy Winehouse. Deze muzikale biopic toont Amy’s 
+ levensverhaal zoals we dit nog niet eerder hebben gezien. We leren Amy ke
+ nnen als gevoelig\, liefdevol en iemand die alles over heeft voor de mens
+ en van wie ze houdt\, vaak ten koste van zichzelf. De film bevat veel van
+  Amy’s hits en focust op haar buitengewone genialiteit\, humor en eerlijk
+ heid. Vanaf haar jaren als beginnend artiest tot het wereldwijde succes e
+ n haar tragische dood wordt Back to Black verteld vanuit Amy’s perspectie
+ f.
+DTEND:20240706T220000
+DTSTAMP:20240603T021758Z
+DTSTART:20240706T200000
+SEQUENCE:0
+SUMMARY:Filmhuis Veenendaal: Back to Black
+UID:165f48cc-df37-4eef-bea5-fdeca92cb91a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Vervolg op een van de grootste filmhuishits van 2000: Together
+ \, over de bewoners van commune Tillsammans in het Stockholm van 1975. In
+  Together 99 brengt regisseur Moodysson de cast van Together opnieuw bij 
+ elkaar om vierentwintig jaar na de oprichting van de Tillsammans de balan
+ s op te maken. Het is 1999 en Klasse nodigt stiekum voormalige leden van 
+ de commune uit voor Görans verjaardagsfeest. Terwijl de vrienden van vroe
+ ger op een veelbewogen avond bijpraten\, komen zowel oude littekens naar 
+ boven als nieuwe hoop.
+DTEND:20240720T220000
+DTSTAMP:20240603T021758Z
+DTSTART:20240720T200000
+SEQUENCE:0
+SUMMARY:Filmhuis Veenendaal: Together 99
+UID:95125d0f-aceb-4347-8ab5-fb8ccecf8aa4
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Vervolg op een van de grootste filmhuishits van 2000: Together
+ \, over de bewoners van commune Tillsammans in het Stockholm van 1975. In
+  Together 99 brengt regisseur Moodysson de cast van Together opnieuw bij 
+ elkaar om vierentwintig jaar na de oprichting van de Tillsammans de balan
+ s op te maken. Het is 1999 en Klasse nodigt stiekum voormalige leden van 
+ de commune uit voor Görans verjaardagsfeest. Terwijl de vrienden van vroe
+ ger op een veelbewogen avond bijpraten\, komen zowel oude littekens naar 
+ boven als nieuwe hoop.
+DTEND:20240803T220000
+DTSTAMP:20240603T021758Z
+DTSTART:20240803T200000
+SEQUENCE:0
+SUMMARY:Filmhuis Veenendaal: Together 99
+UID:507d8a01-13c4-4b42-a3a3-3a59aa3a2bcc
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:De vier jeugdvrienden met een passie voor wielrennen die centr
+ aal stonden in Ventoux (2015) blikken in dit nieuwe avontuur vooruit. And
+ ré\, Bart en David\, allen diep in de 50\, gaan klussen in de oude hoeve 
+ van vriend Joost in België. Deze samenwerking lijkt de perfecte manier om
+  de broederband tussen de mannen te onderhouden en te versterken. Toch st
+ eken ego’s en oud zeer de kop op. Loyaliteit\, noodlot en humor zijn hun 
+ reddingsboei om de volgende fase in hun leven onder ogen te zien.
+DTEND:20240727T220000
+DTSTAMP:20240603T021759Z
+DTSTART:20240727T200000
+SEQUENCE:0
+SUMMARY:Filmhuis Veenendaal: Laatste Ronde
+UID:5fcde82b-441b-4fe5-aff7-361b2e2181e6
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:De vier jeugdvrienden met een passie voor wielrennen die centr
+ aal stonden in Ventoux (2015) blikken in dit nieuwe avontuur vooruit. And
+ ré\, Bart en David\, allen diep in de 50\, gaan klussen in de oude hoeve 
+ van vriend Joost in België. Deze samenwerking lijkt de perfecte manier om
+  de broederband tussen de mannen te onderhouden en te versterken. Toch st
+ eken ego’s en oud zeer de kop op. Loyaliteit\, noodlot en humor zijn hun 
+ reddingsboei om de volgende fase in hun leven onder ogen te zien.
+DTEND:20240810T220000
+DTSTAMP:20240603T021759Z
+DTSTART:20240810T200000
+SEQUENCE:0
+SUMMARY:Filmhuis Veenendaal: Laatste Ronde
+UID:63ec7759-bab8-4a5b-8532-68664f679514
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Zondag is de favoriete dag van María Margarita\, dan gaat ze n
+ amelijk met haar ouders en broers naar de bioscoop. Wanneer haar familie 
+ na een tegenslag geen geld meer heeft voor het wekelijkse uitje\, blijkt 
+ María een bijzonder talent te hebben\; ze kan films tot in detail fantast
+ isch navertellen. Haar gave neemt een steeds groter publiek mee naar de w
+ ondere wereld van film\, maar ondertussen staat het Chileense mijnstadje 
+ waar María woont op het punt voor altijd te veranderen.
+DTEND:20240817T220000
+DTSTAMP:20240603T021800Z
+DTSTART:20240817T200000
+SEQUENCE:0
+SUMMARY:Filmhuis Veenendaal: The Movie Teller
+UID:0e280d5a-5b4e-4ede-a919-7bd4af8b4d97
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Psychologische thriller en Amerikaanse remake van de Belgische
+  film Duelles. Het is begin jaren zestig en beste vriendinnen en buren Al
+ ice en Celine leven het perfecte gezinsleven van een familie in de jaren 
+ zestig: Getrouwd met succesvolle mannen\, moeders van gelukkige zoontjes 
+ die ook nog eens beste vrienden zijn. Na een tragisch ongeluk wordt hun p
+ erfecte leven echter abrupt verstoord. Schuldgevoelens\, achterdocht en p
+ aranoia ontwrichten de zussenband en er ontstaat een psychologische wilst
+ rijd waarin hun moederinstict zich van zijn meest duistere kant laat zien
+ .
+DTEND:20240824T220000
+DTSTAMP:20240603T021801Z
+DTSTART:20240824T200000
+SEQUENCE:0
+SUMMARY:Filmhuis Veenendaal: Mothers' Instinct
+UID:ec2d016b-b011-4471-9382-1ff6ded5714c
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Nata Per Te is het waargebeurde en ontroerende verhaal van Luc
+ a en Alba: een alleenstaande en homoseksuele man met een sterk verlangen 
+ naar het vaderschap en een klein meisje met het syndroom van Down\, achte
+ rgelaten in het ziekenhuis. Beiden hebben elkaar hard nodig\, ook al lijk
+ t de wereld om hen heen daar niet klaar voor te zijn. Het is 2017 en de r
+ echtbank in Napels is op zoek naar een gezin voor het babymeisje Alba. Lu
+ ca vecht om de voogdij over Alba te verkrijgen. Hoeveel ‘traditionele’ ge
+ zinnen moeten nee zeggen voordat Luca in aanmerking kan komen?
+DTEND:20240831T220000
+DTSTAMP:20240603T021802Z
+DTSTART:20240831T200000
+SEQUENCE:0
+SUMMARY:Filmhuis Veenendaal: Nata per te
+UID:2f9c1849-05b6-4521-a407-d2a129ae8d89
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:De Whanganui Rivier in Aotearoa/Nieuw-Zeeland kreeg in 2017 al
+ s eerste rivier ter wereld dezelfde rechten als de mens. De Maori zien de
+  rivier als hun voorouder\, als een onverdeelbaar en spiritueel wezen. Ne
+ d Tapa\, de Maori voogd van de rivier\, nodigt de filmmakers\, internatio
+ nale watervertegenwoordigers en activisten uit op een vijfdaagse kanotoch
+ t op de indrukwekkende rivier. Terwijl rivier en reizigers organisch same
+ nstromen\, is er zowel lichtheid en humor als ruimte voor heling van de e
+ cho’s van het koloniale verleden.
+DTEND:20240901T163000
+DTSTAMP:20240603T021804Z
+DTSTART:20240901T143000
+SEQUENCE:0
+SUMMARY:Filmhuis Veenendaal: I Am the River\, The River is Me
+UID:28e666b5-51da-49d0-b462-41c1325b6ec8
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Nata Per Te is het waargebeurde en ontroerende verhaal van Luc
+ a en Alba: een alleenstaande en homoseksuele man met een sterk verlangen 
+ naar het vaderschap en een klein meisje met het syndroom van Down\, achte
+ rgelaten in het ziekenhuis. Beiden hebben elkaar hard nodig\, ook al lijk
+ t de wereld om hen heen daar niet klaar voor te zijn. Het is 2017 en de r
+ echtbank in Napels is op zoek naar een gezin voor het babymeisje Alba. Lu
+ ca vecht om de voogdij over Alba te verkrijgen. Hoeveel ‘traditionele’ ge
+ zinnen moeten nee zeggen voordat Luca in aanmerking kan komen?
+DTEND:20240831T220000
+DTSTAMP:20240603T021805Z
+DTSTART:20240831T200000
+SEQUENCE:0
+SUMMARY:Filmhuis Veenendaal: Nata per te
+UID:168d011f-1304-4c3c-ab96-bfc892202e8d
 END:VEVENT
 END:VCALENDAR
