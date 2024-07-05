@@ -1,0 +1,36 @@
+name: bbcfirsttvguide
+
+on:
+  schedule:
+    - cron: "0 5 * * *" # GitHub uses UTC
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install required PowerShell modules
+        shell: pwsh
+        run: |
+          Set-PSRepository PSGallery -InstallationPolicy Trusted
+          Install-Module UncommonSense.BbcTvGuide, UncommonSense.iCalendar -Scope CurrentUser
+
+      - name: Update calendar file
+        shell: pwsh
+        run: |
+          Get-BbcTvGuide -Channel bbc-first
+          | ForEach-Object { New-CalendarEvent -Start $_.StartUtc -End $_EndUtc -Summary "BBC First: $($_.FullTitle)" -Description $_.FullSynopsis }
+          | Export-Calendar -Name 'BBC First TV Guide' -Path (Join-Path -Path $env:DataFolderName -ChildPath bbc-first.ics)
+
+      - name: Push changes to git repo
+        run: |
+          git config --global user.name 'Jan Hoek'
+          git config --global user.email 'github@uncommonsense.nl'
+          git remote set-url origin https://x-access-token:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}
+          git pull
+          git add ./data/bbc-first.ics
+          git commit -am 'Updated BBC First TV Guide' || echo "No changes to commit"
+          git push
