@@ -22,7 +22,7 @@ jobs:
         shell: pwsh
         run: |
           Get-BbcTvGuide -Channel bbc-first
-          | ForEach-Object { New-CalendarEvent -Start $_.StartUtc -End $_.EndUtc -Summary "BBC First: $($_.FullTitle)" -Description $_.FullSynopsis }
+          | ForEach-Object { New-CalendarEvent -Start ($_.StartUtc) -End ($_.EndUtc) -Summary "BBC First: $($_.FullTitle)" -Description ($_.FullSynopsis) }
           | Export-Calendar -Name 'BBC First TV Guide' -Path ./data/bbc-first.ics
 
       - name: Push changes to git repo
