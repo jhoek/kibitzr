@@ -23,7 +23,7 @@ jobs:
         run: |
           Get-BbcTvGuide -Channel bbc-first
           | ForEach-Object { New-CalendarEvent -Start $_.StartUtc -End $_EndUtc -Summary "BBC First: $($_.FullTitle)" -Description $_.FullSynopsis }
-          | Export-Calendar -Name 'BBC First TV Guide' -Path (Join-Path -Path $env:DataFolderName -ChildPath bbc-first.ics)
+          | Export-Calendar -Name 'BBC First TV Guide' -Path ./data/bbc-first.ics
 
       - name: Push changes to git repo
         run: |
