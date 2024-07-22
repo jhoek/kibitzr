@@ -52,6 +52,7 @@ jobs:
           git config --global user.name 'Jan Hoek'
           git config --global user.email 'github@uncommonsense.nl'
           git remote set-url origin https://x-access-token:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}
+          git pull
           git add ./data/meewind/*
           git commit -am 'Updated meewind files' || echo "No changes to commit"
           git push
