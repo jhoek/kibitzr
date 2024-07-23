@@ -3,20 +3,34 @@ PRODID:-//github.com/rianjs/ical.net//NONSGML ical.net 4.0//EN
 VERSION:2.0
 X-WR-CALNAME:Filmhuis Veenendaal
 BEGIN:VEVENT
-DESCRIPTION:Vervolg op een van de grootste filmhuishits van 2000: Together
- \, over de bewoners van commune Tillsammans in het Stockholm van 1975. In
-  Together 99 brengt regisseur Moodysson de cast van Together opnieuw bij 
- elkaar om vierentwintig jaar na de oprichting van de Tillsammans de balan
- s op te maken. Het is 1999 en Klasse nodigt stiekum voormalige leden van 
- de commune uit voor Görans verjaardagsfeest. Terwijl de vrienden van vroe
- ger op een veelbewogen avond bijpraten\, komen zowel oude littekens naar 
- boven als nieuwe hoop.
-DTEND:20240720T220000
-DTSTAMP:20240722T021740Z
-DTSTART:20240720T200000
+DESCRIPTION:De vier jeugdvrienden met een passie voor wielrennen die centr
+ aal stonden in Ventoux (2015) blikken in dit nieuwe avontuur vooruit. And
+ ré\, Bart en David\, allen diep in de 50\, gaan klussen in de oude hoeve 
+ van vriend Joost in België. Deze samenwerking lijkt de perfecte manier om
+  de broederband tussen de mannen te onderhouden en te versterken. Toch st
+ eken ego’s en oud zeer de kop op. Loyaliteit\, noodlot en humor zijn hun 
+ reddingsboei om de volgende fase in hun leven onder ogen te zien.
+DTEND:20240727T220000
+DTSTAMP:20240723T021552Z
+DTSTART:20240727T200000
 SEQUENCE:0
-SUMMARY:Filmhuis Veenendaal: Together 99
-UID:928aebef-b543-426b-a748-b3dd220ebe66
+SUMMARY:Filmhuis Veenendaal: Laatste Ronde
+UID:1e82ca6e-c9f3-4da1-9144-3e293223dcf6
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:De vier jeugdvrienden met een passie voor wielrennen die centr
+ aal stonden in Ventoux (2015) blikken in dit nieuwe avontuur vooruit. And
+ ré\, Bart en David\, allen diep in de 50\, gaan klussen in de oude hoeve 
+ van vriend Joost in België. Deze samenwerking lijkt de perfecte manier om
+  de broederband tussen de mannen te onderhouden en te versterken. Toch st
+ eken ego’s en oud zeer de kop op. Loyaliteit\, noodlot en humor zijn hun 
+ reddingsboei om de volgende fase in hun leven onder ogen te zien.
+DTEND:20240810T220000
+DTSTAMP:20240723T021552Z
+DTSTART:20240810T200000
+SEQUENCE:0
+SUMMARY:Filmhuis Veenendaal: Laatste Ronde
+UID:4df615d8-9095-4db8-90e8-e5b9f9b03c4a
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Vervolg op een van de grootste filmhuishits van 2000: Together
@@ -28,41 +42,11 @@ DESCRIPTION:Vervolg op een van de grootste filmhuishits van 2000: Together
  ger op een veelbewogen avond bijpraten\, komen zowel oude littekens naar 
  boven als nieuwe hoop.
 DTEND:20240803T220000
-DTSTAMP:20240722T021740Z
+DTSTAMP:20240723T021553Z
 DTSTART:20240803T200000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: Together 99
-UID:b3daebfb-05d3-4af4-ae2e-71725f05f395
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:De vier jeugdvrienden met een passie voor wielrennen die centr
- aal stonden in Ventoux (2015) blikken in dit nieuwe avontuur vooruit. And
- ré\, Bart en David\, allen diep in de 50\, gaan klussen in de oude hoeve 
- van vriend Joost in België. Deze samenwerking lijkt de perfecte manier om
-  de broederband tussen de mannen te onderhouden en te versterken. Toch st
- eken ego’s en oud zeer de kop op. Loyaliteit\, noodlot en humor zijn hun 
- reddingsboei om de volgende fase in hun leven onder ogen te zien.
-DTEND:20240727T220000
-DTSTAMP:20240722T021742Z
-DTSTART:20240727T200000
-SEQUENCE:0
-SUMMARY:Filmhuis Veenendaal: Laatste Ronde
-UID:c7249725-94af-4b9c-99e0-b4c0b773808c
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:De vier jeugdvrienden met een passie voor wielrennen die centr
- aal stonden in Ventoux (2015) blikken in dit nieuwe avontuur vooruit. And
- ré\, Bart en David\, allen diep in de 50\, gaan klussen in de oude hoeve 
- van vriend Joost in België. Deze samenwerking lijkt de perfecte manier om
-  de broederband tussen de mannen te onderhouden en te versterken. Toch st
- eken ego’s en oud zeer de kop op. Loyaliteit\, noodlot en humor zijn hun 
- reddingsboei om de volgende fase in hun leven onder ogen te zien.
-DTEND:20240810T220000
-DTSTAMP:20240722T021742Z
-DTSTART:20240810T200000
-SEQUENCE:0
-SUMMARY:Filmhuis Veenendaal: Laatste Ronde
-UID:9b11f5e4-280b-44d7-9ec8-1a9c24d20663
+UID:6442c99e-c125-48a2-ac9c-cefa46a67e4a
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Zondag is de favoriete dag van María Margarita\, dan gaat ze n
@@ -73,11 +57,11 @@ DESCRIPTION:Zondag is de favoriete dag van María Margarita\, dan gaat ze n
  ondere wereld van film\, maar ondertussen staat het Chileense mijnstadje 
  waar María woont op het punt voor altijd te veranderen.
 DTEND:20240817T220000
-DTSTAMP:20240722T021743Z
+DTSTAMP:20240723T021555Z
 DTSTART:20240817T200000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: The Movie Teller
-UID:ac7843ce-3769-4819-8794-252e220189a2
+UID:0f707968-b7e3-4e52-9048-b8bbe1ad9f10
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Psychologische thriller en Amerikaanse remake van de Belgische
@@ -90,11 +74,11 @@ DESCRIPTION:Psychologische thriller en Amerikaanse remake van de Belgische
  rijd waarin hun moederinstict zich van zijn meest duistere kant laat zien
  .
 DTEND:20240824T220000
-DTSTAMP:20240722T021744Z
+DTSTAMP:20240723T021556Z
 DTSTART:20240824T200000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: Mothers' Instinct
-UID:bc008667-5b8e-4cae-aec9-5ae4159c2d82
+UID:365d7db1-2413-4b9e-8ab0-1d9fbecdd664
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Nata Per Te is het waargebeurde en ontroerende verhaal van Luc
@@ -106,11 +90,11 @@ DESCRIPTION:Nata Per Te is het waargebeurde en ontroerende verhaal van Luc
  ca vecht om de voogdij over Alba te verkrijgen. Hoeveel ‘traditionele’ ge
  zinnen moeten nee zeggen voordat Luca in aanmerking kan komen?
 DTEND:20240831T220000
-DTSTAMP:20240722T021745Z
+DTSTAMP:20240723T021557Z
 DTSTART:20240831T200000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: Nata per te
-UID:bc92359a-c4b3-4ac2-8d7a-f90a59928b78
+UID:1b17aa01-c533-4c4c-95a9-dcf8cadce00e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De Whanganui Rivier in Aotearoa/Nieuw-Zeeland kreeg in 2017 al
@@ -122,10 +106,10 @@ DESCRIPTION:De Whanganui Rivier in Aotearoa/Nieuw-Zeeland kreeg in 2017 al
  nstromen\, is er zowel lichtheid en humor als ruimte voor heling van de e
  cho’s van het koloniale verleden.
 DTEND:20240901T163000
-DTSTAMP:20240722T021746Z
+DTSTAMP:20240723T021558Z
 DTSTART:20240901T143000
 SEQUENCE:0
 SUMMARY:Filmhuis Veenendaal: I Am the River\, The River is Me
-UID:24f019d3-1545-43f8-b195-ce3813cfbe69
+UID:f5fdc9e7-c4c2-45d7-a5e9-8c4343db1d5d
 END:VEVENT
 END:VCALENDAR
