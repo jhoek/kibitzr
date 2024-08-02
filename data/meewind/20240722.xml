@@ -1,38 +1,38 @@
 <Objs Version="1.1.0.1" xmlns="http://schemas.microsoft.com/powershell/2004/04">
   <Obj RefId="0">
     <TN RefId="0">
-      <T>UncommonSense.Meesman.FundPrice</T>
+      <T>UncommonSense.Meewind.FundPrice</T>
       <T>System.Management.Automation.PSCustomObject</T>
       <T>System.Object</T>
     </TN>
     <MS>
       <DT N="Date">2024-06-30T00:00:00</DT>
-      <S N="Fund">Aandelen Wereldwijd Totaal</S>
-      <D N="Price">81.3688</D>
+      <S N="Fund">Energie Transitiefonds</S>
+      <D N="Price">1458.8071</D>
     </MS>
   </Obj>
   <Obj RefId="1">
     <TNRef RefId="0" />
     <MS>
       <DT N="Date">2024-06-30T00:00:00</DT>
-      <S N="Fund">Aandelen Verantwoorde Toekomst</S>
-      <D N="Price">61.4646</D>
+      <S N="Fund">Groenfonds Regionaal Duurzaam</S>
+      <D N="Price">1061.5818</D>
     </MS>
   </Obj>
   <Obj RefId="2">
     <TNRef RefId="0" />
     <MS>
       <DT N="Date">2024-06-30T00:00:00</DT>
-      <S N="Fund">Obligaties Wereldwijd</S>
-      <D N="Price">71.0147</D>
+      <S N="Fund">Fonds Zeewind Bestaande Parken</S>
+      <D N="Price">961.3360</D>
     </MS>
   </Obj>
   <Obj RefId="3">
     <TNRef RefId="0" />
     <MS>
       <DT N="Date">2024-06-30T00:00:00</DT>
-      <S N="Fund">Meesman Rentefonds</S>
-      <D N="Price">51.0693</D>
+      <S N="Fund">Fonds Zeewind Nieuwe Parken</S>
+      <D N="Price">1957.1805</D>
     </MS>
   </Obj>
 </Objs>
