@@ -43,7 +43,6 @@
 [![test](https://github.com/jhoek/kibitzr/actions/workflows/test.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/test.yml)
 [![tomgauld](https://github.com/jhoek/kibitzr/actions/workflows/tomgauld.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/tomgauld.yml)
 [![triodos](https://github.com/jhoek/kibitzr/actions/workflows/triodos.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/triodos.yml)
-[![verdienenenuitgeven](https://github.com/jhoek/kibitzr/actions/workflows/verdienenenuitgeven.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/verdienenenuitgeven.yml)
 [![watchdog](https://github.com/jhoek/kibitzr/actions/workflows/watchdog.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/watchdog.yml)
 [![watmaakthetlevendemoeitewaard](https://github.com/jhoek/kibitzr/actions/workflows/watmaakthetlevendemoeitewaard.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/watmaakthetlevendemoeitewaard.yml)
 [![woord](https://github.com/jhoek/kibitzr/actions/workflows/woord.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/woord.yml)
