@@ -1,13 +1,13 @@
-name: tiengeboden
+name: sylviawitteman
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: "30 6 * * 6"
+    - cron: "20 6 * * 1-6"
+  workflow_dispatch:
 
 jobs:
   run:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - uses: actions/checkout@v2
@@ -16,12 +16,12 @@ jobs:
         shell: pwsh
         run: |
           Set-PSRepository PSGallery -InstallationPolicy Trusted
-          Install-Module UncommonSense.Hap, UncommonSense.Trouw, UncommonSense.Rss -Scope CurrentUser
+          Install-Module UncommonSense.Hap, UncommonSense.Volkskrant, UncommonSense.Rss -Scope CurrentUser
 
       - name: Get Recent data
         shell: pwsh
         run: |
-          Get-TienGeboden
+          Get-SylviaWitteman
           | Select-Object -First 10
           | ForEach-Object {
             New-RssFeedItem `
@@ -30,10 +30,10 @@ jobs:
               -Description (($_.Body | ForEach-Object { $_.Trim()} | Where-Object {$_} | ForEach-Object { "<p>$($_)</p>"}) -join "`n") `
               -PubDate $_.Date }
           | New-RssFeed `
-            -Title 'Tien Geboden' `
-            -Link 'https://trouw.nl/dossier/tien-geboden' `
-            -Description 'Interviews aan de hand van de tien geboden'
-          | Set-Content -Path ./data/tiengeboden.xml
+            -Title 'Sylvia Witteman' `
+            -Link 'https://www.volkskrant.nl/auteur/Sylvia%20Witteman' `
+            -Description 'Sylvia Witteman'
+          | Set-Content -Path ./data/sylviawitteman.xml
 
       - name: Commit and push feed
         shell: bash
