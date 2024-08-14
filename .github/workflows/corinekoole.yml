@@ -1,13 +1,13 @@
-name: frankheinen
+name: corinekoole
 
 on:
   schedule:
-    - cron: "5 5 * * 4"
+    - cron: "10 5 * * 4"
   workflow_dispatch:
 
 jobs:
   run:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - uses: actions/checkout@v2
@@ -21,7 +21,7 @@ jobs:
       - name: Get Recent data
         shell: pwsh
         run: |
-          Get-FrankHeinen
+          Get-CorineKoole
           | Select-Object -First 10
           | ForEach-Object {
             New-RssFeedItem `
@@ -30,10 +30,10 @@ jobs:
               -Description (($_.Body | ForEach-Object { $_.Trim()} | Where-Object {$_} | ForEach-Object { "<p>$($_)</p>"}) -join "`n") `
               -PubDate $_.Date }
           | New-RssFeed `
-            -Title 'Frank Heinen' `
-            -Link 'https://www.volkskrant.nl/auteur/frank-heinen' `
-            -Description 'Frank Heinen'
-          | Set-Content -Path ./data/frankheinen.xml
+            -Title 'Corine Koole' `
+            -Link 'https://www.volkskrant.nl/auteur/corine-koole' `
+            -Description 'Corine Koole'
+          | Set-Content -Path ./data/corinekoole.xml
 
       - name: Commit and push feed
         shell: bash

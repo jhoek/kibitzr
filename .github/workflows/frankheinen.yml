@@ -1,16 +1,13 @@
-name: collignon
+name: frankheinen
 
 on:
-  # push:
-  #   branches:
-  #     - master
   schedule:
-    - cron: "25 4 * * 1-6"
+    - cron: "5 5 * * 4"
   workflow_dispatch:
 
 jobs:
   run:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - uses: actions/checkout@v2
@@ -21,22 +18,22 @@ jobs:
           Set-PSRepository PSGallery -InstallationPolicy Trusted
           Install-Module UncommonSense.Hap, UncommonSense.Volkskrant, UncommonSense.Rss -Scope CurrentUser
 
-      - name: Update feed
+      - name: Get Recent data
         shell: pwsh
         run: |
-          Get-Collignon
+          Get-FrankHeinen
           | Select-Object -First 10
           | ForEach-Object {
             New-RssFeedItem `
               -ID $_.Url `
               -Title $_.Title `
-              -Description "<img src='$($_.Body)'/>" `
+              -Description (($_.Body | ForEach-Object { $_.Trim()} | Where-Object {$_} | ForEach-Object { "<p>$($_)</p>"}) -join "`n") `
               -PubDate $_.Date }
           | New-RssFeed `
-            -Title 'Collignon' `
-            -Link 'https://www.volkskrant.nl/nieuws-achtergrond/collignon~bc803266' `
-            -Description 'Collignon'
-          | Set-Content -Path ./data/collignon.xml
+            -Title 'Frank Heinen' `
+            -Link 'https://www.volkskrant.nl/auteur/frank-heinen' `
+            -Description 'Frank Heinen'
+          | Set-Content -Path ./data/frankheinen.xml
 
       - name: Commit and push feed
         shell: bash
