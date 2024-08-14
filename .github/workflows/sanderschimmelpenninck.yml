@@ -1,16 +1,13 @@
-name: sigmund
+name: sanderschimmelpenninck
 
 on:
-  # push:
-  #   branches:
-  #     - master
   schedule:
-    - cron: "15 6 * * 1-6"
+    - cron: "30 4 * * 1"
   workflow_dispatch:
 
 jobs:
   run:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - uses: actions/checkout@v2
@@ -21,22 +18,22 @@ jobs:
           Set-PSRepository PSGallery -InstallationPolicy Trusted
           Install-Module UncommonSense.Hap, UncommonSense.Volkskrant, UncommonSense.Rss -Scope CurrentUser
 
-      - name: Update feed
+      - name: Get Recent data
         shell: pwsh
         run: |
-          Get-Sigmund
+          Get-SanderSchimmelpenninck
           | Select-Object -First 10
           | ForEach-Object {
             New-RssFeedItem `
               -ID $_.Url `
               -Title $_.Title `
-              -Description "<img src='$($_.Body)'/>" `
+              -Description (($_.Body | ForEach-Object { $_.Trim()} | Where-Object {$_} | ForEach-Object { "<p>$($_)</p>"}) -join "`n") `
               -PubDate $_.Date }
           | New-RssFeed `
-            -Title 'Sigmund' `
-            -Link 'https://www.volkskrant.nl/columns-opinie/sigmund~q8c5108e/' `
-            -Description 'Sigmund'
-          | Set-Content -Path ./data/sigmund.xml
+            -Title 'Sander Schimmelpenninck' `
+            -Link 'https://www.volkskrant.nl/auteur/sander-schimmelpenninck' `
+            -Description 'Sander Schimmelpenninck'
+          | Set-Content -Path ./data/sanderschimmelpenninck.xml
 
       - name: Commit and push feed
         shell: bash
