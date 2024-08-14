@@ -48,8 +48,6 @@ function Update-RssFeed
 Push-Location ~/GitHub/kibitzr
 try
 {
-    Update-RssFeed -Source { Get-RoosSchlikker } -Title 'Roos Schlikker' -Link 'https://www.parool.nl/auteur/roos-schlikker' -Destination './data/roosschlikker.xml'
-    Update-RssFeed -Source { Get-Spotprent } -Title 'Spotprent' -Link 'https://www.trouw.nl/achterpagina/spotprenten~bc9b7dca/' -Destination './data/spotprent.xml' -Cartoon
     Update-RssFeed -Source { Get-CorineKoole } -Title 'Corine Koole' -Link 'https://www.volkskrant.nl/auteur/corine-koole' -Destination './data/corinekoole.xml'
     Update-RssFeed -Source { Get-Gummbah } -Title 'Gummbah' -Link 'https://www.volkskrant.nl/cartoons/gummbah~b91c34a2/' -Destination './data/gummbah.xml' -Cartoon
     Update-RssFeed -Source { Get-Collignon } -Title 'Collignon' -Link 'https://www.volkskrant.nl/cartoons/collignon~b2752a21/' -Destination './data/collignon.xml' -Cartoon
