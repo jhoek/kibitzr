@@ -48,8 +48,6 @@ function Update-RssFeed
 Push-Location ~/GitHub/kibitzr
 try
 {
-    Update-RssFeed -Source { Get-BasVanDerSchot } -Title 'Bas van der Schot' -Link 'https://www.volkskrant.nl/cartoons/bas-van-der-schot~b31a8d34/' -Destination './data/basvanderschot.xml' -Cartoon
-    Update-RssFeed -Source { Get-JasperVanKuijk } -Title 'Jasper van Kuijk' -Link 'https://www.volkskrant.nl/auteur/jasper-van-kuijk' -Destination './data/jaspervankuijk.xml'
     Update-RssFeed -Source { Get-HeinDeKort } -Title 'Hein de Kort' -Link 'https://www.parool.nl' -Destination './data/heindekort.xml' -Cartoon
     Update-RssFeed -Source { Get-DirkJan } -Title 'Dirk-Jan' -Link 'https://www.parool.nl' -Destination './data/dirkjan.xml' -Cartoon
     Update-RssFeed -Source { Get-SanderSchimmelpenninck } -Title 'Sander Schimmelpenninck' -Link 'https://www.volkskrant.nl/auteur/sander-schimmelpenninck' -Destination './data/sanderschimmelpenninck.xml'
