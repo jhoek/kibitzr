@@ -1,4 +1,3 @@
-[![_selfhostedtest](https://github.com/jhoek/kibitzr/actions/workflows/_selfhostedtest.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/_selfhostedtest.yml)
 [![alarmfase1](https://github.com/jhoek/kibitzr/actions/workflows/alarmfase1.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/alarmfase1.yml)
 [![alarmfase1els](https://github.com/jhoek/kibitzr/actions/workflows/alarmfase1els.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/alarmfase1els.yml)
 [![asnbank](https://github.com/jhoek/kibitzr/actions/workflows/asnbank.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/asnbank.yml)
@@ -64,6 +63,7 @@
 [![triodos](https://github.com/jhoek/kibitzr/actions/workflows/triodos.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/triodos.yml)
 [![watchdog](https://github.com/jhoek/kibitzr/actions/workflows/watchdog.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/watchdog.yml)
 [![watmaakthetlevendemoeitewaard](https://github.com/jhoek/kibitzr/actions/workflows/watmaakthetlevendemoeitewaard.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/watmaakthetlevendemoeitewaard.yml)
+[![weather](https://github.com/jhoek/kibitzr/actions/workflows/weather.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/weather.yml)
 [![woord](https://github.com/jhoek/kibitzr/actions/workflows/woord.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/woord.yml)
 [![youp](https://github.com/jhoek/kibitzr/actions/workflows/youp.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/youp.yml)
 [![zomeravondgesprek](https://github.com/jhoek/kibitzr/actions/workflows/zomeravondgesprek.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/zomeravondgesprek.yml)
