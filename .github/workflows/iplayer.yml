@@ -26,7 +26,7 @@ jobs:
           | ForEach-Object {
             New-RssFeedItem `
               -ID $_.ID `
-              -Title (@($_.Title, $_.SubTitle) | Where-Object { $_ }) -join ' - ' `
+              -Title ((@($_.Title, $_.SubTitle) | Where-Object { $_ }) -join ' - ') `
               -Description "<img src='$($_.Image)'/><br/>$($_.Synopsis)" `
               -PubDate (Get-Date) }
           | New-RssFeed `
