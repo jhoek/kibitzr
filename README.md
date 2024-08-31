@@ -45,6 +45,7 @@
 [![opgevoed](https://github.com/jhoek/kibitzr/actions/workflows/opgevoed.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/opgevoed.yml)
 [![opml](https://github.com/jhoek/kibitzr/actions/workflows/opml.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/opml.yml)
 [![opnieuw](https://github.com/jhoek/kibitzr/actions/workflows/opnieuw.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/opnieuw.yml)
+[![picl](https://github.com/jhoek/kibitzr/actions/workflows/picl.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/picl.yml)
 [![readme](https://github.com/jhoek/kibitzr/actions/workflows/readme.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/readme.yml)
 [![roosschlikker](https://github.com/jhoek/kibitzr/actions/workflows/roosschlikker.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/roosschlikker.yml)
 [![rubenloppenheimer](https://github.com/jhoek/kibitzr/actions/workflows/rubenloppenheimer.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/rubenloppenheimer.yml)
