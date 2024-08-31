@@ -25,8 +25,8 @@ jobs:
           | ForEach-Object {
             New-RssFeedItem `
               -ID $_.Url `
-              -Title "$($_.Title) $($_.Genre)" `
-              -Description ((($_.Synopsis, $_.Description, "Available until $($_.AvailableUntil)", "$($_.Country), $($_.Language)") | Foreach-Object { "<p>$($_)</p>" }) -join "`n") `
+              -Title "$($_.Title) [$($_.Genre)]" `
+              -Description ((($_.Synopsis, $_.Description, "Available until $($_.AvailableUntil)", "$($_.Country)/$($_.Language)") | Foreach-Object { "<p>$($_)</p>" }) -join "`n") `
               -PubDate (Get-Date) }
           | New-RssFeed `
             -Title 'Picl' `
