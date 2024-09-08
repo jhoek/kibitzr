@@ -33,7 +33,6 @@
 [![japked](https://github.com/jhoek/kibitzr/actions/workflows/japked.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/japked.yml)
 [![jaspervankuijk](https://github.com/jhoek/kibitzr/actions/workflows/jaspervankuijk.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/jaspervankuijk.yml)
 [![jipvandentoorn](https://github.com/jhoek/kibitzr/actions/workflows/jipvandentoorn.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/jipvandentoorn.yml)
-[![joostprinsen](https://github.com/jhoek/kibitzr/actions/workflows/joostprinsen.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/joostprinsen.yml)
 [![kamagurka](https://github.com/jhoek/kibitzr/actions/workflows/kamagurka.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/kamagurka.yml)
 [![marcelvanroosmalen](https://github.com/jhoek/kibitzr/actions/workflows/marcelvanroosmalen.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/marcelvanroosmalen.yml)
 [![martijnkatan](https://github.com/jhoek/kibitzr/actions/workflows/martijnkatan.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/martijnkatan.yml)
