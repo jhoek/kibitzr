@@ -12,7 +12,6 @@
 [![deelementen](https://github.com/jhoek/kibitzr/actions/workflows/deelementen.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/deelementen.yml)
 [![delaatstebladzijde](https://github.com/jhoek/kibitzr/actions/workflows/delaatstebladzijde.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/delaatstebladzijde.yml)
 [![dirkjan](https://github.com/jhoek/kibitzr/actions/workflows/dirkjan.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/dirkjan.yml)
-[![ditbenik](https://github.com/jhoek/kibitzr/actions/workflows/ditbenik.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/ditbenik.yml)
 [![durftevragen](https://github.com/jhoek/kibitzr/actions/workflows/durftevragen.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/durftevragen.yml)
 [![ellendeckwitz](https://github.com/jhoek/kibitzr/actions/workflows/ellendeckwitz.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/ellendeckwitz.yml)
 [![evahoeke](https://github.com/jhoek/kibitzr/actions/workflows/evahoeke.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/evahoeke.yml)
