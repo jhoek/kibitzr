@@ -23,7 +23,6 @@
 [![heindekort](https://github.com/jhoek/kibitzr/actions/workflows/heindekort.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/heindekort.yml)
 [![hoekschewaard](https://github.com/jhoek/kibitzr/actions/workflows/hoekschewaard.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/hoekschewaard.yml)
 [![htmlq](https://github.com/jhoek/kibitzr/actions/workflows/htmlq.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/htmlq.yml)
-[![ikdoeietsgoeds](https://github.com/jhoek/kibitzr/actions/workflows/ikdoeietsgoeds.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/ikdoeietsgoeds.yml)
 [![ikjes](https://github.com/jhoek/kibitzr/actions/workflows/ikjes.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/ikjes.yml)
 [![ikjes2](https://github.com/jhoek/kibitzr/actions/workflows/ikjes2.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/ikjes2.yml)
 [![ionicasmeets](https://github.com/jhoek/kibitzr/actions/workflows/ionicasmeets.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/ionicasmeets.yml)
