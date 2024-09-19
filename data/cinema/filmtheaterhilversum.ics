@@ -3,16 +3,100 @@ PRODID:-//github.com/rianjs/ical.net//NONSGML ical.net 4.0//EN
 VERSION:2.0
 X-WR-CALNAME:Filmtheater Hilversum
 BEGIN:VEVENT
-DESCRIPTION:Lissy\, Tom en Ellen behoren allemaal tot de familie Lunies. D
- ie achternaam lijkt hun enige overeenkomst te zijn\, aangezien ze verder 
- een totaal verschillend leven leiden. Eigenlijk is er niks wat deze famil
- ieleden onderling verbindt. Of toch?
-DTEND:20240918T153000
-DTSTAMP:20240918T065635Z
-DTSTART:20240918T133000
+DESCRIPTION:Mooie\, innemende coming-of-age film. Fanny\, een 17-jarige sc
+ holiere uit Frankrijk\, gaat op uitwisseling naar Duitsland. In Leipzig o
+ ntmoet ze haar penvriendin Lena\, die even oud is als zij en zich al volo
+ p bezighoudt met politiek activisme.
+DTEND:20240919T123000
+DTSTAMP:20240919T065648Z
+DTSTART:20240919T103000
 SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Sterben
-UID:07e8fdb1-862a-46d1-b0b6-e00abd0dda25
+SUMMARY:Filmtheater Hilversum: Langue Étrangère
+UID:851eaf45-1bda-4ec1-a978-6279d4b6756f
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Mooie\, innemende coming-of-age film. Fanny\, een 17-jarige sc
+ holiere uit Frankrijk\, gaat op uitwisseling naar Duitsland. In Leipzig o
+ ntmoet ze haar penvriendin Lena\, die even oud is als zij en zich al volo
+ p bezighoudt met politiek activisme.
+DTEND:20240919T233000
+DTSTAMP:20240919T065648Z
+DTSTART:20240919T213000
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Langue Étrangère
+UID:92206af8-16b8-4995-ad57-4951a7b6caf4
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Mooie\, innemende coming-of-age film. Fanny\, een 17-jarige sc
+ holiere uit Frankrijk\, gaat op uitwisseling naar Duitsland. In Leipzig o
+ ntmoet ze haar penvriendin Lena\, die even oud is als zij en zich al volo
+ p bezighoudt met politiek activisme.
+DTEND:20240920T230000
+DTSTAMP:20240919T065648Z
+DTSTART:20240920T210000
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Langue Étrangère
+UID:ee7749af-9f8d-4a67-a02c-3db2912ab9bd
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Mooie\, innemende coming-of-age film. Fanny\, een 17-jarige sc
+ holiere uit Frankrijk\, gaat op uitwisseling naar Duitsland. In Leipzig o
+ ntmoet ze haar penvriendin Lena\, die even oud is als zij en zich al volo
+ p bezighoudt met politiek activisme.
+DTEND:20240921T233000
+DTSTAMP:20240919T065648Z
+DTSTART:20240921T213000
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Langue Étrangère
+UID:cc960687-b0bb-4817-8781-f56fdd92655d
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Mooie\, innemende coming-of-age film. Fanny\, een 17-jarige sc
+ holiere uit Frankrijk\, gaat op uitwisseling naar Duitsland. In Leipzig o
+ ntmoet ze haar penvriendin Lena\, die even oud is als zij en zich al volo
+ p bezighoudt met politiek activisme.
+DTEND:20240922T233000
+DTSTAMP:20240919T065648Z
+DTSTART:20240922T213000
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Langue Étrangère
+UID:7a538a4b-659a-4e0e-99d1-a96cb1c36b98
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Mooie\, innemende coming-of-age film. Fanny\, een 17-jarige sc
+ holiere uit Frankrijk\, gaat op uitwisseling naar Duitsland. In Leipzig o
+ ntmoet ze haar penvriendin Lena\, die even oud is als zij en zich al volo
+ p bezighoudt met politiek activisme.
+DTEND:20240923T181500
+DTSTAMP:20240919T065648Z
+DTSTART:20240923T161500
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Langue Étrangère
+UID:020d3c16-42a3-4793-bfab-1c18dcb1b20e
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Mooie\, innemende coming-of-age film. Fanny\, een 17-jarige sc
+ holiere uit Frankrijk\, gaat op uitwisseling naar Duitsland. In Leipzig o
+ ntmoet ze haar penvriendin Lena\, die even oud is als zij en zich al volo
+ p bezighoudt met politiek activisme.
+DTEND:20240924T204500
+DTSTAMP:20240919T065648Z
+DTSTART:20240924T184500
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Langue Étrangère
+UID:76527d39-36c7-4668-8fad-7e81b37ef0a0
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Mooie\, innemende coming-of-age film. Fanny\, een 17-jarige sc
+ holiere uit Frankrijk\, gaat op uitwisseling naar Duitsland. In Leipzig o
+ ntmoet ze haar penvriendin Lena\, die even oud is als zij en zich al volo
+ p bezighoudt met politiek activisme.
+DTEND:20240925T154500
+DTSTAMP:20240919T065648Z
+DTSTART:20240925T134500
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Langue Étrangère
+UID:a0e3b160-1de3-41eb-a813-bf5f8d3e2b6a
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Lissy\, Tom en Ellen behoren allemaal tot de familie Lunies. D
@@ -20,11 +104,11 @@ DESCRIPTION:Lissy\, Tom en Ellen behoren allemaal tot de familie Lunies. D
  een totaal verschillend leven leiden. Eigenlijk is er niks wat deze famil
  ieleden onderling verbindt. Of toch?
 DTEND:20240919T130000
-DTSTAMP:20240918T065635Z
+DTSTAMP:20240919T065649Z
 DTSTART:20240919T110000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Sterben
-UID:41e175ed-74b8-4435-b886-0f5e8c585a19
+UID:44c6cbaa-df34-46a1-8e64-090026fd6b03
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Lissy\, Tom en Ellen behoren allemaal tot de familie Lunies. D
@@ -32,11 +116,11 @@ DESCRIPTION:Lissy\, Tom en Ellen behoren allemaal tot de familie Lunies. D
  een totaal verschillend leven leiden. Eigenlijk is er niks wat deze famil
  ieleden onderling verbindt. Of toch?
 DTEND:20240920T141500
-DTSTAMP:20240918T065635Z
+DTSTAMP:20240919T065649Z
 DTSTART:20240920T121500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Sterben
-UID:cd7d079e-f289-458c-9389-9d7d967b9b28
+UID:19748064-6409-4659-b861-6587c7e35dea
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Lissy\, Tom en Ellen behoren allemaal tot de familie Lunies. D
@@ -44,43 +128,181 @@ DESCRIPTION:Lissy\, Tom en Ellen behoren allemaal tot de familie Lunies. D
  een totaal verschillend leven leiden. Eigenlijk is er niks wat deze famil
  ieleden onderling verbindt. Of toch?
 DTEND:20240923T161500
-DTSTAMP:20240918T065635Z
+DTSTAMP:20240919T065649Z
 DTSTART:20240923T141500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Sterben
-UID:33baa6ed-9b5a-4ae2-a871-38190b74b4ec
+UID:5d9acbc4-c282-46d2-8f65-2ef0a4df6dc6
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\, 
- is Arthur Japin te gast voor een nagesprek na de voorstelling. Kijk hier 
- voor meer informatie en tickets. Een Schitterend Gebrek vertelt het meesl
- epende verhaal van Lucia\, de eerste en grootste liefde van vrouwenversie
- rder Giacomo Casanova. Na een betoverende ontmoeting in Italië\, beloven 
- de twee elkaar eeuwige trouw in afwachting van Casanova's terugkeer van e
- en zakenreis. Maar dan wordt Lucia getroffen door de pokken en sluit ze z
- ich af van haar geliefde\, en van de buitenwereld.
-DTEND:20240918T154500
-DTSTAMP:20240918T065637Z
-DTSTART:20240918T134500
+DESCRIPTION:Natuur die zich niet laat temmen. Duik mee de diepte in met de
+  avontuurlijke film De Wilde Noordzee. We volgen de ervaren duiker en cam
+ eraman Peter van Rodijnen\, die de afgelopen 20 jaar in zeeën over de hel
+ e wereld heeft gefilmd.
+DTEND:20240919T153000
+DTSTAMP:20240919T065650Z
+DTSTART:20240919T133000
 SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Een Schitterend Gebrek
-UID:e5ae4dd5-5137-4c84-9da9-95aba509de31
+SUMMARY:Filmtheater Hilversum: De Wilde Noordzee
+UID:ab3d3e76-04b0-4706-9b1c-61251f77b1de
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\, 
- is Arthur Japin te gast voor een nagesprek na de voorstelling. Kijk hier 
- voor meer informatie en tickets. Een Schitterend Gebrek vertelt het meesl
- epende verhaal van Lucia\, de eerste en grootste liefde van vrouwenversie
- rder Giacomo Casanova. Na een betoverende ontmoeting in Italië\, beloven 
- de twee elkaar eeuwige trouw in afwachting van Casanova's terugkeer van e
- en zakenreis. Maar dan wordt Lucia getroffen door de pokken en sluit ze z
- ich af van haar geliefde\, en van de buitenwereld.
-DTEND:20240918T204500
-DTSTAMP:20240918T065637Z
-DTSTART:20240918T184500
+DESCRIPTION:Natuur die zich niet laat temmen. Duik mee de diepte in met de
+  avontuurlijke film De Wilde Noordzee. We volgen de ervaren duiker en cam
+ eraman Peter van Rodijnen\, die de afgelopen 20 jaar in zeeën over de hel
+ e wereld heeft gefilmd.
+DTEND:20240920T154500
+DTSTAMP:20240919T065650Z
+DTSTART:20240920T134500
 SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Een Schitterend Gebrek
-UID:a240744b-31d0-446d-a500-7af5aa83fec3
+SUMMARY:Filmtheater Hilversum: De Wilde Noordzee
+UID:d35b3368-054f-42da-aa49-3a436a6a723f
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Natuur die zich niet laat temmen. Duik mee de diepte in met de
+  avontuurlijke film De Wilde Noordzee. We volgen de ervaren duiker en cam
+ eraman Peter van Rodijnen\, die de afgelopen 20 jaar in zeeën over de hel
+ e wereld heeft gefilmd.
+DTEND:20240921T124500
+DTSTAMP:20240919T065650Z
+DTSTART:20240921T104500
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: De Wilde Noordzee
+UID:a2654e67-59ea-47d9-9847-053147135ccd
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Natuur die zich niet laat temmen. Duik mee de diepte in met de
+  avontuurlijke film De Wilde Noordzee. We volgen de ervaren duiker en cam
+ eraman Peter van Rodijnen\, die de afgelopen 20 jaar in zeeën over de hel
+ e wereld heeft gefilmd.
+DTEND:20240922T123000
+DTSTAMP:20240919T065650Z
+DTSTART:20240922T103000
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: De Wilde Noordzee
+UID:27b52ad3-7724-4702-810d-21410aaf7d4c
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Natuur die zich niet laat temmen. Duik mee de diepte in met de
+  avontuurlijke film De Wilde Noordzee. We volgen de ervaren duiker en cam
+ eraman Peter van Rodijnen\, die de afgelopen 20 jaar in zeeën over de hel
+ e wereld heeft gefilmd.
+DTEND:20240923T201500
+DTSTAMP:20240919T065650Z
+DTSTART:20240923T181500
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: De Wilde Noordzee
+UID:f71d35b2-91da-44b5-bb78-6b097887805d
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Natuur die zich niet laat temmen. Duik mee de diepte in met de
+  avontuurlijke film De Wilde Noordzee. We volgen de ervaren duiker en cam
+ eraman Peter van Rodijnen\, die de afgelopen 20 jaar in zeeën over de hel
+ e wereld heeft gefilmd.
+DTEND:20240924T154500
+DTSTAMP:20240919T065650Z
+DTSTART:20240924T134500
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: De Wilde Noordzee
+UID:fff52996-29b6-4196-a590-4b713c04e30f
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Meral Özturk wordt wanhopig als de Belastingdienst onterecht e
+ en enorm bedrag aan kinderopvangtoeslag terugvordert. Terwijl haar leven 
+ uit elkaar valt\, ontdekt ze dat er een sociaal rechercheur in haar leven
+  infiltreert\, wat Meral tot radicale keuzes dwingt om haar dochters te b
+ eschermen. Aansluitend op de voorstelling van donderdag 5 september is re
+ gisseur Stijn Bouma bij ons te gast voor een nagesprek!
+DTEND:20240919T161500
+DTSTAMP:20240919T065652Z
+DTSTART:20240919T141500
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: De Jacht op Meral Ö.
+UID:e9f9edaf-2d63-4c8e-930a-4d0ffb327892
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Meral Özturk wordt wanhopig als de Belastingdienst onterecht e
+ en enorm bedrag aan kinderopvangtoeslag terugvordert. Terwijl haar leven 
+ uit elkaar valt\, ontdekt ze dat er een sociaal rechercheur in haar leven
+  infiltreert\, wat Meral tot radicale keuzes dwingt om haar dochters te b
+ eschermen. Aansluitend op de voorstelling van donderdag 5 september is re
+ gisseur Stijn Bouma bij ons te gast voor een nagesprek!
+DTEND:20240920T204000
+DTSTAMP:20240919T065652Z
+DTSTART:20240920T184000
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: De Jacht op Meral Ö.
+UID:af37cee0-8f31-4782-883f-a4294a5dc7cf
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Meral Özturk wordt wanhopig als de Belastingdienst onterecht e
+ en enorm bedrag aan kinderopvangtoeslag terugvordert. Terwijl haar leven 
+ uit elkaar valt\, ontdekt ze dat er een sociaal rechercheur in haar leven
+  infiltreert\, wat Meral tot radicale keuzes dwingt om haar dochters te b
+ eschermen. Aansluitend op de voorstelling van donderdag 5 september is re
+ gisseur Stijn Bouma bij ons te gast voor een nagesprek!
+DTEND:20240921T150000
+DTSTAMP:20240919T065652Z
+DTSTART:20240921T130000
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: De Jacht op Meral Ö.
+UID:a683f086-8151-4b83-b703-22059ae6d4d2
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Meral Özturk wordt wanhopig als de Belastingdienst onterecht e
+ en enorm bedrag aan kinderopvangtoeslag terugvordert. Terwijl haar leven 
+ uit elkaar valt\, ontdekt ze dat er een sociaal rechercheur in haar leven
+  infiltreert\, wat Meral tot radicale keuzes dwingt om haar dochters te b
+ eschermen. Aansluitend op de voorstelling van donderdag 5 september is re
+ gisseur Stijn Bouma bij ons te gast voor een nagesprek!
+DTEND:20240922T131500
+DTSTAMP:20240919T065652Z
+DTSTART:20240922T111500
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: De Jacht op Meral Ö.
+UID:3116552d-663c-4a4e-ba88-68a21ff80b7e
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Meral Özturk wordt wanhopig als de Belastingdienst onterecht e
+ en enorm bedrag aan kinderopvangtoeslag terugvordert. Terwijl haar leven 
+ uit elkaar valt\, ontdekt ze dat er een sociaal rechercheur in haar leven
+  infiltreert\, wat Meral tot radicale keuzes dwingt om haar dochters te b
+ eschermen. Aansluitend op de voorstelling van donderdag 5 september is re
+ gisseur Stijn Bouma bij ons te gast voor een nagesprek!
+DTEND:20240923T174500
+DTSTAMP:20240919T065652Z
+DTSTART:20240923T154500
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: De Jacht op Meral Ö.
+UID:1ab8ff89-ef7c-4c3a-9dad-3ef546f1e454
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Meral Özturk wordt wanhopig als de Belastingdienst onterecht e
+ en enorm bedrag aan kinderopvangtoeslag terugvordert. Terwijl haar leven 
+ uit elkaar valt\, ontdekt ze dat er een sociaal rechercheur in haar leven
+  infiltreert\, wat Meral tot radicale keuzes dwingt om haar dochters te b
+ eschermen. Aansluitend op de voorstelling van donderdag 5 september is re
+ gisseur Stijn Bouma bij ons te gast voor een nagesprek!
+DTEND:20240924T203000
+DTSTAMP:20240919T065652Z
+DTSTART:20240924T183000
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: De Jacht op Meral Ö.
+UID:46532b64-5cd5-4444-8efb-815ebed2a182
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Meral Özturk wordt wanhopig als de Belastingdienst onterecht e
+ en enorm bedrag aan kinderopvangtoeslag terugvordert. Terwijl haar leven 
+ uit elkaar valt\, ontdekt ze dat er een sociaal rechercheur in haar leven
+  infiltreert\, wat Meral tot radicale keuzes dwingt om haar dochters te b
+ eschermen. Aansluitend op de voorstelling van donderdag 5 september is re
+ gisseur Stijn Bouma bij ons te gast voor een nagesprek!
+DTEND:20240925T233000
+DTSTAMP:20240919T065652Z
+DTSTART:20240925T213000
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: De Jacht op Meral Ö.
+UID:f0b0324a-e15d-4364-b468-bca0650aaa1f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\, 
@@ -92,11 +314,11 @@ DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\,
  en zakenreis. Maar dan wordt Lucia getroffen door de pokken en sluit ze z
  ich af van haar geliefde\, en van de buitenwereld.
 DTEND:20240919T171500
-DTSTAMP:20240918T065637Z
+DTSTAMP:20240919T065653Z
 DTSTART:20240919T151500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Een Schitterend Gebrek
-UID:24d0f481-5e65-4a1d-934e-3dbd73b0e966
+UID:dd7211e3-ddcf-4362-bc23-7c1f1da79e3f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\, 
@@ -108,11 +330,11 @@ DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\,
  en zakenreis. Maar dan wordt Lucia getroffen door de pokken en sluit ze z
  ich af van haar geliefde\, en van de buitenwereld.
 DTEND:20240919T210000
-DTSTAMP:20240918T065637Z
+DTSTAMP:20240919T065653Z
 DTSTART:20240919T190000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Een Schitterend Gebrek
-UID:103a551f-06df-4592-a31e-5e2b0ed16937
+UID:2487d148-3d04-4980-9f2b-d64fbf0af53f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\, 
@@ -124,11 +346,11 @@ DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\,
  en zakenreis. Maar dan wordt Lucia getroffen door de pokken en sluit ze z
  ich af van haar geliefde\, en van de buitenwereld.
 DTEND:20240920T160000
-DTSTAMP:20240918T065637Z
+DTSTAMP:20240919T065653Z
 DTSTART:20240920T140000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Een Schitterend Gebrek
-UID:c1bc07f2-7a4b-48f7-9fde-3c4a6b686cd3
+UID:72f0f2bd-c163-4d27-8d40-02388c4abade
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\, 
@@ -140,11 +362,11 @@ DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\,
  en zakenreis. Maar dan wordt Lucia getroffen door de pokken en sluit ze z
  ich af van haar geliefde\, en van de buitenwereld.
 DTEND:20240920T205500
-DTSTAMP:20240918T065637Z
+DTSTAMP:20240919T065653Z
 DTSTART:20240920T185500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Een Schitterend Gebrek
-UID:fe2b9b22-dd77-494d-82b7-4f73f859759a
+UID:0d480696-e6a4-4490-99d9-9cb0be945a83
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\, 
@@ -156,11 +378,11 @@ DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\,
  en zakenreis. Maar dan wordt Lucia getroffen door de pokken en sluit ze z
  ich af van haar geliefde\, en van de buitenwereld.
 DTEND:20240921T130000
-DTSTAMP:20240918T065637Z
+DTSTAMP:20240919T065653Z
 DTSTART:20240921T110000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Een Schitterend Gebrek
-UID:86e898e8-034b-43b6-aa69-ce4f3079ff25
+UID:5562a620-5d47-4a2b-9033-9bfb8baa2693
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\, 
@@ -172,11 +394,11 @@ DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\,
  en zakenreis. Maar dan wordt Lucia getroffen door de pokken en sluit ze z
  ich af van haar geliefde\, en van de buitenwereld.
 DTEND:20240921T181500
-DTSTAMP:20240918T065637Z
+DTSTAMP:20240919T065653Z
 DTSTART:20240921T161500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Een Schitterend Gebrek
-UID:352e4370-7e45-417a-8583-53f31ce9f70b
+UID:30f979e0-9420-4007-9f18-fd4ed5538df3
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\, 
@@ -188,11 +410,11 @@ DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\,
  en zakenreis. Maar dan wordt Lucia getroffen door de pokken en sluit ze z
  ich af van haar geliefde\, en van de buitenwereld.
 DTEND:20240921T204000
-DTSTAMP:20240918T065637Z
+DTSTAMP:20240919T065653Z
 DTSTART:20240921T184000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Een Schitterend Gebrek
-UID:ad138be5-4ae8-4479-89d4-2b8706cfa5e8
+UID:88a1180a-a436-4bea-a7bc-dfe46efbf839
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\, 
@@ -204,11 +426,11 @@ DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\,
  en zakenreis. Maar dan wordt Lucia getroffen door de pokken en sluit ze z
  ich af van haar geliefde\, en van de buitenwereld.
 DTEND:20240922T130000
-DTSTAMP:20240918T065637Z
+DTSTAMP:20240919T065653Z
 DTSTART:20240922T110000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Een Schitterend Gebrek
-UID:d31cecb4-a6d9-4cc5-bb59-90e2cc503cdd
+UID:6cf91dc9-05a5-4372-90f7-c7a1cee81774
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\, 
@@ -220,11 +442,11 @@ DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\,
  en zakenreis. Maar dan wordt Lucia getroffen door de pokken en sluit ze z
  ich af van haar geliefde\, en van de buitenwereld.
 DTEND:20240922T153000
-DTSTAMP:20240918T065637Z
+DTSTAMP:20240919T065653Z
 DTSTART:20240922T133000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Een Schitterend Gebrek
-UID:2ee4e507-e737-488c-be61-525d40f21b91
+UID:e7b50ece-4b06-4ee6-8197-6f44e385b4db
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\, 
@@ -236,11 +458,11 @@ DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\,
  en zakenreis. Maar dan wordt Lucia getroffen door de pokken en sluit ze z
  ich af van haar geliefde\, en van de buitenwereld.
 DTEND:20240922T210000
-DTSTAMP:20240918T065637Z
+DTSTAMP:20240919T065653Z
 DTSTART:20240922T190000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Een Schitterend Gebrek
-UID:37279841-078b-4e83-a3c1-bd6701229a22
+UID:7726d5c7-602a-4c3f-aeeb-a021ef33e82d
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\, 
@@ -252,11 +474,11 @@ DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\,
  en zakenreis. Maar dan wordt Lucia getroffen door de pokken en sluit ze z
  ich af van haar geliefde\, en van de buitenwereld.
 DTEND:20240923T153000
-DTSTAMP:20240918T065637Z
+DTSTAMP:20240919T065653Z
 DTSTART:20240923T133000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Een Schitterend Gebrek
-UID:14bd1fcf-0886-453f-84b9-e7835bbb8262
+UID:a2559c5c-7daf-4d6f-afd7-90913340116b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\, 
@@ -268,11 +490,11 @@ DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\,
  en zakenreis. Maar dan wordt Lucia getroffen door de pokken en sluit ze z
  ich af van haar geliefde\, en van de buitenwereld.
 DTEND:20240923T221500
-DTSTAMP:20240918T065637Z
+DTSTAMP:20240919T065653Z
 DTSTART:20240923T201500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Een Schitterend Gebrek
-UID:9b85a36c-ab47-4582-8c84-ec4e504513fe
+UID:8dce5992-0b98-407d-96c4-4cc0408f0843
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\, 
@@ -284,11 +506,11 @@ DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\,
  en zakenreis. Maar dan wordt Lucia getroffen door de pokken en sluit ze z
  ich af van haar geliefde\, en van de buitenwereld.
 DTEND:20240924T161500
-DTSTAMP:20240918T065637Z
+DTSTAMP:20240919T065653Z
 DTSTART:20240924T141500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Een Schitterend Gebrek
-UID:a6c9cc33-d0b3-4777-8716-2d8fbdce1164
+UID:5b9bb4f1-33c7-4181-a73f-3e978b8ecc3e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\, 
@@ -300,11 +522,11 @@ DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\,
  en zakenreis. Maar dan wordt Lucia getroffen door de pokken en sluit ze z
  ich af van haar geliefde\, en van de buitenwereld.
 DTEND:20240924T211000
-DTSTAMP:20240918T065637Z
+DTSTAMP:20240919T065653Z
 DTSTART:20240924T191000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Een Schitterend Gebrek
-UID:f3a1b030-d14e-4a26-b25b-63e2c2e85292
+UID:9697fd18-859d-4f0b-8050-b766f3d2524d
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\, 
@@ -316,11 +538,11 @@ DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\,
  en zakenreis. Maar dan wordt Lucia getroffen door de pokken en sluit ze z
  ich af van haar geliefde\, en van de buitenwereld.
 DTEND:20240925T160000
-DTSTAMP:20240918T065637Z
+DTSTAMP:20240919T065653Z
 DTSTART:20240925T140000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Een Schitterend Gebrek
-UID:692a666f-e761-4920-9d3f-a14371d6a157
+UID:ab5b2bb2-97ad-49bc-8429-97690db1d1d0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\, 
@@ -332,167 +554,11 @@ DESCRIPTION:Op zaterdag 14 september\, na de voorstelling van 11.15 uur\,
  en zakenreis. Maar dan wordt Lucia getroffen door de pokken en sluit ze z
  ich af van haar geliefde\, en van de buitenwereld.
 DTEND:20240925T204500
-DTSTAMP:20240918T065637Z
+DTSTAMP:20240919T065653Z
 DTSTART:20240925T184500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Een Schitterend Gebrek
-UID:69655b59-36a1-4180-8c97-6eec40bab79b
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Black Narcissus geldt als een van de meest exotische films van
-  de Britse cinema: een broeierig psychologisch portret van vijf nonnen di
- e in de Himalaya een missiepost openen en ten prooi vallen aan onderdrukt
- e erotische begeertes en waanzin. Een van de hoogtepunten van de Britse c
- inema.
-DTEND:20240918T160000
-DTSTAMP:20240918T065638Z
-DTSTART:20240918T140000
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Black Narcissus (1947) | The Films of Powel
- l and Pressburger
-UID:85066295-f3ea-49ce-8a63-7b2f193867fd
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Black Narcissus geldt als een van de meest exotische films van
-  de Britse cinema: een broeierig psychologisch portret van vijf nonnen di
- e in de Himalaya een missiepost openen en ten prooi vallen aan onderdrukt
- e erotische begeertes en waanzin. Een van de hoogtepunten van de Britse c
- inema.
-DTEND:20240920T174500
-DTSTAMP:20240918T065638Z
-DTSTART:20240920T154500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Black Narcissus (1947) | The Films of Powel
- l and Pressburger
-UID:d7ef374e-2bb0-49a8-939f-f8dbc1e2a7cd
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Natuur die zich niet laat temmen. Duik mee de diepte in met de
-  avontuurlijke film De Wilde Noordzee. We volgen de ervaren duiker en cam
- eraman Peter van Rodijnen\, die de afgelopen 20 jaar in zeeën over de hel
- e wereld heeft gefilmd.
-DTEND:20240918T180000
-DTSTAMP:20240918T065639Z
-DTSTART:20240918T160000
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: De Wilde Noordzee
-UID:9b6d42e8-ce33-4887-aeb1-cf372e5ae05a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Natuur die zich niet laat temmen. Duik mee de diepte in met de
-  avontuurlijke film De Wilde Noordzee. We volgen de ervaren duiker en cam
- eraman Peter van Rodijnen\, die de afgelopen 20 jaar in zeeën over de hel
- e wereld heeft gefilmd.
-DTEND:20240919T153000
-DTSTAMP:20240918T065639Z
-DTSTART:20240919T133000
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: De Wilde Noordzee
-UID:0317f18f-5cbf-43a3-a06b-24533002abf9
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Natuur die zich niet laat temmen. Duik mee de diepte in met de
-  avontuurlijke film De Wilde Noordzee. We volgen de ervaren duiker en cam
- eraman Peter van Rodijnen\, die de afgelopen 20 jaar in zeeën over de hel
- e wereld heeft gefilmd.
-DTEND:20240920T154500
-DTSTAMP:20240918T065639Z
-DTSTART:20240920T134500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: De Wilde Noordzee
-UID:be25cfd1-06d8-4d9d-beb4-994f6fa4015c
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Natuur die zich niet laat temmen. Duik mee de diepte in met de
-  avontuurlijke film De Wilde Noordzee. We volgen de ervaren duiker en cam
- eraman Peter van Rodijnen\, die de afgelopen 20 jaar in zeeën over de hel
- e wereld heeft gefilmd.
-DTEND:20240921T124500
-DTSTAMP:20240918T065639Z
-DTSTART:20240921T104500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: De Wilde Noordzee
-UID:ad30ead1-60e2-4060-9d91-e89ac06cd496
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Natuur die zich niet laat temmen. Duik mee de diepte in met de
-  avontuurlijke film De Wilde Noordzee. We volgen de ervaren duiker en cam
- eraman Peter van Rodijnen\, die de afgelopen 20 jaar in zeeën over de hel
- e wereld heeft gefilmd.
-DTEND:20240922T123000
-DTSTAMP:20240918T065639Z
-DTSTART:20240922T103000
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: De Wilde Noordzee
-UID:51ede598-c69c-4bd9-870a-2a617a89c3e1
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Natuur die zich niet laat temmen. Duik mee de diepte in met de
-  avontuurlijke film De Wilde Noordzee. We volgen de ervaren duiker en cam
- eraman Peter van Rodijnen\, die de afgelopen 20 jaar in zeeën over de hel
- e wereld heeft gefilmd.
-DTEND:20240923T201500
-DTSTAMP:20240918T065639Z
-DTSTART:20240923T181500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: De Wilde Noordzee
-UID:3910c70a-9411-4a36-ba1d-78a7d02efbd7
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Natuur die zich niet laat temmen. Duik mee de diepte in met de
-  avontuurlijke film De Wilde Noordzee. We volgen de ervaren duiker en cam
- eraman Peter van Rodijnen\, die de afgelopen 20 jaar in zeeën over de hel
- e wereld heeft gefilmd.
-DTEND:20240924T154500
-DTSTAMP:20240918T065639Z
-DTSTART:20240924T134500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: De Wilde Noordzee
-UID:5465f82a-da2c-430e-b78e-645ec9c93753
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Un Amor is een psychologisch drama over een jonge vrouw en haa
- r zoektocht naar liefde\, voor zichzelf en voor anderen.
-DTEND:20240918T181500
-DTSTAMP:20240918T065640Z
-DTSTART:20240918T161500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Un Amor – Laatste kans
-UID:b78278e9-666a-407c-b440-758ef9512891
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Het verhaal achter de champagnefamilie Veuve Clicquot en het b
- edrijf dat eind 18e eeuw begon.
-DTEND:20240918T191500
-DTSTAMP:20240918T065641Z
-DTSTART:20240918T171500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Widow Clicquot – Laatste kans
-UID:0ba19b7a-bd88-4e99-9580-63de8159fd46
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Het verhaal achter de champagnefamilie Veuve Clicquot en het b
- edrijf dat eind 18e eeuw begon.
-DTEND:20240928T124500
-DTSTAMP:20240918T065641Z
-DTSTART:20240928T104500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Widow Clicquot – Laatste kans
-UID:17e27800-c423-4cb7-8351-a6bf48b74142
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Een beroemde actrice die in de vergetelheid dreigt te raken (D
- emi Moore) besluit een geheimzinnig medicijn op de zwarte markt te gebrui
- ken\, een celreplicerende stof die tijdelijk een jongere\, betere versie 
- van zichzelf creëert. Gewaagde shockfilm\; dé sensatie van het Cannes fil
- mfestival 2024. Op donderdag 19 september om 20.30 uur geeft hoofd progra
- mma Marloes den Hoed een korte inleiding.
-DTEND:20240918T210000
-DTSTAMP:20240918T065642Z
-DTSTART:20240918T190000
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: The Substance
-UID:da6bcb7f-29e9-46f1-920e-9d30169b6e6e
+UID:3bc55c00-e088-4828-91c3-31999d891114
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Een beroemde actrice die in de vergetelheid dreigt te raken (D
@@ -502,11 +568,11 @@ DESCRIPTION:Een beroemde actrice die in de vergetelheid dreigt te raken (D
  mfestival 2024. Op donderdag 19 september om 20.30 uur geeft hoofd progra
  mma Marloes den Hoed een korte inleiding.
 DTEND:20240919T174500
-DTSTAMP:20240918T065642Z
+DTSTAMP:20240919T065654Z
 DTSTART:20240919T154500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Substance
-UID:5d2401e2-b14d-4a7b-8358-2d1e7db5663e
+UID:0c12c4de-ae83-4347-85ce-9747ef91d983
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Een beroemde actrice die in de vergetelheid dreigt te raken (D
@@ -516,11 +582,11 @@ DESCRIPTION:Een beroemde actrice die in de vergetelheid dreigt te raken (D
  mfestival 2024. Op donderdag 19 september om 20.30 uur geeft hoofd progra
  mma Marloes den Hoed een korte inleiding.
 DTEND:20240919T223000
-DTSTAMP:20240918T065642Z
+DTSTAMP:20240919T065654Z
 DTSTART:20240919T203000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Substance
-UID:a5f1939e-4e36-4b1d-880f-24d59bd68a72
+UID:abe862c7-2433-4c35-a9b5-eaf1ce895976
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Een beroemde actrice die in de vergetelheid dreigt te raken (D
@@ -530,11 +596,11 @@ DESCRIPTION:Een beroemde actrice die in de vergetelheid dreigt te raken (D
  mfestival 2024. Op donderdag 19 september om 20.30 uur geeft hoofd progra
  mma Marloes den Hoed een korte inleiding.
 DTEND:20240920T231500
-DTSTAMP:20240918T065642Z
+DTSTAMP:20240919T065654Z
 DTSTART:20240920T211500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Substance
-UID:391dc478-f135-4f37-bf23-9fa9770a056c
+UID:c5b430f8-321f-462d-8f50-3e7402c3ab2f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Een beroemde actrice die in de vergetelheid dreigt te raken (D
@@ -544,11 +610,11 @@ DESCRIPTION:Een beroemde actrice die in de vergetelheid dreigt te raken (D
  mfestival 2024. Op donderdag 19 september om 20.30 uur geeft hoofd progra
  mma Marloes den Hoed een korte inleiding.
 DTEND:20240921T171500
-DTSTAMP:20240918T065642Z
+DTSTAMP:20240919T065654Z
 DTSTART:20240921T151500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Substance
-UID:d9bf208c-84bc-4a5a-85d1-188dc14df828
+UID:f9b29d64-6f26-4f26-8e82-7fbfc28c4e85
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Een beroemde actrice die in de vergetelheid dreigt te raken (D
@@ -558,11 +624,11 @@ DESCRIPTION:Een beroemde actrice die in de vergetelheid dreigt te raken (D
  mfestival 2024. Op donderdag 19 september om 20.30 uur geeft hoofd progra
  mma Marloes den Hoed een korte inleiding.
 DTEND:20240921T230000
-DTSTAMP:20240918T065642Z
+DTSTAMP:20240919T065654Z
 DTSTART:20240921T210000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Substance
-UID:75d05eab-c645-44ad-9945-2e1dd181baca
+UID:6aa82079-0037-403e-b340-d65a56f3ccca
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Een beroemde actrice die in de vergetelheid dreigt te raken (D
@@ -572,11 +638,11 @@ DESCRIPTION:Een beroemde actrice die in de vergetelheid dreigt te raken (D
  mfestival 2024. Op donderdag 19 september om 20.30 uur geeft hoofd progra
  mma Marloes den Hoed een korte inleiding.
 DTEND:20240922T180000
-DTSTAMP:20240918T065642Z
+DTSTAMP:20240919T065654Z
 DTSTART:20240922T160000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Substance
-UID:19b9213f-f9d7-45b9-9a57-f4ad26e24380
+UID:10ab8853-d8fc-4466-b3e1-3f42520b821d
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Een beroemde actrice die in de vergetelheid dreigt te raken (D
@@ -586,11 +652,11 @@ DESCRIPTION:Een beroemde actrice die in de vergetelheid dreigt te raken (D
  mfestival 2024. Op donderdag 19 september om 20.30 uur geeft hoofd progra
  mma Marloes den Hoed een korte inleiding.
 DTEND:20240922T224500
-DTSTAMP:20240918T065642Z
+DTSTAMP:20240919T065654Z
 DTSTART:20240922T204500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Substance
-UID:0f9fb92f-0c01-460c-b5a9-1a1941b94c43
+UID:0a14815e-7c58-4656-abdf-96634ca32ec3
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Een beroemde actrice die in de vergetelheid dreigt te raken (D
@@ -600,11 +666,11 @@ DESCRIPTION:Een beroemde actrice die in de vergetelheid dreigt te raken (D
  mfestival 2024. Op donderdag 19 september om 20.30 uur geeft hoofd progra
  mma Marloes den Hoed een korte inleiding.
 DTEND:20240923T204500
-DTSTAMP:20240918T065642Z
+DTSTAMP:20240919T065654Z
 DTSTART:20240923T184500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Substance
-UID:39a96455-0957-4ac5-8a2b-2e3dff4127a3
+UID:3830ec34-5582-4959-b413-30d1a4583b2a
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Een beroemde actrice die in de vergetelheid dreigt te raken (D
@@ -614,11 +680,11 @@ DESCRIPTION:Een beroemde actrice die in de vergetelheid dreigt te raken (D
  mfestival 2024. Op donderdag 19 september om 20.30 uur geeft hoofd progra
  mma Marloes den Hoed een korte inleiding.
 DTEND:20240924T224500
-DTSTAMP:20240918T065642Z
+DTSTAMP:20240919T065654Z
 DTSTART:20240924T204500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Substance
-UID:d5dd3e53-d207-4b54-ae96-5575aa10a5f4
+UID:b94a20f8-a8f8-4c05-9e9f-2dac8fbc6bd9
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Een beroemde actrice die in de vergetelheid dreigt te raken (D
@@ -628,135 +694,107 @@ DESCRIPTION:Een beroemde actrice die in de vergetelheid dreigt te raken (D
  mfestival 2024. Op donderdag 19 september om 20.30 uur geeft hoofd progra
  mma Marloes den Hoed een korte inleiding.
 DTEND:20240925T230000
-DTSTAMP:20240918T065642Z
+DTSTAMP:20240919T065654Z
 DTSTART:20240925T210000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Substance
-UID:1330975e-a673-4b2c-9d1e-f69737593096
+UID:47616585-9dec-45d8-be07-97650c28c703
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Meral Özturk wordt wanhopig als de Belastingdienst onterecht e
- en enorm bedrag aan kinderopvangtoeslag terugvordert. Terwijl haar leven 
- uit elkaar valt\, ontdekt ze dat er een sociaal rechercheur in haar leven
-  infiltreert\, wat Meral tot radicale keuzes dwingt om haar dochters te b
- eschermen. Aansluitend op de voorstelling van donderdag 5 september is re
- gisseur Stijn Bouma bij ons te gast voor een nagesprek!
-DTEND:20240918T211500
-DTSTAMP:20240918T065643Z
-DTSTART:20240918T191500
+DESCRIPTION:In de indrukwekkende film Führer und Verführer wordt ingezoomd
+  op het werk van Adolf Hitlers propagandaminister Joseph Goebbels. Zijn o
+ pruiende propaganda heeft er mede voor gezorgd dat miljoenen mensen de do
+ od in werden gejaagd\, waaronder zes miljoen vermoorde joden.
+DTEND:20240919T181500
+DTSTAMP:20240919T065655Z
+DTSTART:20240919T161500
 SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: De Jacht op Meral Ö.
-UID:f71d73c3-04cb-43b0-b7d9-45564a237879
+SUMMARY:Filmtheater Hilversum: Führer und Verführer
+UID:dc1f3036-0e08-4ff5-9cfb-a8d3c8cdf9cb
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Meral Özturk wordt wanhopig als de Belastingdienst onterecht e
- en enorm bedrag aan kinderopvangtoeslag terugvordert. Terwijl haar leven 
- uit elkaar valt\, ontdekt ze dat er een sociaal rechercheur in haar leven
-  infiltreert\, wat Meral tot radicale keuzes dwingt om haar dochters te b
- eschermen. Aansluitend op de voorstelling van donderdag 5 september is re
- gisseur Stijn Bouma bij ons te gast voor een nagesprek!
-DTEND:20240919T161500
-DTSTAMP:20240918T065643Z
-DTSTART:20240919T141500
+DESCRIPTION:In de indrukwekkende film Führer und Verführer wordt ingezoomd
+  op het werk van Adolf Hitlers propagandaminister Joseph Goebbels. Zijn o
+ pruiende propaganda heeft er mede voor gezorgd dat miljoenen mensen de do
+ od in werden gejaagd\, waaronder zes miljoen vermoorde joden.
+DTEND:20240920T202500
+DTSTAMP:20240919T065655Z
+DTSTART:20240920T182500
 SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: De Jacht op Meral Ö.
-UID:c4ff4266-9d88-4aa8-8b7f-7ba1eafd5a1c
+SUMMARY:Filmtheater Hilversum: Führer und Verführer
+UID:ae1daca8-4554-4589-bf8c-da77e7baaa5a
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Meral Özturk wordt wanhopig als de Belastingdienst onterecht e
- en enorm bedrag aan kinderopvangtoeslag terugvordert. Terwijl haar leven 
- uit elkaar valt\, ontdekt ze dat er een sociaal rechercheur in haar leven
-  infiltreert\, wat Meral tot radicale keuzes dwingt om haar dochters te b
- eschermen. Aansluitend op de voorstelling van donderdag 5 september is re
- gisseur Stijn Bouma bij ons te gast voor een nagesprek!
-DTEND:20240920T204000
-DTSTAMP:20240918T065643Z
-DTSTART:20240920T184000
+DESCRIPTION:In de indrukwekkende film Führer und Verführer wordt ingezoomd
+  op het werk van Adolf Hitlers propagandaminister Joseph Goebbels. Zijn o
+ pruiende propaganda heeft er mede voor gezorgd dat miljoenen mensen de do
+ od in werden gejaagd\, waaronder zes miljoen vermoorde joden.
+DTEND:20240921T202500
+DTSTAMP:20240919T065655Z
+DTSTART:20240921T182500
 SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: De Jacht op Meral Ö.
-UID:c6a7f663-67d4-44a8-b056-388b48a21491
+SUMMARY:Filmtheater Hilversum: Führer und Verführer
+UID:1e5ac4d5-9304-4b8c-b3ed-aebb70ce30fe
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Meral Özturk wordt wanhopig als de Belastingdienst onterecht e
- en enorm bedrag aan kinderopvangtoeslag terugvordert. Terwijl haar leven 
- uit elkaar valt\, ontdekt ze dat er een sociaal rechercheur in haar leven
-  infiltreert\, wat Meral tot radicale keuzes dwingt om haar dochters te b
- eschermen. Aansluitend op de voorstelling van donderdag 5 september is re
- gisseur Stijn Bouma bij ons te gast voor een nagesprek!
-DTEND:20240921T150000
-DTSTAMP:20240918T065643Z
-DTSTART:20240921T130000
+DESCRIPTION:In de indrukwekkende film Führer und Verführer wordt ingezoomd
+  op het werk van Adolf Hitlers propagandaminister Joseph Goebbels. Zijn o
+ pruiende propaganda heeft er mede voor gezorgd dat miljoenen mensen de do
+ od in werden gejaagd\, waaronder zes miljoen vermoorde joden.
+DTEND:20240922T201500
+DTSTAMP:20240919T065655Z
+DTSTART:20240922T181500
 SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: De Jacht op Meral Ö.
-UID:5d114bd9-7e0e-4963-a4e3-a59d0224b82c
+SUMMARY:Filmtheater Hilversum: Führer und Verführer
+UID:c01cd095-881f-4d29-b575-df0984cf6898
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Meral Özturk wordt wanhopig als de Belastingdienst onterecht e
- en enorm bedrag aan kinderopvangtoeslag terugvordert. Terwijl haar leven 
- uit elkaar valt\, ontdekt ze dat er een sociaal rechercheur in haar leven
-  infiltreert\, wat Meral tot radicale keuzes dwingt om haar dochters te b
- eschermen. Aansluitend op de voorstelling van donderdag 5 september is re
- gisseur Stijn Bouma bij ons te gast voor een nagesprek!
-DTEND:20240922T131500
-DTSTAMP:20240918T065643Z
-DTSTART:20240922T111500
+DESCRIPTION:In de indrukwekkende film Führer und Verführer wordt ingezoomd
+  op het werk van Adolf Hitlers propagandaminister Joseph Goebbels. Zijn o
+ pruiende propaganda heeft er mede voor gezorgd dat miljoenen mensen de do
+ od in werden gejaagd\, waaronder zes miljoen vermoorde joden.
+DTEND:20240923T154500
+DTSTAMP:20240919T065655Z
+DTSTART:20240923T134500
 SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: De Jacht op Meral Ö.
-UID:ec083418-cfd3-4d22-b174-2700b4b13a39
+SUMMARY:Filmtheater Hilversum: Führer und Verführer
+UID:d5e7c3ef-03e0-4136-84b9-a9b2dfb78fd5
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Meral Özturk wordt wanhopig als de Belastingdienst onterecht e
- en enorm bedrag aan kinderopvangtoeslag terugvordert. Terwijl haar leven 
- uit elkaar valt\, ontdekt ze dat er een sociaal rechercheur in haar leven
-  infiltreert\, wat Meral tot radicale keuzes dwingt om haar dochters te b
- eschermen. Aansluitend op de voorstelling van donderdag 5 september is re
- gisseur Stijn Bouma bij ons te gast voor een nagesprek!
-DTEND:20240923T174500
-DTSTAMP:20240918T065643Z
-DTSTART:20240923T154500
+DESCRIPTION:In de indrukwekkende film Führer und Verführer wordt ingezoomd
+  op het werk van Adolf Hitlers propagandaminister Joseph Goebbels. Zijn o
+ pruiende propaganda heeft er mede voor gezorgd dat miljoenen mensen de do
+ od in werden gejaagd\, waaronder zes miljoen vermoorde joden.
+DTEND:20240924T174500
+DTSTAMP:20240919T065655Z
+DTSTART:20240924T154500
 SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: De Jacht op Meral Ö.
-UID:3201b7bd-3203-4df0-9209-187e60bf044d
+SUMMARY:Filmtheater Hilversum: Führer und Verführer
+UID:7d9362a3-eb95-488e-a05b-9527734c6df4
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Meral Özturk wordt wanhopig als de Belastingdienst onterecht e
- en enorm bedrag aan kinderopvangtoeslag terugvordert. Terwijl haar leven 
- uit elkaar valt\, ontdekt ze dat er een sociaal rechercheur in haar leven
-  infiltreert\, wat Meral tot radicale keuzes dwingt om haar dochters te b
- eschermen. Aansluitend op de voorstelling van donderdag 5 september is re
- gisseur Stijn Bouma bij ons te gast voor een nagesprek!
-DTEND:20240924T203000
-DTSTAMP:20240918T065643Z
-DTSTART:20240924T183000
+DESCRIPTION:In de indrukwekkende film Führer und Verführer wordt ingezoomd
+  op het werk van Adolf Hitlers propagandaminister Joseph Goebbels. Zijn o
+ pruiende propaganda heeft er mede voor gezorgd dat miljoenen mensen de do
+ od in werden gejaagd\, waaronder zes miljoen vermoorde joden.
+DTEND:20240924T230000
+DTSTAMP:20240919T065655Z
+DTSTART:20240924T210000
 SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: De Jacht op Meral Ö.
-UID:23656361-7455-4528-867b-0653f3b4b518
+SUMMARY:Filmtheater Hilversum: Führer und Verführer
+UID:15bffcde-ceb4-4fcb-899a-039455cdd897
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Meral Özturk wordt wanhopig als de Belastingdienst onterecht e
- en enorm bedrag aan kinderopvangtoeslag terugvordert. Terwijl haar leven 
- uit elkaar valt\, ontdekt ze dat er een sociaal rechercheur in haar leven
-  infiltreert\, wat Meral tot radicale keuzes dwingt om haar dochters te b
- eschermen. Aansluitend op de voorstelling van donderdag 5 september is re
- gisseur Stijn Bouma bij ons te gast voor een nagesprek!
-DTEND:20240925T233000
-DTSTAMP:20240918T065643Z
-DTSTART:20240925T213000
+DESCRIPTION:In de indrukwekkende film Führer und Verführer wordt ingezoomd
+  op het werk van Adolf Hitlers propagandaminister Joseph Goebbels. Zijn o
+ pruiende propaganda heeft er mede voor gezorgd dat miljoenen mensen de do
+ od in werden gejaagd\, waaronder zes miljoen vermoorde joden.
+DTEND:20240925T201500
+DTSTAMP:20240919T065655Z
+DTSTART:20240925T181500
 SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: De Jacht op Meral Ö.
-UID:d29b3bb4-74a4-44a8-9a08-053b5d9d1a5a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Een heerlijke\, vrolijke\, weergaloos spannende documentaire. 
- Een verhaal zo vol van verrassingen\, excentrieke personages en ongelofel
- ijke gebeurtenissen\, dat alleen een Scandinavische schrijver ze zou kunn
- en verzinnen. Alleen nu is het echt.
-DTEND:20240918T230000
-DTSTAMP:20240918T065644Z
-DTSTART:20240918T210000
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: The Gullspång Miracle + Wander to Wonder
-UID:d809f13a-4154-4e0a-a59c-2e6d9a7153f5
+SUMMARY:Filmtheater Hilversum: Führer und Verführer
+UID:75f8e5b4-f37d-4ed2-a6e5-4894d62ca69f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Een heerlijke\, vrolijke\, weergaloos spannende documentaire. 
@@ -764,11 +802,11 @@ DESCRIPTION:Een heerlijke\, vrolijke\, weergaloos spannende documentaire.
  ijke gebeurtenissen\, dat alleen een Scandinavische schrijver ze zou kunn
  en verzinnen. Alleen nu is het echt.
 DTEND:20240919T200000
-DTSTAMP:20240918T065644Z
+DTSTAMP:20240919T065657Z
 DTSTART:20240919T180000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Gullspång Miracle + Wander to Wonder
-UID:72815931-99e1-4ec4-83b0-779ad8bd9c06
+UID:63d3c31d-6210-456d-8c7f-2612e6aa32cc
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Een heerlijke\, vrolijke\, weergaloos spannende documentaire. 
@@ -776,11 +814,11 @@ DESCRIPTION:Een heerlijke\, vrolijke\, weergaloos spannende documentaire.
  ijke gebeurtenissen\, dat alleen een Scandinavische schrijver ze zou kunn
  en verzinnen. Alleen nu is het echt.
 DTEND:20240920T181500
-DTSTAMP:20240918T065644Z
+DTSTAMP:20240919T065657Z
 DTSTART:20240920T161500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Gullspång Miracle + Wander to Wonder
-UID:795758aa-cf21-4120-867c-dfb3c15d3324
+UID:daf998d5-5310-451e-a46a-d73a6c5639b9
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Een heerlijke\, vrolijke\, weergaloos spannende documentaire. 
@@ -788,11 +826,11 @@ DESCRIPTION:Een heerlijke\, vrolijke\, weergaloos spannende documentaire.
  ijke gebeurtenissen\, dat alleen een Scandinavische schrijver ze zou kunn
  en verzinnen. Alleen nu is het echt.
 DTEND:20240921T153000
-DTSTAMP:20240918T065644Z
+DTSTAMP:20240919T065657Z
 DTSTART:20240921T133000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Gullspång Miracle + Wander to Wonder
-UID:9ed18c07-5266-40fa-b609-6e5441ab3abe
+UID:59bf65b7-988d-4c11-9816-83dcb9946ed0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Een heerlijke\, vrolijke\, weergaloos spannende documentaire. 
@@ -800,11 +838,11 @@ DESCRIPTION:Een heerlijke\, vrolijke\, weergaloos spannende documentaire.
  ijke gebeurtenissen\, dat alleen een Scandinavische schrijver ze zou kunn
  en verzinnen. Alleen nu is het echt.
 DTEND:20240921T210000
-DTSTAMP:20240918T065644Z
+DTSTAMP:20240919T065657Z
 DTSTART:20240921T190000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Gullspång Miracle + Wander to Wonder
-UID:488ebe31-86db-415e-a7df-e0ce191dfe93
+UID:1aef9dfa-a8a8-4647-90e9-c506d471274e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Een heerlijke\, vrolijke\, weergaloos spannende documentaire. 
@@ -812,11 +850,11 @@ DESCRIPTION:Een heerlijke\, vrolijke\, weergaloos spannende documentaire.
  ijke gebeurtenissen\, dat alleen een Scandinavische schrijver ze zou kunn
  en verzinnen. Alleen nu is het echt.
 DTEND:20240922T174500
-DTSTAMP:20240918T065644Z
+DTSTAMP:20240919T065657Z
 DTSTART:20240922T154500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Gullspång Miracle + Wander to Wonder
-UID:bb6e6f5c-89e0-4195-a47b-a9a8f0ea8a44
+UID:1dbe1a83-5ebb-470a-bb05-e96c7e47f9f5
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Een heerlijke\, vrolijke\, weergaloos spannende documentaire. 
@@ -824,11 +862,11 @@ DESCRIPTION:Een heerlijke\, vrolijke\, weergaloos spannende documentaire.
  ijke gebeurtenissen\, dat alleen een Scandinavische schrijver ze zou kunn
  en verzinnen. Alleen nu is het echt.
 DTEND:20240923T200000
-DTSTAMP:20240918T065644Z
+DTSTAMP:20240919T065657Z
 DTSTART:20240923T180000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Gullspång Miracle + Wander to Wonder
-UID:f13271db-9430-4a64-8759-062e76d2142f
+UID:83196548-bc96-4b52-b5d8-65103835e717
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Een heerlijke\, vrolijke\, weergaloos spannende documentaire. 
@@ -836,11 +874,11 @@ DESCRIPTION:Een heerlijke\, vrolijke\, weergaloos spannende documentaire.
  ijke gebeurtenissen\, dat alleen een Scandinavische schrijver ze zou kunn
  en verzinnen. Alleen nu is het echt.
 DTEND:20240924T233000
-DTSTAMP:20240918T065644Z
+DTSTAMP:20240919T065657Z
 DTSTART:20240924T213000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Gullspång Miracle + Wander to Wonder
-UID:bc48df5e-a12c-4ed3-b6b2-f58c1dc56758
+UID:5581d1ef-a859-4d56-9de5-f7c46b396fa2
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Een heerlijke\, vrolijke\, weergaloos spannende documentaire. 
@@ -848,54 +886,120 @@ DESCRIPTION:Een heerlijke\, vrolijke\, weergaloos spannende documentaire.
  ijke gebeurtenissen\, dat alleen een Scandinavische schrijver ze zou kunn
  en verzinnen. Alleen nu is het echt.
 DTEND:20240925T182000
-DTSTAMP:20240918T065644Z
+DTSTAMP:20240919T065657Z
 DTSTART:20240925T162000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Gullspång Miracle + Wander to Wonder
-UID:d86b86a7-efa5-4232-b3ee-5cbedeff332a
+UID:dd2e1512-dfb7-4299-9ae1-72e8061f89b2
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:In Peeping Tom (Michael Powell\, Groot-Brittannië 1960\, 109')
-  zien we de verlegen en ogenschijnlijk zachtaardige fotograaf en aspirant
-  filmmaker Mark (Carl Boehm) die een documentaire probeert te maken over 
- angst. Mark heeft hier echter een behoorlijk onorthodoxe methode voor: hi
- j vermoordt de vrouwen die hij filmt met een dodelijk statief en legt hie
- rmee hun laatste blik vast.
-DTEND:20240918T231500
-DTSTAMP:20240918T065646Z
-DTSTART:20240918T211500
+DESCRIPTION:Michael Powell en Emeric Pressburgers flamboyante bewerking in
+  Technicolor van Hans Christian Andersens gelijknamige sprookje. Het duo 
+ plaatste het verhaal\, over de ballerina die moet kiezen\, in het milieu 
+ van de beroemde Ballets Russes van Sergej Diaghilev.
+DTEND:20240919T204500
+DTSTAMP:20240919T065658Z
+DTSTART:20240919T184500
 SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Peeping Tom (1960) | The Films of Powell an
- d Pressburger
-UID:16ffd87f-92fa-4a9f-a70c-af59d09006c7
+SUMMARY:Filmtheater Hilversum: The Red Shoes (1948) | The Films of Powell 
+ and Pressburger
+UID:5dda2043-140d-4a31-a2e3-170fd90a683f
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:In Peeping Tom (Michael Powell\, Groot-Brittannië 1960\, 109')
-  zien we de verlegen en ogenschijnlijk zachtaardige fotograaf en aspirant
-  filmmaker Mark (Carl Boehm) die een documentaire probeert te maken over 
- angst. Mark heeft hier echter een behoorlijk onorthodoxe methode voor: hi
- j vermoordt de vrouwen die hij filmt met een dodelijk statief en legt hie
- rmee hun laatste blik vast.
-DTEND:20240924T181500
-DTSTAMP:20240918T065646Z
-DTSTART:20240924T161500
+DESCRIPTION:Michael Powell en Emeric Pressburgers flamboyante bewerking in
+  Technicolor van Hans Christian Andersens gelijknamige sprookje. Het duo 
+ plaatste het verhaal\, over de ballerina die moet kiezen\, in het milieu 
+ van de beroemde Ballets Russes van Sergej Diaghilev.
+DTEND:20240922T204500
+DTSTAMP:20240919T065658Z
+DTSTART:20240922T184500
 SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Peeping Tom (1960) | The Films of Powell an
- d Pressburger
-UID:d7880d77-86fc-4f48-841e-2b26dd3f3d19
+SUMMARY:Filmtheater Hilversum: The Red Shoes (1948) | The Films of Powell 
+ and Pressburger
+UID:9945302f-f923-4dac-966a-88adcb858d65
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Alsof Luis Buñuel een script van Monty Python regisseert\, zo 
- beschreef het British Film Institute de verrukkelijke\, duizelingwekkende
-  nieuwe komedie van filmmaker Quentin Dupieux. In deze film doet een jong
- e Franse journaliste meerdere pogingen om Salvador Dalí te interviewen vo
- or een documentaire waarvan de opnames nooit zullen beginnen.
-DTEND:20240918T234500
-DTSTAMP:20240918T065647Z
-DTSTART:20240918T214500
+DESCRIPTION:Michael Powell en Emeric Pressburgers flamboyante bewerking in
+  Technicolor van Hans Christian Andersens gelijknamige sprookje. Het duo 
+ plaatste het verhaal\, over de ballerina die moet kiezen\, in het milieu 
+ van de beroemde Ballets Russes van Sergej Diaghilev.
+DTEND:20240925T153000
+DTSTAMP:20240919T065658Z
+DTSTART:20240925T133000
 SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Daaaaaalí! – Laatste kans
-UID:e14d83aa-748f-4f64-8391-1016911152c9
+SUMMARY:Filmtheater Hilversum: The Red Shoes (1948) | The Films of Powell 
+ and Pressburger
+UID:6dd81794-6a3a-4ac1-ac4a-34178a5aaa71
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Een sprankelend filmdebuut waarin drie 15-jarige vriendinnen o
+ p rigoureuze wijze afrekenen met al te opdringerige jonge mannen.
+DTEND:20240919T231500
+DTSTAMP:20240919T065659Z
+DTSTART:20240919T211500
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Sisterhood
+UID:c81d486c-eb1f-4aa9-8d9a-478a4f587f9a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Een sprankelend filmdebuut waarin drie 15-jarige vriendinnen o
+ p rigoureuze wijze afrekenen met al te opdringerige jonge mannen.
+DTEND:20240920T183000
+DTSTAMP:20240919T065659Z
+DTSTART:20240920T163000
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Sisterhood
+UID:1b4d1802-5374-4ac5-9788-3bc15c1906d0
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Een sprankelend filmdebuut waarin drie 15-jarige vriendinnen o
+ p rigoureuze wijze afrekenen met al te opdringerige jonge mannen.
+DTEND:20240921T231500
+DTSTAMP:20240919T065659Z
+DTSTART:20240921T211500
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Sisterhood
+UID:b26b47b7-4985-495e-a916-02ec61c17c15
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Een sprankelend filmdebuut waarin drie 15-jarige vriendinnen o
+ p rigoureuze wijze afrekenen met al te opdringerige jonge mannen.
+DTEND:20240922T151500
+DTSTAMP:20240919T065659Z
+DTSTART:20240922T131500
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Sisterhood
+UID:93a0084c-c52b-4c16-87ea-831f49a15ec3
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Een sprankelend filmdebuut waarin drie 15-jarige vriendinnen o
+ p rigoureuze wijze afrekenen met al te opdringerige jonge mannen.
+DTEND:20240923T233000
+DTSTAMP:20240919T065659Z
+DTSTART:20240923T213000
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Sisterhood
+UID:d9ac79f3-3162-4c63-8797-f86de1ae030c
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Een sprankelend filmdebuut waarin drie 15-jarige vriendinnen o
+ p rigoureuze wijze afrekenen met al te opdringerige jonge mannen.
+DTEND:20240924T184500
+DTSTAMP:20240919T065659Z
+DTSTART:20240924T164500
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Sisterhood
+UID:9b0383cc-017a-456b-85ab-55e9f9f7f9fa
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Een sprankelend filmdebuut waarin drie 15-jarige vriendinnen o
+ p rigoureuze wijze afrekenen met al te opdringerige jonge mannen.
+DTEND:20240925T183500
+DTSTAMP:20240919T065659Z
+DTSTART:20240925T163500
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Sisterhood
+UID:bfe03591-e562-4514-bd57-f16278476d8b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Alsof Luis Buñuel een script van Monty Python regisseert\, zo 
@@ -904,312 +1008,11 @@ DESCRIPTION:Alsof Luis Buñuel een script van Monty Python regisseert\, zo
  e Franse journaliste meerdere pogingen om Salvador Dalí te interviewen vo
  or een documentaire waarvan de opnames nooit zullen beginnen.
 DTEND:20240920T123000
-DTSTAMP:20240918T065647Z
+DTSTAMP:20240919T065700Z
 DTSTART:20240920T103000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Daaaaaalí! – Laatste kans
-UID:7a91f170-153e-41aa-817c-5411b751838a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Mooie\, innemende coming-of-age film. Fanny\, een 17-jarige sc
- holiere uit Frankrijk\, gaat op uitwisseling naar Duitsland. In Leipzig o
- ntmoet ze haar penvriendin Lena\, die even oud is als zij en zich al volo
- p bezighoudt met politiek activisme.
-DTEND:20240919T123000
-DTSTAMP:20240918T065648Z
-DTSTART:20240919T103000
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Langue Étrangère
-UID:6a53f1ca-4f3a-4ef9-ae40-dbfafea85760
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Mooie\, innemende coming-of-age film. Fanny\, een 17-jarige sc
- holiere uit Frankrijk\, gaat op uitwisseling naar Duitsland. In Leipzig o
- ntmoet ze haar penvriendin Lena\, die even oud is als zij en zich al volo
- p bezighoudt met politiek activisme.
-DTEND:20240919T233000
-DTSTAMP:20240918T065648Z
-DTSTART:20240919T213000
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Langue Étrangère
-UID:ffe12088-a228-4c2c-913f-1814055acac4
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Mooie\, innemende coming-of-age film. Fanny\, een 17-jarige sc
- holiere uit Frankrijk\, gaat op uitwisseling naar Duitsland. In Leipzig o
- ntmoet ze haar penvriendin Lena\, die even oud is als zij en zich al volo
- p bezighoudt met politiek activisme.
-DTEND:20240920T230000
-DTSTAMP:20240918T065648Z
-DTSTART:20240920T210000
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Langue Étrangère
-UID:b34ea2da-d805-4ef0-ad19-57bd5d107770
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Mooie\, innemende coming-of-age film. Fanny\, een 17-jarige sc
- holiere uit Frankrijk\, gaat op uitwisseling naar Duitsland. In Leipzig o
- ntmoet ze haar penvriendin Lena\, die even oud is als zij en zich al volo
- p bezighoudt met politiek activisme.
-DTEND:20240921T233000
-DTSTAMP:20240918T065648Z
-DTSTART:20240921T213000
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Langue Étrangère
-UID:034bdcf7-6c43-4ed3-977c-7a3d668dfe8e
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Mooie\, innemende coming-of-age film. Fanny\, een 17-jarige sc
- holiere uit Frankrijk\, gaat op uitwisseling naar Duitsland. In Leipzig o
- ntmoet ze haar penvriendin Lena\, die even oud is als zij en zich al volo
- p bezighoudt met politiek activisme.
-DTEND:20240922T233000
-DTSTAMP:20240918T065648Z
-DTSTART:20240922T213000
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Langue Étrangère
-UID:3be5a1f4-c156-4eca-91d3-056db62e2014
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Mooie\, innemende coming-of-age film. Fanny\, een 17-jarige sc
- holiere uit Frankrijk\, gaat op uitwisseling naar Duitsland. In Leipzig o
- ntmoet ze haar penvriendin Lena\, die even oud is als zij en zich al volo
- p bezighoudt met politiek activisme.
-DTEND:20240923T181500
-DTSTAMP:20240918T065648Z
-DTSTART:20240923T161500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Langue Étrangère
-UID:2679bf94-e292-4374-af97-6788bded4e1a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Mooie\, innemende coming-of-age film. Fanny\, een 17-jarige sc
- holiere uit Frankrijk\, gaat op uitwisseling naar Duitsland. In Leipzig o
- ntmoet ze haar penvriendin Lena\, die even oud is als zij en zich al volo
- p bezighoudt met politiek activisme.
-DTEND:20240924T204500
-DTSTAMP:20240918T065648Z
-DTSTART:20240924T184500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Langue Étrangère
-UID:004d097a-83c2-4749-b2b0-0365d1a76615
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Mooie\, innemende coming-of-age film. Fanny\, een 17-jarige sc
- holiere uit Frankrijk\, gaat op uitwisseling naar Duitsland. In Leipzig o
- ntmoet ze haar penvriendin Lena\, die even oud is als zij en zich al volo
- p bezighoudt met politiek activisme.
-DTEND:20240925T154500
-DTSTAMP:20240918T065648Z
-DTSTART:20240925T134500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Langue Étrangère
-UID:67b685be-c3d0-4b17-b382-6ef055065e58
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:In de indrukwekkende film Führer und Verführer wordt ingezoomd
-  op het werk van Adolf Hitlers propagandaminister Joseph Goebbels. Zijn o
- pruiende propaganda heeft er mede voor gezorgd dat miljoenen mensen de do
- od in werden gejaagd\, waaronder zes miljoen vermoorde joden.
-DTEND:20240919T181500
-DTSTAMP:20240918T065649Z
-DTSTART:20240919T161500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Führer und Verführer
-UID:f590695b-b86a-4784-9c7d-056dbecb4271
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:In de indrukwekkende film Führer und Verführer wordt ingezoomd
-  op het werk van Adolf Hitlers propagandaminister Joseph Goebbels. Zijn o
- pruiende propaganda heeft er mede voor gezorgd dat miljoenen mensen de do
- od in werden gejaagd\, waaronder zes miljoen vermoorde joden.
-DTEND:20240920T202500
-DTSTAMP:20240918T065649Z
-DTSTART:20240920T182500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Führer und Verführer
-UID:79888250-3f88-4f52-a7e4-eeaa349d69a5
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:In de indrukwekkende film Führer und Verführer wordt ingezoomd
-  op het werk van Adolf Hitlers propagandaminister Joseph Goebbels. Zijn o
- pruiende propaganda heeft er mede voor gezorgd dat miljoenen mensen de do
- od in werden gejaagd\, waaronder zes miljoen vermoorde joden.
-DTEND:20240921T202500
-DTSTAMP:20240918T065649Z
-DTSTART:20240921T182500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Führer und Verführer
-UID:064779c3-50ed-4479-8dab-4dbf1033c8fa
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:In de indrukwekkende film Führer und Verführer wordt ingezoomd
-  op het werk van Adolf Hitlers propagandaminister Joseph Goebbels. Zijn o
- pruiende propaganda heeft er mede voor gezorgd dat miljoenen mensen de do
- od in werden gejaagd\, waaronder zes miljoen vermoorde joden.
-DTEND:20240922T201500
-DTSTAMP:20240918T065649Z
-DTSTART:20240922T181500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Führer und Verführer
-UID:d7cf0ffa-d458-4efd-9ea6-05fe67c35011
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:In de indrukwekkende film Führer und Verführer wordt ingezoomd
-  op het werk van Adolf Hitlers propagandaminister Joseph Goebbels. Zijn o
- pruiende propaganda heeft er mede voor gezorgd dat miljoenen mensen de do
- od in werden gejaagd\, waaronder zes miljoen vermoorde joden.
-DTEND:20240923T154500
-DTSTAMP:20240918T065649Z
-DTSTART:20240923T134500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Führer und Verführer
-UID:a2094ac6-d7c2-422f-a74d-a1959acf4b70
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:In de indrukwekkende film Führer und Verführer wordt ingezoomd
-  op het werk van Adolf Hitlers propagandaminister Joseph Goebbels. Zijn o
- pruiende propaganda heeft er mede voor gezorgd dat miljoenen mensen de do
- od in werden gejaagd\, waaronder zes miljoen vermoorde joden.
-DTEND:20240924T174500
-DTSTAMP:20240918T065649Z
-DTSTART:20240924T154500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Führer und Verführer
-UID:6cadf9de-745a-4bc1-a44c-01dd20873e87
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:In de indrukwekkende film Führer und Verführer wordt ingezoomd
-  op het werk van Adolf Hitlers propagandaminister Joseph Goebbels. Zijn o
- pruiende propaganda heeft er mede voor gezorgd dat miljoenen mensen de do
- od in werden gejaagd\, waaronder zes miljoen vermoorde joden.
-DTEND:20240924T230000
-DTSTAMP:20240918T065649Z
-DTSTART:20240924T210000
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Führer und Verführer
-UID:28f6707d-d0b0-43bb-baee-79c690b785c0
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:In de indrukwekkende film Führer und Verführer wordt ingezoomd
-  op het werk van Adolf Hitlers propagandaminister Joseph Goebbels. Zijn o
- pruiende propaganda heeft er mede voor gezorgd dat miljoenen mensen de do
- od in werden gejaagd\, waaronder zes miljoen vermoorde joden.
-DTEND:20240925T201500
-DTSTAMP:20240918T065649Z
-DTSTART:20240925T181500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Führer und Verführer
-UID:dc5ffea9-5974-411f-9687-b94d43e48fd8
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Michael Powell en Emeric Pressburgers flamboyante bewerking in
-  Technicolor van Hans Christian Andersens gelijknamige sprookje. Het duo 
- plaatste het verhaal\, over de ballerina die moet kiezen\, in het milieu 
- van de beroemde Ballets Russes van Sergej Diaghilev.
-DTEND:20240919T204500
-DTSTAMP:20240918T065650Z
-DTSTART:20240919T184500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: The Red Shoes (1948) | The Films of Powell 
- and Pressburger
-UID:0c624c30-220a-4fce-94bb-1966cb9df8e4
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Michael Powell en Emeric Pressburgers flamboyante bewerking in
-  Technicolor van Hans Christian Andersens gelijknamige sprookje. Het duo 
- plaatste het verhaal\, over de ballerina die moet kiezen\, in het milieu 
- van de beroemde Ballets Russes van Sergej Diaghilev.
-DTEND:20240922T204500
-DTSTAMP:20240918T065650Z
-DTSTART:20240922T184500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: The Red Shoes (1948) | The Films of Powell 
- and Pressburger
-UID:ffa6474e-fed1-4920-9e65-03011a1cae44
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Michael Powell en Emeric Pressburgers flamboyante bewerking in
-  Technicolor van Hans Christian Andersens gelijknamige sprookje. Het duo 
- plaatste het verhaal\, over de ballerina die moet kiezen\, in het milieu 
- van de beroemde Ballets Russes van Sergej Diaghilev.
-DTEND:20240925T153000
-DTSTAMP:20240918T065650Z
-DTSTART:20240925T133000
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: The Red Shoes (1948) | The Films of Powell 
- and Pressburger
-UID:69ad9678-24cf-4005-b0dd-aaa982834744
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Een sprankelend filmdebuut waarin drie 15-jarige vriendinnen o
- p rigoureuze wijze afrekenen met al te opdringerige jonge mannen.
-DTEND:20240919T231500
-DTSTAMP:20240918T065651Z
-DTSTART:20240919T211500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Sisterhood
-UID:5f21e645-9166-418d-8406-3ead81943ef0
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Een sprankelend filmdebuut waarin drie 15-jarige vriendinnen o
- p rigoureuze wijze afrekenen met al te opdringerige jonge mannen.
-DTEND:20240920T183000
-DTSTAMP:20240918T065651Z
-DTSTART:20240920T163000
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Sisterhood
-UID:d7eb927b-6e79-40a4-930e-37b7cd4c81a6
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Een sprankelend filmdebuut waarin drie 15-jarige vriendinnen o
- p rigoureuze wijze afrekenen met al te opdringerige jonge mannen.
-DTEND:20240921T231500
-DTSTAMP:20240918T065651Z
-DTSTART:20240921T211500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Sisterhood
-UID:b34a403d-0358-42b5-9d8d-629215b2cbe8
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Een sprankelend filmdebuut waarin drie 15-jarige vriendinnen o
- p rigoureuze wijze afrekenen met al te opdringerige jonge mannen.
-DTEND:20240922T151500
-DTSTAMP:20240918T065651Z
-DTSTART:20240922T131500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Sisterhood
-UID:d4bb2983-0259-4b72-9532-597f52b170be
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Een sprankelend filmdebuut waarin drie 15-jarige vriendinnen o
- p rigoureuze wijze afrekenen met al te opdringerige jonge mannen.
-DTEND:20240923T233000
-DTSTAMP:20240918T065651Z
-DTSTART:20240923T213000
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Sisterhood
-UID:9b8fb158-ffde-4b81-b361-61e809f0efe2
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Een sprankelend filmdebuut waarin drie 15-jarige vriendinnen o
- p rigoureuze wijze afrekenen met al te opdringerige jonge mannen.
-DTEND:20240924T184500
-DTSTAMP:20240918T065651Z
-DTSTART:20240924T164500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Sisterhood
-UID:b993ff45-3a47-4788-a585-6b5af6bc4cfe
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Een sprankelend filmdebuut waarin drie 15-jarige vriendinnen o
- p rigoureuze wijze afrekenen met al te opdringerige jonge mannen.
-DTEND:20240925T183500
-DTSTAMP:20240918T065651Z
-DTSTART:20240925T163500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Sisterhood
-UID:b991673c-685b-44af-885a-e502d9f24de9
+UID:bbd0174e-7a9e-4205-a4a5-2fbe3ffa3511
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Met behulp van een rijk scala aan archiefmateriaal onderzoekt 
@@ -1218,12 +1021,12 @@ DESCRIPTION:Met behulp van een rijk scala aan archiefmateriaal onderzoekt
  ndanks de tegenslagen tijdens de Tweede Wereldoorlog\, maar uiteindelijk 
  te gronde werd gericht door de filmindustrie van de jaren vijftig.
 DTEND:20240920T124500
-DTSTAMP:20240918T065652Z
+DTSTAMP:20240919T065702Z
 DTSTART:20240920T104500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Made in England | The Films of Powell and P
  ressburger
-UID:e1d47be3-6a24-40c1-a661-dd6a5b1dd69b
+UID:96540f51-71ec-4fe3-9cbb-8a68271037ae
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Tatami is een indrukwekkende politieke thriller\, geïnspireerd
@@ -1234,11 +1037,11 @@ DESCRIPTION:Tatami is een indrukwekkende politieke thriller\, geïnspireerd
  en we je namens Cinéart trakteren op een gratis drankje bij de inloop van
   de film.
 DTEND:20240920T130000
-DTSTAMP:20240918T065653Z
+DTSTAMP:20240919T065703Z
 DTSTART:20240920T110000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Tatami – Laatste kans
-UID:cbe1f415-db66-4c0b-b22f-149be6abece4
+UID:8261be0f-ca0c-4e00-baf5-38fa530ae426
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Tatami is een indrukwekkende politieke thriller\, geïnspireerd
@@ -1249,11 +1052,25 @@ DESCRIPTION:Tatami is een indrukwekkende politieke thriller\, geïnspireerd
  en we je namens Cinéart trakteren op een gratis drankje bij de inloop van
   de film.
 DTEND:20240922T231500
-DTSTAMP:20240918T065653Z
+DTSTAMP:20240919T065703Z
 DTSTART:20240922T211500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Tatami – Laatste kans
-UID:f6165ab2-f4a9-4e70-a47b-75cde6494258
+UID:e5265bed-23c6-43e8-929c-80ca748f0cc6
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Black Narcissus geldt als een van de meest exotische films van
+  de Britse cinema: een broeierig psychologisch portret van vijf nonnen di
+ e in de Himalaya een missiepost openen en ten prooi vallen aan onderdrukt
+ e erotische begeertes en waanzin. Een van de hoogtepunten van de Britse c
+ inema.
+DTEND:20240920T174500
+DTSTAMP:20240919T065704Z
+DTSTART:20240920T154500
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Black Narcissus (1947) | The Films of Powel
+ l and Pressburger
+UID:aa988127-bfa6-4623-9391-4e0d4e5552c0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Van vrijdag 20 september tot en met vrijdag 27 september strij
@@ -1264,11 +1081,11 @@ DESCRIPTION:Van vrijdag 20 september tot en met vrijdag 27 september strij
  or de opgave om hem voorgoed los te laten. Is hun liefde sterk genoeg om 
  Rick te steunen in zijn diepe verlangen naar een waardig einde?
 DTEND:20240920T224500
-DTSTAMP:20240918T065654Z
+DTSTAMP:20240919T065705Z
 DTSTART:20240920T204500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Witte Flits | NFF Voorpremière
-UID:2dca336a-4ffb-4acb-864f-22c674998c6c
+UID:6df35aa7-65bb-4df5-9fee-4f1ea7aa560d
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In 2015 was de animatiefilm Binnenstebuiten (Inside Out) een w
@@ -1279,11 +1096,11 @@ DESCRIPTION:In 2015 was de animatiefilm Binnenstebuiten (Inside Out) een w
  eworden Riley\, net op het moment dat het hoofdkantoor plotseling wordt g
  esloopt om ruimte te maken voor iets geheel onverwachts: nieuwe emoties!
 DTEND:20240921T123000
-DTSTAMP:20240918T065655Z
+DTSTAMP:20240919T065706Z
 DTSTART:20240921T103000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Inside Out 2 (OV)
-UID:6717043a-e62b-4fa3-a981-18fcc98a30a1
+UID:d74f21e4-b5fe-438a-a301-d65913be1cd1
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Holly Martins (Joseph Cotton)\, een naïeve schrijver van pulpw
@@ -1291,11 +1108,11 @@ DESCRIPTION:Holly Martins (Joseph Cotton)\, een naïeve schrijver van pulpw
   Harry Lime (Orson Welles) te ontmoeten\, maar ontdekt dat Lime om het le
  ven is gekomen in een verdacht ongeval.
 DTEND:20240921T180000
-DTSTAMP:20240918T065656Z
+DTSTAMP:20240919T065708Z
 DTSTART:20240921T160000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Third Man (1949) | Klassieker
-UID:7ff9b90e-037f-4570-9ffb-9e49867f51d4
+UID:8d04b7a9-37a6-4213-b1e6-eb4f66fe2cae
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Holly Martins (Joseph Cotton)\, een naïeve schrijver van pulpw
@@ -1303,11 +1120,11 @@ DESCRIPTION:Holly Martins (Joseph Cotton)\, een naïeve schrijver van pulpw
   Harry Lime (Orson Welles) te ontmoeten\, maar ontdekt dat Lime om het le
  ven is gekomen in een verdacht ongeval.
 DTEND:20240924T153000
-DTSTAMP:20240918T065656Z
+DTSTAMP:20240919T065708Z
 DTSTART:20240924T133000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Third Man (1949) | Klassieker
-UID:5bf9dcfa-6389-417e-8aa8-50e23f227c10
+UID:aa6b1bd0-0e76-46db-969d-0a6623630dbf
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Holly Martins (Joseph Cotton)\, een naïeve schrijver van pulpw
@@ -1315,11 +1132,11 @@ DESCRIPTION:Holly Martins (Joseph Cotton)\, een naïeve schrijver van pulpw
   Harry Lime (Orson Welles) te ontmoeten\, maar ontdekt dat Lime om het le
  ven is gekomen in een verdacht ongeval.
 DTEND:20240925T180000
-DTSTAMP:20240918T065656Z
+DTSTAMP:20240919T065708Z
 DTSTART:20240925T160000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Third Man (1949) | Klassieker
-UID:e11f9396-4887-4372-8491-aaca00303e47
+UID:c3066634-a19b-4639-8d20-daef3ae2b3cd
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Figaro gaat trouwen en in huize Almaviva belooft het een roeri
@@ -1328,11 +1145,11 @@ DESCRIPTION:Figaro gaat trouwen en in huize Almaviva belooft het een roeri
  arin onweerstaanbare komedie wordt afgewisseld met momenten van adembenem
  ende schoonheid.
 DTEND:20240922T160000
-DTSTAMP:20240918T065658Z
+DTSTAMP:20240919T065709Z
 DTSTART:20240922T140000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Le Nozze di Figaro | The Royal Opera 24/25
-UID:92e51807-9edb-4626-a8a8-6bc6657f2dc8
+UID:1a6ec377-2c23-48a4-af0f-3574a8422646
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Deze baanbrekende concertfilm van Led Zeppelins legendarische 
@@ -1341,12 +1158,12 @@ DESCRIPTION:Deze baanbrekende concertfilm van Led Zeppelins legendarische
  levens van de leden met backstagebeelden - en een hallucinogene inkijk in
   de psyche van de bandleden...
 DTEND:20240923T223000
-DTSTAMP:20240918T065659Z
+DTSTAMP:20240919T065710Z
 DTSTART:20240923T203000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Led Zeppelin: The Song Remains the Same (19
  76)
-UID:cc9e4f01-5af0-445b-b354-bd9d178b60be
+UID:1b81c374-6758-4025-a4b9-90a3104b276c
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Deze baanbrekende concertfilm van Led Zeppelins legendarische 
@@ -1355,12 +1172,27 @@ DESCRIPTION:Deze baanbrekende concertfilm van Led Zeppelins legendarische
  levens van de leden met backstagebeelden - en een hallucinogene inkijk in
   de psyche van de bandleden...
 DTEND:20240928T180000
-DTSTAMP:20240918T065659Z
+DTSTAMP:20240919T065710Z
 DTSTART:20240928T160000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Led Zeppelin: The Song Remains the Same (19
  76)
-UID:2822a131-7a9e-4d4e-b47d-afc83841b713
+UID:a2b6e819-5bf4-4536-8388-ec6694da232c
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:In Peeping Tom (Michael Powell\, Groot-Brittannië 1960\, 109')
+  zien we de verlegen en ogenschijnlijk zachtaardige fotograaf en aspirant
+  filmmaker Mark (Carl Boehm) die een documentaire probeert te maken over 
+ angst. Mark heeft hier echter een behoorlijk onorthodoxe methode voor: hi
+ j vermoordt de vrouwen die hij filmt met een dodelijk statief en legt hie
+ rmee hun laatste blik vast.
+DTEND:20240924T181500
+DTSTAMP:20240919T065711Z
+DTSTART:20240924T161500
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Peeping Tom (1960) | The Films of Powell an
+ d Pressburger
+UID:24f3563f-9e80-4bef-a901-98561ccf1f16
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Als zesde vrouw van de katholieke Britse vorst Hendrik VIII (J
@@ -1370,33 +1202,33 @@ DESCRIPTION:Als zesde vrouw van de katholieke Britse vorst Hendrik VIII (J
  , raakt hij zijn grip op de werkelijkheid steeds verder kwijt en richt zi
  jn woede op (protestantse) radicalen.
 DTEND:20240925T210000
-DTSTAMP:20240918T065700Z
+DTSTAMP:20240919T065712Z
 DTSTART:20240925T190000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Firebrand
-UID:af5ddf13-99e8-44f2-b2ef-4375efb61e89
+UID:e57a05b9-85b1-47d3-bbc7-bcabda6987de
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Van vrijdag 20 september tot en met vrijdag 27 september strij
  kt het Nederlands Film Festival weer neer in Utrecht. Wij vertonen op woe
  nsdag 25 september de slotfilm van het festival: Paradijs.
 DTEND:20240925T224500
-DTSTAMP:20240918T065701Z
+DTSTAMP:20240919T065713Z
 DTSTART:20240925T204500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Paradijs | NFF Voorpremière
-UID:f9a9ec4c-b77e-4891-956d-647414eca458
+UID:60429e8d-aa2a-40e5-9f8b-e4d842bcf2f5
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Het verhaal van fotografe Lee Miller\, een fotomodel dat een v
  eelgeprezen oorlogscorrespondent werd voor Vogue magazine tijdens de Twee
  de Wereldoorlog. Met een indrukwekkende hoofdrol van Kate Winslet.
 DTEND:20240926T130000
-DTSTAMP:20240918T065702Z
+DTSTAMP:20240919T065714Z
 DTSTART:20240926T110000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Lee | SENVER
-UID:0f8c132d-9cfc-4679-a5c1-901695785f72
+UID:32d93ed2-77fd-4f71-9b65-35b34d15306a
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Wanneer Aagje en Toon horen dat hun 42-jarige zoon Rick de laa
@@ -1406,11 +1238,11 @@ DESCRIPTION:Wanneer Aagje en Toon horen dat hun 42-jarige zoon Rick de laa
  et nagesprek met regisseur Laura Hermanides op donderdag 26 september\, 1
  8.45 uur.
 DTEND:20240926T204500
-DTSTAMP:20240918T065703Z
+DTSTAMP:20240919T065715Z
 DTSTART:20240926T184500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Witte Flits | Met nagesprek
-UID:7b1a6250-3afa-45e8-a56c-24e9a771e4e6
+UID:5fde5488-f225-4fd3-b780-67449ffc5a93
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Ontroerend\, ijzersterk geacteerd drama. Poison vertelt het ve
@@ -1419,11 +1251,11 @@ DESCRIPTION:Ontroerend\, ijzersterk geacteerd drama. Poison vertelt het ve
  r hun ontmoeting is de herbegrafenis van hun kind\, omdat er gif in de bo
  dem is aangetroffen.
 DTEND:20240926T210000
-DTSTAMP:20240918T065704Z
+DTSTAMP:20240919T065716Z
 DTSTART:20240926T190000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Poison
-UID:b18b7185-1748-4c5c-a378-a975f5c53d91
+UID:f9fba342-c79c-4ae8-8ee1-c0b771c88c25
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Emmanuelle is op zoek naar een verloren genot en vliegt in haa
@@ -1431,47 +1263,47 @@ DESCRIPTION:Emmanuelle is op zoek naar een verloren genot en vliegt in haa
  verse sensuele ontmoetingen waaronder met Kei\, een mysterieuze man die h
  aar voortdurend ontwijkt.
 DTEND:20240926T224500
-DTSTAMP:20240918T065705Z
+DTSTAMP:20240919T065717Z
 DTSTART:20240926T204500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Emmanuelle
-UID:83038bc2-cd28-4ae8-ac56-77c6cf11fe28
+UID:953daa35-6137-4a84-8c2d-7c31a96d5c03
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Michael Powell en Emeric Pressburger creëren een spookachtig h
  uwelijk tussen cinema en opera in deze unieke versie van een klassiek ver
  haal. Een beeldschone verfilming in spectaculair Technicolor.
 DTEND:20240927T180000
-DTSTAMP:20240918T065707Z
+DTSTAMP:20240919T065718Z
 DTSTART:20240927T160000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Tales of Hoffmann (1951) | The Films of
   Powell and Pressburger
-UID:aaa80ff8-cd88-4d94-b233-bcfbbe335cad
+UID:bb2742af-4bdc-468e-b518-cf85b84488a1
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Michael Powell en Emeric Pressburger creëren een spookachtig h
  uwelijk tussen cinema en opera in deze unieke versie van een klassiek ver
  haal. Een beeldschone verfilming in spectaculair Technicolor.
 DTEND:20240929T204500
-DTSTAMP:20240918T065707Z
+DTSTAMP:20240919T065718Z
 DTSTART:20240929T184500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Tales of Hoffmann (1951) | The Films of
   Powell and Pressburger
-UID:2ad0cf94-9355-476b-bf00-9f5f0271a4ab
+UID:42d43aeb-1a9c-49f0-860f-5100dfeea238
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Michael Powell en Emeric Pressburger creëren een spookachtig h
  uwelijk tussen cinema en opera in deze unieke versie van een klassiek ver
  haal. Een beeldschone verfilming in spectaculair Technicolor.
 DTEND:20241002T153000
-DTSTAMP:20240918T065707Z
+DTSTAMP:20240919T065718Z
 DTSTART:20241002T133000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Tales of Hoffmann (1951) | The Films of
   Powell and Pressburger
-UID:3e083e1f-1c14-4d27-99be-6a84ad64bd91
+UID:0e1b4bd0-0660-4d23-8cb9-403958c74a62
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op vrijdag 27 september trappen we af met een nieuwe reeks fil
@@ -1483,11 +1315,21 @@ DESCRIPTION:Op vrijdag 27 september trappen we af met een nieuwe reeks fil
  op deze manier vertoont. Sterker nog: de filmrol die we op 27 september o
  p de projector zullen leggen is de enige 35mm kopie in Nederland!
 DTEND:20240927T213000
-DTSTAMP:20240918T065708Z
+DTSTAMP:20240919T065720Z
 DTSTART:20240927T193000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Interstellar (2014) | Cine Analoog
-UID:9fbfb0b2-1266-4f69-9cd0-9cd5cf5a4639
+UID:af26f969-2881-410f-857b-240790a24034
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Het verhaal achter de champagnefamilie Veuve Clicquot en het b
+ edrijf dat eind 18e eeuw begon.
+DTEND:20240928T124500
+DTSTAMP:20240919T065721Z
+DTSTART:20240928T104500
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Widow Clicquot – Laatste kans
+UID:29fa4f31-e592-4544-ac90-2eb0fedd3bd4
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Deze film\, geregisseerd door David Litchfield\, laat een mome
@@ -1496,11 +1338,11 @@ DESCRIPTION:Deze film\, geregisseerd door David Litchfield\, laat een mome
  d Studios in augustus 1974 en geeft inzicht in de innerlijke werking van 
  de band terwijl ze samen werken en spelen in de studio.
 DTEND:20240929T191500
-DTSTAMP:20240918T065709Z
+DTSTAMP:20240919T065722Z
 DTSTART:20240929T171500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Paul McCartney and Wings – One Hand Clapping
-UID:5d7877ac-092a-4e69-9592-02ef78c5d6dc
+UID:56341ccf-795a-41f2-9c1c-6a875f25e16c
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In Joker: Folie À Deux zit Arthur Fleck (Joaquin Phoenix) geva
@@ -1509,11 +1351,11 @@ DESCRIPTION:In Joker: Folie À Deux zit Arthur Fleck (Joaquin Phoenix) geva
  ijkheid\, vindt Arthur de liefde en de muziek die altijd al in hem heeft 
  gezeten.
 DTEND:20241003T224500
-DTSTAMP:20240918T065710Z
+DTSTAMP:20240919T065723Z
 DTSTART:20241003T204500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Joker: Folie à Deux
-UID:0d2ad31e-66b0-4acf-817b-0114780438e5
+UID:cb81e6a0-664b-4063-9d80-34ebfbace898
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In Joker: Folie À Deux zit Arthur Fleck (Joaquin Phoenix) geva
@@ -1522,11 +1364,11 @@ DESCRIPTION:In Joker: Folie À Deux zit Arthur Fleck (Joaquin Phoenix) geva
  ijkheid\, vindt Arthur de liefde en de muziek die altijd al in hem heeft 
  gezeten.
 DTEND:20241004T230000
-DTSTAMP:20240918T065710Z
+DTSTAMP:20240919T065723Z
 DTSTART:20241004T210000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Joker: Folie à Deux
-UID:4b21ad34-419b-4197-9a48-465416a93cbf
+UID:9ee00e99-fa07-4e0a-8163-52c532022354
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In Joker: Folie À Deux zit Arthur Fleck (Joaquin Phoenix) geva
@@ -1535,35 +1377,48 @@ DESCRIPTION:In Joker: Folie À Deux zit Arthur Fleck (Joaquin Phoenix) geva
  ijkheid\, vindt Arthur de liefde en de muziek die altijd al in hem heeft 
  gezeten.
 DTEND:20241005T180000
-DTSTAMP:20240918T065710Z
+DTSTAMP:20240919T065723Z
 DTSTART:20241005T160000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Joker: Folie à Deux
-UID:deabe3c2-a6b9-427d-be59-6cb9cac81dd8
+UID:b6b746be-dda6-468b-bfff-cba19a5e4223
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Naar aanleiding van het recente overlijden van regisseur Pim d
+ e la Parra (1940 - 2024) vertonen we op zaterdag 5 oktober eenmalig zijn 
+ thriller Obsessions. Wanneer een kamerhuurder een gat achter een schilder
+ ijtje in de muur ontdekt\, raakt hij al gauw in de ban van wat hij aan de
+  andere kant van de muur ziet gebeuren.
+DTEND:20241005T181500
+DTSTAMP:20240919T065724Z
+DTSTART:20241005T161500
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Obsessions (1969) | I.M. Pim de la Parra
+UID:88349f6e-39a5-435d-b1a7-ef85a4d21ca5
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De erotische film Emmanuelle maakte vijftig jaar geleden een w
  ereldster van de Nederlandse actrice Sylvia Kristél. Nu in 4K gerestauree
  rd.
 DTEND:20241006T184500
-DTSTAMP:20240918T065711Z
+DTSTAMP:20240919T065725Z
 DTSTART:20241006T164500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Emmanuelle (1974) | 50th anniversary | Klas
  sieker
-UID:c7a0e381-aa79-4db5-8066-588d0f0df4ae
+UID:43b93083-bef2-478d-9fe6-0e2ff8a83a24
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De erotische film Emmanuelle maakte vijftig jaar geleden een w
  ereldster van de Nederlandse actrice Sylvia Kristél. Nu in 4K gerestauree
  rd.
 DTEND:20241008T230000
-DTSTAMP:20240918T065711Z
+DTSTAMP:20240919T065725Z
 DTSTART:20241008T210000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Emmanuelle (1974) | 50th anniversary | Klas
  sieker
-UID:9528d460-f1b7-43cc-8d29-9b036d471010
+UID:ad285963-ea78-4a8f-8e97-623a8e4bde36
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Overgekwalificeerd en ondergewaardeerd werkt Rita (Zoe Saldana
@@ -1572,24 +1427,24 @@ DESCRIPTION:Overgekwalificeerd en ondergewaardeerd werkt Rita (Zoe Saldana
  baron Manitas Del Monte. Hij doet Rita een aanbod dat ze niet kan weigere
  n.
 DTEND:20241007T210000
-DTSTAMP:20240918T065712Z
+DTSTAMP:20240919T065726Z
 DTSTART:20241007T190000
 SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Emilia Perez | Rainbow Night | Gooise Pride
+SUMMARY:Filmtheater Hilversum: Emilia Pérez | Rainbow Night | Gooise Pride
   Month
-UID:45159e21-afa3-4605-a1f1-15a97db9396e
+UID:a9f31f3b-187e-4513-9c77-5797f5dea899
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Het innemende How to Make Millions Before Grandma Dies\, een o
  ngekende publiekshit in Azië\, toont op zeer ontroerende wijze de waarde\
  , maar ook de complexiteit van familierelaties.
 DTEND:20241008T160000
-DTSTAMP:20240918T065713Z
+DTSTAMP:20240919T065727Z
 DTSTART:20241008T140000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: How to Make Millions Before Grandma Dies | 
  SENVER
-UID:42194831-ea10-4e26-8982-b8b60fb8a058
+UID:6148a3af-1a70-4265-97e3-968414e00c78
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De missie van tolerantie en vergeving van een Palestijnse dokt
@@ -1598,12 +1453,34 @@ DESCRIPTION:De missie van tolerantie en vergeving van een Palestijnse dokt
  Nobelprijs\, wiens grootste tegenstander de haat zelf is. Heel inspireren
  d en urgenter dan ooit.
 DTEND:20241008T210000
-DTSTAMP:20240918T065714Z
+DTSTAMP:20240919T065729Z
 DTSTART:20241008T190000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: I Shall Not Hate | Movies that Matter on To
  ur
-UID:c0c8915a-224c-4801-8a2a-4d356d6eded9
+UID:d06d1621-f74a-475a-bfaa-efe670156fde
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Het verhaal van fotografe Lee Miller\, een fotomodel dat een v
+ eelgeprezen oorlogscorrespondent werd voor Vogue magazine tijdens de Twee
+ de Wereldoorlog. Met een indrukwekkende hoofdrol van Kate Winslet.
+DTEND:20241010T204500
+DTSTAMP:20240919T065730Z
+DTSTART:20241010T184500
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Lee
+UID:bd285805-4053-48ec-a53f-23d46f70fe1c
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Sons is een Scandinavische gevangenisthriller met Sidse Babett
+  Knudsen (Borgen) in de hoofdrol. Regisseur Gustav Möller houdt je\, na D
+ en Skylidge\, opnieuw op het puntje van je stoel.
+DTEND:20241010T210000
+DTSTAMP:20240919T065731Z
+DTSTART:20241010T190000
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Sons
+UID:84404950-baef-4e67-a979-47b7aa284290
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Lia\, een gepensioneerde lerares uit Georgië\, is vastberaden 
@@ -1613,12 +1490,12 @@ DESCRIPTION:Lia\, een gepensioneerde lerares uit Georgië\, is vastberaden
   prachtige Istanbul maken ze nieuwe contacten en zien ze een stad vol mog
  elijkheden. Maar hoe vind je iemand die niet gevonden wil worden?
 DTEND:20241014T210000
-DTSTAMP:20240918T065715Z
+DTSTAMP:20240919T065732Z
 DTSTART:20241014T190000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Crossing Istanbul | Rainbow Night | Gooise 
  Pride Month
-UID:432af8f9-49a6-44ae-af3e-3b4f76c6dc0d
+UID:bd166596-a4d5-4740-92dd-4037870794c1
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Struikel het konijnenhol in met deze balletuitvoering van het 
@@ -1626,12 +1503,12 @@ DESCRIPTION:Struikel het konijnenhol in met deze balletuitvoering van het
   en verbaas je over allerlei merkwaardige personages in de unieke theatra
  le interpretatie van Christopher Wheeldon.
 DTEND:20241015T211500
-DTSTAMP:20240918T065716Z
+DTSTAMP:20240919T065733Z
 DTSTART:20241015T191500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Alice’s Adventures in Wonderland | The Roya
  l Ballet 24/25
-UID:3ae250cc-9bc3-47a0-871a-9ae89222b76a
+UID:efe5fe67-c701-43ab-8407-ad321bf42de0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Struikel het konijnenhol in met deze balletuitvoering van het 
@@ -1639,12 +1516,12 @@ DESCRIPTION:Struikel het konijnenhol in met deze balletuitvoering van het
   en verbaas je over allerlei merkwaardige personages in de unieke theatra
  le interpretatie van Christopher Wheeldon.
 DTEND:20241027T160000
-DTSTAMP:20240918T065716Z
+DTSTAMP:20240919T065733Z
 DTSTART:20241027T140000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Alice’s Adventures in Wonderland | The Roya
  l Ballet 24/25
-UID:c4ee8e77-a45a-479b-a089-ff09e32264b3
+UID:ac4ec00f-679d-4dc6-a600-0519e23367f5
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Vanaf dinsdag 15 oktober start een nieuwe vierdelige filmcursu
@@ -1653,11 +1530,52 @@ DESCRIPTION:Vanaf dinsdag 15 oktober start een nieuwe vierdelige filmcursu
  ken als montage\, cameravoering\, licht\, geluid\, acteren en art-directi
  on. Toch word je hier onbewust door beïnvloed.
 DTEND:20241015T213000
-DTSTAMP:20240918T065717Z
+DTSTAMP:20240919T065734Z
 DTSTART:20241015T193000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Filmanalyse | Filmcursus
-UID:9404a392-0554-47a8-8e83-03fda8c652d1
+UID:5dd54671-435d-4ce5-ac56-a364f2ae3d7a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Overgekwalificeerd en ondergewaardeerd werkt Rita (Zoe Saldana
+ ) bij een groot advocatenkantoor dat voornamelijk zware criminelen tot hu
+ n clientèle mag rekenen. Ze ontvangt een mysterieus telefoontje van drugs
+ baron Manitas Del Monte. Hij doet Rita een aanbod dat ze niet kan weigere
+ n.
+DTEND:20241017T204500
+DTSTAMP:20240919T065735Z
+DTSTART:20241017T184500
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Emilia Pérez
+UID:d4d4e38d-4ec2-4114-9e07-d31cf48e41c0
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lia\, een gepensioneerde lerares uit Georgië\, is vastberaden 
+ om haar lang verloren transgender nichtje Tekla terug te vinden. Wanneer 
+ ze van Achi\, een twintigjarige buurjongen\, hoort dat Tekla mogelijk naa
+ r Turkije is vertrokken\, gaan ze samen op reis om haar te zoeken. In het
+  prachtige Istanbul maken ze nieuwe contacten en zien ze een stad vol mog
+ elijkheden. Maar hoe vind je iemand die niet gevonden wil worden?
+DTEND:20241017T210000
+DTSTAMP:20240919T065736Z
+DTSTART:20241017T190000
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Crossing Istanbul
+UID:75931046-88bb-4dd8-8aed-89da72d20db2
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lin en Henri duiken head first in een intense liefdesrelatie. 
+ Ze trekken elkaar steeds dieper naar beneden en vergeten daarbij dat ook 
+ geliefden kunnen verdrinken. Op vrijdag 18 oktober om 19.45 uur vertonen 
+ we de film in onze Kijk Ons filmspecial\, met na afloop een nagesprek met
+  auteur Oek de Jong\, die de gelijknamige roman schreef.
+DTEND:20241018T214500
+DTSTAMP:20240919T065737Z
+DTSTART:20241018T194500
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Hokwerda’s kind + Nagesprek Oek de Jong | K
+ ijk Ons
+UID:a40f5fca-0e28-4d02-8c93-9c20293c6926
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op zondag 17 oktober om 9.30 uur kun je komen genieten van een
@@ -1665,11 +1583,11 @@ DESCRIPTION:Op zondag 17 oktober om 9.30 uur kun je komen genieten van een
  aarin het leven van Donald Trump in zijn vroege jaren als vastgoedonderne
  mer onder de loep wordt genomen.
 DTEND:20241020T113000
-DTSTAMP:20240918T065718Z
+DTSTAMP:20240919T065739Z
 DTSTART:20241020T093000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Apprentice | Ontbijt & Film
-UID:9647d0f1-5878-4b56-96c5-ac215818afa6
+UID:e269bc28-52a0-4137-afd7-14c2891203a2
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Ter gelegenheid van de Gooise Pride Month brengen we cultklass
@@ -1678,23 +1596,47 @@ DESCRIPTION:Ter gelegenheid van de Gooise Pride Month brengen we cultklass
  elijke liedjes en uitzinnige kostuums\, waarin een braaf stel in een door
   travestieten bevolkt kasteel belandt.
 DTEND:20241021T210000
-DTSTAMP:20240918T065719Z
+DTSTAMP:20240919T065740Z
 DTSTART:20241021T190000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Rocky Horror Picture Show (1975) | Rain
  bow Night | Gooise Pride Month
-UID:69c048c9-444f-4782-8df2-d3712b20968b
+UID:9e83b973-fcdc-4aa0-a839-929a503d758d
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op woensdagavond 23 oktober vervolgen we onze nieuwe maandelij
  kse filmspecial Cine Analoog met de zwoele Spaanse komedie Y tu máma tamb
  ién van regisseur Alfonso Cuaron (Roma\, Children of Men) uit 2001.
 DTEND:20241023T213000
-DTSTAMP:20240918T065720Z
+DTSTAMP:20240919T065741Z
 DTSTART:20241023T193000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Y tu mamá también (2001) | Cine Analoog
-UID:00090b61-b62e-47ec-aec7-aecfe5db4936
+UID:eee0aa6c-c350-4aac-bd74-82e222ef5280
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Armand is het speelfilmdebuut van de Noorse regisseur en scena
+ rist Halfdan Ullmann Tøndel met Renate Reinsve (The Worst Person in the W
+ orld) in een van de hoofdrollen. Na een voorval tussen de 6-jarige Armand
+  en zijn beste vriendje\, moeten de ouders op school komen om te achterha
+ len wat er daadwerkelijk is gebeurd.
+DTEND:20241024T204500
+DTSTAMP:20240919T065742Z
+DTSTART:20241024T184500
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Armand
+UID:d7e2b578-ffc9-4d01-9e25-e27a8e5343b5
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Lin en Henri duiken head first in een intense liefdesrelatie. 
+ Ze trekken elkaar steeds dieper naar beneden en vergeten daarbij dat ook 
+ geliefden kunnen verdrinken.
+DTEND:20241024T210000
+DTSTAMP:20240919T065743Z
+DTSTART:20241024T190000
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Hokwerda’s kind
+UID:e952be74-f2f7-408e-856c-15d83d9c42ac
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In The Apprentice wordt het leven van Donald Trump in zijn vro
@@ -1703,310 +1645,310 @@ DESCRIPTION:In The Apprentice wordt het leven van Donald Trump in zijn vro
  sis voor zijn zakelijke imperium uitbouwt\, onder de vleugels van zijn me
  ntor\, de invloedrijke en geslepen advocaat Roy Cohn.
 DTEND:20241024T211500
-DTSTAMP:20240918T065721Z
+DTSTAMP:20240919T065744Z
 DTSTART:20241024T191500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Apprentice
-UID:0798398e-fd9d-479d-8715-c0ff8f3ad884
+UID:f536ff22-6dab-4d77-8e27-ca3023b63823
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Lieve\, veelkeurige animaties over hoe dieren in het bos met e
  lkaar samenleven en thuis zijn.
 DTEND:20241026T123000
-DTSTAMP:20240918T065722Z
+DTSTAMP:20240919T065745Z
 DTSTART:20241026T103000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: De Familie Muis (4+) | Cinekid on Tour
-UID:5655f490-4408-43c8-ae18-b9338be666c9
+UID:acc87b5b-554b-4707-94d2-b7a661193398
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Lieve\, veelkeurige animaties over hoe dieren in het bos met e
  lkaar samenleven en thuis zijn.
 DTEND:20241027T123000
-DTSTAMP:20240918T065722Z
+DTSTAMP:20240919T065745Z
 DTSTART:20241027T103000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: De Familie Muis (4+) | Cinekid on Tour
-UID:52413467-db4c-4558-9fed-9b3610b667b3
+UID:a48a8b1b-4b99-492e-b55a-0b522e0055d0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Lieve\, veelkeurige animaties over hoe dieren in het bos met e
  lkaar samenleven en thuis zijn.
 DTEND:20241028T144500
-DTSTAMP:20240918T065722Z
+DTSTAMP:20240919T065745Z
 DTSTART:20241028T124500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: De Familie Muis (4+) | Cinekid on Tour
-UID:6b5874dc-aecc-4dca-84ad-e4cc74f9f7e5
+UID:215282d3-5a2d-48df-a85b-261596184cad
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Lieve\, veelkeurige animaties over hoe dieren in het bos met e
  lkaar samenleven en thuis zijn.
 DTEND:20241029T124500
-DTSTAMP:20240918T065722Z
+DTSTAMP:20240919T065745Z
 DTSTART:20241029T104500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: De Familie Muis (4+) | Cinekid on Tour
-UID:0fe134d9-7693-4de6-9c7f-f19a04c0d0f7
+UID:e61d1db5-da0e-4369-914a-126ac20f436a
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Lieve\, veelkeurige animaties over hoe dieren in het bos met e
  lkaar samenleven en thuis zijn.
 DTEND:20241030T123000
-DTSTAMP:20240918T065722Z
+DTSTAMP:20240919T065745Z
 DTSTART:20241030T103000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: De Familie Muis (4+) | Cinekid on Tour
-UID:78f7a245-d7d7-4d63-b2ab-ae957c567000
+UID:95b12e31-6ebe-47b8-9982-c75aaab42ac7
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Lieve\, veelkeurige animaties over hoe dieren in het bos met e
  lkaar samenleven en thuis zijn.
 DTEND:20241101T124500
-DTSTAMP:20240918T065722Z
+DTSTAMP:20240919T065745Z
 DTSTART:20241101T104500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: De Familie Muis (4+) | Cinekid on Tour
-UID:59d515e8-c57f-4653-8209-119bff284192
+UID:2882ee66-3da5-4b7e-8fee-729c3e626a7c
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Lieve\, veelkeurige animaties over hoe dieren in het bos met e
  lkaar samenleven en thuis zijn.
 DTEND:20241102T123000
-DTSTAMP:20240918T065722Z
+DTSTAMP:20240919T065745Z
 DTSTART:20241102T103000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: De Familie Muis (4+) | Cinekid on Tour
-UID:9c547d92-0d35-46af-81e6-d38c61af892c
+UID:f34d1971-4ee2-4798-aa10-a94146c03722
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Lieve\, veelkeurige animaties over hoe dieren in het bos met e
  lkaar samenleven en thuis zijn.
 DTEND:20241103T123000
-DTSTAMP:20240918T065722Z
+DTSTAMP:20240919T065745Z
 DTSTART:20241103T103000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: De Familie Muis (4+) | Cinekid on Tour
-UID:37760010-ec7a-4654-b7a5-132226c9c0ea
+UID:b01d6dfc-eb1c-4610-93cd-eaa3990616ae
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Twee zusjes ontdekken hoe ze in de fantasiewereld van hun liev
  elingsboek kunnen duiken.
 DTEND:20241026T140000
-DTSTAMP:20240918T065724Z
+DTSTAMP:20240919T065746Z
 DTSTART:20241026T120000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Sirocco en het koninkrijk van de wind (6+) 
  | Cinekid on Tour
-UID:f6ab4270-2267-40f7-b09f-8fcf68acce18
+UID:6746304c-b63e-4cfb-906e-91f8d024ee1d
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Twee zusjes ontdekken hoe ze in de fantasiewereld van hun liev
  elingsboek kunnen duiken.
 DTEND:20241028T123000
-DTSTAMP:20240918T065724Z
+DTSTAMP:20240919T065746Z
 DTSTART:20241028T103000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Sirocco en het koninkrijk van de wind (6+) 
  | Cinekid on Tour
-UID:013370ca-4966-4104-90c6-d0e438cdf939
+UID:29c16e9b-b8a9-4e4d-8fa3-88af75f5463d
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Twee zusjes ontdekken hoe ze in de fantasiewereld van hun liev
  elingsboek kunnen duiken.
 DTEND:20241101T141500
-DTSTAMP:20240918T065724Z
+DTSTAMP:20240919T065746Z
 DTSTART:20241101T121500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Sirocco en het koninkrijk van de wind (6+) 
  | Cinekid on Tour
-UID:32e01409-d990-417d-85a0-7292a995e77e
+UID:7633b7e2-928b-4197-9b8d-2c5d09e23b73
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Dit spectaculaire avontuur volgt een robot—ROZZUM unit 7134\, 
  oftewel “Roz” — op haar reis. Na een schipbreuk strandt ze op een onbewoo
  nd eiland en moet ze zich zien te redden in de wildernis.
 DTEND:20241026T160000
-DTSTAMP:20240918T065725Z
+DTSTAMP:20240919T065747Z
 DTSTART:20241026T140000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: De Wilde Robot (6+)
-UID:88a1b1fd-6e1e-49a7-90f7-18a0516cadd1
+UID:63b0c41f-0c0e-43d9-8f5e-36faa6c415f2
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Dit spectaculaire avontuur volgt een robot—ROZZUM unit 7134\, 
  oftewel “Roz” — op haar reis. Na een schipbreuk strandt ze op een onbewoo
  nd eiland en moet ze zich zien te redden in de wildernis.
 DTEND:20241027T164500
-DTSTAMP:20240918T065725Z
+DTSTAMP:20240919T065747Z
 DTSTART:20241027T144500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: De Wilde Robot (6+)
-UID:53e64186-f06d-4d95-91a3-b0c28222c72f
+UID:7123ffb4-c78c-4458-8a41-72a702e2643a
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Dit spectaculaire avontuur volgt een robot—ROZZUM unit 7134\, 
  oftewel “Roz” — op haar reis. Na een schipbreuk strandt ze op een onbewoo
  nd eiland en moet ze zich zien te redden in de wildernis.
 DTEND:20241028T161500
-DTSTAMP:20240918T065725Z
+DTSTAMP:20240919T065747Z
 DTSTART:20241028T141500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: De Wilde Robot (6+)
-UID:db0be449-c2cf-47cd-80a6-b94c01f6c634
+UID:0ae494c5-99dc-4c24-b57c-3ea9a9d3c72b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Dit spectaculaire avontuur volgt een robot—ROZZUM unit 7134\, 
  oftewel “Roz” — op haar reis. Na een schipbreuk strandt ze op een onbewoo
  nd eiland en moet ze zich zien te redden in de wildernis.
 DTEND:20241029T170000
-DTSTAMP:20240918T065725Z
+DTSTAMP:20240919T065747Z
 DTSTART:20241029T150000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: De Wilde Robot (6+)
-UID:81fea77d-1cad-4031-9d66-b6223180bc37
+UID:09cf3020-24a5-43b0-bbaa-7f9b3d06cbca
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Dit spectaculaire avontuur volgt een robot—ROZZUM unit 7134\, 
  oftewel “Roz” — op haar reis. Na een schipbreuk strandt ze op een onbewoo
  nd eiland en moet ze zich zien te redden in de wildernis.
 DTEND:20241030T161500
-DTSTAMP:20240918T065725Z
+DTSTAMP:20240919T065747Z
 DTSTART:20241030T141500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: De Wilde Robot (6+)
-UID:a04cc1b2-9f99-4a4c-a11b-577ce92b4088
+UID:6789892f-e58c-4655-a29d-ca124f91ed0b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Dit spectaculaire avontuur volgt een robot—ROZZUM unit 7134\, 
  oftewel “Roz” — op haar reis. Na een schipbreuk strandt ze op een onbewoo
  nd eiland en moet ze zich zien te redden in de wildernis.
 DTEND:20241031T171500
-DTSTAMP:20240918T065725Z
+DTSTAMP:20240919T065747Z
 DTSTART:20241031T151500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: De Wilde Robot (6+)
-UID:37888d37-3155-4ea1-9417-70759a14fe11
+UID:7182e292-87ac-4e8c-a8d6-6486de8243f1
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Dit spectaculaire avontuur volgt een robot—ROZZUM unit 7134\, 
  oftewel “Roz” — op haar reis. Na een schipbreuk strandt ze op een onbewoo
  nd eiland en moet ze zich zien te redden in de wildernis.
 DTEND:20241101T161500
-DTSTAMP:20240918T065725Z
+DTSTAMP:20240919T065747Z
 DTSTART:20241101T141500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: De Wilde Robot (6+)
-UID:e99c59fa-d788-4c74-980f-bc83b9d74bdc
+UID:f19fff31-a0c0-4c90-a91f-30f78a199cd4
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Dit spectaculaire avontuur volgt een robot—ROZZUM unit 7134\, 
  oftewel “Roz” — op haar reis. Na een schipbreuk strandt ze op een onbewoo
  nd eiland en moet ze zich zien te redden in de wildernis.
 DTEND:20241102T161500
-DTSTAMP:20240918T065725Z
+DTSTAMP:20240919T065747Z
 DTSTART:20241102T141500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: De Wilde Robot (6+)
-UID:45387813-110a-41ba-be74-3635d1d558be
+UID:f80d982e-2c62-49db-9873-c9f89eef0622
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Dit spectaculaire avontuur volgt een robot—ROZZUM unit 7134\, 
  oftewel “Roz” — op haar reis. Na een schipbreuk strandt ze op een onbewoo
  nd eiland en moet ze zich zien te redden in de wildernis.
 DTEND:20241103T170000
-DTSTAMP:20240918T065725Z
+DTSTAMP:20240919T065747Z
 DTSTART:20241103T150000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: De Wilde Robot (6+)
-UID:974b0cb5-5f84-4659-9d3a-328e3cbdf07e
+UID:024a7b64-b61d-4863-8635-2cf94a2a711b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Victor Vleermuis is klein en lijkt op het eerste gezicht niet 
  zo dapper. Hij worstelt met een\, zeker voor vleermuizen\, groot probleem
  : hij is bang in het donker. Openingsfilm van Cinekid 2024!
 DTEND:20241027T144500
-DTSTAMP:20240918T065726Z
+DTSTAMP:20240919T065749Z
 DTSTART:20241027T124500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Victor Vleermuis (6+) | Cinekid on Tour
-UID:e0a729d5-4bc5-45c8-abf0-996b59cb2499
+UID:a8266936-e160-41f8-b24e-c193fce443c1
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Victor Vleermuis is klein en lijkt op het eerste gezicht niet 
  zo dapper. Hij worstelt met een\, zeker voor vleermuizen\, groot probleem
  : hij is bang in het donker. Openingsfilm van Cinekid 2024!
 DTEND:20241030T140000
-DTSTAMP:20240918T065726Z
+DTSTAMP:20240919T065749Z
 DTSTART:20241030T120000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Victor Vleermuis (6+) | Cinekid on Tour
-UID:1de9289b-7a5e-46ce-a16a-0b1f152e4943
+UID:bcaad33e-c648-4baa-8657-74fe02f4bc65
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Victor Vleermuis is klein en lijkt op het eerste gezicht niet 
  zo dapper. Hij worstelt met een\, zeker voor vleermuizen\, groot probleem
  : hij is bang in het donker. Openingsfilm van Cinekid 2024!
 DTEND:20241031T124500
-DTSTAMP:20240918T065726Z
+DTSTAMP:20240919T065749Z
 DTSTART:20241031T104500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Victor Vleermuis (6+) | Cinekid on Tour
-UID:dc0c1fc1-e49c-4491-a9d8-548c4fbfc0aa
+UID:06db3b99-555c-42d6-a7c9-93de0d824d67
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Victor Vleermuis is klein en lijkt op het eerste gezicht niet 
  zo dapper. Hij worstelt met een\, zeker voor vleermuizen\, groot probleem
  : hij is bang in het donker. Openingsfilm van Cinekid 2024!
 DTEND:20241102T130000
-DTSTAMP:20240918T065726Z
+DTSTAMP:20240919T065749Z
 DTSTART:20241102T110000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Victor Vleermuis (6+) | Cinekid on Tour
-UID:44770ee3-405a-4e2a-a87c-af77c5ab64ad
+UID:b755a250-7103-4153-8ad0-78a5963c8024
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Victor Vleermuis is klein en lijkt op het eerste gezicht niet 
  zo dapper. Hij worstelt met een\, zeker voor vleermuizen\, groot probleem
  : hij is bang in het donker. Openingsfilm van Cinekid 2024!
 DTEND:20241103T130000
-DTSTAMP:20240918T065726Z
+DTSTAMP:20240919T065749Z
 DTSTART:20241103T110000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Victor Vleermuis (6+) | Cinekid on Tour
-UID:1ba0616b-43ae-405a-aa11-98741f039798
+UID:14b71fd4-24ae-444e-a660-39aaba613e3d
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Victor Vleermuis is klein en lijkt op het eerste gezicht niet 
  zo dapper. Hij worstelt met een\, zeker voor vleermuizen\, groot probleem
  : hij is bang in het donker. Openingsfilm van Cinekid 2024!
 DTEND:20241029T114500
-DTSTAMP:20240918T065727Z
+DTSTAMP:20240919T065750Z
 DTSTART:20241029T094500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Victor Vleermuis (6+) | Pannenkoeken & Pyja
  mafilm
-UID:2523759c-5271-4ee8-9930-dc1af1c9eb17
+UID:f10464f6-c815-4deb-8fd2-f4c71abbceea
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Hein kan iets heel bijzonders: met de doden praten én ze helpe
  n!
 DTEND:20241029T144500
-DTSTAMP:20240918T065728Z
+DTSTAMP:20240919T065751Z
 DTSTART:20241029T124500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Hein (8+) | Cinekid on Tour
-UID:136829b5-8af5-48d9-b384-160797a422d8
+UID:11b5add6-0e55-4905-a672-7ad72df3b80f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Hein kan iets heel bijzonders: met de doden praten én ze helpe
  n!
 DTEND:20241102T140000
-DTSTAMP:20240918T065728Z
+DTSTAMP:20240919T065751Z
 DTSTART:20241102T120000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Hein (8+) | Cinekid on Tour
-UID:eedf1c24-f680-42b0-a546-dca7c491faae
+UID:b6676cae-4ee8-406f-9e3d-2761fe9ab253
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op woensdag 30 oktober tussen 10.30 uur en 14.30 uur kunnen ki
@@ -2015,12 +1957,12 @@ DESCRIPTION:Op woensdag 30 oktober tussen 10.30 uur en 14.30 uur kunnen ki
   werken. In groepjes van twee gaan ze aan de slag\, gewapend met iPads en
   het groene scherm.
 DTEND:20241030T123000
-DTSTAMP:20240918T065729Z
+DTSTAMP:20240919T065752Z
 DTSTART:20241030T103000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Workshop Spring in de Film! (7+) | Cinekid 
  on Tour
-UID:9988fc96-a27c-4368-92e2-6e950ab0fc3a
+UID:8d0c7cec-f008-46f8-9d83-a906b7f052a0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op woensdag 30 oktober tussen 10.30 uur en 14.30 uur kunnen ki
@@ -2029,12 +1971,12 @@ DESCRIPTION:Op woensdag 30 oktober tussen 10.30 uur en 14.30 uur kunnen ki
   werken. In groepjes van twee gaan ze aan de slag\, gewapend met iPads en
   het groene scherm.
 DTEND:20241030T133000
-DTSTAMP:20240918T065729Z
+DTSTAMP:20240919T065752Z
 DTSTART:20241030T113000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Workshop Spring in de Film! (7+) | Cinekid 
  on Tour
-UID:6cfa3ec6-e0c5-4a5d-883f-533f49a2d1e7
+UID:2e493820-23bb-4a6c-bc69-79a6ee046119
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op woensdag 30 oktober tussen 10.30 uur en 14.30 uur kunnen ki
@@ -2043,12 +1985,12 @@ DESCRIPTION:Op woensdag 30 oktober tussen 10.30 uur en 14.30 uur kunnen ki
   werken. In groepjes van twee gaan ze aan de slag\, gewapend met iPads en
   het groene scherm.
 DTEND:20241030T144500
-DTSTAMP:20240918T065729Z
+DTSTAMP:20240919T065752Z
 DTSTART:20241030T124500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Workshop Spring in de Film! (7+) | Cinekid 
  on Tour
-UID:3eb0c5d2-b222-4da8-a453-6777a6b29b96
+UID:0f362595-d069-4fa3-9c42-d21e7e91ba44
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op woensdag 30 oktober tussen 10.30 uur en 14.30 uur kunnen ki
@@ -2057,24 +1999,24 @@ DESCRIPTION:Op woensdag 30 oktober tussen 10.30 uur en 14.30 uur kunnen ki
   werken. In groepjes van twee gaan ze aan de slag\, gewapend met iPads en
   het groene scherm.
 DTEND:20241030T154500
-DTSTAMP:20240918T065729Z
+DTSTAMP:20240919T065752Z
 DTSTART:20241030T134500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Workshop Spring in de Film! (7+) | Cinekid 
  on Tour
-UID:2230e1de-9574-496f-a6c2-66a4e7e95b13
+UID:214a734f-8031-41a9-ba3b-fcaa5e718220
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Lieve\, veelkeurige animaties over hoe dieren in het bos met e
  lkaar samenleven en thuis zijn. Op donderdag 31 oktober kun je eerst pann
  enkoeken komen eten in je pyjama en aansluitend naar de film!
 DTEND:20241031T114500
-DTSTAMP:20240918T065730Z
+DTSTAMP:20240919T065753Z
 DTSTART:20241031T094500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: De Familie Muis (4+) | Pannenkoeken & Pyjam
  afilm
-UID:ddf59507-5028-4579-b3e1-685452ece177
+UID:e1a0fcd7-e910-4288-acc7-a61cb52f995f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Rona\, net uit de ontwenningskliniek\, keert na meer dan tien 
@@ -2083,31 +2025,68 @@ DESCRIPTION:Rona\, net uit de ontwenningskliniek\, keert na meer dan tien
  ingen aan haar jeugd met de meer recente uitdagende gebeurtenissen die ha
  ar op de weg naar herstel hebben gezet.
 DTEND:20241031T130000
-DTSTAMP:20240918T065731Z
+DTSTAMP:20240919T065754Z
 DTSTART:20241031T110000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Outrun | SENVER
-UID:2200617a-f163-47c2-8b08-8ca3d28e9f65
+UID:90129eea-8868-402c-b2ea-455952077a01
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Komen Jordan en Patrick ermee weg dat ze kanker veinzen om aan
   geld te komen voor een nieuwe PlayStation?
 DTEND:20241031T150000
-DTSTAMP:20240918T065732Z
+DTSTAMP:20240919T065755Z
 DTSTART:20241031T130000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Juniors (10+) | Cinekid on Tour
-UID:7bcf869c-ebb2-4ec9-87f8-dca0a044f6ef
+UID:ed9948f8-3eb9-43f7-b99f-160937c072ee
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Komen Jordan en Patrick ermee weg dat ze kanker veinzen om aan
   geld te komen voor een nieuwe PlayStation?
 DTEND:20241103T144500
-DTSTAMP:20240918T065732Z
+DTSTAMP:20240919T065755Z
 DTSTART:20241103T124500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Juniors (10+) | Cinekid on Tour
-UID:fab87d21-e59f-4021-a215-a6d424a81b0e
+UID:5742d579-2759-4ffe-980c-936d958f598d
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Anora is een jonge sekswerker afkomstig van Brooklyn. Op een d
+ ag ontmoet ze Ivan\, de zoon van een Russische miljardair. Er hangt liefd
+ e in de lucht en in een impulsieve bui besluiten ze met elkaar te trouwen
+ .
+DTEND:20241031T204500
+DTSTAMP:20240919T065756Z
+DTSTART:20241031T184500
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Anora
+UID:c4e2c3de-5c3a-4f0e-b1a7-b5dd1ef5887c
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Deze zwarte komedie is het regiedebuut van de populaire schrij
+ ver Dimitri Verhulst\, bekend van o.a. De Helaasheid der Dingen. Hij teke
+ nt ook voor het script. In de film gaat een bont gezelschap te voet op pa
+ d om de net overleden Christine\, volgens haar laatste wil\, te begraven 
+ in een totaal onbekend dorp.
+DTEND:20241031T210000
+DTSTAMP:20240919T065757Z
+DTSTART:20241031T190000
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Waarom Wettelen
+UID:e22131a4-5e44-42de-990e-09a482114365
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Wanneer een fictieve natuurdocumentaire vertelster\, vertolkt 
+ door Siân Phillips\, haar niersteen onderzoekt\, ontluikt een laatste\, b
+ etoverend verhaal over de vergeten wereld van stenen\, van Palestijnse st
+ eenhouwers tot Britse geologen en bewoners van een lavalandschap op Fogo.
+DTEND:20241104T211500
+DTSTAMP:20240919T065758Z
+DTSTART:20241104T191500
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Apple Cider Vinegar
+UID:013a44f0-417a-4904-a374-12ebbdab3278
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Rona\, net uit de ontwenningskliniek\, keert na meer dan tien 
@@ -2116,32 +2095,32 @@ DESCRIPTION:Rona\, net uit de ontwenningskliniek\, keert na meer dan tien
  ingen aan haar jeugd met de meer recente uitdagende gebeurtenissen die ha
  ar op de weg naar herstel hebben gezet.
 DTEND:20241107T204500
-DTSTAMP:20240918T065733Z
+DTSTAMP:20240919T065759Z
 DTSTART:20241107T184500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Outrun
-UID:3f065f2e-cdc4-43ec-8b7d-7ddc2ca21e26
+UID:2d1f42f7-a978-4548-a45e-d932df88437c
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Kardinaal Lawrence leidt de geheime pausverkiezing en raakt ve
  rstrikt in een samenzwering die de kerk kan doen wankelen.
 DTEND:20241107T210000
-DTSTAMP:20240918T065734Z
+DTSTAMP:20240919T065800Z
 DTSTART:20241107T190000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Conclave
-UID:2e572799-9755-48c3-94ef-eb10c4fb103a
+UID:2d27aacd-0a73-4d49-94cb-939ec7814a27
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In Restless Dreams is de definitieve muzikale biografie van Pa
  ul Simon\, een van de grootste songwriters (en performers) in de geschied
  enis van de rock 'n roll.
 DTEND:20241107T213000
-DTSTAMP:20240918T065736Z
+DTSTAMP:20240919T065801Z
 DTSTART:20241107T193000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: In Restless Dreams: The Music of Paul Simon
-UID:18ee0532-4550-4158-bd56-d5f0c605cd5a
+UID:ddbe5869-400f-464b-abd0-1b4e27846a39
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Pionier van de New German Cinema Wim Wenders (Der Himmel Über 
@@ -2150,11 +2129,11 @@ DESCRIPTION:Pionier van de New German Cinema Wim Wenders (Der Himmel Über
  d door Pulitzer Prize-winnende toneelschrijver Sam Shepard en bijgestaan 
  door een inmiddels iconische score van Ry Coorder.
 DTEND:20241124T174500
-DTSTAMP:20240918T065737Z
+DTSTAMP:20240919T065803Z
 DTSTART:20241124T154500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Paris\, Texas (1984) | Klassieker
-UID:80935323-9574-4daf-8ea2-b0148a682bb9
+UID:4af6dc1f-7cc0-4a85-be1d-050954d03010
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Laat u deze Kerstmis vervoeren naar een etherische wereld waar
@@ -2162,11 +2141,11 @@ DESCRIPTION:Laat u deze Kerstmis vervoeren naar een etherische wereld waar
   Frederick Ashton\, Founding Choreographer van The Royal Ballet\, is een 
  theaterbelevenis voor het hele gezin.
 DTEND:20241210T221500
-DTSTAMP:20240918T065737Z
+DTSTAMP:20240919T065804Z
 DTSTART:20241210T201500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Assepoester | The Royal Ballet 24/25
-UID:e3012a80-27a9-4dd4-bb37-e9ff28d1c87b
+UID:135696dd-1f81-4f75-bdad-751de1874c58
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Laat u deze Kerstmis vervoeren naar een etherische wereld waar
@@ -2174,11 +2153,11 @@ DESCRIPTION:Laat u deze Kerstmis vervoeren naar een etherische wereld waar
   Frederick Ashton\, Founding Choreographer van The Royal Ballet\, is een 
  theaterbelevenis voor het hele gezin.
 DTEND:20241222T160000
-DTSTAMP:20240918T065737Z
+DTSTAMP:20240919T065804Z
 DTSTART:20241222T140000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Assepoester | The Royal Ballet 24/25
-UID:4cda1c9d-4708-4428-afe5-84be217dfb45
+UID:910ed590-d062-4cb6-a488-f115d748032b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Ontdek hoe betoverend ballet kan zijn met deze sprankelende fe
@@ -2188,33 +2167,33 @@ DESCRIPTION:Ontdek hoe betoverend ballet kan zijn met deze sprankelende fe
  feer wordt perfect verwerkt in de spectaculaire dans in deze onvergetelij
  ke balletklassieker.
 DTEND:20241217T221500
-DTSTAMP:20240918T065738Z
+DTSTAMP:20240919T065805Z
 DTSTART:20241217T201500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: De Notenkraker | The Royal Ballet 24/25
-UID:6e88e363-f524-4e36-a2e0-bc19b8c0d8fc
+UID:2dff5a12-b330-45d6-9272-8b83e4672051
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Vier vrouwen: vier merkwaardige liefdesverhalen. Juan Diego Fl
  órez leidt een fantastische cast in de droomachtige opera van Offenbach.
 DTEND:20250115T214500
-DTSTAMP:20240918T065740Z
+DTSTAMP:20240919T065806Z
 DTSTART:20250115T194500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Les Contes d’Hoffmann | The Royal Opera 24/
  25
-UID:0265cb6a-c133-427a-97b9-96455b08e653
+UID:bfb26f19-b604-4b83-941b-c30811fa7512
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Vier vrouwen: vier merkwaardige liefdesverhalen. Juan Diego Fl
  órez leidt een fantastische cast in de droomachtige opera van Offenbach.
 DTEND:20250126T160000
-DTSTAMP:20240918T065740Z
+DTSTAMP:20240919T065806Z
 DTSTART:20250126T140000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Les Contes d’Hoffmann | The Royal Opera 24/
  25
-UID:b4043878-b8fd-4625-9548-0e19439e2bf8
+UID:09b9517d-e52a-40a5-b0db-6fb8d5cca271
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Het meest meeslepende verhaal van liefde\, verraad en vergiffe
@@ -2224,11 +2203,11 @@ DESCRIPTION:Het meest meeslepende verhaal van liefde\, verraad en vergiffe
  cherm een uitzonderlijk mooie kijkervaring van deze ultieme balletklassie
  ker.
 DTEND:20250227T221500
-DTSTAMP:20240918T065741Z
+DTSTAMP:20240919T065807Z
 DTSTART:20250227T201500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Het Zwanenmeer | The Royal Ballet 24/25
-UID:a51ce08d-e6cf-4e8e-a1ae-f8d5ff48d06d
+UID:01805389-f46a-4e1a-b743-611f9f72d65c
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Het meest meeslepende verhaal van liefde\, verraad en vergiffe
@@ -2238,11 +2217,11 @@ DESCRIPTION:Het meest meeslepende verhaal van liefde\, verraad en vergiffe
  cherm een uitzonderlijk mooie kijkervaring van deze ultieme balletklassie
  ker.
 DTEND:20250309T160000
-DTSTAMP:20240918T065741Z
+DTSTAMP:20240919T065807Z
 DTSTART:20250309T140000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Het Zwanenmeer | The Royal Ballet 24/25
-UID:cca8bfba-237e-4b3b-8927-a52a74e57e57
+UID:e6d0fcc3-8cf6-432e-8262-24bba10b7301
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De meest aangrijpende liefdesgeschiedenis aller tijden in een 
@@ -2250,11 +2229,11 @@ DESCRIPTION:De meest aangrijpende liefdesgeschiedenis aller tijden in een
  ad Verona. Door de oplopende spanningen breken er al snel vechtpartijen u
  it waarbij beide families zware verliezen lijden.
 DTEND:20250320T221500
-DTSTAMP:20240918T065742Z
+DTSTAMP:20240919T065808Z
 DTSTART:20250320T201500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Romeo en Julia | The Royal Ballet 24/25
-UID:40fa43d5-8d8b-4d28-ab00-109595c20ab0
+UID:c06ee33c-9b93-4b27-934e-d2b4bf508985
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De meest aangrijpende liefdesgeschiedenis aller tijden in een 
@@ -2262,11 +2241,11 @@ DESCRIPTION:De meest aangrijpende liefdesgeschiedenis aller tijden in een
  ad Verona. Door de oplopende spanningen breken er al snel vechtpartijen u
  it waarbij beide families zware verliezen lijden.
 DTEND:20250406T160000
-DTSTAMP:20240918T065742Z
+DTSTAMP:20240919T065808Z
 DTSTART:20250406T140000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Romeo en Julia | The Royal Ballet 24/25
-UID:4b332ae9-3e57-4b05-8ffb-28e25071d799
+UID:11fe4ddf-3df8-41f7-9c39-9bcf9d9417e7
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De boeiende opera van Puccini over een koudbloedige prinses en
@@ -2274,11 +2253,11 @@ DESCRIPTION:De boeiende opera van Puccini over een koudbloedige prinses en
  er geliefde en beroemde ‘Nessun dorma’\, wordt in een schitterende produc
  tie tot leven gebracht.
 DTEND:20250401T221500
-DTSTAMP:20240918T065743Z
+DTSTAMP:20240919T065809Z
 DTSTART:20250401T201500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Turandot | The Royal Opera 24/25
-UID:94b25331-00ca-4ccf-8a3a-a1c879cf865d
+UID:1581c3f5-f6aa-4110-be67-dd32398fff78
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De boeiende opera van Puccini over een koudbloedige prinses en
@@ -2286,11 +2265,11 @@ DESCRIPTION:De boeiende opera van Puccini over een koudbloedige prinses en
  er geliefde en beroemde ‘Nessun dorma’\, wordt in een schitterende produc
  tie tot leven gebracht.
 DTEND:20250420T160000
-DTSTAMP:20240918T065743Z
+DTSTAMP:20240919T065809Z
 DTSTART:20250420T140000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Turandot | The Royal Opera 24/25
-UID:8ca25206-fee3-4f1f-8a00-3c14068be032
+UID:6bc70cdd-8f12-4500-b85e-e5a19e9dd71c
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Goden en stervelingen bestrijden elkaar in het tweede hoofdstu
@@ -2298,11 +2277,11 @@ DESCRIPTION:Goden en stervelingen bestrijden elkaar in het tweede hoofdstu
  rie Kosky komen weer bijeen om het mythische avontuur voort te zetten dat
   begon met Das Rheingold in 2023.
 DTEND:20250514T200000
-DTSTAMP:20240918T065744Z
+DTSTAMP:20240919T065810Z
 DTSTART:20250514T180000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Die Walküre | The Royal Opera 24/25
-UID:7b484125-c9bb-4f9f-a89b-74742f586310
+UID:9cfce317-255a-4ccc-bd2e-715eca843768
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Goden en stervelingen bestrijden elkaar in het tweede hoofdstu
@@ -2310,11 +2289,11 @@ DESCRIPTION:Goden en stervelingen bestrijden elkaar in het tweede hoofdstu
  rie Kosky komen weer bijeen om het mythische avontuur voort te zetten dat
   begon met Das Rheingold in 2023.
 DTEND:20250601T160000
-DTSTAMP:20240918T065744Z
+DTSTAMP:20240919T065810Z
 DTSTART:20250601T140000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Die Walküre | The Royal Opera 24/25
-UID:2afd3153-ab15-4420-9a45-725a6080f1e1
+UID:f4a93fa9-2804-4fb1-9a5f-48a77af7b3a7
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De energie van het muziektheater wordt verwerkt in sensueel he
@@ -2323,11 +2302,11 @@ DESCRIPTION:De energie van het muziektheater wordt verwerkt in sensueel he
  grafische talent laten zien van The Royal Ballet's Artistic Associate\, C
  hristopher Wheeldon.
 DTEND:20250522T221500
-DTSTAMP:20240918T065745Z
+DTSTAMP:20240919T065811Z
 DTSTART:20250522T201500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Ballet to Broadway: Wheeldon Werken | The R
  oyal Ballet 24/25
-UID:81a63661-9935-40ce-879d-f6b040239451
+UID:203470e9-b892-4c81-907a-b5a72e516f7d
 END:VEVENT
 END:VCALENDAR
