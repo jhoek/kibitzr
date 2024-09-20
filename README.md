@@ -49,7 +49,6 @@
 [![spitsuur](https://github.com/jhoek/kibitzr/actions/workflows/spitsuur.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/spitsuur.yml)
 [![spotprent](https://github.com/jhoek/kibitzr/actions/workflows/spotprent.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/spotprent.yml)
 [![stinejensen](https://github.com/jhoek/kibitzr/actions/workflows/stinejensen.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/stinejensen.yml)
-[![sudoku](https://github.com/jhoek/kibitzr/actions/workflows/sudoku.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/sudoku.yml)
 [![sylviawitteman](https://github.com/jhoek/kibitzr/actions/workflows/sylviawitteman.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/sylviawitteman.yml)
 [![test](https://github.com/jhoek/kibitzr/actions/workflows/test.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/test.yml)
 [![teunvandekeuken](https://github.com/jhoek/kibitzr/actions/workflows/teunvandekeuken.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/teunvandekeuken.yml)
