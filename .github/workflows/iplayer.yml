@@ -24,7 +24,8 @@ jobs:
           Get-iPlayerFeatured
           | Where-Object Category -notin 'Sport', 'CBBC', 'CBeebies'
           | Where-Object Title -notin 'EastEnders', 'Breakfast'
-          | Where-Object Title -notlike '*Sunday with Laura Kuenssberg*', '*BBC Weekend News*'
+          | Where-Object Title -notlike '*Sunday with Laura Kuenssberg*'
+          | Where-Object Title -notlike '*BBC Weekend News*'
           | ForEach-Object {
             New-RssFeedItem `
               -ID $_.ID `
