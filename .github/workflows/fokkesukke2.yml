@@ -19,10 +19,9 @@ jobs:
       - name: Send notification
         shell: pwsh
         env:
-          PUSHOVER_APP_IKJE: ${{secrets.PUSHOVER_APP_FOKKESUKKE}}
-          PUSHOVER_USER_IKJE: ${{secrets.PUSHOVER_USER_FOKKESUKKE}}
+          PUSHOVER_APP_FOKKESUKKE: ${{secrets.PUSHOVER_APP_FOKKESUKKE}}
+          PUSHOVER_USER_FOKKESUKKE: ${{secrets.PUSHOVER_USER_FOKKESUKKE}}
         run: |
-          Write-Host ($env:PUSHOVER_APP_FOKKE_SUKKE).SubString(1,3)
           Get-FokkeSukke
           | Select-Object -First 1
           | ForEach-Object {
