@@ -29,6 +29,5 @@ jobs:
               -ApplicationToken $env:PUSHOVER_APP_FOKKESUKKE `
               -Recipient $env:PUSHOVER_USER_FOKKESUKKE `
               -Attachment $_.Body `
-              -Message 'FIXME' `
-              -Title ('Fokke & Sukke: {0} ({1:dddd d MMMM yyyy})' -f $_.Title, $_.Date)
+              -Message $_.Date
           }
