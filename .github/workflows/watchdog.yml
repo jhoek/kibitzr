@@ -31,6 +31,7 @@ jobs:
             $LatestPubDate = Select-Xml -Path $_.FullName -XPath '/rss/channel/item/pubDate/text()'
             | Select-Object -ExpandProperty Node
             | Select-Object -ExpandProperty Value
+            | ForEach-Object { $_ -replace '(\d{2})(\d{2})$', '$1:$2'}
             | ForEach-Object { [DateTime]::ParseExact($_, 'ddd, d MMM yyyy HH:mm:ss zzz', [CultureInfo]::InvariantCulture) }
             | Sort-Object -Descending
             | Select-Object -First 1
