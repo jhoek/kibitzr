@@ -29,5 +29,6 @@ jobs:
               -ApplicationToken $env:PUSHOVER_APP_FOKKESUKKE `
               -Recipient $env:PUSHOVER_USER_FOKKESUKKE `
               -Attachment $_.Body `
-              -Message $_.Date
+              -Message ($_.Date).ToString('dddd d MMM yyyy') `
+              -Title 'Fokke & Sukke'
           }
