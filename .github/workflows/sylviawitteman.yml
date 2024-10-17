@@ -16,7 +16,7 @@ jobs:
         shell: pwsh
         run: |
           Set-PSRepository PSGallery -InstallationPolicy Trusted
-          Install-Module UncommonSense.Hap, UncommonSense.Volkskrant, UncommonSense.Rss -Scope CurrentUser
+          Install-Module UncommonSense.Hap, UncommonSense.Volkskrant, UncommonSense.Rss -Scope CurrentUser -Force
 
       - name: Get Recent data
         shell: pwsh
@@ -33,7 +33,7 @@ jobs:
             -Title 'Sylvia Witteman' `
             -Link 'https://www.volkskrant.nl/auteur/Sylvia%20Witteman' `
             -Description 'Sylvia Witteman'
-          | Set-Content -Path ./data/sylviawitteman.xml
+          | Set-Content -Path ./data/sylviawitteman.xml -Encoding Utf8
 
       - name: Commit and push feed
         shell: bash
