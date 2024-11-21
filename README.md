@@ -51,7 +51,6 @@
 [![stinejensen](https://github.com/jhoek/kibitzr/actions/workflows/stinejensen.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/stinejensen.yml)
 [![sylviawitteman](https://github.com/jhoek/kibitzr/actions/workflows/sylviawitteman.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/sylviawitteman.yml)
 [![test](https://github.com/jhoek/kibitzr/actions/workflows/test.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/test.yml)
-[![teunvandekeuken](https://github.com/jhoek/kibitzr/actions/workflows/teunvandekeuken.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/teunvandekeuken.yml)
 [![thomasvanluyn](https://github.com/jhoek/kibitzr/actions/workflows/thomasvanluyn.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/thomasvanluyn.yml)
 [![tiengeboden](https://github.com/jhoek/kibitzr/actions/workflows/tiengeboden.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/tiengeboden.yml)
 [![tomgauld](https://github.com/jhoek/kibitzr/actions/workflows/tomgauld.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/tomgauld.yml)
