@@ -19,17 +19,17 @@ jobs:
       - name: Send notification
         shell: pwsh
         env:
-          PUSHOVER_APP_FOKKESUKKE: ${{secrets.PUSHOVER_APP_HEINDEKORT}}
+          PUSHOVER_APP_HEINDEKORT: ${{secrets.PUSHOVER_APP_HEINDEKORT}}
           PUSHOVER_USER_FOKKESUKKE: ${{secrets.PUSHOVER_USER_FOKKESUKKE}}
         run: |
-            Get-HeinDeKort
-            | Select-Object -First 1
-            | ForEach-Object {
-                Send-PushoverNotification `
-                -ApplicationToken $env:PUSHOVER_APP_HEINDEKORT `
-                -Recipient $env:PUSHOVER_USER_FOKKESUKKE `
-                -Attachment $_.Body `
-                -Message ($_.Date).ToString('dddd d MMM yyyy') `
-                -Title 'Fokke & Sukke'
+          Get-HeinDeKort
+          | Select-Object -First 1
+          | ForEach-Object {
+            Send-PushoverNotification `
+              -ApplicationToken $env:PUSHOVER_APP_HEINDEKORT `
+              -Recipient $env:PUSHOVER_USER_FOKKESUKKE `
+              -Attachment $_.Body `
+              -Message ($_.Date).ToString('dddd d MMM yyyy') `
+              -Title 'Fokke & Sukke'
             }
 
