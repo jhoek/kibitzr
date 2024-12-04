@@ -2,4 +2,759 @@
 PRODID:-//github.com/rianjs/ical.net//NONSGML ical.net 4.0//EN
 VERSION:2.0
 X-WR-CALNAME:BC TechDays
+BEGIN:VEVENT
+DESCRIPTION:
+DTEND:20240613T070000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240613T053000Z
+LOCATION:Expo Area
+SEQUENCE:0
+SUMMARY:Registration\, Breakfast and Exhibition
+UID:23619e7e-8cee-417a-bda9-1b710cc09a8c
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:\n\nSpeaker(s): Vincent Nicolas\, Aida Seifi Labrosse\, Horina
+  Serbanescu
+DTEND:20240613T090000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240613T070000Z
+LOCATION:Room 8
+SEQUENCE:0
+SUMMARY:Opening Keynote
+UID:c3e66774-e9e1-4f97-afc8-78807bd5d4ef
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:
+DTEND:20240613T093000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240613T090000Z
+LOCATION:Expo Area
+SEQUENCE:0
+SUMMARY:Coffee Break\, Exhibition\, Sponsor Presentation
+UID:91e07183-51b1-4cde-8af4-d3eb5526beef
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Sponsor presentation
+DTEND:20240613T092500Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240613T091000Z
+LOCATION:Presentations Area
+SEQUENCE:0
+SUMMARY:Sponsor presentation: Anveo[15 min]
+UID:ac637636-d66e-4d2b-a28f-088be5ffdd16
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Are you ready to roll up your sleeves and dive into the coding
+  trenches with true OGs? This session is FOR OGs\, by OGs. And if you don
+ 't know what that stands for: "Original Gangsters." No\, not dinosaurs\, 
+ because we are not extinct\, are we? 😉\nThis session is all about embrac
+ ing the oh-so-many changes. We'll explore some of the topics that we thin
+ k are very important to cover. Obviously not as a deep\, deep dive sessio
+ n\, but more like a touch of joy on what has changed and what to look for
+ ward to\, like:\nThere might be more\, there might be less - we'll see - 
+ gansta style!\nWhether you're an OG yourself or just starting out\, come 
+ prepared to learn\, laugh\, and leave with some serious coding swagger (p
+ un intended).\n\nSpeaker(s): Eric Wauters (waldo)\, Arend-Jan Kauffmann
+DTEND:20240613T110000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240613T093000Z
+LOCATION:Room 8
+SEQUENCE:0
+SUMMARY:AL Development for OGs [300 - Advanced 200 - Intermediate][90 min]
+UID:289cdb3c-db6d-4fec-8ca5-67de0d9c2c74
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Let's face it\, testing AL code isn't exactly the highlight of
+  anyone's day. It's often seen as a chore – time-consuming to write and e
+ ven more so to run. But what if it didn't have to be that way?This deep d
+ ive session is going to change your perspective on unit tests. Forget the
+  tedious integration tests\; we're talking about the real champions – sim
+ ple\, fast\, and accurate unit tests. They're your first line of defense 
+ against those pesky bugs and regressions. You'll see why they're so cruci
+ al and how they can actually make your life easier.But the real game-chan
+ ger? Test doubles. These are the secret sauce to making testing in AL a w
+ alk in the park. This session demystifies them for you – what they are\, 
+ the different types there are\, and the right time to use each one for ma
+ ximum efficiency.It's not just talk\, though. You'll see a lot of code th
+ at will turn your view on both coding and testing upside down! You'll see
+  how to tackle dependencies\, and how to interact with the base and syste
+ m apps in a clean\, testable way. And yes\, we'll answer that burning que
+ stion: can you really trust test doubles and what is it that you are trul
+ y testing?Join this session and learn how to elevate your testing game in
+  AL. It's all about writing clean\, efficient\, robust\, code and sharp\,
+  focused\, meaningful tests that don't feel like a drag.\n\nSpeaker(s): V
+ jekoslav Babić
+DTEND:20240613T110000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240613T093000Z
+LOCATION:Room 5
+SEQUENCE:0
+SUMMARY:Double Trouble: A New Perspective on AL Testing [400 - Expert][90 
+ min]
+UID:222f7318-7c3e-4694-85f6-c832383cef09
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:We want to show interesting design and event patterns based on
+  the functionality that was added lately to inspire partner write a good 
+ code. We will cover how to request for the events\, new patterns with orc
+ hestrator\, configurable enums\, isolated events and temporary tables wit
+ h a focus on extensibility\n\nSpeaker(s): Marko Aleksandric\, Anders Lars
+ en
+DTEND:20240613T110000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240613T093000Z
+LOCATION:Room 9
+SEQUENCE:0
+SUMMARY:Microsoft Presents: Leveraging advanced design patterns for extens
+ ibility [400 - Expert 300 - Advanced][45 min]
+UID:73362349-c03e-41b0-9df5-c2ba5fdc3903
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:How can I split my monolithic application into smaller\, maint
+ ainable modular applications? Join us in this session where we will prese
+ nt our new obsoletion feature which allows for tables and fields to be mo
+ ved between applications. While it is limited to internal applications\, 
+ we will present how and where you might be able to use it in the future.\
+ n\nSpeaker(s): Steffen Balslev\, Gert Robyns\, Thomas Pedersen
+DTEND:20240613T110000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240613T093000Z
+LOCATION:Room 9
+SEQUENCE:0
+SUMMARY:Microsoft Presents: Obsolete Move\, Future of delocalization and c
+ omponentization [300 - Advanced][45 min]
+UID:5f4f8ed9-a563-4f56-9641-874508a69c80
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Are you inspired by the Copilot demonstrations from the Keynot
+ e? Join us in this practical session to discover how you can bring simila
+ r AI-powered functionalities to your own Business Central extensions. Thi
+ s session is tailor-made for those eager to dive into the technical aspec
+ ts of AI implementation.\nWhat You'll Learn:\nSession Outcome:\nYou will 
+ leave with a solid understanding of AI integration techniques\, ready to 
+ innovate and implement your own AI-driven projects in Business Central. W
+ hether you're a developer or a tech enthusiast\, this session will provid
+ e you with the essential knowledge and inspiration needed to start your j
+ ourney into AI-enhanced applications.\n\nSpeaker(s): Dmitry Katson\, Hori
+ na Serbanescu
+DTEND:20240613T110000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240613T093000Z
+LOCATION:Room 7
+SEQUENCE:0
+SUMMARY:Copilot Development: AI-Powered Extensions for Business Central [3
+ 00 - Advanced][90 min]
+UID:9e9f77e3-fae6-43b5-bb8e-301c892e790c
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:
+DTEND:20240613T120000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240613T110000Z
+LOCATION:Expo Area
+SEQUENCE:0
+SUMMARY:Lunch Break\, Exhibition\, Sponsor Presentations
+UID:a1e24b8b-bd72-438f-a0ee-69d2c2a19a83
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Sponsor presentation
+DTEND:20240613T112500Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240613T111000Z
+LOCATION:Presentations Area
+SEQUENCE:0
+SUMMARY:Sponsor presentation: Insight Works[15 min]
+UID:8481d144-f440-4de7-948f-e907852e1b5d
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Sponsor presentation
+DTEND:20240613T115000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240613T113500Z
+LOCATION:Presentations Area
+SEQUENCE:0
+SUMMARY:Sponsor presentation: Statical[15 min]
+UID:9270d959-c237-46c8-8b6e-5b401bbe1d9c
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:You are probably already tired of listening to sessions about 
+ clean code by now. BUT HEAR US OUT!Imagine a world where a user can choos
+ e to not validate fields. Imagine the chaos. Imagine the support tickets.
+ Now why should developers decide to not validate? Because developers know
+  all the code? Maybe back in the days but certainly not today!We would li
+ ke to show you our idea on how to validate and explain why we think it's 
+ important.We prepared some real life examples\, broken code\, infinite lo
+ ops\, and other coding goodies.Join us in our session and let`s discuss s
+ ome concepts and ideas along with some challenges regarding the rule to A
+ LWAYS call validate on fields.\n\nSpeaker(s): Stefan Maroń\, Christian Ho
+ venbitzer
+DTEND:20240613T133000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240613T120000Z
+LOCATION:Room 8
+SEQUENCE:0
+SUMMARY:Validate() - all tables / all fields / always [200 - Intermediate]
+ [90 min]
+UID:c81e893d-4a60-4fef-9fcf-8fa25793a07d
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Ever searched YouTube for "Power Automate flows"? There are 10
+ 0s of videos\, maybe more! Try searching for "Power Automate flows for Bu
+ siness Central" and you'll find about a dozen. And most of them focus on 
+ the simple demo examples of Workflow approval or create flows using out-o
+ f-the-box BC API pages.\nGreat for some demo magic\, but it doesn't get y
+ ou very far when you need to create flows for the real world.\nHere's whe
+ re I can help. I'll teach you how to use data from your custom tables and
+  pages\, and call bound actions to run code in Business Central from your
+  Power Automate flow.\nAnd best of all\, it's not really that hard once y
+ ou learn how it's done. No fluff\, no kool-aid\, just real talk and real 
+ examples.\n\nSpeaker(s): AJ Ansari
+DTEND:20240613T133000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240613T120000Z
+LOCATION:Room 5
+SEQUENCE:0
+SUMMARY:Creating Power Automate flows for Business Central that actually m
+ atter! [200 - Intermediate][90 min]
+UID:b0bd09d9-549f-4968-a8cb-3b665ea6aac3
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Virtual Tables and Business Events represent new concepts in i
+ ntegrating Dynamics 365 Business Central with other applications\, regard
+ less of whether the application is a custom .Net application or an applic
+ ation built with Power Platform.In this session\, you will learn how to:\
+ n\nSpeaker(s): Renato Fajdiga\, Milan Milinčević
+DTEND:20240613T133000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240613T120000Z
+LOCATION:Room 9
+SEQUENCE:0
+SUMMARY:Extending Dynamics 365 Business Central with Virtual Tables and Bu
+ siness Events [300 - Advanced][90 min]
+UID:8ed32568-2e51-42d9-8692-5ef27a0b747e
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:This session offers a deep dive into how to leverage some of t
+ he newer authorization concepts in BC online: Security groups\, service t
+ o service auth (S2S)\, new Dynamics 365 Business Central Administrator ro
+ le\, and more. How do they work\, when to use them\, and how to troublesh
+ oot them?\n\nSpeaker(s): Rayner Vaz\, Christian Heide Damm
+DTEND:20240613T133000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240613T120000Z
+LOCATION:Room 7
+SEQUENCE:0
+SUMMARY:Microsoft Presents: Authorization techniques you might have never 
+ heard about [200 - Intermediate][45 min]
+UID:5f2abff3-8374-4ffe-877a-6232613388c6
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:In this session\, we’ll explore how to streamline operations a
+ nd boost efficiency by leveraging the Business Central Admin Center APIs.
+  We’ll dive into advanced scenarios\, demonstrating how to set up\, creat
+ e\, transfer\, update environments\, and install apps—through APIs and au
+ tomation.\n\nSpeaker(s): Roman Sauber
+DTEND:20240613T133000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240613T120000Z
+LOCATION:Room 7
+SEQUENCE:0
+SUMMARY:Microsoft Presents: Advanced administration APIs and the developer
+  experience [300 - Advanced 200 - Intermediate][45 min]
+UID:c47c46c0-d49a-4645-a786-89f39860465a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:
+DTEND:20240613T140000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240613T133000Z
+LOCATION:Expo Area
+SEQUENCE:0
+SUMMARY:Coffee Break\, Exhibition\, Sponsor Presentation
+UID:13f0505a-cfc0-409f-b8dd-29f0ff02f422
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Are you using the HttpClient in AL? And are you using it in th
+ e right way? You may think that if it works\, then it should be ok. It lo
+ oks quite straightforward\, right? However\, some underlying issues go un
+ noticed until you use the HttpClient under a heavier load. And when you r
+ un into those issues\, you may have less time to figure out what's happen
+ ing. Solving those issues might even require a redesign of the code. So y
+ ou better do it right from the beginning!In this session\, we will look i
+ nto those potential issues and show the best way of using the HttpClient 
+ in your solution. We will also look into the new Rest Client module in th
+ e system app and how to implement that in your solution. Including a snea
+ k peek into a module that pushes the Rest Client module to the next level
+  with support for OAuth and endpoint configuration!\n\nSpeaker(s): Arend-
+ Jan Kauffmann
+DTEND:20240613T153000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240613T140000Z
+LOCATION:Room 8
+SEQUENCE:0
+SUMMARY:Http Communication Best Practices [300 - Advanced][90 min]
+UID:3b911d1a-f7f3-4ebd-9ca3-1b5e33045888
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Let's take a deep dive into the security of our Microsoft 365 
+ accounts\, which provide access to data for tens and maybe hundreds of Bu
+ siness Central customers every day. In this session\, I'll show you how a
+  small mistake can have disastrous implications. We'll perform a simulati
+ on of a phishing attack\, stealing the user's password and session cookie
+ s\, enabling a 2-factor authentication bypass. After that\, we'll explore
+  actions you can take\, such as using strong authentication methods\, and
+  what your IT administrator can do with Conditional Access (GA) policies\
+ , Granular Delegated Admin Privileges (GDAP) and Privileged Identity Mana
+ gement (PIM) in Microsoft Entra.\n\nSpeaker(s): Kevin Rosendaal
+DTEND:20240613T153000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240613T140000Z
+LOCATION:Room 5
+SEQUENCE:0
+SUMMARY:Your Microsoft 365 account is more precious than you think [300 - 
+ Advanced][90 min]
+UID:94f8e584-fc5e-4e54-ae31-0de4b943ade8
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Having all the dependencies for your development project "at a
+ rm's length" is no longer just a dream.\nMoving from C/AL to AL was like 
+ the rescue of Robinson Crusoe from an isolated island. Now we live on the
+  mainland with all other developers and we should use all the tools they 
+ have been using for years. One of them is NuGet packages.\nHow? We will s
+ how you!!!\n\nSpeaker(s): Kamil Sáček\, Freddy Kristiansen
+DTEND:20240613T153000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240613T140000Z
+LOCATION:Room 9
+SEQUENCE:0
+SUMMARY:"When a dream comes true" aka NuGetized Business Central [200 - In
+ termediate][90 min]
+UID:e637946c-12be-4c19-b881-c7292cd9273b
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:What has changed in the AL Language Extension and other tools.
+ \n\nSpeaker(s): Peter Borring\, Esben Nyhuus Kristoffersen\, Steffen Bals
+ lev
+DTEND:20240613T153000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240613T140000Z
+LOCATION:Room 7
+SEQUENCE:0
+SUMMARY:Microsoft Presents: What's new in Developer Tools [200 - Intermedi
+ ate][45 min]
+UID:2b3276b6-3a7a-44d4-9c99-89ecf0a6a4f3
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Show how to implement new AL scenarios that we enabled with 24
+ W1 like barcode scanning\, worksheet pages on mobile and multi file uploa
+ d. We will also cover new Copilot toolkit capabilities like nudge\, place
+ holder text and prompt guides. Lastly\, couple notable UX changes like Fl
+ uent calendar and removal of legacy views.\n\nSpeaker(s): Tomas Grubliaus
+ kas\, Claudiu Ciumedean
+DTEND:20240613T153000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240613T140000Z
+LOCATION:Room 7
+SEQUENCE:0
+SUMMARY:Microsoft Presents: What's new in Business Central clients for AL 
+ developers [200 - Intermediate][45 min]
+UID:f9f9f039-e231-4e40-aad4-0bdebd752d2e
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:
+DTEND:20240613T190000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240613T153000Z
+LOCATION:Expo Area
+SEQUENCE:0
+SUMMARY:Walking Dinner & Exhibition
+UID:30c9671a-7b4e-4763-aeca-4c38858230d2
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:
+DTEND:20240614T070000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240614T053000Z
+LOCATION:Expo Area
+SEQUENCE:0
+SUMMARY:Registration\, Breakfast and Exhibition
+UID:7a751e2d-5e01-4650-a8b7-c25baaa3a7b3
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:If you're interested in making your job much more efficient ..
+  this is your session!I will cover following key points:\nYou'll leave th
+ is session with an ability to never run out of work again (and I mean tha
+ t in the most positive way). An ability to a never-ending improvement to 
+ your product\, to make it the most shining gem it can be.\n\nSpeaker(s): 
+ Eric Wauters (waldo)
+DTEND:20240614T083000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240614T070000Z
+LOCATION:Room 8
+SEQUENCE:0
+SUMMARY:Telemetry: a developer's Best Friend [300 - Advanced][90 min]
+UID:032cc828-0437-4d50-8a40-0438ebf2abb7
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:There are still so many Upgrades from NAV to Business Central 
+ ongoing and I'm still seeing people struggling with old interfaces. In ma
+ ny projects it is not possible to update all other legacy systems beside 
+ Business Central to modern software.Since we have the "Universal Code Ini
+ tiative" there are more and more update things which are not possible dir
+ ectly in BC.Some Examples:\nBut there is always an easy way to handle suc
+ h problems. In my demo I will show you some ways to handle\n\nSpeaker(s):
+  Patrick Schiefer
+DTEND:20240614T083000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240614T070000Z
+LOCATION:Room 5
+SEQUENCE:0
+SUMMARY:Nothing is impossible in BC - ways to handle legacy interfaces in 
+ Business Central [300 - Advanced][90 min]
+UID:dc4c5c38-6580-4682-9100-6c3440f891c5
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Come and learn some of the most effective best practices we fo
+ llow in Microsoft to protect the data we are entrusted with. From coding 
+ guidelines to reviews our developers need to go through before shipping a
+  feature.\n\nSpeaker(s): Agustín Leyenda Duarte\, Ayrton Massey
+DTEND:20240614T083000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240614T070000Z
+LOCATION:Room 9
+SEQUENCE:0
+SUMMARY:Microsoft Presents: Security & Privacy 101: best practices for an 
+ AI and data-centered world [200 - Intermediate][45 min]
+UID:50b0f0c5-dbd4-4761-b86e-4fcdfbc64d8d
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Join this session to learn how Microsoft using the advanced pr
+ ompt engineering techniques and LLM capabilities to work with natural lan
+ guage for its own 1st party immersive features. We will walk you step by 
+ step how these techniques help to build features like Copilot for sales l
+ ines. This session will focus on using functional calling (tools)\, toolk
+ it capabilities\, good AL patterns and samples.\n\nSpeaker(s): Qasim Ikra
+ m\, Darrick Joo
+DTEND:20240614T083000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240614T070000Z
+LOCATION:Room 9
+SEQUENCE:0
+SUMMARY:Microsoft Presents: Prompt engineering and functional calling in A
+ L [200 - Intermediate][45 min]
+UID:c0a495db-ae15-491f-9d94-8a5684b0aea0
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Join this session to discover the latest advancements in Busin
+ ess Central integration with Power Platform. Dive into extending Business
+  Central using Power Platform tools\, automating data entry\, crafting ad
+ vanced approval workflows\, using new actions and improvements\, and effo
+ rtlessly integrating AI builder and GPT-based logic into your business wo
+ rkflows. Don't miss out on unlocking power platform based powerful possib
+ ilities for your automation ideas.\n\nSpeaker(s): Monica Ahuja
+DTEND:20240614T083000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240614T070000Z
+LOCATION:Room 7
+SEQUENCE:0
+SUMMARY:Microsoft Presents: What's new in Power Platform development: Powe
+ r Automate and workflows [200 - Intermediate][45 min]
+UID:b03c3054-d5bc-45a4-a487-ac25259bd3d6
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Join us for an insightful session where we'll explore the exci
+ ting capabilities of Copilot Studio and Power Platform\, tailored for dev
+ elopers! Discover how you can use these tools to unlock new possibilities
+  to build copilots\, automate business processes\, and enhance your devel
+ opment projects . With Copilot Studio\, you can connect your own copilot 
+ to data using pre-built plugins ((including Business Central plugin) or c
+ ustom plugins\, design custom workflows\, and manage your copilots in one
+  central place.Don’t miss this opportunity to learn how you can enable in
+ novation with Business Central\, Copilot Studio and Power Platform\n\nSpe
+ aker(s): Evgenij Korovin\, Monica Ahuja
+DTEND:20240614T083000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240614T070000Z
+LOCATION:Room 7
+SEQUENCE:0
+SUMMARY:Microsoft Presents: Develop Copilot experiences with Power Platfor
+ m [200 - Intermediate][45 min]
+UID:ddfe4cbb-d696-41e7-84a8-08044d8a37d0
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:
+DTEND:20240614T090000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240614T083000Z
+LOCATION:Expo Area
+SEQUENCE:0
+SUMMARY:Coffee Break\, Exhibition\, Sponsor Presentation
+UID:8b542c98-d291-40b9-8a14-f2c4e2359222
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Sponsor presentation
+DTEND:20240614T085500Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240614T084000Z
+LOCATION:Presentations Area
+SEQUENCE:0
+SUMMARY:Sponsor presentation: COSMO Alpaca[15 min]
+UID:57ce29af-44fb-40d2-b59b-5bcb9b64cfa1
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:If you want to maximize the throughput of your Business Centra
+ l online environments\, then this session is for you.The Business Central
+  online service scales automatically to accommodate the load you throw at
+  it\, and we will explain how it does that.Does this mean that you can ne
+ ver have problems with performance in BC online? Of course not. The respo
+ nsibility for getting high throughput is shared between Microsoft and par
+ tners\, and we will cover design and configuration patterns for achieving
+  high throughput as well as ways to troubleshoot when performance problem
+ s do appear.\n\nSpeaker(s): Christian Heide Damm\, Maria Zaharia Rusu\, R
+ ayner Vaz
+DTEND:20240614T103000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240614T090000Z
+LOCATION:Room 8
+SEQUENCE:0
+SUMMARY:Microsoft Presents: Designing for scale in Business Central online
+  [200 - Intermediate][90 min]
+UID:4cbc90a1-3334-4206-b50f-1633a733bec4
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:The move from C/AL to AL brought many new development paradigm
+ s to our industry. Source Control\, Extensions\, Cloud-first approach\, j
+ ust to name a few.\nOne of them is also the Code Review which is a huge a
+ ddition to code quality. The change happened a few years ago and partners
+  adopted many different approaches to Code Reviews. But Code Reviews aren
+ ’t new\, many mature industries have been using them for decades\, and no
+ w AI is supposed to help with that as well.\nI believe now is a good time
+  to stop for a moment\, review our code review processes\, and talk about
+  best practices. How to ensure code reviews are not overwhelming? What ar
+ e communication best practices\, so the comments are well received? How t
+ o prevent “rubber stamping” pull requests? What tools can make them more 
+ manageable? How can the GitHub Copilot help with all of that?\nJoin the s
+ ession to see how we can take the effectiveness of code reviews to anothe
+ r level.\n\nSpeaker(s): Tine Starič
+DTEND:20240614T103000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240614T090000Z
+LOCATION:Room 5
+SEQUENCE:0
+SUMMARY:Reviewing the Code Review [200 - Intermediate][90 min]
+UID:90930fdf-1d0a-4cd6-894b-8be68104990f
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Modern Business Central solutions typically are composed of mu
+ ltiple extensions\, but also external integrations to some kind of webser
+ vice\, other 3rd-party components or even alternative frontends become mo
+ re and more common. While we have established ideas how to assure the qua
+ lity of the BC components\, it often is not as clear what we should do to
+  also make sure the rest has the required quality level.In this session w
+ e will look at different scenarios\, covering frontend and performance te
+ sting\, but also a bit of chaos engineering. Afterwards\, you should have
+  a good idea how to approach quality assurance outside of BC as well.\n\n
+ Speaker(s): Tobias Fenster
+DTEND:20240614T103000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240614T090000Z
+LOCATION:Room 9
+SEQUENCE:0
+SUMMARY:A webservice here\, an additional frontend there\, but how do we e
+ nsure quality? [300 - Advanced][90 min]
+UID:98c82b32-5a06-4c75-983f-1ebf47bea0d7
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:This session explores the new namespaces in AL. We'll discuss 
+ our namespace choices\, provide guidance on using namespaces and talk abo
+ ut the tooling around these\, as well as the challenges and opportunities
+  they bring.\n\nSpeaker(s): Alexander Yakunin\, Steffen Balslev\, Thomas 
+ Pedersen
+DTEND:20240614T103000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240614T090000Z
+LOCATION:Room 7
+SEQUENCE:0
+SUMMARY:Microsoft Presents: What you always wanted to know about AL Namesp
+ aces (and never dared to ask) [200 - Intermediate][45 min]
+UID:04373e10-d4cb-46a9-b8f1-1afc655350d6
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Ensuring a pleasant experience for end-users\, even in error s
+ ituations\, and empowering them to resolve their own issues is crucial. I
+ n recent releases we have developed several features to achieve this. In 
+ this presentation\, we will delve into the enhancements for more user-fri
+ endly and efficient error handling in AL\, including collectible errors\,
+  adding navigation to errors etc. Attendees will gain insights into how t
+ o optimize error resolution\, improve user satisfaction\, and streamline 
+ their support processes\n\nSpeaker(s): Agnieszka Potulska-Tylenda\, Jens 
+ Møller-Pedersen\, Prangshuman Das
+DTEND:20240614T103000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240614T090000Z
+LOCATION:Room 7
+SEQUENCE:0
+SUMMARY:Microsoft Presents: User friendly error handling in AL [200 - Inte
+ rmediate][45 min]
+UID:0e924680-1ec3-4789-acd2-b7964e49c7f9
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:
+DTEND:20240614T113000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240614T103000Z
+LOCATION:Expo Area
+SEQUENCE:0
+SUMMARY:Lunch Break\, Exhibition\, Sponsor Presentations
+UID:5b18c839-94f2-4da6-8b47-f080a6558b2a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Sponsor presentation
+DTEND:20240614T105500Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240614T104000Z
+LOCATION:Presentations Area
+SEQUENCE:0
+SUMMARY:Sponsor presentation: ALOps[15 min]
+UID:e4727fe6-e7b4-4bbc-9253-f949abd0bee2
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:This session will introduce Tri-State locking: a more optimist
+ ic reading schematic for AL.Exploring how the runtime determines what loc
+ ks should be taken when interacting with the database\, what differences 
+ Tri-State versus the previous locking behaviour\, introduce SQL locking s
+ chematics\, and finally update the recommendation to AL developers.\n\nSp
+ eaker(s): Mads Gram\, Torben Wind Meyhoff
+DTEND:20240614T130000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240614T113000Z
+LOCATION:Room 8
+SEQUENCE:0
+SUMMARY:Microsoft Presents: Tri-State Locking: Reducing locking in the run
+ time [300 - Advanced][45 min]
+UID:9e23f1d3-2933-452b-bc75-5b22e3cfa07f
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Join us for the session on building Excel reports. We have shi
+ pped new features that will enable you to build great looking Excel layou
+ ts. We will start with explaining how to structure and organize datasets.
+  In the second part\, we will move into the area of building layouts in E
+ xcel\, where we will cover how to use Queries to get strong models\, mult
+ ilanguage support\, refreshing the data when the when the Excel workbook 
+ opens\, how to quickly open a template and other useful things that will 
+ save you time when you use excel to build customer facing layouts.\n\nSpe
+ aker(s): Nikola Kukrika\, Niels-Henrik Sejthen
+DTEND:20240614T130000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240614T113000Z
+LOCATION:Room 8
+SEQUENCE:0
+SUMMARY:Microsoft Presents: Mastering Excel Reports in Business Central [4
+ 00 - Expert 300 - Advanced][45 min]
+UID:e91c9a99-13b6-4a02-9a2d-159edba965c6
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Explore the frontier of Microsoft Copilot engineering that goe
+ s beyond the code to build trust in technology.\nThis session offers a de
+ ep dive into the engineering strategies and real-world best practices Mic
+ rosoft takes to ensure Copilot Chat’s safety\, security\, trustworthiness
+ \, accuracy\, and reliability. Delve into the complexities of maintaining
+  a delicate balance between safety and accuracy. Learn the real examples 
+ of how Microsoft confront hallucinations and mitigate risks associated wi
+ th generative AI.\n\nSpeaker(s): Evgenij Korovin\, Ayrton Massey
+DTEND:20240614T130000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240614T113000Z
+LOCATION:Room 5
+SEQUENCE:0
+SUMMARY:Microsoft Presents: Building Trust in AI: The Development of Micro
+ soft's 'Chat with Copilot' [200 - Intermediate][45 min]
+UID:1444180a-ad7c-4366-93e9-48b290d84803
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:This session will introduce you to Microsoft's Copilot testing
+  toolkit\, a suite designed to help AL developers navigate the evolving l
+ andscape of large language models (LLMs). Discover strategies for writing
+  robust tests that validate the safety and accuracy of your Copilot featu
+ res\, ensuring your applications meet the highest standards of quality.\n
+ \nSpeaker(s): Prangshuman Das\, Sam van Lieshout
+DTEND:20240614T130000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240614T113000Z
+LOCATION:Room 5
+SEQUENCE:0
+SUMMARY:Microsoft Presents: Exploring the Future of AL Development: Testin
+ g Copilot Features [200 - Intermediate][45 min]
+UID:fa1e9a92-1879-4f20-af23-f6ec250a900a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Unlock the full potential of your business with the Shopify Co
+ nnector for Dynamics 365 Business Central. In this comprehensive session\
+ , we introduce and delve into the intricacies of this powerful integratio
+ n\, covering its capabilities\, troubleshooting techniques\, and customiz
+ ation options for partners.\n\nSpeaker(s): Onat Buyukakkus
+DTEND:20240614T130000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240614T113000Z
+LOCATION:Room 9
+SEQUENCE:0
+SUMMARY:Microsoft Presents: Maximizing Business Productivity: Mastering th
+ e Shopify Connector [200 - Intermediate][45 min]
+UID:58838b3b-e88b-450f-9599-79e95e9b2fb6
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Microsoft recently introduced a new E-documents framework\, wh
+ ich has now been expanded with great new features. This framework is desi
+ gned for effortless extension through partner-based customizations or loc
+ alizations. In this session\, we will delve into the standard framework's
+  components and demonstrate practical methods for extending it adding new
+  features or services. This session is for developers only.\n\nSpeaker(s)
+ : Magnus Hartvig Grønbech
+DTEND:20240614T130000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240614T113000Z
+LOCATION:Room 9
+SEQUENCE:0
+SUMMARY:Microsoft Presents: How to extend new E-Documents framework [400 -
+  Expert 300 - Advanced][45 min]
+UID:84bba8ba-6124-4559-af94-3bb7c3f78982
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:This session will cover Microsoft internal setup for applicati
+ on development\, build\, validation and deployment and how we are migrati
+ ng our application development team onto GitHub based on AL-Go. What are 
+ we migrating and how? What challenges do we foresee in moving from our hi
+ ghly custom setup to AL-Go and GitHub\, and how are we planning on bridgi
+ ng the gap between these systems\, including future features and capabili
+ ties needed in AL-Go to support our transition.\n\nSpeaker(s): Jonas Blun
+ ck\, Freddy Kristiansen\, Alexander Holstrup
+DTEND:20240614T130000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240614T113000Z
+LOCATION:Room 7
+SEQUENCE:0
+SUMMARY:Microsoft Presents: How Microsoft is open sourcing the Business Ce
+ ntral applications on GitHub [200 - Intermediate][90 min]
+UID:7afeeaa5-4c29-4de6-b1dd-16c2d3265a50
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:
+DTEND:20240614T133000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240614T130000Z
+LOCATION:Expo Area
+SEQUENCE:0
+SUMMARY:Coffee Break\, Exhibition\, Sponsor Presentation
+UID:5029e0bc-7dc6-4d91-be12-0565a4e5a52d
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:
+DTEND:20240614T143000Z
+DTSTAMP:20241204T002934Z
+DTSTART:20240614T133000Z
+LOCATION:Room 8
+SEQUENCE:0
+SUMMARY:Closing
+UID:aabdb232-901c-4136-826d-ece967fbca4f
+END:VEVENT
 END:VCALENDAR
