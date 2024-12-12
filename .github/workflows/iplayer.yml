@@ -26,6 +26,7 @@ jobs:
           | Where-Object Title -notin 'EastEnders', 'Breakfast'
           | Where-Object Title -notlike '*Sunday with Laura Kuenssberg*'
           | Where-Object Title -notlike '*BBC Weekend News*'
+          | Where-Object Title -notlike '*BBC News at One*'
           | ForEach-Object {
             New-RssFeedItem `
               -ID $_.ID `

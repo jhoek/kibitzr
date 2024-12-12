@@ -1,34 +1,35 @@
-name: fokkesukke2
+name: heindekort2
 
 on:
   schedule:
-    - cron: "40 6 * * 1-6"
+    - cron: "45 6 * * 1-6"
   workflow_dispatch:
 
 jobs:
   run:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     steps:
       - name: Install required PowerShell modules
         shell: pwsh
         run: |
           Set-PSRepository PSGallery -InstallationPolicy Trusted
-          Install-Module UncommonSense.Hap, UncommonSense.Nrc, UncommonSense.Pushover -Scope CurrentUser
+          Install-Module UncommonSense.Parool, UncommonSense.Pushover -Scope CurrentUser -Force
 
       - name: Send notification
         shell: pwsh
         env:
-          PUSHOVER_APP_FOKKESUKKE: ${{secrets.PUSHOVER_APP_FOKKESUKKE}}
+          PUSHOVER_APP_HEINDEKORT: ${{secrets.PUSHOVER_APP_HEINDEKORT}}
           PUSHOVER_USER_FOKKESUKKE: ${{secrets.PUSHOVER_USER_FOKKESUKKE}}
         run: |
-          Get-FokkeSukke
+          Get-HeinDeKort
           | Select-Object -First 1
           | ForEach-Object {
             Send-PushoverNotification `
-              -ApplicationToken $env:PUSHOVER_APP_FOKKESUKKE `
+              -ApplicationToken $env:PUSHOVER_APP_HEINDEKORT `
               -Recipient $env:PUSHOVER_USER_FOKKESUKKE `
               -Attachment $_.Body `
               -Message ($_.Date).ToString('dddd d MMM yyyy') `
               -Title 'Fokke & Sukke'
-          }
+            }
+

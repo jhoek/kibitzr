@@ -2,7 +2,7 @@ name: ikjes
 
 on:
   schedule:
-    - cron: "40 5 * * 1-6"
+    - cron: "40 6 * * 1-6"
   workflow_dispatch:
 
 jobs:
