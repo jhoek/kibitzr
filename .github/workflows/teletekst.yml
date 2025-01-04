@@ -2,7 +2,7 @@ name: teletekst
 
 on:
   schedule:
-    - cron: "40 6 * * 1-6"
+    - cron: "0 5 * * *"
   workflow_dispatch:
 
 jobs:
@@ -22,12 +22,15 @@ jobs:
           PUSHOVER_APP_TELETEKST: ${{secrets.PUSHOVER_APP_TELETEKST}}
           PUSHOVER_USER_JUSTME: ${{secrets.PUSHOVER_USER_JUSTME}}
         run: |
-          Get-TeletekstNews -Type Domestic
+          'Domestic', 'Foreign'
           | ForEach-Object {
-            Send-PushoverNotification `
-              -ApplicationToken $env:PUSHOVER_APP_TELETEKST `
-              -Recipient $env:PUSHOVER_USER_JUSTME `
-              -Message $_.Content `
-              -Title $_.Title `
-              -SupplementaryUrl $_.Link
+              Get-TeletekstNews -Type $_
+              | ForEach-Object {
+                Send-PushoverNotification `
+                  -ApplicationToken $env:PUSHOVER_APP_TELETEKST `
+                  -Recipient $env:PUSHOVER_USER_JUSTME `
+                  -Message $_.Content `
+                  -Title $_.Title `
+                  -SupplementaryUrl $_.Link
+              }
           }
