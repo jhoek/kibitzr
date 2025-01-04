@@ -19,7 +19,7 @@ jobs:
       - name: Send notification
         shell: pwsh
         env:
-          PUSHOVER_APP_TELETEKST: ${{secrets.PUSHOVER_APP_WEATHER}}
+          PUSHOVER_APP_WEATHER: ${{secrets.PUSHOVER_APP_WEATHER}}
           PUSHOVER_USER_JUSTME: ${{secrets.PUSHOVER_USER_JUSTME}}
         run: |
             $Weather = Get-TeletekstWeather
