@@ -27,6 +27,6 @@ jobs:
             Send-PushoverNotification `
                 -ApplicationToken $env:PUSHOVER_APP_WEATHER `
                 -Recipient $env:PUSHOVER_USER_JUSTME `
-                -Message "$($Weather.Content)`nUpdated $($Weather.DateTime)" `
+                -Message "$($Weather.Content)`n`nUpdated $($Weather.DateTime)" `
                 -Title $Weather.Title `
                 -SupplementaryUrl $Weather.Link
