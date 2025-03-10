@@ -3,64 +3,16 @@ PRODID:-//github.com/rianjs/ical.net//NONSGML ical.net 4.0//EN
 VERSION:2.0
 X-WR-CALNAME:Filmtheater Hilversum
 BEGIN:VEVENT
-DESCRIPTION:Na het succes van de animatiefilm die in 2016 uitkwam\, komen 
- Woezel en Pip terug met een nieuw avontuur! Geschikt voor kinderen vanaf 
- 3 jaar.
-DTEND:20250309T123000
-DTSTAMP:20250309T065630Z
-DTSTART:20250309T103000
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Woezel & Pip op Avontuur in de Tovertuin (3
- +)
-UID:44584be3-438b-4d40-866a-f6e4022288b9
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Is muziek een antwoord op oorlogsgeweld? Voor Syrische klarine
- ttist Kinan Azmeh is het musiceren in elk geval ‘an act of freedom’. In h
- et iconische Hamburgse theater Elbphilharmonie bereidt Kinan zich voor op
-  Salām Syria\, een festival gewijd aan Syrische muziek.
-DTEND:20250309T130000
-DTSTAMP:20250309T065631Z
-DTSTART:20250309T110000
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Half Moon
-UID:c075bab4-7d42-432c-888f-43a6ada404fd
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Is muziek een antwoord op oorlogsgeweld? Voor Syrische klarine
- ttist Kinan Azmeh is het musiceren in elk geval ‘an act of freedom’. In h
- et iconische Hamburgse theater Elbphilharmonie bereidt Kinan zich voor op
-  Salām Syria\, een festival gewijd aan Syrische muziek.
-DTEND:20250316T183000
-DTSTAMP:20250309T065631Z
-DTSTART:20250316T163000
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Half Moon
-UID:f5cbfeba-931b-4764-a130-0c7c0bf8644e
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Angelina Jolie stapt in de schoenen van de meest geliefde oper
- azangeres ter wereld: Maria Callas. Na Spencer (2021) en Jackie (2016) ze
- t regisseur Pablo Larraín zijn onderzoek naar de vrouwen die de 20e eeuw 
- kenmerkten voort.
-DTEND:20250309T131500
-DTSTAMP:20250309T065633Z
-DTSTART:20250309T111500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Maria
-UID:9d0cd2a6-a7f1-4c2c-a8ca-6dd11b3f9d94
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Angelina Jolie stapt in de schoenen van de meest geliefde oper
  azangeres ter wereld: Maria Callas. Na Spencer (2021) en Jackie (2016) ze
  t regisseur Pablo Larraín zijn onderzoek naar de vrouwen die de 20e eeuw 
  kenmerkten voort.
 DTEND:20250310T154500
-DTSTAMP:20250309T065633Z
+DTSTAMP:20250310T065638Z
 DTSTART:20250310T134500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Maria
-UID:10ea36cb-9a78-4081-9278-8612c08c319d
+UID:f9ae99cf-ff08-4153-a377-8c9ba75f986e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Angelina Jolie stapt in de schoenen van de meest geliefde oper
@@ -68,36 +20,11 @@ DESCRIPTION:Angelina Jolie stapt in de schoenen van de meest geliefde oper
  t regisseur Pablo Larraín zijn onderzoek naar de vrouwen die de 20e eeuw 
  kenmerkten voort.
 DTEND:20250311T182500
-DTSTAMP:20250309T065633Z
+DTSTAMP:20250310T065638Z
 DTSTART:20250311T162500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Maria
-UID:b0f7ca3e-47b3-4747-ac8b-cceb9fba7505
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:De welgestelde Alma (Isabelle Huppert)bezoekt al jaren haar ec
- htgenoot Christopher\, voormalig chirurg\, in de gevangenis van Bordeaux.
-  Tijdens een bezoek ontmoet ze Mina (Hafsia Herzi)\, een moeder van twee 
- jonge kinderen die haar man niet mag zien vanwege een administratieve fou
- t.
-DTEND:20250309T141500
-DTSTAMP:20250309T065634Z
-DTSTART:20250309T121500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: La Prisonnière de Bordeaux
-UID:b69da6b3-dc70-49aa-84d4-e42ae4979d15
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Op een Japans eiland draait het leven om de veranderende seizo
- enen. In de winter gaat alle aandacht naar ijshockey\, tegen de zin van T
- akuya in. Zijn echte interesse ligt bij Sakura\, een rijzende ster op het
-  gebied van kunstschaatsen.
-DTEND:20250309T150000
-DTSTAMP:20250309T065635Z
-DTSTART:20250309T130000
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: My Sunshine
-UID:5a17d05e-78a6-430e-a603-869a9162bc68
+UID:8c6c1b7c-cbaf-431e-9817-00d8cb275430
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op een Japans eiland draait het leven om de veranderende seizo
@@ -105,11 +32,11 @@ DESCRIPTION:Op een Japans eiland draait het leven om de veranderende seizo
  akuya in. Zijn echte interesse ligt bij Sakura\, een rijzende ster op het
   gebied van kunstschaatsen.
 DTEND:20250310T180000
-DTSTAMP:20250309T065635Z
+DTSTAMP:20250310T065639Z
 DTSTART:20250310T160000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: My Sunshine
-UID:4e1e7527-3828-47c3-aa33-e4da7e55d0f2
+UID:08eba089-5f12-4a07-aad6-f95f552a4f8f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op een Japans eiland draait het leven om de veranderende seizo
@@ -117,11 +44,11 @@ DESCRIPTION:Op een Japans eiland draait het leven om de veranderende seizo
  akuya in. Zijn echte interesse ligt bij Sakura\, een rijzende ster op het
   gebied van kunstschaatsen.
 DTEND:20250311T184500
-DTSTAMP:20250309T065635Z
+DTSTAMP:20250310T065639Z
 DTSTART:20250311T164500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: My Sunshine
-UID:20f99f26-ec0d-4487-87a9-8ad8915056f2
+UID:bcf15962-8016-4f92-ac7a-137271bc038e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op een Japans eiland draait het leven om de veranderende seizo
@@ -129,73 +56,23 @@ DESCRIPTION:Op een Japans eiland draait het leven om de veranderende seizo
  akuya in. Zijn echte interesse ligt bij Sakura\, een rijzende ster op het
   gebied van kunstschaatsen.
 DTEND:20250312T190000
-DTSTAMP:20250309T065635Z
+DTSTAMP:20250310T065639Z
 DTSTART:20250312T170000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: My Sunshine
-UID:92309797-2f1d-4b80-ba00-43f622081c5a
+UID:6cfc8720-a80b-4c64-b744-900aba027815
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Het meest meeslepende verhaal van liefde\, verraad en vergiffe
- nis in het klassieke ballet. Dankzij de sensationele partituur van Tsjaik
- ovski en de ongelooflijk rijke verbeeldingskracht van choreograaf Liam Sc
- arlett en ontwerper John Macfarlane\, wordt Het Zwanenmeer op het grote s
- cherm een uitzonderlijk mooie kijkervaring van deze ultieme balletklassie
- ker.
-DTEND:20250309T160000
-DTSTAMP:20250309T065637Z
-DTSTART:20250309T140000
+DESCRIPTION:Zingend en dansend genieten Qiaoqiao en Bin van elkaar en alle
+ s wat hun stad te bieden heeft. Tot Bin besluit dat hij zijn geluk in een
+  grotere stad wil beproeven. Zonder iets te laten weten\, vertrekt hij. J
+ aren later gaat Qiaoqiao op reis om hem te zoeken.
+DTEND:20250310T183000
+DTSTAMP:20250310T065640Z
+DTSTART:20250310T163000
 SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Het Zwanenmeer | The Royal Ballet 24/25
-UID:e4a9fcda-8245-4d8d-a45e-e3a62c3dbde1
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:De Italiaanse schrijver Paolo Cognetti brak wereldwijd door me
- t zijn roman De Acht Bergen\, die een paar jaar later even succesvol verf
- ilmd werd. In deze door hem geregisseerde documentaire keert hij terug na
- ar de door hem zo geliefde Italiaanse Alpen met zijn trouwe hond Laki.
-DTEND:20250309T163000
-DTSTAMP:20250309T065638Z
-DTSTART:20250309T143000
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Fiore Mio
-UID:8c76f0d2-2aac-45e8-96cf-9bf4445d751f
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:De Italiaanse schrijver Paolo Cognetti brak wereldwijd door me
- t zijn roman De Acht Bergen\, die een paar jaar later even succesvol verf
- ilmd werd. In deze door hem geregisseerde documentaire keert hij terug na
- ar de door hem zo geliefde Italiaanse Alpen met zijn trouwe hond Laki.
-DTEND:20250311T204500
-DTSTAMP:20250309T065638Z
-DTSTART:20250311T184500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Fiore Mio
-UID:07c0967e-127e-4b13-a438-70eef6b9a81d
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:De Italiaanse schrijver Paolo Cognetti brak wereldwijd door me
- t zijn roman De Acht Bergen\, die een paar jaar later even succesvol verf
- ilmd werd. In deze door hem geregisseerde documentaire keert hij terug na
- ar de door hem zo geliefde Italiaanse Alpen met zijn trouwe hond Laki.
-DTEND:20250316T124500
-DTSTAMP:20250309T065638Z
-DTSTART:20250316T104500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Fiore Mio
-UID:857b9169-e2f0-45a5-9941-b9c6175700b1
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Deze vlijmscherpe thriller speelt zich af tijdens de Olympisch
- e Zomerspelen van München in 1972 en volgt ABC Sports\, dat van sportvers
- laggeving snel overschakelt naar een live-verslag over Israëlische atlete
- n die worden gegijzeld.
-DTEND:20250309T170000
-DTSTAMP:20250309T065639Z
-DTSTART:20250309T150000
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: September 5
-UID:946440a0-4c78-4d82-b7de-1c2935461251
+SUMMARY:Filmtheater Hilversum: Caught by the Tides
+UID:d9018e21-369b-47c1-bd02-35f1eb5d33a0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Deze vlijmscherpe thriller speelt zich af tijdens de Olympisch
@@ -203,11 +80,11 @@ DESCRIPTION:Deze vlijmscherpe thriller speelt zich af tijdens de Olympisch
  laggeving snel overschakelt naar een live-verslag over Israëlische atlete
  n die worden gegijzeld.
 DTEND:20250310T184500
-DTSTAMP:20250309T065639Z
+DTSTAMP:20250310T065642Z
 DTSTART:20250310T164500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: September 5
-UID:b6811cf5-9f43-4a7f-88b7-63d492d91396
+UID:2716cfcc-ca42-4ec0-aa12-fa2de95f468b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Deze vlijmscherpe thriller speelt zich af tijdens de Olympisch
@@ -215,11 +92,11 @@ DESCRIPTION:Deze vlijmscherpe thriller speelt zich af tijdens de Olympisch
  laggeving snel overschakelt naar een live-verslag over Israëlische atlete
  n die worden gegijzeld.
 DTEND:20250311T231500
-DTSTAMP:20250309T065639Z
+DTSTAMP:20250310T065642Z
 DTSTART:20250311T211500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: September 5
-UID:963adfc7-b174-4102-8af3-93d2acbc20b0
+UID:87297a50-babb-4f73-bca9-0e0c3fc3cace
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Deze vlijmscherpe thriller speelt zich af tijdens de Olympisch
@@ -227,24 +104,80 @@ DESCRIPTION:Deze vlijmscherpe thriller speelt zich af tijdens de Olympisch
  laggeving snel overschakelt naar een live-verslag over Israëlische atlete
  n die worden gegijzeld.
 DTEND:20250312T230500
-DTSTAMP:20250309T065639Z
+DTSTAMP:20250310T065642Z
 DTSTART:20250312T210500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: September 5
-UID:962ce761-b2e2-46ee-8336-2876b7d4ddf5
+UID:ad054893-188f-474e-84f0-7af81bd7010e
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Na zijn recente historische films (Mr. Turner en Peterloo) kee
- rt de gelauwerde regisseur Mike Leigh met Hard Truths terug naar het hede
- n. In deze nieuwe film\, een intiem kitchen sink-drama - een genre waar L
- eigh in uitblinkt - schetst hij een scherp maar eerlijk portret van een d
- iep ongelukkige vrouw en moeder.
-DTEND:20250309T182500
-DTSTAMP:20250309T065640Z
-DTSTART:20250309T162500
+DESCRIPTION:Paolo Sorrentino’s ode aan de stad Napels. Sorrentino (La Gran
+ de Bellezza\, Youth) weet haar schoonheid in schilderachtige beelden te v
+ angen\, met Celeste Dalla Porta in de titelrol en Gary Oldman in een onve
+ rgetelijke bijrol.
+DTEND:20250310T200000
+DTSTAMP:20250310T065643Z
+DTSTART:20250310T180000
 SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Hard Truths
-UID:114a42e2-1064-44e8-96af-122fbda6b398
+SUMMARY:Filmtheater Hilversum: Parthenope
+UID:06ff023c-fcdf-472e-8359-e81e83f4c107
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Paolo Sorrentino’s ode aan de stad Napels. Sorrentino (La Gran
+ de Bellezza\, Youth) weet haar schoonheid in schilderachtige beelden te v
+ angen\, met Celeste Dalla Porta in de titelrol en Gary Oldman in een onve
+ rgetelijke bijrol.
+DTEND:20250311T154500
+DTSTAMP:20250310T065643Z
+DTSTART:20250311T134500
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Parthenope
+UID:bc3edf3b-a2ae-462a-baa2-27e59777c201
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Paolo Sorrentino’s ode aan de stad Napels. Sorrentino (La Gran
+ de Bellezza\, Youth) weet haar schoonheid in schilderachtige beelden te v
+ angen\, met Celeste Dalla Porta in de titelrol en Gary Oldman in een onve
+ rgetelijke bijrol.
+DTEND:20250312T180000
+DTSTAMP:20250310T065643Z
+DTSTART:20250312T160000
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Parthenope
+UID:a1a3e045-8891-416e-8455-1106aebd9150
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Becoming Led Zeppelin toont het ontstaan van de legendarische 
+ rockband\, die tegen alle verwachtingen in een bliksemsnelle opmars maakt
+ e. De eerste geautoriseerde documentaire over de band ooit.
+DTEND:20250310T204500
+DTSTAMP:20250310T065644Z
+DTSTART:20250310T184500
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Becoming Led Zeppelin
+UID:5d29fd39-e6ee-4157-8718-f57e3427d83d
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Becoming Led Zeppelin toont het ontstaan van de legendarische 
+ rockband\, die tegen alle verwachtingen in een bliksemsnelle opmars maakt
+ e. De eerste geautoriseerde documentaire over de band ooit.
+DTEND:20250313T181500
+DTSTAMP:20250310T065644Z
+DTSTART:20250313T161500
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Becoming Led Zeppelin
+UID:e42aa5db-4a5b-4cef-bef3-548855eb7175
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Becoming Led Zeppelin toont het ontstaan van de legendarische 
+ rockband\, die tegen alle verwachtingen in een bliksemsnelle opmars maakt
+ e. De eerste geautoriseerde documentaire over de band ooit.
+DTEND:20250317T204500
+DTSTAMP:20250310T065644Z
+DTSTART:20250317T184500
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Becoming Led Zeppelin
+UID:5c14827c-fc03-4be7-9398-aa38cb215447
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Na zijn recente historische films (Mr. Turner en Peterloo) kee
@@ -253,11 +186,11 @@ DESCRIPTION:Na zijn recente historische films (Mr. Turner en Peterloo) kee
  eigh in uitblinkt - schetst hij een scherp maar eerlijk portret van een d
  iep ongelukkige vrouw en moeder.
 DTEND:20250310T210000
-DTSTAMP:20250309T065640Z
+DTSTAMP:20250310T065646Z
 DTSTART:20250310T190000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Hard Truths
-UID:d5679c54-c0a9-4162-b3ec-cbff2ffa627d
+UID:a8dece66-4d23-4295-9422-8921117305d6
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Na zijn recente historische films (Mr. Turner en Peterloo) kee
@@ -266,11 +199,11 @@ DESCRIPTION:Na zijn recente historische films (Mr. Turner en Peterloo) kee
  eigh in uitblinkt - schetst hij een scherp maar eerlijk portret van een d
  iep ongelukkige vrouw en moeder.
 DTEND:20250311T223000
-DTSTAMP:20250309T065640Z
+DTSTAMP:20250310T065646Z
 DTSTART:20250311T203000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Hard Truths
-UID:0d1f4ce1-87e4-4811-83fd-958cdb9094ee
+UID:dd1bbec2-afc4-4173-b1a5-221092573f39
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Na zijn recente historische films (Mr. Turner en Peterloo) kee
@@ -279,23 +212,50 @@ DESCRIPTION:Na zijn recente historische films (Mr. Turner en Peterloo) kee
  eigh in uitblinkt - schetst hij een scherp maar eerlijk portret van een d
  iep ongelukkige vrouw en moeder.
 DTEND:20250312T203000
-DTSTAMP:20250309T065640Z
+DTSTAMP:20250310T065646Z
 DTSTART:20250312T183000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Hard Truths
-UID:49858a60-98b7-498f-920b-b488108beef0
+UID:5805f67d-b185-4d23-9b9a-551e075a5652
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Birma\, 1917. Op de dag dat zijn verloofde Molly arriveert om 
- met hem te trouwen\, slaat Edward\, een ambtenaar van het Britse Rijk\, o
- p de vlucht. Gekweld door paniek begint hij aan een avontuurlijke reis ov
- er het Aziatische continent.
-DTEND:20250309T190000
-DTSTAMP:20250309T065642Z
-DTSTART:20250309T170000
+DESCRIPTION:Timothée Chalamet schittert als Bob Dylan in het waargebeurde 
+ verhaal achter de opkomst van een van de meest iconische singer-songwrite
+ rs uit de geschiedenis. New York\, begin jaren ’60. Een 19-jarige man uit
+  Minnesota komt aan in een levendige muziekscene tijdens een onrustige cu
+ lturele tijd in de West Village.
+DTEND:20250310T225000
+DTSTAMP:20250310T065647Z
+DTSTART:20250310T205000
 SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Grand Tour
-UID:5c62ed67-9164-48cf-aa65-b97304d2cc16
+SUMMARY:Filmtheater Hilversum: A Complete Unknown
+UID:6ce93b62-1382-4ec4-8470-b2af0df13491
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Timothée Chalamet schittert als Bob Dylan in het waargebeurde 
+ verhaal achter de opkomst van een van de meest iconische singer-songwrite
+ rs uit de geschiedenis. New York\, begin jaren ’60. Een 19-jarige man uit
+  Minnesota komt aan in een levendige muziekscene tijdens een onrustige cu
+ lturele tijd in de West Village.
+DTEND:20250311T202500
+DTSTAMP:20250310T065647Z
+DTSTART:20250311T182500
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: A Complete Unknown
+UID:c7824670-ce49-449a-bbad-0e96d890bf89
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Timothée Chalamet schittert als Bob Dylan in het waargebeurde 
+ verhaal achter de opkomst van een van de meest iconische singer-songwrite
+ rs uit de geschiedenis. New York\, begin jaren ’60. Een 19-jarige man uit
+  Minnesota komt aan in een levendige muziekscene tijdens een onrustige cu
+ lturele tijd in de West Village.
+DTEND:20250312T232000
+DTSTAMP:20250310T065647Z
+DTSTART:20250312T212000
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: A Complete Unknown
+UID:74e22a81-2251-4554-b377-92ad4108ad91
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Birma\, 1917. Op de dag dat zijn verloofde Molly arriveert om 
@@ -303,11 +263,11 @@ DESCRIPTION:Birma\, 1917. Op de dag dat zijn verloofde Molly arriveert om
  p de vlucht. Gekweld door paniek begint hij aan een avontuurlijke reis ov
  er het Aziatische continent.
 DTEND:20250310T230500
-DTSTAMP:20250309T065642Z
+DTSTAMP:20250310T065648Z
 DTSTART:20250310T210500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Grand Tour
-UID:b305b5b8-38bd-4211-8e74-7316f14e14f2
+UID:c5c0a69e-4509-4260-a1c6-d03315a0841a
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Birma\, 1917. Op de dag dat zijn verloofde Molly arriveert om 
@@ -315,11 +275,11 @@ DESCRIPTION:Birma\, 1917. Op de dag dat zijn verloofde Molly arriveert om
  p de vlucht. Gekweld door paniek begint hij aan een avontuurlijke reis ov
  er het Aziatische continent.
 DTEND:20250311T233000
-DTSTAMP:20250309T065642Z
+DTSTAMP:20250310T065648Z
 DTSTART:20250311T213000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Grand Tour
-UID:275291f1-715a-495e-9327-1d502b9a05b3
+UID:2d69098a-66ce-4568-86c3-538a6068381f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Birma\, 1917. Op de dag dat zijn verloofde Molly arriveert om 
@@ -327,25 +287,23 @@ DESCRIPTION:Birma\, 1917. Op de dag dat zijn verloofde Molly arriveert om
  p de vlucht. Gekweld door paniek begint hij aan een avontuurlijke reis ov
  er het Aziatische continent.
 DTEND:20250312T223500
-DTSTAMP:20250309T065642Z
+DTSTAMP:20250310T065648Z
 DTSTART:20250312T203500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Grand Tour
-UID:205b48b4-7ce1-429e-8e46-1c3e49bb3b04
+UID:0f2a48b2-85f4-4ca8-b809-bc2e8ed3f9d8
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:De eerste film uit India sinds 1994 die in de hoofdcompetitie 
- van filmfestival Cannes (2024) werd vertoond – en er met de Grand Prix va
- ndoor ging. Prabha\, een verpleegkundige uit Mumbai\, wordt in verwarring
-  gebracht wanneer haar vervreemde echtgenoot opeens weer contact zoekt. O
- ndertussen zoekt haar jongere kamergenote Anu een manier om de volgende s
- tap in haar geheime relatie te kunnen zetten.
-DTEND:20250309T201500
-DTSTAMP:20250309T065643Z
-DTSTART:20250309T181500
+DESCRIPTION:Na de dood van zijn moeder vertrekt Rein naar een klein dorp i
+ n de Alpen waar hij aan de slag gaat als snowboardleraar. Zijn rustige le
+ ven wordt verstoord wanneer zijn extraverte vader Gijs op bezoek komt en 
+ een dominante schaduw over zijn leven werpt.
+DTEND:20250310T232000
+DTSTAMP:20250310T065650Z
+DTSTART:20250310T212000
 SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: All We Imagine As Light
-UID:a3b91dbb-acce-4d76-86f0-b376e9742c46
+SUMMARY:Filmtheater Hilversum: Alpha
+UID:26e7405d-8b4c-48f4-a35c-d264df4fd106
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De eerste film uit India sinds 1994 die in de hoofdcompetitie 
@@ -355,11 +313,11 @@ DESCRIPTION:De eerste film uit India sinds 1994 die in de hoofdcompetitie
  ndertussen zoekt haar jongere kamergenote Anu een manier om de volgende s
  tap in haar geheime relatie te kunnen zetten.
 DTEND:20250311T180000
-DTSTAMP:20250309T065643Z
+DTSTAMP:20250310T065651Z
 DTSTART:20250311T160000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: All We Imagine As Light
-UID:20a1993d-1205-48af-98b0-91dfdb8b451a
+UID:c1607c39-9a0f-44c5-99f2-fba95def8d2f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De eerste film uit India sinds 1994 die in de hoofdcompetitie 
@@ -369,200 +327,45 @@ DESCRIPTION:De eerste film uit India sinds 1994 die in de hoofdcompetitie
  ndertussen zoekt haar jongere kamergenote Anu een manier om de volgende s
  tap in haar geheime relatie te kunnen zetten.
 DTEND:20250312T204500
-DTSTAMP:20250309T065643Z
+DTSTAMP:20250310T065651Z
 DTSTART:20250312T184500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: All We Imagine As Light
-UID:266847ec-702d-4667-88f8-e0ad7e59be91
+UID:02fbfb65-3083-40f3-95a7-5d41d377904d
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Als de hele wereld slecht is\, waarom zouden wij dat dan niet 
- zijn? Dat is de filosofie van twee jonge vrouwen die allebei Marie heten.
- In kleurige jurken en badpakken laten de twee rebellen met onder meer een
-  flinke food fight een spoor van destructie achter.
-DTEND:20250309T203000
-DTSTAMP:20250309T065644Z
-DTSTART:20250309T183000
+DESCRIPTION:De Italiaanse schrijver Paolo Cognetti brak wereldwijd door me
+ t zijn roman De Acht Bergen\, die een paar jaar later even succesvol verf
+ ilmd werd. In deze door hem geregisseerde documentaire keert hij terug na
+ ar de door hem zo geliefde Italiaanse Alpen met zijn trouwe hond Laki.
+DTEND:20250311T204500
+DTSTAMP:20250310T065653Z
+DTSTART:20250311T184500
 SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Daisies (1966) | Klassieker
-UID:15c78667-2b60-497c-909f-224b36eb3c36
+SUMMARY:Filmtheater Hilversum: Fiore Mio
+UID:cd82e4f1-979a-4063-8bae-15f46724b1fd
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Timothée Chalamet schittert als Bob Dylan in het waargebeurde 
- verhaal achter de opkomst van een van de meest iconische singer-songwrite
- rs uit de geschiedenis. New York\, begin jaren ’60. Een 19-jarige man uit
-  Minnesota komt aan in een levendige muziekscene tijdens een onrustige cu
- lturele tijd in de West Village.
-DTEND:20250309T213500
-DTSTAMP:20250309T065646Z
-DTSTART:20250309T193500
+DESCRIPTION:De Italiaanse schrijver Paolo Cognetti brak wereldwijd door me
+ t zijn roman De Acht Bergen\, die een paar jaar later even succesvol verf
+ ilmd werd. In deze door hem geregisseerde documentaire keert hij terug na
+ ar de door hem zo geliefde Italiaanse Alpen met zijn trouwe hond Laki.
+DTEND:20250316T124500
+DTSTAMP:20250310T065653Z
+DTSTART:20250316T104500
 SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: A Complete Unknown
-UID:636a1269-a57a-4354-a612-bc1135d2c066
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Timothée Chalamet schittert als Bob Dylan in het waargebeurde 
- verhaal achter de opkomst van een van de meest iconische singer-songwrite
- rs uit de geschiedenis. New York\, begin jaren ’60. Een 19-jarige man uit
-  Minnesota komt aan in een levendige muziekscene tijdens een onrustige cu
- lturele tijd in de West Village.
-DTEND:20250310T225000
-DTSTAMP:20250309T065646Z
-DTSTART:20250310T205000
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: A Complete Unknown
-UID:a7f2d074-7ea3-4151-b1ca-b2a743a9a771
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Timothée Chalamet schittert als Bob Dylan in het waargebeurde 
- verhaal achter de opkomst van een van de meest iconische singer-songwrite
- rs uit de geschiedenis. New York\, begin jaren ’60. Een 19-jarige man uit
-  Minnesota komt aan in een levendige muziekscene tijdens een onrustige cu
- lturele tijd in de West Village.
-DTEND:20250311T202500
-DTSTAMP:20250309T065646Z
-DTSTART:20250311T182500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: A Complete Unknown
-UID:4404212a-7d7e-4394-a10c-887191484901
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Timothée Chalamet schittert als Bob Dylan in het waargebeurde 
- verhaal achter de opkomst van een van de meest iconische singer-songwrite
- rs uit de geschiedenis. New York\, begin jaren ’60. Een 19-jarige man uit
-  Minnesota komt aan in een levendige muziekscene tijdens een onrustige cu
- lturele tijd in de West Village.
-DTEND:20250312T232000
-DTSTAMP:20250309T065646Z
-DTSTART:20250312T212000
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: A Complete Unknown
-UID:9f8ae517-f95d-4c2f-9c39-1b93b7142111
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Monsieur Aznavour volgt het leven van de iconische Frans-Armee
- nse zanger\, songwriter en acteur Charles Aznavour.
-DTEND:20250309T221500
-DTSTAMP:20250309T065647Z
-DTSTART:20250309T201500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Monsieur Aznavour – Laatste kans
-UID:923a150c-6178-48bb-835e-a5a2505d75da
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Paolo Sorrentino’s ode aan de stad Napels. Sorrentino (La Gran
- de Bellezza\, Youth) weet haar schoonheid in schilderachtige beelden te v
- angen\, met Celeste Dalla Porta in de titelrol en Gary Oldman in een onve
- rgetelijke bijrol.
-DTEND:20250309T224500
-DTSTAMP:20250309T065648Z
-DTSTART:20250309T204500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Parthenope
-UID:7b97c4f4-dddd-454a-bfd6-27bc2c019424
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Paolo Sorrentino’s ode aan de stad Napels. Sorrentino (La Gran
- de Bellezza\, Youth) weet haar schoonheid in schilderachtige beelden te v
- angen\, met Celeste Dalla Porta in de titelrol en Gary Oldman in een onve
- rgetelijke bijrol.
-DTEND:20250310T200000
-DTSTAMP:20250309T065648Z
-DTSTART:20250310T180000
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Parthenope
-UID:d8e27ce3-3894-4d3e-8078-dc9e79adfb09
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Paolo Sorrentino’s ode aan de stad Napels. Sorrentino (La Gran
- de Bellezza\, Youth) weet haar schoonheid in schilderachtige beelden te v
- angen\, met Celeste Dalla Porta in de titelrol en Gary Oldman in een onve
- rgetelijke bijrol.
-DTEND:20250311T154500
-DTSTAMP:20250309T065648Z
-DTSTART:20250311T134500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Parthenope
-UID:ec0f1381-917f-4793-8474-25e2111a89e8
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Paolo Sorrentino’s ode aan de stad Napels. Sorrentino (La Gran
- de Bellezza\, Youth) weet haar schoonheid in schilderachtige beelden te v
- angen\, met Celeste Dalla Porta in de titelrol en Gary Oldman in een onve
- rgetelijke bijrol.
-DTEND:20250312T180000
-DTSTAMP:20250309T065648Z
-DTSTART:20250312T160000
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Parthenope
-UID:83aa0a33-dece-4523-8886-e2214cff800d
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Zingend en dansend genieten Qiaoqiao en Bin van elkaar en alle
- s wat hun stad te bieden heeft. Tot Bin besluit dat hij zijn geluk in een
-  grotere stad wil beproeven. Zonder iets te laten weten\, vertrekt hij. J
- aren later gaat Qiaoqiao op reis om hem te zoeken.
-DTEND:20250310T183000
-DTSTAMP:20250309T065649Z
-DTSTART:20250310T163000
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Caught by the Tides
-UID:3b349389-9677-416a-b469-ddb72de126c9
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Becoming Led Zeppelin toont het ontstaan van de legendarische 
- rockband\, die tegen alle verwachtingen in een bliksemsnelle opmars maakt
- e. De eerste geautoriseerde documentaire over de band ooit.
-DTEND:20250310T204500
-DTSTAMP:20250309T065651Z
-DTSTART:20250310T184500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Becoming Led Zeppelin
-UID:e83536b6-2190-450b-8035-07726ac85cd5
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Becoming Led Zeppelin toont het ontstaan van de legendarische 
- rockband\, die tegen alle verwachtingen in een bliksemsnelle opmars maakt
- e. De eerste geautoriseerde documentaire over de band ooit.
-DTEND:20250313T181500
-DTSTAMP:20250309T065651Z
-DTSTART:20250313T161500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Becoming Led Zeppelin
-UID:c9826940-1c35-4755-8cb8-2284f754d61d
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Becoming Led Zeppelin toont het ontstaan van de legendarische 
- rockband\, die tegen alle verwachtingen in een bliksemsnelle opmars maakt
- e. De eerste geautoriseerde documentaire over de band ooit.
-DTEND:20250317T204500
-DTSTAMP:20250309T065651Z
-DTSTART:20250317T184500
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Becoming Led Zeppelin
-UID:5fc4085c-0280-4b2f-b39e-1a08fde63cbc
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Na de dood van zijn moeder vertrekt Rein naar een klein dorp i
- n de Alpen waar hij aan de slag gaat als snowboardleraar. Zijn rustige le
- ven wordt verstoord wanneer zijn extraverte vader Gijs op bezoek komt en 
- een dominante schaduw over zijn leven werpt.
-DTEND:20250310T232000
-DTSTAMP:20250309T065652Z
-DTSTART:20250310T212000
-SEQUENCE:0
-SUMMARY:Filmtheater Hilversum: Alpha
-UID:f90f2d76-8bcb-4772-8244-12c123816fa4
+SUMMARY:Filmtheater Hilversum: Fiore Mio
+UID:9877aa45-5cfd-439f-be4d-159c764bde84
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Met kwetsbaarheid en ongelooflijke moed confronteert een Brazi
  liaans meisje het systeem dat haar en alle vrouwen onderdrukt.
 DTEND:20250311T210000
-DTSTAMP:20250309T065653Z
+DTSTAMP:20250310T065654Z
 DTSTART:20250311T190000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Manas | Movies that Matter on Tour
-UID:a2d324d2-c6ed-4fa7-875a-562268cff6a5
+UID:8942be6f-7474-4d7c-a416-8ee934024d35
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Epische vertelling van Brady Corbet (Vox Lux) over een Hongaar
@@ -570,11 +373,11 @@ DESCRIPTION:Epische vertelling van Brady Corbet (Vox Lux) over een Hongaar
  rien Brody. Bekroond met drie Oscars (Beste Mannelijke Hoofdrol\, Beste C
  inematografie en Beste Muziek) en drie Golden Globes!
 DTEND:20250312T161500
-DTSTAMP:20250309T065655Z
+DTSTAMP:20250310T065655Z
 DTSTART:20250312T141500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Brutalist
-UID:c861d5d6-f237-45b5-9fe0-ae773c330d47
+UID:54e2ece1-9354-4dab-a515-ae0c1cb2525f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De stop-motionanimatiefilms van Adam Elliot zijn semi-fictione
@@ -582,11 +385,11 @@ DESCRIPTION:De stop-motionanimatiefilms van Adam Elliot zijn semi-fictione
  in de details worden blootgesteld aan de kijker. Zelf noemt Elliot zijn f
  ilms “clayographies”\, biografieën van klei.
 DTEND:20250312T210000
-DTSTAMP:20250309T065656Z
+DTSTAMP:20250310T065657Z
 DTSTART:20250312T190000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Memoir of a Snail
-UID:249453f1-c5df-461e-8b3e-5a267a7955e2
+UID:e8aebb07-4ca1-4740-a18f-1740063bf279
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De stop-motionanimatiefilms van Adam Elliot zijn semi-fictione
@@ -594,11 +397,11 @@ DESCRIPTION:De stop-motionanimatiefilms van Adam Elliot zijn semi-fictione
  in de details worden blootgesteld aan de kijker. Zelf noemt Elliot zijn f
  ilms “clayographies”\, biografieën van klei.
 DTEND:20250313T204500
-DTSTAMP:20250309T065656Z
+DTSTAMP:20250310T065657Z
 DTSTART:20250313T184500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Memoir of a Snail
-UID:f1ed429e-3549-4ed8-91a2-78eec4e982a1
+UID:54d58121-4ce9-43f6-ae25-91ab36320916
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Regisseur Walter Salles\, die in 2012 de filmwereld bestormde 
@@ -607,11 +410,11 @@ DESCRIPTION:Regisseur Walter Salles\, die in 2012 de filmwereld bestormde
   voor het eerst in 16 jaar terug naar zijn thuisland Brazilië. Bekroond m
  et de Oscar voor Beste Internationale Film.
 DTEND:20250313T123000
-DTSTAMP:20250309T065657Z
+DTSTAMP:20250310T065658Z
 DTSTART:20250313T103000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: I’m Still Here
-UID:ffdd7e6b-6f12-47e9-971d-64b6ed939aca
+UID:81a7ca0d-71b4-4953-a939-e1dd493b4675
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Regisseur Walter Salles\, die in 2012 de filmwereld bestormde 
@@ -620,11 +423,11 @@ DESCRIPTION:Regisseur Walter Salles\, die in 2012 de filmwereld bestormde
   voor het eerst in 16 jaar terug naar zijn thuisland Brazilië. Bekroond m
  et de Oscar voor Beste Internationale Film.
 DTEND:20250313T203000
-DTSTAMP:20250309T065657Z
+DTSTAMP:20250310T065658Z
 DTSTART:20250313T183000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: I’m Still Here
-UID:9230701f-9651-43bb-af54-bbf96aa06055
+UID:24a46e1b-afc1-43c0-86ba-4bfbbb19efe2
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Regisseur Walter Salles\, die in 2012 de filmwereld bestormde 
@@ -633,11 +436,11 @@ DESCRIPTION:Regisseur Walter Salles\, die in 2012 de filmwereld bestormde
   voor het eerst in 16 jaar terug naar zijn thuisland Brazilië. Bekroond m
  et de Oscar voor Beste Internationale Film.
 DTEND:20250316T171500
-DTSTAMP:20250309T065657Z
+DTSTAMP:20250310T065658Z
 DTSTART:20250316T151500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: I’m Still Here
-UID:b71c2cf4-ef18-4038-b038-5d2e330aab47
+UID:fe4ded96-75c7-4c05-8b02-9d7ea0087e90
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Wie erbij was afgelopen november weet dat En Fanfare de openin
@@ -645,11 +448,11 @@ DESCRIPTION:Wie erbij was afgelopen november weet dat En Fanfare de openin
  owel hartverwarmend als hartverscheurend\, en was een groot bioscoopsucce
  s in Frankrijk en België.
 DTEND:20250313T124500
-DTSTAMP:20250309T065658Z
+DTSTAMP:20250310T065659Z
 DTSTART:20250313T104500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: En Fanfare
-UID:c3a6b9bc-7ded-49e4-aa70-1e672dc6f63b
+UID:283efe0e-f501-4253-9f3e-7f888bd31b2e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Wie erbij was afgelopen november weet dat En Fanfare de openin
@@ -657,11 +460,11 @@ DESCRIPTION:Wie erbij was afgelopen november weet dat En Fanfare de openin
  owel hartverwarmend als hartverscheurend\, en was een groot bioscoopsucce
  s in Frankrijk en België.
 DTEND:20250313T160000
-DTSTAMP:20250309T065658Z
+DTSTAMP:20250310T065659Z
 DTSTART:20250313T140000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: En Fanfare
-UID:c401b52d-1d9a-40e7-abcb-b8103c45f049
+UID:855e502e-ddf0-4d93-a0f9-6ccbed9e59ae
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Wie erbij was afgelopen november weet dat En Fanfare de openin
@@ -669,11 +472,11 @@ DESCRIPTION:Wie erbij was afgelopen november weet dat En Fanfare de openin
  owel hartverwarmend als hartverscheurend\, en was een groot bioscoopsucce
  s in Frankrijk en België.
 DTEND:20250313T210000
-DTSTAMP:20250309T065658Z
+DTSTAMP:20250310T065659Z
 DTSTART:20250313T190000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: En Fanfare
-UID:cd7af0a7-c94a-4b74-9d92-5645c57f4fc5
+UID:a5d423d8-7930-42a9-8114-b1e47df80e8e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Wie erbij was afgelopen november weet dat En Fanfare de openin
@@ -681,11 +484,11 @@ DESCRIPTION:Wie erbij was afgelopen november weet dat En Fanfare de openin
  owel hartverwarmend als hartverscheurend\, en was een groot bioscoopsucce
  s in Frankrijk en België.
 DTEND:20250315T130000
-DTSTAMP:20250309T065658Z
+DTSTAMP:20250310T065659Z
 DTSTART:20250315T110000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: En Fanfare
-UID:582071ca-84f5-49c2-ad2e-9f3a96acc30c
+UID:cfd8bb98-e1a9-4bf7-a1c3-617b70a2ef7b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Wie erbij was afgelopen november weet dat En Fanfare de openin
@@ -693,21 +496,21 @@ DESCRIPTION:Wie erbij was afgelopen november weet dat En Fanfare de openin
  owel hartverwarmend als hartverscheurend\, en was een groot bioscoopsucce
  s in Frankrijk en België.
 DTEND:20250316T144500
-DTSTAMP:20250309T065658Z
+DTSTAMP:20250310T065659Z
 DTSTART:20250316T124500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: En Fanfare
-UID:196a617e-2938-4006-b03d-287ce5897760
+UID:86b153be-d8d4-4740-bd08-20ecdfa832fa
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Een tragikomische mozaïek-film over zes disfunctionele familie
  leden die op zoek gaan naar de perfecte vervulling van het leven.
 DTEND:20250313T184000
-DTSTAMP:20250309T065700Z
+DTSTAMP:20250310T065701Z
 DTSTART:20250313T164000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: De Idylle
-UID:93e07ab2-573b-40fb-b3fb-46e48a586825
+UID:43f25261-c736-4248-bc8f-4a4522102609
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Tijdens de eerste editie van de internationale Amateur Movie D
@@ -715,11 +518,11 @@ DESCRIPTION:Tijdens de eerste editie van de internationale Amateur Movie D
   uit de collectie van het voormalig Smalfilmmuseum\, onderdeel van Beeld 
  & Geluid.
 DTEND:20250315T123000
-DTSTAMP:20250309T065701Z
+DTSTAMP:20250310T065702Z
 DTSTART:20250315T103000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Amateur Movie Day
-UID:c8b281c1-5814-47b5-932d-5b8e13c6de17
+UID:713affba-befa-41fa-a498-c45755e017cd
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De wonderbaarlijke\, adembenemende odyssee van een jonge kat d
@@ -727,11 +530,11 @@ DESCRIPTION:De wonderbaarlijke\, adembenemende odyssee van een jonge kat d
  rgelopen aarde. Bekroond met de Oscar voor Beste Animatiefilm en daarom n
  og eenmalig bij ons te zien!
 DTEND:20250315T124500
-DTSTAMP:20250309T065702Z
+DTSTAMP:20250310T065704Z
 DTSTART:20250315T104500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Flow
-UID:9ebff757-213c-41f3-ab8d-ca18e6927856
+UID:d08a9f21-ea3b-4902-b8ce-bfdfaf619b56
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Anora is de grote winnaar van de Oscars dit jaar en ontving ma
@@ -741,11 +544,11 @@ DESCRIPTION:Anora is de grote winnaar van de Oscars dit jaar en ontving ma
  l. Genoeg reden dus om Anora nog een aantal keer terug te halen naar onze
   filmzalen!
 DTEND:20250315T180000
-DTSTAMP:20250309T065704Z
+DTSTAMP:20250310T065706Z
 DTSTART:20250315T160000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Anora
-UID:1b841991-3be2-4395-9f46-7f3551d777fb
+UID:5d68e9e0-1b0b-44eb-b38c-cbac490b6a9c
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Anora is de grote winnaar van de Oscars dit jaar en ontving ma
@@ -755,21 +558,21 @@ DESCRIPTION:Anora is de grote winnaar van de Oscars dit jaar en ontving ma
  l. Genoeg reden dus om Anora nog een aantal keer terug te halen naar onze
   filmzalen!
 DTEND:20250317T174500
-DTSTAMP:20250309T065704Z
+DTSTAMP:20250310T065706Z
 DTSTART:20250317T154500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Anora
-UID:49239475-2b65-46d9-9bc9-d3547d9d38f5
+UID:36237c64-a7ba-42e5-a911-3d283297d240
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Beeldschone Italiaanse familiekroniek over een groot gezin in 
  een bergdorp tijdens het laatste jaar van de Tweede Wereldoorlog.
 DTEND:20250316T113000
-DTSTAMP:20250309T065705Z
+DTSTAMP:20250310T065707Z
 DTSTART:20250316T093000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Vermiglio | Ontbijt & Film
-UID:ccb7b429-45ce-49b0-bf54-1efb3213e959
+UID:b1b6bbee-2c18-40dd-8043-8f1059c64313
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:1944. In Vermiglio\, een bergdorpje in de Italiaanse Alpen\, w
@@ -778,33 +581,45 @@ DESCRIPTION:1944. In Vermiglio\, een bergdorpje in de Italiaanse Alpen\, w
  amiek van het anders zo rustige dorp\, en vooral die binnen het gezin van
   de onderwijzer.
 DTEND:20250316T123000
-DTSTAMP:20250309T065706Z
+DTSTAMP:20250310T065708Z
 DTSTART:20250316T103000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Vermiglio | Voorpremière
-UID:c4722cc6-ad28-4493-a16a-6a2fa95e88f4
+UID:bcefbcd1-c181-4848-9153-b26af4f46015
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Is muziek een antwoord op oorlogsgeweld? Voor Syrische klarine
+ ttist Kinan Azmeh is het musiceren in elk geval ‘an act of freedom’. In h
+ et iconische Hamburgse theater Elbphilharmonie bereidt Kinan zich voor op
+  Salām Syria\, een festival gewijd aan Syrische muziek.
+DTEND:20250316T183000
+DTSTAMP:20250310T065710Z
+DTSTART:20250316T163000
+SEQUENCE:0
+SUMMARY:Filmtheater Hilversum: Half Moon
+UID:db3f2f28-5ab3-4cca-ae41-409a6fcaaefc
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:When The Light Breaks speelt zich af tijdens een lange zomerda
  g in IJsland. Tussen twee zonsondergangen wordt de jonge kunststudente Un
  a geconfronteerd met liefde\, vriendschap\, verdriet en schoonheid.
 DTEND:20250316T203000
-DTSTAMP:20250309T065707Z
+DTSTAMP:20250310T065711Z
 DTSTART:20250316T183000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: When The Light Breaks – Laatste kans
-UID:d7829d20-7332-4b03-9706-09d754f123bb
+UID:9beb3957-751a-4fa2-b9bd-694dd939547a
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Babygirl\, geschreven en geregisseerd door Halina Reijn\, is e
  en erotische thriller waarin een succesvolle CEO (Nicole Kidman) een gehe
  ime affaire krijgt met een jongere stagiair (Harris Dickinson).
 DTEND:20250318T153000
-DTSTAMP:20250309T065709Z
+DTSTAMP:20250310T065712Z
 DTSTART:20250318T133000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Babygirl
-UID:2f6638f2-5ea7-46d5-ba08-0a0cda8ccf0a
+UID:951cea3e-41fd-4c85-b63a-6b9b0e241c84
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Na de dood van haar adoptieouders neemt een succesvolle jonge 
@@ -812,11 +627,11 @@ DESCRIPTION:Na de dood van haar adoptieouders neemt een succesvolle jonge
   witte fabrieksarbeidster die in armoede leeft in Oost-Londen. Winnaar va
  n de prestigieuze Gouden Palm op het filmfestival in Cannes in 1996.
 DTEND:20250318T180000
-DTSTAMP:20250309T065710Z
+DTSTAMP:20250310T065714Z
 DTSTART:20250318T160000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Secrets & Lies (1996) – Laatste kans
-UID:2f4209ec-84c2-4ba4-80a8-05cb2b48bd59
+UID:c4ca0310-7d8b-4673-8a2a-4d66b6e260b4
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Vanaf dinsdag 18 maart: een nieuwe vierdelige filmcursus door 
@@ -825,12 +640,12 @@ DESCRIPTION:Vanaf dinsdag 18 maart: een nieuwe vierdelige filmcursus door
  te laag. De juiste combinatie van melodieën\, harmonieën en ritmes roepen
   bij ons spanning\, vreugde\, verdriet of angst op.
 DTEND:20250318T213000
-DTSTAMP:20250309T065711Z
+DTSTAMP:20250310T065715Z
 DTSTART:20250318T193000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Cursus Filmmuziek: het werk van vier iconis
  che filmcomponisten
-UID:66adc4d9-bfa2-4242-bf0b-85f2097a776d
+UID:aaaaa1b7-26d9-4d5b-a3dc-3332b4891f2c
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Iman maakt promotie en wordt onderzoeksrechter bij de revoluti
@@ -839,11 +654,11 @@ DESCRIPTION:Iman maakt promotie en wordt onderzoeksrechter bij de revoluti
  t met wantrouwen en paranoia\, terwijl de politieke protesten in het land
   escaleren.
 DTEND:20250319T210000
-DTSTAMP:20250309T065712Z
+DTSTAMP:20250310T065717Z
 DTSTART:20250319T190000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Seed of the Sacred Fig
-UID:fcc8ec9c-9a9c-4a67-9ebd-a48bd499db03
+UID:e20dd13c-e741-4d8e-808e-3ccae1a0cb45
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Iman maakt promotie en wordt onderzoeksrechter bij de revoluti
@@ -852,11 +667,11 @@ DESCRIPTION:Iman maakt promotie en wordt onderzoeksrechter bij de revoluti
  t met wantrouwen en paranoia\, terwijl de politieke protesten in het land
   escaleren.
 DTEND:20250320T123000
-DTSTAMP:20250309T065712Z
+DTSTAMP:20250310T065717Z
 DTSTART:20250320T103000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Seed of the Sacred Fig
-UID:a66032c6-808e-4aae-bc16-702275ba7af0
+UID:750ded9f-ae6b-4cd3-8aed-9cd5b752f8d7
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Iman maakt promotie en wordt onderzoeksrechter bij de revoluti
@@ -865,11 +680,11 @@ DESCRIPTION:Iman maakt promotie en wordt onderzoeksrechter bij de revoluti
  t met wantrouwen en paranoia\, terwijl de politieke protesten in het land
   escaleren.
 DTEND:20250320T223000
-DTSTAMP:20250309T065712Z
+DTSTAMP:20250310T065717Z
 DTSTART:20250320T203000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Seed of the Sacred Fig
-UID:1cdcf891-185c-45a3-98b2-ddb31f52f05b
+UID:a8ea1c78-e906-46d5-b110-c28f5eaecc89
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Iman maakt promotie en wordt onderzoeksrechter bij de revoluti
@@ -878,43 +693,43 @@ DESCRIPTION:Iman maakt promotie en wordt onderzoeksrechter bij de revoluti
  t met wantrouwen en paranoia\, terwijl de politieke protesten in het land
   escaleren.
 DTEND:20250403T221500
-DTSTAMP:20250309T065712Z
+DTSTAMP:20250310T065717Z
 DTSTART:20250403T201500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Seed of the Sacred Fig
-UID:bcee9638-662b-42c9-9ee1-4af8cacb5c97
+UID:6fe03552-0f0c-4b15-9428-eaad6b6650a5
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Geniet van een bijzondere live-uitvoering van enkele van Hans 
  Zimmers meest geliefde composities\, zoals muziek uit Dune\, Gladiator\, 
  Interstellar en The Lion King.
 DTEND:20250319T223000
-DTSTAMP:20250309T065714Z
+DTSTAMP:20250310T065718Z
 DTSTART:20250319T203000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Hans Zimmer & Friends: Diamond in the Desert
-UID:f600aea2-2e72-4f13-b34b-2fc4bd055a8d
+UID:933a8f6b-f5de-4a9f-b1f9-62e1179bf380
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Geniet van een bijzondere live-uitvoering van enkele van Hans 
  Zimmers meest geliefde composities\, zoals muziek uit Dune\, Gladiator\, 
  Interstellar en The Lion King.
 DTEND:20250323T171500
-DTSTAMP:20250309T065714Z
+DTSTAMP:20250310T065718Z
 DTSTART:20250323T151500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Hans Zimmer & Friends: Diamond in the Desert
-UID:b4a04fcb-7f00-40ad-b4f3-c6fb7bfed264
+UID:faa8534e-be7c-4bd3-989c-6fe5117acbc5
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Italiaanse familiekroniek over een groot gezin in een bergdorp
   tijdens het laatste jaar van de Tweede Wereldoorlog.
 DTEND:20250320T130000
-DTSTAMP:20250309T065715Z
+DTSTAMP:20250310T065720Z
 DTSTART:20250320T110000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Vermiglio
-UID:7f9e5b1d-f0b1-4def-83ba-f642bca674e6
+UID:39407204-e879-427c-9baf-205da218f9d1
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De jonge Edmond Dantès\, slachtoffer van een samenzwering\, wo
@@ -924,11 +739,11 @@ DESCRIPTION:De jonge Edmond Dantès\, slachtoffer van een samenzwering\, wo
  f van Monte Cristo om wraak te nemen op de drie mannen die hem hebben ver
  raden.
 DTEND:20250320T160000
-DTSTAMP:20250309T065716Z
+DTSTAMP:20250310T065721Z
 DTSTART:20250320T140000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Le Comte de Monte-Cristo | SENVER
-UID:b662c5a9-f87a-4f8d-b56c-04064fe16594
+UID:bb454b23-9f59-4066-bd00-91fb733642c3
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Terwijl de tweede Wereldoorlog de wereld verscheurt\, leven ee
@@ -937,11 +752,11 @@ DESCRIPTION:Terwijl de tweede Wereldoorlog de wereld verscheurt\, leven ee
  ng het meisje te redden. Tegen alle gevaren en hun eigen vooroordelen in\
  , besluit het echtpaar het kind te beschermen.
 DTEND:20250320T204500
-DTSTAMP:20250309T065717Z
+DTSTAMP:20250310T065723Z
 DTSTART:20250320T184500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Most Precious of Cargoes
-UID:7be2f17b-cd10-4fbb-b63e-cd181e7187f2
+UID:824e9b32-b7c2-4abd-9a58-5c70ab4246d6
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De meest aangrijpende liefdesgeschiedenis aller tijden in een 
@@ -949,11 +764,11 @@ DESCRIPTION:De meest aangrijpende liefdesgeschiedenis aller tijden in een
  ad Verona. Door de oplopende spanningen breken er al snel vechtpartijen u
  it waarbij beide families zware verliezen lijden.
 DTEND:20250320T221500
-DTSTAMP:20250309T065719Z
+DTSTAMP:20250310T065724Z
 DTSTART:20250320T201500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Romeo en Julia | The Royal Ballet 24/25
-UID:d547b9bf-4aee-439f-abb2-5021bdc53143
+UID:e06c7e83-7294-4ef4-95b1-16182c8bfa78
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De meest aangrijpende liefdesgeschiedenis aller tijden in een 
@@ -961,11 +776,11 @@ DESCRIPTION:De meest aangrijpende liefdesgeschiedenis aller tijden in een
  ad Verona. Door de oplopende spanningen breken er al snel vechtpartijen u
  it waarbij beide families zware verliezen lijden.
 DTEND:20250406T160000
-DTSTAMP:20250309T065719Z
+DTSTAMP:20250310T065724Z
 DTSTART:20250406T140000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Romeo en Julia | The Royal Ballet 24/25
-UID:d5c017c5-acf0-447b-a264-b2f14f6415d6
+UID:09f1f39a-4cab-4a8a-941c-73115c5c232c
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Speciale\, eenmalige vertoning van samenwerkende filmtheaters 
@@ -977,12 +792,12 @@ DESCRIPTION:Speciale\, eenmalige vertoning van samenwerkende filmtheaters
  Afro-Amerikaanse mannen die samen de gruwelijke beproevingen van een refo
  rmatorische school in Florida doorstaan.
 DTEND:20250321T204500
-DTSTAMP:20250309T065720Z
+DTSTAMP:20250310T065725Z
 DTSTART:20250321T184500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Nickel Boys | Internationale Dag tegen Raci
  sme en Discriminatie
-UID:bb9f00fb-8df4-45bd-8cc6-1be05691c9c3
+UID:40b9c3dc-0ea9-4b2c-a22c-e34409c7b5d7
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Heerlijke\, ontroerende feelgood documentaire met een lach en 
@@ -992,11 +807,11 @@ DESCRIPTION:Heerlijke\, ontroerende feelgood documentaire met een lach en
  nkrijk\, waarbij ze dezelfde autorit maken die het gezin elke zomer tijde
  ns Filips jeugd ondernam.
 DTEND:20250322T130000
-DTSTAMP:20250309T065721Z
+DTSTAMP:20250310T065727Z
 DTSTART:20250322T110000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Last Journey
-UID:2b831868-5341-44ec-832e-03c95ebc54c4
+UID:fb5882d2-bda6-4baa-b6cf-d4c63cff951b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Heerlijke\, ontroerende feelgood documentaire met een lach en 
@@ -1006,44 +821,44 @@ DESCRIPTION:Heerlijke\, ontroerende feelgood documentaire met een lach en
  nkrijk\, waarbij ze dezelfde autorit maken die het gezin elke zomer tijde
  ns Filips jeugd ondernam.
 DTEND:20250325T160000
-DTSTAMP:20250309T065721Z
+DTSTAMP:20250310T065727Z
 DTSTART:20250325T140000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Last Journey
-UID:15945a14-f3ba-4d73-ac5a-677d1301ff5d
+UID:ed4fa0bd-59a3-4699-971d-caa5c4480004
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Met Everybody loves Touda is regisseur Nabil Ayouch (Much Love
  d) terug in Cannes met een film over de positie van de vrouw in de Marokk
  aanse maatschappij.
 DTEND:20250326T204500
-DTSTAMP:20250309T065722Z
+DTSTAMP:20250310T065728Z
 DTSTART:20250326T184500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Everybody loves Touda
-UID:dee1392d-f367-4e37-940a-c04c0e4ab5cf
+UID:e884d5b2-b6df-4542-82a2-bdce9d4fe7cb
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Met Everybody loves Touda is regisseur Nabil Ayouch (Much Love
  d) terug in Cannes met een film over de positie van de vrouw in de Marokk
  aanse maatschappij.
 DTEND:20250327T130000
-DTSTAMP:20250309T065722Z
+DTSTAMP:20250310T065728Z
 DTSTART:20250327T110000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Everybody loves Touda
-UID:7d59d129-258c-4fc3-9994-229fd2c239eb
+UID:8e6f403f-1f3a-4d03-9507-b6bfbbf10041
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Met Everybody loves Touda is regisseur Nabil Ayouch (Much Love
  d) terug in Cannes met een film over de positie van de vrouw in de Marokk
  aanse maatschappij.
 DTEND:20250327T230500
-DTSTAMP:20250309T065722Z
+DTSTAMP:20250310T065728Z
 DTSTART:20250327T210500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Everybody loves Touda
-UID:06276b78-f4bc-46a5-b5bd-a7832e16df2e
+UID:da27a64a-9342-404c-afad-694d46ebdc70
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De Indonesische transvrouw Agnes heeft haar draai gevonden en 
@@ -1053,11 +868,11 @@ DESCRIPTION:De Indonesische transvrouw Agnes heeft haar draai gevonden en
  r leven op zijn kop. Kan ze tegen hem blijven liegen over wie ze is? Agne
  s is woensdag 26 maart bij ons te gast voor een nagesprek.
 DTEND:20250326T210000
-DTSTAMP:20250309T065724Z
+DTSTAMP:20250310T065729Z
 DTSTART:20250326T190000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Call Me Agnes + Q&A | Rainbow Night
-UID:8697efbe-0c76-4e9b-b01b-b4e9db17e4f3
+UID:90430f9b-4389-4e87-8f43-8d2db1013bed
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De Portugese Aurora werkt in een sorteercentrum in Schotland. 
@@ -1065,11 +880,11 @@ DESCRIPTION:De Portugese Aurora werkt in een sorteercentrum in Schotland.
  algoritme de werkdruk bepaalt\, worstelt ze met de eentonigheid van haar 
  baan.
 DTEND:20250327T123000
-DTSTAMP:20250309T065725Z
+DTSTAMP:20250310T065731Z
 DTSTART:20250327T103000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: On Falling
-UID:243655c8-524c-4605-9d51-1456ec786890
+UID:9c40a76a-f821-4c95-8818-9de8f6bd7ec0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De Portugese Aurora werkt in een sorteercentrum in Schotland. 
@@ -1077,11 +892,11 @@ DESCRIPTION:De Portugese Aurora werkt in een sorteercentrum in Schotland.
  algoritme de werkdruk bepaalt\, worstelt ze met de eentonigheid van haar 
  baan.
 DTEND:20250327T210000
-DTSTAMP:20250309T065725Z
+DTSTAMP:20250310T065731Z
 DTSTART:20250327T190000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: On Falling
-UID:094807d3-3f98-45c3-a8a7-5721e9490fe5
+UID:a709fa2b-5680-4096-b06d-d79f2d37a23b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Aan de hand van familiefilms\, propagandafilms en audio-interv
@@ -1089,11 +904,11 @@ DESCRIPTION:Aan de hand van familiefilms\, propagandafilms en audio-interv
  898-1975). Regisseur Luuk Bouwman is op zondag 30 maart om 14.00 uur te g
  ast voor een nagesprek na de vertoning van de film.
 DTEND:20250327T204500
-DTSTAMP:20250309T065726Z
+DTSTAMP:20250310T065732Z
 DTSTART:20250327T184500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: De Propagandist
-UID:3a3c9b0e-9083-47d5-8433-6176f09e1add
+UID:0a99e18e-cc50-4085-ad65-88e5d5e5dff5
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Aan de hand van familiefilms\, propagandafilms en audio-interv
@@ -1101,11 +916,11 @@ DESCRIPTION:Aan de hand van familiefilms\, propagandafilms en audio-interv
  898-1975). Regisseur Luuk Bouwman is op zondag 30 maart om 14.00 uur te g
  ast voor een nagesprek na de vertoning van de film.
 DTEND:20250330T160000
-DTSTAMP:20250309T065726Z
+DTSTAMP:20250310T065732Z
 DTSTART:20250330T140000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: De Propagandist
-UID:14f25bbd-8cad-4550-a2f9-c72779f0521b
+UID:7718a395-4563-4b9e-9c96-eaffa8fd6da3
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De zussen September en July zijn onafscheidelijk en begrijpen 
@@ -1114,11 +929,11 @@ DESCRIPTION:De zussen September en July zijn onafscheidelijk en begrijpen
  es met aparte gewoontes en een onconventionele uitstraling. Ze vullen hun
   dagen met rituele spelletjes en leven in hun eigen wereld.
 DTEND:20250327T232000
-DTSTAMP:20250309T065727Z
+DTSTAMP:20250310T065733Z
 DTSTART:20250327T212000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: September Says
-UID:1656151d-a7a6-427b-b2f0-b0cabe5f75fc
+UID:310541b4-c714-4844-9bbe-ae1cc4898701
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De boeiende opera van Puccini over een koudbloedige prinses en
@@ -1126,11 +941,11 @@ DESCRIPTION:De boeiende opera van Puccini over een koudbloedige prinses en
  er geliefde en beroemde ‘Nessun dorma’\, wordt in een schitterende produc
  tie tot leven gebracht.
 DTEND:20250401T221500
-DTSTAMP:20250309T065729Z
+DTSTAMP:20250310T065735Z
 DTSTART:20250401T201500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Turandot | The Royal Opera 24/25
-UID:b005bf45-94ab-474e-a510-ec577a25212f
+UID:2a6cdfbf-3456-495e-9826-d8514769d8d9
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De boeiende opera van Puccini over een koudbloedige prinses en
@@ -1138,11 +953,11 @@ DESCRIPTION:De boeiende opera van Puccini over een koudbloedige prinses en
  er geliefde en beroemde ‘Nessun dorma’\, wordt in een schitterende produc
  tie tot leven gebracht.
 DTEND:20250420T160000
-DTSTAMP:20250309T065729Z
+DTSTAMP:20250310T065735Z
 DTSTART:20250420T140000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Turandot | The Royal Opera 24/25
-UID:54364b11-1033-4f9c-a498-1fbc73d061bd
+UID:ea7e1f13-f3c9-47fa-8e90-fc6f58fa8183
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De achttienjarige Totone brengt zijn tijd door met feesten en 
@@ -1152,11 +967,11 @@ DESCRIPTION:De achttienjarige Totone brengt zijn tijd door met feesten en
  nanciële problemen. Om zich daar uit te redden\, besluit Totone mee te do
  en aan een wedstrijd voor de beste Comté-kaas in de regio.
 DTEND:20250403T123000
-DTSTAMP:20250309T065730Z
+DTSTAMP:20250310T065736Z
 DTSTART:20250403T103000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Vingt Dieux
-UID:26069641-323f-4248-be45-6ac01a06b259
+UID:8f40434a-035c-47ef-838a-968709444beb
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De achttienjarige Totone brengt zijn tijd door met feesten en 
@@ -1166,11 +981,11 @@ DESCRIPTION:De achttienjarige Totone brengt zijn tijd door met feesten en
  nanciële problemen. Om zich daar uit te redden\, besluit Totone mee te do
  en aan een wedstrijd voor de beste Comté-kaas in de regio.
 DTEND:20250403T210000
-DTSTAMP:20250309T065730Z
+DTSTAMP:20250310T065736Z
 DTSTART:20250403T190000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Vingt Dieux
-UID:a2d077f8-38d5-4466-ae6a-ceaeb461be2e
+UID:17cb8990-865a-4c30-a067-9d5be59bdc99
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Het heerlijke\, adembenemend mooie Gaucho Gaucho neemt je mee 
@@ -1181,11 +996,11 @@ DESCRIPTION:Het heerlijke\, adembenemend mooie Gaucho Gaucho neemt je mee
  voud\, trots en saamhorigheid. Een magistrale documentaire van de makers 
  van The Truffle Hunters.
 DTEND:20250403T124500
-DTSTAMP:20250309T065731Z
+DTSTAMP:20250310T065737Z
 DTSTART:20250403T104500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Gaucho Gaucho
-UID:35c2a8a0-ebdb-4427-b705-81aeeadda0d4
+UID:2dd7b98c-3316-4a44-96e0-ba4f763a4e92
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Als de levenslustige Lot door een vuurwerkongeluk haar zicht v
@@ -1193,11 +1008,11 @@ DESCRIPTION:Als de levenslustige Lot door een vuurwerkongeluk haar zicht v
  lijken volledig in te storten\, nu de wereld zoals ze die kende voorgoed 
  veranderd is.
 DTEND:20250403T181000
-DTSTAMP:20250309T065733Z
+DTSTAMP:20250310T065739Z
 DTSTART:20250403T161000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Ik Zal Zien
-UID:113a1109-05e8-4b12-8cdf-e576d5b703ec
+UID:0f403394-e2bf-4f55-8f7d-e7e953508472
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In de winter van 1862\, tijdens de Amerikaanse Burgeroorlog\, 
@@ -1207,29 +1022,29 @@ DESCRIPTION:In de winter van 1862\, tijdens de Amerikaanse Burgeroorlog\,
  annen van allerlei achtergronden hun kamp opzetten\, baseball spelen en k
  aarten\, mijmeren ze over God\, het leven en het nut van hun missie.
 DTEND:20250403T201500
-DTSTAMP:20250309T065734Z
+DTSTAMP:20250310T065740Z
 DTSTART:20250403T181500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Damned
-UID:6f115c5a-052f-4613-a560-383c3f103e87
+UID:48231ff4-b230-490f-acea-10811846aeb5
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20250410T123000
-DTSTAMP:20250309T065735Z
+DTSTAMP:20250310T065741Z
 DTSTART:20250410T103000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Le Comte de Monte-Cristo
-UID:8dae4bbb-7648-41e3-a821-e843432a83cf
+UID:10aee119-502d-4f32-bbef-36a5ad711c6e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20250410T220000
-DTSTAMP:20250309T065735Z
+DTSTAMP:20250310T065741Z
 DTSTART:20250410T200000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Le Comte de Monte-Cristo
-UID:e27a2972-3dd3-40ac-8551-a0c41e73c650
+UID:27972909-5267-441e-91cd-dfed83536f64
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De Limburgse Jos (Fedja van Huêt)\, een provinciale crimineel 
@@ -1240,11 +1055,11 @@ DESCRIPTION:De Limburgse Jos (Fedja van Huêt)\, een provinciale crimineel
  ing terug te winnen— door middel van een lucratieve drugsdeal — grijpt Jo
  s deze maar al te graag aan.
 DTEND:20250410T124500
-DTSTAMP:20250309T065736Z
+DTSTAMP:20250310T065743Z
 DTSTART:20250410T104500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Fabula
-UID:9607e948-2913-4095-884e-6240f95bb808
+UID:f3f7f9c2-9d45-43ef-8f76-478cfacd61bc
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Las Vegas showgirl Shelley (Pamela Anderson) staat op een keer
@@ -1252,11 +1067,11 @@ DESCRIPTION:Las Vegas showgirl Shelley (Pamela Anderson) staat op een keer
  omt. Als danseres van in de vijftig worstelt ze met het vervolg van haar 
  carrière.
 DTEND:20250410T160000
-DTSTAMP:20250309T065738Z
+DTSTAMP:20250310T065744Z
 DTSTART:20250410T140000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Last Showgirl
-UID:318ae67c-5f3e-4560-9823-6e03c627ee3f
+UID:5553614b-1824-4638-b041-eba130d77d0f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Las Vegas showgirl Shelley (Pamela Anderson) staat op een keer
@@ -1264,11 +1079,11 @@ DESCRIPTION:Las Vegas showgirl Shelley (Pamela Anderson) staat op een keer
  omt. Als danseres van in de vijftig worstelt ze met het vervolg van haar 
  carrière.
 DTEND:20250410T231500
-DTSTAMP:20250309T065738Z
+DTSTAMP:20250310T065744Z
 DTSTART:20250410T211500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Last Showgirl
-UID:d4b36a13-d355-471c-86be-3c9752b6c625
+UID:57f0d9c9-402f-4d21-ba14-93430b85b1af
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De Limburgse Jos (Fedja van Huêt)\, een provinciale crimineel 
@@ -1279,22 +1094,22 @@ DESCRIPTION:De Limburgse Jos (Fedja van Huêt)\, een provinciale crimineel
  ing terug te winnen— door middel van een lucratieve drugsdeal — grijpt Jo
  s deze maar al te graag aan.
 DTEND:20250410T204500
-DTSTAMP:20250309T065739Z
+DTSTAMP:20250310T065745Z
 DTSTART:20250410T184500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Fabula
-UID:5e62eea9-6deb-4a6e-bfbb-2615bd3e5d80
+UID:4ede037d-6590-4b67-933e-5372b392c379
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op zondag 13 april kun je komen genieten van een heerlijk ontb
  ijt met aansluitend een voorpremière van Niki\, over Niki de Saint-Phalle
  .
 DTEND:20250413T113000
-DTSTAMP:20250309T065740Z
+DTSTAMP:20250310T065747Z
 DTSTART:20250413T093000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Niki | Ontbijt & Film
-UID:82f1a2fe-0c17-43cf-8162-8befb741827e
+UID:811976ff-8a67-4882-8ed9-108cc64f803f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:1952. Ondanks een verhuizing van Amerika naar Parijs met haar 
@@ -1303,11 +1118,11 @@ DESCRIPTION:1952. Ondanks een verhuizing van Amerika naar Parijs met haar
  l geen voldoening. Het maken van kunst lijkt de enige manier om aan haar 
  verleden te ontkomen. Te zien in voorpremière op zondag 13 april.
 DTEND:20250413T123000
-DTSTAMP:20250309T065741Z
+DTSTAMP:20250310T065748Z
 DTSTART:20250413T103000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Niki | Voorpremière
-UID:8e8b5ea2-a02d-44a1-b942-7c5ee6ea37ec
+UID:bb642bc9-99fc-4ac9-8f52-86244c8e90db
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:1952. Ondanks een verhuizing van Amerika naar Parijs met haar 
@@ -1316,11 +1131,11 @@ DESCRIPTION:1952. Ondanks een verhuizing van Amerika naar Parijs met haar
  l geen voldoening. Het maken van kunst lijkt de enige manier om aan haar 
  verleden te ontkomen. Te zien in voorpremière op zondag 13 april.
 DTEND:20250515T123000
-DTSTAMP:20250309T065741Z
+DTSTAMP:20250310T065748Z
 DTSTART:20250515T103000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Niki | Voorpremière
-UID:bd1ecf20-43c6-4e16-a7d5-0bb2322fcd8d
+UID:9a872d47-6c3f-4205-9a53-4808978b46ee
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In De Oefenpremière geven we een podium aan jonge talenten uit
@@ -1328,11 +1143,11 @@ DESCRIPTION:In De Oefenpremière geven we een podium aan jonge talenten uit
  nde Rongen: Dolma en Plat. Na afloop is Linde Rongen te gast voor een nag
  esprek.
 DTEND:20250413T204500
-DTSTAMP:20250309T065743Z
+DTSTAMP:20250310T065750Z
 DTSTART:20250413T184500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Dolma | De Oefenpremière
-UID:9ff3385d-23be-4fe0-adc3-0e743140ff2c
+UID:82ce742d-4b5b-4422-bdbe-77d54e6fb947
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De Nachtwacht van Rembrandt betovert en intrigeert zijn publie
@@ -1340,22 +1155,22 @@ DESCRIPTION:De Nachtwacht van Rembrandt betovert en intrigeert zijn publie
  hilders aller tijden. Journalist Coen Verbraak gaat in gesprek met de bel
  angrijkste personages van het beroemde schilderij.
 DTEND:20250417T123000
-DTSTAMP:20250309T065744Z
+DTSTAMP:20250310T065751Z
 DTSTART:20250417T103000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Praten Met De Nachtwacht
-UID:5d2790bc-539d-41e2-bbf6-175d332cbd76
+UID:f0d110e5-c9ab-4b63-8827-8723d698713d
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:België\, 1995. De verontrustende verdwijning van twee meisjes 
  houdt heel het land in zijn greep\, en drijft één politieagent in het bij
  zonder tot waanzin.
 DTEND:20250417T224500
-DTSTAMP:20250309T065745Z
+DTSTAMP:20250310T065752Z
 DTSTART:20250417T204500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Maldoror
-UID:cc85f45a-239a-4e18-82aa-46bff3d534ef
+UID:1c2b5f3e-d52a-4b1b-9451-4b1ff98e3515
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op veler verzoek nogmaals bij ons te zien: de integrale uitvoe
@@ -1364,12 +1179,12 @@ DESCRIPTION:Op veler verzoek nogmaals bij ons te zien: de integrale uitvoe
  rt de Leeuw. Deze film is het vervolg op de succesvolle documentaire ‘De 
  Matthäus Missie van Reinbert de Leeuw’.
 DTEND:20250418T150000
-DTSTAMP:20250309T065747Z
+DTSTAMP:20250310T065754Z
 DTSTART:20250418T130000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: De Matthäus Passion – De complete uitvoerin
  g van Reinbert de Leeuw
-UID:0408f2cd-1c85-4301-94c1-1ec385a36e01
+UID:95fd7768-a3b4-48a8-9f83-6cbe9ede0a2e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Leni Riefenstahl (1902-2003) is veruit de bekendste regisseur 
@@ -1377,11 +1192,11 @@ DESCRIPTION:Leni Riefenstahl (1902-2003) is veruit de bekendste regisseur
   de filmische bravoure van innovatieve\, nog altijd invloedrijke propagan
  dadocumentaires als Triumph des Willens (1934) en Olympia (1936).
 DTEND:20250424T123000
-DTSTAMP:20250309T065748Z
+DTSTAMP:20250310T065755Z
 DTSTART:20250424T103000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Riefenstahl
-UID:912aecf9-6664-40ca-a9b2-fdc15c6c0747
+UID:95b74060-624f-484a-944a-d4720ffddabb
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Leni Riefenstahl (1902-2003) is veruit de bekendste regisseur 
@@ -1389,11 +1204,11 @@ DESCRIPTION:Leni Riefenstahl (1902-2003) is veruit de bekendste regisseur
   de filmische bravoure van innovatieve\, nog altijd invloedrijke propagan
  dadocumentaires als Triumph des Willens (1934) en Olympia (1936).
 DTEND:20250424T203000
-DTSTAMP:20250309T065748Z
+DTSTAMP:20250310T065755Z
 DTSTART:20250424T183000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Riefenstahl
-UID:b11f966c-620b-4272-9dfd-25a768fbebed
+UID:92a5f569-b2eb-4c73-8aed-6850451bd55c
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Pink Floyd at Pompeii - MCMLXXII\, de iconische film uit 1972\
@@ -1404,11 +1219,11 @@ DESCRIPTION:Pink Floyd at Pompeii - MCMLXXII\, de iconische film uit 1972\
  elijke nummers zoals “Echoes” en “One of These Days” is deze film een tij
  dloos meesterwerk van beeld en geluid.
 DTEND:20250424T224500
-DTSTAMP:20250309T065749Z
+DTSTAMP:20250310T065756Z
 DTSTART:20250424T204500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Pink Floyd at Pompeii – MCMLXXII (1972)
-UID:fe8e8100-655b-41af-8714-5c22f4e9adbe
+UID:e72f8868-e5e6-48db-ad03-d57a7d3775ea
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Pink Floyd at Pompeii - MCMLXXII\, de iconische film uit 1972\
@@ -1419,71 +1234,71 @@ DESCRIPTION:Pink Floyd at Pompeii - MCMLXXII\, de iconische film uit 1972\
  elijke nummers zoals “Echoes” en “One of These Days” is deze film een tij
  dloos meesterwerk van beeld en geluid.
 DTEND:20250427T184500
-DTSTAMP:20250309T065749Z
+DTSTAMP:20250310T065756Z
 DTSTART:20250427T164500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Pink Floyd at Pompeii – MCMLXXII (1972)
-UID:0c56e0fa-b2b9-4d19-81c4-1e5e0ce0d04d
+UID:907c2f83-76c6-4ea8-95dd-c87b5f65148f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De langverwachte verfilming van Raynor Winns bestseller. Verwa
  cht in het voorjaar van 2025.
 DTEND:20250501T160000
-DTSTAMP:20250309T065750Z
+DTSTAMP:20250310T065758Z
 DTSTART:20250501T140000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Salt Path (Het Zoutpad)
-UID:ae1216ef-d668-4865-a0b1-aeb05270fdf9
+UID:2db97d18-fbd2-49cc-a9ab-f85d90c6960f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De langverwachte verfilming van Raynor Winns bestseller. Verwa
  cht in het voorjaar van 2025.
 DTEND:20250501T210000
-DTSTAMP:20250309T065750Z
+DTSTAMP:20250310T065758Z
 DTSTART:20250501T190000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Salt Path (Het Zoutpad)
-UID:0e94a5f6-2559-48aa-baaf-325f2e56d6fb
+UID:73ed4ed6-c5db-4b9b-93e2-e5f262b1c572
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De langverwachte verfilming van Raynor Winns bestseller. Verwa
  cht in het voorjaar van 2025.
 DTEND:20250502T204500
-DTSTAMP:20250309T065750Z
+DTSTAMP:20250310T065758Z
 DTSTART:20250502T184500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Salt Path (Het Zoutpad)
-UID:0b03aa71-57e9-49e4-b993-ed9436fbdafc
+UID:e5abe37a-590c-410b-9c3d-ee1babaa1c2e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De langverwachte verfilming van Raynor Winns bestseller. Verwa
  cht in het voorjaar van 2025.
 DTEND:20250503T181500
-DTSTAMP:20250309T065750Z
+DTSTAMP:20250310T065758Z
 DTSTART:20250503T161500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Salt Path (Het Zoutpad)
-UID:95bf3b7c-20b3-4a32-90f2-319a7517dc25
+UID:47a78c2a-35d2-4def-9e2c-8384a4a27090
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De langverwachte verfilming van Raynor Winns bestseller. Verwa
  cht in het voorjaar van 2025.
 DTEND:20250503T204500
-DTSTAMP:20250309T065750Z
+DTSTAMP:20250310T065758Z
 DTSTART:20250503T184500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Salt Path (Het Zoutpad)
-UID:a6aa63f5-2497-412a-83f8-496598cbe808
+UID:bdbbc60e-117b-4483-bdfe-295fd4ef7a93
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De langverwachte verfilming van Raynor Winns bestseller. Verwa
  cht in het voorjaar van 2025.
 DTEND:20250504T174500
-DTSTAMP:20250309T065750Z
+DTSTAMP:20250310T065758Z
 DTSTART:20250504T154500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: The Salt Path (Het Zoutpad)
-UID:ebe628dd-cde2-4d69-9bcd-42e3af3caff1
+UID:e627811c-6765-45f9-84b8-0c5cf84b17c5
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In het bezette Den Haag volgen we een verzetsgroep die tijdens
@@ -1492,22 +1307,22 @@ DESCRIPTION:In het bezette Den Haag volgen we een verzetsgroep die tijdens
  nt voor die vreselijk misloopt in de ochtend van 3 maart 1945. Met nagesp
  rek met regisseur Wouter Hermans op zondag 4 mei.
 DTEND:20250504T130000
-DTSTAMP:20250309T065751Z
+DTSTAMP:20250310T065759Z
 DTSTART:20250504T110000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Bezuidenhout | Met nagesprek
-UID:e13d0f47-a349-488a-a608-63a50958d9e9
+UID:1899ac8c-5fb0-4802-b527-097053278895
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Naoorlogse klassieker waarin een Franse actrice (Emmanuelle Ri
  va) in Hiroshima verliefd wordt op een Japanse architect (Eiji Okada)\, n
  aar een scenario van Marguerite Duras.
 DTEND:20250505T204500
-DTSTAMP:20250309T065753Z
+DTSTAMP:20250310T065800Z
 DTSTART:20250505T184500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Hiroshima Mon Amour (1959) | Klassieker
-UID:81b5f99f-e5a1-486b-9384-c151680db94f
+UID:6711f467-7fe0-43ac-9cb3-0af5534d445b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De Franse bioscoophit L'amour ouf is een epische cocktail van 
@@ -1517,11 +1332,11 @@ DESCRIPTION:De Franse bioscoophit L'amour ouf is een epische cocktail van
  ese\, Quentin Tarantino en West Side Story en geeft een moderne draai aan
   het Romeo en Julia-verhaal.
 DTEND:20250508T123000
-DTSTAMP:20250309T065754Z
+DTSTAMP:20250310T065802Z
 DTSTART:20250508T103000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: L’amour ouf
-UID:4ebd76a6-aebe-4334-b806-dbbd8429d3ff
+UID:a70b8994-c845-4b02-b8dc-3f15ec50e5e0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Goden en stervelingen bestrijden elkaar in het tweede hoofdstu
@@ -1529,11 +1344,11 @@ DESCRIPTION:Goden en stervelingen bestrijden elkaar in het tweede hoofdstu
  rie Kosky komen weer bijeen om het mythische avontuur voort te zetten dat
   begon met Das Rheingold in 2023.
 DTEND:20250514T200000
-DTSTAMP:20250309T065755Z
+DTSTAMP:20250310T065803Z
 DTSTART:20250514T180000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Die Walküre | The Royal Opera 24/25
-UID:23af73e0-3977-4c7c-ae82-d6e2c90ca269
+UID:126e7b6b-4b13-4a14-bcde-21d9388c205a
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Goden en stervelingen bestrijden elkaar in het tweede hoofdstu
@@ -1541,11 +1356,11 @@ DESCRIPTION:Goden en stervelingen bestrijden elkaar in het tweede hoofdstu
  rie Kosky komen weer bijeen om het mythische avontuur voort te zetten dat
   begon met Das Rheingold in 2023.
 DTEND:20250601T160000
-DTSTAMP:20250309T065755Z
+DTSTAMP:20250310T065803Z
 DTSTART:20250601T140000
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Die Walküre | The Royal Opera 24/25
-UID:1d24b78e-5d4f-45d2-ab95-5bd1697ee2e0
+UID:6b87bf1e-93bf-432e-be28-854839e26286
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De energie van het muziektheater wordt verwerkt in sensueel he
@@ -1554,11 +1369,11 @@ DESCRIPTION:De energie van het muziektheater wordt verwerkt in sensueel he
  grafische talent laten zien van The Royal Ballet's Artistic Associate\, C
  hristopher Wheeldon.
 DTEND:20250522T221500
-DTSTAMP:20250309T065756Z
+DTSTAMP:20250310T065805Z
 DTSTART:20250522T201500
 SEQUENCE:0
 SUMMARY:Filmtheater Hilversum: Ballet to Broadway: Wheeldon Werken | The R
  oyal Ballet 24/25
-UID:d2dfa31b-6410-4363-8c8b-9538403f9e25
+UID:9a254728-9184-461b-a37e-46cd4fadbe99
 END:VEVENT
 END:VCALENDAR
