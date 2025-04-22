@@ -21,13 +21,13 @@ jobs:
         env:
             PUSHOVER_APP_ASNBANK: ${{secrets.PUSHOVER_APP_ASNBANK}}
             PUSHOVER_USER_JUSTME: ${{secrets.PUSHOVER_USER_JUSTME}}
-          run: |
+        run: |
             Get-AsnServiceStatus
             | Where-Object { $_ } `
             | ForEach-Object {
-              Send-PushoverNotification `
-                  -ApplicationToken $env:PUSHOVER_APP_ASNBANK `
-                  -Recipient $env:PUSHOVER_USER_JUSTME `
-                  -Title 'ASN Bank Service Status' `
-                  -Message $_
-              }
+                Send-PushoverNotification `
+                    -ApplicationToken $env:PUSHOVER_APP_ASNBANK `
+                    -Recipient $env:PUSHOVER_USER_JUSTME `
+                    -Title 'ASN Bank Service Status' `
+                    -Message $_
+                }
