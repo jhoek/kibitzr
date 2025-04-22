@@ -1,0 +1,33 @@
+name: asnstatus
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install required PowerShell modules
+        shell: pwsh
+        run: |
+          Set-PSRepository PSGallery -InstallationPolicy Trusted
+          Install-Module Uncommonsense.Hap, UncommonSense.ServiceStatus, UncommonSense.Pushover -Scope CurrentUser -Force
+
+      - name: Send notifications
+        shell: pwsh
+        env:
+            PUSHOVER_APP_ASNBANK: ${{secrets.PUSHOVER_APP_ASNBANK}}
+            PUSHOVER_USER_JUSTME: ${{secrets.PUSHOVER_USER_JUSTME}}
+          run: |
+            Get-AsnServiceStatus
+            | Where-Object { $_ } `
+            | ForEach-Object {
+              Send-PushoverNotification `
+                  -ApplicationToken $env:PUSHOVER_APP_ASNBANK `
+                  -Recipient $env:PUSHOVER_USER_JUSTME `
+                  -Title 'ASN Bank Service Status' `
+                  -Message $_
+              }
