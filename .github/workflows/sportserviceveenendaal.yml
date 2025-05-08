@@ -22,6 +22,7 @@ jobs:
         shell: pwsh
         run: |
           Get-SportServiceVeenendaalOpeningHour -Verbose
+          | Where-Object Activity -in 'Recreatief zwemmen', 'Banenzwemmen'
           | ForEach-Object { New-CalendarEvent -Start ($_.From) -End ($_.To) -Summary "$($_.Activity) in het $($_.Facility)" }
           | Export-Calendar -Name 'Sportservice Veenendaal' -Path (Join-Path -Path data -ChildPath sportserviceveenendaal.ics)
 
