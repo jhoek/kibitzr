@@ -23,7 +23,7 @@ jobs:
         run: |
           Get-SportServiceVeenendaalOpeningHour -Verbose
           | ForEach-Object { New-CalendarEvent -Start ($_.From) -End ($_.To) -Summary "$($_.Activity) in het $($_.Facility)" }
-          | Export-Calendar -Name 'Sportservice Veenendaal' -Path sportserviceveenendaal.ics
+          | Export-Calendar -Name 'Sportservice Veenendaal' -Path (Join-Path -Parent data -ChildPath sportserviceveenendaal.ics)
 
       - name: Commit and push feed
         shell: bash
