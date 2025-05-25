@@ -5,351 +5,757 @@ X-WR-CALNAME:BC TechDays
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20250612T070000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250612T053000Z
 LOCATION:Expo Area
 SEQUENCE:0
 SUMMARY:Registration\, Breakfast and Exhibition
-UID:615e2594-5376-4987-a120-f0a845d8d999
+UID:fdd2899a-2bd2-40d0-8831-392702ed53bf
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:\n\nSpeaker(s): Vincent Nicolas
+DESCRIPTION:\n\nSpeaker(s): Vincent Nicolas\, Aida Seifi Labrosse\, Peter 
+ Christensen
 DTEND:20250612T090000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250612T070000Z
 LOCATION:Room 8
 SEQUENCE:0
 SUMMARY:Opening Keynote
-UID:98e324e3-ebed-488a-b706-2b7db447adfd
+UID:4b9c2a7a-85a6-469a-8fb0-3c9a60e406c3
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20250612T093000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250612T090000Z
 LOCATION:Expo Area
 SEQUENCE:0
 SUMMARY:Coffee Break\, Exhibition\, Sponsor Presentation
-UID:4c89a499-b4f4-445e-a0a9-225e56bc1c6a
+UID:5ad80e7d-62d0-45a8-b307-dc95f6616170
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
+DESCRIPTION:Integrating with complex APIs can be quite cumbersome. That is
+  true if you talk to BC from e.g. a dedicated frontend or an integration 
+ solution as well as talking to another API from BC.If you develop API cli
+ ents in BC\, you have to create quite some boilerplate code that doesn't 
+ add a lot of value and is annoying and cumbersome to create and maintain.
+  In this session\, we will show you a work in progress approach for autom
+ ating that process so that you can get API clients with only a few comman
+ ds.Once you have your client in BC or somewhere else\, simulating / mocki
+ ng complex APIs for test and dev purposes is also not easy. WireMock prov
+ ides a free and open-source platform to vastly simplify that job and help
+ s both during development and CI. In this session you will understand the
+  challenges that WireMock helps you tackle\, you will see a ready-to-use 
+ setup to get started and you will get deep insights into how you use it w
+ ith comprehensive demos and walkthroughs.\n\nSpeaker(s): Tobias Fenster\,
+  Simon Fischer
 DTEND:20250612T110000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250612T093000Z
 LOCATION:Room 8
 SEQUENCE:0
-SUMMARY:Session 1
-UID:52e781f2-0451-4781-8964-05f7925f3893
+SUMMARY:API automation made easy for clients and automated tests [300 - Ad
+ vanced][90 min]
+UID:034de416-72af-4e04-9d62-ef0267e23998
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
+DESCRIPTION:Unlock the full potential of your AL code by avoiding outdated
+  patterns and adopting new\, optimized guidelines. In this session\, we w
+ ill dive deep into AL code performance by dissecting the SQL queries unde
+ rlying your AL code\, examining commonly used patterns\, evaluating their
+  effectiveness\, and running examples to measure performance.Drawing from
+  real-world experience\, I'll showcase instances of poorly performing AL 
+ code and highlight commonly misused patterns that can hinder performance.
+  You'll discover bad practices and gain insight into what happens behind 
+ the scenes in Business Central.Beyond performance\, in the second part of
+  the session\, I'll introduce new patterns\, guidelines\, and best practi
+ ces that are often overlooked!!As someone who has actively contributed to
+  new Base Application features\, I've honed my skills in writing optimize
+ d code and implementing the latest guidelines. Join this session to eleva
+ te your AL code and stay ahead with cutting-edge practices!\n\nSpeaker(s)
+ : Stefan Šošić
 DTEND:20250612T110000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250612T093000Z
 LOCATION:Room 5
 SEQUENCE:0
-SUMMARY:Session 2
-UID:51e1435c-c028-41a8-9331-70eec2caa77e
+SUMMARY:Optimize AL Performance & Embrace New Guidelines [300 - Advanced][
+ 90 min]
+UID:a1f28ccb-80b9-4852-bb8e-ef8550f78fa2
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
+DESCRIPTION:Join us for an engaging session exploring the full journey of 
+ prompt engineering and building Copilot features with large language mode
+ ls (LLMs). We'll begin by demystifying prompt engineering—covering key co
+ ncepts\, enhancement techniques\, and responsible AI practices. Then\, we
+ ’ll dive into the real-world challenges of developing Copilot features\, 
+ including managing large data contexts\, structuring responses\, optimizi
+ ng function calls\, and testing prompts. The session will conclude with a
+  live Q&A\, offering insights and solutions to the challenges you face.\n
+ \nSpeaker(s): Qasim Ikram\, Darrick Joo
 DTEND:20250612T110000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250612T093000Z
 LOCATION:Room 9
 SEQUENCE:0
-SUMMARY:Session 3
-UID:08fbd635-9767-432d-b897-1e5a142cf5c3
+SUMMARY:Microsoft Presents: Prompt Engineering: From Concept to Reality – 
+ Challenges and Insights [200 - Intermediate][90 min]
+UID:fe4b113d-067a-40f6-8706-401ac8da9fd0
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
+DESCRIPTION:Join us for a hands-on session where you will learn how to bui
+ ld your own demo data using the new Contoso Demo Tool.\n\nSpeaker(s): Hao
+ ran Sun
 DTEND:20250612T110000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250612T093000Z
 LOCATION:Room 7
 SEQUENCE:0
-SUMMARY:Session 4
-UID:22660cf2-643b-4fe4-9325-48d7fb312378
+SUMMARY:Microsoft Presents: Mastering Contoso Demo Data in Business Centra
+ l [200 - Intermediate][45 min]
+UID:5570c4af-0dbd-43d7-89c7-5982cd39f0d4
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Join this session for a deep dive on the different ways that B
+ usiness Central integrates with Power BI. We will have a look at the diff
+ erent options that you have to extract data from Business Central\, and h
+ ow to show your reports directly in the Business Central client. There wi
+ ll be also an overview of how to install and configure the new out-of-the
+ -box reports in the different areas like Finance\, Manufacturing\, Invent
+ ory\, and many more.\n\nSpeaker(s): Joshua Martínez
+DTEND:20250612T110000Z
+DTSTAMP:20250525T121051Z
+DTSTART:20250612T093000Z
+LOCATION:Room 7
+SEQUENCE:0
+SUMMARY:Microsoft Presents: Mastering Power BI Reports in Business Central
+  [200 - Intermediate][45 min]
+UID:8a31e888-afa8-4c94-af86-636486342e73
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20250612T120000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250612T110000Z
 LOCATION:Expo Area
 SEQUENCE:0
 SUMMARY:Lunch Break\, Exhibition\, Sponsor Presentations
-UID:28179c99-7381-42fa-8015-8cb0544e6d99
+UID:6a6fa70e-8b6c-4245-ae67-7b3e6ba8a44c
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
+DESCRIPTION:If you want quality\, you need tests. If you want maintainabil
+ ity\, you need tests. If you want...Okay\, okay\, we get it\, tests are g
+ reat... But they’re also boring... 🙄Well\, what if we brought a breath o
+ f fresh air into them? Because that’s exactly what happened in the last 1
+ 2 months. First\, page scripting. Click\, click\, boom! Test Automated! M
+ uch simpler! And now another addition “Data-Driven Testing”. Build one AL
+  test but cover multiple test cases! Less coding\, more coverage! Fun!Wel
+ l … maybe not “fun”\, but it’s something new and exciting! So if you’d li
+ ke to know what these new testing practices are\, and how you can “slot” 
+ them along your traditional AL tests\, Join this session when we deep div
+ e into all nuts and bolts of both new features.\n\nSpeaker(s): Luc van Vu
+ gt\, Tine Starič
 DTEND:20250612T133000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250612T120000Z
 LOCATION:Room 8
 SEQUENCE:0
-SUMMARY:Session 5
-UID:d73448b5-66d0-49fb-99e0-d0614efceb54
+SUMMARY:Testing is Boring... Until Now! [300 - Advanced][90 min]
+UID:164df4cb-bc1e-4d48-8802-67ea1882539f
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
+DESCRIPTION:Clustered index\, rowstore index\, columnstore index\, include
+ d fields\, SumIndexFields. Have you ever been confused navigating all the
+  different kinds of indexes and trying to find what works best for your a
+ pplication?Or maybe you have struggled to improve performance of a slow A
+ L procedure that queries the database and takes ages to complete?A proper
+  index may be the solution to a performance problem\, but how to choose t
+ he best index? What criteria can we apply to assess an index\, and what a
+ re its positive and negative effects on the application?In our session\, 
+ we will answer these and many other questions related to table indexing. 
+ You will see practical examples of Business Central application code and 
+ recommended approach to table indexing for better performance.We will cov
+ er benefits of table indexes\, as well as downsides and pitfalls of exces
+ sive indexing\, illustrating the session with real life examples from Bus
+ iness Central implementations.\n\nSpeaker(s): Alexander Drogin\, Stefan M
+ aroń
 DTEND:20250612T133000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250612T120000Z
 LOCATION:Room 5
 SEQUENCE:0
-SUMMARY:Session 6
-UID:928579f5-2757-4c4b-9f2a-ac6e76d3a352
+SUMMARY:Planning table indexes for the best performance [300 - Advanced][9
+ 0 min]
+UID:70e490da-7063-43c0-b60b-e2fcda7743b3
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
+DESCRIPTION:Explore how AI agents are reshaping Business Central. We’ll in
+ troduce our first agents—Sales Order and Payables—then walk through build
+ ing a new one live using a no-code approach. You’ll also get a behind-the
+ -scenes look at how agents operate.\n\nSpeaker(s): Christian Heide Damm\,
+  Esteban Ardaya Heckl\, Erida Nurçe
 DTEND:20250612T133000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250612T120000Z
 LOCATION:Room 9
 SEQUENCE:0
-SUMMARY:Session 7
-UID:ff284eb3-01b6-47de-9f91-1de22ba23d8b
+SUMMARY:Microsoft Presents: Autonomous agents in Business Central [200 - I
+ ntermediate][90 min]
+UID:aac81738-6bab-46ad-9181-a6f062f6f97c
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
+DESCRIPTION:Discover the latest advancements in managing app package conte
+ nts and how they can elevate your development experience. This session wi
+ ll delve into the new capabilities for utilizing resources effectively\, 
+ working with full-screen client add-in packages\, and building extensible
+  applications using interfaces. Learn about the innovative feature that a
+ llows you to move tables and fields between extensions\, providing greate
+ r flexibility and control over your app development. Additionally\, we'll
+  explore how to connect your package with an Azure Key Vault and use secr
+ ets in your app securely. Gain insights into source control best practice
+ s and learn how to explore packages from the extension management package
+  by connecting to the GitHub version of the application.\nJoin us to gain
+  insights from the product group\, ask questions\, and enhance your skill
+ s to unlock the full potential of your app packages.\n\nSpeaker(s): Steff
+ en Balslev\, Blanca Robledo\, Balázs Krupinszki
 DTEND:20250612T133000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250612T120000Z
 LOCATION:Room 7
 SEQUENCE:0
-SUMMARY:Session 8
-UID:c0777583-1e11-43ba-9328-d60be2687048
+SUMMARY:Microsoft Presents: What's new in AL - Package the right app [200 
+ - Intermediate][45 min]
+UID:10b5e020-15e5-48b7-aab5-dd507b964626
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Join us for an in-depth exploration of the latest advancements
+  in AL Language and its testing capabilities. This session will cover a r
+ ange of new features designed to streamline your development process and 
+ improve code quality. We'll dive into the enhanced capabilities for worki
+ ng with tests\, including new JSON extension methods and YAML support. Di
+ scover how the updated date\, time\, and date-time functions now come wit
+ h helper properties to simplify your coding tasks. Learn about the new Ht
+ tpClient mocking features that make testing more efficient. Additionally\
+ , we'll explore other powerful AL Language capabilities such as the this 
+ and continue keywords\, the ternary operator\, and interface casting.\nDo
+ n't miss this opportunity to learn from the product group\, ask questions
+ \, and enhance your AL Language skills. Engage with the product team\, ne
+ twork with peers\, and gain practical insights to elevate your developmen
+ t journey.\n\nSpeaker(s): Steffen Balslev\, Peter Borring\, Balázs Krupin
+ szki
+DTEND:20250612T133000Z
+DTSTAMP:20250525T121051Z
+DTSTART:20250612T120000Z
+LOCATION:Room 7
+SEQUENCE:0
+SUMMARY:Microsoft Presents: What's new in AL language - Enhancing Your Dev
+ elopment Experience [200 - Intermediate][45 min]
+UID:b00621a2-fd67-47bd-824c-ac85867834e7
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20250612T140000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250612T133000Z
 LOCATION:Expo Area
 SEQUENCE:0
 SUMMARY:Coffee Break\, Exhibition\, Sponsor Presentation
-UID:a81300e1-66cc-49b0-8682-f0f6bf9584ef
+UID:6bf04bcc-97a6-4f3e-a144-3c2f7b961c1a
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
+DESCRIPTION:Even in a self-driving car\, you need a license!In the age of 
+ AI\, many developers turn to tools like Copilot to speed up their work. B
+ ut can AI truly replace the skills of an experienced AL developer? Can we
+  trust AI blindly? And do we even need to learn AL anymore?Dmitry\, an AI
+  enthusiast\, and AJ\, a 25+ year AL master\, take the stage to explore t
+ hese questions. During the session\, AJ will demonstrate the beauty of go
+ od old manual coding\, while Dmitry uses AI tools across different IDEs a
+ nd LLM models to supercharge the process.Who will win? Join us to find ou
+ t!\n\nSpeaker(s): Dmitry Katson\, Arend-Jan Kauffmann
 DTEND:20250612T153000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250612T140000Z
 LOCATION:Room 8
 SEQUENCE:0
-SUMMARY:Session 9
-UID:928ece0c-613b-4f5d-be2d-10c2e60dd95e
+SUMMARY:AL Development in the AI Era [300 - Advanced][90 min]
+UID:34a6d5aa-e189-47e2-be5a-9384c80a65cb
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
+DESCRIPTION:Discover the latest enhancements in the web client experience\
+ , including native PDF preview\, a new dedicated client add-in page type\
+ , and expanded barcode scanner API with configurable barcode formats. Thi
+ s session also covers new productivity shortcuts\, flexible FactBox resiz
+ ing\, an improved Power BI embedded experience\, and the newest telemetry
+  signals to help diagnose and troubleshoot performance issues more effect
+ ively.\n\nSpeaker(s): Tomas Grubliauskas\, Vasil Iliev\, Erida Nurçe
 DTEND:20250612T153000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250612T140000Z
 LOCATION:Room 5
 SEQUENCE:0
-SUMMARY:Session 10
-UID:b296e22e-bb09-439e-bdad-2fc349a0755a
+SUMMARY:Microsoft Presents: What's new in Web Client for AL developers [20
+ 0 - Intermediate][45 min]
+UID:1577f473-01ea-4174-8284-1e6c9e3a8d9c
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
+DESCRIPTION:This session provides best practices how to leverage page scri
+ pting tool for acceptance testing. We will cover page scripting capabilit
+ ies and automation using bc-replay npm package. We will also share what w
+ e learned using page scripting internally at Microsoft.\n\nSpeaker(s): To
+ mas Grubliauskas\, Vasil Iliev
 DTEND:20250612T153000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
+DTSTART:20250612T140000Z
+LOCATION:Room 5
+SEQUENCE:0
+SUMMARY:Microsoft Presents: Leveraging page scripting for manual and autom
+ ated acceptance testing [200 - Intermediate][45 min]
+UID:ca107fc8-0923-4fbf-85c2-839292d9e1fa
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:This session will provide a comprehensive in-depth overview of
+  Microsoft Semantic Kernel\, a powerful tool for building and orchestrati
+ ng AI workflows.Attendees will learn about the core concepts\, architectu
+ re\, and practical applications of the Semantic Kernel with Dynamics 365 
+ Business Central and will gain hands-on experience through interactive de
+ mos and real-world examples.We’ll see how to use Semantic Kernel\, how to
+  use Semantic Memory for RAG\, how to create plugins\, how to create AI a
+ gents for Business Central with Semantic Kernel\, how to orchestrate agen
+ ts\, how to create AI agents with locally hosted LLMs and how to deliver 
+ AI solutions that can be agnostic from the AI provider and model.This ses
+ sion is designed for both beginners and experienced developers who want t
+ o leverage the capabilities of the Semantic Kernel to enhance their AI so
+ lutions with Business Central.Lots of code (especially .NET) and tools wi
+ ll be presented during the session.\n\nSpeaker(s): Stefano Demiliani
+DTEND:20250612T153000Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250612T140000Z
 LOCATION:Room 9
 SEQUENCE:0
-SUMMARY:Session 11
-UID:985e4e2d-4b3f-4bf9-9821-85259204c532
+SUMMARY:Microsoft Semantic Kernel: from Zero to Hero [300 - Advanced][90 m
+ in]
+UID:5cc950bc-3fd8-42e4-9d52-e97f10f4692b
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
+DESCRIPTION:In today's ever-evolving digital landscape\, securing your bus
+ iness applications is more than a technical challenge—it’s a strategic im
+ perative. This session dives into the heart of Business Central security\
+ , presenting customer-driven cases that reveal how organizations have suc
+ cessfully navigated common hurdles with robust security configurations. Y
+ ou'll gain insights from real-world experiences addressing recurring ques
+ tions around access control\, data protection\, and compliance. We’ll exp
+ lore actionable best practices—from implementing role-specific permission
+ s to configuring advanced authentication measures—that empower you to saf
+ eguard your Business Central environment effectively.\nJoin us to learn p
+ ractical strategies that you can deploy immediately to enhance security a
+ nd build resilience in your business operations.\n\nSpeaker(s): Muhammad 
+ Omer Saeed\, Ed Ferretti
 DTEND:20250612T153000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250612T140000Z
 LOCATION:Room 7
 SEQUENCE:0
-SUMMARY:Session 12
-UID:dc83a31c-7b77-413e-a358-dd3a21fac4f9
+SUMMARY:Microsoft Presents: Securing Business Central | Customer-Driven Be
+ st Practices and Real-World Cases [300 - Advanced][45 min]
+UID:141cb8d7-517e-41d7-8073-d51961dc84ce
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:In this session we will start bylooking back at the developmen
+ t of artificial intelligence from the early daysto what has brought us to
+ days hype around Large Language Model.\nYou will then hear about models\,
+ training\, tokens and GPUs and we will also briefly discuss fine-tuningte
+ chniques.\nIf want to take a step back andgain a broader perspective on A
+ I\, this is the session for you.\n\nSpeaker(s): Vincent Nicolas
+DTEND:20250612T153000Z
+DTSTAMP:20250525T121051Z
+DTSTART:20250612T140000Z
+LOCATION:Room 7
+SEQUENCE:0
+SUMMARY:Microsoft Presents: A brief introduction to the history of AI - fr
+ om Deep Blue to Copilot [200 - Intermediate][45 min]
+UID:9fca37b8-3021-4700-8a03-11552606433d
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20250612T190000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250612T153000Z
 LOCATION:Expo Area
 SEQUENCE:0
 SUMMARY:Walking Dinner & Exhibition
-UID:96e5ac4a-89ce-4bd0-a70f-d751ce00d58a
+UID:cfcf8e90-c1dc-4291-b8e5-31d9e9ae3d42
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20250613T070000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250613T053000Z
 LOCATION:Expo Area
 SEQUENCE:0
 SUMMARY:Registration\, Breakfast and Exhibition
-UID:f2f4e74f-be9f-4201-8dea-d06855755b59
+UID:63fb6d22-79be-4396-add6-469e4e9f0393
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
+DESCRIPTION:This session provides best practices for optimizing performanc
+ e in Business Central. We will cover key areas such as locking and concur
+ rency\, techniques for testing concurrent scenarios\, and the use of full
+ -text indexes. We will also explore how Scheduled Profiles can troublesho
+ ot performance and how telemetry can be used to monitor and improve syste
+ m behavior. Insights are based on real-world experience and internal prac
+ tices at Microsoft.\n\nSpeaker(s): Jesper Hellesø Hansen\, Bardur Knudsen
+ \, Torben Wind Meyhoff
 DTEND:20250613T083000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250613T070000Z
 LOCATION:Room 8
 SEQUENCE:0
-SUMMARY:Session 13
-UID:1a272004-5469-48cf-8947-270ea586aae2
+SUMMARY:Microsoft Presents: Performance in Business Central [200 - Interme
+ diate][90 min]
+UID:f7419f54-d062-4c78-9a38-fdff39eabbaf
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
+DESCRIPTION:Sure\, it works well for mainstream languages like C#. But AL?
+  That quirky language behind Business Central? GitHub Copilot is nothing 
+ more than a glorified autocomplete...Or is it?I’m here to show you how Co
+ pilot has evolved into so much more over the past year. Sure\, there’s Co
+ pilot Chat—cool\, but we’ve all had ChatGPT for a while. The real game-ch
+ anger? *Copilot Edits.*This isn’t just code suggestions\; it’s code creat
+ ion. Tables\, pages\, codeunits\, subscribers\, tests—all in AL—and guess
+  what? They compile. Copilot Edits takes care of the tedious work so you 
+ can focus on solving real problems and building what matters.But how does
+  it know what you need? And why does it sometimes get it so right — yet o
+ ther times\, so painfully wrong?Whether you’re a Copilot enthusiast or a 
+ skeptic\, this session will break down not just what it can do\, but why 
+ it works. Let me show you why Copilot Edits is the next big leap for AL.\
+ n\nSpeaker(s): Tine Starič
 DTEND:20250613T083000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250613T070000Z
 LOCATION:Room 5
 SEQUENCE:0
-SUMMARY:Session 14
-UID:01d392e9-0254-4ce8-8fe2-349abda550be
+SUMMARY:Copilot is just a fancy autocomplete… [300 - Advanced][90 min]
+UID:0717c900-5f2f-475a-ac8e-0791360545f9
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
+DESCRIPTION:Join me for a deep dive into report objects and layouts in Bus
+ iness Central.We'll start with the basics of report objects. You'll get t
+ o know the different layout types available\, like RDLC\, Word\, and Exce
+ l layouts\, and how to pick the best one for your needs.Next\, we'll get 
+ into the specifics of each layout type. You'll learn how to design and cu
+ stomize RDLC layouts for more complex reports\, create professional-looki
+ ng Word layouts for document-style reports\, and use Excel layouts for da
+ ta analysis.Throughout the session\, I'll share practical tips and tricks
+  to help you optimize your report designs and make your reporting process
+ es more efficient.Key Takeaways:\nJoin me and take your Business Central 
+ reporting to the next level!\n\nSpeaker(s): Steven Renders
 DTEND:20250613T083000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250613T070000Z
 LOCATION:Room 9
 SEQUENCE:0
-SUMMARY:Session 15
-UID:d942e842-d83e-44f8-b77f-dba5c0f2ab17
+SUMMARY:Deep Dive into Report Objects and Layouts in Business Central[90 m
+ in]
+UID:8473b518-dd4a-4f99-947d-1e7ada7166e0
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
+DESCRIPTION:Discover how Chat with Copilot in Business Central is evolving
+  to deliver smarter\, more contextual chat experiences. In this session\,
+  we’ll showcase new capabilities like Copilot’s awareness of your current
+  page\, its ability to analyze lists\, and how it can answer questions ab
+ out custom fields. Learn how to extend Copilot by integrating your ISV do
+ cumentation —empowering users to get answers about your extensions direct
+ ly in a chat. We’ll also explore latest technology updates (MCP) and shar
+ e forward-looking insights into bringing your own skills into the Copilot
+  experience.\n\nSpeaker(s): Purusharth Dwivedi\, Sam van Lieshout
 DTEND:20250613T083000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250613T070000Z
 LOCATION:Room 7
 SEQUENCE:0
-SUMMARY:Session 16
-UID:91ecde1c-c095-4460-ad54-90d83d58abdf
+SUMMARY:Microsoft Presents: Bring ISV docs to Chat with Copilot\, and more
+  extension you can do [200 - Intermediate][45 min]
+UID:c76dab3b-d984-4254-b69b-a94028047dc4
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Building high-quality AI features requires high-quality test d
+ atasets. This session focuses on creating test datasets for AI applicatio
+ ns to drive accuracy and adherence to Responsible AI guidelines. We will 
+ share our experiences and tools for generating test data to measure accur
+ acy and evaluate potential harms to allow you to build reliable Copilot f
+ eatures.\n\nSpeaker(s): Prangshuman Das\, Klaus Marius Hansen
+DTEND:20250613T083000Z
+DTSTAMP:20250525T121051Z
+DTSTART:20250613T070000Z
+LOCATION:Room 7
+SEQUENCE:0
+SUMMARY:Microsoft Presents: Creating High-Quality Test Datasets for AI Fea
+ tures [200 - Intermediate][45 min]
+UID:504a34d9-5afc-479d-8b6e-4f5f2694a4b2
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20250613T090000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250613T083000Z
 LOCATION:Expo Area
 SEQUENCE:0
 SUMMARY:Coffee Break\, Exhibition\, Sponsor Presentation
-UID:13ff5077-6679-44ef-938b-0c860e70c10c
+UID:f66177f7-9c4e-487a-9626-176a6dfd1d73
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
+DESCRIPTION:During this session\, we're going to put "Anything Copilot" to
+  the test: from vectorized data to chat-ability. The goal is simple: if t
+ here's anything wrong with my Business Central\, I can just ask about it.
+ We'll vectorize KQL queries\, query BC Telemetry\, interpret the results 
+ with Copilot\, and add some extra cherries on top. Plus\, we'll walk you 
+ through how to build such a solution yourself - from start to finish!Join
+  us to see how Copilot can revolutionize your Business Central experience
+  by making data querying and interpretation as easy as having a conversat
+ ion.\n\nSpeaker(s): Eric Wauters (waldo)\, Dmitry Katson
 DTEND:20250613T103000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250613T090000Z
 LOCATION:Room 8
 SEQUENCE:0
-SUMMARY:Session 17
-UID:5411a6f8-8866-445b-8a34-d84eb96d1489
+SUMMARY:"Hey Copilot\, How's My Business Central Doing?" [400 - Expert][90
+  min]
+UID:61bf43f4-3115-413b-b5e0-3b876851579c
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
+DESCRIPTION:"Can I run a customer with 350 users on SaaS?". "What about a 
+ customer that posts 1000 invoices with 1000 lines each day?". These are c
+ ommon questions that often land on developers' desks from sales teams.If 
+ you find yourself grappling with these challenges\, this session is for y
+ ou. Handling large customers can be a source of pride for developers\, bu
+ t it also comes with significant challenges. To avoid pitfalls\, it's cru
+ cial to understand both the basics and advanced techniques for architecti
+ ng\, implementing\, and maintaining solutions effectively.In this session
+ \, we will delve into performance tools\, telemetry\, retention policies\
+ , AL code optimization\, and real-life integration strategies. Our goal i
+ s to equip you with the knowledge to make your large customers shine like
+  a star in the ERP firmament.If you’re currently or planning to work with
+  Business Central large customer\, this is probably a session that you do
+ n’t want to miss and you will see lots of advanced code tips.\n\nSpeaker(
+ s): Stefano Demiliani\, Duilio Tacconi
 DTEND:20250613T103000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250613T090000Z
 LOCATION:Room 5
 SEQUENCE:0
-SUMMARY:Session 18
-UID:559b2af4-12f9-4044-914f-d2abaa8e3545
+SUMMARY:How we handle large customers in SaaS: Developer edition [300 - Ad
+ vanced][90 min]
+UID:5dbfab51-37a9-4862-996c-6b108be24214
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
+DESCRIPTION:Join this session to learn all things new in the 2025 release 
+ wave 1 (and a short recap on 2024 wave 2) of the Server and the Database.
+  We will cover performance improvements\, AL runtime\, database\, search\
+ , web services stack\, and reporting.Additionally\, we'll touch on variou
+ s smaller updates that\, while not large enough for their own sessions\, 
+ are still significant and worth noting.We might also take a short look at
+  some of the new things currently under development\n\nSpeaker(s): Jesper
+  Hellesø Hansen\, Torben Wind Meyhoff
 DTEND:20250613T103000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250613T090000Z
 LOCATION:Room 9
 SEQUENCE:0
-SUMMARY:Session 19
-UID:bb7d1f3b-bfb1-4a58-9102-b014641b6391
+SUMMARY:Microsoft Presents: What is new in the Runtime [200 - Intermediate
+ ][45 min]
+UID:b1f05d01-bf79-4527-a6b2-43fe629bd46f
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
+DESCRIPTION:Discover the latest advancements in Business Central 2025 Rele
+ ase Wave 1 that bring flexibility to your environment updates and introdu
+ ce powerful new capabilities for administrators. This session will delve 
+ into the changes and new features\, including the management of PTEs in t
+ he admin center and the new S2S discovery endpoint designed for seamless 
+ handling of multiple tenants. Join us to learn how to elevate your admini
+ stration tasks with automation and these new capabilities.\n\nSpeaker(s):
+  Roman Sauber\, Vesa Krasniqi
 DTEND:20250613T103000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
+DTSTART:20250613T090000Z
+LOCATION:Room 9
+SEQUENCE:0
+SUMMARY:Microsoft Presents: New flexibility and capabilities when updating
+  and administering your Business Central online environments [200 - Inter
+ mediate][45 min]
+UID:dea91bee-5ca4-4a3f-b6ad-33bb9ad83a57
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Get ready for a deep dive into two powerful data-driven Copilo
+ t experiences in Business Central: Summarize and Autofill. In this tech t
+ alk\, we’ll break down how these data-driven capabilities work and how th
+ ey seamlessly integrate with your custom extensions.We’ll explore the cor
+ e tech stack\, walk through key execution flows\, and share practical gui
+ dance to help you make your solutions Copilot-ready—enabling smarter\, fa
+ ster data entry and enhanced decision-making for your customers.\n\nSpeak
+ er(s): Monica Ahuja\, Vasil Iliev
+DTEND:20250613T103000Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250613T090000Z
 LOCATION:Room 7
 SEQUENCE:0
-SUMMARY:Session 20
-UID:1d8f8394-b7ee-4666-9a2b-ad2a8ae563fe
+SUMMARY:Microsoft Presents: Data-Driven Copilot Experiences in Business Ce
+ ntral: Summarize and Autofill [200 - Intermediate][45 min]
+UID:a34f20f9-7021-482b-baa5-4c75431f862b
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Discover powerful new capabilities in Microsoft Copilot Studio
+ —including Autonomous Agents\, Deep Reasoning Models\, and Generative Orc
+ hestration—and learn how to bring them into your Dynamics 365 Business Ce
+ ntral solutions. This demo-rich session walks through building intelligen
+ t agents from scratch\, connecting them to Business Central using custom 
+ APIs and Power Automate flows\, and deploying them across Teams\, web\, a
+ nd Microsoft 365.\n\nSpeaker(s): Evgenij Korovin\, Monica Ahuja
+DTEND:20250613T103000Z
+DTSTAMP:20250525T121051Z
+DTSTART:20250613T090000Z
+LOCATION:Room 7
+SEQUENCE:0
+SUMMARY:Microsoft Presents: What's new in Microsoft Copilot Studio and how
+  you can leverage this with Business Central [200 - Intermediate][45 min]
+UID:ebf2cb78-d824-4177-99fa-68ca8355b8bf
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20250613T113000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250613T103000Z
 LOCATION:Expo Area
 SEQUENCE:0
 SUMMARY:Lunch Break\, Exhibition\, Sponsor Presentations
-UID:5e6c54bc-fe7a-4bdd-af5f-f493886145eb
+UID:63a39524-530f-4691-877e-3a9247cd9b80
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
+DESCRIPTION:Building high performing code is great\, but then you find you
+ rself hoping that the Job Queue runs that 1 job faster and faster.Sometim
+ es\, that's not enough\, and we need to be creative to get even MORE perf
+ ormance out of our BC.Join me for this session to find out how using dead
+ lock resilient\, batch operation code can increase your Job Queue speeds 
+ anywhere from 40 to 90% faster. I'm proud of this new dangerously powerfu
+ l pattern\, and want to see how the community can all benefit.\n\nSpeaker
+ (s): Jeremy Vyska
 DTEND:20250613T130000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250613T113000Z
 LOCATION:Room 8
 SEQUENCE:0
-SUMMARY:Session 21
-UID:a6c50e71-b480-4b73-95f7-a0162a28a64d
+SUMMARY:Turbo Mode: Job Queues in Parallel? [400 - Expert][90 min]
+UID:97ffbde5-6132-4641-a483-f9e774bc9a82
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
+DESCRIPTION:As Business Central continues to evolve in the cloud-first wor
+ ld\, so must our approach to integration.This session is a journey throug
+ h two paradigms: the traditional AL-based integration patterns and the em
+ erging modern architectures built on APIS\, events\, and automation platf
+ orms. We'll begin with a deep dive into the "AL way"—exploring using HTTP
+ Client and building structured payloads using XML and JSON.From there\, w
+ e transition into the modern landscape: decoupled architectures powered b
+ y custom APIS\, event-driven logic\, Logic Apps\, and Power Automate. You
+ ’ll see real-world examples\, hands-on demonstrations\, and clear side-by
+ -side comparisons of each approach's strengths\, limitations\, and best-f
+ it scenarios.Whether you're maintaining legacy solutions or architecting 
+ new integrations\, this session will give you the insight and tools to co
+ nfidently design scalable\, maintainable\, and aligned designs that are s
+ calable and aligned with Business Central's future.\nWhat you will learn:
+ \n\nSpeaker(s): Tharanga Chandrasekara\, Vlad Leonov
 DTEND:20250613T130000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250613T113000Z
 LOCATION:Room 5
 SEQUENCE:0
-SUMMARY:Session 22
-UID:d01aeb51-b0b3-4423-bb43-8bec7c00ca0a
+SUMMARY:Integration Without Aggravation: Best Practices for Business Centr
+ al [300 - Advanced][90 min]
+UID:7c9feea3-0e7e-45c4-a296-af464a0b6c58
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
+DESCRIPTION:In this session\, we’ll uncoverthe real security threats facin
+ g Business Central applications and how todefend against them. You’ll lea
+ rn how Microsoft performs security reviews inBusiness Central and explore
+  best practices for writing secure AL code. Whetheryou're building extens
+ ions or maintaining existing apps\, this session willequip you with the t
+ ools and mindset to write secure\, resilient code yourcustomers can trust
+ .\n\nSpeaker(s): Darrick Joo
 DTEND:20250613T130000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250613T113000Z
 LOCATION:Room 9
 SEQUENCE:0
-SUMMARY:Session 23
-UID:cb5cef72-4ea8-4a8a-ad00-8387aa4aeb63
+SUMMARY:Microsoft Presents: Fortifying Business Central - Secure Your AL C
+ ode Against Real-World Threats [200 - Intermediate][45 min]
+UID:94313911-b646-4956-92a4-884b2d4cdd2a
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:
+DESCRIPTION:Excel Add-in is one of the most used and trusted tools to work
+  with data. In this session we will walk your thoughts all internals on w
+ hat's happening when user modifies data in Excel as never before! After t
+ he session - you can support your users\, know how to build good extensio
+ n\, know to troubleshoot common issues.\n\nSpeaker(s): Shrikant Vinchurka
+ r\, Matti Andreas Nielsen
 DTEND:20250613T130000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
+DTSTART:20250613T113000Z
+LOCATION:Room 9
+SEQUENCE:0
+SUMMARY:Microsoft Presents: Copilot in Excel\, and more best practices on 
+ how to work with data in Excel add-in [200 - Intermediate][45 min]
+UID:8f19f666-2454-46f1-afba-e62f5152853a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:In this session\, we will explore the latest tools and program
+ s available to ISVs for enhancing their Copilot extensions in Business Ce
+ ntral Cloud. Refresh your knowledge with the newest announcements on deve
+ loper tools\, available LLMs through Microsoft-managed AI resources\, eff
+ ective prompting techniques\, strategies for handling hallucinations\, an
+ d best practices for leveraging these tools. Stay up to date with the lat
+ est advancements to ensure your Copilot extensions are both highly specia
+ lized and effective.\n\nSpeaker(s): Evgenij Korovin\, Peter Borring
+DTEND:20250613T130000Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250613T113000Z
 LOCATION:Room 7
 SEQUENCE:0
-SUMMARY:Session 24
-UID:13b00166-258e-4423-84a7-b07fa7aae67e
+SUMMARY:Microsoft Presents: Bring your Copilot extension to Microsoft clou
+ d [200 - Intermediate][45 min]
+UID:c3455c98-f32b-4497-88a2-7c02da44a814
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Join this session to discover all the new capabilities introdu
+ ced in Business Central 2025 release wave 1 for building more compelling 
+ Excel and Word reports. Learn how you can build reports that support auto
+ mated e-document processing. Furthermore\, we will describe new capabilit
+ ies added to the analysis views\, including the ability to add related fi
+ elds\, and discuss when to use views and when to use Excel reports.\n\nSp
+ eaker(s): Blanca Robledo\, Mirko Biasini
+DTEND:20250613T130000Z
+DTSTAMP:20250525T121051Z
+DTSTART:20250613T113000Z
+LOCATION:Room 7
+SEQUENCE:0
+SUMMARY:Microsoft Presents: New capabilities in reporting and analysis vie
+ ws [200 - Intermediate][45 min]
+UID:e7846d00-2dde-4a77-b111-25e6c6021b96
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20250613T133000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250613T130000Z
 LOCATION:Expo Area
 SEQUENCE:0
 SUMMARY:Coffee Break\, Exhibition\, Sponsor Presentation
-UID:8f789eb7-4699-4ed9-8ad2-7af80a68596d
+UID:4d093855-27ab-4d62-a339-925f967768b2
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:
 DTEND:20250613T143000Z
-DTSTAMP:20250525T060903Z
+DTSTAMP:20250525T121051Z
 DTSTART:20250613T133000Z
 LOCATION:Room 8
 SEQUENCE:0
 SUMMARY:Closing
-UID:d0bd42c4-8f79-4bde-a42d-a6d9ecc91527
+UID:9170767c-ba30-43fa-8e1d-53c778a0c13e
 END:VEVENT
 END:VCALENDAR
