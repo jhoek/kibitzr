@@ -21,7 +21,7 @@ jobs:
       - name: Get Recent data
         shell: pwsh
         run: |
-          Get-DeBetrouwareMannetjes
+          Get-DeBetrouwbareMannetjes
           | Select-Object -First 10
           | ForEach-Object {
             New-RssFeedItem `
