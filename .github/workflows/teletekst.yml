@@ -25,6 +25,7 @@ jobs:
           'Domestic', 'Foreign'
           | ForEach-Object {
               Get-TeletekstNews -Type $_
+              | Where-Object { $_.Content }
               | ForEach-Object {
                 Send-PushoverNotification `
                   -ApplicationToken $env:PUSHOVER_APP_TELETEKST `
