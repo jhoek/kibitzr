@@ -55,7 +55,7 @@ jobs:
           | Import-CliXml
           | Sort-Object -Property Fund, Date
           | Group-Object -Property Fund
-          | Where-Object Name -eq 'Aandelen Wereldwijd Totaal'
+          | Where-Object Name -in ('Aandelen Wereldwijd Totaal', 'Aandelen Verantwoorde Toekomst')
           | ForEach-Object {
             $Body =
               $_.Group
