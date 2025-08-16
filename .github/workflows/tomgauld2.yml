@@ -1,0 +1,34 @@
+name: tomgauld2
+
+on:
+  schedule:
+    - cron: "35 6 * * 4"
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Install required PowerShell modules
+        shell: pwsh
+        run: |
+          Set-PSRepository PSGallery -InstallationPolicy Trusted
+          Install-Module UncommonSense.Hap, UncommonSense.NewScientist, UncommonSense.Pushover -Scope CurrentUser -Force
+
+      - name: Send notification
+        shell: pwsh
+        env:
+          PUSHOVER_APP_TOMGAULD: ${{secrets.PUSHOVER_APP_TOMGAULD}}
+          PUSHOVER_USER_TOMGAULD: ${{secrets.PUSHOVER_USER_TOMGAULD}}
+        run: |
+          Get-TomGauld
+          | Select-Object -First 1
+          | ForEach-Object {
+              Send-PushoverNotification `
+              -ApplicationToken $env:PUSHOVER_APP_TOMGAULD `
+              -Recipient $env:PUSHOVER_USER_TOMGAULD `
+              -Attachment $_.Body `
+              -Message ($_.Date).ToString('dddd d MMM yyyy') `
+              -Title 'Tom Gauld'
+          }
