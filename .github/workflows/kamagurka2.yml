@@ -1,0 +1,39 @@
+name: kamagurka
+
+on:
+  # push:
+  #   branches:
+  #     - master
+  schedule:
+    - cron: "50 6 * * 1-6"
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install required PowerShell modules
+        shell: pwsh
+        run: |
+          Set-PSRepository PSGallery -InstallationPolicy Trusted
+          Install-Module UncommonSense.Hap, UncommonSense.Nrc, UncommonSense.Pushover -Scope CurrentUser -Force
+
+      - name: Send notification
+        shell: pwsh
+        env:
+          PUSHOVER_APP_KAMAGURKA: ${{secrets.PUSHOVER_APP_KAMAGURKA}}
+          PUSHOVER_USER_KAMAGURKA: ${{secrets.PUSHOVER_USER_KAMAGURKA}}
+        run: |
+          Get-Kamagurka
+          | Select-Object -First 1
+          | ForEach-Object {
+            Send-PushoverNotification `
+              -ApplicationToken $env:PUSHOVER_APP_KAMAGURKA `
+              -Recipient $env:PUSHOVER_USER_KAMAGURKA `
+              -Attachment $_.Body `
+              -Message ($_.Date).ToString('dddd d MMM yyyy') `
+              -Title 'Kamagurka'
+          }
