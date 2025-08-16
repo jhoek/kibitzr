@@ -1,0 +1,37 @@
+name: sigmund2
+
+on:
+  # push:
+  #   branches:
+  #     - master
+  schedule:
+    - cron: "15 6 * * 1-6"
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: self-hosted
+
+    steps:
+      - name: Install required PowerShell modules
+        shell: pwsh
+        run: |
+          Set-PSRepository PSGallery -InstallationPolicy Trusted
+          Install-Module UncommonSense.Hap, UncommonSense.Volkskrant, UncommonSense.Pushover -Scope CurrentUser -Force
+
+      - name: Send notification
+        shell: pwsh
+        env:
+          PUSHOVER_APP_SIGMUND: ${{secrets.PUSHOVER_APP_SIGMUND}}
+          PUSHOVER_USER_SIGMUND: ${{secrets.PUSHOVER_USER_SIGMUND}}
+        run: |
+          Get-Sigmund
+          | Select-Object -First 1
+          | ForEach-Object {
+            Send-PushoverNotification `
+              -ApplicationToken $env:PUSHOVER_APP_SIGMUND `
+              -Recipient $env:PUSHOVER_USER_SIGMUND `
+              -Attachment $_.Body `
+              -Message ($_.Date).ToString('dddd d MMM yyyy') `
+              -Title 'Sigmund'
+          }
