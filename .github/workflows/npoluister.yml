@@ -1,8 +1,8 @@
-name: npo
+name: npoluister
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 4 * * *"
   workflow_dispatch:
 
 jobs:
@@ -21,18 +21,18 @@ jobs:
       - name: Get Recent data
         shell: pwsh
         run: |
-          Get-NpoFeatured
+          Get-NpoLuister
           | ForEach-Object {
             New-RssFeedItem `
-              -ID $_.ID `
+              -ID $_.Url `
               -Title $_.Title `
               -Description "<img src='$($_.Image)'/><p>$($_.Synopsis)</p>" `
               -PubDate (Get-Date) }
           | New-RssFeed `
-            -Title 'NPO Featured' `
-            -Link 'https://npo.nl/start' `
-            -Description 'NPO Featured'
-          | Set-Content -Path ./data/npo.xml
+            -Title 'NPO Luister' `
+            -Link 'https://npo.nl/aanbod/npo-luister' `
+            -Description 'NPO Luister'
+          | Set-Content -Path ./data/npoluister.xml
 
       - name: Commit and push feed
         shell: bash
