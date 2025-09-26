@@ -54,6 +54,7 @@
 [![peterkuipersmunneke](https://github.com/jhoek/kibitzr/actions/workflows/peterkuipersmunneke.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/peterkuipersmunneke.yml)
 [![picl](https://github.com/jhoek/kibitzr/actions/workflows/picl.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/picl.yml)
 [![readme](https://github.com/jhoek/kibitzr/actions/workflows/readme.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/readme.yml)
+[![robdewijk](https://github.com/jhoek/kibitzr/actions/workflows/robdewijk.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/robdewijk.yml)
 [![roosschlikker](https://github.com/jhoek/kibitzr/actions/workflows/roosschlikker.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/roosschlikker.yml)
 [![rubenloppenheimer](https://github.com/jhoek/kibitzr/actions/workflows/rubenloppenheimer.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/rubenloppenheimer.yml)
 [![sanderschimmelpenninck](https://github.com/jhoek/kibitzr/actions/workflows/sanderschimmelpenninck.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/sanderschimmelpenninck.yml)
