@@ -10,6 +10,7 @@
 [![calvinandhobbes](https://github.com/jhoek/kibitzr/actions/workflows/calvinandhobbes.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/calvinandhobbes.yml)
 [![corinekoole](https://github.com/jhoek/kibitzr/actions/workflows/corinekoole.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/corinekoole.yml)
 [![dadjoke](https://github.com/jhoek/kibitzr/actions/workflows/dadjoke.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/dadjoke.yml)
+[![debedrijfskantine](https://github.com/jhoek/kibitzr/actions/workflows/debedrijfskantine.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/debedrijfskantine.yml)
 [![debetrouwbaremannetjes](https://github.com/jhoek/kibitzr/actions/workflows/debetrouwbaremannetjes.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/debetrouwbaremannetjes.yml)
 [![deelementen](https://github.com/jhoek/kibitzr/actions/workflows/deelementen.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/deelementen.yml)
 [![delaatstebladzijde](https://github.com/jhoek/kibitzr/actions/workflows/delaatstebladzijde.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/delaatstebladzijde.yml)
