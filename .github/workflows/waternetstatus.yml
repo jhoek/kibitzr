@@ -19,7 +19,7 @@ jobs:
             - name: Send notifications
               shell: pwsh
               env:
-                  PUSHOVER_APP_ASNBANK: ${{secrets.PUSHOVER_APP_WATERNET}}
+                  PUSHOVER_APP_WATERNET: ${{secrets.PUSHOVER_APP_WATERNET}}
                   PUSHOVER_USER_JUSTME: ${{secrets.PUSHOVER_USER_JUSTME}}
               run: |
                   Get-WaternetServiceStatus -ZipCode 1109AD
