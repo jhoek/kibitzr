@@ -25,7 +25,7 @@ jobs:
                   Get-WaternetServiceStatus -ZipCode 1109AD
                   | Where-Object Distance -lt 2
                   | ForEach-Object {
-                      $Title = "$($_.Title)$($_.Solved ? ' [SOLVED]', '')"
+                      $Title = "$($_.Title)$($_.Solved ? ' [SOLVED]' : '')"
                       $Description = $($_.Description, "$($_.DateTimeReported)..$($_.DateTimeResolved)") -join ' // '
 
                       Send-PushoverNotification `
