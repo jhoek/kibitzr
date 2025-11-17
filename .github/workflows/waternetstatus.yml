@@ -1,0 +1,37 @@
+name: waternetstatus
+
+on:
+    schedule:
+        - cron: "0/10 * * * *"
+    workflow_dispatch:
+
+jobs:
+    run:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Install required PowerShell modules
+              shell: pwsh
+              run: |
+                  Set-PSRepository PSGallery -InstallationPolicy Trusted
+                  Install-Module Uncommonsense.Hap, UncommonSense.ServiceStatus, UncommonSense.Pushover -Scope CurrentUser -Force
+
+            - name: Send notifications
+              shell: pwsh
+              env:
+                  PUSHOVER_APP_ASNBANK: ${{secrets.PUSHOVER_APP_WATERNET}}
+                  PUSHOVER_USER_JUSTME: ${{secrets.PUSHOVER_USER_JUSTME}}
+              run: |
+                  Get-WaternetServiceStatus -ZipCode 1109AD
+                  | Where-Object Distance -lt 2
+                  | ForEach-Object {
+                      $Title = "$($_.Title)$($_.Solved ? ' [SOLVED]', '')"
+                      $Description = $($_.Description, "$($_.DateTimeReported)..$($_.DateTimeResolved)") -join ' // '
+
+                      Send-PushoverNotification `
+                          -ApplicationToken $env:PUSHOVER_APP_WATERNET `
+                          -Recipient $env:PUSHOVER_USER_JUSTME `
+                          -Title $Title `
+                          -Message $Description `
+                          -SupplementaryUrl $_.Link
+                      }
