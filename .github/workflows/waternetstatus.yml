@@ -23,6 +23,7 @@ jobs:
                   PUSHOVER_USER_JUSTME: ${{secrets.PUSHOVER_USER_JUSTME}}
               run: |
                   Get-WaternetServiceStatus -ZipCode 1109AD
+                  | Where-Object { $_.DateTimeResolved -ge (Get-Date).AddMinutes(-10) }
                   | Where-Object Distance -lt 2
                   | ForEach-Object {
                       $Title = "$($_.Title)$($_.Solved ? ' [SOLVED]' : '')"
@@ -33,6 +34,6 @@ jobs:
                           -Recipient $env:PUSHOVER_USER_JUSTME `
                           -Title $Title `
                           -Message $Description `
+                          -SupplementaryUrl $_.Link `
                           -Html
-                          -SupplementaryUrl $_.Link
                       }
