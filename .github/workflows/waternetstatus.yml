@@ -22,9 +22,8 @@ jobs:
                   PUSHOVER_APP_WATERNET: ${{secrets.PUSHOVER_APP_WATERNET}}
                   PUSHOVER_USER_JUSTME: ${{secrets.PUSHOVER_USER_JUSTME}}
               run: |
-                  Get-WaternetServiceStatus -ZipCode 1109AD
+                  Get-WaternetServiceStatus -ZipCode -Distance 2
                   | Where-Object { $_.DateTimeResolved -ge (Get-Date).AddMinutes(-10) }
-                  | Where-Object Distance -lt 2
                   | ForEach-Object {
                       $Title = "$($_.Title)$($_.Solved ? ' [SOLVED]' : '')"
                       $Description = ($($_.Description, "Reported: $($_.DateTimeReported)", "Solved: $($_.DateTimeResolved)") | Where-Object { $_ }) -join '<br/>'
