@@ -26,12 +26,13 @@ jobs:
                   | Where-Object Distance -lt 2
                   | ForEach-Object {
                       $Title = "$($_.Title)$($_.Solved ? ' [SOLVED]' : '')"
-                      $Description = $($_.Description, "$($_.DateTimeReported)..$($_.DateTimeResolved)") -join ' // '
+                      $Description = $($_.Description, "Reported: $($_.DateTimeReported)", "Solved: $($_.DateTimeResolved)") -join '<br/>'
 
                       Send-PushoverNotification `
                           -ApplicationToken $env:PUSHOVER_APP_WATERNET `
                           -Recipient $env:PUSHOVER_USER_JUSTME `
                           -Title $Title `
                           -Message $Description `
+                          -Html
                           -SupplementaryUrl $_.Link
                       }
