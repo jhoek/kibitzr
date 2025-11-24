@@ -24,6 +24,7 @@ jobs:
               run: |
                   Get-WaternetServiceStatus -ZipCode 1109AD -Distance 2
                   | Where-Object { $_.DateTimeResolved -ge (Get-Date).AddMinutes(-10) }
+                  | Where-Object { $_.DateTimeReported -ge (Get-Date).AddMinutes(-20) }
                   | ForEach-Object {
                       $Title = "$($_.Title)$($_.Solved ? ' [SOLVED]' : '')"
                       $Description = ($($_.Description, "Reported: $($_.DateTimeReported)", "Solved: $($_.DateTimeResolved)") | Where-Object { $_ }) -join '<br/>'
