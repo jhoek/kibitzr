@@ -3,15 +3,52 @@ PRODID:-//github.com/rianjs/ical.net//NONSGML ical.net 4.0//EN
 VERSION:2.0
 X-WR-CALNAME:Filmhuis Alkmaar
 BEGIN:VEVENT
-DESCRIPTION:Hartverscheurend episch drama over het leven van een Palestijn
- se familie door de generaties heen. Een film over ontheemding\, intergene
- rationeel trauma en protest.
-DTEND:20251126T123000
-DTSTAMP:20251126T065205Z
-DTSTART:20251126T103000
+DESCRIPTION:Op zoek naar de ziel van de stad: de Historische Vereniging Al
+ kmaar bestaat 100 jaar en heeft in dat kader met filmmaker Erik Willems e
+ en film ontwikkeld die is samengesteld uit oude amateurfilmpjes van 100 j
+ aar dagelijks leven in Alkmaar.
+DTEND:20251211T181500
+DTSTAMP:20251127T065233Z
+DTSTART:20251211T161500
 SEQUENCE:0
-SUMMARY:Filmhuis Alkmaar: All That’s Left of You
-UID:88b7f6d1-af17-46b8-8e0b-9b23fd96af56
+SUMMARY:Filmhuis Alkmaar: Alkmaar op Film
+UID:4d83066f-76cc-4213-b840-5a7f3ff5c870
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Op zoek naar de ziel van de stad: de Historische Vereniging Al
+ kmaar bestaat 100 jaar en heeft in dat kader met filmmaker Erik Willems e
+ en film ontwikkeld die is samengesteld uit oude amateurfilmpjes van 100 j
+ aar dagelijks leven in Alkmaar.
+DTEND:20251213T154500
+DTSTAMP:20251127T065233Z
+DTSTART:20251213T134500
+SEQUENCE:0
+SUMMARY:Filmhuis Alkmaar: Alkmaar op Film
+UID:3fc8854d-8192-46a6-8d19-a165df0b6186
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Op zoek naar de ziel van de stad: de Historische Vereniging Al
+ kmaar bestaat 100 jaar en heeft in dat kader met filmmaker Erik Willems e
+ en film ontwikkeld die is samengesteld uit oude amateurfilmpjes van 100 j
+ aar dagelijks leven in Alkmaar.
+DTEND:20251216T151500
+DTSTAMP:20251127T065233Z
+DTSTART:20251216T131500
+SEQUENCE:0
+SUMMARY:Filmhuis Alkmaar: Alkmaar op Film
+UID:21a0c726-20e4-412a-bfae-7b502befa7d3
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Op zoek naar de ziel van de stad: de Historische Vereniging Al
+ kmaar bestaat 100 jaar en heeft in dat kader met filmmaker Erik Willems e
+ en film ontwikkeld die is samengesteld uit oude amateurfilmpjes van 100 j
+ aar dagelijks leven in Alkmaar.
+DTEND:20251217T181500
+DTSTAMP:20251127T065233Z
+DTSTART:20251217T161500
+SEQUENCE:0
+SUMMARY:Filmhuis Alkmaar: Alkmaar op Film
+UID:626c06ef-4d22-40ea-badd-0ec8da853275
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Ter gelegenheid van de 40ste verjaardag terug op het grote doe
@@ -19,11 +56,11 @@ DESCRIPTION:Ter gelegenheid van de 40ste verjaardag terug op het grote doe
  Marty en uitvinder Doc dat sinds de release is uitgegroeid tot een van de
   meest geliefde klassiekers uit de jaren 80.
 DTEND:20251129T151500
-DTSTAMP:20251126T065206Z
+DTSTAMP:20251127T065233Z
 DTSTART:20251129T131500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Back to the Future | Klassieker
-UID:cd6cfd91-be9f-44dd-a47a-18378cafe2a9
+UID:add8ff84-2ef4-4b24-ae79-923c74bcc095
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In deze nieuwe film van Yorgos Lanthimos (Poor Things\, The Fa
@@ -31,12 +68,12 @@ DESCRIPTION:In deze nieuwe film van Yorgos Lanthimos (Poor Things\, The Fa
  obsedeerd door complottheorieën. Ze ontvoeren de invloedrijke CEO van een
   groot bedrijf\, overtuigd dat zij een alien is die van plan is de aarde 
  te vernietigen.
-DTEND:20251126T231500
-DTSTAMP:20251126T065206Z
-DTSTART:20251126T211500
+DTEND:20251127T231500
+DTSTAMP:20251127T065233Z
+DTSTART:20251127T211500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Bugonia
-UID:3f2aa7a7-d86e-4ccb-9860-c1cebd4705c4
+UID:625d2bde-7ef8-4ce5-806a-689785c0c19e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In deze nieuwe film van Yorgos Lanthimos (Poor Things\, The Fa
@@ -44,12 +81,12 @@ DESCRIPTION:In deze nieuwe film van Yorgos Lanthimos (Poor Things\, The Fa
  obsedeerd door complottheorieën. Ze ontvoeren de invloedrijke CEO van een
   groot bedrijf\, overtuigd dat zij een alien is die van plan is de aarde 
  te vernietigen.
-DTEND:20251127T153000
-DTSTAMP:20251126T065206Z
-DTSTART:20251127T133000
+DTEND:20251128T153000
+DTSTAMP:20251127T065233Z
+DTSTART:20251128T133000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Bugonia
-UID:688e7712-6879-4e3d-a829-c21e551f3458
+UID:92d7648f-f833-41fb-a7e4-8ecc37c8c98d
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In deze nieuwe film van Yorgos Lanthimos (Poor Things\, The Fa
@@ -58,11 +95,11 @@ DESCRIPTION:In deze nieuwe film van Yorgos Lanthimos (Poor Things\, The Fa
   groot bedrijf\, overtuigd dat zij een alien is die van plan is de aarde 
  te vernietigen.
 DTEND:20251128T151500
-DTSTAMP:20251126T065206Z
+DTSTAMP:20251127T065233Z
 DTSTART:20251128T131500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Bugonia
-UID:6d7af6ff-b2f5-432b-bb9a-cea79165df58
+UID:6b92b025-59bb-41e5-a965-712de47e588d
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In deze nieuwe film van Yorgos Lanthimos (Poor Things\, The Fa
@@ -71,11 +108,11 @@ DESCRIPTION:In deze nieuwe film van Yorgos Lanthimos (Poor Things\, The Fa
   groot bedrijf\, overtuigd dat zij een alien is die van plan is de aarde 
  te vernietigen.
 DTEND:20251201T150000
-DTSTAMP:20251126T065206Z
+DTSTAMP:20251127T065233Z
 DTSTART:20251201T130000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Bugonia
-UID:770992ab-9e77-4780-8411-7047a55cf8d9
+UID:18dc67e1-496c-4d9f-a248-731123182e87
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In deze nieuwe film van Yorgos Lanthimos (Poor Things\, The Fa
@@ -84,11 +121,11 @@ DESCRIPTION:In deze nieuwe film van Yorgos Lanthimos (Poor Things\, The Fa
   groot bedrijf\, overtuigd dat zij een alien is die van plan is de aarde 
  te vernietigen.
 DTEND:20251203T153000
-DTSTAMP:20251126T065206Z
+DTSTAMP:20251127T065233Z
 DTSTART:20251203T133000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Bugonia
-UID:f066c8d8-0273-4aa3-89bd-2bd0e8bf1120
+UID:7dab8e1a-7256-405c-b345-fc918c9fcc34
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Een hartverwarmende Ierse coming of age over Christy\, een jon
@@ -97,11 +134,11 @@ DESCRIPTION:Een hartverwarmende Ierse coming of age over Christy\, een jon
  e ziet dit als een tijdelijke situatie\, maar Christy voelt zich al snel 
  thuis in de kleine gemeenschap.
 DTEND:20251127T133000
-DTSTAMP:20251126T065206Z
+DTSTAMP:20251127T065234Z
 DTSTART:20251127T113000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Christy
-UID:31d32d25-2d39-44d0-b327-533dbe92a09f
+UID:9a96250f-457d-4fad-a108-eb0f4d876b8b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Een hartverwarmende Ierse coming of age over Christy\, een jon
@@ -110,11 +147,11 @@ DESCRIPTION:Een hartverwarmende Ierse coming of age over Christy\, een jon
  e ziet dit als een tijdelijke situatie\, maar Christy voelt zich al snel 
  thuis in de kleine gemeenschap.
 DTEND:20251129T150000
-DTSTAMP:20251126T065206Z
+DTSTAMP:20251127T065234Z
 DTSTART:20251129T130000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Christy
-UID:0c589cb4-54ab-4774-ba77-f2c3c1db76cd
+UID:8ca1ecd9-d945-435c-842a-f7bc99f6d1d7
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Een hartverwarmende Ierse coming of age over Christy\, een jon
@@ -123,11 +160,11 @@ DESCRIPTION:Een hartverwarmende Ierse coming of age over Christy\, een jon
  e ziet dit als een tijdelijke situatie\, maar Christy voelt zich al snel 
  thuis in de kleine gemeenschap.
 DTEND:20251130T224500
-DTSTAMP:20251126T065206Z
+DTSTAMP:20251127T065234Z
 DTSTART:20251130T204500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Christy
-UID:7f67bc93-0a3a-4f1a-894c-4ad24941a66b
+UID:ab2c63a1-693d-48cc-a379-7774e4b970e8
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Een hartverwarmende Ierse coming of age over Christy\, een jon
@@ -136,11 +173,11 @@ DESCRIPTION:Een hartverwarmende Ierse coming of age over Christy\, een jon
  e ziet dit als een tijdelijke situatie\, maar Christy voelt zich al snel 
  thuis in de kleine gemeenschap.
 DTEND:20251202T163000
-DTSTAMP:20251126T065206Z
+DTSTAMP:20251127T065234Z
 DTSTART:20251202T143000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Christy
-UID:a5c5330e-d093-4314-840c-8b7885a66303
+UID:3043685b-52b1-4ae3-b6f2-4e16815b6606
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Een hartverwarmende Ierse coming of age over Christy\, een jon
@@ -149,37 +186,11 @@ DESCRIPTION:Een hartverwarmende Ierse coming of age over Christy\, een jon
  e ziet dit als een tijdelijke situatie\, maar Christy voelt zich al snel 
  thuis in de kleine gemeenschap.
 DTEND:20251203T140000
-DTSTAMP:20251126T065206Z
+DTSTAMP:20251127T065234Z
 DTSTART:20251203T120000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Christy
-UID:c6a2f8c0-603f-4a19-97d0-51ba5c211b91
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Met Die My Love levert regisseur Lynne Ramsay (We Need to Talk
-  About Kevin\, You Were Never Really Here) opnieuw een film die onder je 
- huid kruipt\, met Oscarwinnaar Jennifer Lawrence in de hoofdrol. Ze speel
- t Grace\, een pas bevallen moeder die worstelt met een psychotische postn
- atale depressie.
-DTEND:20251126T203500
-DTSTAMP:20251126T065206Z
-DTSTART:20251126T183500
-SEQUENCE:0
-SUMMARY:Filmhuis Alkmaar: Die My Love
-UID:fae8aec9-3670-43f0-9c7b-2b464e09a0ef
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Met Die My Love levert regisseur Lynne Ramsay (We Need to Talk
-  About Kevin\, You Were Never Really Here) opnieuw een film die onder je 
- huid kruipt\, met Oscarwinnaar Jennifer Lawrence in de hoofdrol. Ze speel
- t Grace\, een pas bevallen moeder die worstelt met een psychotische postn
- atale depressie.
-DTEND:20251127T202000
-DTSTAMP:20251126T065206Z
-DTSTART:20251127T182000
-SEQUENCE:0
-SUMMARY:Filmhuis Alkmaar: Die My Love
-UID:56888930-3188-4a90-a19c-7ee202f59a1f
+UID:677679b2-759e-4f28-94ff-f8fdfeedd4f7
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Met Die My Love levert regisseur Lynne Ramsay (We Need to Talk
@@ -188,11 +199,11 @@ DESCRIPTION:Met Die My Love levert regisseur Lynne Ramsay (We Need to Talk
  t Grace\, een pas bevallen moeder die worstelt met een psychotische postn
  atale depressie.
 DTEND:20251127T204500
-DTSTAMP:20251126T065206Z
+DTSTAMP:20251127T065234Z
 DTSTART:20251127T184500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Die My Love
-UID:84e17d97-d26b-40a1-9a61-da8f8c557f62
+UID:19a1d0db-b535-4c14-b601-5872deb676c0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Met Die My Love levert regisseur Lynne Ramsay (We Need to Talk
@@ -201,11 +212,11 @@ DESCRIPTION:Met Die My Love levert regisseur Lynne Ramsay (We Need to Talk
  t Grace\, een pas bevallen moeder die worstelt met een psychotische postn
  atale depressie.
 DTEND:20251128T230000
-DTSTAMP:20251126T065206Z
+DTSTAMP:20251127T065234Z
 DTSTART:20251128T210000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Die My Love
-UID:a41492e5-6b84-4fb9-aeb5-43a5f675e278
+UID:fb96e297-68d6-462c-880d-e375a4da3327
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Met Die My Love levert regisseur Lynne Ramsay (We Need to Talk
@@ -214,11 +225,11 @@ DESCRIPTION:Met Die My Love levert regisseur Lynne Ramsay (We Need to Talk
  t Grace\, een pas bevallen moeder die worstelt met een psychotische postn
  atale depressie.
 DTEND:20251129T130000
-DTSTAMP:20251126T065206Z
+DTSTAMP:20251127T065234Z
 DTSTART:20251129T110000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Die My Love
-UID:dae6a3fd-3f91-47fb-8823-9047e9ff1abe
+UID:0949be20-52cd-47c2-a03d-a3fa63784cd3
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Met Die My Love levert regisseur Lynne Ramsay (We Need to Talk
@@ -227,11 +238,11 @@ DESCRIPTION:Met Die My Love levert regisseur Lynne Ramsay (We Need to Talk
  t Grace\, een pas bevallen moeder die worstelt met een psychotische postn
  atale depressie.
 DTEND:20251129T202000
-DTSTAMP:20251126T065206Z
+DTSTAMP:20251127T065234Z
 DTSTART:20251129T182000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Die My Love
-UID:83653a83-e624-4d04-9490-bfbb81cf74b7
+UID:b6e491ad-4e52-4e04-885c-ac0ba16516d5
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Met Die My Love levert regisseur Lynne Ramsay (We Need to Talk
@@ -240,11 +251,11 @@ DESCRIPTION:Met Die My Love levert regisseur Lynne Ramsay (We Need to Talk
  t Grace\, een pas bevallen moeder die worstelt met een psychotische postn
  atale depressie.
 DTEND:20251130T144500
-DTSTAMP:20251126T065206Z
+DTSTAMP:20251127T065234Z
 DTSTART:20251130T124500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Die My Love
-UID:ce3e3dab-0003-4bf4-b26e-4a67a67636af
+UID:2f8c653c-3b6d-480d-8845-934a9bf41fee
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Met Die My Love levert regisseur Lynne Ramsay (We Need to Talk
@@ -253,11 +264,11 @@ DESCRIPTION:Met Die My Love levert regisseur Lynne Ramsay (We Need to Talk
  t Grace\, een pas bevallen moeder die worstelt met een psychotische postn
  atale depressie.
 DTEND:20251130T224500
-DTSTAMP:20251126T065206Z
+DTSTAMP:20251127T065234Z
 DTSTART:20251130T204500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Die My Love
-UID:8adbc01a-447c-4e56-82b3-1222d943c46c
+UID:31b3f114-367b-4a90-8446-0383cc699f48
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Met Die My Love levert regisseur Lynne Ramsay (We Need to Talk
@@ -266,11 +277,11 @@ DESCRIPTION:Met Die My Love levert regisseur Lynne Ramsay (We Need to Talk
  t Grace\, een pas bevallen moeder die worstelt met een psychotische postn
  atale depressie.
 DTEND:20251201T203500
-DTSTAMP:20251126T065206Z
+DTSTAMP:20251127T065234Z
 DTSTART:20251201T183500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Die My Love
-UID:97cbaed7-612a-4162-8ddd-4f5bb6fce33d
+UID:a04853e3-1410-45a1-8742-6120d46d40ab
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Met Die My Love levert regisseur Lynne Ramsay (We Need to Talk
@@ -279,11 +290,11 @@ DESCRIPTION:Met Die My Love levert regisseur Lynne Ramsay (We Need to Talk
  t Grace\, een pas bevallen moeder die worstelt met een psychotische postn
  atale depressie.
 DTEND:20251202T230000
-DTSTAMP:20251126T065206Z
+DTSTAMP:20251127T065234Z
 DTSTART:20251202T210000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Die My Love
-UID:1a57ea06-5fd0-4cd6-a4c6-3e2861fac591
+UID:933299c1-a469-4b3b-b583-11582ea2f080
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Met Die My Love levert regisseur Lynne Ramsay (We Need to Talk
@@ -292,11 +303,11 @@ DESCRIPTION:Met Die My Love levert regisseur Lynne Ramsay (We Need to Talk
  t Grace\, een pas bevallen moeder die worstelt met een psychotische postn
  atale depressie.
 DTEND:20251203T123000
-DTSTAMP:20251126T065206Z
+DTSTAMP:20251127T065234Z
 DTSTART:20251203T103000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Die My Love
-UID:f739192a-89f8-42b5-a5b5-3b1694fecc66
+UID:d785cc72-9262-4934-9e9f-aad43f87a5c8
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Met Die My Love levert regisseur Lynne Ramsay (We Need to Talk
@@ -305,23 +316,11 @@ DESCRIPTION:Met Die My Love levert regisseur Lynne Ramsay (We Need to Talk
  t Grace\, een pas bevallen moeder die worstelt met een psychotische postn
  atale depressie.
 DTEND:20251203T224500
-DTSTAMP:20251126T065206Z
+DTSTAMP:20251127T065234Z
 DTSTART:20251203T204500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Die My Love
-UID:f0561c04-8427-4d09-9bfa-73d2d118586b
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Heel sympathieke\, lieve film over Ahmet\, een 15-jarige jonge
- n uit een afgelegen Yuruk-dorp in Noord-Macedonië die zijn toevlucht zoek
- t in muziek en groter droomt dan de kudde schapen die hij dagelijks moet 
- hoeden.
-DTEND:20251126T181000
-DTSTAMP:20251126T065207Z
-DTSTART:20251126T161000
-SEQUENCE:0
-SUMMARY:Filmhuis Alkmaar: DJ Ahmet
-UID:6ca346e7-d030-4536-85e4-458d42a1c03b
+UID:632f4ba2-3f1f-4543-b35f-48625b45b9f9
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Heel sympathieke\, lieve film over Ahmet\, een 15-jarige jonge
@@ -329,11 +328,11 @@ DESCRIPTION:Heel sympathieke\, lieve film over Ahmet\, een 15-jarige jonge
  t in muziek en groter droomt dan de kudde schapen die hij dagelijks moet 
  hoeden.
 DTEND:20251128T131500
-DTSTAMP:20251126T065207Z
+DTSTAMP:20251127T065234Z
 DTSTART:20251128T111500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: DJ Ahmet
-UID:f9503181-047d-4aab-9123-a838df4e5a4b
+UID:1554c90d-da46-4899-a36e-c3dc1e91f413
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Heel sympathieke\, lieve film over Ahmet\, een 15-jarige jonge
@@ -341,11 +340,11 @@ DESCRIPTION:Heel sympathieke\, lieve film over Ahmet\, een 15-jarige jonge
  t in muziek en groter droomt dan de kudde schapen die hij dagelijks moet 
  hoeden.
 DTEND:20251202T123000
-DTSTAMP:20251126T065207Z
+DTSTAMP:20251127T065234Z
 DTSTART:20251202T103000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: DJ Ahmet
-UID:86a8e57c-cfbc-4ff5-b1a7-947593ba2fde
+UID:33f37f4e-8d32-4103-813c-47990b88b623
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Mooie\, geestige en herkenbare film over de 17-jarige Johanne 
@@ -353,25 +352,12 @@ DESCRIPTION:Mooie\, geestige en herkenbare film over de 17-jarige Johanne
  te verliefdheid in haar dagboek\, rauw en intiem. Haar moeder en overgroo
  tmoeder ontdekken haar schrijfsels. Eerst zijn ze in shock\, dan onder de
   indruk van Johannes literaire talent.
-DTEND:20251126T150000
-DTSTAMP:20251126T065207Z
-DTSTART:20251126T130000
+DTEND:20251128T181500
+DTSTAMP:20251127T065234Z
+DTSTART:20251128T161500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Drømmer
-UID:63f2df5e-8298-48df-b6c7-1cd85df0ca1b
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Mooie\, geestige en herkenbare film over de 17-jarige Johanne 
- die smoorverliefd wordt op haar lerares Frans. Ze schrijft over deze eers
- te verliefdheid in haar dagboek\, rauw en intiem. Haar moeder en overgroo
- tmoeder ontdekken haar schrijfsels. Eerst zijn ze in shock\, dan onder de
-  indruk van Johannes literaire talent.
-DTEND:20251127T181500
-DTSTAMP:20251126T065207Z
-DTSTART:20251127T161500
-SEQUENCE:0
-SUMMARY:Filmhuis Alkmaar: Drømmer
-UID:afc36a03-06f8-42c2-98cb-f21f93fd68fe
+UID:2f464d47-8465-4e8a-822d-b60dd5d57c16
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Mooie\, geestige en herkenbare film over de 17-jarige Johanne 
@@ -380,11 +366,11 @@ DESCRIPTION:Mooie\, geestige en herkenbare film over de 17-jarige Johanne
  tmoeder ontdekken haar schrijfsels. Eerst zijn ze in shock\, dan onder de
   indruk van Johannes literaire talent.
 DTEND:20251128T180000
-DTSTAMP:20251126T065207Z
+DTSTAMP:20251127T065234Z
 DTSTART:20251128T160000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Drømmer
-UID:c0bca3f4-3046-4c4e-8a6a-574d1cf00ae8
+UID:04dc6012-c788-4a84-8eb8-5ebb61b2e757
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Mooie\, geestige en herkenbare film over de 17-jarige Johanne 
@@ -393,11 +379,11 @@ DESCRIPTION:Mooie\, geestige en herkenbare film over de 17-jarige Johanne
  tmoeder ontdekken haar schrijfsels. Eerst zijn ze in shock\, dan onder de
   indruk van Johannes literaire talent.
 DTEND:20251201T180000
-DTSTAMP:20251126T065207Z
+DTSTAMP:20251127T065234Z
 DTSTART:20251201T160000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Drømmer
-UID:c127ce95-53df-4f14-8b8a-328ab55e85fe
+UID:e587f34c-a700-4a2b-a815-61883ed996a1
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Mooie\, geestige en herkenbare film over de 17-jarige Johanne 
@@ -406,11 +392,11 @@ DESCRIPTION:Mooie\, geestige en herkenbare film over de 17-jarige Johanne
  tmoeder ontdekken haar schrijfsels. Eerst zijn ze in shock\, dan onder de
   indruk van Johannes literaire talent.
 DTEND:20251202T133000
-DTSTAMP:20251126T065207Z
+DTSTAMP:20251127T065234Z
 DTSTART:20251202T113000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Drømmer
-UID:033eb70c-d741-448e-8b6c-02f8d079c2f1
+UID:81b6a0ad-7955-48ba-b579-cb2c34c3b0f0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Mooie\, geestige en herkenbare film over de 17-jarige Johanne 
@@ -419,39 +405,11 @@ DESCRIPTION:Mooie\, geestige en herkenbare film over de 17-jarige Johanne
  tmoeder ontdekken haar schrijfsels. Eerst zijn ze in shock\, dan onder de
   indruk van Johannes literaire talent.
 DTEND:20251203T161500
-DTSTAMP:20251126T065207Z
+DTSTAMP:20251127T065234Z
 DTSTART:20251203T141500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Drømmer
-UID:d44a29aa-1fba-4815-b744-632f2d688419
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:June Squibb (Thelma) speelt in Eleanor the Great op fenomenale
-  wijze de titelrol van de pittige 94-jarige Eleanor\, die een verhaal ver
- telt dat een compleet eigen leven gaat leiden. Dit regiedebuut van Scarle
- tt Johansson snijdt thema’s aan als ouderdom\, familie\, rouw en verraad.
-  Het is een verhaal over vriendschap en geschiedenis dat laat zien hoe ge
- compliceerd wij als mensen kunnen zijn.
-DTEND:20251126T153000
-DTSTAMP:20251126T065207Z
-DTSTART:20251126T133000
-SEQUENCE:0
-SUMMARY:Filmhuis Alkmaar: Eleanor the Great
-UID:ce5a7093-efd1-4b88-8a15-b84571017cad
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:June Squibb (Thelma) speelt in Eleanor the Great op fenomenale
-  wijze de titelrol van de pittige 94-jarige Eleanor\, die een verhaal ver
- telt dat een compleet eigen leven gaat leiden. Dit regiedebuut van Scarle
- tt Johansson snijdt thema’s aan als ouderdom\, familie\, rouw en verraad.
-  Het is een verhaal over vriendschap en geschiedenis dat laat zien hoe ge
- compliceerd wij als mensen kunnen zijn.
-DTEND:20251126T203500
-DTSTAMP:20251126T065207Z
-DTSTART:20251126T183500
-SEQUENCE:0
-SUMMARY:Filmhuis Alkmaar: Eleanor the Great
-UID:c25246b3-15bb-4b94-9679-58c0c82a0288
+UID:05c05e4e-490b-4808-81a8-adafa608ddeb
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:June Squibb (Thelma) speelt in Eleanor the Great op fenomenale
@@ -461,11 +419,11 @@ DESCRIPTION:June Squibb (Thelma) speelt in Eleanor the Great op fenomenale
   Het is een verhaal over vriendschap en geschiedenis dat laat zien hoe ge
  compliceerd wij als mensen kunnen zijn.
 DTEND:20251127T202000
-DTSTAMP:20251126T065207Z
+DTSTAMP:20251127T065235Z
 DTSTART:20251127T182000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Eleanor the Great
-UID:46ccd331-a753-4d7b-95a8-c897491b43cf
+UID:fb60c28d-1093-4e52-bf37-f1a5a544c897
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:June Squibb (Thelma) speelt in Eleanor the Great op fenomenale
@@ -475,11 +433,11 @@ DESCRIPTION:June Squibb (Thelma) speelt in Eleanor the Great op fenomenale
   Het is een verhaal over vriendschap en geschiedenis dat laat zien hoe ge
  compliceerd wij als mensen kunnen zijn.
 DTEND:20251128T174500
-DTSTAMP:20251126T065207Z
+DTSTAMP:20251127T065235Z
 DTSTART:20251128T154500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Eleanor the Great
-UID:5ba3b97a-a5d5-4ab7-b421-ded68b179f93
+UID:9e6ca715-a0f7-48cf-a444-b4e1765e2de5
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:June Squibb (Thelma) speelt in Eleanor the Great op fenomenale
@@ -489,11 +447,11 @@ DESCRIPTION:June Squibb (Thelma) speelt in Eleanor the Great op fenomenale
   Het is een verhaal over vriendschap en geschiedenis dat laat zien hoe ge
  compliceerd wij als mensen kunnen zijn.
 DTEND:20251129T203500
-DTSTAMP:20251126T065207Z
+DTSTAMP:20251127T065235Z
 DTSTART:20251129T183500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Eleanor the Great
-UID:9e179e00-a00d-4db8-ad49-58d80e25b6d0
+UID:da12ecdd-382a-4939-9b7f-e85ecfc6397b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:June Squibb (Thelma) speelt in Eleanor the Great op fenomenale
@@ -503,11 +461,11 @@ DESCRIPTION:June Squibb (Thelma) speelt in Eleanor the Great op fenomenale
   Het is een verhaal over vriendschap en geschiedenis dat laat zien hoe ge
  compliceerd wij als mensen kunnen zijn.
 DTEND:20251130T203500
-DTSTAMP:20251126T065207Z
+DTSTAMP:20251127T065235Z
 DTSTART:20251130T183500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Eleanor the Great
-UID:a105f13f-cc61-46f2-aebb-fb604f9ab7c1
+UID:a4ffa0f0-4445-4301-939f-fdbcba14cab1
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:June Squibb (Thelma) speelt in Eleanor the Great op fenomenale
@@ -517,11 +475,11 @@ DESCRIPTION:June Squibb (Thelma) speelt in Eleanor the Great op fenomenale
   Het is een verhaal over vriendschap en geschiedenis dat laat zien hoe ge
  compliceerd wij als mensen kunnen zijn.
 DTEND:20251201T202000
-DTSTAMP:20251126T065207Z
+DTSTAMP:20251127T065235Z
 DTSTART:20251201T182000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Eleanor the Great
-UID:fa60a1e8-10b6-494a-9029-9476bbf6dbc6
+UID:f8df0cbc-116d-46a1-8ade-4221a08fa584
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:June Squibb (Thelma) speelt in Eleanor the Great op fenomenale
@@ -531,11 +489,11 @@ DESCRIPTION:June Squibb (Thelma) speelt in Eleanor the Great op fenomenale
   Het is een verhaal over vriendschap en geschiedenis dat laat zien hoe ge
  compliceerd wij als mensen kunnen zijn.
 DTEND:20251202T202000
-DTSTAMP:20251126T065207Z
+DTSTAMP:20251127T065235Z
 DTSTART:20251202T182000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Eleanor the Great
-UID:30e9bfba-4709-4515-bf1a-669deab83c33
+UID:218e8ce4-66cc-4888-9ae5-87f779262261
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:June Squibb (Thelma) speelt in Eleanor the Great op fenomenale
@@ -545,22 +503,22 @@ DESCRIPTION:June Squibb (Thelma) speelt in Eleanor the Great op fenomenale
   Het is een verhaal over vriendschap en geschiedenis dat laat zien hoe ge
  compliceerd wij als mensen kunnen zijn.
 DTEND:20251203T202000
-DTSTAMP:20251126T065207Z
+DTSTAMP:20251127T065235Z
 DTSTART:20251203T182000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Eleanor the Great
-UID:327105ba-1a90-491d-8200-0f2667a01486
+UID:57a68ee2-2d3f-453c-9d8d-232253b47e8e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Muzikale komedie waarmee Marilyn Monroe een onuitwisbare indru
  k maakt als de verleidelijke Lorelei\, die samen met haar sluwe vriendin 
  de mannen het hoofd op hol brengt.
 DTEND:20251213T181500
-DTSTAMP:20251126T065208Z
+DTSTAMP:20251127T065235Z
 DTSTART:20251213T161500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Gentlemen Prefer Blondes | Technicolor Dreams
-UID:991371f6-8784-44e9-8b87-bd5ef8c555e3
+UID:cbf9c71d-3f78-45a2-a5e5-3749410ab3ba
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Betoverend meesterwerk van Studio Ghibli over tiener Sophie di
@@ -568,11 +526,11 @@ DESCRIPTION:Betoverend meesterwerk van Studio Ghibli over tiener Sophie di
  wl ontmoet. Een jaloerse heks vervloekt Sophie en verandert haar in een o
  ude vrouw. Lukt het Sophie om aan deze vloek te ontsnappen?
 DTEND:20251224T123000
-DTSTAMP:20251126T065208Z
+DTSTAMP:20251127T065235Z
 DTSTART:20251224T103000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Howl’s Moving Castle | Ghibli Festival
-UID:cd4a3983-4743-46b1-b74d-69fe7b331d3a
+UID:27f9bee6-8da0-4c38-b19f-4a2f18faf308
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Betoverend meesterwerk van Studio Ghibli over tiener Sophie di
@@ -580,35 +538,11 @@ DESCRIPTION:Betoverend meesterwerk van Studio Ghibli over tiener Sophie di
  wl ontmoet. Een jaloerse heks vervloekt Sophie en verandert haar in een o
  ude vrouw. Lukt het Sophie om aan deze vloek te ontsnappen?
 DTEND:20251231T150000
-DTSTAMP:20251126T065208Z
+DTSTAMP:20251127T065235Z
 DTSTART:20251231T130000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Howl’s Moving Castle | Ghibli Festival
-UID:fd1bde80-3708-4814-a979-a8e53539ff90
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Deze nieuwe film van de Iraanse filmmaker Jafar Panahi – hij s
- chreef en regisseerde de film – is een krachtige\, morele thriller waarin
-  een ogenschijnlijk onschuldig auto-ongeluk verandert in een verontrusten
- de zoektocht naar waarheid\, wraak en genade.
-DTEND:20251126T174500
-DTSTAMP:20251126T065208Z
-DTSTART:20251126T154500
-SEQUENCE:0
-SUMMARY:Filmhuis Alkmaar: It Was Just an Accident
-UID:c935c345-3f35-4e62-a360-26a01e9c2625
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Deze nieuwe film van de Iraanse filmmaker Jafar Panahi – hij s
- chreef en regisseerde de film – is een krachtige\, morele thriller waarin
-  een ogenschijnlijk onschuldig auto-ongeluk verandert in een verontrusten
- de zoektocht naar waarheid\, wraak en genade.
-DTEND:20251126T230000
-DTSTAMP:20251126T065208Z
-DTSTART:20251126T210000
-SEQUENCE:0
-SUMMARY:Filmhuis Alkmaar: It Was Just an Accident
-UID:eecb9333-1d7e-4473-82f3-66275e09fe33
+UID:d3e73abf-3c40-4ec9-a15c-af3a7a2005f2
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Deze nieuwe film van de Iraanse filmmaker Jafar Panahi – hij s
@@ -616,11 +550,11 @@ DESCRIPTION:Deze nieuwe film van de Iraanse filmmaker Jafar Panahi – hij s
   een ogenschijnlijk onschuldig auto-ongeluk verandert in een verontrusten
  de zoektocht naar waarheid\, wraak en genade.
 DTEND:20251127T150000
-DTSTAMP:20251126T065208Z
+DTSTAMP:20251127T065236Z
 DTSTART:20251127T130000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: It Was Just an Accident
-UID:f9628b5a-0f0a-47b2-80d7-f4dd732b36de
+UID:4a4b7e57-f96c-4999-abd3-a168f6a28e48
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Deze nieuwe film van de Iraanse filmmaker Jafar Panahi – hij s
@@ -628,11 +562,11 @@ DESCRIPTION:Deze nieuwe film van de Iraanse filmmaker Jafar Panahi – hij s
   een ogenschijnlijk onschuldig auto-ongeluk verandert in een verontrusten
  de zoektocht naar waarheid\, wraak en genade.
 DTEND:20251128T203500
-DTSTAMP:20251126T065208Z
+DTSTAMP:20251127T065236Z
 DTSTART:20251128T183500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: It Was Just an Accident
-UID:481a2316-39a3-4dc0-8d2f-f4ec8bbaa10f
+UID:c54dfd57-6886-4e51-aaed-17e089791cf7
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Deze nieuwe film van de Iraanse filmmaker Jafar Panahi – hij s
@@ -640,11 +574,11 @@ DESCRIPTION:Deze nieuwe film van de Iraanse filmmaker Jafar Panahi – hij s
   een ogenschijnlijk onschuldig auto-ongeluk verandert in een verontrusten
  de zoektocht naar waarheid\, wraak en genade.
 DTEND:20251129T224500
-DTSTAMP:20251126T065208Z
+DTSTAMP:20251127T065236Z
 DTSTART:20251129T204500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: It Was Just an Accident
-UID:11acb299-615c-4864-b3b5-d6559b295acc
+UID:96aac101-e750-49d0-be51-a1bf05dfcf0f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Deze nieuwe film van de Iraanse filmmaker Jafar Panahi – hij s
@@ -652,11 +586,11 @@ DESCRIPTION:Deze nieuwe film van de Iraanse filmmaker Jafar Panahi – hij s
   een ogenschijnlijk onschuldig auto-ongeluk verandert in een verontrusten
  de zoektocht naar waarheid\, wraak en genade.
 DTEND:20251130T230000
-DTSTAMP:20251126T065208Z
+DTSTAMP:20251127T065236Z
 DTSTART:20251130T210000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: It Was Just an Accident
-UID:4609bd04-22a7-4863-9412-dac5d7c4d155
+UID:9b2acff3-5333-448b-aaf5-020dc78b9ff5
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Deze nieuwe film van de Iraanse filmmaker Jafar Panahi – hij s
@@ -664,11 +598,11 @@ DESCRIPTION:Deze nieuwe film van de Iraanse filmmaker Jafar Panahi – hij s
   een ogenschijnlijk onschuldig auto-ongeluk verandert in een verontrusten
  de zoektocht naar waarheid\, wraak en genade.
 DTEND:20251201T174500
-DTSTAMP:20251126T065208Z
+DTSTAMP:20251127T065236Z
 DTSTART:20251201T154500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: It Was Just an Accident
-UID:7f55be50-b19e-48e1-bbfa-72ded013bc71
+UID:bda5b4e6-1230-44c9-a165-42083a1a401b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Deze nieuwe film van de Iraanse filmmaker Jafar Panahi – hij s
@@ -676,11 +610,11 @@ DESCRIPTION:Deze nieuwe film van de Iraanse filmmaker Jafar Panahi – hij s
   een ogenschijnlijk onschuldig auto-ongeluk verandert in een verontrusten
  de zoektocht naar waarheid\, wraak en genade.
 DTEND:20251202T203500
-DTSTAMP:20251126T065208Z
+DTSTAMP:20251127T065236Z
 DTSTART:20251202T183500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: It Was Just an Accident
-UID:806b0257-9271-4b20-a760-ee2da892b64a
+UID:ecb8a08f-5deb-4b2c-b297-b70f11296407
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Deze nieuwe film van de Iraanse filmmaker Jafar Panahi – hij s
@@ -688,24 +622,11 @@ DESCRIPTION:Deze nieuwe film van de Iraanse filmmaker Jafar Panahi – hij s
   een ogenschijnlijk onschuldig auto-ongeluk verandert in een verontrusten
  de zoektocht naar waarheid\, wraak en genade.
 DTEND:20251203T180000
-DTSTAMP:20251126T065208Z
+DTSTAMP:20251127T065236Z
 DTSTART:20251203T160000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: It Was Just an Accident
-UID:c31f8f9a-584f-4888-99b1-bb5110e73ec5
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Deze muziekfilm vertelt het waargebeurde verhaal achter een va
- n de bestverkochte jazzplaten aller tijden: Keith Jarretts Köln Concert u
- it 1975. Wanneer de 18-jarige scholiere Vera Brandes de legendarische pia
- nist voor het eerst hoort spelen\, zet ze alles op alles voor dit concert
- .
-DTEND:20251126T202000
-DTSTAMP:20251126T065208Z
-DTSTART:20251126T182000
-SEQUENCE:0
-SUMMARY:Filmhuis Alkmaar: Köln 75
-UID:2706ad20-aa5a-4b12-8003-72c6695c29f6
+UID:c09e9400-4c4f-4fc1-b99b-c943b03aceb2
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Deze muziekfilm vertelt het waargebeurde verhaal achter een va
@@ -714,11 +635,11 @@ DESCRIPTION:Deze muziekfilm vertelt het waargebeurde verhaal achter een va
  nist voor het eerst hoort spelen\, zet ze alles op alles voor dit concert
  .
 DTEND:20251127T154500
-DTSTAMP:20251126T065208Z
+DTSTAMP:20251127T065236Z
 DTSTART:20251127T134500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Köln 75
-UID:864276ba-1763-4d53-93b6-ee0c482f4b1c
+UID:58765b78-7cbd-4c71-b84b-502a03dd68fb
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Deze muziekfilm vertelt het waargebeurde verhaal achter een va
@@ -727,11 +648,11 @@ DESCRIPTION:Deze muziekfilm vertelt het waargebeurde verhaal achter een va
  nist voor het eerst hoort spelen\, zet ze alles op alles voor dit concert
  .
 DTEND:20251128T154500
-DTSTAMP:20251126T065208Z
+DTSTAMP:20251127T065236Z
 DTSTART:20251128T134500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Köln 75
-UID:93d62459-7532-43f1-9e42-57d616b829c2
+UID:ea86603c-3666-4493-b5d6-d82027865961
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Deze muziekfilm vertelt het waargebeurde verhaal achter een va
@@ -740,11 +661,11 @@ DESCRIPTION:Deze muziekfilm vertelt het waargebeurde verhaal achter een va
  nist voor het eerst hoort spelen\, zet ze alles op alles voor dit concert
  .
 DTEND:20251129T224500
-DTSTAMP:20251126T065208Z
+DTSTAMP:20251127T065236Z
 DTSTART:20251129T204500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Köln 75
-UID:669a1a7e-e3bf-42b7-9166-ef66b3d070b2
+UID:c3802c4f-9f05-4599-b467-11f7d92d1939
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Deze muziekfilm vertelt het waargebeurde verhaal achter een va
@@ -753,11 +674,11 @@ DESCRIPTION:Deze muziekfilm vertelt het waargebeurde verhaal achter een va
  nist voor het eerst hoort spelen\, zet ze alles op alles voor dit concert
  .
 DTEND:20251201T180000
-DTSTAMP:20251126T065208Z
+DTSTAMP:20251127T065236Z
 DTSTART:20251201T160000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Köln 75
-UID:f80ea96b-5d72-47b1-b7aa-8596d73be643
+UID:0b546972-69c4-4a9e-a11a-3f064fef0ed4
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Deze muziekfilm vertelt het waargebeurde verhaal achter een va
@@ -766,11 +687,11 @@ DESCRIPTION:Deze muziekfilm vertelt het waargebeurde verhaal achter een va
  nist voor het eerst hoort spelen\, zet ze alles op alles voor dit concert
  .
 DTEND:20251202T205000
-DTSTAMP:20251126T065208Z
+DTSTAMP:20251127T065236Z
 DTSTART:20251202T185000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Köln 75
-UID:bf8ca7f0-c7e8-4d37-ad6b-c392230a371e
+UID:435e7a59-7052-4655-b28c-9b131da7a638
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Deze muziekfilm vertelt het waargebeurde verhaal achter een va
@@ -779,11 +700,11 @@ DESCRIPTION:Deze muziekfilm vertelt het waargebeurde verhaal achter een va
  nist voor het eerst hoort spelen\, zet ze alles op alles voor dit concert
  .
 DTEND:20251203T181500
-DTSTAMP:20251126T065208Z
+DTSTAMP:20251127T065236Z
 DTSTART:20251203T161500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Köln 75
-UID:0716880b-4f23-40af-9045-46dfec8a10d2
+UID:eb315bda-e298-4ca4-b715-b95948805d96
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In deze nieuwe film van Thierry Klifa\, die in première ging i
@@ -791,11 +712,11 @@ DESCRIPTION:In deze nieuwe film van Thierry Klifa\, die in première ging i
  et veel verve neer\, een personage geïnspireerd op Françoise Bettencourt-
  Meyers\, erfgenaam van het L’Oréal-fortuin.
 DTEND:20251213T123000
-DTSTAMP:20251126T065209Z
+DTSTAMP:20251127T065236Z
 DTSTART:20251213T103000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: La femme la plus riche du monde | Voorpremière
-UID:8e021b41-c35a-46ed-9b72-897c0b435652
+UID:bb01fffd-5771-43b7-a61c-ec2ec2ae73d8
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In deze nieuwe film van Thierry Klifa\, die in première ging i
@@ -803,11 +724,11 @@ DESCRIPTION:In deze nieuwe film van Thierry Klifa\, die in première ging i
  et veel verve neer\, een personage geïnspireerd op Françoise Bettencourt-
  Meyers\, erfgenaam van het L’Oréal-fortuin.
 DTEND:20251214T123000
-DTSTAMP:20251126T065209Z
+DTSTAMP:20251127T065236Z
 DTSTART:20251214T103000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: La femme la plus riche du monde | Voorpremière
-UID:9c7e3d0e-1209-487c-bab4-9c97fe195e3e
+UID:2e7ec240-1938-4e77-b769-a6bf7bbce8fe
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In deze nieuwe film van Thierry Klifa\, die in première ging i
@@ -815,11 +736,11 @@ DESCRIPTION:In deze nieuwe film van Thierry Klifa\, die in première ging i
  et veel verve neer\, een personage geïnspireerd op Françoise Bettencourt-
  Meyers\, erfgenaam van het L’Oréal-fortuin.
 DTEND:20251217T202000
-DTSTAMP:20251126T065209Z
+DTSTAMP:20251127T065236Z
 DTSTART:20251217T182000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: La femme la plus riche du monde | Voorpremière
-UID:1d918ccb-7160-4271-9449-6bec99814625
+UID:91437548-a330-4c0c-b229-07107142d3c4
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De Surinaamse gamelan is een uniek muziekinstrument. In tegens
@@ -829,45 +750,45 @@ DESCRIPTION:De Surinaamse gamelan is een uniek muziekinstrument. In tegens
  rs als makers vastgelegd.Na de film is er een Q&A met gamelan-speler Rona
  ld Sanrodji en filmmaker Melvin Toemin.
 DTEND:20251130T150000
-DTSTAMP:20251126T065209Z
+DTSTAMP:20251127T065236Z
 DTSTART:20251130T130000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Meer dan kling\, klang\, klong | Cinema Suriname
-UID:7fb085ee-3cf2-465b-bc33-20fcc440ec95
+UID:cb266fa1-9ed4-4c74-a7f3-ff83f1855bd0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Bonte Technicolor-musical uit de gloriedagen van het genre\, d
  at zich afspeelt in 1903\, vlak voor de Wereldtentoonstelling van 1904 in
   St. Louis.
 DTEND:20251129T174500
-DTSTAMP:20251126T065209Z
+DTSTAMP:20251127T065237Z
 DTSTART:20251129T154500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Meet me in St. Louis | Technicolor Dreams
-UID:d4593da0-4a69-4c3d-a29f-df22b946d899
+UID:0a10d697-fb18-42eb-a5a2-349fa15e786d
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Bonte Technicolor-musical uit de gloriedagen van het genre\, d
  at zich afspeelt in 1903\, vlak voor de Wereldtentoonstelling van 1904 in
   St. Louis.
 DTEND:20251216T231500
-DTSTAMP:20251126T065209Z
+DTSTAMP:20251127T065237Z
 DTSTART:20251216T211500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Meet me in St. Louis | Technicolor Dreams
-UID:9afb4c32-adb7-4652-9eca-7ca3786d89f5
+UID:90f55bf8-eb2a-43f6-b37b-92303fff2f21
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In deze nieuwe film van Christian Petzold (Phoenix\, Barbara\,
   Roter Himmel) komt de vriend van pianostudente Laura om het leven bij ee
  n auto-ongeluk. Betty\, die getuige was van de crash\, biedt haar troost 
  en neemt het ontdane meisje onder haar hoede.
-DTEND:20251127T183000
-DTSTAMP:20251126T065210Z
-DTSTART:20251127T163000
+DTEND:20251128T183000
+DTSTAMP:20251127T065237Z
+DTSTART:20251128T163000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Miroirs No. 3
-UID:127ed33e-e57f-41b3-b2e1-87065f83890d
+UID:26e9d58d-e85e-473a-bde0-67ed8b2fc9f8
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In deze nieuwe film van Christian Petzold (Phoenix\, Barbara\,
@@ -875,11 +796,11 @@ DESCRIPTION:In deze nieuwe film van Christian Petzold (Phoenix\, Barbara\,
  n auto-ongeluk. Betty\, die getuige was van de crash\, biedt haar troost 
  en neemt het ontdane meisje onder haar hoede.
 DTEND:20251128T202000
-DTSTAMP:20251126T065210Z
+DTSTAMP:20251127T065237Z
 DTSTART:20251128T182000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Miroirs No. 3
-UID:b817c1d7-d299-4e29-8535-8d144e15b8df
+UID:7c8e1597-853c-4448-8ef0-feceea121baa
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In deze nieuwe film van Christian Petzold (Phoenix\, Barbara\,
@@ -887,11 +808,11 @@ DESCRIPTION:In deze nieuwe film van Christian Petzold (Phoenix\, Barbara\,
  n auto-ongeluk. Betty\, die getuige was van de crash\, biedt haar troost 
  en neemt het ontdane meisje onder haar hoede.
 DTEND:20251129T203500
-DTSTAMP:20251126T065210Z
+DTSTAMP:20251127T065237Z
 DTSTART:20251129T183500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Miroirs No. 3
-UID:0a30e317-5525-47a5-9cd4-57cde81147cb
+UID:e82d47cb-4385-46c8-bb76-43e786c75d0b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In deze nieuwe film van Christian Petzold (Phoenix\, Barbara\,
@@ -899,11 +820,11 @@ DESCRIPTION:In deze nieuwe film van Christian Petzold (Phoenix\, Barbara\,
  n auto-ongeluk. Betty\, die getuige was van de crash\, biedt haar troost 
  en neemt het ontdane meisje onder haar hoede.
 DTEND:20251130T190000
-DTSTAMP:20251126T065210Z
+DTSTAMP:20251127T065237Z
 DTSTART:20251130T170000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Miroirs No. 3
-UID:88650c20-1aa1-4c8e-a456-726de531eab5
+UID:f5576f0f-839e-48e1-92ef-2580062f39c6
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In deze nieuwe film van Christian Petzold (Phoenix\, Barbara\,
@@ -911,11 +832,11 @@ DESCRIPTION:In deze nieuwe film van Christian Petzold (Phoenix\, Barbara\,
  n auto-ongeluk. Betty\, die getuige was van de crash\, biedt haar troost 
  en neemt het ontdane meisje onder haar hoede.
 DTEND:20251201T230000
-DTSTAMP:20251126T065210Z
+DTSTAMP:20251127T065237Z
 DTSTART:20251201T210000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Miroirs No. 3
-UID:c6dd1b6e-d587-4855-8494-44cfe7b32a4b
+UID:67f4fbe0-26a1-470e-8bd1-6050542dd809
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In deze nieuwe film van Christian Petzold (Phoenix\, Barbara\,
@@ -923,11 +844,11 @@ DESCRIPTION:In deze nieuwe film van Christian Petzold (Phoenix\, Barbara\,
  n auto-ongeluk. Betty\, die getuige was van de crash\, biedt haar troost 
  en neemt het ontdane meisje onder haar hoede.
 DTEND:20251202T182000
-DTSTAMP:20251126T065210Z
+DTSTAMP:20251127T065237Z
 DTSTART:20251202T162000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Miroirs No. 3
-UID:a6c18cb4-e9df-44ae-94b5-516eadbe6755
+UID:d0a18fe3-5630-4108-a646-8f8d4ec975fa
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In deze nieuwe film van Christian Petzold (Phoenix\, Barbara\,
@@ -935,33 +856,33 @@ DESCRIPTION:In deze nieuwe film van Christian Petzold (Phoenix\, Barbara\,
  n auto-ongeluk. Betty\, die getuige was van de crash\, biedt haar troost 
  en neemt het ontdane meisje onder haar hoede.
 DTEND:20251203T203500
-DTSTAMP:20251126T065210Z
+DTSTAMP:20251127T065237Z
 DTSTART:20251203T183500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Miroirs No. 3
-UID:ceef6f96-9c5b-4077-9335-050ee72a46a6
+UID:6fad5236-4c00-4522-b73c-417a83fb9253
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In deze docu balanceert Marron-schipper Boogie tussen vooroude
  rlijke plichten en moderne uitdagingen in een collectieve vertelling van 
  een veranderend regenwoud.
 DTEND:20251130T123000
-DTSTAMP:20251126T065210Z
+DTSTAMP:20251127T065237Z
 DTSTART:20251130T103000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Monikondee
-UID:029cbfc1-447e-4be9-930a-3633d40294e1
+UID:4bfd87e8-ac28-4729-b159-4f0e2613d626
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In deze docu balanceert Marron-schipper Boogie tussen vooroude
  rlijke plichten en moderne uitdagingen in een collectieve vertelling van 
  een veranderend regenwoud.
 DTEND:20251202T160000
-DTSTAMP:20251126T065210Z
+DTSTAMP:20251127T065237Z
 DTSTART:20251202T140000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Monikondee
-UID:cff0f4ba-96a4-48c9-88ba-339da506305e
+UID:7573bf7e-f214-4c6a-b265-eb30da795f38
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In deze handgetekende animatiefilm van Studio Ghibli verhuizen
@@ -970,11 +891,11 @@ DESCRIPTION:In deze handgetekende animatiefilm van Studio Ghibli verhuizen
  et nabijgelegen bos bevolkt is door wonderlijke wezens. Ze raken bevriend
   en beleven magische avonturen.
 DTEND:20251220T150000
-DTSTAMP:20251126T065211Z
+DTSTAMP:20251127T065237Z
 DTSTART:20251220T130000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: My Neighbor Totoro | Ghibli Festival
-UID:16bda931-56a5-4396-816d-bf11e2cbaaaf
+UID:1f2ab5fd-be26-4d77-9ef5-404e96bfa20d
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In deze handgetekende animatiefilm van Studio Ghibli verhuizen
@@ -983,11 +904,11 @@ DESCRIPTION:In deze handgetekende animatiefilm van Studio Ghibli verhuizen
  et nabijgelegen bos bevolkt is door wonderlijke wezens. Ze raken bevriend
   en beleven magische avonturen.
 DTEND:20251228T130000
-DTSTAMP:20251126T065211Z
+DTSTAMP:20251127T065237Z
 DTSTART:20251228T110000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: My Neighbor Totoro | Ghibli Festival
-UID:cb4f4755-ff30-467a-b5f3-b3eecdf529e3
+UID:89efe0e8-437d-4fea-8c0b-475dabc8f8f8
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Deze docu neemt je mee op reis door de geschiedenis van de Hin
@@ -997,11 +918,11 @@ DESCRIPTION:Deze docu neemt je mee op reis door de geschiedenis van de Hin
  angcontractarbeiders tot volwaardige Surinaamse burgers.Na de film is er 
  een Q&A met filmmaker Pravini Baboeram.
 DTEND:20251130T180000
-DTSTAMP:20251126T065211Z
+DTSTAMP:20251127T065238Z
 DTSTART:20251130T160000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Naya Daur | Cinema Suriname
-UID:9da35ece-ec46-4d18-a949-834e89ab32bc
+UID:ddc7148a-03b9-4292-ac47-6e1d4ee2875f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Vrouwenmoord komt niet uit het niets! Het kent een lange aanlo
@@ -1010,23 +931,23 @@ DESCRIPTION:Vrouwenmoord komt niet uit het niets! Het kent een lange aanlo
  n deze documentaire over femicide eenmalig in het kader van Alkmaar breek
  t de stilte en Orange the World.
 DTEND:20251209T203000
-DTSTAMP:20251126T065211Z
+DTSTAMP:20251127T065238Z
 DTSTART:20251209T183000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Niet uit het niets | Alkmaar breekt de stilte
-UID:d56a975b-3611-4612-8093-34563665c5ff
+UID:2f4844ae-dcf3-4a26-8d44-2ebb8fcf673d
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Deze knap gemaakte film is een liefdesverklaring van regisseur
   Richard Linklater (Boyhood) voor Jean-Luc Godards cultfilm À bout de sou
  ffle. Het laat de making-of zien van deze debuutfilm van Godard\, een mij
  lpaal in de Franse cinema.
-DTEND:20251127T173000
-DTSTAMP:20251126T065212Z
-DTSTART:20251127T153000
+DTEND:20251128T173000
+DTSTAMP:20251127T065238Z
+DTSTART:20251128T153000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Nouvelle vague
-UID:9924250a-bce8-44f9-b233-80537cac711e
+UID:ea7e0dd0-daf7-4993-986a-83404ff6e0c8
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Deze knap gemaakte film is een liefdesverklaring van regisseur
@@ -1034,11 +955,11 @@ DESCRIPTION:Deze knap gemaakte film is een liefdesverklaring van regisseur
  ffle. Het laat de making-of zien van deze debuutfilm van Godard\, een mij
  lpaal in de Franse cinema.
 DTEND:20251128T203500
-DTSTAMP:20251126T065212Z
+DTSTAMP:20251127T065238Z
 DTSTART:20251128T183500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Nouvelle vague
-UID:963759f1-bf4b-473e-bcbf-f5a9eabef36a
+UID:a3a464f5-d30b-45f0-a49f-1651b706e967
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Deze knap gemaakte film is een liefdesverklaring van regisseur
@@ -1046,11 +967,11 @@ DESCRIPTION:Deze knap gemaakte film is een liefdesverklaring van regisseur
  ffle. Het laat de making-of zien van deze debuutfilm van Godard\, een mij
  lpaal in de Franse cinema.
 DTEND:20251129T180000
-DTSTAMP:20251126T065212Z
+DTSTAMP:20251127T065238Z
 DTSTART:20251129T160000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Nouvelle vague
-UID:fd5004fb-c5ab-4a01-b66e-2e5673723fbb
+UID:f502e81f-b621-4d65-9367-141daf442ac8
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Deze knap gemaakte film is een liefdesverklaring van regisseur
@@ -1058,11 +979,11 @@ DESCRIPTION:Deze knap gemaakte film is een liefdesverklaring van regisseur
  ffle. Het laat de making-of zien van deze debuutfilm van Godard\, een mij
  lpaal in de Franse cinema.
 DTEND:20251130T164000
-DTSTAMP:20251126T065212Z
+DTSTAMP:20251127T065238Z
 DTSTART:20251130T144000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Nouvelle vague
-UID:439b9f1d-ec97-44fd-a47a-557fc1ed0cb7
+UID:b1c649c7-bf07-402c-b6cb-32f1051205b7
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Deze knap gemaakte film is een liefdesverklaring van regisseur
@@ -1070,11 +991,11 @@ DESCRIPTION:Deze knap gemaakte film is een liefdesverklaring van regisseur
  ffle. Het laat de making-of zien van deze debuutfilm van Godard\, een mij
  lpaal in de Franse cinema.
 DTEND:20251201T203500
-DTSTAMP:20251126T065212Z
+DTSTAMP:20251127T065238Z
 DTSTART:20251201T183500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Nouvelle vague
-UID:715873a7-f321-4ab9-b207-445dc5f8437d
+UID:e494b5b3-b58b-4d69-873d-5a76aae9a2d0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Deze knap gemaakte film is een liefdesverklaring van regisseur
@@ -1082,11 +1003,11 @@ DESCRIPTION:Deze knap gemaakte film is een liefdesverklaring van regisseur
  ffle. Het laat de making-of zien van deze debuutfilm van Godard\, een mij
  lpaal in de Franse cinema.
 DTEND:20251202T183500
-DTSTAMP:20251126T065212Z
+DTSTAMP:20251127T065238Z
 DTSTART:20251202T163500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Nouvelle vague
-UID:a7a36211-d187-406f-bc2f-8a1a66e1c73a
+UID:55c12253-a3bb-4cad-bd0b-3ed89c646019
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Deze knap gemaakte film is een liefdesverklaring van regisseur
@@ -1094,24 +1015,11 @@ DESCRIPTION:Deze knap gemaakte film is een liefdesverklaring van regisseur
  ffle. Het laat de making-of zien van deze debuutfilm van Godard\, een mij
  lpaal in de Franse cinema.
 DTEND:20251203T210000
-DTSTAMP:20251126T065212Z
+DTSTAMP:20251127T065238Z
 DTSTART:20251203T190000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Nouvelle vague
-UID:eb7295b1-3c9a-49ef-893e-bd5fd61bfb2e
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Kort na de Tweede Wereldoorlog moet een Amerikaanse psychiater
-  bepalen welke gevangen genomen nazi’s in Neurenberg terecht kunnen staan
-  voor hun oorlogsmisdaden. Tijdens zijn werk raakt hij verstrikt in een p
- sychologische strijd met Adolf Hitlers nauwste vertrouweling\, Hermann Gö
- ring.
-DTEND:20251127T223000
-DTSTAMP:20251126T065212Z
-DTSTART:20251127T203000
-SEQUENCE:0
-SUMMARY:Filmhuis Alkmaar: Nuremberg
-UID:589e721a-ea0a-4ade-bd81-a528db176191
+UID:6a51bbf8-620b-4c35-9b33-ab2678c34039
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Kort na de Tweede Wereldoorlog moet een Amerikaanse psychiater
@@ -1120,11 +1028,24 @@ DESCRIPTION:Kort na de Tweede Wereldoorlog moet een Amerikaanse psychiater
  sychologische strijd met Adolf Hitlers nauwste vertrouweling\, Hermann Gö
  ring.
 DTEND:20251128T223000
-DTSTAMP:20251126T065212Z
+DTSTAMP:20251127T065238Z
 DTSTART:20251128T203000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Nuremberg
-UID:97c5e477-ee82-4d43-a759-acb0886629f0
+UID:62b64eaf-308b-404a-ad27-8e3c29f2b75a
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Kort na de Tweede Wereldoorlog moet een Amerikaanse psychiater
+  bepalen welke gevangen genomen nazi’s in Neurenberg terecht kunnen staan
+  voor hun oorlogsmisdaden. Tijdens zijn werk raakt hij verstrikt in een p
+ sychologische strijd met Adolf Hitlers nauwste vertrouweling\, Hermann Gö
+ ring.
+DTEND:20251128T223000
+DTSTAMP:20251127T065238Z
+DTSTART:20251128T203000
+SEQUENCE:0
+SUMMARY:Filmhuis Alkmaar: Nuremberg
+UID:b806f836-ec27-4198-b693-cb217a660168
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Kort na de Tweede Wereldoorlog moet een Amerikaanse psychiater
@@ -1133,11 +1054,11 @@ DESCRIPTION:Kort na de Tweede Wereldoorlog moet een Amerikaanse psychiater
  sychologische strijd met Adolf Hitlers nauwste vertrouweling\, Hermann Gö
  ring.
 DTEND:20251129T171500
-DTSTAMP:20251126T065212Z
+DTSTAMP:20251127T065238Z
 DTSTART:20251129T151500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Nuremberg
-UID:5cfd6d22-9c9a-4ea3-84f6-76a30b83a62c
+UID:7d6ac9d5-efe7-4897-ab13-f8bd6353e64f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Kort na de Tweede Wereldoorlog moet een Amerikaanse psychiater
@@ -1146,11 +1067,11 @@ DESCRIPTION:Kort na de Tweede Wereldoorlog moet een Amerikaanse psychiater
  sychologische strijd met Adolf Hitlers nauwste vertrouweling\, Hermann Gö
  ring.
 DTEND:20251129T230000
-DTSTAMP:20251126T065212Z
+DTSTAMP:20251127T065238Z
 DTSTART:20251129T210000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Nuremberg
-UID:49a23222-5585-40b4-87e0-69543427791b
+UID:a4809a4d-fe82-431c-80a1-361d69fba3ee
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Kort na de Tweede Wereldoorlog moet een Amerikaanse psychiater
@@ -1159,11 +1080,11 @@ DESCRIPTION:Kort na de Tweede Wereldoorlog moet een Amerikaanse psychiater
  sychologische strijd met Adolf Hitlers nauwste vertrouweling\, Hermann Gö
  ring.
 DTEND:20251130T171500
-DTSTAMP:20251126T065212Z
+DTSTAMP:20251127T065238Z
 DTSTART:20251130T151500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Nuremberg
-UID:b0c6a815-85d1-416b-b3d7-0b3dac43ca23
+UID:8c8c37bc-ebad-4540-a2d2-dcfe1534641b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Kort na de Tweede Wereldoorlog moet een Amerikaanse psychiater
@@ -1172,11 +1093,11 @@ DESCRIPTION:Kort na de Tweede Wereldoorlog moet een Amerikaanse psychiater
  sychologische strijd met Adolf Hitlers nauwste vertrouweling\, Hermann Gö
  ring.
 DTEND:20251201T223000
-DTSTAMP:20251126T065212Z
+DTSTAMP:20251127T065238Z
 DTSTART:20251201T203000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Nuremberg
-UID:1ee7d67a-f167-449a-b556-34f16f1ea109
+UID:d7624113-1915-47b0-b176-71dfc20206e4
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Kort na de Tweede Wereldoorlog moet een Amerikaanse psychiater
@@ -1185,11 +1106,11 @@ DESCRIPTION:Kort na de Tweede Wereldoorlog moet een Amerikaanse psychiater
  sychologische strijd met Adolf Hitlers nauwste vertrouweling\, Hermann Gö
  ring.
 DTEND:20251202T172000
-DTSTAMP:20251126T065212Z
+DTSTAMP:20251127T065238Z
 DTSTART:20251202T152000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Nuremberg
-UID:459e4262-a09e-4577-8ece-5895e808dfc6
+UID:fef1d554-aa8a-4751-8c35-44a65caf7861
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Kort na de Tweede Wereldoorlog moet een Amerikaanse psychiater
@@ -1198,11 +1119,11 @@ DESCRIPTION:Kort na de Tweede Wereldoorlog moet een Amerikaanse psychiater
  sychologische strijd met Adolf Hitlers nauwste vertrouweling\, Hermann Gö
  ring.
 DTEND:20251202T223000
-DTSTAMP:20251126T065212Z
+DTSTAMP:20251127T065238Z
 DTSTART:20251202T203000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Nuremberg
-UID:b7ca29c2-e11d-4b0c-9e94-8a11703a013a
+UID:36113513-45f9-4bc6-8491-ac671b74f93a
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Kort na de Tweede Wereldoorlog moet een Amerikaanse psychiater
@@ -1211,11 +1132,11 @@ DESCRIPTION:Kort na de Tweede Wereldoorlog moet een Amerikaanse psychiater
  sychologische strijd met Adolf Hitlers nauwste vertrouweling\, Hermann Gö
  ring.
 DTEND:20251203T150000
-DTSTAMP:20251126T065212Z
+DTSTAMP:20251127T065238Z
 DTSTART:20251203T130000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Nuremberg
-UID:f26e9dff-52f0-4279-b43e-34b99c0b8a65
+UID:572bc65b-0a99-48d7-8a4f-bb34d98bd710
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Kort na de Tweede Wereldoorlog moet een Amerikaanse psychiater
@@ -1224,106 +1145,81 @@ DESCRIPTION:Kort na de Tweede Wereldoorlog moet een Amerikaanse psychiater
  sychologische strijd met Adolf Hitlers nauwste vertrouweling\, Hermann Gö
  ring.
 DTEND:20251203T223000
-DTSTAMP:20251126T065212Z
+DTSTAMP:20251127T065238Z
 DTSTART:20251203T203000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Nuremberg
-UID:a74678db-97b2-4c62-ac95-a7c38e553a8b
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Kort na de Tweede Wereldoorlog moet een Amerikaanse psychiater
-  bepalen welke gevangen genomen nazi’s in Neurenberg terecht kunnen staan
-  voor hun oorlogsmisdaden. Tijdens zijn werk raakt hij verstrikt in een p
- sychologische strijd met Adolf Hitlers nauwste vertrouweling\, Hermann Gö
- ring.
-DTEND:20251126T224500
-DTSTAMP:20251126T065212Z
-DTSTART:20251126T204500
-SEQUENCE:0
-SUMMARY:Filmhuis Alkmaar: Nuremberg | Voorpremière
-UID:9f0d7dfa-76e1-4ff0-ac01-7987ca8e5644
+UID:7ac602e5-660b-4545-84ce-9d2155a462ec
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Twee ouders in scheiding strijden om de voogdij van hun twee k
  inderen. We volgen de hevige hoorzitting door de ogen van moeder Alice.
 DTEND:20251127T231500
-DTSTAMP:20251126T065212Z
+DTSTAMP:20251127T065239Z
 DTSTART:20251127T211500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: On vous croit
-UID:82d99856-0fea-4762-ad25-b34dcc92a59d
+UID:63e14cd5-e097-4d30-a088-45e0586dd94f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Twee ouders in scheiding strijden om de voogdij van hun twee k
  inderen. We volgen de hevige hoorzitting door de ogen van moeder Alice.
 DTEND:20251128T183000
-DTSTAMP:20251126T065212Z
+DTSTAMP:20251127T065239Z
 DTSTART:20251128T163000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: On vous croit
-UID:d703d000-6509-4571-93ce-54137c20438b
+UID:423078fb-8fa2-4b44-96ec-f9e7260ca746
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Twee ouders in scheiding strijden om de voogdij van hun twee k
  inderen. We volgen de hevige hoorzitting door de ogen van moeder Alice.
 DTEND:20251129T154500
-DTSTAMP:20251126T065212Z
+DTSTAMP:20251127T065239Z
 DTSTART:20251129T134500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: On vous croit
-UID:5a310c7d-904b-455a-bc17-9601840fffc6
+UID:c8bf2ce2-91c9-41a1-a5e5-6e9d7ac47c40
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Twee ouders in scheiding strijden om de voogdij van hun twee k
  inderen. We volgen de hevige hoorzitting door de ogen van moeder Alice.
 DTEND:20251130T144500
-DTSTAMP:20251126T065212Z
+DTSTAMP:20251127T065239Z
 DTSTART:20251130T124500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: On vous croit
-UID:a969e1aa-eb68-40cb-ab06-4683afe90417
+UID:1fee516c-6f99-4b8c-9102-9c68a2af9e4c
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Twee ouders in scheiding strijden om de voogdij van hun twee k
  inderen. We volgen de hevige hoorzitting door de ogen van moeder Alice.
 DTEND:20251201T231500
-DTSTAMP:20251126T065212Z
+DTSTAMP:20251127T065239Z
 DTSTART:20251201T211500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: On vous croit
-UID:81036d4f-4c60-444c-8255-a7554b2a6d4e
+UID:2490c14f-d362-4d1e-aaa6-3cb3e3a44ea4
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Twee ouders in scheiding strijden om de voogdij van hun twee k
  inderen. We volgen de hevige hoorzitting door de ogen van moeder Alice.
 DTEND:20251202T144000
-DTSTAMP:20251126T065212Z
+DTSTAMP:20251127T065239Z
 DTSTART:20251202T124000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: On vous croit
-UID:d354376b-6885-44b8-ad9c-70de232f8211
+UID:0e179f88-ed3d-4355-98dc-e0d685da54db
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Twee ouders in scheiding strijden om de voogdij van hun twee k
  inderen. We volgen de hevige hoorzitting door de ogen van moeder Alice.
 DTEND:20251203T184500
-DTSTAMP:20251126T065212Z
+DTSTAMP:20251127T065239Z
 DTSTART:20251203T164500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: On vous croit
-UID:15e39499-1b74-4617-afd1-408bec22b1f0
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Ter gelegenheid van de 50ste verjaardag terug op het grote doe
- k: Jack Nicholson als R.P. McMurphy\, die laat zien hoe de strijd van één
-  man tegen een meedogenloos systeem kan uitgroeien tot een aangrijpende a
- anklacht tegen autoriteit en conformisme.
-DTEND:20251127T173000
-DTSTAMP:20251126T065212Z
-DTSTART:20251127T153000
-SEQUENCE:0
-SUMMARY:Filmhuis Alkmaar: One Flew Over the Cuckoo’s Nest | Klassieker
-UID:b35d6ca7-ac81-4a96-aa41-b1e171b9e2cf
+UID:09dfe341-e4f1-4916-bb12-991f29ae926d
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Ter gelegenheid van de 50ste verjaardag terug op het grote doe
@@ -1331,11 +1227,11 @@ DESCRIPTION:Ter gelegenheid van de 50ste verjaardag terug op het grote doe
   man tegen een meedogenloos systeem kan uitgroeien tot een aangrijpende a
  anklacht tegen autoriteit en conformisme.
 DTEND:20251128T230000
-DTSTAMP:20251126T065212Z
+DTSTAMP:20251127T065239Z
 DTSTART:20251128T210000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: One Flew Over the Cuckoo’s Nest | Klassieker
-UID:15f20c0a-8030-4202-b800-7f11c4bbd6ba
+UID:7a76d007-6ae3-4b0b-9c13-d402caeb908c
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In deze meesterlijke klassieker van Studio Ghibli vindt de 5-j
@@ -1344,11 +1240,11 @@ DESCRIPTION:In deze meesterlijke klassieker van Studio Ghibli vindt de 5-j
  orden en bij Sosuke blijven. Maar haar vader – een onderwatertovenaar – w
  il dat ze terugkomt naar zee omdat haar een taak wacht.
 DTEND:20251221T123000
-DTSTAMP:20251126T065213Z
+DTSTAMP:20251127T065239Z
 DTSTART:20251221T103000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Ponyo | Ghibli Festival
-UID:6e5b1854-0d6a-491a-bc69-d0458483dfe6
+UID:91243596-b185-45e2-ba4b-085f76da9929
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In deze meesterlijke klassieker van Studio Ghibli vindt de 5-j
@@ -1357,11 +1253,11 @@ DESCRIPTION:In deze meesterlijke klassieker van Studio Ghibli vindt de 5-j
  orden en bij Sosuke blijven. Maar haar vader – een onderwatertovenaar – w
  il dat ze terugkomt naar zee omdat haar een taak wacht.
 DTEND:20251229T150000
-DTSTAMP:20251126T065213Z
+DTSTAMP:20251127T065239Z
 DTSTART:20251229T130000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Ponyo | Ghibli Festival
-UID:435fd423-9047-4be0-b7cc-f13268edb328
+UID:cd085943-6e4d-4ea3-b54f-d57fe8f1ff58
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In dit prachtige\, ambachtelijk gemaakte eco-sprookje van Stud
@@ -1369,11 +1265,11 @@ DESCRIPTION:In dit prachtige\, ambachtelijk gemaakte eco-sprookje van Stud
  ens zijn zoektocht naar genezing belandt hij in de strijd van een geheimz
  innige princes en een geïndustrialseerde gemeenschap.
 DTEND:20251222T174500
-DTSTAMP:20251126T065213Z
+DTSTAMP:20251127T065239Z
 DTSTART:20251222T154500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Princess Mononoke | Ghibli Festival
-UID:60bc88af-9ee3-434d-a94a-46fc5d738ca1
+UID:fd644825-5685-4fb9-b626-4a24b32c6db5
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In dit prachtige\, ambachtelijk gemaakte eco-sprookje van Stud
@@ -1381,44 +1277,44 @@ DESCRIPTION:In dit prachtige\, ambachtelijk gemaakte eco-sprookje van Stud
  ens zijn zoektocht naar genezing belandt hij in de strijd van een geheimz
  innige princes en een geïndustrialseerde gemeenschap.
 DTEND:20260102T144500
-DTSTAMP:20251126T065213Z
+DTSTAMP:20251127T065239Z
 DTSTART:20260102T124500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Princess Mononoke | Ghibli Festival
-UID:41d71980-7be9-41c8-898d-ce59b7a94fef
+UID:186002a2-e0f8-44d6-a2dd-790dbef0ddf9
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Bloedstollende Deense ziekenhuisthriller\, waarin een foute di
  agnose tijdens een hectische shift het leven voorgoed verandert voor pati
  ënt en dokter.
 DTEND:20251129T124500
-DTSTAMP:20251126T065213Z
+DTSTAMP:20251127T065240Z
 DTSTART:20251129T104500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Second Victims | Voorpremière
-UID:55748107-d396-414c-b558-73948be1470c
+UID:8b0f4412-e79a-49c9-a1c3-cb0f62a83e12
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Bloedstollende Deense ziekenhuisthriller\, waarin een foute di
  agnose tijdens een hectische shift het leven voorgoed verandert voor pati
  ënt en dokter.
 DTEND:20251130T124500
-DTSTAMP:20251126T065213Z
+DTSTAMP:20251127T065240Z
 DTSTART:20251130T104500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Second Victims | Voorpremière
-UID:bce6ca15-9f0c-40bb-8ab5-e584dd5b368f
+UID:a5cbb11c-f213-49c2-94e2-e2911dfac98e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Bloedstollende Deense ziekenhuisthriller\, waarin een foute di
  agnose tijdens een hectische shift het leven voorgoed verandert voor pati
  ënt en dokter.
 DTEND:20251203T231500
-DTSTAMP:20251126T065213Z
+DTSTAMP:20251127T065240Z
 DTSTART:20251203T211500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Second Victims | Voorpremière
-UID:e9647187-811c-417e-b799-e5c06294aded
+UID:ab3f2212-d0f9-422b-8331-e6f682bcc247
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Optimistische\, grappige en ontroerende film over een Rotterda
@@ -1428,22 +1324,22 @@ DESCRIPTION:Optimistische\, grappige en ontroerende film over een Rotterda
  n rauw is\, en een beetje opgepoetst wanneer het moet blinken.Na de film 
  is er een Q&A met filmmaker Shamira Rafaëla.
 DTEND:20251130T210000
-DTSTAMP:20251126T065214Z
+DTSTAMP:20251127T065240Z
 DTSTART:20251130T190000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Shabu | Cinema Suriname
-UID:3a39fec9-640b-4c5c-a6f5-b47afcac0bf4
+UID:b72cf201-495a-44f8-bffb-03978ab7a732
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Sprankelende klassieker\, met legendarische dansnummers (Singi
  n’ in the Rain\, Good Morning)\, virtuoze muziek en een humoristische kij
  k op Hollywood.
 DTEND:20251206T180000
-DTSTAMP:20251126T065214Z
+DTSTAMP:20251127T065240Z
 DTSTART:20251206T160000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Singing in the Rain | Technicolor Dreams
-UID:8ec6feb5-9738-4a2f-bd38-a7763e61e6f6
+UID:b2017543-18ee-4a1d-8334-4d1f1cb7ea6d
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In deze fantastische animatiefilm van Studio Ghibli komt de 10
@@ -1452,11 +1348,11 @@ DESCRIPTION:In deze fantastische animatiefilm van Studio Ghibli komt de 10
   Om hen te redden\, moet Chihiro voor Yubaba werken en afstand doen van h
  aar naam. Zal het haar lukken om terug te keren naar haar eigen wereld?
 DTEND:20251218T224500
-DTSTAMP:20251126T065214Z
+DTSTAMP:20251127T065241Z
 DTSTART:20251218T204500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Spirited Away | De Avond is Jong
-UID:a65b5edb-313a-41e6-bc56-4ebf19638ae9
+UID:62f76450-d418-41e8-88f4-f1762ef9937f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In deze fantastische animatiefilm van Studio Ghibli komt de 10
@@ -1465,11 +1361,11 @@ DESCRIPTION:In deze fantastische animatiefilm van Studio Ghibli komt de 10
   Om hen te redden\, moet Chihiro voor Yubaba werken en afstand doen van h
  aar naam. Zal het haar lukken om terug te keren naar haar eigen wereld?
 DTEND:20251226T150000
-DTSTAMP:20251126T065215Z
+DTSTAMP:20251127T065241Z
 DTSTART:20251226T130000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Spirited Away | Ghibli Festival
-UID:d1423a26-82ed-4a8d-ac58-01ac36fca0b9
+UID:24831bc1-c982-447e-b3f6-c9b0e9146a92
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In deze fantastische animatiefilm van Studio Ghibli komt de 10
@@ -1478,66 +1374,55 @@ DESCRIPTION:In deze fantastische animatiefilm van Studio Ghibli komt de 10
   Om hen te redden\, moet Chihiro voor Yubaba werken en afstand doen van h
  aar naam. Zal het haar lukken om terug te keren naar haar eigen wereld?
 DTEND:20260103T150000
-DTSTAMP:20251126T065215Z
+DTSTAMP:20251127T065241Z
 DTSTART:20260103T130000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Spirited Away | Ghibli Festival
-UID:3a8d9e34-2054-43aa-b693-fadf14c4be44
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:In deze film keert Bruce Springsteen terug naar een beslissend
-  moment in zijn carrière: de opname van zijn rauwe en intieme album Nebra
- ska uit 1982.
-DTEND:20251126T123000
-DTSTAMP:20251126T065215Z
-DTSTART:20251126T103000
-SEQUENCE:0
-SUMMARY:Filmhuis Alkmaar: Springsteen: Deliver me from Nowhere
-UID:f9a9d6ae-5cf7-4831-942a-4cf9dcf1aebf
+UID:9977dcee-8afe-41bc-bd92-89aa1ee1d699
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In deze film keert Bruce Springsteen terug naar een beslissend
   moment in zijn carrière: de opname van zijn rauwe en intieme album Nebra
  ska uit 1982.
 DTEND:20251127T124500
-DTSTAMP:20251126T065215Z
+DTSTAMP:20251127T065242Z
 DTSTART:20251127T104500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Springsteen: Deliver me from Nowhere
-UID:1a4ca7d9-4964-45ac-b0a9-6118e206081d
+UID:fc1afae1-d9f5-4c03-a314-a966e4aa55a8
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In deze film keert Bruce Springsteen terug naar een beslissend
   moment in zijn carrière: de opname van zijn rauwe en intieme album Nebra
  ska uit 1982.
 DTEND:20251128T124500
-DTSTAMP:20251126T065215Z
+DTSTAMP:20251127T065242Z
 DTSTART:20251128T104500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Springsteen: Deliver me from Nowhere
-UID:cb35df03-cbf9-4723-b8c8-d46e612ade43
+UID:8bdbfdf5-7b20-4f41-b8d8-48ac5ef800d5
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In deze film keert Bruce Springsteen terug naar een beslissend
   moment in zijn carrière: de opname van zijn rauwe en intieme album Nebra
  ska uit 1982.
 DTEND:20251201T151500
-DTSTAMP:20251126T065215Z
+DTSTAMP:20251127T065242Z
 DTSTART:20251201T131500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Springsteen: Deliver me from Nowhere
-UID:01434e41-5e04-4ce0-b254-3a05009766e8
+UID:9c51475f-41fc-4082-a3bb-1d85d41e6a23
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In deze film keert Bruce Springsteen terug naar een beslissend
   moment in zijn carrière: de opname van zijn rauwe en intieme album Nebra
  ska uit 1982.
 DTEND:20251202T145500
-DTSTAMP:20251126T065215Z
+DTSTAMP:20251127T065242Z
 DTSTART:20251202T125500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Springsteen: Deliver me from Nowhere
-UID:8ee74754-0e69-4f1d-ab22-0e4fe37a5658
+UID:bde933e8-5809-44da-b42d-e36afcc36443
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Met veel zelden vertoond archiefmateriaal schetst deze muziekd
@@ -1546,11 +1431,11 @@ DESCRIPTION:Met veel zelden vertoond archiefmateriaal schetst deze muziekd
  ekspecialist en kenner Ron Bulters (Pop-eye/Velvet Music) een inleiding b
  ij deze film.
 DTEND:20251204T230000
-DTSTAMP:20251126T065215Z
+DTSTAMP:20251127T065242Z
 DTSTART:20251204T210000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: The Doors: When You’re Strange | Muziek & Film
-UID:3fc1a273-ba24-49e9-b0ec-cde89b08e110
+UID:a5e4d9eb-450c-4ed1-8c2f-291c917d0744
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Met veel zelden vertoond archiefmateriaal schetst deze muziekd
@@ -1559,24 +1444,37 @@ DESCRIPTION:Met veel zelden vertoond archiefmateriaal schetst deze muziekd
  ekspecialist en kenner Ron Bulters (Pop-eye/Velvet Music) een inleiding b
  ij deze film.
 DTEND:20251206T230000
-DTSTAMP:20251126T065215Z
+DTSTAMP:20251127T065242Z
 DTSTART:20251206T210000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: The Doors: When You’re Strange | Muziek & Film
-UID:c5a6d45b-d328-4fd8-846d-91e0728532e6
+UID:be2fd468-6f34-47b7-b86e-81ecff4d8476
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:In een uithoek van Massachusetts rond 1970 vult de saaie JB Mo
- oney (Josh O’Connor) zijn dagen als timmerman. Terwijl hij zijn vrouw (Al
- ana Haim\, Licorice Pizza) en zijn moeder (Hope Davis) voorhoudt dat hij 
- een grote klus heeft binnengehaald\, is hij stiekem bezig met het voorber
- eiden van een kunstroof…
-DTEND:20251126T154500
-DTSTAMP:20251126T065216Z
-DTSTART:20251126T134500
+DESCRIPTION:Met veel zelden vertoond archiefmateriaal schetst deze muziekd
+ ocumentaire de opkomst en ondergang van The Doors\, de band die in zijn k
+ orte bestaan een gezicht gaf aan een tijdperk.Op 6 december verzorgt muzi
+ ekspecialist en kenner Ron Bulters (Pop-eye/Velvet Music) een inleiding b
+ ij deze film.
+DTEND:20251211T231500
+DTSTAMP:20251127T065242Z
+DTSTART:20251211T211500
 SEQUENCE:0
-SUMMARY:Filmhuis Alkmaar: The Mastermind
-UID:5de89670-7384-4763-88c4-ad0ffa22e109
+SUMMARY:Filmhuis Alkmaar: The Doors: When You’re Strange | Muziek & Film
+UID:e6ff1e91-d09b-4591-a8ef-b8dd6fb046eb
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Met veel zelden vertoond archiefmateriaal schetst deze muziekd
+ ocumentaire de opkomst en ondergang van The Doors\, de band die in zijn k
+ orte bestaan een gezicht gaf aan een tijdperk.Op 6 december verzorgt muzi
+ ekspecialist en kenner Ron Bulters (Pop-eye/Velvet Music) een inleiding b
+ ij deze film.
+DTEND:20251214T231500
+DTSTAMP:20251127T065242Z
+DTSTART:20251214T211500
+SEQUENCE:0
+SUMMARY:Filmhuis Alkmaar: The Doors: When You’re Strange | Muziek & Film
+UID:58feefe9-6ee1-423d-826f-728b598d58b7
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:In een uithoek van Massachusetts rond 1970 vult de saaie JB Mo
@@ -1585,76 +1483,76 @@ DESCRIPTION:In een uithoek van Massachusetts rond 1970 vult de saaie JB Mo
  een grote klus heeft binnengehaald\, is hij stiekem bezig met het voorber
  eiden van een kunstroof…
 DTEND:20251128T123000
-DTSTAMP:20251126T065216Z
+DTSTAMP:20251127T065242Z
 DTSTART:20251128T103000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: The Mastermind
-UID:5e722c06-e0ff-457c-8abd-46f93e1c74c3
+UID:e4037b2b-c9fe-4cd2-8f14-1c47eecd9cfd
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Het meeslepende\, waargebeurde verhaal over de onwaarschijnlij
  ke band tussen een Engelse leraar en een pinguïn in het Argentinië van 19
  76.
 DTEND:20251129T123000
-DTSTAMP:20251126T065216Z
+DTSTAMP:20251127T065242Z
 DTSTART:20251129T103000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: The Penguin Lessons
-UID:a7db91e7-e2e2-40cd-b4af-f081c7928a89
+UID:b0a8602b-d908-44a8-9ed6-04f9c3b21fa6
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Het meeslepende\, waargebeurde verhaal over de onwaarschijnlij
  ke band tussen een Engelse leraar en een pinguïn in het Argentinië van 19
  76.
 DTEND:20251201T151500
-DTSTAMP:20251126T065216Z
+DTSTAMP:20251127T065242Z
 DTSTART:20251201T131500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: The Penguin Lessons
-UID:2771bff8-8686-4580-a888-0af2d3d2109c
+UID:80c31396-72de-42c3-820b-965fe6d88023
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Het meeslepende\, waargebeurde verhaal over de onwaarschijnlij
  ke band tussen een Engelse leraar en een pinguïn in het Argentinië van 19
  76.
 DTEND:20251202T123000
-DTSTAMP:20251126T065216Z
+DTSTAMP:20251127T065242Z
 DTSTART:20251202T103000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: The Penguin Lessons
-UID:6d95d892-f1ee-4296-8b53-3d17f3c456b5
+UID:bdb369f8-d2ce-43dc-871a-63ac98c661d8
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Het meeslepende\, waargebeurde verhaal over de onwaarschijnlij
  ke band tussen een Engelse leraar en een pinguïn in het Argentinië van 19
  76.
 DTEND:20251203T130000
-DTSTAMP:20251126T065216Z
+DTSTAMP:20251127T065242Z
 DTSTART:20251203T110000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: The Penguin Lessons
-UID:9eaa818d-9792-4329-9f2f-f173109cc1fc
+UID:b6a11b93-b9a8-4509-af31-8ea1b40cd3f5
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Meeslepende musical\, waarin een tornado Dorothy (Judy Garland
  ) en haar hond Toto naar het magische land Oz meevoert.
 DTEND:20251202T231500
-DTSTAMP:20251126T065216Z
+DTSTAMP:20251127T065243Z
 DTSTART:20251202T211500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: The Wizard of Oz | Technicolor Dreams
-UID:850ea772-c4b3-410d-8f99-06b9814aa6a2
+UID:d9c6f8d9-3f6e-4260-962c-0ebc580c8393
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Psychologische thriller van Alfred Hitchcock\, met antiheld Ja
  mes Stewart en femme fatale Kim Novak in de hoofdrol.Let op: deze film is
   Engelstalig en helaas zonder ondertiteling!
 DTEND:20251209T230000
-DTSTAMP:20251126T065217Z
+DTSTAMP:20251127T065243Z
 DTSTART:20251209T210000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Vertigo | Technicolor Dreams
-UID:3dd57837-a041-4c18-9dca-5f4132744f4e
+UID:ff2433a8-6cdc-4040-9fee-a83d9ad34ce0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Oscar-winnaar Mike van Diem schreef en regisseerde deze meesle
@@ -1662,25 +1560,12 @@ DESCRIPTION:Oscar-winnaar Mike van Diem schreef en regisseerde deze meesle
  oortje Herlaar en Valentijn Dhaenens spelen twee koppels die terechtkomen
   in een morele strijd over de levens van hun dochters en daarbij tot het 
  uiterste gaan.
-DTEND:20251126T130000
-DTSTAMP:20251126T065217Z
-DTSTART:20251126T110000
+DTEND:20251128T123000
+DTSTAMP:20251127T065243Z
+DTSTART:20251128T103000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Voor de meisjes
-UID:95becd93-c648-46ba-aed8-c14628e2fdf6
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Oscar-winnaar Mike van Diem schreef en regisseerde deze meesle
- pende en vlijmscherpe film. Topacteurs Thekla Reuten\, Fedja van Huêt\, N
- oortje Herlaar en Valentijn Dhaenens spelen twee koppels die terechtkomen
-  in een morele strijd over de levens van hun dochters en daarbij tot het 
- uiterste gaan.
-DTEND:20251127T123000
-DTSTAMP:20251126T065217Z
-DTSTART:20251127T103000
-SEQUENCE:0
-SUMMARY:Filmhuis Alkmaar: Voor de meisjes
-UID:6cdda35e-3227-4332-85ef-5a3b248d7600
+UID:6ea271ac-44e1-4581-98bf-9c890f666b17
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Oscar-winnaar Mike van Diem schreef en regisseerde deze meesle
@@ -1689,11 +1574,11 @@ DESCRIPTION:Oscar-winnaar Mike van Diem schreef en regisseerde deze meesle
   in een morele strijd over de levens van hun dochters en daarbij tot het 
  uiterste gaan.
 DTEND:20251128T153000
-DTSTAMP:20251126T065217Z
+DTSTAMP:20251127T065243Z
 DTSTART:20251128T133000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Voor de meisjes
-UID:a00c367b-33c6-43e4-81a2-ec21b198d0ba
+UID:f6f1ddc5-7862-4d51-bcc1-9cc6f26f46d0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Oscar-winnaar Mike van Diem schreef en regisseerde deze meesle
@@ -1702,11 +1587,11 @@ DESCRIPTION:Oscar-winnaar Mike van Diem schreef en regisseerde deze meesle
   in een morele strijd over de levens van hun dochters en daarbij tot het 
  uiterste gaan.
 DTEND:20251130T123000
-DTSTAMP:20251126T065217Z
+DTSTAMP:20251127T065243Z
 DTSTART:20251130T103000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: Voor de meisjes
-UID:82925bae-684c-42e8-ba80-6c660d14e059
+UID:7934340d-e682-4c65-a736-939108850f13
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Eva (Tilda Swinton) heeft altijd al een moeilijke relatie met 
@@ -1714,25 +1599,25 @@ DESCRIPTION:Eva (Tilda Swinton) heeft altijd al een moeilijke relatie met
  kelijks doet\, wordt ze gedwongen na te denken over het ultieme taboe: ho
  udt ze wel van haar zoon?
 DTEND:20251130T202000
-DTSTAMP:20251126T065218Z
+DTSTAMP:20251127T065244Z
 DTSTART:20251130T182000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: We need to talk about Kevin | Focus on Lynne Ram
  say
-UID:f260f515-721f-4654-abf2-5ad35b8f968f
+UID:4a94fdc0-6668-4343-8a52-08e33a53cc02
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Joe\, een gekwelde oorlogsveteraan\, krijgt de opdracht de ont
  voerde dochter van een politicus te redden. De missie loopt uit op een co
  nfrontatie met geweld\, corruptie en een persoonlijke zoektocht naar wraa
  k.
-DTEND:20251127T231500
-DTSTAMP:20251126T065218Z
-DTSTART:20251127T211500
+DTEND:20251128T231500
+DTSTAMP:20251127T065244Z
+DTSTART:20251128T211500
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: You Were Never Really Here | Focus on Lynne Rams
  ay
-UID:b7125e55-70df-4c1f-8e34-a8f9fcd8bf34
+UID:dc5efd58-e656-440f-bc2e-db59c40350f3
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Joe\, een gekwelde oorlogsveteraan\, krijgt de opdracht de ont
@@ -1740,11 +1625,11 @@ DESCRIPTION:Joe\, een gekwelde oorlogsveteraan\, krijgt de opdracht de ont
  nfrontatie met geweld\, corruptie en een persoonlijke zoektocht naar wraa
  k.
 DTEND:20251207T204000
-DTSTAMP:20251126T065218Z
+DTSTAMP:20251127T065244Z
 DTSTART:20251207T184000
 SEQUENCE:0
 SUMMARY:Filmhuis Alkmaar: You Were Never Really Here | Focus on Lynne Rams
  ay
-UID:5cc26d5e-fff7-4915-a4da-a6c08d026b6d
+UID:66817dc8-cdf1-41ff-9334-d9d3832bfc2b
 END:VEVENT
 END:VCALENDAR
