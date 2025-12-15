@@ -1,101 +1,99 @@
 name: asnbank
 
 on:
-  schedule:
-    - cron: "0 15 * * 1-5"
-  workflow_dispatch:
+    schedule:
+        - cron: "0 15 * * 1-5"
+    workflow_dispatch:
 
 jobs:
-  run:
-    runs-on: ubuntu-latest
-    env:
-      DataFolderName: ./data/asnbank
-
-    steps:
-      - uses: actions/checkout@v2
-
-      - name: Install required PowerShell modules
-        shell: pwsh
-        run: |
-          Set-PSRepository PSGallery -InstallationPolicy Trusted
-          Install-Module UncommonSense.Hap, UncommonSense.Asn, UncommonSense.Pushover -Scope CurrentUser
-
-      - name: Create data folder
-        shell: pwsh
-        run: |
-          if (-not (Test-Path -Path $env:DataFolderName -PathType Container))
-          {
-            New-Item -Path $env:DataFolderName -ItemType Directory | Out-Null
-          }
-
-      - name: Update fund data
-        shell: pwsh
-        run: |
-          Import-Module UncommonSense.Asn
-          $DataFileName = "$(Get-Date -Format FileDate).xml"
-          $DataFilePath = Join-Path -Path $env:DataFolderName -ChildPath $DataFileName
-          Write-Host (Invoke-WebRequest https://www.asnbank.nl/beleggen/koersen.html -UserAgent 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36' | Select-Object -ExpandProperty Links | Format-Table | Out-Default)
-          Write-Host (ConvertTo-HtmlDocument -Uri https://www.asnbank.nl/beleggen/koersen.html | Select-HtmlNode -CssSelector '.fundrates thead tr th' -all | Get-HtmlNodeText)
-          Get-AsnFundPrice -Verbose | Where-Object { $_.Date.Date -eq (Get-Date).Date} | Export-CliXml -Path $DataFilePath
-
-      - name: Clean-up data folder
-        shell: pwsh
-        run: |
-          Get-ChildItem -Path $env:DataFolderName
-          | Sort-Object Name -Descending
-          | Select-Object -Skip 3
-          | Remove-Item -Force
-
-      - name: Send Pushover notification
+    run:
+        runs-on: ubuntu-latest
         env:
-          PUSHOVER_APP_ASNBANK: ${{secrets.PUSHOVER_APP_ASNBANK}}
-          PUSHOVER_USER_JUSTME: ${{secrets.PUSHOVER_USER_JUSTME}}
-        shell: pwsh
-        run: |
-          Get-ChildItem -Path $env:DataFolderName
-          | Import-CliXml
-          | Sort-Object -Property Fund, Date
-          | Group-Object -Property Fund
-          | Where-Object Name -eq 'ASN Milieu & Waterfonds'
-          | ForEach-Object {
-            $Body =
-              $_.Group
-              | ForEach-Object `
-                -Begin {
-                  $PreviousPrice = 0
-                } `
-                -Process {
-                  $CurrentPrice = $_.Price
-                  $PriceDiff = $CurrentPrice - $PreviousPrice
+            DataFolderName: ./data/asnbank
 
-                  $FontStart, $FontStop, $Direction, $PriceDiffText = switch ($true)
+        steps:
+            - uses: actions/checkout@v2
+
+            - name: Install required PowerShell modules
+              shell: pwsh
+              run: |
+                  Set-PSRepository PSGallery -InstallationPolicy Trusted
+                  Install-Module UncommonSense.Hap, UncommonSense.Asn, UncommonSense.Pushover -Scope CurrentUser
+
+            - name: Create data folder
+              shell: pwsh
+              run: |
+                  if (-not (Test-Path -Path $env:DataFolderName -PathType Container))
                   {
-                      ($PreviousPrice -eq 0)        { '', '', '', ''; break }
-                      ($CurrentPrice -eq $PreviousPrice) { '', '', '', ''; break }
-                      ($CurrentPrice -gt $PreviousPrice) { '<font color="#090">', '</font>', ' &#x25B2; ', ('&euro; {0}' -f $PriceDiff); break }
-                      ($CurrentPrice -lt $PreviousPrice) { '<font color="#900">', '</font>', ' &#x25BC; ', ('&euro; {0}' -f $PriceDiff); break }
+                    New-Item -Path $env:DataFolderName -ItemType Directory | Out-Null
                   }
 
-                  "$($_.Date.ToString('yyyy-MM-dd')): $($FontStart)$("&euro;$($CurrentPrice)")$($Direction)$($PriceDiffText)$($FontStop)"
-                  $PreviousPrice = $CurrentPrice
-                }
-              | Sort-Object -Descending {(++$script:Index)}
+            - name: Update fund data
+              shell: pwsh
+              run: |
+                  Import-Module UncommonSense.Asn
+                  $DataFileName = "$(Get-Date -Format FileDate).xml"
+                  $DataFilePath = Join-Path -Path $env:DataFolderName -ChildPath $DataFileName
+                  Get-AsnFundPrice -Verbose | Where-Object { $_.Date.Date -eq (Get-Date).Date} | Export-CliXml -Path $DataFilePath
 
-            Send-PushoverNotification `
-              -ApplicationToken $env:PUSHOVER_APP_ASNBANK `
-              -Recipient $env:PUSHOVER_USER_JUSTME `
-              -Title $_.Name `
-              -Message ($Body -join "`n") `
-              -Html
-            }
+            - name: Clean-up data folder
+              shell: pwsh
+              run: |
+                  Get-ChildItem -Path $env:DataFolderName
+                  | Sort-Object Name -Descending
+                  | Select-Object -Skip 3
+                  | Remove-Item -Force
 
-      - name: Push changes to git repo
-        shell: bash
-        run: |
-          git config --global user.name 'Jan Hoek'
-          git config --global user.email 'github@uncommonsense.nl'
-          git remote set-url origin https://x-access-token:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}
-          git pull
-          git add "$DataFolderName/*"
-          git commit -am 'Updated ASN Bank files' || echo "No changes to commit"
-          git push
+            - name: Send Pushover notification
+              env:
+                  PUSHOVER_APP_ASNBANK: ${{secrets.PUSHOVER_APP_ASNBANK}}
+                  PUSHOVER_USER_JUSTME: ${{secrets.PUSHOVER_USER_JUSTME}}
+              shell: pwsh
+              run: |
+                  Get-ChildItem -Path $env:DataFolderName
+                  | Import-CliXml
+                  | Sort-Object -Property Fund, Date
+                  | Group-Object -Property Fund
+                  | Where-Object Name -eq 'ASN Milieu & Waterfonds'
+                  | ForEach-Object {
+                    $Body =
+                      $_.Group
+                      | ForEach-Object `
+                        -Begin {
+                          $PreviousPrice = 0
+                        } `
+                        -Process {
+                          $CurrentPrice = $_.Price
+                          $PriceDiff = $CurrentPrice - $PreviousPrice
+
+                          $FontStart, $FontStop, $Direction, $PriceDiffText = switch ($true)
+                          {
+                              ($PreviousPrice -eq 0)        { '', '', '', ''; break }
+                              ($CurrentPrice -eq $PreviousPrice) { '', '', '', ''; break }
+                              ($CurrentPrice -gt $PreviousPrice) { '<font color="#090">', '</font>', ' &#x25B2; ', ('&euro; {0}' -f $PriceDiff); break }
+                              ($CurrentPrice -lt $PreviousPrice) { '<font color="#900">', '</font>', ' &#x25BC; ', ('&euro; {0}' -f $PriceDiff); break }
+                          }
+
+                          "$($_.Date.ToString('yyyy-MM-dd')): $($FontStart)$("&euro;$($CurrentPrice)")$($Direction)$($PriceDiffText)$($FontStop)"
+                          $PreviousPrice = $CurrentPrice
+                        }
+                      | Sort-Object -Descending {(++$script:Index)}
+
+                    Send-PushoverNotification `
+                      -ApplicationToken $env:PUSHOVER_APP_ASNBANK `
+                      -Recipient $env:PUSHOVER_USER_JUSTME `
+                      -Title $_.Name `
+                      -Message ($Body -join "`n") `
+                      -Html
+                    }
+
+            - name: Push changes to git repo
+              shell: bash
+              run: |
+                  git config --global user.name 'Jan Hoek'
+                  git config --global user.email 'github@uncommonsense.nl'
+                  git remote set-url origin https://x-access-token:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}
+                  git pull
+                  git add "$DataFolderName/*"
+                  git commit -am 'Updated ASN Bank files' || echo "No changes to commit"
+                  git push
