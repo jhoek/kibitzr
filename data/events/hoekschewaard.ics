@@ -3,29 +3,6 @@ PRODID:-//github.com/rianjs/ical.net//NONSGML ical.net 4.0//EN
 VERSION:2.0
 X-WR-CALNAME:Uitagenda Hoeksche Waard
 BEGIN:VEVENT
-DESCRIPTION:Foto-expositie ‘HOEKSCHE natuur\, het fotograferen WAARD’De We
- rkgroep Natuurfotografie van Hoekschewaards Landschap bestaat 15 jaar!De 
- natuur in de Hoeksche Waard is in al die jaren een grote inspiratiebron v
- oor ons geweest. Naast insecten fotograferen we graag spinnen\, landschap
- pen\, paddenstoelen\, zoogdieren\, vogels\, planten en nog veel meer.Onze
-  26e expositie laat de veelzijdigheid van de natuur op ons mooie eiland z
- ien.De foto’s zijn te bekijken in Bezoekerscentrum Klein Profijt\, Zalmpa
- d 11 in Oud-Beijerland in de maanden november en december 2025.Alle foto’
- s van de expositie zijn gemaakt door leden van de Werkgroep Natuurfotogra
- fie van de Vereniging Hoekschewaards Landschap (HWL)\, dat zich al meer d
- an vijftig jaar inzet voor behoud\, bescherming\, beheer en ontwikkeling 
- van natuur en landschap in de Hoeksche Waard. Wij wensen u veel kijkplezi
- er!
-DTEND;VALUE=DATE:20251226
-DTSTAMP:20251226T023339Z
-DTSTART;VALUE=DATE:20251226
-LOCATION:Zalmpad 11\, Oud-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Foto-expositie ‘HOEKSCHE natuur\, het fotograferen
-  WAARD’
-UID:e5f0c40f-08ab-4c72-a1ff-3e08c2721f65
-END:VEVENT
-BEGIN:VEVENT
 DESCRIPTION:Van 22 december t/m 4 januari is het kerstvakantie en dat bete
  kent extra veel gezelligheid bij Sportcentrum de Boogerd!De stormbaan lig
  t in het water\, dus kom lekker klimmen\, glijden en knallen. Ook hebben 
@@ -34,14 +11,14 @@ DESCRIPTION:Van 22 december t/m 4 januari is het kerstvakantie en dat bete
  december ben je van harte welkom om te komen zwemmen mét 25% korting op j
  e entreeticket.Kom langs\, neem een duik en maak er een spetterende vakan
  tie van!
-DTEND:20251226T235900
-DTSTAMP:20251226T023339Z
-DTSTART;VALUE=DATE:20251226
+DTEND:20251227T235900
+DTSTAMP:20251227T023153Z
+DTSTART;VALUE=DATE:20251227
 LOCATION:Hortensiastraat 5\, 3261 BG\, Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Beleef een spetterende kerstvakantie bij Sportcent
  rum de Boogerd
-UID:a2d7b1c4-072d-48e3-849b-7cd070e1a140
+UID:0c3c8d08-6826-44de-9fe1-a27bc136025b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Museum Hoeksche Waard opent tentoonstelling over varen\, visse
@@ -61,108 +38,14 @@ DESCRIPTION:Museum Hoeksche Waard opent tentoonstelling over varen\, visse
  telling krijgt de schouw een plek in de vaste presentatie van de boerderi
  j.De expositie 'Tussen oever en overkant: varen\, vissen & veerdiensten' 
  is van 20 november tot en met 12 april 2026 te zien.
-DTEND:20251226T235900
-DTSTAMP:20251226T023339Z
-DTSTART;VALUE=DATE:20251226
+DTEND:20251227T235900
+DTSTAMP:20251227T023153Z
+DTSTART;VALUE=DATE:20251227
 LOCATION:Dorpsstraat 13\, 3274BK\, Heinenoord
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Tentoonstelling over varen\, vissen en veerdienste
  n in de Hoeksche Waard
-UID:6b978fdd-aa43-4fff-8b01-f4f696660c6a
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Elke even week op vrijdag van 8.30 tot 10.30
-DTEND:20251226T235900
-DTSTAMP:20251226T023339Z
-DTSTART;VALUE=DATE:20251226
-LOCATION:Oud-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Koffie en spelen Mini Wereld
-UID:610820aa-39dc-451b-a6a0-975d042866a1
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Nieuw in de Hoeksche Waard:Outdoor hybride hyrox trainingen:- 
- Small group max 8 personen.- Trainen naar een doel/hyrox evenement.- Aand
- acht voor ademhaling\, looptechniek\, je mindset en (sport) voeding. - Le
- kker in de buitenlucht met een persoonlijke touch.- 8 trainingenDe reguli
- ere lessen starten vanaf 24 februari. Wil je weten of het wat voor je is 
- en kennismaken met ons\, volg 2 proeflessen:- vrijdag 2e kerstdag 11.00 -
- 12.00 uur- dinsdagavond 13 januari 19:30-20:30 uur
-DTEND:20251226T120000
-DTSTAMP:20251226T023339Z
-DTSTART:20251226T110000
-LOCATION:Numansdorp
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Oudoor hybride trainingen (proefles)
-UID:e689b4bb-c901-42e6-96ee-0196552710a2
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Wat gaan we doen op tweede kerstdag? Natuurlijk\, naar Museum 
- Hoeksche Waard !Op tweede kerstdag gaan bij Museum Hoeksche Waard de deur
- en wijd open. Van 13.00 uur tot 17.00 uur zijn bezoekers meer dan welkom 
- om de collectie in de herenboerderij Oost-Leeuwenstein en ’t Hof van Asse
- ndelft in Heinenoord te bewonderen.Extra interessant is de nieuwe tentoon
- stelling Tussen oever en overkant: over varen\, vissen & veerdiensten. Pr
- onkstuk is de prachtig geconserveerde schouw die dateert uit de negentien
- de eeuw en die enkele jaren geleden bij Strijen uit het water is opgevist
- . Maar er is meer!In de zaal van ‘t Hof kun je komen luisteren naar oude 
- verhalen in het Hoeksche Waardse dialect en kerstliedjes meezingen die je
-  nog van vroeger kent. Tussendoor kun je snuffelen in tweedehands boeken\
- , wat kopen in de brocante- en textielhoek\, en natuurlijk warme chocolad
- emelk drinken (of iets anders zonder vel). En om de kerstsfeer compleet t
- e maken staat er vanzelfsprekend ook nog een boom in de hoek… Kortom\, we
-  beloven een ervaring die aan goede tijden terug doet denken. Voor de ver
- binding tussen de beide gebouwen gaan we gebruik maken van paardenkracht.
-  Bezoekers kunnen zich gratis vice versa met paard en wagen tussen boerde
- rij en hof laten vervoeren. Leuk voor de kinderen! Misschien zit er nog e
- en extra ritje in…
-DTEND:20251226T170000
-DTSTAMP:20251226T023339Z
-DTSTART:20251226T130000
-LOCATION:Hofweg 13\, 3274BB\, Heinenoord
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Kerst bij Museum Hoeksche Waard
-UID:1d07d3c5-8818-4592-b5f8-fefbe8283d29
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Mozaïekkunst van Ineke Stolk en sculpturen\, Cor-Ten staal obj
- ecten en schilderijen van Jos Gielen te zien bij de expositie van 1 decem
- ber 2025 t/m 2 maart 2026 in het Numans-Dorps-huis aan de Buttervliet 1 i
- n NumansdorpIneke Stolk Schuurs uit Maasdam raakte gefascineerd door een 
- mozaïek die ze bijna 20 jaar geleden op een kunstroute in Zeeland zag han
- gen. Ze is zelf aan de slag gegaan met mozaïekwerk op kleine paneeltjes e
- n gaandeweg werden deze steeds groter. Haar enthousiasme et de vele posit
- ieve reacties op haar werk hebben haar gestimuleerd om zich verder te ver
- diepen in deze creatieve vorm. Ze maakt voor haar werk eerst een tekening
-  voor de contouren op watervast multiplex. Daarna knipt ze de mozaïekstuk
- jes met een mozaïektang uit tegels van 15x15 cm\, stukjes van kop en scho
- tels en enig ander materiaal om de juiste kleur en vorm voor haar werk te
-  vinden. Deze worden op de plaat geplakt en gevoegd. De mozaïeken zijn ge
- schikt om buiten te hangen\, alleen tegen vorst moeten ze wel worden besc
- hermd. Ook maakt ze tafelbladen op aanvraag. Voor contact kunt u kijken o
- p www.mozaiek-artistiek.nl.Jos Gielen is een veelzijdig kunstenaar. Hij m
- aakt bronzen sculpturen\, Cor-Ten stalen schilderijen en objecten en schi
- lderijen met acrylverf. Hij wordt geïnspireerd door de oudheid en Afrikaa
- nse kunst\, maar ook door observaties van mensen en hun stemmingen in all
- erlei situaties om hem heen. Hij geeft weer wat hij als kunstenaar ziet: 
- mensen samen\, samenwerking\, groepen\, liefde\, zorg voor elkaar\, enz. 
- Hij maakt gebruik van verschillende materialen en technieken. De ene keer
-  als schilderij\, de andere keer als beeld. Startpunt is altijd een eenvo
- udige schets. Het ‘vertalen’ van 3d Cor-Ten stalen beelden in 2d was voor
-  hem een uitdaging\, evenals het gebruik van witte verf om het spel van l
- icht en donker te vergroten. Zijn werk bestaat vaak uit gestileerde figur
- en met aangezette contourlijnen en een steeds grotere rol voor de achterg
- rond. Zijn bronzen beelden en schilderijen zijn met ingang van deze expos
- itie met een hoge korting te koop. Hoewel hij minder zal gaan exposeren\,
-  blijft hij wel in opdracht werken. Bel voor openingstijden of een afspra
- ak: 0186 685 729
-DTEND:20251226T100000
-DTSTAMP:20251226T023339Z
-DTSTART:20251226T160000
-LOCATION:Buttervliet 1\, 3281 JH\, Numansdorp
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Expositie in het Numans-Dorps-huis
-UID:daa23c7d-12da-4799-bb4b-c8ddb2d2d470
+UID:fc2aea9f-3269-4dfb-af8d-dc2bef68d274
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Foto-expositie ‘HOEKSCHE natuur\, het fotograferen WAARD’De We
@@ -179,58 +62,13 @@ DESCRIPTION:Foto-expositie ‘HOEKSCHE natuur\, het fotograferen WAARD’De We
  van natuur en landschap in de Hoeksche Waard. Wij wensen u veel kijkplezi
  er!
 DTEND;VALUE=DATE:20251227
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART;VALUE=DATE:20251227
 LOCATION:Zalmpad 11\, Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Foto-expositie ‘HOEKSCHE natuur\, het fotograferen
   WAARD’
-UID:87433d59-47dc-408f-ab17-6645a8d0d0d2
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Museum Hoeksche Waard opent tentoonstelling over varen\, visse
- n en veerdiensten De Hoeksche Waard blijft een eiland\, ondanks een brug 
- en twee tunnels. Toen die er nog niet waren kwam je zonder boot nergens. 
- Onze voorouders maakten dan ook dankbaar gebruik van de vele veerdiensten
-  die voor de verbinding zorgden met de omringende eilanden.De nieuwe tent
- oonstelling 'Tussen oever en overkant: varen\, vissen & veerdiensten' laa
- t zien dat veerdiensten ook onmisbare schakels waren in de handels- en po
- stroutes die over het eiland liepen. Varen over het water was in die tijd
-  vele malen comfortabeler dan rijden over het land met de postkoets.In de
- ze tentoonstelling ligt de nadruk op de veerdiensten en visserij rondom h
- et eiland. Het topstuk is de boerenschouw die enkele jaren geleden is gev
- onden in Strijen. Boeren vervoerden met dit platte scheepje hun producten
- \, koeien en melkbussen. Bij het onderhoud van de oevers en het uitbagger
- en van sloten bewees de schouw ook zijn dienst. Na afloop van de tentoons
- telling krijgt de schouw een plek in de vaste presentatie van de boerderi
- j.De expositie 'Tussen oever en overkant: varen\, vissen & veerdiensten' 
- is van 20 november tot en met 12 april 2026 te zien.
-DTEND:20251227T235900
-DTSTAMP:20251226T023339Z
-DTSTART;VALUE=DATE:20251227
-LOCATION:Dorpsstraat 13\, 3274BK\, Heinenoord
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Tentoonstelling over varen\, vissen en veerdienste
- n in de Hoeksche Waard
-UID:27bab587-b32d-4a74-8ef4-7c5a46834b13
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Van 22 december t/m 4 januari is het kerstvakantie en dat bete
- kent extra veel gezelligheid bij Sportcentrum de Boogerd!De stormbaan lig
- t in het water\, dus kom lekker klimmen\, glijden en knallen. Ook hebben 
- we een feestelijke kerstvakantiedeal: entree Sportcentrum de Boogerd\, pa
- tatje met saus en frisdrank voor 13\,25 euro. Extra leuk: op woensdag 31 
- december ben je van harte welkom om te komen zwemmen mét 25% korting op j
- e entreeticket.Kom langs\, neem een duik en maak er een spetterende vakan
- tie van!
-DTEND:20251227T235900
-DTSTAMP:20251226T023339Z
-DTSTART;VALUE=DATE:20251227
-LOCATION:Hortensiastraat 5\, 3261 BG\, Oud-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Beleef een spetterende kerstvakantie bij Sportcent
- rum de Boogerd
-UID:2a56261a-39cd-486a-a95b-ce8764f8bc6a
+UID:57232425-d071-409f-abf2-2ca9228d0d14
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
@@ -253,13 +91,13 @@ DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
  nismaken met digitale vaardigheden van de 21e eeuw\, heeft de Bibliotheek
   Hoeksche Waard een CoderDojo opgericht in de Hoeksche Waard.
 DTEND:20251227T130000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20251227T110000
 LOCATION:Bibliotheek Oud-Beijerland Centrum\, Waterstal 1\, 3262 JR\, Oud-
  Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: (Leren) programmeren tijdens de CoderDojo
-UID:6bf8cd27-09ce-42e0-bdbb-3f9934372fa0
+UID:ba57367b-5648-4173-9700-3dab2188c698
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Ga met ons op avontuur en leer alles over hoe dieren in de win
@@ -294,12 +132,12 @@ DESCRIPTION:Ga met ons op avontuur en leer alles over hoe dieren in de win
   te warmen en kun je popcorn poffen of marshmellows roosteren boven het v
  uur.
 DTEND:20251227T134500
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20251227T111500
 LOCATION:Tiengemeten 14a\, 3284BE\, Zuid-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: OERRR Winter-wandeling met kampvuur
-UID:9a5b0ec1-1e3f-448b-b438-ac36dbfc5073
+UID:06cea87c-3be3-41de-ac49-43ea91840c6b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Mozaïekkunst van Ineke Stolk en sculpturen\, Cor-Ten staal obj
@@ -334,12 +172,30 @@ DESCRIPTION:Mozaïekkunst van Ineke Stolk en sculpturen\, Cor-Ten staal obj
   blijft hij wel in opdracht werken. Bel voor openingstijden of een afspra
  ak: 0186 685 729
 DTEND:20251227T100000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20251227T160000
 LOCATION:Buttervliet 1\, 3281 JH\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Expositie in het Numans-Dorps-huis
-UID:4dc36298-7462-421c-a9a6-335cfc5bf2d7
+UID:91aac9c2-6809-4650-9913-9c6d1f1df572
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Van 22 december t/m 4 januari is het kerstvakantie en dat bete
+ kent extra veel gezelligheid bij Sportcentrum de Boogerd!De stormbaan lig
+ t in het water\, dus kom lekker klimmen\, glijden en knallen. Ook hebben 
+ we een feestelijke kerstvakantiedeal: entree Sportcentrum de Boogerd\, pa
+ tatje met saus en frisdrank voor 13\,25 euro. Extra leuk: op woensdag 31 
+ december ben je van harte welkom om te komen zwemmen mét 25% korting op j
+ e entreeticket.Kom langs\, neem een duik en maak er een spetterende vakan
+ tie van!
+DTEND:20251228T235900
+DTSTAMP:20251227T023153Z
+DTSTART;VALUE=DATE:20251228
+LOCATION:Hortensiastraat 5\, 3261 BG\, Oud-Beijerland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Beleef een spetterende kerstvakantie bij Sportcent
+ rum de Boogerd
+UID:ef858f42-7bdc-4420-ad82-bdddae7ef531
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Foto-expositie ‘HOEKSCHE natuur\, het fotograferen WAARD’De We
@@ -356,31 +212,13 @@ DESCRIPTION:Foto-expositie ‘HOEKSCHE natuur\, het fotograferen WAARD’De We
  van natuur en landschap in de Hoeksche Waard. Wij wensen u veel kijkplezi
  er!
 DTEND;VALUE=DATE:20251228
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART;VALUE=DATE:20251228
 LOCATION:Zalmpad 11\, Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Foto-expositie ‘HOEKSCHE natuur\, het fotograferen
   WAARD’
-UID:f86958e9-6534-4d9f-aa47-187fc89e13fd
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Van 22 december t/m 4 januari is het kerstvakantie en dat bete
- kent extra veel gezelligheid bij Sportcentrum de Boogerd!De stormbaan lig
- t in het water\, dus kom lekker klimmen\, glijden en knallen. Ook hebben 
- we een feestelijke kerstvakantiedeal: entree Sportcentrum de Boogerd\, pa
- tatje met saus en frisdrank voor 13\,25 euro. Extra leuk: op woensdag 31 
- december ben je van harte welkom om te komen zwemmen mét 25% korting op j
- e entreeticket.Kom langs\, neem een duik en maak er een spetterende vakan
- tie van!
-DTEND:20251228T235900
-DTSTAMP:20251226T023339Z
-DTSTART;VALUE=DATE:20251228
-LOCATION:Hortensiastraat 5\, 3261 BG\, Oud-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Beleef een spetterende kerstvakantie bij Sportcent
- rum de Boogerd
-UID:ab31176c-87ff-43a2-9f81-0bc6dcf37be7
+UID:7260296e-2ea1-4e2b-a78a-95110c62fdfc
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Museum Hoeksche Waard opent tentoonstelling over varen\, visse
@@ -401,13 +239,13 @@ DESCRIPTION:Museum Hoeksche Waard opent tentoonstelling over varen\, visse
  j.De expositie 'Tussen oever en overkant: varen\, vissen & veerdiensten' 
  is van 20 november tot en met 12 april 2026 te zien.
 DTEND:20251228T235900
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART;VALUE=DATE:20251228
 LOCATION:Dorpsstraat 13\, 3274BK\, Heinenoord
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Tentoonstelling over varen\, vissen en veerdienste
  n in de Hoeksche Waard
-UID:3eb96534-1e7a-4ff4-8f98-00a2af0996cc
+UID:5140c906-dd25-45c2-89d9-09d16df08f3c
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Mozaïekkunst van Ineke Stolk en sculpturen\, Cor-Ten staal obj
@@ -442,53 +280,12 @@ DESCRIPTION:Mozaïekkunst van Ineke Stolk en sculpturen\, Cor-Ten staal obj
   blijft hij wel in opdracht werken. Bel voor openingstijden of een afspra
  ak: 0186 685 729
 DTEND:20251228T100000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20251228T160000
 LOCATION:Buttervliet 1\, 3281 JH\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Expositie in het Numans-Dorps-huis
-UID:45a66889-ba21-412d-8e1a-dd94b9480bbf
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Van 22 december t/m 4 januari is het kerstvakantie en dat bete
- kent extra veel gezelligheid bij Sportcentrum de Boogerd!De stormbaan lig
- t in het water\, dus kom lekker klimmen\, glijden en knallen. Ook hebben 
- we een feestelijke kerstvakantiedeal: entree Sportcentrum de Boogerd\, pa
- tatje met saus en frisdrank voor 13\,25 euro. Extra leuk: op woensdag 31 
- december ben je van harte welkom om te komen zwemmen mét 25% korting op j
- e entreeticket.Kom langs\, neem een duik en maak er een spetterende vakan
- tie van!
-DTEND:20251229T235900
-DTSTAMP:20251226T023339Z
-DTSTART;VALUE=DATE:20251229
-LOCATION:Hortensiastraat 5\, 3261 BG\, Oud-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Beleef een spetterende kerstvakantie bij Sportcent
- rum de Boogerd
-UID:fe07d589-f961-46bc-8496-1f629e5e2ba8
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Foto-expositie ‘HOEKSCHE natuur\, het fotograferen WAARD’De We
- rkgroep Natuurfotografie van Hoekschewaards Landschap bestaat 15 jaar!De 
- natuur in de Hoeksche Waard is in al die jaren een grote inspiratiebron v
- oor ons geweest. Naast insecten fotograferen we graag spinnen\, landschap
- pen\, paddenstoelen\, zoogdieren\, vogels\, planten en nog veel meer.Onze
-  26e expositie laat de veelzijdigheid van de natuur op ons mooie eiland z
- ien.De foto’s zijn te bekijken in Bezoekerscentrum Klein Profijt\, Zalmpa
- d 11 in Oud-Beijerland in de maanden november en december 2025.Alle foto’
- s van de expositie zijn gemaakt door leden van de Werkgroep Natuurfotogra
- fie van de Vereniging Hoekschewaards Landschap (HWL)\, dat zich al meer d
- an vijftig jaar inzet voor behoud\, bescherming\, beheer en ontwikkeling 
- van natuur en landschap in de Hoeksche Waard. Wij wensen u veel kijkplezi
- er!
-DTEND;VALUE=DATE:20251229
-DTSTAMP:20251226T023339Z
-DTSTART;VALUE=DATE:20251229
-LOCATION:Zalmpad 11\, Oud-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Foto-expositie ‘HOEKSCHE natuur\, het fotograferen
-  WAARD’
-UID:d727028a-d919-4aa1-a205-ba13ca3edf09
+UID:8d0434d1-7aa2-44df-b338-c63b41248fb3
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Museum Hoeksche Waard opent tentoonstelling over varen\, visse
@@ -509,13 +306,54 @@ DESCRIPTION:Museum Hoeksche Waard opent tentoonstelling over varen\, visse
  j.De expositie 'Tussen oever en overkant: varen\, vissen & veerdiensten' 
  is van 20 november tot en met 12 april 2026 te zien.
 DTEND:20251229T235900
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART;VALUE=DATE:20251229
 LOCATION:Dorpsstraat 13\, 3274BK\, Heinenoord
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Tentoonstelling over varen\, vissen en veerdienste
  n in de Hoeksche Waard
-UID:92e77586-5f3f-494d-a1bf-d205d5378991
+UID:6eb4fd25-dcc8-41db-b1c2-1b4dd93ffc0e
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Van 22 december t/m 4 januari is het kerstvakantie en dat bete
+ kent extra veel gezelligheid bij Sportcentrum de Boogerd!De stormbaan lig
+ t in het water\, dus kom lekker klimmen\, glijden en knallen. Ook hebben 
+ we een feestelijke kerstvakantiedeal: entree Sportcentrum de Boogerd\, pa
+ tatje met saus en frisdrank voor 13\,25 euro. Extra leuk: op woensdag 31 
+ december ben je van harte welkom om te komen zwemmen mét 25% korting op j
+ e entreeticket.Kom langs\, neem een duik en maak er een spetterende vakan
+ tie van!
+DTEND:20251229T235900
+DTSTAMP:20251227T023153Z
+DTSTART;VALUE=DATE:20251229
+LOCATION:Hortensiastraat 5\, 3261 BG\, Oud-Beijerland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Beleef een spetterende kerstvakantie bij Sportcent
+ rum de Boogerd
+UID:9fa20a16-9627-4aab-9daf-aed18f528979
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Foto-expositie ‘HOEKSCHE natuur\, het fotograferen WAARD’De We
+ rkgroep Natuurfotografie van Hoekschewaards Landschap bestaat 15 jaar!De 
+ natuur in de Hoeksche Waard is in al die jaren een grote inspiratiebron v
+ oor ons geweest. Naast insecten fotograferen we graag spinnen\, landschap
+ pen\, paddenstoelen\, zoogdieren\, vogels\, planten en nog veel meer.Onze
+  26e expositie laat de veelzijdigheid van de natuur op ons mooie eiland z
+ ien.De foto’s zijn te bekijken in Bezoekerscentrum Klein Profijt\, Zalmpa
+ d 11 in Oud-Beijerland in de maanden november en december 2025.Alle foto’
+ s van de expositie zijn gemaakt door leden van de Werkgroep Natuurfotogra
+ fie van de Vereniging Hoekschewaards Landschap (HWL)\, dat zich al meer d
+ an vijftig jaar inzet voor behoud\, bescherming\, beheer en ontwikkeling 
+ van natuur en landschap in de Hoeksche Waard. Wij wensen u veel kijkplezi
+ er!
+DTEND;VALUE=DATE:20251229
+DTSTAMP:20251227T023153Z
+DTSTART;VALUE=DATE:20251229
+LOCATION:Zalmpad 11\, Oud-Beijerland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Foto-expositie ‘HOEKSCHE natuur\, het fotograferen
+  WAARD’
+UID:5d533623-8c3a-4596-8dbd-f4fd47c6209b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
@@ -526,13 +364,13 @@ DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
  un je terecht bij Hermien Saarloos\, 06 15053444\, of kun je mailen naar 
  linda.vanderwal@welzijnhw.nl.
 DTEND:20251229T170000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20251229T140000
 LOCATION:Huiskamer van de Wijk Wijkhuis\, Bernhardstraat 25\, 3281 BC\, Nu
  mansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Klaverjassen in de Huiskamer van Numansdorp
-UID:c6c46ab3-5456-4a40-8448-e5b126433633
+UID:613d363a-fb95-4473-b38b-1e6d946025f9
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Mozaïekkunst van Ineke Stolk en sculpturen\, Cor-Ten staal obj
@@ -567,35 +405,30 @@ DESCRIPTION:Mozaïekkunst van Ineke Stolk en sculpturen\, Cor-Ten staal obj
   blijft hij wel in opdracht werken. Bel voor openingstijden of een afspra
  ak: 0186 685 729
 DTEND:20251229T100000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20251229T160000
 LOCATION:Buttervliet 1\, 3281 JH\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Expositie in het Numans-Dorps-huis
-UID:d263a4fa-e94b-4753-9a1a-7ebb1ebe09a8
+UID:735ba545-bd0f-49e4-89b0-b58625d389d7
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Foto-expositie ‘HOEKSCHE natuur\, het fotograferen WAARD’De We
- rkgroep Natuurfotografie van Hoekschewaards Landschap bestaat 15 jaar!De 
- natuur in de Hoeksche Waard is in al die jaren een grote inspiratiebron v
- oor ons geweest. Naast insecten fotograferen we graag spinnen\, landschap
- pen\, paddenstoelen\, zoogdieren\, vogels\, planten en nog veel meer.Onze
-  26e expositie laat de veelzijdigheid van de natuur op ons mooie eiland z
- ien.De foto’s zijn te bekijken in Bezoekerscentrum Klein Profijt\, Zalmpa
- d 11 in Oud-Beijerland in de maanden november en december 2025.Alle foto’
- s van de expositie zijn gemaakt door leden van de Werkgroep Natuurfotogra
- fie van de Vereniging Hoekschewaards Landschap (HWL)\, dat zich al meer d
- an vijftig jaar inzet voor behoud\, bescherming\, beheer en ontwikkeling 
- van natuur en landschap in de Hoeksche Waard. Wij wensen u veel kijkplezi
- er!
-DTEND;VALUE=DATE:20251230
-DTSTAMP:20251226T023339Z
+DESCRIPTION:Van 22 december t/m 4 januari is het kerstvakantie en dat bete
+ kent extra veel gezelligheid bij Sportcentrum de Boogerd!De stormbaan lig
+ t in het water\, dus kom lekker klimmen\, glijden en knallen. Ook hebben 
+ we een feestelijke kerstvakantiedeal: entree Sportcentrum de Boogerd\, pa
+ tatje met saus en frisdrank voor 13\,25 euro. Extra leuk: op woensdag 31 
+ december ben je van harte welkom om te komen zwemmen mét 25% korting op j
+ e entreeticket.Kom langs\, neem een duik en maak er een spetterende vakan
+ tie van!
+DTEND:20251230T235900
+DTSTAMP:20251227T023153Z
 DTSTART;VALUE=DATE:20251230
-LOCATION:Zalmpad 11\, Oud-Beijerland
+LOCATION:Hortensiastraat 5\, 3261 BG\, Oud-Beijerland
 SEQUENCE:0
-SUMMARY:Hoeksche Waard: Foto-expositie ‘HOEKSCHE natuur\, het fotograferen
-  WAARD’
-UID:22156896-fb19-4943-a6f9-6f163ede13e6
+SUMMARY:Hoeksche Waard: Beleef een spetterende kerstvakantie bij Sportcent
+ rum de Boogerd
+UID:1c4565e6-f616-46b6-ba82-dadcf43ef6e5
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Museum Hoeksche Waard opent tentoonstelling over varen\, visse
@@ -616,31 +449,36 @@ DESCRIPTION:Museum Hoeksche Waard opent tentoonstelling over varen\, visse
  j.De expositie 'Tussen oever en overkant: varen\, vissen & veerdiensten' 
  is van 20 november tot en met 12 april 2026 te zien.
 DTEND:20251230T235900
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART;VALUE=DATE:20251230
 LOCATION:Dorpsstraat 13\, 3274BK\, Heinenoord
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Tentoonstelling over varen\, vissen en veerdienste
  n in de Hoeksche Waard
-UID:81ed9d7e-015e-4436-9eca-81adc8f05e9f
+UID:c18fddac-2173-42b5-9c00-9fbc4a149d18
 END:VEVENT
 BEGIN:VEVENT
-DESCRIPTION:Van 22 december t/m 4 januari is het kerstvakantie en dat bete
- kent extra veel gezelligheid bij Sportcentrum de Boogerd!De stormbaan lig
- t in het water\, dus kom lekker klimmen\, glijden en knallen. Ook hebben 
- we een feestelijke kerstvakantiedeal: entree Sportcentrum de Boogerd\, pa
- tatje met saus en frisdrank voor 13\,25 euro. Extra leuk: op woensdag 31 
- december ben je van harte welkom om te komen zwemmen mét 25% korting op j
- e entreeticket.Kom langs\, neem een duik en maak er een spetterende vakan
- tie van!
-DTEND:20251230T235900
-DTSTAMP:20251226T023339Z
+DESCRIPTION:Foto-expositie ‘HOEKSCHE natuur\, het fotograferen WAARD’De We
+ rkgroep Natuurfotografie van Hoekschewaards Landschap bestaat 15 jaar!De 
+ natuur in de Hoeksche Waard is in al die jaren een grote inspiratiebron v
+ oor ons geweest. Naast insecten fotograferen we graag spinnen\, landschap
+ pen\, paddenstoelen\, zoogdieren\, vogels\, planten en nog veel meer.Onze
+  26e expositie laat de veelzijdigheid van de natuur op ons mooie eiland z
+ ien.De foto’s zijn te bekijken in Bezoekerscentrum Klein Profijt\, Zalmpa
+ d 11 in Oud-Beijerland in de maanden november en december 2025.Alle foto’
+ s van de expositie zijn gemaakt door leden van de Werkgroep Natuurfotogra
+ fie van de Vereniging Hoekschewaards Landschap (HWL)\, dat zich al meer d
+ an vijftig jaar inzet voor behoud\, bescherming\, beheer en ontwikkeling 
+ van natuur en landschap in de Hoeksche Waard. Wij wensen u veel kijkplezi
+ er!
+DTEND;VALUE=DATE:20251230
+DTSTAMP:20251227T023153Z
 DTSTART;VALUE=DATE:20251230
-LOCATION:Hortensiastraat 5\, 3261 BG\, Oud-Beijerland
+LOCATION:Zalmpad 11\, Oud-Beijerland
 SEQUENCE:0
-SUMMARY:Hoeksche Waard: Beleef een spetterende kerstvakantie bij Sportcent
- rum de Boogerd
-UID:9740201e-5249-4503-a7d4-4f2eeeb2b956
+SUMMARY:Hoeksche Waard: Foto-expositie ‘HOEKSCHE natuur\, het fotograferen
+  WAARD’
+UID:f91c97b3-caa3-4fd0-9a19-92aefdd68d62
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Ben je nieuwsgierig naar de natuur om je heen en wil je leren 
@@ -658,12 +496,12 @@ DESCRIPTION:Ben je nieuwsgierig naar de natuur om je heen en wil je leren
  data kunt\, ben je van harte welkom bij de bijeenkomsten die voor jou pas
  sen.We kijken uit naar je komst!
 DTEND:20251230T150000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20251230T140000
 LOCATION:Hoeksche Waard
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: HWL plantencursus voor nieuwsgierige beginners
-UID:19f477e4-8255-4b43-a83f-429a0ae71f27
+UID:0689e9fb-6702-4a70-8d9c-a9a6eb9795e9
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Mozaïekkunst van Ineke Stolk en sculpturen\, Cor-Ten staal obj
@@ -698,30 +536,12 @@ DESCRIPTION:Mozaïekkunst van Ineke Stolk en sculpturen\, Cor-Ten staal obj
   blijft hij wel in opdracht werken. Bel voor openingstijden of een afspra
  ak: 0186 685 729
 DTEND:20251230T100000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20251230T160000
 LOCATION:Buttervliet 1\, 3281 JH\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Expositie in het Numans-Dorps-huis
-UID:66f79fab-e0a1-4f88-983e-3258781856de
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Van 22 december t/m 4 januari is het kerstvakantie en dat bete
- kent extra veel gezelligheid bij Sportcentrum de Boogerd!De stormbaan lig
- t in het water\, dus kom lekker klimmen\, glijden en knallen. Ook hebben 
- we een feestelijke kerstvakantiedeal: entree Sportcentrum de Boogerd\, pa
- tatje met saus en frisdrank voor 13\,25 euro. Extra leuk: op woensdag 31 
- december ben je van harte welkom om te komen zwemmen mét 25% korting op j
- e entreeticket.Kom langs\, neem een duik en maak er een spetterende vakan
- tie van!
-DTEND:20251231T235900
-DTSTAMP:20251226T023339Z
-DTSTART;VALUE=DATE:20251231
-LOCATION:Hortensiastraat 5\, 3261 BG\, Oud-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Beleef een spetterende kerstvakantie bij Sportcent
- rum de Boogerd
-UID:277ff615-999d-4d10-af78-19ea8c4f2deb
+UID:a8cccbdf-48e3-47a8-9c7a-c2471292667a
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Foto-expositie ‘HOEKSCHE natuur\, het fotograferen WAARD’De We
@@ -738,13 +558,13 @@ DESCRIPTION:Foto-expositie ‘HOEKSCHE natuur\, het fotograferen WAARD’De We
  van natuur en landschap in de Hoeksche Waard. Wij wensen u veel kijkplezi
  er!
 DTEND;VALUE=DATE:20251231
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART;VALUE=DATE:20251231
 LOCATION:Zalmpad 11\, Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Foto-expositie ‘HOEKSCHE natuur\, het fotograferen
   WAARD’
-UID:e5aeaec7-0642-40df-9629-db472ee52dca
+UID:9fe6967a-b6ef-4a2b-a693-fef990f3b1fa
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Museum Hoeksche Waard opent tentoonstelling over varen\, visse
@@ -765,13 +585,31 @@ DESCRIPTION:Museum Hoeksche Waard opent tentoonstelling over varen\, visse
  j.De expositie 'Tussen oever en overkant: varen\, vissen & veerdiensten' 
  is van 20 november tot en met 12 april 2026 te zien.
 DTEND:20251231T235900
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART;VALUE=DATE:20251231
 LOCATION:Dorpsstraat 13\, 3274BK\, Heinenoord
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Tentoonstelling over varen\, vissen en veerdienste
  n in de Hoeksche Waard
-UID:c8ca867a-337a-47d9-82bb-85d5bee12ed7
+UID:c8de5523-9276-43d0-a040-d8e585aaef5b
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Van 22 december t/m 4 januari is het kerstvakantie en dat bete
+ kent extra veel gezelligheid bij Sportcentrum de Boogerd!De stormbaan lig
+ t in het water\, dus kom lekker klimmen\, glijden en knallen. Ook hebben 
+ we een feestelijke kerstvakantiedeal: entree Sportcentrum de Boogerd\, pa
+ tatje met saus en frisdrank voor 13\,25 euro. Extra leuk: op woensdag 31 
+ december ben je van harte welkom om te komen zwemmen mét 25% korting op j
+ e entreeticket.Kom langs\, neem een duik en maak er een spetterende vakan
+ tie van!
+DTEND:20251231T235900
+DTSTAMP:20251227T023153Z
+DTSTART;VALUE=DATE:20251231
+LOCATION:Hortensiastraat 5\, 3261 BG\, Oud-Beijerland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Beleef een spetterende kerstvakantie bij Sportcent
+ rum de Boogerd
+UID:9b47d3ab-0075-4ff6-a5ec-898694c666b0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Mozaïekkunst van Ineke Stolk en sculpturen\, Cor-Ten staal obj
@@ -806,12 +644,30 @@ DESCRIPTION:Mozaïekkunst van Ineke Stolk en sculpturen\, Cor-Ten staal obj
   blijft hij wel in opdracht werken. Bel voor openingstijden of een afspra
  ak: 0186 685 729
 DTEND:20251231T100000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20251231T160000
 LOCATION:Buttervliet 1\, 3281 JH\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Expositie in het Numans-Dorps-huis
-UID:9975afe1-442e-48a5-b2fe-4d8d69f2fd71
+UID:00baf1ae-9b9e-45e7-ae1c-e5f649c946e3
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Van 22 december t/m 4 januari is het kerstvakantie en dat bete
+ kent extra veel gezelligheid bij Sportcentrum de Boogerd!De stormbaan lig
+ t in het water\, dus kom lekker klimmen\, glijden en knallen. Ook hebben 
+ we een feestelijke kerstvakantiedeal: entree Sportcentrum de Boogerd\, pa
+ tatje met saus en frisdrank voor 13\,25 euro. Extra leuk: op woensdag 31 
+ december ben je van harte welkom om te komen zwemmen mét 25% korting op j
+ e entreeticket.Kom langs\, neem een duik en maak er een spetterende vakan
+ tie van!
+DTEND:20260101T235900
+DTSTAMP:20251227T023153Z
+DTSTART;VALUE=DATE:20260101
+LOCATION:Hortensiastraat 5\, 3261 BG\, Oud-Beijerland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Beleef een spetterende kerstvakantie bij Sportcent
+ rum de Boogerd
+UID:1ea012de-7dbf-4127-9dfd-01bd777d76a0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Museum Hoeksche Waard opent tentoonstelling over varen\, visse
@@ -832,31 +688,13 @@ DESCRIPTION:Museum Hoeksche Waard opent tentoonstelling over varen\, visse
  j.De expositie 'Tussen oever en overkant: varen\, vissen & veerdiensten' 
  is van 20 november tot en met 12 april 2026 te zien.
 DTEND:20260101T235900
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART;VALUE=DATE:20260101
 LOCATION:Dorpsstraat 13\, 3274BK\, Heinenoord
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Tentoonstelling over varen\, vissen en veerdienste
  n in de Hoeksche Waard
-UID:0c29f467-8431-4ffd-a818-5e0e486376ab
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Van 22 december t/m 4 januari is het kerstvakantie en dat bete
- kent extra veel gezelligheid bij Sportcentrum de Boogerd!De stormbaan lig
- t in het water\, dus kom lekker klimmen\, glijden en knallen. Ook hebben 
- we een feestelijke kerstvakantiedeal: entree Sportcentrum de Boogerd\, pa
- tatje met saus en frisdrank voor 13\,25 euro. Extra leuk: op woensdag 31 
- december ben je van harte welkom om te komen zwemmen mét 25% korting op j
- e entreeticket.Kom langs\, neem een duik en maak er een spetterende vakan
- tie van!
-DTEND:20260101T235900
-DTSTAMP:20251226T023339Z
-DTSTART;VALUE=DATE:20260101
-LOCATION:Hortensiastraat 5\, 3261 BG\, Oud-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Beleef een spetterende kerstvakantie bij Sportcent
- rum de Boogerd
-UID:dfa27e2c-9442-43ea-966e-9457abab41da
+UID:64f28d3e-161b-487d-9a38-6074fdd0e43f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Mozaïekkunst van Ineke Stolk en sculpturen\, Cor-Ten staal obj
@@ -891,30 +729,12 @@ DESCRIPTION:Mozaïekkunst van Ineke Stolk en sculpturen\, Cor-Ten staal obj
   blijft hij wel in opdracht werken. Bel voor openingstijden of een afspra
  ak: 0186 685 729
 DTEND:20260101T100000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260101T160000
 LOCATION:Buttervliet 1\, 3281 JH\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Expositie in het Numans-Dorps-huis
-UID:eca8d99f-8036-4a88-8f2f-215a242ab64c
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Van 22 december t/m 4 januari is het kerstvakantie en dat bete
- kent extra veel gezelligheid bij Sportcentrum de Boogerd!De stormbaan lig
- t in het water\, dus kom lekker klimmen\, glijden en knallen. Ook hebben 
- we een feestelijke kerstvakantiedeal: entree Sportcentrum de Boogerd\, pa
- tatje met saus en frisdrank voor 13\,25 euro. Extra leuk: op woensdag 31 
- december ben je van harte welkom om te komen zwemmen mét 25% korting op j
- e entreeticket.Kom langs\, neem een duik en maak er een spetterende vakan
- tie van!
-DTEND:20260102T235900
-DTSTAMP:20251226T023339Z
-DTSTART;VALUE=DATE:20260102
-LOCATION:Hortensiastraat 5\, 3261 BG\, Oud-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Beleef een spetterende kerstvakantie bij Sportcent
- rum de Boogerd
-UID:defb6867-f10a-40b0-a6ea-5fac91bc22d3
+UID:9551a33c-4c92-4439-941b-67f1f99421a9
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Museum Hoeksche Waard opent tentoonstelling over varen\, visse
@@ -935,13 +755,31 @@ DESCRIPTION:Museum Hoeksche Waard opent tentoonstelling over varen\, visse
  j.De expositie 'Tussen oever en overkant: varen\, vissen & veerdiensten' 
  is van 20 november tot en met 12 april 2026 te zien.
 DTEND:20260102T235900
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART;VALUE=DATE:20260102
 LOCATION:Dorpsstraat 13\, 3274BK\, Heinenoord
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Tentoonstelling over varen\, vissen en veerdienste
  n in de Hoeksche Waard
-UID:6af1d26c-e6f0-43c2-a79e-ad2b97558dd7
+UID:563b0a79-a4d5-47a2-88fb-086cb8b38d96
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Van 22 december t/m 4 januari is het kerstvakantie en dat bete
+ kent extra veel gezelligheid bij Sportcentrum de Boogerd!De stormbaan lig
+ t in het water\, dus kom lekker klimmen\, glijden en knallen. Ook hebben 
+ we een feestelijke kerstvakantiedeal: entree Sportcentrum de Boogerd\, pa
+ tatje met saus en frisdrank voor 13\,25 euro. Extra leuk: op woensdag 31 
+ december ben je van harte welkom om te komen zwemmen mét 25% korting op j
+ e entreeticket.Kom langs\, neem een duik en maak er een spetterende vakan
+ tie van!
+DTEND:20260102T235900
+DTSTAMP:20251227T023153Z
+DTSTART;VALUE=DATE:20260102
+LOCATION:Hortensiastraat 5\, 3261 BG\, Oud-Beijerland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Beleef een spetterende kerstvakantie bij Sportcent
+ rum de Boogerd
+UID:9684d7b8-b658-4d33-91f7-3418adbb5927
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Mozaïekkunst van Ineke Stolk en sculpturen\, Cor-Ten staal obj
@@ -976,30 +814,12 @@ DESCRIPTION:Mozaïekkunst van Ineke Stolk en sculpturen\, Cor-Ten staal obj
   blijft hij wel in opdracht werken. Bel voor openingstijden of een afspra
  ak: 0186 685 729
 DTEND:20260102T100000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260102T160000
 LOCATION:Buttervliet 1\, 3281 JH\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Expositie in het Numans-Dorps-huis
-UID:301e12ee-ca0e-490f-90d9-3d96e28fd18f
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Van 22 december t/m 4 januari is het kerstvakantie en dat bete
- kent extra veel gezelligheid bij Sportcentrum de Boogerd!De stormbaan lig
- t in het water\, dus kom lekker klimmen\, glijden en knallen. Ook hebben 
- we een feestelijke kerstvakantiedeal: entree Sportcentrum de Boogerd\, pa
- tatje met saus en frisdrank voor 13\,25 euro. Extra leuk: op woensdag 31 
- december ben je van harte welkom om te komen zwemmen mét 25% korting op j
- e entreeticket.Kom langs\, neem een duik en maak er een spetterende vakan
- tie van!
-DTEND:20260103T235900
-DTSTAMP:20251226T023339Z
-DTSTART;VALUE=DATE:20260103
-LOCATION:Hortensiastraat 5\, 3261 BG\, Oud-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Beleef een spetterende kerstvakantie bij Sportcent
- rum de Boogerd
-UID:add293e3-8924-467e-9a66-7dcd7abec62d
+UID:7ba85075-4e7b-4694-b7d8-2691e62dff89
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Museum Hoeksche Waard opent tentoonstelling over varen\, visse
@@ -1020,13 +840,31 @@ DESCRIPTION:Museum Hoeksche Waard opent tentoonstelling over varen\, visse
  j.De expositie 'Tussen oever en overkant: varen\, vissen & veerdiensten' 
  is van 20 november tot en met 12 april 2026 te zien.
 DTEND:20260103T235900
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART;VALUE=DATE:20260103
 LOCATION:Dorpsstraat 13\, 3274BK\, Heinenoord
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Tentoonstelling over varen\, vissen en veerdienste
  n in de Hoeksche Waard
-UID:7aa17ebc-3255-4613-a0a1-0dda880868f9
+UID:885baf4e-8d1a-4752-890a-e5e8bbb882a7
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Van 22 december t/m 4 januari is het kerstvakantie en dat bete
+ kent extra veel gezelligheid bij Sportcentrum de Boogerd!De stormbaan lig
+ t in het water\, dus kom lekker klimmen\, glijden en knallen. Ook hebben 
+ we een feestelijke kerstvakantiedeal: entree Sportcentrum de Boogerd\, pa
+ tatje met saus en frisdrank voor 13\,25 euro. Extra leuk: op woensdag 31 
+ december ben je van harte welkom om te komen zwemmen mét 25% korting op j
+ e entreeticket.Kom langs\, neem een duik en maak er een spetterende vakan
+ tie van!
+DTEND:20260103T235900
+DTSTAMP:20251227T023153Z
+DTSTART;VALUE=DATE:20260103
+LOCATION:Hortensiastraat 5\, 3261 BG\, Oud-Beijerland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Beleef een spetterende kerstvakantie bij Sportcent
+ rum de Boogerd
+UID:1efff16e-f842-4334-ad32-676cb2de97f1
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op zaterdag 3 januari organiseert Poldersuppers een gratis SUP
@@ -1038,12 +876,12 @@ DESCRIPTION:Op zaterdag 3 januari organiseert Poldersuppers een gratis SUP
  SUP board gestaan.Meld je aan via de contactgegevens op www.poldersuppers
  .nl
 DTEND:20260103T113000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260103T093000
 LOCATION:Binnenmaas
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Nieuwjaars SUP! (&dive?!)
-UID:085012e5-2eab-4210-a2bf-ddbeb78dee3c
+UID:fed4563c-131c-44b2-bcb9-e867bb07245a
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
@@ -1066,13 +904,13 @@ DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
  nismaken met digitale vaardigheden van de 21e eeuw\, heeft de Bibliotheek
   Hoeksche Waard een CoderDojo opgericht in de Hoeksche Waard.
 DTEND:20260103T130000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260103T110000
 LOCATION:Bibliotheek Oud-Beijerland Centrum\, Waterstal 1\, 3262 JR\, Oud-
  Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: (Leren) programmeren tijdens de CoderDojo
-UID:b536d195-1846-47f1-a64b-f840cc26c84b
+UID:1b061ea4-d6be-421e-b4a7-93ba1db693c5
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Mozaïekkunst van Ineke Stolk en sculpturen\, Cor-Ten staal obj
@@ -1107,30 +945,12 @@ DESCRIPTION:Mozaïekkunst van Ineke Stolk en sculpturen\, Cor-Ten staal obj
   blijft hij wel in opdracht werken. Bel voor openingstijden of een afspra
  ak: 0186 685 729
 DTEND:20260103T100000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260103T160000
 LOCATION:Buttervliet 1\, 3281 JH\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Expositie in het Numans-Dorps-huis
-UID:6a752647-1ee5-4874-b439-e1e4088f5162
-END:VEVENT
-BEGIN:VEVENT
-DESCRIPTION:Van 22 december t/m 4 januari is het kerstvakantie en dat bete
- kent extra veel gezelligheid bij Sportcentrum de Boogerd!De stormbaan lig
- t in het water\, dus kom lekker klimmen\, glijden en knallen. Ook hebben 
- we een feestelijke kerstvakantiedeal: entree Sportcentrum de Boogerd\, pa
- tatje met saus en frisdrank voor 13\,25 euro. Extra leuk: op woensdag 31 
- december ben je van harte welkom om te komen zwemmen mét 25% korting op j
- e entreeticket.Kom langs\, neem een duik en maak er een spetterende vakan
- tie van!
-DTEND:20260104T235900
-DTSTAMP:20251226T023339Z
-DTSTART;VALUE=DATE:20260104
-LOCATION:Hortensiastraat 5\, 3261 BG\, Oud-Beijerland
-SEQUENCE:0
-SUMMARY:Hoeksche Waard: Beleef een spetterende kerstvakantie bij Sportcent
- rum de Boogerd
-UID:97d4ba9c-7cfd-4e8a-8dc5-e026820ed733
+UID:975c4ecd-3467-4d31-8d49-d7d0215d0ca7
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Museum Hoeksche Waard opent tentoonstelling over varen\, visse
@@ -1151,13 +971,31 @@ DESCRIPTION:Museum Hoeksche Waard opent tentoonstelling over varen\, visse
  j.De expositie 'Tussen oever en overkant: varen\, vissen & veerdiensten' 
  is van 20 november tot en met 12 april 2026 te zien.
 DTEND:20260104T235900
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART;VALUE=DATE:20260104
 LOCATION:Dorpsstraat 13\, 3274BK\, Heinenoord
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Tentoonstelling over varen\, vissen en veerdienste
  n in de Hoeksche Waard
-UID:32d4d7f1-7029-4393-b4b9-70d058b38397
+UID:1e5296ba-b455-466a-9425-123962b20473
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Van 22 december t/m 4 januari is het kerstvakantie en dat bete
+ kent extra veel gezelligheid bij Sportcentrum de Boogerd!De stormbaan lig
+ t in het water\, dus kom lekker klimmen\, glijden en knallen. Ook hebben 
+ we een feestelijke kerstvakantiedeal: entree Sportcentrum de Boogerd\, pa
+ tatje met saus en frisdrank voor 13\,25 euro. Extra leuk: op woensdag 31 
+ december ben je van harte welkom om te komen zwemmen mét 25% korting op j
+ e entreeticket.Kom langs\, neem een duik en maak er een spetterende vakan
+ tie van!
+DTEND:20260104T235900
+DTSTAMP:20251227T023153Z
+DTSTART;VALUE=DATE:20260104
+LOCATION:Hortensiastraat 5\, 3261 BG\, Oud-Beijerland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Beleef een spetterende kerstvakantie bij Sportcent
+ rum de Boogerd
+UID:3689b7e0-dd74-4586-a81f-a90b2eb07570
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De natuur op Tiengemeten is adembenemend mooi en iedere dag we
@@ -1166,12 +1004,12 @@ DESCRIPTION:De natuur op Tiengemeten is adembenemend mooi en iedere dag we
  jner als even lekker uitwaaien in de natuur na de drukke feestdagen? Geni
  et van de rust en prachtige winter natuur.
 DTEND:20260104T140000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260104T111500
 LOCATION:Tiengemeten 14a\, 3284BE\, Zuid-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Nieuwjaars-wandeling met snert op Tiengemeten
-UID:466c48f5-7f39-49d5-9dbe-935bf797642b
+UID:3bd23bb3-1220-411a-8e2d-495ea7c30d23
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Mozaïekkunst van Ineke Stolk en sculpturen\, Cor-Ten staal obj
@@ -1206,12 +1044,39 @@ DESCRIPTION:Mozaïekkunst van Ineke Stolk en sculpturen\, Cor-Ten staal obj
   blijft hij wel in opdracht werken. Bel voor openingstijden of een afspra
  ak: 0186 685 729
 DTEND:20260104T100000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260104T160000
 LOCATION:Buttervliet 1\, 3281 JH\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Expositie in het Numans-Dorps-huis
-UID:9599a17b-76e5-44d8-a0ea-95374b2a49da
+UID:e64e9e65-0e2b-4b46-8bbb-9e160040957f
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Museum Hoeksche Waard opent tentoonstelling over varen\, visse
+ n en veerdiensten De Hoeksche Waard blijft een eiland\, ondanks een brug 
+ en twee tunnels. Toen die er nog niet waren kwam je zonder boot nergens. 
+ Onze voorouders maakten dan ook dankbaar gebruik van de vele veerdiensten
+  die voor de verbinding zorgden met de omringende eilanden.De nieuwe tent
+ oonstelling 'Tussen oever en overkant: varen\, vissen & veerdiensten' laa
+ t zien dat veerdiensten ook onmisbare schakels waren in de handels- en po
+ stroutes die over het eiland liepen. Varen over het water was in die tijd
+  vele malen comfortabeler dan rijden over het land met de postkoets.In de
+ ze tentoonstelling ligt de nadruk op de veerdiensten en visserij rondom h
+ et eiland. Het topstuk is de boerenschouw die enkele jaren geleden is gev
+ onden in Strijen. Boeren vervoerden met dit platte scheepje hun producten
+ \, koeien en melkbussen. Bij het onderhoud van de oevers en het uitbagger
+ en van sloten bewees de schouw ook zijn dienst. Na afloop van de tentoons
+ telling krijgt de schouw een plek in de vaste presentatie van de boerderi
+ j.De expositie 'Tussen oever en overkant: varen\, vissen & veerdiensten' 
+ is van 20 november tot en met 12 april 2026 te zien.
+DTEND:20260105T235900
+DTSTAMP:20251227T023153Z
+DTSTART;VALUE=DATE:20260105
+LOCATION:Dorpsstraat 13\, 3274BK\, Heinenoord
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Tentoonstelling over varen\, vissen en veerdienste
+ n in de Hoeksche Waard
+UID:9b208081-07a6-4df8-baeb-b1b7f834ffba
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Muziek op Schoot - WinterMuziek op Schoot gaat op 5 januari 20
@@ -1223,12 +1088,12 @@ DESCRIPTION:Muziek op Schoot - WinterMuziek op Schoot gaat op 5 januari 20
  n Oud-Beijerland. Alle informatie kunt u vinden op de website van Muzieks
  chool Hoeksche Waard: www.muziekschoolhoekschewaard.nl
 DTEND;VALUE=DATE:20260105
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260105T100000
 LOCATION:Lange Meet 31\, Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Muziek op Schoot
-UID:ad562ed7-fef1-4d73-9ca8-a5a9c5fffe87
+UID:9ec07aef-8aad-419c-b684-abff8c130cba
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
@@ -1239,23 +1104,63 @@ DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
  un je terecht bij Hermien Saarloos\, 06 15053444\, of kun je mailen naar 
  linda.vanderwal@welzijnhw.nl.
 DTEND:20260105T170000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260105T140000
 LOCATION:Huiskamer van de Wijk Wijkhuis\, Bernhardstraat 25\, 3281 BC\, Nu
  mansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Klaverjassen in de Huiskamer van Numansdorp
-UID:8c70a3ff-47dc-4339-b77e-0b665874fc74
+UID:17d1a84c-6c70-4e25-a344-a59ca7e028e8
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Mozaïekkunst van Ineke Stolk en sculpturen\, Cor-Ten staal obj
+ ecten en schilderijen van Jos Gielen te zien bij de expositie van 1 decem
+ ber 2025 t/m 2 maart 2026 in het Numans-Dorps-huis aan de Buttervliet 1 i
+ n NumansdorpIneke Stolk Schuurs uit Maasdam raakte gefascineerd door een 
+ mozaïek die ze bijna 20 jaar geleden op een kunstroute in Zeeland zag han
+ gen. Ze is zelf aan de slag gegaan met mozaïekwerk op kleine paneeltjes e
+ n gaandeweg werden deze steeds groter. Haar enthousiasme et de vele posit
+ ieve reacties op haar werk hebben haar gestimuleerd om zich verder te ver
+ diepen in deze creatieve vorm. Ze maakt voor haar werk eerst een tekening
+  voor de contouren op watervast multiplex. Daarna knipt ze de mozaïekstuk
+ jes met een mozaïektang uit tegels van 15x15 cm\, stukjes van kop en scho
+ tels en enig ander materiaal om de juiste kleur en vorm voor haar werk te
+  vinden. Deze worden op de plaat geplakt en gevoegd. De mozaïeken zijn ge
+ schikt om buiten te hangen\, alleen tegen vorst moeten ze wel worden besc
+ hermd. Ook maakt ze tafelbladen op aanvraag. Voor contact kunt u kijken o
+ p www.mozaiek-artistiek.nl.Jos Gielen is een veelzijdig kunstenaar. Hij m
+ aakt bronzen sculpturen\, Cor-Ten stalen schilderijen en objecten en schi
+ lderijen met acrylverf. Hij wordt geïnspireerd door de oudheid en Afrikaa
+ nse kunst\, maar ook door observaties van mensen en hun stemmingen in all
+ erlei situaties om hem heen. Hij geeft weer wat hij als kunstenaar ziet: 
+ mensen samen\, samenwerking\, groepen\, liefde\, zorg voor elkaar\, enz. 
+ Hij maakt gebruik van verschillende materialen en technieken. De ene keer
+  als schilderij\, de andere keer als beeld. Startpunt is altijd een eenvo
+ udige schets. Het ‘vertalen’ van 3d Cor-Ten stalen beelden in 2d was voor
+  hem een uitdaging\, evenals het gebruik van witte verf om het spel van l
+ icht en donker te vergroten. Zijn werk bestaat vaak uit gestileerde figur
+ en met aangezette contourlijnen en een steeds grotere rol voor de achterg
+ rond. Zijn bronzen beelden en schilderijen zijn met ingang van deze expos
+ itie met een hoge korting te koop. Hoewel hij minder zal gaan exposeren\,
+  blijft hij wel in opdracht werken. Bel voor openingstijden of een afspra
+ ak: 0186 685 729
+DTEND:20260105T100000
+DTSTAMP:20251227T023153Z
+DTSTART:20260105T160000
+LOCATION:Buttervliet 1\, 3281 JH\, Numansdorp
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Expositie in het Numans-Dorps-huis
+UID:09588b3d-c7ee-416c-8453-2afd425efbff
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke even week op vrijdag van 8.30 tot 10.30
 DTEND:20260109T235900
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART;VALUE=DATE:20260109
 LOCATION:Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Koffie en spelen Mini Wereld
-UID:af529a8f-3f75-4184-b45e-6bf15dd0e2dc
+UID:50db888e-3c00-4f7a-bd0a-418f6e767923
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Op 9 januari organiseren wij een lichtjesoptocht door het dorp
@@ -1263,12 +1168,12 @@ DESCRIPTION:Op 9 januari organiseren wij een lichtjesoptocht door het dorp
  rweg geniet je van muziek\, prachtige verlichting\, gezellige stops en ve
  rrassingen.De wandeling is geschikt voor jong en oud.
 DTEND:20260109T230000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260109T190000
 LOCATION:Kade 24\, 3265 AA\, Piershil
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Piershilse Winter Vibes Walk
-UID:db485d7b-27f1-435d-a727-be08962faa47
+UID:659db4b5-68e1-478a-b199-7597a918489e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
@@ -1291,13 +1196,13 @@ DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
  nismaken met digitale vaardigheden van de 21e eeuw\, heeft de Bibliotheek
   Hoeksche Waard een CoderDojo opgericht in de Hoeksche Waard.
 DTEND:20260110T130000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260110T110000
 LOCATION:Bibliotheek Oud-Beijerland Centrum\, Waterstal 1\, 3262 JR\, Oud-
  Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: (Leren) programmeren tijdens de CoderDojo
-UID:e4fc2fdb-f414-41de-bed0-bb26948aab97
+UID:a1b3605e-e7f4-4b54-b8d3-e8563d6b4ab1
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Een gezellig dag in Piershil met o.a. een ijsbaan\, een winter
@@ -1305,12 +1210,12 @@ DESCRIPTION:Een gezellig dag in Piershil met o.a. een ijsbaan\, een winter
  rtiesten. Daarnaast zijn er ook verschillende eettentjes.Kijk voor meer i
  nfo op www.oranjeverenigingpiershil.nl
 DTEND:20260110T230000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260110T140000
 LOCATION:Kade 24\, 3265 AA\, Piershil
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Piershilse Winter Vibes
-UID:032fa6ba-e9e6-4f31-83fe-2472d9a40e40
+UID:32ccd31c-1812-4489-8db8-8aa9c77adcdc
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Klaar voor een spetterende start van het nieuwe jaar? Trommel 
@@ -1320,12 +1225,12 @@ DESCRIPTION:Klaar voor een spetterende start van het nieuwe jaar? Trommel
  amen het nieuwe jaar in en beleef een avond vol plezier\, muziek en gezel
  ligheid!
 DTEND:20260110T210000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260110T183000
 LOCATION:Schenkeltje 7b\, 3295 KK\, 's-Gravendeel
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Discozwemmen
-UID:a9d13b61-99db-475d-a317-2fdc9958ae7a
+UID:e122539c-153c-42ec-bc12-5e0f507bf4d0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Het nieuwe jaar beginnen met een mooi concert en een gezellig 
@@ -1334,12 +1239,12 @@ DESCRIPTION:Het nieuwe jaar beginnen met een mooi concert en een gezellig
   after party met DJ Hugo. Natuurlijk kunnen ook de traditionele seuters n
  iet ontbreken.De toegang is gratis en de zaal gaat open om 19.15 uur.
 DTEND;VALUE=DATE:20260110
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260110T194500
 LOCATION:Puttershoek
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Nieuwjaarsconcert
-UID:e077a147-97e2-4c32-97fa-9ca631dc446d
+UID:b1329dd5-6d0e-4651-92af-18bac49bbd1e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
@@ -1350,13 +1255,13 @@ DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
  un je terecht bij Hermien Saarloos\, 06 15053444\, of kun je mailen naar 
  linda.vanderwal@welzijnhw.nl.
 DTEND:20260112T170000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260112T140000
 LOCATION:Huiskamer van de Wijk Wijkhuis\, Bernhardstraat 25\, 3281 BC\, Nu
  mansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Klaverjassen in de Huiskamer van Numansdorp
-UID:9e61bc10-6619-47a0-8cbb-ff4ff2224fbf
+UID:6c41e9c9-13af-448e-823c-7719f7560805
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Nieuw in de Hoeksche Waard:Outdoor hybride hyrox trainingen:- 
@@ -1367,12 +1272,12 @@ DESCRIPTION:Nieuw in de Hoeksche Waard:Outdoor hybride hyrox trainingen:-
  en kennismaken met ons\, volg 2 proeflessen:- vrijdag 2e kerstdag 11.00 -
  12.00 uur- dinsdagavond 13 januari 19:30-20:30 uur
 DTEND:20260113T203000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260113T193000
 LOCATION:Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Oudoor hybride trainingen (proefles)
-UID:ab9869e1-0e63-4343-9387-5a2608cf007e
+UID:defd4122-7a1f-4840-bb08-5f1f72016e43
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
@@ -1395,13 +1300,13 @@ DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
  nismaken met digitale vaardigheden van de 21e eeuw\, heeft de Bibliotheek
   Hoeksche Waard een CoderDojo opgericht in de Hoeksche Waard.
 DTEND:20260117T130000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260117T110000
 LOCATION:Bibliotheek Oud-Beijerland Centrum\, Waterstal 1\, 3262 JR\, Oud-
  Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: (Leren) programmeren tijdens de CoderDojo
-UID:5924b96f-b028-47f4-b7ad-abdfa61a35b4
+UID:c7db29e8-e648-4e59-8a11-6fc14b7e57b5
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Wat is er leuker dan met z’n allen muziek te maken voor gasten
@@ -1422,12 +1327,12 @@ DESCRIPTION:Wat is er leuker dan met z’n allen muziek te maken voor gasten
  s-dorps-huis! Lekker luisteren of voetjes van de vloer!Kijk op https://be
  llybuttonband.info/ voor meer informatie.
 DTEND:20260118T170000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260118T143000
 LOCATION:Buttervliet 1\, 3281 LK\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Belly Button Band
-UID:d95fec08-62f4-46a3-949d-63af7990ec33
+UID:afd925df-c1ae-4636-985d-d6681c5934d8
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
@@ -1438,13 +1343,13 @@ DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
  un je terecht bij Hermien Saarloos\, 06 15053444\, of kun je mailen naar 
  linda.vanderwal@welzijnhw.nl.
 DTEND:20260119T170000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260119T140000
 LOCATION:Huiskamer van de Wijk Wijkhuis\, Bernhardstraat 25\, 3281 BC\, Nu
  mansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Klaverjassen in de Huiskamer van Numansdorp
-UID:2183210c-2d48-482f-9bda-ee378e94ce58
+UID:1a48a74a-6431-441f-81e3-e2c77348be3b
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Ben je nieuwsgierig naar de natuur om je heen en wil je leren 
@@ -1462,22 +1367,22 @@ DESCRIPTION:Ben je nieuwsgierig naar de natuur om je heen en wil je leren
  data kunt\, ben je van harte welkom bij de bijeenkomsten die voor jou pas
  sen.We kijken uit naar je komst!
 DTEND;VALUE=DATE:20260120
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260120T200000
 LOCATION:Hoeksche Waard
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: HWL plantencursus voor nieuwsgierige beginners
-UID:808d6c93-c9ae-40a2-8b38-e8035081c196
+UID:cf4cab65-d696-4cc2-8abd-eb87604eb7e5
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke even week op vrijdag van 8.30 tot 10.30
 DTEND:20260123T235900
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART;VALUE=DATE:20260123
 LOCATION:Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Koffie en spelen Mini Wereld
-UID:ac11e2ff-ca08-4c21-bda7-bb87b70cf7bb
+UID:dae1a1c8-6588-44c9-abd7-9b84a689ecf4
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Vier het leven en kom genieten van het hart-openende en magisc
@@ -1489,12 +1394,12 @@ DESCRIPTION:Vier het leven en kom genieten van het hart-openende en magisc
   in Het Numans-Dorps-huis verzorgd door Remco van Mayacreativ.nl Kosten 5
  2\,80 bij vroegboeken
 DTEND:20260123T223000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260123T191500
 LOCATION:Numans-Dorps-huis\, Buttervliet 1\, 3281 LK\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Maya Cacao Ceremonie
-UID:56a48aa4-2615-4e0d-a673-22e15f9a4b15
+UID:f8181b12-54ee-460c-a9e4-bcd86745f107
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Bezoek het Winterfest op Tiengemeten. Er is tijdens dit evenem
@@ -1524,12 +1429,12 @@ DESCRIPTION:Bezoek het Winterfest op Tiengemeten. Er is tijdens dit evenem
  umenten. Je kaartje is inclusief de overtocht met de pont (heen en terug)
  .
 DTEND:20260124T160000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260124T100000
 LOCATION:Tiengemeten 14a\, 3284BE\, Zuid-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Winterfest op Tiengemeten
-UID:b1f14300-6c39-47cd-ab1f-2f996705a17b
+UID:597e34ac-0a4f-4b2c-a3ec-b630625b5fd2
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
@@ -1552,13 +1457,13 @@ DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
  nismaken met digitale vaardigheden van de 21e eeuw\, heeft de Bibliotheek
   Hoeksche Waard een CoderDojo opgericht in de Hoeksche Waard.
 DTEND:20260124T130000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260124T110000
 LOCATION:Bibliotheek Oud-Beijerland Centrum\, Waterstal 1\, 3262 JR\, Oud-
  Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: (Leren) programmeren tijdens de CoderDojo
-UID:d535a4d0-176a-45a7-a08f-4bce1c17d2fa
+UID:fead2828-80d5-4ab9-a606-b7a8c375c0ab
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Het welbekende Shantykoor Hoekse Waard geeft een concert in he
@@ -1566,12 +1471,12 @@ DESCRIPTION:Het welbekende Shantykoor Hoekse Waard geeft een concert in he
  duo Anita&Ed. Dus na de zeemansliederen is er nog zang\, gezelligheid en 
  dansen voor de liefhebbers.
 DTEND:20260124T220000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260124T200000
 LOCATION:Buttervliet 1\, 3281 LK\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Shantykoor Hoeksche Waard
-UID:22b1916f-b56f-4143-983e-7c8094f848f5
+UID:c2fbbc90-d3a5-4a64-9e7e-904437cd0d35
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:The Docters is een 4-mans band met een prettig in het gehoor l
@@ -1580,13 +1485,13 @@ DESCRIPTION:The Docters is een 4-mans band met een prettig in het gehoor l
   Queen\, Golden Earring\, The McCoys e.v.a. Zij brengen u muzikaal terug 
  in de tijd “Toen geluk heel gewoon was”
 DTEND:20260124T003000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260124T203000
 LOCATION:Fazant 3\, Maasdam
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: The Docters met muziek uit de gouden jaren 60\, 70
   en 80.
-UID:20af2f44-7194-4319-9051-d776e2479b30
+UID:6a6cdd1c-1e12-4f09-874f-77c527814377
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
@@ -1597,24 +1502,24 @@ DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
  un je terecht bij Hermien Saarloos\, 06 15053444\, of kun je mailen naar 
  linda.vanderwal@welzijnhw.nl.
 DTEND:20260126T170000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260126T140000
 LOCATION:Huiskamer van de Wijk Wijkhuis\, Bernhardstraat 25\, 3281 BC\, Nu
  mansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Klaverjassen in de Huiskamer van Numansdorp
-UID:1b0fd199-cba9-4188-aa72-e638fbfde652
+UID:43132101-e2ce-45a1-a43b-bf077fda9ae1
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Je speelt individueel en door middel van loting speel je 3 ron
  des met verschillende partners.
 DTEND:20260130T220000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260130T193000
 LOCATION:Buttervliet 1\, 3281 LK\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Klaverjasavond
-UID:b04ae413-e655-42b6-b4e5-b2a8574e050c
+UID:bd93a41b-4c37-43e1-9190-bec2f79e63b6
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
@@ -1637,13 +1542,13 @@ DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
  nismaken met digitale vaardigheden van de 21e eeuw\, heeft de Bibliotheek
   Hoeksche Waard een CoderDojo opgericht in de Hoeksche Waard.
 DTEND:20260131T130000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260131T110000
 LOCATION:Bibliotheek Oud-Beijerland Centrum\, Waterstal 1\, 3262 JR\, Oud-
  Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: (Leren) programmeren tijdens de CoderDojo
-UID:a9a420cd-7e71-43a4-93b9-53444c754a6f
+UID:e092055a-c7da-41b0-b763-81770eafdb73
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De mannen van Øde Aan De Haven brengen een ode aan hun favorie
@@ -1652,12 +1557,12 @@ DESCRIPTION:De mannen van Øde Aan De Haven brengen een ode aan hun favorie
  merse gevoel weer naar boven\, terwijl ze met Zo Stil en Harder Dan Ik He
  bben Kan ook de serieuze noot weten te raken.
 DTEND;VALUE=DATE:20260131
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260131T203000
 LOCATION:Buttervliet 1\, 3281 LK\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Tributeband Blof - Ode aan de Haven
-UID:3f8cbacf-b960-4918-80fd-149fc4546511
+UID:a0778e3f-58ef-4d46-9166-aa38b8b75efd
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
@@ -1668,23 +1573,23 @@ DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
  un je terecht bij Hermien Saarloos\, 06 15053444\, of kun je mailen naar 
  linda.vanderwal@welzijnhw.nl.
 DTEND:20260202T170000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260202T140000
 LOCATION:Huiskamer van de Wijk Wijkhuis\, Bernhardstraat 25\, 3281 BC\, Nu
  mansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Klaverjassen in de Huiskamer van Numansdorp
-UID:a0e77da2-47ed-49fb-bac1-9c5d21f214d3
+UID:4df5659a-b2e6-4f07-9962-07de719cbc81
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke even week op vrijdag van 8.30 tot 10.30
 DTEND:20260206T235900
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART;VALUE=DATE:20260206
 LOCATION:Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Koffie en spelen Mini Wereld
-UID:897108e1-a21b-435a-848a-71c4c2e323b1
+UID:7a2e24c1-dbd4-4b1f-9966-cbd8a8422d66
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Een Klankavond in Het Numans-Dorps-huis\, dat is lekker ontspa
@@ -1696,12 +1601,12 @@ DESCRIPTION:Een Klankavond in Het Numans-Dorps-huis\, dat is lekker ontspa
  a Creativ: 'Ik heb geleerd dat het lichaam luistert naar klanken die onze
   oren niet kunnen horen.'
 DTEND:20260206T210000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260206T193000
 LOCATION:Numans-Dorps-huis\, Buttervliet 1\, 3281 LK\, Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Klankavond
-UID:a312457b-2d52-469b-8f69-b0f78c3dd62e
+UID:48539530-ad53-4a5a-955c-428961710a9d
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
@@ -1724,13 +1629,13 @@ DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
  nismaken met digitale vaardigheden van de 21e eeuw\, heeft de Bibliotheek
   Hoeksche Waard een CoderDojo opgericht in de Hoeksche Waard.
 DTEND:20260207T130000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260207T110000
 LOCATION:Bibliotheek Oud-Beijerland Centrum\, Waterstal 1\, 3262 JR\, Oud-
  Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: (Leren) programmeren tijdens de CoderDojo
-UID:0e3142ba-cfff-4dd8-ad98-17c4044bb0e7
+UID:e075bbad-79d5-4c72-b6e4-cc8c53847445
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Crescendo in Concert biedt een fijne en muzikale avond uit voo
@@ -1745,12 +1650,12 @@ DESCRIPTION:Crescendo in Concert biedt een fijne en muzikale avond uit voo
  do twee muzikale gasten: musicalster Magtel de Laat en Voice of Holland f
  inaliste Patricia van Haastrecht.
 DTEND;VALUE=DATE:20260207
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260207T200000
 LOCATION:Numansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Crescendo in Concert
-UID:670fb194-cefa-4b81-bdf7-1e1f7b583d0a
+UID:c2be3bb7-6a99-4b28-b945-81bc6350d57f
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
@@ -1761,13 +1666,13 @@ DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
  un je terecht bij Hermien Saarloos\, 06 15053444\, of kun je mailen naar 
  linda.vanderwal@welzijnhw.nl.
 DTEND:20260209T170000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260209T140000
 LOCATION:Huiskamer van de Wijk Wijkhuis\, Bernhardstraat 25\, 3281 BC\, Nu
  mansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Klaverjassen in de Huiskamer van Numansdorp
-UID:13bb547f-3765-4f4a-a62a-10ce7d67c8fb
+UID:a15e4251-5bfa-4417-a298-655a5b688c92
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Ben je nieuwsgierig naar de natuur om je heen en wil je leren 
@@ -1785,12 +1690,12 @@ DESCRIPTION:Ben je nieuwsgierig naar de natuur om je heen en wil je leren
  data kunt\, ben je van harte welkom bij de bijeenkomsten die voor jou pas
  sen.We kijken uit naar je komst!
 DTEND:20260211T160000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260211T140000
 LOCATION:Hoeksche Waard
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: HWL plantencursus voor nieuwsgierige beginners
-UID:b01a0984-27da-41fb-9043-019c11405f69
+UID:c4ae41a1-f82f-42e8-967b-65115493b5ba
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
@@ -1813,13 +1718,13 @@ DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
  nismaken met digitale vaardigheden van de 21e eeuw\, heeft de Bibliotheek
   Hoeksche Waard een CoderDojo opgericht in de Hoeksche Waard.
 DTEND:20260214T130000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260214T110000
 LOCATION:Bibliotheek Oud-Beijerland Centrum\, Waterstal 1\, 3262 JR\, Oud-
  Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: (Leren) programmeren tijdens de CoderDojo
-UID:63ac021f-9bfb-4ff2-a58c-c8f6ba780a19
+UID:3866c527-c0eb-44f7-9264-3e214e23b862
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
@@ -1830,23 +1735,23 @@ DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
  un je terecht bij Hermien Saarloos\, 06 15053444\, of kun je mailen naar 
  linda.vanderwal@welzijnhw.nl.
 DTEND:20260216T170000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260216T140000
 LOCATION:Huiskamer van de Wijk Wijkhuis\, Bernhardstraat 25\, 3281 BC\, Nu
  mansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Klaverjassen in de Huiskamer van Numansdorp
-UID:7114d1b4-1d1e-428a-ae17-d4ea688cfb5b
+UID:7731e005-42e5-4613-b2da-7074391e368e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke even week op vrijdag van 8.30 tot 10.30
 DTEND:20260220T235900
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART;VALUE=DATE:20260220
 LOCATION:Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Koffie en spelen Mini Wereld
-UID:e01ba230-42ee-4d5f-9e3b-72c9f6dac4f1
+UID:853648c2-98ce-4ab8-acfa-201d7f19f744
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
@@ -1869,13 +1774,13 @@ DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
  nismaken met digitale vaardigheden van de 21e eeuw\, heeft de Bibliotheek
   Hoeksche Waard een CoderDojo opgericht in de Hoeksche Waard.
 DTEND:20260221T130000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260221T110000
 LOCATION:Bibliotheek Oud-Beijerland Centrum\, Waterstal 1\, 3262 JR\, Oud-
  Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: (Leren) programmeren tijdens de CoderDojo
-UID:ffbe2445-f221-4c7c-b8f3-bc795fb157eb
+UID:cb289327-d8b3-4c1a-80eb-19c883594c95
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
@@ -1886,13 +1791,13 @@ DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
  un je terecht bij Hermien Saarloos\, 06 15053444\, of kun je mailen naar 
  linda.vanderwal@welzijnhw.nl.
 DTEND:20260223T170000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260223T140000
 LOCATION:Huiskamer van de Wijk Wijkhuis\, Bernhardstraat 25\, 3281 BC\, Nu
  mansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Klaverjassen in de Huiskamer van Numansdorp
-UID:48c38a01-5071-43a8-8d61-adf1113e4c8d
+UID:8aa8a060-1766-4759-9a20-bf4ba58a093e
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
@@ -1915,13 +1820,13 @@ DESCRIPTION:De focus ligt op het (leren) programmeren en het ontmoeten van
  nismaken met digitale vaardigheden van de 21e eeuw\, heeft de Bibliotheek
   Hoeksche Waard een CoderDojo opgericht in de Hoeksche Waard.
 DTEND:20260228T130000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260228T110000
 LOCATION:Bibliotheek Oud-Beijerland Centrum\, Waterstal 1\, 3262 JR\, Oud-
  Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: (Leren) programmeren tijdens de CoderDojo
-UID:d6f7232b-5466-422f-9aaf-0ab0f52a4432
+UID:e306b643-7864-46fa-b148-1fc092e2f801
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
@@ -1932,23 +1837,23 @@ DESCRIPTION:Elke maandag speelt een gezellige groep mensen 3 potjes klaver
  un je terecht bij Hermien Saarloos\, 06 15053444\, of kun je mailen naar 
  linda.vanderwal@welzijnhw.nl.
 DTEND:20260302T170000
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260302T140000
 LOCATION:Huiskamer van de Wijk Wijkhuis\, Bernhardstraat 25\, 3281 BC\, Nu
  mansdorp
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Klaverjassen in de Huiskamer van Numansdorp
-UID:765fbf4f-f5e8-4000-8657-7e5fa6a6b06d
+UID:032e3206-0643-4960-91c4-8285f6a31564
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke even week op vrijdag van 8.30 tot 10.30
 DTEND:20260306T235900
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART;VALUE=DATE:20260306
 LOCATION:Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Koffie en spelen Mini Wereld
-UID:117a2a8f-8561-4de5-8678-4b82df2b6cf8
+UID:912964e2-a176-4485-bfe7-6e2d472622f5
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Ben je nieuwsgierig naar de natuur om je heen en wil je leren 
@@ -1966,42 +1871,42 @@ DESCRIPTION:Ben je nieuwsgierig naar de natuur om je heen en wil je leren
  data kunt\, ben je van harte welkom bij de bijeenkomsten die voor jou pas
  sen.We kijken uit naar je komst!
 DTEND;VALUE=DATE:20260319
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260319T200000
 LOCATION:Hoeksche Waard
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: HWL plantencursus voor nieuwsgierige beginners
-UID:9feb4655-af26-46c0-bdcf-88eef80da313
+UID:55018d5e-b482-4864-af4e-bc7fa68bb8ae
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke even week op vrijdag van 8.30 tot 10.30
 DTEND:20260320T235900
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART;VALUE=DATE:20260320
 LOCATION:Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Koffie en spelen Mini Wereld
-UID:4990b4d4-bc24-4449-8e69-1f311af8be04
+UID:8cc2dbe9-87e0-4840-a11d-c19383a91b06
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke even week op vrijdag van 8.30 tot 10.30
 DTEND:20260403T235900
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART;VALUE=DATE:20260403
 LOCATION:Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Koffie en spelen Mini Wereld
-UID:b0b5bfba-5076-4980-9eeb-7e21ad620da4
+UID:aa33bf5e-2c60-41f8-bb63-770f3d384320
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke even week op vrijdag van 8.30 tot 10.30
 DTEND:20260417T235900
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART;VALUE=DATE:20260417
 LOCATION:Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Koffie en spelen Mini Wereld
-UID:cf018397-5150-48ff-b7b9-91e0e0fea96b
+UID:1b2c9892-9d84-4dd3-96d5-fed6860fd9b0
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Volgend jaar is het feest en dat moet worden gevierd\; in 1901
@@ -2013,21 +1918,31 @@ DESCRIPTION:Volgend jaar is het feest en dat moet worden gevierd\; in 1901
  rten is begonnen en zijn te reserveren via concert@maasmuziek.nl en telef
  onisch: 078 6763017
 DTEND;VALUE=DATE:20260418
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART:20260418T194500
 LOCATION:Maasdam
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: MaasMuziek presents: Flowing through time
-UID:e3f6fe08-f203-40ac-b158-0b8769b5f057
+UID:0dbdf67c-46c9-4cfe-ba00-0458afc209aa
 END:VEVENT
 BEGIN:VEVENT
 DESCRIPTION:Elke even week op vrijdag van 8.30 tot 10.30
 DTEND:20260501T235900
-DTSTAMP:20251226T023339Z
+DTSTAMP:20251227T023153Z
 DTSTART;VALUE=DATE:20260501
 LOCATION:Oud-Beijerland
 SEQUENCE:0
 SUMMARY:Hoeksche Waard: Koffie en spelen Mini Wereld
-UID:fcb8cdd9-cbc8-45dc-9e3a-6b533dca211d
+UID:dc56347c-8585-48b0-90e0-36955340fa3c
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Elke even week op vrijdag van 8.30 tot 10.30
+DTEND:20260515T235900
+DTSTAMP:20251227T023153Z
+DTSTART;VALUE=DATE:20260515
+LOCATION:Oud-Beijerland
+SEQUENCE:0
+SUMMARY:Hoeksche Waard: Koffie en spelen Mini Wereld
+UID:250e75dc-0b93-486d-a6fc-660cef0a185f
 END:VEVENT
 END:VCALENDAR
