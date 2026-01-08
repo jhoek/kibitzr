@@ -1,0 +1,37 @@
+name: peaktraffic_pm
+
+on:
+    schedule:
+        - cron: "0 5 * * 1-5"
+    workflow_dispatch:
+
+jobs:
+    run:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Install required PowerShell modules
+              shell: pwsh
+              run: |
+                  Set-PSRepository PSGallery -InstallationPolicy Trusted
+                  Install-Module UncommonSense.Rws, UncommonSense.Pushover -Scope CurrentUser
+
+            - name: Send notification
+              shell: pwsh
+              env:
+                  PUSHOVER_APP_PEAKTRAFFIC: ${{secrets.PUSHOVER_APP_PEAKTRAFFIC}}
+                  PUSHOVER_USER_PEAKTRAFFIC: ${{secrets.PUSHOVER_USER_PEAKTRAFFIC}}
+              run: |
+                  $DutchCulture = Get-Culture 'nl-NL'
+
+                  Get-PeakExpectation
+                  | Where-Object Date -eq ([DateOnly]::FromDateTime([DateTime]::Now))
+                  | Where-Object DayPart -eq AM
+                  | ForEach-Object {
+                    Send-PushoverNotification `
+                      -ApplicationToken $env:PUSHOVER_APP_PEAKTRAFFIC `
+                      -Recipient $env:PUSHOVER_USER_PEAKTRAFFIC `
+                      -Message "$($_.Description)`n`n<i>$($_.SeverityExplanation)</i>" `
+                      -Title "$($_.DayPart -eq 'AM' ? 'Ochtendspits' : 'Avondspits') $($_.Date.ToString('dddd d MMMM', $DutchCulture)): $($_.Severity.ToLowerInvariant()) " `
+                      -Html
+                  }
