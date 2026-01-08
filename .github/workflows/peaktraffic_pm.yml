@@ -22,7 +22,7 @@ jobs:
                   PUSHOVER_APP_PEAKTRAFFIC: ${{secrets.PUSHOVER_APP_PEAKTRAFFIC}}
                   PUSHOVER_USER_PEAKTRAFFIC: ${{secrets.PUSHOVER_USER_PEAKTRAFFIC}}
               run: |
-                  Get-PeakTraffic
+                  Get-PeakExpectation
                   | Where-Object Date -eq [DateTime]::Now.Date
                   | Where-Object DayPart -eq PM
                   | ForEach-Object {
