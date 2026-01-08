@@ -30,6 +30,6 @@ jobs:
                       -ApplicationToken $env:PUSHOVER_APP_PEAKTRAFFIC `
                       -Recipient $env:PUSHOVER_USER_PEAKTRAFFIC `
                       -Message "$($_.Description)`n`n<i>$($_.SeverityExplanation)</i>" `
-                      -Title "$($_.Date -f 'dddd d MMMM') $($_.DayPart): $($_.Severity) " `
+                      -Title "$($_.Date.ToString('dddd d MMMM')) $($_.DayPart): $($_.Severity) " `
                       -Html
                   }
