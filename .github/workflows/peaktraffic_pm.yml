@@ -32,6 +32,6 @@ jobs:
                       -ApplicationToken $env:PUSHOVER_APP_PEAKTRAFFIC `
                       -Recipient $env:PUSHOVER_USER_PEAKTRAFFIC `
                       -Message "$($_.Description)`n`n<i>$($_.SeverityExplanation)</i>" `
-                      -Title "$($_.DayPart -eq 'AM' ? 'Ochtendspits' : 'Avondspits') $($_.Date.ToString('dddd d MMMM', $DutchCulture)): $($_.Severity) " `
+                      -Title "$($_.DayPart -eq 'AM' ? 'Ochtendspits' : 'Avondspits') $($_.Date.ToString('dddd d MMMM', $DutchCulture)): $($_.Severity.ToLowerInvariant()) " `
                       -Html
                   }
