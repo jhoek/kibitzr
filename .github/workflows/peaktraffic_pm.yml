@@ -22,6 +22,8 @@ jobs:
                   PUSHOVER_APP_PEAKTRAFFIC: ${{secrets.PUSHOVER_APP_PEAKTRAFFIC}}
                   PUSHOVER_USER_PEAKTRAFFIC: ${{secrets.PUSHOVER_USER_PEAKTRAFFIC}}
               run: |
+                  $DutchCulture = Get-Culture 'nl-NL'
+
                   Get-PeakExpectation
                   | Where-Object Date -eq ([DateOnly]::FromDateTime([DateTime]::Now))
                   | Where-Object DayPart -eq PM
@@ -30,6 +32,6 @@ jobs:
                       -ApplicationToken $env:PUSHOVER_APP_PEAKTRAFFIC `
                       -Recipient $env:PUSHOVER_USER_PEAKTRAFFIC `
                       -Message "$($_.Description)`n`n<i>$($_.SeverityExplanation)</i>" `
-                      -Title "$($_.Date.ToString('dddd d MMMM')) $($_.DayPart): $($_.Severity) " `
+                      -Title "$($_.DayPart -eq 'AM' ? 'Ochtendspits' : 'Avondspits') $($_.Date.ToString('dddd d MMMM', $DutchCulture)): $($_.Severity) " `
                       -Html
                   }
