@@ -29,6 +29,7 @@ jobs:
                     Send-PushoverNotification `
                       -ApplicationToken $env:PUSHOVER_APP_PEAKTRAFFIC `
                       -Recipient $env:PUSHOVER_USER_PEAKTRAFFIC `
-                      -Message "$($_.Description) $($_.SeverityExplanation)" `
-                      -Title "$($_.Date) $($_.DayPart): $($_.Severity) "
+                      -Message "$($_.Description)`n<i>$($_.SeverityExplanation)</i>" `
+                      -Title "$($_.Date) $($_.DayPart): $($_.Severity) " `
+                      -Html
                   }
