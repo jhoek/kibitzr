@@ -23,7 +23,7 @@ jobs:
                   PUSHOVER_USER_PEAKTRAFFIC: ${{secrets.PUSHOVER_USER_PEAKTRAFFIC}}
               run: |
                   Get-PeakExpectation
-                  | Where-Object Date -eq [DateOnly]::FromDateTime([DateTime]::Now )
+                  | Where-Object Date -eq ([DateOnly]::FromDateTime([DateTime]::Now))
                   | Where-Object DayPart -eq PM
                   | ForEach-Object {
                     Send-PushoverNotification `
