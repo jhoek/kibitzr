@@ -1,0 +1,39 @@
+name: triviaquiz
+
+on:
+    schedule:
+        - cron: "0 7 * * *"
+    workflow_dispatch:
+
+jobs:
+    run:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Install required PowerShell modules
+              shell: pwsh
+              run: |
+                  Set-PSRepository PSGallery -InstallationPolicy Trusted
+                  Install-Module UncommonSense.OpenTriviaDatabase, UncommonSense.Pushover -Scope CurrentUser
+
+            - name: Send notification
+              shell: pwsh
+              env:
+                  PUSHOVER_APP_TRIVIAQUIZ: ${{secrets.PUSHOVER_APP_TRIVIAQUIZ}}
+                  PUSHOVER_USER_TRIVIAQUIZ: ${{secrets.PUSHOVER_USER_TRIVIAQUIZ}}
+              run: |
+                  Get-TriviaQuestion -Count 1
+                  | ForEach-Object {
+                    Send-PushoverNotification `
+                      -ApplicationToken $env:PUSHOVER_APP_TRIVIAQUIZ `
+                      -Recipient $env:PUSHOVER_USER_TRIVIAQUIZ `
+                      -Message $_.ShuffledAnswers `
+                      -Title $_.Question
+
+                    Send-PushoverNotification `
+                      -ApplicationToken $env:PUSHOVER_APP_TRIVIAQUIZ `
+                      -Recipient $env:PUSHOVER_USER_TRIVIAQUIZ `
+                      -Message $_.CorrectAnswer `
+                      -Title $_.Question
+                      -Priority Lowest
+                  }
