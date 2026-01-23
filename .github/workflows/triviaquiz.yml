@@ -27,13 +27,15 @@ jobs:
                     Send-PushoverNotification `
                       -ApplicationToken $env:PUSHOVER_APP_TRIVIAQUIZ `
                       -Recipient $env:PUSHOVER_USER_TRIVIAQUIZ `
-                      -Message $_.ShuffledAnswers `
-                      -Title $_.Question
+                      -Message ($_.ShuffledAnswers | ForEach-Object {"- $($_)"} | Join-String -Separator "`n") `
+                      -Title $_.Question;
+
+                    Start-Sleep -Second 20;
 
                     Send-PushoverNotification `
                       -ApplicationToken $env:PUSHOVER_APP_TRIVIAQUIZ `
                       -Recipient $env:PUSHOVER_USER_TRIVIAQUIZ `
                       -Message $_.CorrectAnswer `
-                      -Title $_.Question
+                      -Title $_.Question `
                       -Priority Lowest
                   }
