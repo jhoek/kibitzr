@@ -30,7 +30,7 @@ jobs:
                       -Message ($_.ShuffledAnswers | ForEach-Object {"- $($_)"} | Join-String -Separator "`n") `
                       -Title $_.Question;
 
-                    Start-Sleep -Second 20;
+                    Start-Sleep -Second 10;
 
                     Send-PushoverNotification `
                       -ApplicationToken $env:PUSHOVER_APP_TRIVIAQUIZ `
