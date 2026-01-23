@@ -37,5 +37,5 @@ jobs:
                       -Recipient $env:PUSHOVER_USER_TRIVIAQUIZ `
                       -Message $_.CorrectAnswer `
                       -Title $_.Question `
-                      -Priority Lowest
+                      -Priority Low
                   }
