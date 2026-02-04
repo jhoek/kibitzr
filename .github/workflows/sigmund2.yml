@@ -25,8 +25,8 @@ jobs:
                   PUSHOVER_APP_SIGMUND: ${{secrets.PUSHOVER_APP_SIGMUND}}
                   PUSHOVER_USER_SIGMUND: ${{secrets.PUSHOVER_USER_SIGMUND}}
               run: |
-                  Get-Sigmund
-                  | Where-Object Date -eq (Get-Date)
+                  UncommonSense.Sigmund\Get-Sigmund
+                  | Where-Object Date -eq (Get-Date).Date
                   | ForEach-Object {
                     Send-PushoverNotification `
                       -ApplicationToken $env:PUSHOVER_APP_SIGMUND `
