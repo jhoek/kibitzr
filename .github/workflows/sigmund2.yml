@@ -5,7 +5,7 @@ on:
     #   branches:
     #     - master
     schedule:
-        - cron: "15 6 * * 1-6"
+        - cron: "15 6 * * 1-5"
     workflow_dispatch:
 
 jobs:
@@ -17,7 +17,7 @@ jobs:
               shell: pwsh
               run: |
                   Set-PSRepository PSGallery -InstallationPolicy Trusted
-                  Install-Module UncommonSense.Hap, UncommonSense.Volkskrant, UncommonSense.Pushover -Scope CurrentUser -Force
+                  Install-Module UncommonSense.Sigmund, UncommonSense.Pushover -Scope CurrentUser -Force
 
             - name: Send notification
               shell: pwsh
@@ -26,7 +26,7 @@ jobs:
                   PUSHOVER_USER_SIGMUND: ${{secrets.PUSHOVER_USER_SIGMUND}}
               run: |
                   Get-Sigmund
-                  | Select-Object -Skip 1 -First 1
+                  | Where-Object Date -eq (Get-Date)
                   | ForEach-Object {
                     Send-PushoverNotification `
                       -ApplicationToken $env:PUSHOVER_APP_SIGMUND `
