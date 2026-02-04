@@ -31,6 +31,6 @@ jobs:
                     Send-PushoverNotification `
                       -ApplicationToken $env:PUSHOVER_APP_SIGMUND `
                       -Recipient $env:PUSHOVER_USER_SIGMUND `
-                      -Message $_.Body `
-                      -Html
+                      -Attachment $_.Url `
+                      -Message ($_.Date).ToString('dddd d MMM yyyy')
                   }
