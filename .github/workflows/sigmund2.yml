@@ -31,5 +31,6 @@ jobs:
                     Send-PushoverNotification `
                       -ApplicationToken $env:PUSHOVER_APP_SIGMUND `
                       -Recipient $env:PUSHOVER_USER_SIGMUND `
-                      -Message $_.Body
+                      -Message $_.Body `
+                      -Html
                   }
