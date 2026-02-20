@@ -23,7 +23,7 @@ jobs:
               run: |
                   Get-Picl
                   | ForEach-Object {
-                    $ThingsUrl = "things:///add?title=$([uri]::EscapeDataString($_.Title))&list=picl.nl&when=anytime"
+                    $ThingsUrl = "things:///add?title=$([uri]::EscapeDataString($_.Title))&list=picl.nl&when=anytime&deadline=$($_.AvailableUntil.ToString('yyyy-MM-dd'))&notes=$([uri]::EscapeDataString($_.Url))"
 
                     New-RssFeedItem `
                       -ID $_.Url `
