@@ -23,10 +23,12 @@ jobs:
               run: |
                   Get-Picl
                   | ForEach-Object {
+                    $ThingsUrl = "things:///add?title=$([uri]::EscapeDataString($_.Title))&list=picl.nl&when=anytime"
+
                     New-RssFeedItem `
                       -ID $_.Url `
                       -Title $_.Title `
-                      -Description ((($_.Synopsis, "<img src='$($_.ImageUrl)'/>", $_.Description, $_.Availability, "$($_.Genre)/$($_.Country)/$($_.Language)", "<a href='things:///add?title=$([uri]::EscapeDataString($_.Title))'>Zien!</a>") | Foreach-Object { "<p>$($_)</p>" }) -join "`n") `
+                      -Description ((($_.Synopsis, "<img src='$($_.ImageUrl)'/>", $_.Description, $_.Availability, "$($_.Genre)/$($_.Country)/$($_.Language)", "<a href='$ThingsUrl'>Zien!</a>") | Foreach-Object { "<p>$($_)</p>" }) -join "`n") `
                       -PubDate (Get-Date) }
                   | New-RssFeed `
                     -Title 'Picl' `
