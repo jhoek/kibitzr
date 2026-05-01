@@ -44,6 +44,7 @@
 [![jipvandentoorn](https://github.com/jhoek/kibitzr/actions/workflows/jipvandentoorn.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/jipvandentoorn.yml)
 [![kamagurka](https://github.com/jhoek/kibitzr/actions/workflows/kamagurka.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/kamagurka.yml)
 [![kamagurka2](https://github.com/jhoek/kibitzr/actions/workflows/kamagurka2.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/kamagurka2.yml)
+[![lenmunnik](https://github.com/jhoek/kibitzr/actions/workflows/lenmunnik.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/lenmunnik.yml)
 [![levennadedood](https://github.com/jhoek/kibitzr/actions/workflows/levennadedood.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/levennadedood.yml)
 [![marcelvanroosmalen](https://github.com/jhoek/kibitzr/actions/workflows/marcelvanroosmalen.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/marcelvanroosmalen.yml)
 [![meegeven](https://github.com/jhoek/kibitzr/actions/workflows/meegeven.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/meegeven.yml)
