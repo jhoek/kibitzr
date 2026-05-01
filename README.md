@@ -68,7 +68,6 @@
 [![spijt](https://github.com/jhoek/kibitzr/actions/workflows/spijt.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/spijt.yml)
 [![spitsuur](https://github.com/jhoek/kibitzr/actions/workflows/spitsuur.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/spitsuur.yml)
 [![sportserviceveenendaal](https://github.com/jhoek/kibitzr/actions/workflows/sportserviceveenendaal.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/sportserviceveenendaal.yml)
-[![spotprent](https://github.com/jhoek/kibitzr/actions/workflows/spotprent.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/spotprent.yml)
 [![stinejensen](https://github.com/jhoek/kibitzr/actions/workflows/stinejensen.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/stinejensen.yml)
 [![sylviawitteman](https://github.com/jhoek/kibitzr/actions/workflows/sylviawitteman.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/sylviawitteman.yml)
 [![teletekst](https://github.com/jhoek/kibitzr/actions/workflows/teletekst.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/teletekst.yml)
