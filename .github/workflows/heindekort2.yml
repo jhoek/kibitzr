@@ -2,7 +2,7 @@ name: heindekort2
 
 on:
     schedule:
-        - cron: "45 6 * * 1-6"
+        - cron: "45 4 * * 1-6"
     workflow_dispatch:
 
 jobs:
