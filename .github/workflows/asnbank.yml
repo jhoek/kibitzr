@@ -41,7 +41,7 @@ jobs:
               run: |
                   Get-ChildItem -Path $env:DataFolderName
                   | Sort-Object Name -Descending
-                  | Select-Object -Skip 3
+                  | Select-Object -Skip 5
                   | Remove-Item -Force
 
             - name: Send Pushover notification
