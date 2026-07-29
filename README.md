@@ -47,7 +47,6 @@
 [![meegeven](https://github.com/jhoek/kibitzr/actions/workflows/meegeven.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/meegeven.yml)
 [![meenemenofhieropeten](https://github.com/jhoek/kibitzr/actions/workflows/meenemenofhieropeten.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/meenemenofhieropeten.yml)
 [![meesman](https://github.com/jhoek/kibitzr/actions/workflows/meesman.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/meesman.yml)
-[![meewind](https://github.com/jhoek/kibitzr/actions/workflows/meewind.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/meewind.yml)
 [![mijnouders](https://github.com/jhoek/kibitzr/actions/workflows/mijnouders.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/mijnouders.yml)
 [![npo](https://github.com/jhoek/kibitzr/actions/workflows/npo.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/npo.yml)
 [![npoluister](https://github.com/jhoek/kibitzr/actions/workflows/npoluister.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/npoluister.yml)
