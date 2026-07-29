@@ -7,7 +7,6 @@
 [![bertkeizer](https://github.com/jhoek/kibitzr/actions/workflows/bertkeizer.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/bertkeizer.yml)
 [![boekuitdekast](https://github.com/jhoek/kibitzr/actions/workflows/boekuitdekast.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/boekuitdekast.yml)
 [![brugopen](https://github.com/jhoek/kibitzr/actions/workflows/brugopen.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/brugopen.yml)
-[![calvinandhobbes](https://github.com/jhoek/kibitzr/actions/workflows/calvinandhobbes.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/calvinandhobbes.yml)
 [![corinekoole](https://github.com/jhoek/kibitzr/actions/workflows/corinekoole.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/corinekoole.yml)
 [![dadjoke](https://github.com/jhoek/kibitzr/actions/workflows/dadjoke.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/dadjoke.yml)
 [![debedrijfskantine](https://github.com/jhoek/kibitzr/actions/workflows/debedrijfskantine.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/debedrijfskantine.yml)
