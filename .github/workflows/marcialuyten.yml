@@ -1,11 +1,8 @@
-name: dirkjan
+name: marcialuyten
 
 on:
-    # push:
-    #   branches:
-    #     - master
     schedule:
-        - cron: "15 5 * * 1"
+        - cron: "30 6 * * 6"
     workflow_dispatch:
 
 jobs:
@@ -19,26 +16,24 @@ jobs:
               shell: pwsh
               run: |
                   Set-PSRepository PSGallery -InstallationPolicy Trusted
-                  Install-Module UncommonSense.Dirkjan, UncommonSense.Rss -Scope CurrentUser -Force
+                  Install-Module UncommonSense.Hap, UncommonSense.Volkskrant, UncommonSense.Rss -Scope CurrentUser -Force
 
-            - name: Update feed
+            - name: Get Recent data
               shell: pwsh
               run: |
-                  Import-Module UncommonSense.Dirkjan
-
-                  Get-DirkJan
+                  Get-MarciaLuyten
                   | Select-Object -First 10
                   | ForEach-Object {
                     New-RssFeedItem `
                       -ID $_.Url `
                       -Title $_.Title `
-                      -Description "<img src='$($_.Body)'/>" `
+                      -Description (($_.Body | ForEach-Object { $_.Trim()} | Where-Object {$_} | ForEach-Object { "<p>$($_)</p>"}) -join "`n") `
                       -PubDate $_.Date }
                   | New-RssFeed `
-                    -Title 'Dirkjan' `
-                    -Link 'https://dirkjan.nl' `
-                    -Description 'Dirkjan'
-                  | Set-Content -Path ./data/dirkjan.xml
+                    -Title 'Marcia Luyten' `
+                    -Link 'https://www.volkskrant.nl/auteur/marcia-luyten' `
+                    -Description 'Marcia Luyten'
+                  | Set-Content -Path ./data/marcialuyten.xml
 
             - name: Commit and push feed
               shell: bash
