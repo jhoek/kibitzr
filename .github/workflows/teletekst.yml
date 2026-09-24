@@ -1,37 +1,38 @@
 name: teletekst
 
 on:
-  schedule:
-    - cron: "0 3 * * *"
-  workflow_dispatch:
+    schedule:
+        - cron: "0 3 * * *"
+    workflow_dispatch:
 
 jobs:
-  run:
-    runs-on: ubuntu-latest
+    run:
+        runs-on: ubuntu-latest
 
-    steps:
-      - name: Install required PowerShell modules
-        shell: pwsh
-        run: |
-          Set-PSRepository PSGallery -InstallationPolicy Trusted
-          Install-Module UncommonSense.Hap, UncommonSense.Teletekst, UncommonSense.Pushover -Scope CurrentUser
+        steps:
+            - name: Install required PowerShell modules
+              shell: pwsh
+              run: |
+                  Set-PSRepository PSGallery -InstallationPolicy Trusted
+                  Install-Module UncommonSense.Hap, UncommonSense.Teletekst, UncommonSense.Pushover -Scope CurrentUser
 
-      - name: Send notification
-        shell: pwsh
-        env:
-          PUSHOVER_APP_TELETEKST: ${{secrets.PUSHOVER_APP_TELETEKST}}
-          PUSHOVER_USER_JUSTME: ${{secrets.PUSHOVER_USER_JUSTME}}
-        run: |
-          'Domestic', 'Foreign'
-          | ForEach-Object {
-              Get-TeletekstNews -Type $_
-              | Where-Object { $_.Content }
-              | ForEach-Object {
-                Send-PushoverNotification `
-                  -ApplicationToken $env:PUSHOVER_APP_TELETEKST `
-                  -Recipient $env:PUSHOVER_USER_JUSTME `
-                  -Message $_.Content `
-                  -Title $_.Title `
-                  -SupplementaryUrl $_.Link
-              }
-          }
+            - name: Send notification
+              shell: pwsh
+              env:
+                  PUSHOVER_APP_TELETEKST: ${{secrets.PUSHOVER_APP_TELETEKST}}
+                  PUSHOVER_USER_JUSTME: ${{secrets.PUSHOVER_USER_JUSTME}}
+              run: |
+                  'Domestic', 'Foreign'
+                  | ForEach-Object {
+                      Get-TeletekstNews -Type $_
+                      | Where-Object { $_.Content }
+                      | ForEach-Object {
+                        Send-PushoverNotification `
+                          -ApplicationToken $env:PUSHOVER_APP_TELETEKST `
+                          -Recipient $env:PUSHOVER_USER_JUSTME `
+                          -Message $_.Content `
+                          -Title $_.Title `
+                          -TimeToLive 86400
+                          -SupplementaryUrl $_.Link
+                      }
+                  }
