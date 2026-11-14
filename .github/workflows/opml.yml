@@ -2,6 +2,9 @@ name: opml
 
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - data/**  
 
 jobs:
   run:
