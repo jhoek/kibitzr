@@ -10,7 +10,6 @@
 [![dolfjansen](https://github.com/jhoek/kibitzr/actions/workflows/dolfjansen.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/dolfjansen.yml)
 [![durftevragen](https://github.com/jhoek/kibitzr/actions/workflows/durftevragen.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/durftevragen.yml)
 [![ellendeckwitz](https://github.com/jhoek/kibitzr/actions/workflows/ellendeckwitz.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/ellendeckwitz.yml)
-[![feliennehermans](https://github.com/jhoek/kibitzr/actions/workflows/feliennehermans.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/feliennehermans.yml)
 [![floorrusman](https://github.com/jhoek/kibitzr/actions/workflows/floorrusman.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/floorrusman.yml)
 [![fokkeobbema](https://github.com/jhoek/kibitzr/actions/workflows/fokkeobbema.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/fokkeobbema.yml)
 [![fokkesukke](https://github.com/jhoek/kibitzr/actions/workflows/fokkesukke.yml/badge.svg)](https://github.com/jhoek/kibitzr/actions/workflows/fokkesukke.yml)
